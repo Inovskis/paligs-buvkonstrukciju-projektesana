@@ -1,3 +1,3 @@
-# 01-ipasibas
+## STIPRĪBAS KLASES ATBILSTOŠI EN 338
 
-Saturs tiek sagatavots.
+![Attēls](images/ch10/img097.png)

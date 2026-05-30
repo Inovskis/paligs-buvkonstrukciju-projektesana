@@ -1,3 +1,1 @@
-# Labā prakse rasējumu noformēšanā
-
-Saturs tiek sagatavots.
+# LABĀ PRAKSE RASĒJUMU NOFORMĒŠANĀ

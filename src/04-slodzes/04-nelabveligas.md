@@ -1,3 +1,5 @@
-# 04-nelabveligas
+## NELABVĒLĪGĀKĀS SLODZES NOTEIKŠANA
 
-Saturs tiek sagatavots.
+Vairāklaidumu sistēmā tradicionāli:
+
+![Attēls](images/ch04/img008.png)

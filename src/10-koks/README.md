@@ -1,3 +1,1 @@
-# Koka konstrukcijas
-
-Saturs tiek sagatavots.
+# KOKA KONSTRUKCIJAS

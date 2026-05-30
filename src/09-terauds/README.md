@@ -1,3 +1,1 @@
-# Tērauda konstrukcijas
-
-Saturs tiek sagatavots.
+# TĒRAUDA KONSTRUKCIJAS

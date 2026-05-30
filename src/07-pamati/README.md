@@ -1,3 +1,1 @@
-# Pamati un pamatne
-
-Saturs tiek sagatavots.
+# PAMATI UN PAMATNE
