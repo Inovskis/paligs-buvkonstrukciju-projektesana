@@ -22,27 +22,46 @@
 Stiprība mālainām gruntīm atkarībā no to konsistences (avots: Look 2007)
 
 
-| Apraksts | q<sub>u</sub> (kN / m<sup>2</sup>), Unconfined compression strength | Aptuvenā pretestība zondei q<sub>c</sub>, MPa |
-| --- | --- | --- |
-| Ļoti mīksts māls / Very soft | 0 - 24 | < 0.20 |
-| Mīksts māls / Soft | 24 - 48 | 0.20 – 0.40 |
-| Vidēji mīksts māls / Medium | 48 - 96 | 0.40 – 0.90 |
-| Sīksts māls / Stiff | 96 – 192 | 0.90 – 2.00 |
-| Ļoti sīksts māls / Very Stiff | 192 – 383 | 2.00 – 4.20 |
-| Ciets māls | > 383 | > 4.20 |
+<table>
+<colgroup>
+  <col style="width:55%">
+  <col style="width:25%">
+  <col style="width:20%">
+</colgroup>
+<thead>
+<tr><th>Apraksts</th><th>q<sub>u</sub> (kN / m<sup>2</sup>), Unconfined compression strength</th><th>Aptuvenā pretestība zondei q<sub>c</sub>, MPa</th></tr>
+</thead>
+<tbody>
+<tr><td>Ļoti mīksts māls / Very soft</td><td>0 - 24</td><td>&lt; 0.20</td></tr>
+<tr><td>Mīksts māls / Soft</td><td>24 - 48</td><td>0.20 – 0.40</td></tr>
+<tr><td>Vidēji mīksts māls / Medium</td><td>48 - 96</td><td>0.40 – 0.90</td></tr>
+<tr><td>Sīksts māls / Stiff</td><td>96 – 192</td><td>0.90 – 2.00</td></tr>
+<tr><td>Ļoti sīksts māls / Very Stiff</td><td>192 – 383</td><td>2.00 – 4.20</td></tr>
+<tr><td>Ciets māls</td><td>&gt; 383</td><td>&gt; 4.20</td></tr>
+</tbody>
+</table>
 
 Nedrenētās bīdes stiprība parasti nosakāma pēc sakarības: S<sub>u</sub> = C<sub>u</sub> = q<sub>u</sub> / 2
 
 Klinšainu grunšu apraksts un atbilstošais RQD (Rock Quality Designation) rādītājs
 
 
-| Klinšainās grunts apraksts, masas kvalitāte | RQD rādītājs |
-| --- | --- |
-| Lieliska / Exelent | 90 - 100 |
-| Laba / Good | 75 - 90 |
-| Vidēja / Fair | 50 – 75 |
-| Zema / Poor | 25 – 50 |
-| Ļoti zema / Very Poor | < 25 |
+<table>
+<colgroup>
+  <col style="width:70%">
+  <col style="width:30%">
+</colgroup>
+<thead>
+<tr><th>Klinšainās grunts apraksts, masas kvalitāte</th><th>RQD rādītājs</th></tr>
+</thead>
+<tbody>
+<tr><td>Lieliska / Exelent</td><td>90 - 100</td></tr>
+<tr><td>Laba / Good</td><td>75 - 90</td></tr>
+<tr><td>Vidēja / Fair</td><td>50 – 75</td></tr>
+<tr><td>Zema / Poor</td><td>25 – 50</td></tr>
+<tr><td>Ļoti zema / Very Poor</td><td>&lt; 25</td></tr>
+</tbody>
+</table>
 
 RQD rādītājs tiek izmantots atsevišķos pāļu aprēķinos, piemēram, pēc Tomlinson.
 

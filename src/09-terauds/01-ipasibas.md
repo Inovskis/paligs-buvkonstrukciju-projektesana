@@ -21,11 +21,22 @@ Blīvums ρ = 7850 kG·m<sup>-3</sup>.
 Korozivitātes klases
 
 
-| Apzīmējums pēc ISO 12944 | Ietekme | Vides piemēru apraksts, ja tā ir iekštelpās. | Vides piemēru apraksts, ja tā ir ārtelpā. |
-| --- | --- | --- | --- |
-| C1 | Ļoti zema | Akurināmās ēkaš ar tīru gaisu, piemēram, biroji, veikali, skolas, viesnīcas, un tamlīdzīgi. | Nav. |
-| C2 | Zema | Neapkurināmās ēkās, kur var notikt mitruma kondensēšanās, piemēram, noliktavas, neapkurināmas sporta halles. | Atmosfēra ar mazu piesārņojumu piemēram lauku apgabali. |
-| C3 | Vidēja | Ražošanas ēkas ar augstu mitruma līmeni un nelielu gaisa piesārņojumu, piemēram, pārtikas ražošanas cehi, alus brūži, veļas mazgātavas. | Pilsētas un industriālās teritorijas, teritorijas ar vidēju sēra dioksīda piesārņojumu. Piekrastes teritorijas ar zemu sāls saturu atmosfērā. |
-| C4 | Augsta | Ķīmiskās industrijas ražotnes, peldbaseini, kuģu piestātnes. | Industriālās teritorijas un piekrastes teritorijas ar vidēju sāls iedarbi. |
-| C5-I | Ļoti augsta – industriāla | Ēkas ar pastāvīgu mitruma kondensēšanos un augstu gaisa piesārņojumu. | Industriālās teritorijas ar augstu gaisa mitrumu un agesīvu atmosfēru. |
-| C5-M | Ļoti augsta | Ēkas ar pastāvīgu mitruma kondensēšanos un augstu gaisa piesārņojumu. | Piekrastes zonas un jūras platformas ar augstu sāls saturu atmosfērā. |
+<table>
+<colgroup>
+  <col style="width:8%">
+  <col style="width:12%">
+  <col style="width:40%">
+  <col style="width:40%">
+</colgroup>
+<thead>
+<tr><th>Apzīmējums pēc ISO 12944</th><th>Ietekme</th><th>Vides piemēru apraksts, ja tā ir iekštelpās.</th><th>Vides piemēru apraksts, ja tā ir ārtelpā.</th></tr>
+</thead>
+<tbody>
+<tr><td>C1</td><td>Ļoti zema</td><td>Apkurināmās ēkās ar tīru gaisu, piemēram, biroji, veikali, skolas, viesnīcas, un tamlīdzīgi.</td><td>Nav.</td></tr>
+<tr><td>C2</td><td>Zema</td><td>Neapkurināmās ēkās, kur var notikt mitruma kondensēšanās, piemēram, noliktavas, neapkurināmas sporta halles.</td><td>Atmosfēra ar mazu piesārņojumu piemēram lauku apgabali.</td></tr>
+<tr><td>C3</td><td>Vidēja</td><td>Ražošanas ēkas ar augstu mitruma līmeni un nelielu gaisa piesārņojumu, piemēram, pārtikas ražošanas cehi, alus brūži, veļas mazgātavas.</td><td>Pilsētas un industriālās teritorijas, teritorijas ar vidēju sēra dioksīda piesārņojumu. Piekrastes teritorijas ar zemu sāls saturu atmosfērā.</td></tr>
+<tr><td>C4</td><td>Augsta</td><td>Ķīmiskās industrijas ražotnes, peldbaseini, kuģu piestātnes.</td><td>Industriālās teritorijas un piekrastes teritorijas ar vidēju sāls iedarbi.</td></tr>
+<tr><td>C5-I</td><td>Ļoti augsta – industriāla</td><td>Ēkas ar pastāvīgu mitruma kondensēšanos un augstu gaisa piesārņojumu.</td><td>Industriālās teritorijas ar augstu gaisa mitrumu un agresīvu atmosfēru.</td></tr>
+<tr><td>C5-M</td><td>Ļoti augsta</td><td>Ēkas ar pastāvīgu mitruma kondensēšanos un augstu gaisa piesārņojumu.</td><td>Piekrastes zonas un jūras platformas ar augstu sāls saturu atmosfērā.</td></tr>
+</tbody>
+</table>

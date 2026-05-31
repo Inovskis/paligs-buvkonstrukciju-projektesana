@@ -41,11 +41,21 @@ Minimāli pieļaujamās prasības, kas ir nodrošināmas 2. un 3. grupas būvēm
 ## SEKU KLASES
 
 
-| Seku klase | Apraksts | Ēku un inženierbūvju piemēri |
-| --- | --- | --- |
-| CC3 | Smagas sekas attiecībā uz cilvēku dzīvību zaudēšanu, ar ļoti liekām ekonomiskām, sociālām un apkārtējās vides sekām. | Publiskās ēkas kuru sabrukšanas sekas ir smagas. Pieskaitāmas arī ēkas, kas uzskaitītas CC2a un CC2b, bet tām ir lielāka stāvu platība vai stāvu skaits. Visas publiskās ēkas, kurās nav cilvēku skaita ierobežojuma. Stadioni, kuros ir vairāk par 5 000 skatītāju vietu. Ēkas, kurās ir bīstamas vielas vai procesi. |
-| CC2 | Vidējas sekas attiecībā uz cilvēku dzīvību zaudēšanu, ar ievērojamām ekonomiskām, sociālām un apkārtējās vides sekām. Pēc LVS EN 1991-1-7 izdala divas apakšklases: CC2a CC2b | Dzīvojamās un biroju ēkas, publiskās ēkas, kuru sabrukšanas sekas ir vidējas. Privātmājas ar 5 stāviem. Viesnīcas ar ne vairāk kā 4 stāviem. Dzīvojamās ēkas ar ne vairāk kā 4 stāviem. Biroja ēkas ar ne vairāk kā 4 stāviem. Industriālās ēkas ar ne vairāk kā 3 stāviem. Mazumtirdzniecības ēkas ar ne vairāk kā 3 stāviem un katra stāva platību ne lielāku par 1 000 m<sup>2</sup>. Vienstāva izglītības iestādes. Publiskas ēkas ar ne vairāk kā 2 stāviem un katra stāva platību ne lielāku par 2 000 m<sup>2</sup>. Viesnīcas un dzīvojamās mājas ar stāvu skaitu lielāku par 4 un nepārsniedz 15 stāvus. Izglītības iestādes ar stāvu skaitu lielāku par 1 un nepārsniedz 15 stāvus. Mazumtirdzniecības ēkas ar stāvu skaitu lielāku par 3 un nepārsniedz 15 stāvus. Slimnīcas ar stāvu skaitu ne vairāk kā 3. Biroja ēkas ar stāvu skaitu lielāku par 4 un nepārsniedz 15 stāvus. Publiskas ēkas, kurās stāva platība ir robežās no 2 000 m<sup>2</sup> līdz 5 000 m<sup>2</sup>. Auto stāvvietas ar ne vairāk kā 6 stāviem. |
-| CC1 | Vieglas sekas ar mazu vērā neņemamu risku cilvēka dzīvībai, ar vieglām ekonomiskām, sociālām un apkārtējās vies sekām. | Lauksaimniecības ēkas, kur parasti cilvēki neiet, piemēram, noliktavas un siltumnīcas, ja tās neatrodas tuvāk par 1.5 ēkas augstumiem līdz blakus ēkām vai zonām, kur uzturas cilvēki. Pēc LVS EN 1991-1-7 pie šīs klases var pieskaitīt arī privātmājas ar ne vairāk kā 4 stāviem. |
+<table>
+<colgroup>
+  <col style="width:8%">
+  <col style="width:37%">
+  <col style="width:55%">
+</colgroup>
+<thead>
+<tr><th>Seku klase</th><th>Apraksts</th><th>Ēku un inženierbūvju piemēri</th></tr>
+</thead>
+<tbody>
+<tr><td>CC3</td><td>Smagas sekas attiecībā uz cilvēku dzīvību zaudēšanu, ar ļoti liekām ekonomiskām, sociālām un apkārtējās vides sekām.</td><td>Publiskās ēkas kuru sabrukšanas sekas ir smagas. Pieskaitāmas arī ēkas, kas uzskaitītas CC2a un CC2b, bet tām ir lielāka stāvu platība vai stāvu skaits. Visas publiskās ēkas, kurās nav cilvēku skaita ierobežojuma. Stadioni, kuros ir vairāk par 5 000 skatītāju vietu. Ēkas, kurās ir bīstamas vielas vai procesi.</td></tr>
+<tr><td>CC2</td><td>Vidējas sekas attiecībā uz cilvēku dzīvību zaudēšanu, ar ievērojamām ekonomiskām, sociālām un apkārtējās vides sekām. Pēc LVS EN 1991-1-7 izdala divas apakšklases: CC2a CC2b</td><td>Dzīvojamās un biroju ēkas, publiskās ēkas, kuru sabrukšanas sekas ir vidējas. Privātmājas ar 5 stāviem. Viesnīcas ar ne vairāk kā 4 stāviem. Dzīvojamās ēkas ar ne vairāk kā 4 stāviem. Biroja ēkas ar ne vairāk kā 4 stāviem. Industriālās ēkas ar ne vairāk kā 3 stāviem. Mazumtirdzniecības ēkas ar ne vairāk kā 3 stāviem un katra stāva platību ne lielāku par 1 000 m<sup>2</sup>. Vienstāva izglītības iestādes. Publiskas ēkas ar ne vairāk kā 2 stāviem un katra stāva platību ne lielāku par 2 000 m<sup>2</sup>. Viesnīcas un dzīvojamās mājas ar stāvu skaitu lielāku par 4 un nepārsniedz 15 stāvus. Izglītības iestādes ar stāvu skaitu lielāku par 1 un nepārsniedz 15 stāvus. Mazumtirdzniecības ēkas ar stāvu skaitu lielāku par 3 un nepārsniedz 15 stāvus. Slimnīcas ar stāvu skaitu ne vairāk kā 3. Biroja ēkas ar stāvu skaitu lielāku par 4 un nepārsniedz 15 stāvus. Publiskas ēkas, kurās stāva platība ir robežās no 2 000 m<sup>2</sup> līdz 5 000 m<sup>2</sup>. Auto stāvvietas ar ne vairāk kā 6 stāviem.</td></tr>
+<tr><td>CC1</td><td>Vieglas sekas ar mazu vērā neņemamu risku cilvēka dzīvībai, ar vieglām ekonomiskām, sociālām un apkārtējās vies sekām.</td><td>Lauksaimniecības ēkas, kur parasti cilvēki neiet, piemēram, noliktavas un siltumnīcas, ja tās neatrodas tuvāk par 1.5 ēkas augstumiem līdz blakus ēkām vai zonām, kur uzturas cilvēki. Pēc LVS EN 1991-1-7 pie šīs klases var pieskaitīt arī privātmājas ar ne vairāk kā 4 stāviem.</td></tr>
+</tbody>
+</table>
 
 
 ## DROŠĪBAS KLASES
@@ -64,11 +74,21 @@ Minimāli pieļaujamās prasības, kas ir nodrošināmas 2. un 3. grupas būvēm
 Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klasei. Latvijā noteikts, ka obligāta trešās puses ekspertīze ir III grupas būvēm, atbilstoši šīm ēkām projektēšanas kontroles līmenis ir DSL3. Pārējiem līmeņiem Latvijas normatīvie akti nenosaka prasības prasības projektēšanas kontrolei.
 
 
-| Projektēšanas kontroles klase | Kontroles raksturs | Minimālās rekomendētās prasības aprēķinu, rasējumu un tehnisko specifikāciju kontrolei |
-| --- | --- | --- |
-| DSL3 | Izvērsta kontrole | Kontrole, ko veic trešā puse – ekspertīze |
-| DSL2 | Parasta kontrole | Kontrole, kas tiek veikta projektēšanas organizācijas iekšienē. Veic speciālists, kurš nav piedalījies konkrētā projekta izstrādē. |
-| DSL1 | Parasta kontrole | Paškontrole. Veic speciālists, kas izstrādājis konkrēto projektu |
+<table>
+<colgroup>
+  <col style="width:10%">
+  <col style="width:20%">
+  <col style="width:70%">
+</colgroup>
+<thead>
+<tr><th>Projektēšanas kontroles klase</th><th>Kontroles raksturs</th><th>Minimālās rekomendētās prasības aprēķinu, rasējumu un tehnisko specifikāciju kontrolei</th></tr>
+</thead>
+<tbody>
+<tr><td>DSL3</td><td>Izvērsta kontrole</td><td>Kontrole, ko veic trešā puse – ekspertīze</td></tr>
+<tr><td>DSL2</td><td>Parasta kontrole</td><td>Kontrole, kas tiek veikta projektēšanas organizācijas iekšienē. Veic speciālists, kurš nav piedalījies konkrētā projekta izstrādē.</td></tr>
+<tr><td>DSL1</td><td>Parasta kontrole</td><td>Paškontrole. Veic speciālists, kas izstrādājis konkrēto projektu</td></tr>
+</tbody>
+</table>
 
 
 ## BŪVDARBU UZRAUDZĪBAS LĪMEŅI
@@ -76,22 +96,42 @@ Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klas
 Tabula pēc LVS EN 1990 B pielikuma
 
 
-| Inspekcijas līmeņi | Skaidrojums | Minimālās rekomendētās prasības aprēķinu, rasējumu un tehnisko specifikāciju kontrolei |
-| --- | --- | --- |
-| IL 3 (augsts) | Paplašināta inspekcija | Trīskārša inspekcija (piesaistot akreditētas laboratorijas un / vai speciālistus) |
-| IL 2 (vidējs) | Normāla inspekcija | Inspekcija, saskaņā ar būvorganizācijas kvalitātes procedūrām |
-| IL 1 (zems) | Normāla inspekcija | Pašinspekcija |
+<table>
+<colgroup>
+  <col style="width:15%">
+  <col style="width:20%">
+  <col style="width:65%">
+</colgroup>
+<thead>
+<tr><th>Inspekcijas līmeņi</th><th>Skaidrojums</th><th>Minimālās rekomendētās prasības aprēķinu, rasējumu un tehnisko specifikāciju kontrolei</th></tr>
+</thead>
+<tbody>
+<tr><td>IL 3 (augsts)</td><td>Paplašināta inspekcija</td><td>Trīskārša inspekcija (piesaistot akreditētas laboratorijas un / vai speciālistus)</td></tr>
+<tr><td>IL 2 (vidējs)</td><td>Normāla inspekcija</td><td>Inspekcija, saskaņā ar būvorganizācijas kvalitātes procedūrām</td></tr>
+<tr><td>IL 1 (zems)</td><td>Normāla inspekcija</td><td>Pašinspekcija</td></tr>
+</tbody>
+</table>
 
 
 ## EKSPLUATĀCIJAS ILGUMA KATEGORIJAS
 
 
-| Projektētā kategorija | Paredzamais ekspluatācijas ilgums (gados) | Piemēri |
-| --- | --- | --- |
-| 1 | 10 | Pagaidu konstrukcijas |
-| 2 | no 10 līdz 25 | Aizvietojamas būvkonstrukciju daļas, piemēram, celtņa sijas, balsti |
-| 3 | no 15 līdz 30 | Lauksaimniecības un citas līdzīgas būvkonstrukcijas |
-| 4 | 50 | Ēku un citas parastas būvkonstrukcijas |
-| 5 | 100 | Monumentālu ēku konstrukcijas, tilti u.c. inženierbūvju konstrukcijas |
+<table>
+<colgroup>
+  <col style="width:10%">
+  <col style="width:20%">
+  <col style="width:70%">
+</colgroup>
+<thead>
+<tr><th>Projektētā kategorija</th><th>Paredzamais ekspluatācijas ilgums (gados)</th><th>Piemēri</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>10</td><td>Pagaidu konstrukcijas</td></tr>
+<tr><td>2</td><td>no 10 līdz 25</td><td>Aizvietojamas būvkonstrukciju daļas, piemēram, celtņa sijas, balsti</td></tr>
+<tr><td>3</td><td>no 15 līdz 30</td><td>Lauksaimniecības un citas līdzīgas būvkonstrukcijas</td></tr>
+<tr><td>4</td><td>50</td><td>Ēku un citas parastas būvkonstrukcijas</td></tr>
+<tr><td>5</td><td>100</td><td>Monumentālu ēku konstrukcijas, tilti u.c. inženierbūvju konstrukcijas</td></tr>
+</tbody>
+</table>
 
 Ja nav norādīts atsevišķi vienmēr lietot kategoriju S4 (paredzamais ekspluatācijas ilgums 50 gadi).

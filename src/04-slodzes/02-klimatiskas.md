@@ -63,10 +63,20 @@ Ar jūras piekrastes zonu ir jāsaprot 25 km plata zona gar Baltijas jūras kras
 Ilustrēti piemēri apvidus kategorijas izvēlei
 
 
-| Apvidus kategorija | Apraksts | Ilustratīvs piemērs |
-| --- | --- | --- |
-| 0 | Jūra un atklātas jūras iedarbei pakļauta piekrastes teritorija |  |
-| I | Ezeri vai teritorijas ar nenozīmīgu veģitāciju un bez šķēršļiem |  |
-| II | Teritorija ar zemu veģetāciju, kā, piemēram, zāli un atsevišķi stāvošiem šķēršļiem (kokiem, ēkām), kas viens no otra atrodas vismaz 20 šķēršļa augstuma attālumā. |  |
-| III | Teritorija ar regulāru veģetāciju vai ēkām, vai arī atsevišķi stāvošiem šķēršļiem, kuri viens no otra atrodas ne vairāk kā 20 šķēršļu augstumu attālumā, piemēram, ciemati, priekšpilsētas, pastāvīgs mežs. |  |
-| IV | Teritorija, kurā vismaz 15% no virsmas ir apbūvēta ar būvēm, kuru vidējais augstums pārsniedz 15 m. |  |
+<table>
+<colgroup>
+  <col style="width:10%">
+  <col style="width:70%">
+  <col style="width:20%">
+</colgroup>
+<thead>
+<tr><th>Apvidus kategorija</th><th>Apraksts</th><th>Ilustratīvs piemērs</th></tr>
+</thead>
+<tbody>
+<tr><td>0</td><td>Jūra un atklātas jūras iedarbei pakļauta piekrastes teritorija</td><td></td></tr>
+<tr><td>I</td><td>Ezeri vai teritorijas ar nenozīmīgu veģitāciju un bez šķēršļiem</td><td></td></tr>
+<tr><td>II</td><td>Teritorija ar zemu veģetāciju, kā, piemēram, zāli un atsevišķi stāvošiem šķēršļiem (kokiem, ēkām), kas viens no otra atrodas vismaz 20 šķēršļa augstuma attālumā.</td><td></td></tr>
+<tr><td>III</td><td>Teritorija ar regulāru veģetāciju vai ēkām, vai arī atsevišķi stāvošiem šķēršļiem, kuri viens no otra atrodas ne vairāk kā 20 šķēršļu augstumu attālumā, piemēram, ciemati, priekšpilsētas, pastāvīgs mežs.</td><td></td></tr>
+<tr><td>IV</td><td>Teritorija, kurā vismaz 15% no virsmas ir apbūvēta ar būvēm, kuru vidējais augstums pārsniedz 15 m.</td><td></td></tr>
+</tbody>
+</table>

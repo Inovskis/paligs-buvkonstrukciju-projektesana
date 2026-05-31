@@ -8,12 +8,22 @@ Deformāciju robežvērtība no kvazipastāvīgās slodžu kombinācijas, kas no
 ## PLAISU PLATUMU ROBEŽVĒRTĪBAS
 
 
-| Iedarbības klase | Stiegroti elementi un priekšspriegoti elementi ar spriegrojamā stiegrojuma elementiem bez saistes | Priekšspriegroti elemeti ar spriegrojamā stiegrojuma elementiem ar saisti |
-| --- | --- | --- |
-| X0, XC1 | 0.4<sup>1</sup> | 0.2 |
-| XC2, XC3, XC4 | 0.3 | 0.2<sup>2</sup> |
-| XD1, XD2, XD3, XS1, XS2, XS3 | 0.3 | Spiediena pazemināšana |
-| piezīme. X0 un XC1 vides iedarbības klasēm plaisu platumam nav ietekme uz ilgizturību un dotais robežplatums ir noteikts, lai vairumā gadījumu notrošinātu pieļaujamo ārējo izskatu. Gadījumā, kad nav ārējā izskata nosacījuu, var samazināt prasības šim robežplatumam. piezīme. Šīm iedarbības klasēm papildus ir jāpārbauda spiediena pazemināšana pie kvazi-pastāvīgās slodžu kombinācijas. | piezīme. X0 un XC1 vides iedarbības klasēm plaisu platumam nav ietekme uz ilgizturību un dotais robežplatums ir noteikts, lai vairumā gadījumu notrošinātu pieļaujamo ārējo izskatu. Gadījumā, kad nav ārējā izskata nosacījuu, var samazināt prasības šim robežplatumam. piezīme. Šīm iedarbības klasēm papildus ir jāpārbauda spiediena pazemināšana pie kvazi-pastāvīgās slodžu kombinācijas. | piezīme. X0 un XC1 vides iedarbības klasēm plaisu platumam nav ietekme uz ilgizturību un dotais robežplatums ir noteikts, lai vairumā gadījumu notrošinātu pieļaujamo ārējo izskatu. Gadījumā, kad nav ārējā izskata nosacījuu, var samazināt prasības šim robežplatumam. piezīme. Šīm iedarbības klasēm papildus ir jāpārbauda spiediena pazemināšana pie kvazi-pastāvīgās slodžu kombinācijas. |
+<table>
+<colgroup>
+  <col style="width:25%">
+  <col style="width:40%">
+  <col style="width:35%">
+</colgroup>
+<thead>
+<tr><th>Iedarbības klase</th><th>Stiegroti elementi un priekšspriegoti elementi ar spriegrojamā stiegrojuma elementiem bez saistes</th><th>Priekšspriegroti elemeti ar spriegrojamā stiegrojuma elementiem ar saisti</th></tr>
+</thead>
+<tbody>
+<tr><td>X0, XC1</td><td>0.4<sup>1</sup></td><td>0.2</td></tr>
+<tr><td>XC2, XC3, XC4</td><td>0.3</td><td>0.2<sup>2</sup></td></tr>
+<tr><td>XD1, XD2, XD3, XS1, XS2, XS3</td><td>0.3</td><td>Spiediena pazemināšana</td></tr>
+<tr><td colspan="3"><sup>1</sup> piezīme. X0 un XC1 vides iedarbības klasēm plaisu platumam nav ietekme uz ilgizturību un dotais robežplatums ir noteikts, lai vairumā gadījumu nodrošinātu pieļaujamo ārējo izskatu. Gadījumā, kad nav ārējā izskata nosacījumu, var samazināt prasības šim robežplatumam.<br><sup>2</sup> piezīme. Šīm iedarbības klasēm papildus ir jāpārbauda spiediena pazemināšana pie kvazi-pastāvīgās slodžu kombinācijas.</td></tr>
+</tbody>
+</table>
 
 Pievērst uzmanību, ka saspriegtie elementi ir pārbaudāmi pēc biežāk sastopamās slodzes kombinācijas nevis kvazipastāvīgās slodzes kombinācijas. Šis bieži tiek ignorēts.
 

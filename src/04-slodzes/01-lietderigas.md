@@ -98,26 +98,40 @@ Kategorijām no A līdz E ir iespējams veikt slodžu samazināšanu ievērtējo
 Kategorijām<sub> </sub>C un D α<sub>A</sub>≥ 0.60.
 
 
-## REKOMENDĒJAMĀS PARCIĀLO FAKTORU VĒRTĪBAS
+## Rekomendējamās parciālo faktoru vērtības
 
-Kombinē tikai tās slodzes, kas var realizēties vienlaicīgi.
+Kombinē tikai tās slodzes, kas var realizēties vienlaicīgi. Kombinējot slodzes jāievērtē tabulā dotās rekomendēto parciālo koeficientu vērtības.
 
-Kombinējot slodzes jāievērtē tabulā dotās rekomendēto parciālo koeficientu vērtības.
-
-
-| Iedarbe | Ψ<sub>0</sub> | Ψ<sub>1</sub> | Ψ<sub>2</sub> |
-| --- | --- | --- | --- |
-| Lietderīgās slodzes ēkās | Lietderīgās slodzes ēkās | Lietderīgās slodzes ēkās | Lietderīgās slodzes ēkās |
-| A kategorija: mājsaimniecības un dzīvojamās telpas (platības) | 0.7 | 0.5 | 0.3 |
-| B kategorija: biroju telpas | 0.7 | 0.5 | 0.3 |
-| C kategorija: pulcēšanās telpas | 0.7 | 0.7 | 0.6 |
-| D kategorija: tirdzniecības telpas | 0.7 | 0.7 | 0.6 |
-| E kategorija: noliktavu telpas | 1.0 | 0.9 | 0.8 |
-| F kategorija: platības transportlīdzekļu kustībai ar svaru ≤30 kN | 0.7 | 0.7 | 0.6 |
-| G kategorija: platības transportlīdzekļu kustībai ar svaru virs 30 kN un zem 150 kN | 0.7 | 0.5 | 0.3 |
-| H kategorija: jumti (var pielietot vērtības arī dažādiem apkalpes tiltiņiem) | 0.0 | 0.0 | 0.0 |
-| Sniega slodzes uz ēkām | Sniega slodzes uz ēkām | Sniega slodzes uz ēkām | Sniega slodzes uz ēkām |
-| Ziemeļvalstis un Centrāleiropas valstis ar H≥1000 m (Ar NA piemērots arī Latvijā) | 0.7 | 0.5 | 0.2 |
-| Centrāleiropas valstis ar H<1000 m | 0.5 | 0.2 | 0.0 |
-| Vēja slodzes uz ēkām | 0.6 | 0.2 | 0.0 |
-| Temperatūra, bet ne ugunsgrēka gadījumā | 0.6 | 0.5 | 0.0 |
+<table>
+<colgroup>
+  <col style="width:70%">
+  <col style="width:10%">
+  <col style="width:10%">
+  <col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+  <th>Iedarbe</th>
+  <th>Ψ<sub>0</sub></th>
+  <th>Ψ<sub>1</sub></th>
+  <th>Ψ<sub>2</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="4"><strong>Lietderīgās slodzes ēkās</strong></td></tr>
+<tr><td>A kategorija: mājsaimniecības un dzīvojamās telpas</td><td>0,7</td><td>0,5</td><td>0,3</td></tr>
+<tr><td>B kategorija: biroju telpas</td><td>0,7</td><td>0,5</td><td>0,3</td></tr>
+<tr><td>C kategorija: pulcēšanās telpas</td><td>0,7</td><td>0,7</td><td>0,6</td></tr>
+<tr><td>D kategorija: tirdzniecības telpas</td><td>0,7</td><td>0,7</td><td>0,6</td></tr>
+<tr><td>E kategorija: noliktavu telpas</td><td>1,0</td><td>0,9</td><td>0,8</td></tr>
+<tr><td>F kategorija: transportlīdzekļu kustība, svars ≤ 30 kN</td><td>0,7</td><td>0,7</td><td>0,6</td></tr>
+<tr><td>G kategorija: transportlīdzekļu kustība, svars 30–150 kN</td><td>0,7</td><td>0,5</td><td>0,3</td></tr>
+<tr><td>H kategorija: jumti (arī apkalpošanas tiltiņi)</td><td>0,0</td><td>0,0</td><td>0,0</td></tr>
+<tr><td colspan="4"><strong>Sniega slodzes uz ēkām</strong></td></tr>
+<tr><td>Ziemeļvalstis un Centrāleiropa ar H ≥ 1000 m (piemērots arī Latvijā)</td><td>0,7</td><td>0,5</td><td>0,2</td></tr>
+<tr><td>Centrāleiropa ar H &lt; 1000 m</td><td>0,5</td><td>0,2</td><td>0,0</td></tr>
+<tr><td colspan="4"><strong>Citas slodzes</strong></td></tr>
+<tr><td>Vēja slodzes uz ēkām</td><td>0,6</td><td>0,2</td><td>0,0</td></tr>
+<tr><td>Temperatūra (ne ugunsgrēka gadījumā)</td><td>0,6</td><td>0,5</td><td>0,0</td></tr>
+</tbody>
+</table>
