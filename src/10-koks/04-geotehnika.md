@@ -4,4 +4,10 @@ Rekomendējamie attālumi starp izpētes punktiem
 
 EN 1997-2 B.3 informatīvā pielikuma fragments
 
-![Attēls](../images/ch10/img103.png)
+Pēc EN 1997-2 B.3 informatīvā pielikuma rekomendācijām izpētes punktu izvietojumam jāievēro:
+
+- **Augstceltnes un rūpnieciskās ēkas** — punktu tīkls ar atstarpēm **15 līdz 40 m**
+- **Lielas platības** — punktu tīkls ar atstarpēm ne vairāk kā **60 m**
+- **Lineāras konstrukcijas** (ceļi, dzelzceļi, cauruļvadi, dambji, atbalstsienas) — izpētes punkti ik **20 līdz 200 m** gar trasi
+- **Atsevišķi objekti** (tilti, mašīnas, troses balsti) — vismaz **3 izpētes punkti**; dambji un aizsprosti — vismaz **6 punkti** vienam pamatam
+- **Dambji un aizsprostu pamati** — punkti ik **25 līdz 75 m** gar asi ar šķērsprofiliem
