@@ -50,4 +50,9 @@ Betona virsmu klasifikācija
 
 Klasificēšana pēc LVS EN 1992-1-1 6.2.5 (2)
 
-![Attēls](../images/ch08/img041.png)
+Gadījumā, kad nav detalizētākas informācijas, virsmas var klasificēt kā ļoti gludas, gludas, nelīdzenas vai robotas (periodiska profila) ar šādiem piemēriem:
+
+- **Ļoti gluda** (c = 0,025–0,10; μ = 0,5) — virsma, kas izlieta tērauda, plastmasas vai speciāli sagatavotos koka veidņos.
+- **Gluda** (c = 0,20; μ = 0,6) — ar slīdošiem veidņiem betonēta vai extrudēta (presēta) virsma, vai brīvi stāvoša virsma, kas pēc vibrēšanas atstāta bez tālākas apstrādes.
+- **Nelīdzena** (c = 0,40; μ = 0,7) — virsma ar vismaz 3 mm nelīdzenumiem ar apmēram 40 mm atstarpi, kas iegūta ar liešanu, ar atsegtām pildījuma daļiņām vai kādu citu metodi, kas dod ekvivalentas īpašības.
+- **Robota** (periodiska profila) (c = 0,50; μ = 0,9) — virsma ar ierobēm, kas atbilst 6.9. attēlam.

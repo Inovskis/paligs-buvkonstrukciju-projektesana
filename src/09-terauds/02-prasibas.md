@@ -4,42 +4,102 @@ Tērauda konstrukciju projektēšanā un izgatavošanā piemērojamas papildu pr
 
 Izbūves klases ar atbilstošu konstrukciju piemēriem
 
-![Attēls](../images/ch09/img069.png)
+**EXC1** — Nesošas konstrukcijas no tērauda līdz stiprības klasei S275; ēkas līdz 2 stāviem (4 stāvi, ja atsevišķi stāv); lieces sijas līdz 5 m; izvirzījuma sijas līdz 2 m; kāpnes un margās dzīvojamās ēkās; lauksaimniecības ēkas.
+
+**EXC2** — Nesošas konstrukcijas no tērauda līdz stiprības klasei S700; ēkas no 2 līdz 15 stāviem.
+
+**EXC3** — Nesošas konstrukcijas no tērauda līdz stiprības klasei S700; montāžas/stadioni ar lielu platības jumta konstrukcijām; ēkas virs 15 stāviem; gājēju, velosipēdu, autoceļu un dzelzceļa tilti; krānu sliedes.
+
+**EXC4** — Tilti (auto un dzelzceļa) virs blīvi apdzīvotām vietām vai rūpnieciskiem uzņēmumiem ar augstu riska potenciālu; drošības tvertnes atomelektrostacijās.
 
 Izbūves klases noteikšanas matrica
 
-![Attēls](../images/ch09/img070.png)
+<table>
+<colgroup><col style="width:22%"><col style="width:10%"><col style="width:17%"><col style="width:17%"><col style="width:17%"><col style="width:17%"></colgroup>
+<thead>
+<tr><th>Seku klase</th><th></th><th colspan="2">CC1</th><th colspan="2">CC2</th><th colspan="2">CC3</th></tr>
+<tr><th>Izmantošanas klase</th><th></th><th>SC1</th><th>SC2</th><th>SC1</th><th>SC2</th><th>SC1</th><th>SC2</th></tr>
+</thead>
+<tbody>
+<tr><td rowspan="2">Ražošanas klase</td><td>PC1</td><td>EXC1</td><td>EXC2</td><td>EXC2</td><td>EXC3</td><td>EXC3</td><td>EXC3</td></tr>
+<tr><td>PC2</td><td>EXC2</td><td>EXC2</td><td>EXC2</td><td>EXC3</td><td>EXC3</td><td>EXC4</td></tr>
+</tbody>
+</table>
 
 Ekspluatācijas kategorijas ar piemēriem
 
-![Attēls](../images/ch09/img071.png)
+| Kategorija | Kritēriji |
+|---|---|
+| SC1 | Konstrukcijas un elementi, kas projektēti tikai kvazistatiskām iedarbēm, piemēram, ēkas |
+| SC2 | Konstrukcijas un elementi, kas projektēti noguruma iedarbēm pēc EN 1993, piemēram, tilti, vai kas atrodas rajonos ar vidēju/augstu seismisko aktivitāti |
 
 Izgatavošanas kategorijas
 
-![Attēls](../images/ch09/img072.png)
+| Kategorija | Kritēriji |
+|---|---|
+| PC1 | Nemetinātie komponenti vai metinātie komponenti no tērauda klasēm zemākām par S355 |
+| PC2 | Metinātie komponenti no tērauda klasēm S355 un augstākām |
 
 Vides korozivitātes kategorijas (klases)
 
 Kategoriju norādīt paskaidrojuma rakstā.
 
-![Attēls](../images/ch09/img073.png)
+Pēc ISO 12944-2 atmosfēras korozivitāte iedalīta sešās kategorijās:
+
+| Klase | Korozivitāte |
+|---|---|
+| C1 | Ļoti zema |
+| C2 | Zema |
+| C3 | Vidēja |
+| C4 | Augsta |
+| C5-I | Ļoti augsta (rūpnieciskā) |
+| C5-M | Ļoti augsta (jūras) |
+
+Klasifikācija balstīta uz tērauda un cinka korozijas ātrumu pirmajā ekspozīcijas gadā.
+
+ISO 12944-2 nosaka trīs korozivitātes kategorijas konstrukcijām, kas iegremdētas ūdenī vai apraktas gruntī:
+
+| Klase | Apraksts |
+|---|---|
+| Im1 | Iegremdēšana saldūdenī: upes, hidroelektrostacijas |
+| Im2 | Iegremdēšana jūras vai sāļajā ūdenī: ostas konstrukcijas |
+| Im3 | Aprakšana gruntī: apakšzemes konteineri, tērauda sijas |
 
 Aizsargpārklājuma kalpošanas laiks
 
 Aizsargpārklājuma kalpošanas laiks norādāms paskaidrojuma rakstā.
 
-![Attēls](../images/ch09/img074.png)
+Kalpošanas ilgums (izturība) definēts kā vēlamais laika periods līdz pirmajai uzturēšanas krāsošanai. Tas nav garantijas laiks.
 
-![Attēls](../images/ch09/img075.png)
+| Kategorija | Kalpošanas ilgums |
+|---|---|
+| Zems (L) | 2–5 gadi |
+| Vidējs (M) | 5–15 gadi |
+| Augsts (H) | > 15 gadi |
+
+Kalpošanas ilgums nav "garantijas diapazons". Tas ir tehnisks apsvērums, kas palīdz īpašniekam plānot uzturēšanas programmu. Garantijas periods parasti ir īsāks par kalpošanas ilgumu — starp abiem nav noteiktas saistības.
 
 Vertikālo izlieču robežvērtības
 
-![Attēls](../images/ch09/img076.png)
+*[LVS EN 1993-1-1:2005, 7.2.1(1)B]* — Zemāk esošajā tabulā dotas ieteicamās noteiktu konstrukciju elementu vertikālo izlieču robežvērtības (w<sub>max</sub>), kuras salīdzināmas ar aprēķinos iegūtajām konstrukciju izliecēm, lietojot LVS EN 1990 dotās raksturīgo iedarbju kombinācijas.
 
-![Attēls](../images/ch09/img077.png)
+<table>
+<colgroup><col style="width:65%"><col style="width:35%"></colgroup>
+<thead><tr><th>Konstrukciju elementi</th><th>Deformāciju robežvērtības (w<sub>max</sub>)</th></tr></thead>
+<tbody>
+<tr><td>Sijas, rīģeļi un kopnes:<br>— starpstāvu pārsegumos, ja L &lt; 12 m<br>— starpstāvu pārsegumos, ja 12 m &lt; L &lt; 24 m<br>— starpstāvu pārsegumos, ja L &gt; 24 m</td><td><strong>L/250</strong><br>Interpolēt<br><strong>L/300</strong></td></tr>
+<tr><td>— jumta pārsegumos, ja L &lt; 12 m<br>— jumta pārsegumos, ja 12 m ≤ L &lt; 24 m<br>— jumta pārsegumos, ja L &gt; 24 m</td><td><strong>L/200</strong><br>Interpolēt<br><strong>L/250</strong></td></tr>
+<tr><td>Sijas, rīģeļi un kopnes starpstāvu pārsegumos pēc starpsienu izbūves, ja tās balsta starpsienas ar trauslu apdari</td><td><strong>L/400</strong> no slodzēm pēc starpsienu izbūves</td></tr>
+<tr><td>Fasādes vai stiklojuma konstrukcijas</td><td>Atbilstoši fasādes vai stiklojuma noteiktajām prasībām</td></tr>
+<tr><td>Lokšņu segumi — jumta pārsegumos<br>Lokšņu segumi — starpstāvu pārsegumos</td><td><strong>L/200</strong><br><strong>L/250</strong></td></tr>
+<tr><td>Balkoni, kāpnes, trepes, platformas un pārejas</td><td>Tādas pašas prasības kā ēkas pārsegumu pamatelementiem</td></tr>
+<tr><td>Citi nenosauktie pārsegumu un sienu elementi</td><td><strong>L/200</strong></td></tr>
+<tr><td colspan="2">kur L ir brīvi balstītas vai nepārtrauktas konstrukcijas laidums vai arī dubults konsoles garums</td></tr>
+</tbody>
+</table>
 
 Horizontālo pārvietojumu robežvērtības
 
-![Attēls](../images/ch09/img078.png)
+*[LVS EN 1993-1-1:2005, 7.2.2(1)B]* — Zemāk esošajā tabulā dotas ieteicamās noteiktu konstrukciju elementu horizontālo pārvietojumu robežvērtības, kuras salīdzināmas ar aprēķinos iegūtajiem konstrukciju horizontālajiem pārvietojumiem, lietojot LVS EN 1990 dotās raksturīgo iedarbju kombinācijas.
 
 ![Attēls](../images/ch09/img079.png)
