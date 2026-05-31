@@ -90,12 +90,11 @@
 
 .cover-logo {
     display: block;
-    height: 28px;
+    height: 48px;
     width: auto;
-    max-width: 200px;
+    max-width: 80px;
     margin: 0;
-    opacity: 0.85;
-    filter: grayscale(20%);
+    opacity: 0.9;
 }
 
 /* --- Navigācijas joslas virsraksts: mazs, izlīdzināts ar satura tekstu --- */
