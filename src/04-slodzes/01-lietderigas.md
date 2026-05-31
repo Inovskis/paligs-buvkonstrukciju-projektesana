@@ -1,8 +1,9 @@
-## Lietderīgās slodzes
+## LIETDERĪGĀS SLODZES
 
 Lietderīgās slodzes pēc LVS EN 1991-1-1/NA
 
-| Kategorija | Raksturīgā izmantošana | qk, kN/m2 | Qk, kN | Piemērs |
+
+| Kategorija | Raksturīgā izmantošana | q<sub>k</sub>, kN/m<sup>2</sup> | Qk, kN | Piemērs |
 | --- | --- | --- | --- | --- |
 | A | Platības mājsaimniecības un sadzīves vajadzībām Grīdas Kāpnes Balkoni | 2.00 3.00 2.50 | 2.00 3.00 2.50 | Telpas dzīvojamās mājās un mājās, guļamistabas un palātas slimnīcās, guļamistabas viesnīcās un viesu mītnēs, virtuves un tualetes. |
 | B | Biroju platības | 2.50 | 2.50 |  |
@@ -15,18 +16,19 @@ Lietderīgās slodzes pēc LVS EN 1991-1-1/NA
 | - | Neizmantojamas platības, kas netiek izmantotas kā noliktavas (bēniņi, zonas ap iekārtām) | 1.00 | 2.00 | Punkts iekļauts 2022. gada Latvijas nacionālajā pielikumā. |
 | - | Kāpnes, ja vien pie konkrētās kategorijas nav norādīts citādāk. | 3.00 | 3.00 | Punkts iekļauts 2022. gada Latvijas nacionālajā pielikumā. |
 
-Kategorijām no A līdz E ir iespējams veikt slodžu samazināšanu ievērtējot αA faktoru. Rekomendējamā vērtība tiek noteikta pēc sakarības:, kur A0=10 m2 un A ir noslogotā platība.
+Kategorijām no A līdz E ir iespējams veikt slodžu samazināšanu ievērtējot α<sub>A</sub> faktoru. Rekomendējamā vērtība tiek noteikta pēc sakarības:, kur A<sub>0</sub>=10 m<sup>2</sup> un A ir noslogotā platība.
 
-Kategorijām C un D αA≥ 0.60.
+Kategorijām<sub> </sub>C un D α<sub>A</sub>≥ 0.60.
 
 
-## Rekomendējamās parciālo faktoru vērtības
+## REKOMENDĒJAMĀS PARCIĀLO FAKTORU VĒRTĪBAS
 
 Kombinē tikai tās slodzes, kas var realizēties vienlaicīgi.
 
 Kombinējot slodzes jāievērtē tabulā dotās rekomendēto parciālo koeficientu vērtības.
 
-| Iedarbe | Ψ0 | Ψ1 | Ψ2 |
+
+| Iedarbe | Ψ<sub>0</sub> | Ψ<sub>1</sub> | Ψ<sub>2</sub> |
 | --- | --- | --- | --- |
 | Lietderīgās slodzes ēkās | Lietderīgās slodzes ēkās | Lietderīgās slodzes ēkās | Lietderīgās slodzes ēkās |
 | A kategorija: mājsaimniecības un dzīvojamās telpas (platības) | 0.7 | 0.5 | 0.3 |

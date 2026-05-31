@@ -1,4 +1,4 @@
-## Nelabvēlīgākās slodzes noteikšana
+## NELABVĒLĪGĀKĀS SLODZES NOTEIKŠANA
 
 Vairāklaidumu sistēmā tradicionāli:
 

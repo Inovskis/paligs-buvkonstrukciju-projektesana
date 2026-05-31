@@ -10,6 +10,7 @@ default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/Inovskis/paligs-buvkonstrukciju-projektesana"
 edit-url-template = "https://github.com/Inovskis/paligs-buvkonstrukciju-projektesana/edit/main/{path}"
+additional-css = ["custom.css"]
 
 [output.html.search]
 enable = true

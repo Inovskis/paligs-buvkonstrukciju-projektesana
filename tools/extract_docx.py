@@ -153,27 +153,6 @@ def is_known_heading(text: str, chapter_prefix: str):
     return (None, 0)
 
 
-def table_to_markdown(table) -> str:
-    rows = []
-    for row in table.rows:
-        cells = []
-        for cell in row.cells:
-            cell_text = ' '.join(p.text.strip() for p in cell.paragraphs if p.text.strip())
-            cell_text = cell_text.replace('|', '\\|')
-            cells.append(cell_text)
-        rows.append(cells)
-    if not rows:
-        return ""
-    header = rows[0]
-    lines = ['| ' + ' | '.join(header) + ' |',
-             '| ' + ' | '.join(['---'] * len(header)) + ' |']
-    for row in rows[1:]:
-        while len(row) < len(header):
-            row.append('')
-        lines.append('| ' + ' | '.join(row[:len(header)]) + ' |')
-    return '\n'.join(lines) + '\n'
-
-
 def extract_images(para, img_dir: Path, img_counter: list) -> list:
     img_dir.mkdir(parents=True, exist_ok=True)
     refs = []
@@ -203,12 +182,55 @@ def extract_images(para, img_dir: Path, img_counter: list) -> list:
     return refs
 
 
+def runs_to_md(para) -> str:
+    """Konvertē paragrāfa runs uz tekstu ar <sub>/<sup> HTML tagiem."""
+    parts = []
+    for run in para.runs:
+        text = run.text
+        if not text:
+            continue
+        if run.font.subscript:
+            parts.append(f"<sub>{text}</sub>")
+        elif run.font.superscript:
+            parts.append(f"<sup>{text}</sup>")
+        else:
+            parts.append(text)
+    return ''.join(parts).strip()
+
+
+def cell_to_text(cell) -> str:
+    """Konvertē tabulas šūnu uz tekstu ar sub/sup atbalstu."""
+    parts = []
+    for para in cell.paragraphs:
+        para_text = runs_to_md(para)
+        if para_text:
+            parts.append(para_text)
+    return ' '.join(parts).replace('|', '\\|')
+
+
+def table_to_markdown(table) -> str:
+    rows = []
+    for row in table.rows:
+        cells = [cell_to_text(cell) for cell in row.cells]
+        rows.append(cells)
+    if not rows:
+        return ""
+    header = rows[0]
+    lines = ['| ' + ' | '.join(header) + ' |',
+             '| ' + ' | '.join(['---'] * len(header)) + ' |']
+    for row in rows[1:]:
+        while len(row) < len(header):
+            row.append('')
+        lines.append('| ' + ' | '.join(row[:len(header)]) + ' |')
+    return '\n'.join(lines) + '\n'
+
+
 def para_to_md(para, img_dir: Path, img_counter: list) -> str:
     has_img = para._element.findall('.//' + qn('a:blip'))
     if has_img:
         refs = extract_images(para, img_dir, img_counter)
         return ''.join(refs)
-    text = para.text.strip()
+    text = runs_to_md(para)
     if not text:
         return ""
     style = para.style.name

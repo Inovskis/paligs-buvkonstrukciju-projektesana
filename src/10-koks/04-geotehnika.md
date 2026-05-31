@@ -1,4 +1,4 @@
-## Ģeotehniskā izpēte
+## ĢEOTEHNISKĀ IZPĒTE
 
 Rekomendējamie attālumi starp izpētes punktiem
 

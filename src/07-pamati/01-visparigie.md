@@ -1,4 +1,4 @@
-## Vispārīgi
+## VISPĀRĪGI
 
 Latvijā pamatu aprēķini veicami pēc DA2 (design approach 2), kur izmantojams apvilktais koeficientu komplekts:
 

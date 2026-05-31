@@ -1,4 +1,4 @@
-## Izmēru līnijas
+## IZMĒRU LĪNIJAS
 
 Ja iespējams, izmēri izvietojami vienā līmenī, lai samazinātu krustojošu līniju apjomu un nodrošinātu saprotamāku nolasīšanu tieši pielikšanas virzienā.
 

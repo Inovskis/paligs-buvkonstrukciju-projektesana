@@ -1,4 +1,4 @@
-## Elementu marķējums, informatīvās norādes
+## ELEMENTU MARĶĒJUMS, INFORMATĪVĀS NORĀDES
 
 Marķējumu veido horizontāla iznesuma līnijas daļa, tās taisns turpinājums vai slīpa un vertikāla daļa norādot uz konkrēto elementu (angliski izmanto terminu leader line). Ja līnija pieiet pie elementa, tad parasti liekam bultu, ja tā beidzas jau uz elementa – tad var likt bumbuli. Bez gala elementa līniju izmanto, ja tā norāda uz izmēru. Slikta prakse ir likt norāžu līnijas ar dažu grādu nobīdi no horizontālās vai vertikālās ass.
 
@@ -16,11 +16,13 @@ Norāžu līnijas nevajadzētu krustot (ja tas ir iespējams).
 
 ![Attēls](images/ch11/img116.png)
 
-## Elementu marķējuma indeksi
+
+## ELEMENTU MARĶĒJUMA INDEKSI
 
 Piemērs elementu indeksiem atbilstoši konstrukciju tipiem un materiāliem
 
-| Marka | Atšifrējums | Piezīmes |
+
+| MARKA | ATŠIFRĒJUMS | PIEZĪMES |
 | --- | --- | --- |
 | RCW | Monolīta dzelzsbetona siena |  |
 | SW | Trīsslāņu panelis |  |

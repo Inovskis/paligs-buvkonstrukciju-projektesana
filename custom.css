@@ -1,0 +1,82 @@
+/* =========================================================
+   Palīgs būvkonstrukciju projektēšanā — custom styles
+   ========================================================= */
+
+/* --- Tabulas: pilns platums, bez horizontālās ritjoslas --- */
+
+.table-wrapper {
+    overflow-x: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 0.85em;
+    margin: 1em 0;
+}
+
+th {
+    font-weight: normal;
+    font-size: 0.85em;
+    text-align: left;
+    padding: 5px 8px;
+    vertical-align: top;
+    background-color: var(--table-header-bg);
+    border: 1px solid var(--table-border-color);
+}
+
+td {
+    padding: 5px 8px;
+    vertical-align: top;
+    border: 1px solid var(--table-border-color);
+}
+
+/* Alternating row colors */
+tr:nth-child(even) td {
+    background-color: var(--quote-bg);
+}
+
+/* --- Attēli: nepārplūst saturu --- */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5em auto;
+}
+
+/* --- Saturs: fiksēts platums kā grāmatā --- */
+
+.content {
+    overflow-x: hidden;
+}
+
+/* --- Subscript un superscript --- */
+
+sub, sup {
+    font-size: 0.75em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.4em;
+}
+
+sub {
+    bottom: -0.2em;
+}
+
+/* --- Kods: word-wrap lai nepārplūst --- */
+
+code {
+    word-break: break-all;
+}
+
+pre {
+    overflow-x: auto;
+}

@@ -1,4 +1,4 @@
-## Konstrukciju pašsvara un apdares slodzes
+## KONSTRUKCIJU PAŠSVARA UN APDARES SLODZES
 
 Dobumotās pārseguma plātnes
 
@@ -6,7 +6,8 @@ Pie konstrukciju pašsvara slodžu aprēķina ir būtiski ievērtēt pārseguma 
 
 Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm
 
-| Nr. | Šķērsgriezums | H, mm | B, mm | Pašsvars (ar aizpildītām šuvēm) kN/m2 | Aizpildījuma apjoms l/m2 |
+
+| Nr. | Šķērsgriezums | H, mm | B, mm | Pašsvars (ar aizpildītām šuvēm) kN/m<sup>2</sup> | Aizpildījuma apjoms l/m<sup>2</sup> |
 | --- | --- | --- | --- | --- | --- |
 | 1 | HCS 200 | 200 | 1196 | 2.55 | 7.00 |
 | 2 | HCS 220 | 220 | 1196 | 3.40 | 8.00 |
@@ -17,7 +18,8 @@ Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm
 
 Atsevišķu materiālu tilpumsvari pašsvara noteikšanai
 
-| Nr. | Nosaukums | Tilpumsvars, kN/m3 |
+
+| Nr. | Nosaukums | Tilpumsvars, kN/m<sup>3</sup> |
 | --- | --- | --- |
 | 1 | Granīts | 26.00 |
 | 2 | Granīta šķembas | 16.00 |
@@ -31,4 +33,4 @@ Atsevišķu materiālu tilpumsvari pašsvara noteikšanai
 
 Norādījumi par griestu konstrukciju pašsvaru
 
-Ja projektēšanas gaitā nav precīzas informācijas par griestu konstrukciju zem dimensionējamajiem elementiem, tad tipiskā variantā pieņem vērtību 0.50 kN/m2, kas ievērtē apšuvumu, latojumu un inženierkomunikācijas, piemēram AVK tīklus.
+Ja projektēšanas gaitā nav precīzas informācijas par griestu konstrukciju zem dimensionējamajiem elementiem, tad tipiskā variantā pieņem vērtību 0.50 kN/m<sup>2</sup>, kas ievērtē apšuvumu, latojumu un inženierkomunikācijas, piemēram AVK tīklus.

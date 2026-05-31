@@ -1,26 +1,27 @@
-## Tērauda konstrukciju savienojumi
+## TĒRAUDA KONSTRUKCIJU SAVIENOJUMI
 
 ![Attēls](images/ch09/img086.png)
 
 ![Attēls](images/ch09/img087.png)
 
-### Šuves biezuma noteikšana
+Šuves biezuma noteikšana
 
 ![Attēls](images/ch09/img088.png)
 
 ![Attēls](images/ch09/img089.png)
 
-### Metināto šuvju apzīmējumi
+Metināto šuvju apzīmējumi
 
 ![Attēls](images/ch09/img090.png)
 
 ![Attēls](images/ch09/img091.png)
 
-### Metinājuma šuvju nestspēja pie S355 tērauda
+Metinājuma šuvju nestspēja pie S355 tērauda
+
 
 | Katete / Leg length | Rīkle / Throat thickness | Stiprība garenvirzienā / Longitudinal capacity | Stiprība šķērsvirzienā / Transverse capacity |
 | --- | --- | --- | --- |
-| s | a | PL | PT |
+| s | a | P<sub>L</sub> | P<sub>T</sub> |
 | mm | mm | kN/mm | kN/mm |
 | 3.0 | 2.1 | 0.53 | 0.66 |
 | 4.0 | 2.8 | 0.70 | 0.88 |
@@ -35,25 +36,27 @@
 | 22.0 | 15.4 | 3.85 | 4.81 |
 | 25.0 | 17.5 | 4.38 | 5.47 |
 
-### Tipiska savienojuma ar ausi nestspējas tabulas biežākiem gadījumiem
+Tipiska savienojuma ar ausi nestspējas tabulas biežākiem gadījumiem
 
 Lai paātrinatu un atvieglotu projektēšanas procesu, ir apkopota informācija ar nestspēju pie biežāk izmantotiem šķērsgriezumiem un skrūvju diametriem. Aprēķini veikti pēc šķērsspēka.
 
 Aprēķinā izmantotie parametri:
 
-Skrūves: M16 un M20, klase 8.8 (fub = 800 N/mm²), auss (fin plate): T=10mm, S355 (fy = 355 N/mm²)
-Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γM2 = 1.25 (skrūvēm), γM0 = 1.0 (tēraudam)
+Skrūves: M16 un M20, klase 8.8 (f<sub>ub</sub> = 800 N/mm²), auss (fin plate): T=10mm, S355 (f<sub>y</sub> = 355 N/mm²)
+Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γ<sub>M2</sub> = 1.25 (skrūvēm), γ<sub>M0</sub> = 1.0 (tēraudam)
 
-### Skrūvju izvietojuma nosacījumi
+Skrūvju izvietojuma nosacījumi
 
-#### Urbuma diametri un minimālās distances
+Urbuma diametri un minimālās distances
+
 
 | Skrūve | Urbuma Ø (d₀) | e1, e2 min | p1 min | p2 min |
 | --- | --- | --- | --- | --- |
 | M16 | 18mm | 22mm (1.2×d₀) | 40mm (2.2×d₀) | 44mm (2.4×d₀) |
 | M20 | 22mm | 27mm (1.2×d₀) | 49mm (2.2×d₀) | 53mm (2.4×d₀) |
 
-#### Skrūvju konfigurācijas
+Skrūvju konfigurācijas
+
 
 | Skrūvju skaits | M16 izvietojums | M20 izvietojums | M16 plate izmērs | M20 plate izmērs |
 | --- | --- | --- | --- | --- |
@@ -62,7 +65,8 @@ Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γM2 = 1.25 (skr
 | 4 skrūves | 2×2, 44×40mm | 2×2, 53×49mm | 154×128×10mm | 173×148×10mm |
 | 6 skrūves | 2×3, 44×80mm | 2×3, 53×98mm | 154×168×10mm | 173×198×10mm |
 
-### Savienojumu nestspējas IPE profiliem
+Savienojumu nestspējas IPE profiliem
+
 
 | Profils | tw (mm) | 2×M16 | 3×M16 | 4×M16 | 6×M16 | 2×M20 | 3×M20 | 4×M20 | 6×M20 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -75,7 +79,8 @@ Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γM2 = 1.25 (skr
 | IPE 450 | 9.4 | 134 | 201 | 268 | 403 | 211 | 316 | 421 | 632 |
 | IPE 500 | 10.2 | 146 | 218 | 291 | 437 | 229 | 343 | 458 | 687 |
 
-### Savienojumu nestspējas HEA profiliem
+Savienojumu nestspējas HEA profiliem
+
 
 | Profils | tw (mm) | 2×M16 | 3×M16 | 4×M16 | 6×M16 | 2×M20 | 3×M20 | 4×M20 | 6×M20 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -91,9 +96,10 @@ Citiem velmētajiem profiliem nestspējas var aptuveni pielasīt pēc sieniņu b
 
 Krāsu kodi: <100 kN – zaļš, 100-200 kN – gaiši zils, 200-300 kN – gaiši oranžs, virs 300 kN – tumši oranžs.
 
-### Metinājumu kapacitātes pielasīšana izejot no skrūvju (savienojuma) nestspējas
+Metinājumu kapacitātes pielasīšana izejot no skrūvju (savienojuma) nestspējas
 
-Pieņemts nosacījums VRd,weld ≥ 1.2 × VRd,bolts, a = VRd,nep. / (fw × lw,eff × √3 / γM2). Šuves abās loksnes pusēs.
+Pieņemts nosacījums V<sub>Rd,weld </sub>≥ 1.2 × V<sub>Rd,bolts</sub>, a = V<sub>Rd,nep. </sub>/ (f<sub>w</sub> × l<sub>w,eff </sub>× √3 / γ<sub>M2</sub>). Šuves abās loksnes pusēs.
+
 
 | Skrūves | Skrūvju kapacitāte | Nep. kapacitāte | Plātnes augst. | Ieteicamais izmērs | Pārbaude |
 | --- | --- | --- | --- | --- | --- |
@@ -106,7 +112,8 @@ Pieņemts nosacījums VRd,weld ≥ 1.2 × VRd,bolts, a = VRd,nep. / (fw × lw,ef
 | 4×M20 | 376 kN | 451 kN | 148mm | a = 9mm | 481 kN |
 | 6×M20 | 565 kN | 678 kN | 198mm | a = 9mm | 723 kN |
 
-### Rekomendētie savienojumu risinājumi pēc siju profila
+Rekomendētie savienojumu risinājumi pēc siju profila
+
 
 | Profils | Augstums | Ieteicamais risinājums | Alternatīva |
 | --- | --- | --- | --- |
@@ -118,7 +125,8 @@ Pieņemts nosacījums VRd,weld ≥ 1.2 × VRd,bolts, a = VRd,nep. / (fw × lw,ef
 | HEA 200 | 200mm | 4×M20 2×2 (292 kN) | 3×M20 vert. (219 kN) |
 | HEA 240+ | 240mm+ | 6×M20 2×3 (505+ kN) | 4×M20 2×2 (337+ kN) |
 
-### Rekomendētie savienojumu risinājumi pēc šķērsspēka
+Rekomendētie savienojumu risinājumi pēc šķērsspēka
+
 
 | Slodze | V1 | V2 | V3 |
 | --- | --- | --- | --- |
@@ -128,7 +136,8 @@ Pieņemts nosacījums VRd,weld ≥ 1.2 × VRd,bolts, a = VRd,nep. / (fw × lw,ef
 | 250-400 kN | 6×M20 (2×3) | 6×M16 (2×3) | 4×M20 (2×2) |
 | 400+ kN | 6×M20 | 6×M20 | 6×M20 |
 
-### Augstuma ierobežojumi skrūvju izvietošanai
+Augstuma ierobežojumi skrūvju izvietošanai
+
 
 | Konfigurācija | Vajadzīgais augstums | Piemērojami profili |
 | --- | --- | --- |

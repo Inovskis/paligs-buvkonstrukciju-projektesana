@@ -1,4 +1,4 @@
-## Betona cietēšana
+## BETONA CIETĒŠANA
 
 Betona cietēšanas ātrums ir atkarīgs no cementa tipa, temperatūras, ūdens / cementa attiecības un mitruma cietēšanas laikā. EN 206 ir dotas šādas aptuvenās procentuālās vērtības:
 
@@ -7,18 +7,23 @@ Betona cietēšanas ātrums ir atkarīgs no cementa tipa, temperatūras, ūdens 
 Saliekamā dzelzsbetona ražotāji biežāk lieto R tipa cementus, kas izteikti ātrāk cietē.
 
 
-## Vides iedarbības klases
+## VIDES IEDARBĪBAS KLASES
 
 LVS EN 206 ir definētas šādas galvenās vides iedarbības klases:
 
-- X0 – vide bez korozijas, sasalšanas / atkušanas, dēdēšanas vai ķīmiskās iedarbības riska
-- XC – karbonizācijas izraisīta korozija
-- XD – ne jūras ūdens hlorīdu izraisīta korozija
-- XS – jūras ūdens hlorīdu izraisīta korozija
-- XF – sasalšanas – atkušanas iedarbība uz betonu ar vai bez atledošanas reaģentiem
-- XA – ķīmisku vielu agresīva iedarbība uz betonu.
+X0 – vide bez korozijas, sasalšanas / atkušanas, dēdēšanas vai ķīmiskās iedarbības riska
 
-### Vides iedarbības klašu apstākļu apraksts
+XC – karbonizācijas izraisīta korozija
+
+XD – ne jūras ūdens hlorīdu izraisīta korozija
+
+XS – jūras ūdens hlorīdu izraisīta korozija
+
+XF – sasalšanas – atkušanas iedarbība uz betonu ar vai bez atledošanas reaģentiem
+
+XA – ķīmisku vielu agresīva iedarbība uz betonu.
+
+Vides iedarbības klašu apstākļu apraksts
 
 
 | Klases apzīmējums | Apkārtējās vides apstākļu apraksts | Informatīvi piemēri |
@@ -53,9 +58,9 @@ LVS EN 206 ir definētas šādas galvenās vides iedarbības klases:
 | XA3 | Ļoti agresīva ķīmiska vide | Betons, kas ir pakļauts dabiskas grunts un gruntsūdeņu iedarbībai atbilstoši noteiktajam analīzēs. |
 
 
-## Šķērsstiegrojums
+## ŠĶĒRSSTIEGROJUMS
 
-### Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams
+Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams
 
 ![Attēls](images/ch08/img044.png)
 
