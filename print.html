@@ -379,7 +379,7 @@
 </tbody></table>
 </div>
 <p>Ja nav norādīts atsevišķi vienmēr lietot kategoriju S4 (paredzamais ekspluatācijas ilgums 50 gadi).</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="slodzes-un-iedarbes"><a class="header" href="#slodzes-un-iedarbes">SLODZES UN IEDARBES</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="slodzes-un-iedarbes"><a class="header" href="#slodzes-un-iedarbes">Slodzes un iedarbes</a></h1>
 <p>Slodžu parciālie koeficienti palielina pieprasījumu pēc nestspējas (novirza līkni pa labi), kamēr materiālu parciālie koeficienti samazina to nestspēju (novirza līkni pa kreisi) kopumā paaugstinot drošības līmeni. Apgabala robežās, kur abas līknes pārklājās ir iespējama avārija pat gadījumā, ja konstrukcija ir projektēta bez kļūdām (aptuveni 0.01% iespējamība).</p>
 <p><img src="04-slodzes/../images/ch04/img003.png" alt="Attēls" /></p>
 <p>Lietojot Eirokodeksu sistēmu primāri ir lietojami parciālie koeficienti, kas ir noteikti projektēšanas standartu nacionālajos pielikumos. Ja vērtība kādam konkrētam koeficientam nacionālajā pielikumā nav dota, tad ir izmantojama normatīva pamatdokumentā uzrādītā rekomendējamā vērtība.</p>
@@ -493,7 +493,11 @@
 <p>Norādījumi par griestu konstrukciju pašsvaru</p>
 <p>Ja projektēšanas gaitā nav precīzas informācijas par griestu konstrukciju zem dimensionējamajiem elementiem, tad tipiskā variantā pieņem vērtību 0.50 kN/m<sup>2</sup>, kas ievērtē apšuvumu, latojumu un inženierkomunikācijas, piemēram AVK tīklus.</p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="nelabvĒlĪgĀkĀs-slodzes-noteikŠana"><a class="header" href="#nelabvĒlĪgĀkĀs-slodzes-noteikŠana">NELABVĒLĪGĀKĀS SLODZES NOTEIKŠANA</a></h2>
-<p>Vairāklaidumu sistēmā tradicionāli:</p>
+<p>Vairāklaidumu sistēmā slodžu nelabvēlīgākā izvietojuma noteikšanai tradicionāli izmanto šādas shēmas:</p>
+<ul>
+<li><strong>Balsta momentam</strong> — pilna projektēšanas slodze (G<sub>d</sub> + Q<sub>d</sub>) uz visiem laidumiem</li>
+<li><strong>Laiduma momentam</strong> — pilna slodze (Q<sub>d</sub> + G<sub>d,sup</sub>) uz aprēķinājamā laiduma, minimālā pastāvīgā slodze (G<sub>d,inf</sub>) uz blakus laidumiem</li>
+</ul>
 <p><img src="04-slodzes/../images/ch04/img008.png" alt="Attēls" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="izbŪves-klases"><a class="header" href="#izbŪves-klases">IZBŪVES KLASES</a></h2>
 <p>Parasti izbūves klase (EXC) tiek noteikta identiska seku klasei CC, piemēram, EXC1 atbilst CC1, tomēr izbūves klase objekta ietvaros dažādiem elementiem var atšķirties. Tērauda elementiem izbūves klase EXC ir atkarīga ne tikai no seku klases CC, bet arī no konstrukciju izmantošanas klases SC un ražošanas klases PC.</p>
@@ -1061,9 +1065,46 @@ Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γ<sub>M2</sub> 
 <tr><td>Savienojumu pārbaudes</td><td>γ<sub>M2 </sub>= 1.25</td><td>γ<sub>M,fi </sub>= 1.00</td></tr>
 </tbody></table>
 </div><div style="break-before: page; page-break-before: always;"></div><h1 id="koka-konstrukcijas"><a class="header" href="#koka-konstrukcijas">KOKA KONSTRUKCIJAS</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="stiprĪbas-klases-atbilstoŠi-en-338"><a class="header" href="#stiprĪbas-klases-atbilstoŠi-en-338">STIPRĪBAS KLASES ATBILSTOŠI EN 338</a></h2>
-<p><img src="10-koks/../images/ch10/img097.png" alt="Attēls" /></p>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="materiĀlu-parciĀlie-kofeficienti-Υm"><a class="header" href="#materiĀlu-parciĀlie-kofeficienti-Υm">MATERIĀLU PARCIĀLIE KOFEFICIENTI ΥM</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="stiprības-klases-atbilstoši-en-338"><a class="header" href="#stiprības-klases-atbilstoši-en-338">Stiprības klases atbilstoši EN 338</a></h2>
+<p>Stiprības klašu apzīmējums: <strong>C</strong> — skujkoki un papele, <strong>D</strong> — lapkoki. Skaitlis norāda raksturīgo lieces stiprību N/mm².</p>
+<h3 id="skujkoki-un-papele-c-klase"><a class="header" href="#skujkoki-un-papele-c-klase">Skujkoki un papele (C klase)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Īpašība</th><th>Apz.</th><th>C14</th><th>C16</th><th>C18</th><th>C20</th><th>C22</th><th>C24</th><th>C27</th><th>C30</th><th>C35</th><th>C40</th><th>C45</th><th>C50</th></tr></thead><tbody>
+<tr><td><strong>Stiprības īpašības (N/mm²)</strong></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Liece</td><td>f<sub>m,k</sub></td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td><td>24</td><td>27</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td></tr>
+<tr><td>Stiepe šķiedrām</td><td>f<sub>t,0,k</sub></td><td>8</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>16</td><td>18</td><td>21</td><td>24</td><td>27</td><td>30</td></tr>
+<tr><td>Stiepe perp. šķiedrām</td><td>f<sub>t,90,k</sub></td><td>0,4</td><td>0,5</td><td>0,5</td><td>0,5</td><td>0,5</td><td>0,5</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td></tr>
+<tr><td>Spiede šķiedrām</td><td>f<sub>c,0,k</sub></td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>25</td><td>26</td><td>27</td><td>29</td></tr>
+<tr><td>Spiede perp. šķiedrām</td><td>f<sub>c,90,k</sub></td><td>2,0</td><td>2,2</td><td>2,2</td><td>2,3</td><td>2,4</td><td>2,5</td><td>2,6</td><td>2,7</td><td>2,8</td><td>2,9</td><td>3,1</td><td>3,2</td></tr>
+<tr><td>Bīde</td><td>f<sub>v,k</sub></td><td>1,7</td><td>1,8</td><td>2,0</td><td>2,2</td><td>2,4</td><td>2,5</td><td>2,8</td><td>3,0</td><td>3,4</td><td>3,8</td><td>3,8</td><td>3,8</td></tr>
+<tr><td><strong>Stinguma īpašības (kN/mm²)</strong></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>E vidējais</td><td>E<sub>0,mean</sub></td><td>7</td><td>8</td><td>9</td><td>9,5</td><td>10</td><td>11</td><td>11,5</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+<tr><td>E 5% kvantile</td><td>E<sub>0,05</sub></td><td>4,7</td><td>5,4</td><td>6,0</td><td>6,4</td><td>6,7</td><td>7,4</td><td>7,7</td><td>8,0</td><td>8,7</td><td>9,4</td><td>10,0</td><td>10,7</td></tr>
+<tr><td>E perp. vidējais</td><td>E<sub>90,mean</sub></td><td>0,23</td><td>0,27</td><td>0,30</td><td>0,32</td><td>0,33</td><td>0,37</td><td>0,38</td><td>0,40</td><td>0,43</td><td>0,47</td><td>0,50</td><td>0,53</td></tr>
+<tr><td>Bīdes modulis</td><td>G<sub>mean</sub></td><td>0,44</td><td>0,5</td><td>0,56</td><td>0,59</td><td>0,63</td><td>0,69</td><td>0,72</td><td>0,75</td><td>0,81</td><td>0,88</td><td>0,94</td><td>1,00</td></tr>
+<tr><td><strong>Blīvums (kg/m³)</strong></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Raksturīgais</td><td>ρ<sub>k</sub></td><td>290</td><td>310</td><td>320</td><td>330</td><td>340</td><td>350</td><td>370</td><td>380</td><td>400</td><td>420</td><td>440</td><td>460</td></tr>
+<tr><td>Vidējais</td><td>ρ<sub>mean</sub></td><td>350</td><td>370</td><td>380</td><td>390</td><td>400</td><td>420</td><td>450</td><td>460</td><td>480</td><td>500</td><td>520</td><td>550</td></tr>
+</tbody></table>
+</div>
+<h3 id="lapkoki-d-klase"><a class="header" href="#lapkoki-d-klase">Lapkoki (D klase)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Īpašība</th><th>Apz.</th><th>D30</th><th>D35</th><th>D40</th><th>D50</th><th>D60</th><th>D70</th></tr></thead><tbody>
+<tr><td><strong>Stiprības īpašības (N/mm²)</strong></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Liece</td><td>f<sub>m,k</sub></td><td>30</td><td>35</td><td>40</td><td>50</td><td>60</td><td>70</td></tr>
+<tr><td>Stiepe šķiedrām</td><td>f<sub>t,0,k</sub></td><td>18</td><td>21</td><td>24</td><td>30</td><td>36</td><td>42</td></tr>
+<tr><td>Stiepe perp. šķiedrām</td><td>f<sub>t,90,k</sub></td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td></tr>
+<tr><td>Spiede šķiedrām</td><td>f<sub>c,0,k</sub></td><td>23</td><td>25</td><td>26</td><td>29</td><td>32</td><td>34</td></tr>
+<tr><td>Spiede perp. šķiedrām</td><td>f<sub>c,90,k</sub></td><td>8,0</td><td>8,4</td><td>8,8</td><td>9,7</td><td>10,5</td><td>13,5</td></tr>
+<tr><td>Bīde</td><td>f<sub>v,k</sub></td><td>3,0</td><td>3,4</td><td>3,8</td><td>4,6</td><td>5,3</td><td>6,0</td></tr>
+<tr><td><strong>Stinguma īpašības (kN/mm²)</strong></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>E vidējais</td><td>E<sub>0,mean</sub></td><td>10</td><td>10</td><td>11</td><td>14</td><td>17</td><td>20</td></tr>
+<tr><td>E 5% kvantile</td><td>E<sub>0,05</sub></td><td>8,0</td><td>8,7</td><td>9,4</td><td>11,8</td><td>14,3</td><td>16,8</td></tr>
+<tr><td>E perp. vidējais</td><td>E<sub>90,mean</sub></td><td>0,64</td><td>0,69</td><td>0,75</td><td>0,93</td><td>1,13</td><td>1,33</td></tr>
+<tr><td>Bīdes modulis</td><td>G<sub>mean</sub></td><td>0,60</td><td>0,65</td><td>0,70</td><td>0,88</td><td>1,06</td><td>1,25</td></tr>
+<tr><td><strong>Blīvums (kg/m³)</strong></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Raksturīgais</td><td>ρ<sub>k</sub></td><td>530</td><td>560</td><td>590</td><td>650</td><td>700</td><td>900</td></tr>
+<tr><td>Vidējais</td><td>ρ<sub>mean</sub></td><td>640</td><td>670</td><td>700</td><td>780</td><td>840</td><td>1080</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h2 id="materiĀlu-parciĀlie-kofeficienti-Υm"><a class="header" href="#materiĀlu-parciĀlie-kofeficienti-Υm">MATERIĀLU PARCIĀLIE KOFEFICIENTI ΥM</a></h2>
 <div class="table-wrapper"><table><thead><tr><th>Pamata kombinācija:</th><th>Pamata kombinācija:</th></tr></thead><tbody>
 <tr><td>Masīva koksne</td><td>1.30</td></tr>
 <tr><td>Līmēta koksne</td><td>1.25</td></tr>
@@ -1106,15 +1147,24 @@ Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γ<sub>M2</sub> 
 <div style="break-before: page; page-break-before: always;"></div><h2 id="ĢeotehniskĀ-izpĒte"><a class="header" href="#ĢeotehniskĀ-izpĒte">ĢEOTEHNISKĀ IZPĒTE</a></h2>
 <p>Rekomendējamie attālumi starp izpētes punktiem</p>
 <p>EN 1997-2 B.3 informatīvā pielikuma fragments</p>
-<p><img src="10-koks/../images/ch10/img103.png" alt="Attēls" /></p>
+<p>Pēc EN 1997-2 B.3 informatīvā pielikuma rekomendācijām izpētes punktu izvietojumam jāievēro:</p>
+<ul>
+<li><strong>Augstceltnes un rūpnieciskās ēkas</strong> — punktu tīkls ar atstarpēm <strong>15 līdz 40 m</strong></li>
+<li><strong>Lielas platības</strong> — punktu tīkls ar atstarpēm ne vairāk kā <strong>60 m</strong></li>
+<li><strong>Lineāras konstrukcijas</strong> (ceļi, dzelzceļi, cauruļvadi, dambji, atbalstsienas) — izpētes punkti ik <strong>20 līdz 200 m</strong> gar trasi</li>
+<li><strong>Atsevišķi objekti</strong> (tilti, mašīnas, troses balsti) — vismaz <strong>3 izpētes punkti</strong>; dambji un aizsprosti — vismaz <strong>6 punkti</strong> vienam pamatam</li>
+<li><strong>Dambji un aizsprostu pamati</strong> — punkti ik <strong>25 līdz 75 m</strong> gar asi ar šķērsprofiliem</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="labĀ-prakse-rasĒjumu-noformĒŠanĀ"><a class="header" href="#labĀ-prakse-rasĒjumu-noformĒŠanĀ">LABĀ PRAKSE RASĒJUMU NOFORMĒŠANĀ</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="optimĀlais-rasĒjuma-lapas-izkĀrtojums"><a class="header" href="#optimĀlais-rasĒjuma-lapas-izkĀrtojums">OPTIMĀLAIS RASĒJUMA LAPAS IZKĀRTOJUMS</a></h2>
+<p>Tipiskais rasējuma lapas izkārtojums ar plānu kreisajā pusē, šķērsgriezumiem un detaļām apakšā un elementu specifikācijām labajā pusē.</p>
 <p><img src="11-rasejumi/../images/ch11/img104.png" alt="Attēls" /></p>
 <p>Ja iespējams specifikāciju platumu (arī piezīmju) platumu veidot vienādu ar rakstlaukuma platumu, kas standarta gadījumā ir 185 mm. Šādā variantā salocītai lapai ir viegli paskatīties specifikācijas un piezīmes bez visas lapas atlocīšanas. Tāpat pa locījuma līnijām lapas nereti saplīst vai daļēji izdzēšas, līdz ar to šāds lapas iekārtojums ļauj izvairīties no būtiskas informācijas kropļojumiem.</p>
 <h2 id="rasĒjuma-lapu-izmĒri"><a class="header" href="#rasĒjuma-lapu-izmĒri">RASĒJUMA LAPU IZMĒRI</a></h2>
 <p><img src="11-rasejumi/../images/ch11/img105.png" alt="Attēls" /></p>
 <p><img src="11-rasejumi/../images/ch11/img106.png" alt="Attēls" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="izmĒru-lĪnijas"><a class="header" href="#izmĒru-lĪnijas">IZMĒRU LĪNIJAS</a></h2>
+<p>Izmēru līnijas ir grafisks elements, kas strukturālajos rasējumos norāda konstrukciju un to elementu gabarītus, atstatumu starp asīm un būvdaļu novietojumu. Precīzas izmēru līnijas ir priekšnoteikums, lai rasējums kalpotu kā darba dokuments — bez mērogošanas vai pieņēmumiem izpildes brīdī. Tās izvietojamas ārpus konstrukcijas kontūras, nepārklājoties ar attēlotajiem elementiem, un annotiācija vienmēr jāorientē ērti nolasāmā virzienā.</p>
 <p>Ja iespējams, izmēri izvietojami vienā līmenī, lai samazinātu krustojošu līniju apjomu un nodrošinātu saprotamāku nolasīšanu tieši pielikšanas virzienā.</p>
 <p><img src="11-rasejumi/../images/ch11/img107.png" alt="Attēls" /></p>
 <p><img src="11-rasejumi/../images/ch11/img108.png" alt="Attēls" /></p>
