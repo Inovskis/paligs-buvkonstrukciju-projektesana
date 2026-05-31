@@ -1,7 +1,4 @@
-# UGUNDROŠU KONSTRUKCIJU PROJEKTĒŠANA
-
-
-# FIRE DESIGN
+# Ugundrošu konstrukciju projektēšana
 
 Ugunsgrēka situācijai jāpielieto sekojoša slodžu kombinācija:
 

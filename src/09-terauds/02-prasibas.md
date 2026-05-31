@@ -1,5 +1,7 @@
 ## PAPILDUS PRASĪBAS PROJEKTĒŠANAI UN IZGATAVOŠANAI
 
+Tērauda konstrukciju projektēšanā un izgatavošanā piemērojamas papildu prasības attiecībā uz izbūves klasēm, ekspluatācijas un izgatavošanas kategorijām, kā arī korozijas aizsardzību — šīs prasības nosaka nepieciešamo kvalitātes kontroles līmeni un aizsargpārklājumu atbilstoši vides apstākļiem.
+
 Izbūves klases ar atbilstošu konstrukciju piemēriem
 
 ![Attēls](../images/ch09/img069.png)
