@@ -1,8 +1,7 @@
 # Saturs
 
-[Ievads](README.md)
+[Ievads un priekšvārds](README.md)
 
-- [Priekšvārds](01-prieksvards.md)
 - [Izmantojamie būvnormatīvi un standarti](02-normativas.md)
 - [Vispārīgie projektēšanas nosacījumi](03-visparigie.md)
 - [Slodzes un iedarbes](04-slodzes/README.md)

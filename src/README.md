@@ -3,9 +3,11 @@
   <div class="book-subtitle">Vade Mecum. Personīgas piezīmes.</div>
 </div>
 
+Sākotnēji šis nav apzināti un mērķtiecīgi veidots materiāls publicēšanai, bet tikai personiskas, dažādos periodos izdarītas piezīmes, kuras esmu veicis, lai atvieglotu savu darbu. Dokuments var saturēt neatjauninātu informāciju no izmantotajiem standartiem, pareizrakstības un interpretācijas kļūdas par ko es ļoti pārdzīvoju un atvainojos. Lietotāja pienākums būtiskām konstrukcijām ir papildus pārliecināties par informācijas pareizību no pirmavotiem.
+
 Šī grāmata apkopo praktisko informāciju no Eirokodeksiem un Latvijas nacionālajiem pielikumiem (LVS EN), lai atvieglotu ikdienas projektēšanas darbu. Tā nav aizstājējs standartiem, bet palīgs ātrai orientēšanai un biežāk nepieciešamo vērtību atrašanai.
 
-## Satura apskats
+## Sastāvs pa tematiskajiem blokiem:
 
 - **Slodzes** — lietderīgās, klimatiskās, pašsvara slodzes un to kombinēšana
 - **Pamati** — grunšu klasifikācija, pāļu pamati, tehnoloģiju izvēle
