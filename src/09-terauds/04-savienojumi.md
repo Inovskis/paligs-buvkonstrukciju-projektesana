@@ -1,20 +1,20 @@
 ## TĒRAUDA KONSTRUKCIJU SAVIENOJUMI
 
-![Attēls](images/ch09/img086.png)
+![Attēls](../images/ch09/img086.png)
 
-![Attēls](images/ch09/img087.png)
+![Attēls](../images/ch09/img087.png)
 
 Šuves biezuma noteikšana
 
-![Attēls](images/ch09/img088.png)
+![Attēls](../images/ch09/img088.png)
 
-![Attēls](images/ch09/img089.png)
+![Attēls](../images/ch09/img089.png)
 
 Metināto šuvju apzīmējumi
 
-![Attēls](images/ch09/img090.png)
+![Attēls](../images/ch09/img090.png)
 
-![Attēls](images/ch09/img091.png)
+![Attēls](../images/ch09/img091.png)
 
 Metinājuma šuvju nestspēja pie S355 tērauda
 

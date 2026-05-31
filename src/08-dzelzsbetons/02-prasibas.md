@@ -16,7 +16,7 @@ Enkurojuma garumi un pārlaidumi C25/30 klases betonam
 
 Pārējo klašu betonam dotie izmēri ir reizināmi ar koeficientiem, kas ir doti tabulas apakšpusē
 
-![Attēls](images/ch08/img037.png)
+![Attēls](../images/ch08/img037.png)
 
 Minimālais attālums starp stiegrām
 
@@ -30,7 +30,7 @@ LVS EN 1992-1-1 8.10.1.2
 
 Minimālajiem tīrajiem horizontālajiem un vertikālajiem attālumiem starp priekšspriegotiem spriegojamā stiegrojuma elementiem jāatbilst attēla shēmai, kur Ø ir priekšsaspriegta spreigojamā stiegrojuma elementa diametrs un d<sub>s</sub> ir maksimālais pildvielas izmērs.
 
-![Attēls](images/ch08/img038.png)
+![Attēls](../images/ch08/img038.png)
 
 Maksimālais attālums starp stiegrām
 
@@ -40,14 +40,14 @@ mazākais no: 20 garenstiegrojumu diametri, mazākā kolonnas dimensija, 400 mm.
 
 Minimālais stiegru liekuma rādiuss
 
-![Attēls](images/ch08/img039.png)
+![Attēls](../images/ch08/img039.png)
 
 Aptveru un šķērsspēku uzņemošā stiegrojuma enkurojums
 
-![Attēls](images/ch08/img040.png)
+![Attēls](../images/ch08/img040.png)
 
 Betona virsmu klasifikācija
 
 Klasificēšana pēc LVS EN 1992-1-1 6.2.5 (2)
 
-![Attēls](images/ch08/img041.png)
+![Attēls](../images/ch08/img041.png)

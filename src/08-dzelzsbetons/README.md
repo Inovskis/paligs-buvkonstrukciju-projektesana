@@ -5,7 +5,7 @@
 
 Tipiska slodzes attiecība pret pārbaudes robežvērtībām
 
-![Attēls](images/ch08/img034.png)
+![Attēls](../images/ch08/img034.png)
 
 Kopumā EN 1992 sniedz ļoti limitētu informāciju par kopējām būves aprēķina metodikām. Vispārīgi konstrukciju (būvi) var projektēt pieņemot kādu no sekojošām aprēķina metodēm:
 

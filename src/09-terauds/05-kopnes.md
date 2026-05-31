@@ -10,21 +10,21 @@ Saliktajos K savienojumos ar pārklāšanos plaknē pārklājumam jābūt pietie
 
 Pārlaiduma definācija
 
-![Attēls](images/ch09/img092.png)
+![Attēls](../images/ch09/img092.png)
 
 K savienojumos tiek noteikti ierobežojumi attiecībā uz mezgla ekscentricitāti e. Pozitīva e vērtība apzīmē nobīdi no pamatnes centrālās līnijas uz kopnes ārpusi. Šis mezgla ekscentricitātes ierobežojums ir e ≤ 0.25h₀ (joslas augstums). Ja ekscentricitāte pārsniedz 0.25h₀, jāņem vērā arī lieces momentu ietekme uz savienojuma nestspēju. Lieces moments, ko rada jebkura mezgla ekscentricitāte e, vienmēr jāņem vērā arī elementu projektēšanā.
 
 Ekscentricitāti e, var aprēķināt, izmantojot vienādojumus (Packer et al., 1992; Packer un Henderson, 1997):
 
-![Attēls](images/ch09/img093.png)
+![Attēls](../images/ch09/img093.png)
 
-![Attēls](images/ch09/img094.png)
+![Attēls](../images/ch09/img094.png)
 
 Negatīva g vērtība nozīmē, ka elementi pārklājas. Šos vienādojumus var attiecināt arī uz savienojumiem, kuriem ir pamatnes virsmas stinguma plāksnes (loksnes). Tādā gadījumā h₀/2 tiek aizstāts ar h₀/2 + t<sub>p</sub>.
 
 Tipiskie lietotie apzīmēju caurļprofilu kopņu savienojumu projektēšanā
 
-![Attēls](images/ch09/img095.png)
+![Attēls](../images/ch09/img095.png)
 
 Režģa elementu izvēle
 
@@ -32,4 +32,4 @@ Režģu elementus izdevīgi ir izvēlēties ar lielāku ārējo izmēru un plān
 
 Biežāk izmantotie metinātie kvadrātcauruļu savienojumu veidi
 
-![Attēls](images/ch09/img096.png)
+![Attēls](../images/ch09/img096.png)

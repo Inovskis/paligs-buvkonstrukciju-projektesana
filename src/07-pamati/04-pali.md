@@ -12,7 +12,7 @@ A.10. tabula no EN 1997-1
 
 Raksturīgās nestspējas noteikšanu no aprēķinātās (Cal) veic pēc sakarības:
 
-![Attēls](images/ch07/img030.png)
+![Attēls](../images/ch07/img030.png)
 
 Ja aprēķinu veic pēc viena rezultāta sliktākajā pozīcijā, tad to var uzskatīt par R<sub>c,min </sub>un noteikt pāļa raksturīgo pretestību dalot aprēķināto rezultātu (Cal) ar ξ<sub>4</sub>.
 
@@ -47,14 +47,14 @@ Slodžu pārneses mehānisms
 
 Slodžu pārneses mehānisms pāļiem spiedē
 
-![Attēls](images/ch07/img031.png)
+![Attēls](../images/ch07/img031.png)
 
 Slodžu pārneses mehānisms pāļiem stiepē
 
-![Attēls](images/ch07/img032.png)
+![Attēls](../images/ch07/img032.png)
 
 Pāļu aprēķinu principiālā shēma pēc CPT datiem
 
 Nestspējas aprēķins no CPT datiem (shēma pēc Niaziand Mayne
 
-![Attēls](images/ch07/img033.png)
+![Attēls](../images/ch07/img033.png)

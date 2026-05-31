@@ -10,37 +10,37 @@ Elementu izgatavošanas standarti
 
 Dobumoto plātņu izgriezumu robežvērtības
 
-![Attēls](images/ch08/img046.png)
+![Attēls](../images/ch08/img046.png)
 
 Dimensijas pēc BETONGELEMENTBOKEN
 
 Dobumoto plātņu enkurošana iecirtumiem
 
-![Attēls](images/ch08/img047.png)
+![Attēls](../images/ch08/img047.png)
 
 Dobumoto paneļu ugunsizturība pēc šķērsspēka un enkurojuma
 
 Pārbaudi definē LVS EN 1168 G pielikums.
 
-![Attēls](images/ch08/img048.png)
+![Attēls](../images/ch08/img048.png)
 
-![Attēls](images/ch08/img049.png)
+![Attēls](../images/ch08/img049.png)
 
-![Attēls](images/ch08/img050.png)
+![Attēls](../images/ch08/img050.png)
 
-![Attēls](images/ch08/img051.png)
+![Attēls](../images/ch08/img051.png)
 
-![Attēls](images/ch08/img052.png)
+![Attēls](../images/ch08/img052.png)
 
-![Attēls](images/ch08/img053.png)
+![Attēls](../images/ch08/img053.png)
 
-![Attēls](images/ch08/img054.png)
+![Attēls](../images/ch08/img054.png)
 
 Saliekamo dzelzsbetona elementu fasādes elementu šuvju hidroizolācija
 
 Prasības šuvju pildījumam pēc DIN 18540
 
-![Attēls](images/ch08/img055.png)
+![Attēls](../images/ch08/img055.png)
 
 Maksimālie dzelzsbetona elementu gabarīti transportēšanai
 
@@ -54,20 +54,20 @@ Maksimālie dzelzsbetona elementu gabarīti transportēšanai
 
 Nominālie elementu balstījuma garumi
 
-![Attēls](images/ch08/img056.png)
+![Attēls](../images/ch08/img056.png)
 
 Nestspējas līknes RT un L saspriegtajām sijām
 
 Consolis pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50
 
-![Attēls](images/ch08/img057.png)
+![Attēls](../images/ch08/img057.png)
 
 TMB Element pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50
 
-![Attēls](images/ch08/img058.png)
+![Attēls](../images/ch08/img058.png)
 
 Atšķelšanās spriegumi saspriegto elementu gala zonās
 
-![Attēls](images/ch08/img059.png)
+![Attēls](../images/ch08/img059.png)
 
-![Attēls](images/ch08/img060.png)
+![Attēls](../images/ch08/img060.png)

@@ -4,7 +4,7 @@ Prasības ēku robustuma nodrošināšanai ir dotas katras konstrukciju grupas s
 
 Shēmā uzrādītas stratēģijas attiecībā uz projektā apskatāmajām ārkārtējām situācijām
 
-![Attēls](images/ch04/img009.png)
+![Attēls](../images/ch04/img009.png)
 
 Robustuma nodrošinājums ēkām ar Seku klasēm CC1 un CC2a.
 
@@ -26,8 +26,8 @@ Robustuma nodrošinājums ēkām ar Seku klasi CC3.
 
 Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz kolonnām
 
-![Attēls](images/ch04/img010.png)
+![Attēls](../images/ch04/img010.png)
 
 Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz sienām
 
-![Attēls](images/ch04/img011.png)
+![Attēls](../images/ch04/img011.png)

@@ -2,7 +2,7 @@
 
 Betona cietēšanas ātrums ir atkarīgs no cementa tipa, temperatūras, ūdens / cementa attiecības un mitruma cietēšanas laikā. EN 206 ir dotas šādas aptuvenās procentuālās vērtības:
 
-![Attēls](images/ch08/img043.png)
+![Attēls](../images/ch08/img043.png)
 
 Saliekamā dzelzsbetona ražotāji biežāk lieto R tipa cementus, kas izteikti ātrāk cietē.
 
@@ -62,8 +62,8 @@ Vides iedarbības klašu apstākļu apraksts
 
 Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams
 
-![Attēls](images/ch08/img044.png)
+![Attēls](../images/ch08/img044.png)
 
 Vienkāršota tabulas metode robežvērtības noteikšanai, zem kuras šķērsstiegrojums nav nepieciešams:
 
-![Attēls](images/ch08/img045.png)
+![Attēls](../images/ch08/img045.png)

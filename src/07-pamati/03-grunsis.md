@@ -51,7 +51,7 @@ RQD rādītājs tiek izmantots atsevišķos pāļu aprēķinos, piemēram, pēc 
 
 Tabulā apkopotas standarta gadījumos pieļaujamās robeždeformācijas.
 
-![Attēls](images/ch07/img025.png)
+![Attēls](../images/ch07/img025.png)
 
 
 ## PUASONA KOEFICIENTI
@@ -69,20 +69,20 @@ Ja nav tieši veikti Puasona koeficienta mērījumi, tad Puasona koeficientu pie
 
 ## GRUNŠU KLASIFIKĀCIJA PĒC DAĻIŅU SASTĀVA
 
-![Attēls](images/ch07/img026.png)
+![Attēls](../images/ch07/img026.png)
 
 Grunšu klasifikācija pēc DIN 18196
 
-![Attēls](images/ch07/img027.png)
+![Attēls](../images/ch07/img027.png)
 
 
 ## GRUNŠU BLIETĒŠANA
 
 Fragments no SIA Ceļu ekspets Rokasgrāmatas ″Ceļa zemes klātnes grunts nestspējas nodrošināšanas risinājumu izstrāde″
 
-![Attēls](images/ch07/img028.png)
+![Attēls](../images/ch07/img028.png)
 
-![Attēls](images/ch07/img029.png)
+![Attēls](../images/ch07/img029.png)
 
 
 ## SEKLIE PAMATI

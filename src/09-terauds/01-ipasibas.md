@@ -2,7 +2,7 @@
 
 Plūstamības un pārraušanas pretestības konstrukciju tēraudam
 
-![Attēls](images/ch09/img068.png)
+![Attēls](../images/ch09/img068.png)
 
 Konstrukciju tērauda konstantes
 

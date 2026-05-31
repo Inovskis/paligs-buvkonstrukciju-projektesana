@@ -2,7 +2,7 @@
 
 Betona īpašības
 
-![Attēls](images/ch08/img035.png)
+![Attēls](../images/ch08/img035.png)
 
 Stiegrojuma tērauda īpašības
 
@@ -14,4 +14,4 @@ Stiegrojuma tērauda īpašības
 
 Nerūsējošā tērauda stiegrojuma īpašības
 
-![Attēls](images/ch08/img036.png)
+![Attēls](../images/ch08/img036.png)

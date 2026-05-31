@@ -13,7 +13,7 @@ Piemēri izlieču robežlielumiem
 
 Izlieces komponentes
 
-![Attēls](images/ch10/img102.png)
+![Attēls](../images/ch10/img102.png)
 
 W<sub>c</sub> – konstruktīvā priekšizliece nenoslogotā konstruktīvā elementā
 

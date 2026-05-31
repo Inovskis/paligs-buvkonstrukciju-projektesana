@@ -29,7 +29,7 @@ Sniega slodžu raksturīgās vērtības uz zemes virsmas (s<sub>k</sub>) ar varb
 | IV | 2.00 |
 | V | 2.30 |
 
-![Attēls](images/ch04/img004.png)
+![Attēls](../images/ch04/img004.png)
 
 Interpolāciju neveic, bet lieto vērtību kāda ir norādīta apgabalam, kurā ietilpst projektējamā būve.
 
@@ -39,11 +39,11 @@ Vēja apstākļos sniega sanesumi var veidoties uz jebkura jumta, kuram ir šķ�
 
 Sanesumu principiālā shēma pie šķēršļiem
 
-![Attēls](images/ch04/img005.png)
+![Attēls](../images/ch04/img005.png)
 
 Koeficientu μ<sub>2 </sub>vērtības pie Latvijas sniega reģioniem no 1 līdz 5 (S<sub>k</sub> attiecīgi no 1.25 līdz 2.30 kPa)
 
-![Attēls](images/ch04/img006.png)
+![Attēls](../images/ch04/img006.png)
 
 
 ### VĒJA SLODZE
@@ -58,7 +58,7 @@ Baltijas jūras piekrastes zonā noteikts fundamentālais vēja pamatātrums V<s
 
 Ar jūras piekrastes zonu ir jāsaprot 25 km plata zona gar Baltijas jūras krastu un 15 km plata zona gar Rīgas jūras līča krastu, ja netiek ņemta vērā apvidus ortogrāfija. Jūrā un kāpu zonā tiek rekomendēts piemērot lielāku fundamentālo vēja pamatātrumu, tā vērtību izvērtē projektētājs.
 
-![Attēls](images/ch04/img007.png)
+![Attēls](../images/ch04/img007.png)
 
 Ilustrēti piemēri apvidus kategorijas izvēlei
 

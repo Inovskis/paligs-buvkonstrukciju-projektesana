@@ -2,24 +2,24 @@
 
 Materiāla parciālie koeficienti
 
-![Attēls](images/ch09/img080.png)
+![Attēls](../images/ch09/img080.png)
 
 Asu izvietojuma shēma
 
-![Attēls](images/ch09/img081.png)
+![Attēls](../images/ch09/img081.png)
 
 X ass vienmēr ir elementa garenass.
 
 Aprēķina garumi tipiskām situācijām
 
-![Attēls](images/ch09/img082.png)
+![Attēls](../images/ch09/img082.png)
 
 
 ## RAKSTURĪGĀS PĀRSEGUMU LAIDUMU UN AUGSTUMU ATTIECĪBAS
 
 Dotās vērtības ir izmantojamas, lai projekta sākumstadijā aptuveni noteiktu paredzamos elementu augstumus.
 
-![Attēls](images/ch09/img083.png)
+![Attēls](../images/ch09/img083.png)
 
 Pēc DESIGN GUIDE FOR RECTANGULAR HOLLOW SECTION (RHS) JOINTS UNDER PREDOMINANTLY STATIC LOADING ideāla laiduma / augstuma attiecība cauruļveida paralēljoslu kopnēm ir robežās no 10 līdz 15. Parasti optimālā vērtība ir tuvu 15.
 
@@ -35,6 +35,6 @@ Kopņu projektēšanas procesā lielākā vērība ir pievērsta joslu šķērsg
 
 ● Ja tas ir iespējams kopturi izvietojami iespējami tuvu režģa elementiem.
 
-![Attēls](images/ch09/img084.png)
+![Attēls](../images/ch09/img084.png)
 
-![Attēls](images/ch09/img085.png)
+![Attēls](../images/ch09/img085.png)

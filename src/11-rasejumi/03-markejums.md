@@ -2,19 +2,19 @@
 
 Marķējumu veido horizontāla iznesuma līnijas daļa, tās taisns turpinājums vai slīpa un vertikāla daļa norādot uz konkrēto elementu (angliski izmanto terminu leader line). Ja līnija pieiet pie elementa, tad parasti liekam bultu, ja tā beidzas jau uz elementa – tad var likt bumbuli. Bez gala elementa līniju izmanto, ja tā norāda uz izmēru. Slikta prakse ir likt norāžu līnijas ar dažu grādu nobīdi no horizontālās vai vertikālās ass.
 
-![Attēls](images/ch11/img111.png)
+![Attēls](../images/ch11/img111.png)
 
-![Attēls](images/ch11/img112.png)
+![Attēls](../images/ch11/img112.png)
 
-![Attēls](images/ch11/img113.png)
+![Attēls](../images/ch11/img113.png)
 
 Norāžu līnijas nevajadzētu krustot (ja tas ir iespējams).
 
-![Attēls](images/ch11/img114.png)
+![Attēls](../images/ch11/img114.png)
 
-![Attēls](images/ch11/img115.png)
+![Attēls](../images/ch11/img115.png)
 
-![Attēls](images/ch11/img116.png)
+![Attēls](../images/ch11/img116.png)
 
 
 ## ELEMENTU MARĶĒJUMA INDEKSI

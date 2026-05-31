@@ -4,7 +4,7 @@ Plātnes
 
 Saskaņā ar LVS EN 1992-1-1 9.3.1.4 punktu plātnei gar tās brīvo (nebalstīto) malu parasti ir jābūt stiegrotai ar garenvirziena un šķērsvirziena stiegrām.
 
-![Attēls](images/ch08/img042.png)
+![Attēls](../images/ch08/img042.png)
 
 Konstruktīvi, bez papildus analīzes garenvirzienā var paredzēt 2Ø12, šķērvirzienā stiegru diametru un soli pielietot analogu kā plātnes pamatsietam.
 

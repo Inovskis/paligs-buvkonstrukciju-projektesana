@@ -1,6 +1,6 @@
 # Saturs
 
-[Vāks](README.md)
+[Sākums](README.md)
 
 - [Saturs](saturs.md)
 - [Ievads](ievads.md)
