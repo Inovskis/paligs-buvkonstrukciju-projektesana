@@ -1,7 +1,9 @@
 # Saturs
 
-[Ievads un priekšvārds](README.md)
+[Vāks](README.md)
 
+- [Saturs](saturs.md)
+- [Ievads](ievads.md)
 - [Izmantojamie būvnormatīvi un standarti](02-normativas.md)
 - [Vispārīgie projektēšanas nosacījumi](03-visparigie.md)
 - [Slodzes un iedarbes](04-slodzes/README.md)
