@@ -16,6 +16,33 @@ Metināto šuvju apzīmējumi
 
 ![Attēls](../images/ch09/img091.png)
 
+**Apzīmējumu skaidrojums:**
+
+<table>
+<colgroup><col style="width:8%"><col style="width:92%"></colgroup>
+<thead><tr><th>Nr.</th><th>Metinājuma apraksts</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Nepārtraukta vienpusēja stūra šuve ar 6 mm kāti gar bultas norādīto līniju. Šuve atrodas bultas pusē.</td></tr>
+<tr><td>2</td><td>Tāpat kā 1, bet šuve ir pretējā pusē bultas norādītajai.</td></tr>
+<tr><td>3</td><td>Nepārtraukta divpusēja stūra šuve.</td></tr>
+<tr><td>4</td><td>Pārtraukta 6 mm stūra šuve ar 70 mm posmiem, izvietotiem ik 180 mm. Tikai bultas pusē.</td></tr>
+<tr><td>5</td><td>Pārmaiņus pārtraukta šuve kā 4 (abās pusēs).</td></tr>
+<tr><td>6</td><td>Tāpat kā 3, bet karodziņš norāda, ka šuve veicama būvobjektā.</td></tr>
+<tr><td>7</td><td>Tāpat kā 1, bet šuve veicama pa visu perimetru, ko norāda mazs aplis.</td></tr>
+<tr><td>8</td><td>Sadurmetinājumi: (a) vienpusēja slīpā; (b) vienpusēja V; (c) vienpusēja U.</td></tr>
+<tr><td>9</td><td>Sadurmetinājumi: (d) divpusēja slīpā; (e) divpusēja V; (f) divpusēja U.</td></tr>
+<tr><td>10</td><td>Tāpat kā 9(d), bet jāizmanto īpaša procedūra, kas norādīta procedūru lapas 9. punktā.</td></tr>
+<tr><td>11</td><td>Tāpat kā 8(b), bet šuvei jābūt izliektai virsmai.</td></tr>
+<tr><td>12</td><td>Tāpat kā 8(b), bet šuvei jābūt līdzenai virsmai, kas iegūta slīpējot.</td></tr>
+<tr><td>13</td><td>Tāpat kā 8(b), bet jāizmanto paliktņa josla.</td></tr>
+<tr><td>14</td><td>Tāpat kā 8(b), bet šuves sakne jāizgriež un jāuzliek paliktņa šuve.</td></tr>
+<tr><td>15</td><td>Tāpat kā 14, bet abas virsmas jānoslīpē līdzenas.</td></tr>
+<tr><td>16</td><td>Divpusējs slīpais sadurmetinājums, pastiprināts ar stūra šuvēm labākai sprieguma izkliedei.</td></tr>
+<tr><td>17</td><td>Taisnstūra sadurmetinājums. Šim metinājumam neveido gropi (piemērots tikai plānām loksnēm).</td></tr>
+<tr><td>18</td><td>Aizpildmetinājums (plug weld). Šuve ir savienojuma bultas pusē.</td></tr>
+</tbody>
+</table>
+
 Metinājuma šuvju nestspēja pie S355 tērauda
 
 
