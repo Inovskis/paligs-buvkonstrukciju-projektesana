@@ -84,10 +84,15 @@ img {
     margin: 0.5em auto;
 }
 
-/* --- Saturs: fiksēts platums kā grāmatā --- */
+/* --- Saturs: fiksēts platums kā grāmatā, teksts izlīdzināts --- */
 
 .content {
     overflow-x: hidden;
+}
+
+.content p, .content li {
+    text-align: justify;
+    hyphens: auto;
 }
 
 /* --- Subscript un superscript --- */
