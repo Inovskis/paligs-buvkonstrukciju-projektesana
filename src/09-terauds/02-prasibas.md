@@ -102,4 +102,14 @@ Horizontālo pārvietojumu robežvērtības
 
 *[LVS EN 1993-1-1:2005, 7.2.2(1)B]* — Zemāk esošajā tabulā dotas ieteicamās noteiktu konstrukciju elementu horizontālo pārvietojumu robežvērtības, kuras salīdzināmas ar aprēķinos iegūtajiem konstrukciju horizontālajiem pārvietojumiem, lietojot LVS EN 1990 dotās raksturīgo iedarbju kombinācijas.
 
-![Attēls](../images/ch09/img079.png)
+<table>
+<colgroup><col style="width:65%"><col style="width:35%"></colgroup>
+<thead><tr><th>Konstrukciju elementi</th><th>Pārvietojumu robežvērtības</th></tr></thead>
+<tbody>
+<tr><td>Daudzstāvu (triju un vairāk stāvu) karkasa ēku kopējam augstumam</td><td><strong>H/500</strong></td></tr>
+<tr><td>Katra stāva augstumam</td><td><strong>H<sub>c</sub>/250</strong></td></tr>
+<tr><td>Vienstāva rūpnieciskiem karkasiem, noliktavām un līdzīgām ēkām bez tilta un piekārtajiem celtniem</td><td><strong>H<sub>c</sub>/150</strong></td></tr>
+<tr><td>Karkasa konstrukcijām pēc starpsienu izbūves, ja tajās tiks iebūvētas starpsienas ar trauslu apdari</td><td><strong>H<sub>c</sub>/500</strong> no slodzēm pēc starpsienu izbūves</td></tr>
+<tr><td colspan="2">kur H — ēkas kopējais augstums; H<sub>C</sub> — katras atsevišķas kolonnas augstums</td></tr>
+</tbody>
+</table>

@@ -2,7 +2,48 @@
 
 Plūstamības un pārraušanas pretestības konstrukciju tēraudam
 
-![Attēls](../images/ch09/img068.png)
+<table>
+<colgroup>
+  <col style="width:22%"><col style="width:20%">
+  <col style="width:14%"><col style="width:14%"><col style="width:14%"><col style="width:16%">
+</colgroup>
+<thead>
+<tr>
+  <th rowspan="2">Standarts un tērauda klase</th>
+  <th rowspan="2">Tērauda marka</th>
+  <th colspan="2">t ≤ 40 mm</th>
+  <th colspan="2">40 mm &lt; t ≤ 80 mm</th>
+</tr>
+<tr>
+  <th>f<sub>y</sub> (N/mm²)</th>
+  <th>f<sub>u</sub> (N/mm²)</th>
+  <th>f<sub>y</sub> (N/mm²)</th>
+  <th>f<sub>u</sub> (N/mm²)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td colspan="6"><strong>EN 10025-2</strong></td></tr>
+<tr><td></td><td>S 235</td><td>235</td><td>360</td><td>215</td><td>360</td></tr>
+<tr><td></td><td>S 275</td><td>275</td><td>430</td><td>255</td><td>410</td></tr>
+<tr><td></td><td>S 355</td><td>355</td><td>510</td><td>335</td><td>470</td></tr>
+<tr><td></td><td>S 450</td><td>440</td><td>550</td><td>410</td><td>550</td></tr>
+<tr><td colspan="6"><strong>EN 10025-3</strong></td></tr>
+<tr><td></td><td>S 275 N/NL</td><td>275</td><td>390</td><td>255</td><td>370</td></tr>
+<tr><td></td><td>S 355 N/NL</td><td>355</td><td>490</td><td>335</td><td>470</td></tr>
+<tr><td></td><td>S 420 N/NL</td><td>420</td><td>520</td><td>390</td><td>520</td></tr>
+<tr><td></td><td>S 460 N/NL</td><td>460</td><td>540</td><td>430</td><td>540</td></tr>
+<tr><td colspan="6"><strong>EN 10025-4</strong></td></tr>
+<tr><td></td><td>S 275 M/ML</td><td>275</td><td>370</td><td>255</td><td>360</td></tr>
+<tr><td></td><td>S 355 M/ML</td><td>355</td><td>470</td><td>335</td><td>450</td></tr>
+<tr><td></td><td>S 420 M/ML</td><td>420</td><td>520</td><td>390</td><td>500</td></tr>
+<tr><td></td><td>S 460 M/ML</td><td>460</td><td>540</td><td>430</td><td>530</td></tr>
+<tr><td colspan="6"><strong>EN 10025-5</strong></td></tr>
+<tr><td></td><td>S 235 W</td><td>235</td><td>360</td><td>215</td><td>340</td></tr>
+<tr><td></td><td>S 355 W</td><td>355</td><td>510</td><td>335</td><td>490</td></tr>
+<tr><td colspan="6"><strong>EN 10025-6</strong></td></tr>
+<tr><td></td><td>S 460 Q/QL/QL1</td><td>460</td><td>570</td><td>440</td><td>550</td></tr>
+</tbody>
+</table>
 
 Konstrukciju tērauda konstantes
 
