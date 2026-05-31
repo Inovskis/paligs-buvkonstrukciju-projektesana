@@ -1,6 +1,6 @@
 ## FIZIKĀLĀS UN MEHĀNISKĀS ĪPAŠĪBAS
 
-Plūstamības un pārraušanas pretestības konstrukciju tēraudam
+**Plūstamības un pārraušanas pretestības konstrukciju tēraudam**
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ Plūstamības un pārraušanas pretestības konstrukciju tēraudam
 </tbody>
 </table>
 
-Konstrukciju tērauda konstantes
+**Konstrukciju tērauda konstantes**
 
 LVS EN 1993 nosaka, ka aprēķinos ir jāpielieto šādi tērauda raksturojumi:
 
@@ -59,7 +59,7 @@ Termiskās izplešanas koeficients α = 12·10<sup>6</sup> uz 1K;
 
 Blīvums ρ = 7850 kG·m<sup>-3</sup>.
 
-Korozivitātes klases
+**Korozivitātes klases**
 
 
 <table>

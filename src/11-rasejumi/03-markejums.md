@@ -19,7 +19,7 @@ Norāžu līnijas nevajadzētu krustot (ja tas ir iespējams).
 
 ## ELEMENTU MARĶĒJUMA INDEKSI
 
-Piemērs elementu indeksiem atbilstoši konstrukciju tipiem un materiāliem
+**Piemērs elementu indeksiem atbilstoši konstrukciju tipiem un materiāliem**
 
 
 | MARKA | ATŠIFRĒJUMS | PIEZĪMES |

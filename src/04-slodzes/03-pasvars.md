@@ -1,10 +1,10 @@
 ## KONSTRUKCIJU PAŠSVARA UN APDARES SLODZES
 
-Dobumotās pārseguma plātnes
+**Dobumotās pārseguma plātnes**
 
 Pie konstrukciju pašsvara slodžu aprēķina ir būtiski ievērtēt pārseguma plātņu pašsvaru ar aizbetonētām šuvēm. Bieži katalogos ir uzrādīts paneļu pašsvars bez šuvju aizpildījuma.
 
-Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm
+**Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm**
 
 
 | Nr. | Šķērsgriezums | H, mm | B, mm | Pašsvars (ar aizpildītām šuvēm) kN/m<sup>2</sup> | Aizpildījuma apjoms l/m<sup>2</sup> |
@@ -16,7 +16,7 @@ Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm
 | 5 | HCS 400 | 400 | 1196 | 4.65 | 17.00 |
 | 6 | HCS 500 | 500 | 1196 | 5.53 | - |
 
-Atsevišķu materiālu tilpumsvari pašsvara noteikšanai
+**Atsevišķu materiālu tilpumsvari pašsvara noteikšanai**
 
 
 | Nr. | Nosaukums | Tilpumsvars, kN/m<sup>3</sup> |
@@ -31,6 +31,6 @@ Atsevišķu materiālu tilpumsvari pašsvara noteikšanai
 | 8 | Kokskaidu plātne (OSB) | 8.00 |
 | 9 | Paroc COS 5 (Izolācija betona sendviča tipa paneļos) | 0.65 |
 
-Norādījumi par griestu konstrukciju pašsvaru
+**Norādījumi par griestu konstrukciju pašsvaru**
 
 Ja projektēšanas gaitā nav precīzas informācijas par griestu konstrukciju zem dimensionējamajiem elementiem, tad tipiskā variantā pieņem vērtību 0.50 kN/m<sup>2</sup>, kas ievērtē apšuvumu, latojumu un inženierkomunikācijas, piemēram AVK tīklus.

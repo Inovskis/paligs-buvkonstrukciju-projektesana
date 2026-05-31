@@ -1,6 +1,6 @@
 ## Lietderīgās slodzes
 
-Lietderīgās slodzes pēc LVS EN 1991-1-1/NA
+**Lietderīgās slodzes pēc LVS EN 1991-1-1/NA**
 
 <table>
 <colgroup>

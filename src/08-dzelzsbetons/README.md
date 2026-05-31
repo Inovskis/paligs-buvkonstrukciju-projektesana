@@ -3,7 +3,7 @@
 
 ## VISPĀRĪGI PRINCIPI
 
-Tipiska slodzes attiecība pret pārbaudes robežvērtībām
+**Tipiska slodzes attiecība pret pārbaudes robežvērtībām**
 
 ![Attēls](../images/ch08/img034.png)
 

@@ -2,7 +2,7 @@
 
 Prasības ēku robustuma nodrošināšanai ir dotas katras konstrukciju grupas standartā, bet izvērsti tās ir aprakstītas standartā LVS EN 1991-1-7 1. Eirokodekss. Iedarbes uz konstrukcijām. 1-7. daļa: Vispārīgās iedarbes. Ārkārtas iedarbes. Seku klases ar piemēriem skatīt iepriekš materiālā (punkts 2.2).
 
-Shēmā uzrādītas stratēģijas attiecībā uz projektā apskatāmajām ārkārtējām situācijām
+**Shēmā uzrādītas stratēģijas attiecībā uz projektā apskatāmajām ārkārtējām situācijām**
 
 ![Attēls](../images/ch04/img009.png)
 
@@ -24,10 +24,10 @@ Robustuma nodrošinājums ēkām ar Seku klasi CC3.
 
 Ēkām ar seku klasi CC3 ir jāveic risku analīze. Risku analīzē ir jāiekļauj ne tikai paredzamas ārkārtas iedarbes, bet arī neparedzamas ārkārtas iedarbes. Būtiski – veicamajiem pasākumiem saskaņā ar risku analīzi ir jābūt striktākiem kā Seku klasei CC2b.
 
-Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz kolonnām
+**Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz kolonnām**
 
 ![Attēls](../images/ch04/img010.png)
 
-Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz sienām
+**Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz sienām**
 
 ![Attēls](../images/ch04/img011.png)

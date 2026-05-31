@@ -30,15 +30,15 @@ Pievērst uzmanību, ka saspriegtie elementi ir pārbaudāmi pēc biežāk sasto
 
 ## GALVENIE NACIONĀLI NOTEIKTIE PARAMETRI
 
-NA. 2.2. Spiedes un stiepes stiprības aprēķina vērtība (design compressive and tensile strengths)
+**NA. 2.2. Spiedes un stiepes stiprības aprēķina vērtība (design compressive and tensile strengths)**
 
-LVS EN 1992-1-1:2005 3.1.6.(1)P
+**LVS EN 1992-1-1:2005 3.1.6.(1)P**
 
 Piemērojama koeficienta vērtība α<sub>cc</sub>=0.85 – labots 2020. un pašlaik ir 1.00
 
-NA.2.4. Projekta pielaides novirzei (allowance in design for deviation)
+**NA.2.4. Projekta pielaides novirzei (allowance in design for deviation)**
 
-LVS EN 1992-1-1:2005 4.4.1.3.(1)P
+**LVS EN 1992-1-1:2005 4.4.1.3.(1)P**
 
 Aprēķinot nominālo aizsargslāņa biezumu c<sub>nom</sub>, projektā jāpalielina aizsargslāņa biezums, pieļaujot novirzi (Δc<sub>dev</sub>):
 

@@ -45,7 +45,7 @@ XF – sasalšanas – atkušanas iedarbība uz betonu ar vai bez atledošanas r
 
 XA – ķīmisku vielu agresīva iedarbība uz betonu.
 
-Vides iedarbības klašu apstākļu apraksts
+**Vides iedarbības klašu apstākļu apraksts**
 
 
 <table>
@@ -88,7 +88,7 @@ Vides iedarbības klašu apstākļu apraksts
 
 ## ŠĶĒRSSTIEGROJUMS
 
-Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams
+**Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams**
 
 ![Attēls](../images/ch08/img044.png)
 

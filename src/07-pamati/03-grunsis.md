@@ -19,7 +19,7 @@
 
 ## GRUNŠU PARAMETRU KORELĀCIJAS UN APRAKSTI
 
-Stiprība mālainām gruntīm atkarībā no to konsistences (avots: Look 2007)
+**Stiprība mālainām gruntīm atkarībā no to konsistences (avots: Look 2007)**
 
 
 <table>
@@ -43,7 +43,7 @@ Stiprība mālainām gruntīm atkarībā no to konsistences (avots: Look 2007)
 
 Nedrenētās bīdes stiprība parasti nosakāma pēc sakarības: S<sub>u</sub> = C<sub>u</sub> = q<sub>u</sub> / 2
 
-Klinšainu grunšu apraksts un atbilstošais RQD (Rock Quality Designation) rādītājs
+**Klinšainu grunšu apraksts un atbilstošais RQD (Rock Quality Designation) rādītājs**
 
 
 <table>
@@ -116,14 +116,14 @@ Ja nav tieši veikti Puasona koeficienta mērījumi, tad Puasona koeficientu pie
 
 ![Attēls](../images/ch07/img026.png)
 
-Grunšu klasifikācija pēc DIN 18196
+**Grunšu klasifikācija pēc DIN 18196**
 
 ![Attēls](../images/ch07/img027.png)
 
 
 ## GRUNŠU BLIETĒŠANA
 
-Fragments no SIA Ceļu ekspets Rokasgrāmatas ″Ceļa zemes klātnes grunts nestspējas nodrošināšanas risinājumu izstrāde″
+**Fragments no SIA Ceļu ekspets Rokasgrāmatas ″Ceļa zemes klātnes grunts nestspējas nodrošināšanas risinājumu izstrāde″**
 
 ![Attēls](../images/ch07/img028.png)
 

@@ -22,7 +22,7 @@
 
 ## Koeficienta k<sub>mod</sub> vērtības
 
-Noteikts LV nacionālajā pielikumā (LVS EN 1995-1-1:2005/NA:2012)
+**Noteikts LV nacionālajā pielikumā (LVS EN 1995-1-1:2005/NA:2012)**
 
 <table>
 <colgroup>

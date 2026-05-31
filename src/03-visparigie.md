@@ -23,11 +23,11 @@ Ugunsgrēka situācijā konstrukcijām ir jānodrošina nestspēja nepieciešama
 
 Pārskatāma un precīza vispārīgo datu lapa ļoti būtiska ir ne tikai būvdarbu izpildītājam, bet arī izstrādātājam, lai darba procesā pie neskaidrībām var tajā atkārtoti ielūkoties un pieņēmumi būtu vienādi visa projekta ietvaros.
 
-Piemērs no BVKB rīkotā semināra materiāliem
+**Piemērs no BVKB rīkotā semināra materiāliem**
 
 ![Attēls](images/ch03/img002.png)
 
-Minimāli pieļaujamās prasības, kas ir nodrošināmas 2. un 3. grupas būvēm (iekrāsotās ailes)
+**Minimāli pieļaujamās prasības, kas ir nodrošināmas 2. un 3. grupas būvēm (iekrāsotās ailes)**
 
 
 | Lietojot Eirokodeksus un to saimes standartus | Lietojot Eirokodeksus un to saimes standartus | Lietojot Eirokodeksus un to saimes standartus | Lietojot Eirokodeksus un to saimes standartus |
@@ -93,7 +93,7 @@ Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klas
 
 ## BŪVDARBU UZRAUDZĪBAS LĪMEŅI
 
-Tabula pēc LVS EN 1990 B pielikuma
+**Tabula pēc LVS EN 1990 B pielikuma**
 
 
 <table>

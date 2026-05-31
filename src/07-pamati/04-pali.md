@@ -1,8 +1,8 @@
 ## PĀĻU PAMATI
 
-Korelācijas faktori pāļu pretestības iegūšanai no grunts pārbaudes rezultātiem
+**Korelācijas faktori pāļu pretestības iegūšanai no grunts pārbaudes rezultātiem**
 
-A.10. tabula no EN 1997-1
+**A.10. tabula no EN 1997-1**
 
 
 | ξ, ja n= | 1 | 2 | 3 | 4 | 5 | 7 | 10 |
@@ -16,11 +16,11 @@ Raksturīgās nestspējas noteikšanu no aprēķinātās (Cal) veic pēc sakarī
 
 Ja aprēķinu veic pēc viena rezultāta sliktākajā pozīcijā, tad to var uzskatīt par R<sub>c,min </sub>un noteikt pāļa raksturīgo pretestību dalot aprēķināto rezultātu (Cal) ar ξ<sub>4</sub>.
 
-Attālums starp pāļiem
+**Attālums starp pāļiem**
 
 Tipiskais izmantotais attālums starp pāļu centriem ir 3 pāļu diametri, izņēmuma kārtā var pielietot arī 2.5 diametrus (ja izteikti lielāko nestspējas daļu veido pāļa gals).
 
-Minimālais pāļu stiegrojums pēc EN 1536
+**Minimālais pāļu stiegrojums pēc EN 1536**
 
 
 | Pāļa šķērsgriezuma laukums: A<sub>c</sub> | Minimālais garenstiegrojuma laukums: A<sub>s</sub> |
@@ -31,7 +31,7 @@ Minimālais pāļu stiegrojums pēc EN 1536
 
 Stiegrojuma elementi, ja karkass tiek montēts pēc betona iepildīšanas ir robusti jāsametina kopā. Karkasa galu rekomendējams veidot konisku.
 
-Papildus prasības monolītbetona pāļiem pēc LVS EN 1992-1-1
+**Papildus prasības monolītbetona pāļiem pēc LVS EN 1992-1-1**
 
 Punktā 2.3.4.2(2) noteikts, ka:
 
@@ -43,18 +43,18 @@ Ja 400 ≤ d<sub>nom</sub> ≤ 1000 mm, tad d = 0.95 ∙ d<sub>nom</sub>;
 
 d<sub>nom</sub> > 1000 mm, tad d = d<sub>nom</sub> – 50 mm.
 
-Slodžu pārneses mehānisms
+**Slodžu pārneses mehānisms**
 
-Slodžu pārneses mehānisms pāļiem spiedē
+**Slodžu pārneses mehānisms pāļiem spiedē**
 
 ![Attēls](../images/ch07/img031.png)
 
-Slodžu pārneses mehānisms pāļiem stiepē
+**Slodžu pārneses mehānisms pāļiem stiepē**
 
 ![Attēls](../images/ch07/img032.png)
 
-Pāļu aprēķinu principiālā shēma pēc CPT datiem
+**Pāļu aprēķinu principiālā shēma pēc CPT datiem**
 
-Nestspējas aprēķins no CPT datiem (shēma pēc Niaziand Mayne
+**Nestspējas aprēķins no CPT datiem (shēma pēc Niaziand Mayne**
 
 ![Attēls](../images/ch07/img033.png)

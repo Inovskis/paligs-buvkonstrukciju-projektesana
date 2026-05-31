@@ -6,7 +6,7 @@ Zemāk redzamajā tabulā apkopoti DA2 daļējo koeficientu komplekti (A1+M1+R2)
 
 ![Attēls](../images/ch07/img015.png)
 
-Nepieciešamais ģeotehniskās izpētes dziļums pāļu pamatiem
+**Nepieciešamais ģeotehniskās izpētes dziļums pāļu pamatiem**
 
 Zemāk redzamajā shēmā attēlots minimālais izpētes dziļums atkarībā no pāļu garuma un to izvietojuma, nodrošinot pietiekamu priekšstatu par grunts slāņojumu zem pāļu gala līmeņa.
 

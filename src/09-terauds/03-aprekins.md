@@ -1,6 +1,6 @@
 ## APRĒĶINS PĒC ROBEŽSTĀVOKĻU METODES
 
-Materiāla parciālie koeficienti
+**Materiāla parciālie koeficienti**
 
 <table>
 <colgroup><col style="width:20%"><col style="width:55%"><col style="width:25%"></colgroup>
@@ -18,13 +18,13 @@ Materiāla parciālie koeficienti
 </tbody>
 </table>
 
-Asu izvietojuma shēma
+**Asu izvietojuma shēma**
 
 ![Attēls](../images/ch09/img081.png)
 
 X ass vienmēr ir elementa garenass.
 
-Aprēķina garumi tipiskām situācijām
+**Aprēķina garumi tipiskām situācijām**
 
 ![Attēls](../images/ch09/img082.png)
 
