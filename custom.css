@@ -1,6 +1,42 @@
 /* =========================================================
-   Palīgs būvkonstrukciju projektēšanā — custom styles
+   Būvkonstrukciju projektēšana. Rokasgrāmata. — custom styles
    ========================================================= */
+
+/* --- Titullapa: virsraksts kreisā puse, mazs izmērs --- */
+
+.book-title-block {
+    text-align: left;
+    margin: 2em 0 2.5em 0;
+    border-left: 3px solid var(--sidebar-active);
+    padding-left: 1em;
+}
+
+.book-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--fg);
+    line-height: 1.4;
+    margin-bottom: 0.3em;
+}
+
+.book-subtitle {
+    font-size: 0.82em;
+    font-weight: normal;
+    color: var(--fg);
+    opacity: 0.6;
+    font-style: italic;
+    letter-spacing: 0.03em;
+}
+
+/* --- Navigācijas sānjoslas virsraksts: mazs, kreisā puse --- */
+
+.menu-title {
+    font-size: 0.85em !important;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.5em 0.8em;
+    letter-spacing: 0.01em;
+}
 
 /* --- Tabulas: pilns platums, bez horizontālās ritjoslas --- */
 
