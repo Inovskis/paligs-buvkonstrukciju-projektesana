@@ -28,13 +28,14 @@
     letter-spacing: 0.03em;
 }
 
-/* --- Navigācijas sānjoslas virsraksts: mazs, kreisā puse --- */
+/* --- Navigācijas joslas virsraksts: mazs, kreisā puse --- */
 
 .menu-title {
-    font-size: 0.85em !important;
-    font-weight: 600;
-    text-align: left;
-    padding: 0.5em 0.8em;
+    display: block !important;
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    text-align: left !important;
+    padding: 0 0.8em;
     letter-spacing: 0.01em;
 }
 
