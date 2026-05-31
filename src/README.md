@@ -1,7 +1,36 @@
-<div class="book-title-block">
-  <div class="book-title">Būvkonstrukciju projektēšana. Rokasgrāmata.</div>
-  <div class="book-subtitle">Vade Mecum. Personīgas piezīmes.</div>
+<div class="cover-page">
+
+  <div class="cover-top-bar"></div>
+
+  <div class="cover-title-block">
+    <div class="cover-title">Būvkonstrukciju projektēšana.</div>
+    <div class="cover-title">Rokasgrāmata.</div>
+    <div class="cover-subtitle">Vade Mecum · Personīgas piezīmes</div>
+  </div>
+
+  <div class="cover-divider"></div>
+
+  <div class="cover-meta">
+    <div class="cover-meta-row">
+      <span class="cover-meta-label">Autors</span>
+      <span class="cover-meta-value">Nauris Inovskis</span>
+    </div>
+    <div class="cover-meta-row">
+      <span class="cover-meta-label">Versija</span>
+      <span class="cover-meta-value">2026</span>
+    </div>
+  </div>
+
+  <div class="cover-divider"></div>
+
+  <div class="cover-sponsor">
+    <div class="cover-sponsor-label">Projektu atbalsta</div>
+    <img class="cover-logo" src="images/cover/kforma-logo.png" alt="K FORMA Inženieru birojs" />
+  </div>
+
 </div>
+
+---
 
 Sākotnēji šis nav apzināti un mērķtiecīgi veidots materiāls publicēšanai, bet tikai personiskas, dažādos periodos izdarītas piezīmes, kuras esmu veicis, lai atvieglotu savu darbu. Dokuments var saturēt neatjauninātu informāciju no izmantotajiem standartiem, pareizrakstības un interpretācijas kļūdas par ko es ļoti pārdzīvoju un atvainojos. Lietotāja pienākums būtiskām konstrukcijām ir papildus pārliecināties par informācijas pareizību no pirmavotiem.
 
@@ -15,9 +44,3 @@ Sākotnēji šis nav apzināti un mērķtiecīgi veidots materiāls publicēšan
 - **Tērauds** — savienojumi, kopnes, korozijas aizsardzība
 - **Koks** — stiprības klases, koeficienti, robežlielumi
 - **Rasējumi** — labā prakse rasējumu noformēšanā
-
-## Par grāmatu
-
-Autors: N. Inovskis  
-Uzņēmums: K FORMA  
-Grāmata tiek pastāvīgi papildināta.

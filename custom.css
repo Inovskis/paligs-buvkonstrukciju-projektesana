@@ -2,30 +2,100 @@
    Būvkonstrukciju projektēšana. Rokasgrāmata. — custom styles
    ========================================================= */
 
-/* --- Titullapa: virsraksts kreisā puse, mazs izmērs --- */
+/* --- Vāka lapa (cover) --- */
 
-.book-title-block {
-    text-align: left;
-    margin: 2em 0 2.5em 0;
-    border-left: 3px solid var(--sidebar-active);
-    padding-left: 1em;
+.cover-page {
+    margin: 0 0 3em 0;
+    padding: 0;
+    font-family: inherit;
 }
 
-.book-title {
-    font-size: 1.1em;
-    font-weight: 600;
-    color: var(--fg);
-    line-height: 1.4;
-    margin-bottom: 0.3em;
+.cover-top-bar {
+    height: 6px;
+    background: #3d7abf;
+    margin-bottom: 2.5em;
+    border-radius: 1px;
 }
 
-.book-subtitle {
-    font-size: 0.82em;
-    font-weight: normal;
+.cover-title-block {
+    margin-bottom: 1.5em;
+}
+
+.cover-title {
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.25;
     color: var(--fg);
-    opacity: 0.6;
+    letter-spacing: -0.01em;
+}
+
+.cover-subtitle {
+    font-size: 0.85em;
+    font-weight: 400;
+    color: var(--fg);
+    opacity: 0.55;
     font-style: italic;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.08em;
+    margin-top: 0.6em;
+}
+
+.cover-divider {
+    height: 1px;
+    background: var(--table-border-color);
+    margin: 1.5em 0;
+}
+
+.cover-meta {
+    display: table;
+    width: 100%;
+    border-spacing: 0 0.3em;
+}
+
+.cover-meta-row {
+    display: table-row;
+}
+
+.cover-meta-label {
+    display: table-cell;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--fg);
+    opacity: 0.45;
+    padding-right: 1.5em;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.cover-meta-value {
+    display: table-cell;
+    font-size: 0.95em;
+    font-weight: 500;
+    color: var(--fg);
+    vertical-align: middle;
+}
+
+.cover-sponsor {
+    margin-top: 0.5em;
+}
+
+.cover-sponsor-label {
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--fg);
+    opacity: 0.45;
+    margin-bottom: 0.7em;
+}
+
+.cover-logo {
+    display: block;
+    height: 28px;
+    width: auto;
+    max-width: 200px;
+    margin: 0;
+    opacity: 0.85;
+    filter: grayscale(20%);
 }
 
 /* --- Navigācijas joslas virsraksts: mazs, kreisā puse --- */
