@@ -1,4 +1,4 @@
-## MATERIĀLU PARCIĀLIE KOFEFICIENTI ΥM
+## Materiālu parciālie koeficienti γ<sub>M</sub>
 
 
 | Pamata kombinācija: | Pamata kombinācija: |
@@ -17,7 +17,7 @@
 | Visām pārbaudēm | 1.00 |
 
 
-## KOEFICIENTA KMOD VĒRTĪBAS
+## Koeficienta k<sub>mod</sub> vērtības
 
 ![Attēls](../images/ch10/img098.png)
 
