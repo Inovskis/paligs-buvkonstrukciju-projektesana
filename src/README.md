@@ -1,6 +1,7 @@
-# Palīgs būvkonstrukciju projektēšanā
-
-Uzziņas rokasgrāmata būvkonstrukciju projektētājiem un studentiem.
+<div class="book-title-block">
+  <div class="book-title">Būvkonstrukciju projektēšana. Rokasgrāmata.</div>
+  <div class="book-subtitle">Vade Mecum. Personīgas piezīmes.</div>
+</div>
 
 Šī grāmata apkopo praktisko informāciju no Eirokodeksiem un Latvijas nacionālajiem pielikumiem (LVS EN), lai atvieglotu ikdienas projektēšanas darbu. Tā nav aizstājējs standartiem, bet palīgs ātrai orientēšanai un biežāk nepieciešamo vērtību atrašanai.
 
