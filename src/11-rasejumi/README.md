@@ -1,1 +1,1 @@
-# LABĀ PRAKSE RASĒJUMU NOFORMĒŠANĀ
+# Labā prakse rasējumu noformēšanā

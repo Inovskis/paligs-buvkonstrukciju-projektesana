@@ -1,4 +1,4 @@
-## IZBŪVES KLASES
+## Izbūves klases
 
 Parasti izbūves klase (EXC) tiek noteikta identiska seku klasei CC, piemēram, EXC1 atbilst CC1, tomēr izbūves klase objekta ietvaros dažādiem elementiem var atšķirties. Tērauda elementiem izbūves klase EXC ir atkarīga ne tikai no seku klases CC, bet arī no konstrukciju izmantošanas klases SC un ražošanas klases PC.
 

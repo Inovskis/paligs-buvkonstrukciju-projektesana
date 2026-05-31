@@ -1,11 +1,10 @@
-## KONSTRUKCIJU PAŠSVARA UN APDARES SLODZES
+## Konstrukciju pašsvara un apdares slodzes
 
 Dobumotās pārseguma plātnes
 
 Pie konstrukciju pašsvara slodžu aprēķina ir būtiski ievērtēt pārseguma plātņu pašsvaru ar aizbetonētām šuvēm. Bieži katalogos ir uzrādīts paneļu pašsvars bez šuvju aizpildījuma.
 
 Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm
-
 
 | Nr. | Šķērsgriezums | H, mm | B, mm | Pašsvars (ar aizpildītām šuvēm) kN/m2 | Aizpildījuma apjoms l/m2 |
 | --- | --- | --- | --- | --- | --- |
@@ -17,7 +16,6 @@ Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm
 | 6 | HCS 500 | 500 | 1196 | 5.53 | - |
 
 Atsevišķu materiālu tilpumsvari pašsvara noteikšanai
-
 
 | Nr. | Nosaukums | Tilpumsvars, kN/m3 |
 | --- | --- | --- |

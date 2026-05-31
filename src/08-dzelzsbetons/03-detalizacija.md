@@ -1,6 +1,6 @@
-## LABAS DETALIZĀCIJAS PRAKSE PA ELEMENTU TIPIEM
+## Labas detalizācijas prakse pa elementu tipiem
 
-Plātnes
+### Plātnes
 
 Saskaņā ar LVS EN 1992-1-1 9.3.1.4 punktu plātnei gar tās brīvo (nebalstīto) malu parasti ir jābūt stiegrotai ar garenvirziena un šķērsvirziena stiegrām.
 
@@ -8,19 +8,17 @@ Saskaņā ar LVS EN 1992-1-1 9.3.1.4 punktu plātnei gar tās brīvo (nebalstīt
 
 Konstruktīvi, bez papildus analīzes garenvirzienā var paredzēt 2Ø12, šķērvirzienā stiegru diametru un soli pielietot analogu kā plātnes pamatsietam.
 
-Kolonnas
+### Kolonnas
 
 Kolonnām ar poligonālu formu katrā stūrī ir jāizvieto vismaz viena stiegra. Apaļas formas kolonnai minimālais garenstiegru skaits ir 4. Katra garenvirziena stiegra ir jāsaista ar šķērsstiegrojumu. Spiestajā zonā neviena stiegra nedrīkst atrasties tālāk par 150 mm no saistītas stiegras (LVS EN 1992-1-1 9.5.3 (6)).
 
 Šķērsstiegrojuma maksimālais solis ne lielāks par:
 
-20 garenstiegras diametriem;
+- 20 garenstiegras diametriem;
+- kolonnas mazāko dimensiju;
+- 400 mm.
 
-kolonnas mazāko dimensiju;
-
-400 mm.
-
-Sijas
+### Sijas
 
 Lai nodrošinātu betona iestrādi ar vibrēšanu parasti starp garenstiegrām nepieciešams atstāt vismaz 75 mm.
 

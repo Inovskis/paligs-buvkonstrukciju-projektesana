@@ -1,4 +1,4 @@
-## UGUNSDROŠU TĒRAUDA KONSTRUKCIJU PROJEKTĒŠANA
+## Ugunsdrošu tērauda konstrukciju projektēšana
 
 Parciālie faktori pie paaugstinātas temperatūras
 

@@ -1,6 +1,6 @@
-## SALIEKAMAIS DZELZSBETONS
+## Saliekamais dzelzsbetons
 
-Elementu izgatavošanas standarti
+### Elementu izgatavošanas standarti
 
 
 | Standarts | Nosaukums latviski | Nosaukums angliski |
@@ -8,17 +8,17 @@ Elementu izgatavošanas standarti
 | LVS EN 14992+A1:2020 | Saliekamā dzelzsbetona izstrādājumi. Sienas elementi | Precast concrete products – Wall elements |
 | LVS EN 13225 | Saliekamā dzelzsbetona izstrādājumi. Lineārie elementi | Precast concrete products – Linear structural elements |
 
-Dobumoto plātņu izgriezumu robežvērtības
+### Dobumoto plātņu izgriezumu robežvērtības
 
 ![Attēls](images/ch08/img046.png)
 
 Dimensijas pēc BETONGELEMENTBOKEN
 
-Dobumoto plātņu enkurošana iecirtumiem
+### Dobumoto plātņu enkurošana iecirtumiem
 
 ![Attēls](images/ch08/img047.png)
 
-Dobumoto paneļu ugunsizturība pēc šķērsspēka un enkurojuma
+### Dobumoto paneļu ugunsizturība pēc šķērsspēka un enkurojuma
 
 Pārbaudi definē LVS EN 1168 G pielikums.
 
@@ -36,13 +36,13 @@ Pārbaudi definē LVS EN 1168 G pielikums.
 
 ![Attēls](images/ch08/img054.png)
 
-Saliekamo dzelzsbetona elementu fasādes elementu šuvju hidroizolācija
+### Saliekamo dzelzsbetona elementu fasādes elementu šuvju hidroizolācija
 
 Prasības šuvju pildījumam pēc DIN 18540
 
 ![Attēls](images/ch08/img055.png)
 
-Maksimālie dzelzsbetona elementu gabarīti transportēšanai
+### Maksimālie dzelzsbetona elementu gabarīti transportēšanai
 
 
 | Autotransporta veids | Transportējot bez speciālās atļaujas | Transportējot bez speciālās atļaujas | Transportējot bez speciālās atļaujas | Transportējot bez speciālās atļaujas | Transportējot ar speciālo atļauju | Transportējot ar speciālo atļauju | Transportējot ar speciālo atļauju |
@@ -52,21 +52,21 @@ Maksimālie dzelzsbetona elementu gabarīti transportēšanai
 | Ar zemo treileri, JUMBO | 3000 | 2450 | 9000 | 24 | 3300 | 2750 | 9000 |
 | Ar zemās grīdas treileri, TITĀNIKS | 3800 | 1500 | 9500 | 22 | 4200 | 1500 | 9500 |
 
-Nominālie elementu balstījuma garumi
+### Nominālie elementu balstījuma garumi
 
 ![Attēls](images/ch08/img056.png)
 
-Nestspējas līknes RT un L saspriegtajām sijām
+### Nestspējas līknes RT un L saspriegtajām sijām
 
-Consolis pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50
+#### Consolis pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50
 
 ![Attēls](images/ch08/img057.png)
 
-TMB Element pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50
+#### TMB Element pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50
 
 ![Attēls](images/ch08/img058.png)
 
-Atšķelšanās spriegumi saspriegto elementu gala zonās
+### Atšķelšanās spriegumi saspriegto elementu gala zonās
 
 ![Attēls](images/ch08/img059.png)
 

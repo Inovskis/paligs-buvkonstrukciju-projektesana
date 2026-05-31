@@ -1,1 +1,1 @@
-# TĒRAUDA KONSTRUKCIJAS
+# Tērauda konstrukcijas

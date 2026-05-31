@@ -139,8 +139,8 @@ def is_known_heading(text: str, chapter_prefix: str):
     norm = normalize_heading(text)
     if norm in HEADING_ALIASES:
         norm = HEADING_ALIASES[norm]
-    if norm in SECTION_MAP:
-        return SECTION_MAP[norm]
+    # Check context-dependent FIRST — these headings appear in multiple chapters
+    # with different target files depending on which chapter is active
     if norm in CONTEXT_DEPENDENT:
         ctx = CONTEXT_DEPENDENT[norm]
         if chapter_prefix in ctx:
@@ -148,6 +148,8 @@ def is_known_heading(text: str, chapter_prefix: str):
         for prefix, path in ctx.items():
             if chapter_prefix.startswith(prefix):
                 return (path, 2)
+    if norm in SECTION_MAP:
+        return SECTION_MAP[norm]
     return (None, 0)
 
 

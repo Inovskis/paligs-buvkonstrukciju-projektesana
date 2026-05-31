@@ -1,5 +1,4 @@
-## MATERIĀLU PARCIĀLIE KOFEFICIENTI ΥM
-
+## Materiālu parciālie koeficienti ΥM
 
 | Pamata kombinācija: | Pamata kombinācija: |
 | --- | --- |
@@ -16,19 +15,17 @@
 | Ārkārtējās kombinācijās: | Ārkārtējās kombinācijās: |
 | Visām pārbaudēm | 1.00 |
 
-
-## KOEFICIENTA KMOD VĒRTĪBAS
+## Koeficienta kmod vērtības
 
 ![Attēls](images/ch10/img098.png)
 
-
-## PIEMĒRI SLODZES IEDARBĪBAS ILGUMA KLASES NOTEIKŠANAI
+## Piemēri slodzes iedarbības ilguma klases noteikšanai
 
 ![Attēls](images/ch10/img099.png)
 
 Noteikts LV nacionālajā pielikumā (LVS EN 19951-1:2005/NA:2012)
 
-LIETOJAMĪBAS KLASES
+### Lietojamības klases
 
 ![Attēls](images/ch10/img100.png)
 

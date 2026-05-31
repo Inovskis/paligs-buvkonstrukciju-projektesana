@@ -1,12 +1,10 @@
-## KLIMATISKĀS SLODZES
+## Klimatiskās slodzes
 
-
-### SNIEGA SLODZE
+### Sniega slodze
 
 Saskaņā ar LVS EN 1991-1-3/NA:2019 punktu 2.7 par projektā ievērtējamām situācijām un slodžu shēmām visā Latvijas teritorijā ir jāpielieto B1 slogojuma gadījums (notiek īpaša sniega snigšana, nav īpaši sniega sanesumi, sanesta sniega slodze apskatāma arī ārkārtas situācijā pēc vienādojuma μ1·Ce·Ct·Cesl·sk). 6.2 punktā aprakstītos sanesumus jāapskata kā projekta ievērtējamā ilgstošā / īslaicīgā situācija.
 
 A.1. tabula no LVS EN 1991-1-3
-
 
 | Normāli apstākļi | Īpaši apstākļi (Exceptional conditions) | Īpaši apstākļi (Exceptional conditions) | Īpaši apstākļi (Exceptional conditions) |
 | --- | --- | --- | --- |
@@ -19,7 +17,6 @@ A.1. tabula no LVS EN 1991-1-3
 Sniega slodze Latvijā pēc LVS EN 1991-1-3-2003-NA-2019
 
 Sniega slodžu raksturīgās vērtības uz zemes virsmas (sk) ar varbūtību 0.02 (NA 1. tabula)
-
 
 | Sniega slodzes reģions | Sk, kN/m2 |
 | --- | --- |
@@ -45,8 +42,7 @@ Koeficientu μ2 vērtības pie Latvijas sniega reģioniem no 1 līdz 5 (Sk attie
 
 ![Attēls](images/ch04/img006.png)
 
-
-### VĒJA SLODZE
+### Vēja slodze
 
 Vēja slodze Latvijā pēc LVS EN 1991-1-4:2005/NA:2011
 
@@ -61,7 +57,6 @@ Ar jūras piekrastes zonu ir jāsaprot 25 km plata zona gar Baltijas jūras kras
 ![Attēls](images/ch04/img007.png)
 
 Ilustrēti piemēri apvidus kategorijas izvēlei
-
 
 | Apvidus kategorija | Apraksts | Ilustratīvs piemērs |
 | --- | --- | --- |

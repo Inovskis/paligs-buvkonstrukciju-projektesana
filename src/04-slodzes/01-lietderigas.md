@@ -1,7 +1,6 @@
-## LIETDERĪGĀS SLODZES
+## Lietderīgās slodzes
 
 Lietderīgās slodzes pēc LVS EN 1991-1-1/NA
-
 
 | Kategorija | Raksturīgā izmantošana | qk, kN/m2 | Qk, kN | Piemērs |
 | --- | --- | --- | --- | --- |
@@ -21,12 +20,11 @@ Kategorijām no A līdz E ir iespējams veikt slodžu samazināšanu ievērtējo
 Kategorijām C un D αA≥ 0.60.
 
 
-## REKOMENDĒJAMĀS PARCIĀLO FAKTORU VĒRTĪBAS
+## Rekomendējamās parciālo faktoru vērtības
 
 Kombinē tikai tās slodzes, kas var realizēties vienlaicīgi.
 
 Kombinējot slodzes jāievērtē tabulā dotās rekomendēto parciālo koeficientu vērtības.
-
 
 | Iedarbe | Ψ0 | Ψ1 | Ψ2 |
 | --- | --- | --- | --- |

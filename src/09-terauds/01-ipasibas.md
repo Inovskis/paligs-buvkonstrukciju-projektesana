@@ -1,16 +1,16 @@
-## FIZIKĀLĀS UN MEHĀNISKĀS ĪPAŠĪBAS
+## Fizikālās un mehāniskās īpašības
 
 Plūstamības un pārraušanas pretestības konstrukciju tēraudam
 
 ![Attēls](images/ch09/img068.png)
 
-Konstrukciju tērauda konstantes
+### Konstrukciju tērauda konstantes
 
 LVS EN 1993 nosaka, ka aprēķinos ir jāpielieto šādi tērauda raksturojumi:
 
-Elastības modulis (Junga modulis) E = 210 000 N·mm-2;
+Elastības modulis (Junga modulis) E = 210 000 N·mm-2;
 
-Bīdes modulis G = E/2(1+v) ≈ 81 000 N·mm-2;
+Bīdes modulis G = E/2(1+v) ≈ 81 000 N·mm-2;
 
 Puasona koeficients v = 0.30;
 
@@ -18,8 +18,7 @@ Termiskās izplešanas koeficients α = 12·106 uz 1K;
 
 Blīvums ρ = 7850 kG·m-3.
 
-Korozivitātes klases
-
+### Korozivitātes klases
 
 | Apzīmējums pēc ISO 12944 | Ietekme | Vides piemēru apraksts, ja tā ir iekštelpās. | Vides piemēru apraksts, ja tā ir ārtelpā. |
 | --- | --- | --- | --- |
