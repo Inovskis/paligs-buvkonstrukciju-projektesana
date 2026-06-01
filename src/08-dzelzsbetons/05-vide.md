@@ -90,8 +90,32 @@ XA – ķīmisku vielu agresīva iedarbība uz betonu.
 
 **Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams**
 
-![Attēls](../images/ch08/img044.png)
+V<sub>Rd,c</sub> = C<sub>Rd,c</sub> · k · (100 ρ<sub>l</sub> f<sub>ck</sub>)<sup>1/3</sup> · b<sub>w</sub> · d
+
+kur:
+
+- **C<sub>Rd,c</sub>** — koeficients, kas iegūts no testiem (rekomendējamā vērtība 0,12)
+- **k** — izmēra faktors = 1 + √(200/d), kur d ir metros
+- **ρ<sub>l</sub>** — garenstiegrojuma īpatsvars (≤ 0,02)
+- **f<sub>ck</sub>** — betona raksturīgā spiedes stiprība
+- **b<sub>w</sub>** — mazākais sieniņas platums
+- **d** — šķērsgriezuma efektīvais augstums
 
 Vienkāršota tabulas metode robežvērtības noteikšanai, zem kuras šķērsstiegrojums nav nepieciešams:
 
-![Attēls](../images/ch08/img045.png)
+Minimālā vērtība V<sub>Rd,c</sub> = v<sub>min</sub> · b<sub>w</sub> · d
+
+**v<sub>min</sub> vērtības (N/mm²):**
+
+<table>
+<colgroup><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"></colgroup>
+<thead>
+<tr><th>Betona klase</th><th>d = 200</th><th>d = 400</th><th>d = 600</th><th>d = 800</th></tr>
+</thead>
+<tbody>
+<tr><td>C20</td><td>0,44</td><td>0,35</td><td>0,25</td><td>0,29</td></tr>
+<tr><td>C40</td><td>0,63</td><td>0,49</td><td>0,44</td><td>0,41</td></tr>
+<tr><td>C60</td><td>0,77</td><td>0,61</td><td>0,54</td><td>0,50</td></tr>
+<tr><td>C80</td><td>0,89</td><td>0,70</td><td>0,62</td><td>0,58</td></tr>
+</tbody>
+</table>

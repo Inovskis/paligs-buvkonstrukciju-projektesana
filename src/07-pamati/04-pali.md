@@ -57,4 +57,16 @@ d<sub>nom</sub> > 1000 mm, tad d = d<sub>nom</sub> – 50 mm.
 
 **Nestspējas aprēķins no CPT datiem (shēma pēc Niaziand Mayne**
 
-![Attēls](../images/ch07/img033.png)
+**Pāļu nestspējas noteikšana no CPT parametriem** (pēc Niazi un Mayne)
+
+**1. Tiešās metodes (Direct Methods)**
+
+- **Tīri empīriskās metodes** — q<sub>s</sub> un q<sub>b</sub> novērtējums tieši no q<sub>c</sub> (vai q<sub>t</sub>) un/vai f<sub>s</sub>, u<sub>2</sub>
+- **Daļēji empīriskās metodes** — q<sub>s</sub> un q<sub>b</sub> novērtējums no q<sub>c</sub> (vai q<sub>t</sub>) un/vai f<sub>s</sub> ar papildu parametriem: σ<sub>r</sub>, δ, φ′, K, σ′<sub>v0</sub>, L, d, s<sub>u</sub>, I<sub>D</sub>
+
+**2. Racionālās (netiešās) metodes (Rational/Indirect Methods)**
+
+| Pieeja | Sānu pretestība q<sub>s</sub> | Bāzes pretestība q<sub>b</sub> |
+|---|---|---|
+| **Kopējo spriegumu pieeja** (Total Stress) | α-metodes; parametri: s<sub>u</sub>, σ′<sub>v0</sub>, OCR, I<sub>p</sub>, L | Nedrenēta slogošana smalkgraudainām gruntīm; parametrs: s<sub>u</sub> |
+| **Efektīvo spriegumu pieeja** (Effective Stress) | β-metodes; parametri: σ<sub>r</sub>, δ, φ′, OCR, K, σ′<sub>v0</sub>, L, d, s<sub>u</sub>, I<sub>D</sub>, s<sub>t</sub>, I<sub>p</sub> | Drenēta slogošana smalk- un rupjgraudainām gruntīm; parametri: φ′, σ′<sub>v0</sub>, L, d, I<sub>D</sub> |
