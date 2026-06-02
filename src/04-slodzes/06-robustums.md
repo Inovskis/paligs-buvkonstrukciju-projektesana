@@ -26,8 +26,24 @@ Robustuma nodrošinājums ēkām ar Seku klasi CC3.
 
 **Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz kolonnām**
 
-![Attēls](../images/ch04/img010.png)
+- Pārseguma iekšējās saites: T<sub>i</sub> = 0,8 · (g<sub>k</sub> + ψ · q<sub>k</sub>) · s · L ≥ 75 kN
+- Pārseguma perimetra saites: T<sub>p</sub> = 0,4 · (g<sub>k</sub> + ψ · q<sub>k</sub>) · s · L ≥ 75 kN
+
+kur **s** — solis starp saitēm; **L** — saites laidums.
+
+![Attēls](../images/ch04/img010_diagram.png)
+
+**Apzīmējumi:** (a) — saites laidums L; (b) — sijas vai plātnes stiegrojums, kas pilda saites funkciju; (c) — perimetra saite; (d) — saites enkurojums kolonnā
 
 **Prasības horizontālajām saitēm pārsegumiem, kas balstīti uz sienām**
 
-![Attēls](../images/ch04/img011.png)
+- Iekšējās saites: T<sub>i</sub> = (F<sub>t</sub> / 37,5) · (g<sub>k</sub> + ψ · q<sub>k</sub>) · z
+- Perimetra saites: T<sub>p</sub> = F<sub>t</sub>
+
+kur:
+
+- F<sub>t</sub> = 20 + 4 · n<sub>s</sub> ≤ 60 kN
+- **n<sub>s</sub>** — stāvu skaits
+- z = L ≤ 5 · H
+
+![Attēls](../images/ch04/img011_diagram.png)
