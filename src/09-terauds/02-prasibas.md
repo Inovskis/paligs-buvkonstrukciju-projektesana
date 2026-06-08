@@ -28,17 +28,29 @@ Tērauda konstrukciju projektēšanā un izgatavošanā piemērojamas papildu pr
 
 **Ekspluatācijas kategorijas ar piemēriem**
 
-| Kategorija | Kritēriji |
-|---|---|
-| SC1 | Konstrukcijas un elementi, kas projektēti tikai kvazistatiskām iedarbēm, piemēram, ēkas |
-| SC2 | Konstrukcijas un elementi, kas projektēti noguruma iedarbēm pēc EN 1993, piemēram, tilti, vai kas atrodas rajonos ar vidēju/augstu seismisko aktivitāti |
+<table>
+<colgroup><col style="width:15%"><col style="width:85%"></colgroup>
+<thead>
+<tr><th>Kategorija</th><th>Kritēriji</th></tr>
+</thead>
+<tbody>
+<tr><td>SC1</td><td>Konstrukcijas un elementi, kas projektēti tikai kvazistatiskām iedarbēm, piemēram, ēkas</td></tr>
+<tr><td>SC2</td><td>Konstrukcijas un elementi, kas projektēti noguruma iedarbēm pēc EN 1993, piemēram, tilti, vai kas atrodas rajonos ar vidēju/augstu seismisko aktivitāti</td></tr>
+</tbody>
+</table>
 
 **Izgatavošanas kategorijas**
 
-| Kategorija | Kritēriji |
-|---|---|
-| PC1 | Nemetinātie komponenti vai metinātie komponenti no tērauda klasēm zemākām par S355 |
-| PC2 | Metinātie komponenti no tērauda klasēm S355 un augstākām |
+<table>
+<colgroup><col style="width:15%"><col style="width:85%"></colgroup>
+<thead>
+<tr><th>Kategorija</th><th>Kritēriji</th></tr>
+</thead>
+<tbody>
+<tr><td>PC1</td><td>Nemetinātie komponenti vai metinātie komponenti no tērauda klasēm zemākām par S355</td></tr>
+<tr><td>PC2</td><td>Metinātie komponenti no tērauda klasēm S355 un augstākām</td></tr>
+</tbody>
+</table>
 
 **Vides korozivitātes kategorijas (klases)**
 
@@ -46,24 +58,36 @@ Kategoriju norādīt paskaidrojuma rakstā.
 
 Pēc ISO 12944-2 atmosfēras korozivitāte iedalīta sešās kategorijās:
 
-| Klase | Korozivitāte |
-|---|---|
-| C1 | Ļoti zema |
-| C2 | Zema |
-| C3 | Vidēja |
-| C4 | Augsta |
-| C5-I | Ļoti augsta (rūpnieciskā) |
-| C5-M | Ļoti augsta (jūras) |
+<table>
+<colgroup><col style="width:15%"><col style="width:85%"></colgroup>
+<thead>
+<tr><th>Klase</th><th>Korozivitāte</th></tr>
+</thead>
+<tbody>
+<tr><td>C1</td><td>Ļoti zema</td></tr>
+<tr><td>C2</td><td>Zema</td></tr>
+<tr><td>C3</td><td>Vidēja</td></tr>
+<tr><td>C4</td><td>Augsta</td></tr>
+<tr><td>C5-I</td><td>Ļoti augsta (rūpnieciskā)</td></tr>
+<tr><td>C5-M</td><td>Ļoti augsta (jūras)</td></tr>
+</tbody>
+</table>
 
 Klasifikācija balstīta uz tērauda un cinka korozijas ātrumu pirmajā ekspozīcijas gadā.
 
 ISO 12944-2 nosaka trīs korozivitātes kategorijas konstrukcijām, kas iegremdētas ūdenī vai apraktas gruntī:
 
-| Klase | Apraksts |
-|---|---|
-| Im1 | Iegremdēšana saldūdenī: upes, hidroelektrostacijas |
-| Im2 | Iegremdēšana jūras vai sāļajā ūdenī: ostas konstrukcijas |
-| Im3 | Aprakšana gruntī: apakšzemes konteineri, tērauda sijas |
+<table>
+<colgroup><col style="width:15%"><col style="width:85%"></colgroup>
+<thead>
+<tr><th>Klase</th><th>Apraksts</th></tr>
+</thead>
+<tbody>
+<tr><td>Im1</td><td>Iegremdēšana saldūdenī: upes, hidroelektrostacijas</td></tr>
+<tr><td>Im2</td><td>Iegremdēšana jūras vai sāļajā ūdenī: ostas konstrukcijas</td></tr>
+<tr><td>Im3</td><td>Aprakšana gruntī: apakšzemes konteineri, tērauda sijas</td></tr>
+</tbody>
+</table>
 
 **Aizsargpārklājuma kalpošanas laiks**
 
@@ -71,11 +95,17 @@ Aizsargpārklājuma kalpošanas laiks norādāms paskaidrojuma rakstā.
 
 Kalpošanas ilgums (izturība) definēts kā vēlamais laika periods līdz pirmajai uzturēšanas krāsošanai. Tas nav garantijas laiks.
 
-| Kategorija | Kalpošanas ilgums |
-|---|---|
-| Zems (L) | 2–5 gadi |
-| Vidējs (M) | 5–15 gadi |
-| Augsts (H) | > 15 gadi |
+<table>
+<colgroup><col style="width:30%"><col style="width:70%"></colgroup>
+<thead>
+<tr><th>Kategorija</th><th>Kalpošanas ilgums</th></tr>
+</thead>
+<tbody>
+<tr><td>Zems (L)</td><td>2–5 gadi</td></tr>
+<tr><td>Vidējs (M)</td><td>5–15 gadi</td></tr>
+<tr><td>Augsts (H)</td><td>&gt; 15 gadi</td></tr>
+</tbody>
+</table>
 
 Kalpošanas ilgums nav "garantijas diapazons". Tas ir tehnisks apsvērums, kas palīdz īpašniekam plānot uzturēšanas programmu. Garantijas periods parasti ir īsāks par kalpošanas ilgumu — starp abiem nav noteiktas saistības.
 

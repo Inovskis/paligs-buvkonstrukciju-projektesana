@@ -3,10 +3,16 @@
 **Elementu izgatavošanas standarti**
 
 
-| Standarts | Nosaukums latviski | Nosaukums angliski |
-| --- | --- | --- |
-| LVS EN 14992+A1:2020 | Saliekamā dzelzsbetona izstrādājumi. Sienas elementi | Precast concrete products – Wall elements |
-| LVS EN 13225 | Saliekamā dzelzsbetona izstrādājumi. Lineārie elementi | Precast concrete products – Linear structural elements |
+<table>
+<colgroup><col style="width:20%"><col style="width:40%"><col style="width:40%"></colgroup>
+<thead>
+<tr><th>Standarts</th><th>Nosaukums latviski</th><th>Nosaukums angliski</th></tr>
+</thead>
+<tbody>
+<tr><td>LVS EN 14992+A1:2020</td><td>Saliekamā dzelzsbetona izstrādājumi. Sienas elementi</td><td>Precast concrete products – Wall elements</td></tr>
+<tr><td>LVS EN 13225</td><td>Saliekamā dzelzsbetona izstrādājumi. Lineārie elementi</td><td>Precast concrete products – Linear structural elements</td></tr>
+</tbody>
+</table>
 
 **Dobumoto plātņu izgriezumu robežvērtības**
 

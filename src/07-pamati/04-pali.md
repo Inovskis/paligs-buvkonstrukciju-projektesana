@@ -66,7 +66,13 @@ d<sub>nom</sub> > 1000 mm, tad d = d<sub>nom</sub> – 50 mm.
 
 **2. Racionālās (netiešās) metodes (Rational/Indirect Methods)**
 
-| Pieeja | Sānu pretestība q<sub>s</sub> | Bāzes pretestība q<sub>b</sub> |
-|---|---|---|
-| **Kopējo spriegumu pieeja** (Total Stress) | α-metodes; parametri: s<sub>u</sub>, σ′<sub>v0</sub>, OCR, I<sub>p</sub>, L | Nedrenēta slogošana smalkgraudainām gruntīm; parametrs: s<sub>u</sub> |
-| **Efektīvo spriegumu pieeja** (Effective Stress) | β-metodes; parametri: σ<sub>r</sub>, δ, φ′, OCR, K, σ′<sub>v0</sub>, L, d, s<sub>u</sub>, I<sub>D</sub>, s<sub>t</sub>, I<sub>p</sub> | Drenēta slogošana smalk- un rupjgraudainām gruntīm; parametri: φ′, σ′<sub>v0</sub>, L, d, I<sub>D</sub> |
+<table>
+<colgroup><col style="width:18%"><col style="width:44%"><col style="width:38%"></colgroup>
+<thead>
+<tr><th>Pieeja</th><th>Sānu pretestība q<sub>s</sub></th><th>Bāzes pretestība q<sub>b</sub></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Kopējo spriegumu pieeja</strong> (Total Stress)</td><td>α-metodes; parametri: s<sub>u</sub>, σ′<sub>v0</sub>, OCR, I<sub>p</sub>, L</td><td>Nedrenēta slogošana smalkgraudainām gruntīm; parametrs: s<sub>u</sub></td></tr>
+<tr><td><strong>Efektīvo spriegumu pieeja</strong> (Effective Stress)</td><td>β-metodes; parametri: σ<sub>r</sub>, δ, φ′, OCR, K, σ′<sub>v0</sub>, L, d, s<sub>u</sub>, I<sub>D</sub>, s<sub>t</sub>, I<sub>p</sub></td><td>Drenēta slogošana smalk- un rupjgraudainām gruntīm; parametri: φ′, σ′<sub>v0</sub>, L, d, I<sub>D</sub></td></tr>
+</tbody>
+</table>

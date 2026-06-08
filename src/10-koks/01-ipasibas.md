@@ -4,40 +4,76 @@ Stiprības klašu apzīmējums: **C** — skujkoki un papele, **D** — lapkoki.
 
 ### Skujkoki un papele (C klase)
 
-| Īpašība | Apz. | C14 | C16 | C18 | C20 | C22 | C24 | C27 | C30 | C35 | C40 | C45 | C50 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Stiprības īpašības (N/mm²)** | | | | | | | | | | | | | |
-| Liece | f<sub>m,k</sub> | 14 | 16 | 18 | 20 | 22 | 24 | 27 | 30 | 35 | 40 | 45 | 50 |
-| Stiepe šķiedrām | f<sub>t,0,k</sub> | 8 | 10 | 11 | 12 | 13 | 14 | 16 | 18 | 21 | 24 | 27 | 30 |
-| Stiepe perp. šķiedrām | f<sub>t,90,k</sub> | 0,4 | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 | 0,6 | 0,6 | 0,6 | 0,6 | 0,6 | 0,6 |
-| Spiede šķiedrām | f<sub>c,0,k</sub> | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 25 | 26 | 27 | 29 |
-| Spiede perp. šķiedrām | f<sub>c,90,k</sub> | 2,0 | 2,2 | 2,2 | 2,3 | 2,4 | 2,5 | 2,6 | 2,7 | 2,8 | 2,9 | 3,1 | 3,2 |
-| Bīde | f<sub>v,k</sub> | 1,7 | 1,8 | 2,0 | 2,2 | 2,4 | 2,5 | 2,8 | 3,0 | 3,4 | 3,8 | 3,8 | 3,8 |
-| **Stinguma īpašības (kN/mm²)** | | | | | | | | | | | | | |
-| E vidējais | E<sub>0,mean</sub> | 7 | 8 | 9 | 9,5 | 10 | 11 | 11,5 | 12 | 13 | 14 | 15 | 16 |
-| E 5% kvantile | E<sub>0,05</sub> | 4,7 | 5,4 | 6,0 | 6,4 | 6,7 | 7,4 | 7,7 | 8,0 | 8,7 | 9,4 | 10,0 | 10,7 |
-| E perp. vidējais | E<sub>90,mean</sub> | 0,23 | 0,27 | 0,30 | 0,32 | 0,33 | 0,37 | 0,38 | 0,40 | 0,43 | 0,47 | 0,50 | 0,53 |
-| Bīdes modulis | G<sub>mean</sub> | 0,44 | 0,5 | 0,56 | 0,59 | 0,63 | 0,69 | 0,72 | 0,75 | 0,81 | 0,88 | 0,94 | 1,00 |
-| **Blīvums (kg/m³)** | | | | | | | | | | | | | |
-| Raksturīgais | ρ<sub>k</sub> | 290 | 310 | 320 | 330 | 340 | 350 | 370 | 380 | 400 | 420 | 440 | 460 |
-| Vidējais | ρ<sub>mean</sub> | 350 | 370 | 380 | 390 | 400 | 420 | 450 | 460 | 480 | 500 | 520 | 550 |
+<table>
+<colgroup>
+<col style="width:20%">
+<col style="width:8%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+<col style="width:6%">
+</colgroup>
+<thead>
+<tr><th>Īpašība</th><th>Apz.</th><th>C14</th><th>C16</th><th>C18</th><th>C20</th><th>C22</th><th>C24</th><th>C27</th><th>C30</th><th>C35</th><th>C40</th><th>C45</th><th>C50</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="14"><strong>Stiprības īpašības (N/mm²)</strong></td></tr>
+<tr><td>Liece</td><td>f<sub>m,k</sub></td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td><td>24</td><td>27</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td></tr>
+<tr><td>Stiepe šķiedrām</td><td>f<sub>t,0,k</sub></td><td>8</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>16</td><td>18</td><td>21</td><td>24</td><td>27</td><td>30</td></tr>
+<tr><td>Stiepe perp. šķiedrām</td><td>f<sub>t,90,k</sub></td><td>0,4</td><td>0,5</td><td>0,5</td><td>0,5</td><td>0,5</td><td>0,5</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td></tr>
+<tr><td>Spiede šķiedrām</td><td>f<sub>c,0,k</sub></td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>25</td><td>26</td><td>27</td><td>29</td></tr>
+<tr><td>Spiede perp. šķiedrām</td><td>f<sub>c,90,k</sub></td><td>2,0</td><td>2,2</td><td>2,2</td><td>2,3</td><td>2,4</td><td>2,5</td><td>2,6</td><td>2,7</td><td>2,8</td><td>2,9</td><td>3,1</td><td>3,2</td></tr>
+<tr><td>Bīde</td><td>f<sub>v,k</sub></td><td>1,7</td><td>1,8</td><td>2,0</td><td>2,2</td><td>2,4</td><td>2,5</td><td>2,8</td><td>3,0</td><td>3,4</td><td>3,8</td><td>3,8</td><td>3,8</td></tr>
+<tr><td colspan="14"><strong>Stinguma īpašības (kN/mm²)</strong></td></tr>
+<tr><td>E vidējais</td><td>E<sub>0,mean</sub></td><td>7</td><td>8</td><td>9</td><td>9,5</td><td>10</td><td>11</td><td>11,5</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+<tr><td>E 5% kvantile</td><td>E<sub>0,05</sub></td><td>4,7</td><td>5,4</td><td>6,0</td><td>6,4</td><td>6,7</td><td>7,4</td><td>7,7</td><td>8,0</td><td>8,7</td><td>9,4</td><td>10,0</td><td>10,7</td></tr>
+<tr><td>E perp. vidējais</td><td>E<sub>90,mean</sub></td><td>0,23</td><td>0,27</td><td>0,30</td><td>0,32</td><td>0,33</td><td>0,37</td><td>0,38</td><td>0,40</td><td>0,43</td><td>0,47</td><td>0,50</td><td>0,53</td></tr>
+<tr><td>Bīdes modulis</td><td>G<sub>mean</sub></td><td>0,44</td><td>0,5</td><td>0,56</td><td>0,59</td><td>0,63</td><td>0,69</td><td>0,72</td><td>0,75</td><td>0,81</td><td>0,88</td><td>0,94</td><td>1,00</td></tr>
+<tr><td colspan="14"><strong>Blīvums (kg/m³)</strong></td></tr>
+<tr><td>Raksturīgais</td><td>ρ<sub>k</sub></td><td>290</td><td>310</td><td>320</td><td>330</td><td>340</td><td>350</td><td>370</td><td>380</td><td>400</td><td>420</td><td>440</td><td>460</td></tr>
+<tr><td>Vidējais</td><td>ρ<sub>mean</sub></td><td>350</td><td>370</td><td>380</td><td>390</td><td>400</td><td>420</td><td>450</td><td>460</td><td>480</td><td>500</td><td>520</td><td>550</td></tr>
+</tbody>
+</table>
 
 ### Lapkoki (D klase)
 
-| Īpašība | Apz. | D30 | D35 | D40 | D50 | D60 | D70 |
-|---|---|---|---|---|---|---|---|
-| **Stiprības īpašības (N/mm²)** | | | | | | | |
-| Liece | f<sub>m,k</sub> | 30 | 35 | 40 | 50 | 60 | 70 |
-| Stiepe šķiedrām | f<sub>t,0,k</sub> | 18 | 21 | 24 | 30 | 36 | 42 |
-| Stiepe perp. šķiedrām | f<sub>t,90,k</sub> | 0,6 | 0,6 | 0,6 | 0,6 | 0,6 | 0,6 |
-| Spiede šķiedrām | f<sub>c,0,k</sub> | 23 | 25 | 26 | 29 | 32 | 34 |
-| Spiede perp. šķiedrām | f<sub>c,90,k</sub> | 8,0 | 8,4 | 8,8 | 9,7 | 10,5 | 13,5 |
-| Bīde | f<sub>v,k</sub> | 3,0 | 3,4 | 3,8 | 4,6 | 5,3 | 6,0 |
-| **Stinguma īpašības (kN/mm²)** | | | | | | | |
-| E vidējais | E<sub>0,mean</sub> | 10 | 10 | 11 | 14 | 17 | 20 |
-| E 5% kvantile | E<sub>0,05</sub> | 8,0 | 8,7 | 9,4 | 11,8 | 14,3 | 16,8 |
-| E perp. vidējais | E<sub>90,mean</sub> | 0,64 | 0,69 | 0,75 | 0,93 | 1,13 | 1,33 |
-| Bīdes modulis | G<sub>mean</sub> | 0,60 | 0,65 | 0,70 | 0,88 | 1,06 | 1,25 |
-| **Blīvums (kg/m³)** | | | | | | | |
-| Raksturīgais | ρ<sub>k</sub> | 530 | 560 | 590 | 650 | 700 | 900 |
-| Vidējais | ρ<sub>mean</sub> | 640 | 670 | 700 | 780 | 840 | 1080 |
+<table>
+<colgroup>
+<col style="width:20%">
+<col style="width:8%">
+<col style="width:12%">
+<col style="width:12%">
+<col style="width:12%">
+<col style="width:12%">
+<col style="width:12%">
+<col style="width:12%">
+</colgroup>
+<thead>
+<tr><th>Īpašība</th><th>Apz.</th><th>D30</th><th>D35</th><th>D40</th><th>D50</th><th>D60</th><th>D70</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="8"><strong>Stiprības īpašības (N/mm²)</strong></td></tr>
+<tr><td>Liece</td><td>f<sub>m,k</sub></td><td>30</td><td>35</td><td>40</td><td>50</td><td>60</td><td>70</td></tr>
+<tr><td>Stiepe šķiedrām</td><td>f<sub>t,0,k</sub></td><td>18</td><td>21</td><td>24</td><td>30</td><td>36</td><td>42</td></tr>
+<tr><td>Stiepe perp. šķiedrām</td><td>f<sub>t,90,k</sub></td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td><td>0,6</td></tr>
+<tr><td>Spiede šķiedrām</td><td>f<sub>c,0,k</sub></td><td>23</td><td>25</td><td>26</td><td>29</td><td>32</td><td>34</td></tr>
+<tr><td>Spiede perp. šķiedrām</td><td>f<sub>c,90,k</sub></td><td>8,0</td><td>8,4</td><td>8,8</td><td>9,7</td><td>10,5</td><td>13,5</td></tr>
+<tr><td>Bīde</td><td>f<sub>v,k</sub></td><td>3,0</td><td>3,4</td><td>3,8</td><td>4,6</td><td>5,3</td><td>6,0</td></tr>
+<tr><td colspan="8"><strong>Stinguma īpašības (kN/mm²)</strong></td></tr>
+<tr><td>E vidējais</td><td>E<sub>0,mean</sub></td><td>10</td><td>10</td><td>11</td><td>14</td><td>17</td><td>20</td></tr>
+<tr><td>E 5% kvantile</td><td>E<sub>0,05</sub></td><td>8,0</td><td>8,7</td><td>9,4</td><td>11,8</td><td>14,3</td><td>16,8</td></tr>
+<tr><td>E perp. vidējais</td><td>E<sub>90,mean</sub></td><td>0,64</td><td>0,69</td><td>0,75</td><td>0,93</td><td>1,13</td><td>1,33</td></tr>
+<tr><td>Bīdes modulis</td><td>G<sub>mean</sub></td><td>0,60</td><td>0,65</td><td>0,70</td><td>0,88</td><td>1,06</td><td>1,25</td></tr>
+<tr><td colspan="8"><strong>Blīvums (kg/m³)</strong></td></tr>
+<tr><td>Raksturīgais</td><td>ρ<sub>k</sub></td><td>530</td><td>560</td><td>590</td><td>650</td><td>700</td><td>900</td></tr>
+<tr><td>Vidējais</td><td>ρ<sub>mean</sub></td><td>640</td><td>670</td><td>700</td><td>780</td><td>840</td><td>1080</td></tr>
+</tbody>
+</table>
