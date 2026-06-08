@@ -130,7 +130,9 @@ th {
     font-size: 0.85em;
     text-align: left;
     padding: 5px 8px;
-    vertical-align: top;
+    vertical-align: middle;
+    line-height: 1.2;
+    hyphens: none;
     background-color: var(--table-header-bg);
     border: 1px solid var(--table-border-color);
 }
