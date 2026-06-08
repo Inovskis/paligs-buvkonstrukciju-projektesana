@@ -6,18 +6,18 @@ Skrūvju ģeometriskie parametri, šķērsgriezuma laukumi un viena skrūves bī
 
 <table>
 <colgroup>
-  <col style="width:8%"><col style="width:8%"><col style="width:8%"><col style="width:10%"><col style="width:10%">
-  <col style="width:14%"><col style="width:14%"><col style="width:14%"><col style="width:14%">
+  <col style="width:8%"><col style="width:9%"><col style="width:9%"><col style="width:10%"><col style="width:10%">
+  <col style="width:14%"><col style="width:13%"><col style="width:14%"><col style="width:13%">
 </colgroup>
 <thead>
 <tr>
   <th rowspan="2">Skrūve</th>
-  <th rowspan="2">d<br>(mm)</th>
-  <th rowspan="2">d<sub>0</sub><br>(mm)</th>
-  <th rowspan="2">A<sub>s</sub><br>(mm²)</th>
-  <th rowspan="2">A<br>(mm²)</th>
-  <th colspan="2">F<sub>v,Rd</sub> (kN)</th>
-  <th colspan="2">F<sub>t,Rd</sub> (kN)</th>
+  <th rowspan="2">d,<br>mm</th>
+  <th rowspan="2">d<sub>0</sub>,<br>mm</th>
+  <th rowspan="2">A<sub>s</sub>,<br>mm²</th>
+  <th rowspan="2">A,<br>mm²</th>
+  <th colspan="2">F<sub>v,Rd</sub>, kN</th>
+  <th colspan="2">F<sub>t,Rd</sub>, kN</th>
 </tr>
 <tr>
   <th>8.8</th><th>10.9</th><th>8.8</th><th>10.9</th>
