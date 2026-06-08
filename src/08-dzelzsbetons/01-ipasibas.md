@@ -7,7 +7,7 @@ Betona stiprības un deformācijas raksturlielumi pēc LVS EN 1992-1-1 3.1. tabu
 <div style="font-size:0.78em">
 <table style="font-size:1em">
 <colgroup>
-  <col style="width:9%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:16%">
+  <col style="width:8%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:5%"><col style="width:22%">
 </colgroup>
 <thead>
 <tr>
