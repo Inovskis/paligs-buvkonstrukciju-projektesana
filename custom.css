@@ -148,6 +148,11 @@ tr:nth-child(even) td {
     background-color: var(--quote-bg);
 }
 
+/* Pirmās kolonnas šūnas vienā rindā (piem. skrūvju marķējumi M12, M16) */
+.nowrap-first td:first-child {
+    white-space: nowrap;
+}
+
 /* --- Attēli: nepārplūst saturu --- */
 
 img {
