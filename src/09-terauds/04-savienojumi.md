@@ -4,7 +4,7 @@
 
 Skrūvju ģeometriskie parametri, šķērsgriezuma laukumi un viena skrūves bīdes un stiepes nestspējas klasēm 8.8 un 10.9 pēc LVS EN 1993-1-8 (3.4. tabula).
 
-<table>
+<table class="nowrap-first">
 <colgroup>
   <col style="width:8%"><col style="width:9%"><col style="width:9%"><col style="width:10%"><col style="width:10%">
   <col style="width:14%"><col style="width:13%"><col style="width:14%"><col style="width:13%">
