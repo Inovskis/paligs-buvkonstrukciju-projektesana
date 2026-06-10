@@ -1,7 +1,7 @@
-## KLIMATISKĀS SLODZES
+## Klimatiskās slodzes
 
 
-### SNIEGA SLODZE
+### Sniega slodze
 
 Saskaņā ar LVS EN 1991-1-3/NA:2019 punktu 2.7 par projektā ievērtējamām situācijām un slodžu shēmām visā Latvijas teritorijā ir jāpielieto B1 slogojuma gadījums (notiek īpaša sniega snigšana, nav īpaši sniega sanesumi, sanesta sniega slodze apskatāma arī ārkārtas situācijā pēc vienādojuma μ<sub>1</sub>·C<sub>e</sub>·C<sub>t</sub>·C<sub>esl</sub>·s<sub>k</sub>). 6.2 punktā aprakstītos sanesumus jāapskata kā projekta ievērtējamā ilgstošā / īslaicīgā situācija.
 
@@ -46,7 +46,7 @@ Vēja apstākļos sniega sanesumi var veidoties uz jebkura jumta, kuram ir šķ�
 ![Attēls](../images/ch04/img006.png)
 
 
-### VĒJA SLODZE
+### Vēja slodze
 
 **Vēja slodze Latvijā pēc LVS EN 1991-1-4:2005/NA:2011**
 

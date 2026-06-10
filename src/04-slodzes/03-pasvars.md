@@ -1,4 +1,4 @@
-## KONSTRUKCIJU PAŠSVARA UN APDARES SLODZES
+## Konstrukciju pašsvara un apdares slodzes
 
 **Dobumotās pārseguma plātnes**
 

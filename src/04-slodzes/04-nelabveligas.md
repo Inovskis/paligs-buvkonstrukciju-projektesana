@@ -1,4 +1,4 @@
-## NELABVĒLĪGĀKĀS SLODZES NOTEIKŠANA
+## Nelabvēlīgākās slodzes noteikšana
 
 Vairāklaidumu sistēmā slodžu nelabvēlīgākā izvietojuma noteikšanai tradicionāli izmanto šādas shēmas:
 

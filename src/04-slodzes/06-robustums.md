@@ -1,4 +1,4 @@
-## ĒKU ROBUSTUMA NODROŠINĀJUMS
+## Ēku robustuma nodrošinājums
 
 Prasības ēku robustuma nodrošināšanai ir dotas katras konstrukciju grupas standartā, bet izvērsti tās ir aprakstītas standartā LVS EN 1991-1-7 1. Eirokodekss. Iedarbes uz konstrukcijām. 1-7. daļa: Vispārīgās iedarbes. Ārkārtas iedarbes. Seku klases ar piemēriem skatīt iepriekš materiālā (punkts 2.2).
 

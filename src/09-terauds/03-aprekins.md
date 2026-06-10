@@ -1,4 +1,4 @@
-## APRĒĶINS PĒC ROBEŽSTĀVOKĻU METODES
+## Aprēķins pēc robežstāvokļu metodes
 
 **Materiāla parciālie koeficienti**
 
@@ -29,7 +29,7 @@ X ass vienmēr ir elementa garenass.
 ![Attēls](../images/ch09/img082.png)
 
 
-## RAKSTURĪGĀS PĀRSEGUMU LAIDUMU UN AUGSTUMU ATTIECĪBAS
+## Raksturīgās pārsegumu laidumu un augstumu attiecības
 
 Dotās vērtības ir izmantojamas, lai projekta sākumstadijā aptuveni noteiktu paredzamos elementu augstumus.
 

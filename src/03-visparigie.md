@@ -1,4 +1,4 @@
-# VISPĀRĪGIE PROJEKTĒŠANAS NOSACĪJUMI
+# Vispārīgie projektēšanas nosacījumi
 
 Projekta detalizācijas pakāpi nosaka savstarpējā pasūtītāja un projektētāja uzdevumā. Saskaņā ar standarta pieņēmumu konstruktīvo shēmu izvēli un projektēšanu veic atbilstoši kvalificēti speciālisti (attiecīgi arī izbūvi un uzraudzību veic speciālisti ar atbilstošām prasmēm un pieredzi). Konstrukcijas ir jāprojektē un jābūvē tā, lai projektētajā kalpošanas laikā tiktu nodrošināts atbilstošs drošības līmenis un tās būtu ekonomiskas. Konstrukcijas ir jāprojektē ar atbilstošu nestspēju, lietojamības kritēriju izpildi un ilgmūžību. Lai nodrošinātu adekvātu konstrukciju ilgmūžību jāņem vērā:
 
@@ -19,7 +19,7 @@ Darbaspēka kvalifikācija un darbu izpildes kontroles līmenis.
 Ugunsgrēka situācijā konstrukcijām ir jānodrošina nestspēja nepieciešamajam laika periodam. Konstrukcijām nedrīkst rasties neatbilstoši lieli bojājumi no ārkārtas iedarbēm.
 
 
-## VISPĀRĪGIE PROJEKTA DATI
+## Vispārīgie projekta dati
 
 Pārskatāma un precīza vispārīgo datu lapa ļoti būtiska ir ne tikai būvdarbu izpildītājam, bet arī izstrādātājam, lai darba procesā pie neskaidrībām var tajā atkārtoti ielūkoties un pieņēmumi būtu vienādi visa projekta ietvaros.
 
@@ -38,7 +38,7 @@ Pārskatāma un precīza vispārīgo datu lapa ļoti būtiska ir ne tikai būvda
 | Inspekcijas līmenis | 1 | 2 | 3 |
 
 
-## SEKU KLASES
+## Seku klases
 
 
 <table>
@@ -58,7 +58,7 @@ Pārskatāma un precīza vispārīgo datu lapa ļoti būtiska ir ne tikai būvda
 </table>
 
 
-## DROŠĪBAS KLASES
+## Drošības klases
 
 Ēku drošības klases (RC) atbilst ēku seku klasēm. RC1 atbilst CC1, RC2 atbilst CC2 un RC3 atbilst CC3. Ēku drošības klases tiek aprakstītas ar drošības indeksu β. Drošuma jeb uzticamības indekss tiek izmantots konstrukcijas sabrukuma iestāšanās varbūtības aprēķināšanai un ir aprakstāms ar funkciju: Pf=Ф(-β). Praksē izmanto vienkāršotu paņēmienu drošības līmeņa koriģēšanai lietojot korekcijas koeficientu K<sub>FI</sub>. Ar koeficientu koriģē slodžu drošības koeficientu γ<sub>F</sub> un materiālu drošības koeficientu γ<sub>M</sub>.
 
@@ -69,7 +69,7 @@ Pārskatāma un precīza vispārīgo datu lapa ļoti būtiska ir ne tikai būvda
 | K<sub>FI</sub> | 0.9 | 1.0 | 1.1 |
 
 
-## PROJEKTĒŠANAS KONTROLES LĪMENIS
+## Projektēšanas kontroles līmenis
 
 Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klasei. Latvijā noteikts, ka obligāta trešās puses ekspertīze ir III grupas būvēm, atbilstoši šīm ēkām projektēšanas kontroles līmenis ir DSL3. Pārējiem līmeņiem Latvijas normatīvie akti nenosaka prasības prasības projektēšanas kontrolei.
 
@@ -91,7 +91,7 @@ Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klas
 </table>
 
 
-## BŪVDARBU UZRAUDZĪBAS LĪMEŅI
+## Būvdarbu uzraudzības līmeņi
 
 **Tabula pēc LVS EN 1990 B pielikuma**
 
@@ -113,7 +113,7 @@ Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klas
 </table>
 
 
-## EKSPLUATĀCIJAS ILGUMA KATEGORIJAS
+## Ekspluatācijas ilguma kategorijas
 
 
 <table>

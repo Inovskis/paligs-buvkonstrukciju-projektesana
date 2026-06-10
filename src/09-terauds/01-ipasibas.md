@@ -1,4 +1,4 @@
-## FIZIKĀLĀS UN MEHĀNISKĀS ĪPAŠĪBAS
+## Fizikālās un mehāniskās īpašības
 
 **Plūstamības un pārraušanas pretestības konstrukciju tēraudam**
 

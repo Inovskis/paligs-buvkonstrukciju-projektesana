@@ -1,4 +1,4 @@
-# DELZSBETONA KONSTRUKCIJAS
+# Dzelzsbetona konstrukcijas
 
 
 ## Vispārīgi principi

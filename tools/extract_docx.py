@@ -281,6 +281,17 @@ def main():
                 if current_file not in file_contents:
                     file_contents[current_file] = []
                 clean = re.sub(r'^\d+(\.\d+)*\.?\s*', '', text.strip())
+                # Sentence case: avota dokumentā virsraksti ir ALL CAPS, bet grāmatā
+                # lietojam sentence case (pirmais burts liels, pārējie mazie)
+                if clean and all(c.isupper() for c in clean if c.isalpha()):
+                    low = clean.lower()
+                    out, capped = [], False
+                    for c in low:
+                        if not capped and c.isalpha():
+                            out.append(c.upper()); capped = True
+                        else:
+                            out.append(c)
+                    clean = ''.join(out).replace('Delzsbetona', 'Dzelzsbetona')
                 hashes = '#' * new_level
                 file_contents[current_file].append(f"\n{hashes} {clean}\n\n")
             else:

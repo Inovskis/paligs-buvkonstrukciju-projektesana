@@ -1,4 +1,4 @@
-## SIJU IZLIEČU ROBEŽLIELUMI
+## Siju izlieču robežlielumi
 
 Vertikālo pārvietojumu robežvērtības pieņemtas pēc LVS EN 1995-1-1 pirmās paaudzes nacionālā pielikuma punkta 2.3 7.2 tabulas Deformāciju robežlielumi (Limiting values for deflections).
 

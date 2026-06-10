@@ -1,4 +1,4 @@
-## KOPŅU PROJEKTĒŠANA
+## Kopņu projektēšana
 
 **Ģeometrisko parametru ierobežojumi cauruļprofilu kopnēm**
 

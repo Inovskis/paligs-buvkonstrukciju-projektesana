@@ -1,4 +1,4 @@
-## IZMĒRU LĪNIJAS
+## Izmēru līnijas
 
 Izmēru līnijas ir grafisks elements, kas strukturālajos rasējumos norāda konstrukciju un to elementu gabarītus, atstatumu starp asīm un būvdaļu novietojumu. Precīzas izmēru līnijas ir priekšnoteikums, lai rasējums kalpotu kā darba dokuments — bez mērogošanas vai pieņēmumiem izpildes brīdī. Tās izvietojamas ārpus konstrukcijas kontūras, nepārklājoties ar attēlotajiem elementiem, un annotiācija vienmēr jāorientē ērti nolasāmā virzienā.
 

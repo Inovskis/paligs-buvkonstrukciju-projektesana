@@ -1,1 +1,1 @@
-# PAMATI UN PAMATNE
+# Pamati un pamatne
