@@ -1,4 +1,4 @@
-## BETONA CIETĒŠANA
+## Betona cietēšana
 
 Betona cietēšanas ātrums ir atkarīgs no cementa tipa, temperatūras, ūdens / cementa attiecības un mitruma cietēšanas laikā. EN 206 ir dotas šādas aptuvenās procentuālās vērtības:
 
@@ -29,7 +29,7 @@ Betona cietēšanas ātrums ir atkarīgs no cementa tipa, temperatūras, ūdens 
 Saliekamā dzelzsbetona ražotāji biežāk lieto R tipa cementus, kas izteikti ātrāk cietē.
 
 
-## VIDES IEDARBĪBAS KLASES
+## Vides iedarbības klases
 
 LVS EN 206 ir definētas šādas galvenās vides iedarbības klases:
 
@@ -86,7 +86,7 @@ XA – ķīmisku vielu agresīva iedarbība uz betonu.
 </table>
 
 
-## ŠĶĒRSSTIEGROJUMS
+## Šķērsstiegrojums
 
 **Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams**
 

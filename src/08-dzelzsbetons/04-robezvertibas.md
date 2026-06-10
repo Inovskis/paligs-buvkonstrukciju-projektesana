@@ -1,11 +1,11 @@
-## VERTIKĀLO PĀRVIETOJUMU ROBEŽVĒRTĪBAS
+## Vertikālo pārvietojumu robežvērtības
 
 Saskaņā ar LVS EN 1990 par lietojamām deformāciju robežvērtībām projektā ir atsevišķi jāvienojas ar klientu. LVS EN 1992-1-1 punktā 7.4.1 noteikts, ka vērtībām jābūt tādām, lai tās nodrošinātu normālu ēkas ekspluatāciju un tās ir pārņemtas no ISO 4356 standarta.
 
 Deformāciju robežvērtība no kvazipastāvīgās slodžu kombinācijas, kas nodrošina apmierinošu izskatu un normālu ekspluatāciju ir w<sub>max</sub> = L / 250. Pēc trauslu konstrukciju izbūves slodzes izlieces pieauguma robežvērtība, lai novēstu to sabojāšanu ir L / 500 no kvazipastāvīgās slodžu kombinācijas.
 
 
-## PLAISU PLATUMU ROBEŽVĒRTĪBAS
+## Plaisu platumu robežvērtības
 
 
 <table>
@@ -28,7 +28,7 @@ Deformāciju robežvērtība no kvazipastāvīgās slodžu kombinācijas, kas no
 Pievērst uzmanību, ka saspriegtie elementi ir pārbaudāmi pēc biežāk sastopamās slodzes kombinācijas nevis kvazipastāvīgās slodzes kombinācijas. Šis bieži tiek ignorēts.
 
 
-## GALVENIE NACIONĀLI NOTEIKTIE PARAMETRI
+## Galvenie nacionāli noteiktie parametri
 
 **NA. 2.2. Spiedes un stiepes stiprības aprēķina vērtība (design compressive and tensile strengths)**
 

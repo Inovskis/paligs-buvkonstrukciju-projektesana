@@ -1,4 +1,4 @@
-## PĀĻU PAMATI
+## Pāļu pamati
 
 **Korelācijas faktori pāļu pretestības iegūšanai no grunts pārbaudes rezultātiem**
 

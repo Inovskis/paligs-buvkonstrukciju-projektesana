@@ -1,4 +1,4 @@
-## TEHNOLOĢIJU PIELIETOJAMĪBA
+## Tehnoloģiju pielietojamība
 
 Dati no Menard Latvia, kur apkopota darbu piemērotība ģeotehniskajiem apstākļiem un būves veidiem.
 

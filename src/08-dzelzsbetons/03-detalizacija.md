@@ -1,4 +1,4 @@
-## LABAS DETALIZĀCIJAS PRAKSE PA ELEMENTU TIPIEM
+## Labas detalizācijas prakse pa elementu tipiem
 
 **Plātnes**
 

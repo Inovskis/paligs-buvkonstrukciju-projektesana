@@ -123,7 +123,7 @@ Parasti projektēšanas kontroles līmenis ir piesaistīts ēkas drošības klas
   <col style="width:70%">
 </colgroup>
 <thead>
-<tr><th>Projektētā kategorija</th><th>Paredzamais ekspluatācijas ilgums (gados)</th><th>Piemēri</th></tr>
+<tr><th>Projektētā kategorija</th><th>Paredzamais ekspluatācijas ilgums, gadi</th><th>Piemēri</th></tr>
 </thead>
 <tbody>
 <tr><td>1</td><td>10</td><td>Pagaidu konstrukcijas</td></tr>

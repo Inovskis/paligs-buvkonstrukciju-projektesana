@@ -115,7 +115,7 @@ Kalpošanas ilgums nav "garantijas diapazons". Tas ir tehnisks apsvērums, kas p
 
 <table>
 <colgroup><col style="width:65%"><col style="width:35%"></colgroup>
-<thead><tr><th>Konstrukciju elementi</th><th>Deformāciju robežvērtības (w<sub>max</sub>)</th></tr></thead>
+<thead><tr><th>Konstrukciju elementi</th><th>Deformāciju robežvērtības w<sub>max</sub></th></tr></thead>
 <tbody>
 <tr><td>Sijas, rīģeļi un kopnes:<br>— starpstāvu pārsegumos, ja L &lt; 12 m<br>— starpstāvu pārsegumos, ja 12 m &lt; L &lt; 24 m<br>— starpstāvu pārsegumos, ja L &gt; 24 m</td><td><strong>L/250</strong><br>Interpolēt<br><strong>L/300</strong></td></tr>
 <tr><td>— jumta pārsegumos, ja L &lt; 12 m<br>— jumta pārsegumos, ja 12 m ≤ L &lt; 24 m<br>— jumta pārsegumos, ja L &gt; 24 m</td><td><strong>L/200</strong><br>Interpolēt<br><strong>L/250</strong></td></tr>

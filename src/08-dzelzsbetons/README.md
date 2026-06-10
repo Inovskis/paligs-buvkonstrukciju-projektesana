@@ -1,7 +1,7 @@
 # DELZSBETONA KONSTRUKCIJAS
 
 
-## VISPĀRĪGI PRINCIPI
+## Vispārīgi principi
 
 **Tipiska slodzes attiecība pret pārbaudes robežvērtībām**
 

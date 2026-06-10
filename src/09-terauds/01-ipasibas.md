@@ -15,10 +15,10 @@
   <th colspan="2">40 mm &lt; t ≤ 80 mm</th>
 </tr>
 <tr>
-  <th>f<sub>y</sub> (N/mm²)</th>
-  <th>f<sub>u</sub> (N/mm²)</th>
-  <th>f<sub>y</sub> (N/mm²)</th>
-  <th>f<sub>u</sub> (N/mm²)</th>
+  <th>f<sub>y</sub>, N/mm²</th>
+  <th>f<sub>u</sub>, N/mm²</th>
+  <th>f<sub>y</sub>, N/mm²</th>
+  <th>f<sub>u</sub>, N/mm²</th>
 </tr>
 </thead>
 <tbody>

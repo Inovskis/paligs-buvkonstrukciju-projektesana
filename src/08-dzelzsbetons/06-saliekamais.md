@@ -1,4 +1,4 @@
-## SALIEKAMAIS DZELZSBETONS
+## Saliekamais dzelzsbetons
 
 **Elementu izgatavošanas standarti**
 

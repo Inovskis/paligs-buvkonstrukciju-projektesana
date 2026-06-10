@@ -1,4 +1,4 @@
-## VISPĀRĪGI
+## Vispārīgi
 
 Latvijā pamatu aprēķini veicami pēc DA2 (design approach 2):
 

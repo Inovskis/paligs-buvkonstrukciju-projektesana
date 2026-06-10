@@ -1,4 +1,4 @@
-## PAPILDUS PRASĪBAS PROJEKTĒŠANAI UN IZGATAVOŠANAI
+## Papildus prasības projektēšanai un izgatavošanai
 
 **Materiālu parciālie faktori**
 

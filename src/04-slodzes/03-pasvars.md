@@ -17,7 +17,7 @@ Pie konstrukciju pašsvara slodžu aprēķina ir būtiski ievērtēt pārseguma 
 <col style="width:30%">
 </colgroup>
 <thead>
-<tr><th>Nr.</th><th>Šķērsgriezums</th><th>H, mm</th><th>B, mm</th><th>Pašsvars (ar aizpildītām šuvēm) kN/m<sup>2</sup></th><th>Aizpildījuma apjoms l/m<sup>2</sup></th></tr>
+<tr><th>Nr.</th><th>Šķērsgriezums</th><th>H, mm</th><th>B, mm</th><th>Pašsvars ar šuvēm, kN/m<sup>2</sup></th><th>Aizpildījuma apjoms, l/m<sup>2</sup></th></tr>
 </thead>
 <tbody>
 <tr><td>1</td><td>HCS 200</td><td>200</td><td>1196</td><td>2.55</td><td>7.00</td></tr>

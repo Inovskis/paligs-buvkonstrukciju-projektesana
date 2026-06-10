@@ -1,4 +1,4 @@
-## STIEGROJUMA METINĀŠANAS RISINĀJUMI PĒC DIN 4099
+## Stiegrojuma metināšanas risinājumi pēc DIN 4099
 
 Pilnas stiprības savienojumi pēc DIN 4099 (testēti, nevis matemātiski aprēķināti). Visi izmēri milimetros.
 
