@@ -15,7 +15,7 @@ Tērauda konstrukciju projektēšanā un izgatavošanā piemērojamas papildu pr
 **Izbūves klases noteikšanas matrica**
 
 <table>
-<colgroup><col style="width:22%"><col style="width:10%"><col style="width:17%"><col style="width:17%"><col style="width:17%"><col style="width:17%"></colgroup>
+<colgroup><col style="width:22%"><col style="width:10%"><col style="width:11%"><col style="width:11%"><col style="width:12%"><col style="width:11%"><col style="width:11%"><col style="width:12%"></colgroup>
 <thead>
 <tr><th>Seku klase</th><th></th><th colspan="2">CC1</th><th colspan="2">CC2</th><th colspan="2">CC3</th></tr>
 <tr><th>Izmantošanas klase</th><th></th><th>SC1</th><th>SC2</th><th>SC1</th><th>SC2</th><th>SC1</th><th>SC2</th></tr>
