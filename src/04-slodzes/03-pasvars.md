@@ -9,23 +9,23 @@ Pie konstrukciju pašsvara slodžu aprēķina ir būtiski ievērtēt pārseguma 
 
 <table>
 <colgroup>
-<col style="width:5%">
-<col style="width:15%">
-<col style="width:8%">
-<col style="width:8%">
-<col style="width:34%">
-<col style="width:30%">
+<col style="width:6%">
+<col style="width:18%">
+<col style="width:10%">
+<col style="width:10%">
+<col style="width:28%">
+<col style="width:28%">
 </colgroup>
 <thead>
 <tr><th>Nr.</th><th>Šķērsgriezums</th><th>H, mm</th><th>B, mm</th><th>Pašsvars ar šuvēm, kN/m<sup>2</sup></th><th>Aizpildījuma apjoms, l/m<sup>2</sup></th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>HCS 200</td><td>200</td><td>1196</td><td>2.55</td><td>7.00</td></tr>
-<tr><td>2</td><td>HCS 220</td><td>220</td><td>1196</td><td>3.40</td><td>8.00</td></tr>
-<tr><td>3</td><td>HCS 265</td><td>265</td><td>1196</td><td>3.80</td><td>10.00</td></tr>
-<tr><td>1</td><td>HCS 320</td><td>320</td><td>1196</td><td>4.05</td><td>12.00</td></tr>
-<tr><td>5</td><td>HCS 400</td><td>400</td><td>1196</td><td>4.65</td><td>17.00</td></tr>
-<tr><td>6</td><td>HCS 500</td><td>500</td><td>1196</td><td>5.53</td><td>-</td></tr>
+<tr><td>1</td><td>HCS 200</td><td>200</td><td>1196</td><td>2,55</td><td>7,00</td></tr>
+<tr><td>2</td><td>HCS 220</td><td>220</td><td>1196</td><td>3,40</td><td>8,00</td></tr>
+<tr><td>3</td><td>HCS 265</td><td>265</td><td>1196</td><td>3,80</td><td>10,00</td></tr>
+<tr><td>4</td><td>HCS 320</td><td>320</td><td>1196</td><td>4,05</td><td>12,00</td></tr>
+<tr><td>5</td><td>HCS 400</td><td>400</td><td>1196</td><td>4,65</td><td>17,00</td></tr>
+<tr><td>6</td><td>HCS 500</td><td>500</td><td>1196</td><td>5,53</td><td>—</td></tr>
 </tbody>
 </table>
 
