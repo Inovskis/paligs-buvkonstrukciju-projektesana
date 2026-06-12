@@ -4,22 +4,23 @@ Stiprības klašu apzīmējums: **C** — skujkoki un papele, **D** — lapkoki.
 
 ### Skujkoki un papele (C klase)
 
-<table>
+<div style="font-size:0.72em">
+<table style="font-size:1em">
 <colgroup>
-<col style="width:20%">
-<col style="width:8%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
-<col style="width:6%">
+<col style="width:22%">
+<col style="width:10%">
+<col style="width:5.67%">
+<col style="width:5.67%">
+<col style="width:5.67%">
+<col style="width:5.67%">
+<col style="width:5.67%">
+<col style="width:5.67%">
+<col style="width:5.66%">
+<col style="width:5.66%">
+<col style="width:5.66%">
+<col style="width:5.66%">
+<col style="width:5.66%">
+<col style="width:5.66%">
 </colgroup>
 <thead>
 <tr><th>Īpašība</th><th>Apz.</th><th>C14</th><th>C16</th><th>C18</th><th>C20</th><th>C22</th><th>C24</th><th>C27</th><th>C30</th><th>C35</th><th>C40</th><th>C45</th><th>C50</th></tr>
@@ -42,6 +43,7 @@ Stiprības klašu apzīmējums: **C** — skujkoki un papele, **D** — lapkoki.
 <tr><td>Vidējais</td><td>ρ<sub>mean</sub></td><td>350</td><td>370</td><td>380</td><td>390</td><td>400</td><td>420</td><td>450</td><td>460</td><td>480</td><td>500</td><td>520</td><td>550</td></tr>
 </tbody>
 </table>
+</div>
 
 ### Lapkoki (D klase)
 
