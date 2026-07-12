@@ -112,15 +112,14 @@
 /* --- Tabulas: pilns platums, bez horizontālās ritjoslas --- */
 
 .table-wrapper {
-    overflow-x: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    table-layout: auto;
     font-size: 0.85em;
     margin: 1em 0;
 }
