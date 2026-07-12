@@ -7,7 +7,7 @@ Projektējot konstrukcijas ugunsgrēka ārkārtas situācijai, ir jāpārbauda t
 Ugunsizturību izsaka minūtēs un apzīmē ar trim galvenajiem kritērijiem:
 - **R (Nestspēja - Load-bearing capacity):** Konstrukcijas spēja saglabāt mehānisko izturību un nestspēju ugunsgrēka laikā bez sabrukšanas (piemēram, R60, R90). Šis kritērijs attiecas uz nesošajām kolonnām, sijām, pārsegumiem un nesošajām sienām.
 - **E (Vienotība - Integrity):** Konstrukcijas spēja novērst plaisu rašanos un liesmu vai karstu gāzu cauriekļu veidošanos (norobežojošām konstrukcijām).
-- **I (Izolācija - Insulation):** Konstrukcijas spēja ierobežot siltuma pārvadi, lai temperatūra neapsildāmajā pusē nepārsniegtu noteikto robežu (vidēji par 140 °C vai lokāli par 180 °C virs sākuma temperatūras).
+- **I (Izolācija - Insulation):** Konstrukcijas spēja ierobežot siltuma pārvadi, lai temperatūra neapsildāmajā pusē nepārsniegtu noteikto robežu (vidēji par $140\ ^\circ\text{C}$ vai lokāli par $180\ ^\circ\text{C}$ virs sākuma temperatūras).
 
 Nesošajām un norobežojošajām konstrukcijām (piemēram, pārseguma plātnēm vai ugunsdrošības sienām) parasti tiek izvirzītas apvienotās prasības, piemēram, **REI 60** vai **REI 120**.
 

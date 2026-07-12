@@ -53,7 +53,7 @@
 **7. [Dzelzsbetona konstrukcijas](08-dzelzsbetons/README.md)**
 
 - [Fizikālās un mehāniskās īpašības](08-dzelzsbetons/01-ipasibas.md)
-- [Papildus prasības projektēšanai](08-dzelzsbetons/02-prasibas.md)
+- [Papildu prasības projektēšanai](08-dzelzsbetons/02-prasibas.md)
 - [Labas detalizācijas prakse](08-dzelzsbetons/03-detalizacija.md)
 - [Robežvērtības](08-dzelzsbetons/04-robezvertibas.md)
 - [Vides iedarbības klases](08-dzelzsbetons/05-vide.md)
@@ -65,7 +65,7 @@
 **8. [Tērauda konstrukcijas](09-terauds/README.md)**
 
 - [Fizikālās un mehāniskās īpašības](09-terauds/01-ipasibas.md)
-- [Papildus prasības projektēšanai](09-terauds/02-prasibas.md)
+- [Papildu prasības projektēšanai](09-terauds/02-prasibas.md)
 - [Aprēķins pēc robežstāvokļu metodes](09-terauds/03-aprekins.md)
 - [Tērauda konstrukciju savienojumi](09-terauds/04-savienojumi.md)
 - [Kopņu projektēšana](09-terauds/05-kopnes.md)
