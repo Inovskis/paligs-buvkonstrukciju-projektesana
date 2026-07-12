@@ -180,32 +180,48 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="siju-izlieču-robežlielumi"><a class="header" href="#siju-izlieču-robežlielumi">Siju izlieču robežlielumi</a></h2>
-<p>Vertikālo pārvietojumu robežvērtības pieņemtas pēc LVS EN 1995-1-1 pirmās paaudzes nacionālā pielikuma punkta 2.3 7.2 tabulas Deformāciju robežlielumi (Limiting values for deflections).</p>
-<p><strong>Piemēri izlieču robežlielumiem</strong></p>
-<table>
-<colgroup>
-<col style="width:46%">
-<col style="width:18%">
-<col style="width:18%">
-<col style="width:18%">
-</colgroup>
-<thead>
-<tr><th>Nosaukums</th><th>W<sub>inst</sub></th><th>W<sub>net,fin</sub></th><th>W<sub>fin</sub></th></tr>
-</thead>
-<tbody>
-<tr><td>Sijas uz diviem balstiem</td><td>L / 400</td><td>L / 300</td><td>L / 200</td></tr>
-<tr><td>Konsolsijas</td><td>L / 200</td><td>L / 150</td><td>L / 100</td></tr>
-<tr><td>Spāres un citi līdzīgi mazāk nozīmīgi elementi</td><td>L / 250</td><td>L / 200</td><td>L / 150</td></tr>
-</tbody>
-</table>
-<p><strong>Izlieces komponentes</strong></p>
-<p><img src="../images/ch10/img102.png" alt="Attēls" /></p>
-<p>W<sub>c</sub> – konstruktīvā priekšizliece nenoslogotā konstruktīvā elementā</p>
-<p>W<sub>inst</sub> – sijas elastīgā izliece</p>
-<p>W<sub>creep </sub>– sijas izlieces komponente no šļūdes</p>
-<p>W<sub>fin</sub> – sijas galīgā izliece</p>
-<p>W<sub>net,fin </sub>– sijas galīgās izlieces neto lielums</p>
+                        <h1 id="siju-izlieču-robežvērtības-sls"><a class="header" href="#siju-izlieču-robežvērtības-sls">Siju izlieču robežvērtības (SLS)</a></h1>
+<p>Koka konstrukciju deformācijas lietojamības robežstāvoklī (SLS) pārbauda, salīdzinot aprēķinātās izlieces ar robežvērtībām saskaņā ar LVS EN 1995-1-1.</p>
+<hr />
+<h2 id="izlieču-robežvērtības-w_textlimit"><a class="header" href="#izlieču-robežvērtības-w_textlimit">Izlieču robežvērtības ($w_{\text{limit}}$)</a></h2>
+<p>Saskaņā ar LVS EN 1995-1-1/NA ieteicamās robežvērtības siju un plātņu vertikālajām izliecēm:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Konstrukcijas elements / Shēma</th><th style="text-align: center">Momentānā izliece $w_{\text{inst}}$</th><th style="text-align: center">Neto galīgā izliece $w_{\text{net,fin}}$</th><th style="text-align: center">Kopējā galīgā izliece $w_{\text{fin}}$</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Sijas uz diviem balstiem (pārsegumi)</strong></td><td style="text-align: center">$L / 400$</td><td style="text-align: center">$L / 300$</td><td style="text-align: center">$L / 200$</td></tr>
+<tr><td style="text-align: left"><strong>Konsolsijas (pārkares)</strong></td><td style="text-align: center">$L / 200$</td><td style="text-align: center">$L / 150$</td><td style="text-align: center">$L / 100$</td></tr>
+<tr><td style="text-align: left"><strong>Spāres, kopturi un jumta elementi</strong> (bez trauslas apdares)</td><td style="text-align: center">$L / 250$</td><td style="text-align: center">$L / 200$</td><td style="text-align: center">$L / 150$</td></tr>
+</tbody></table>
+</div>
+<p><em>Apzīmējumi: $L$ — sijas laidums (konsoles gadījumā $L$ ir konsoles brīvais garums).</em></p>
+<hr />
+<h2 id="izlieces-komponentes-un-aprēķina-shēma"><a class="header" href="#izlieces-komponentes-un-aprēķina-shēma">Izlieces komponentes un aprēķina shēma</a></h2>
+<p>Koka konstrukciju izliece sastāv no elastīgās (momentānās) izlieces un šļūdes izlieces (mitruma un ilglaicīgas slodzes ietekmē).</p>
+<p><img src="../images/ch10/img102.png" alt="Izlieces komponentes" /></p>
+<h3 id="deformācijas-komponentu-definīcijas"><a class="header" href="#deformācijas-komponentu-definīcijas">Deformācijas komponentu definīcijas:</a></h3>
+<ul>
+<li><strong>$w_c$</strong> — konstruktīvā priekšizliece (precamber) nenoslogotā stāvoklī;</li>
+<li><strong>$w_{\text{inst}}$</strong> — momentānā (elastīgā) izliece tūlīt pēc slodzes pielikšanas;</li>
+<li><strong>$w_{\text{creep}}$</strong> — šļūdes (deformāciju pieauguma) izlieces daļa laika gaitā;</li>
+<li><strong>$w_{\text{fin}}$</strong> — galīgā (kopējā) izliece, ņemot vērā šļūdi: $w_{\text{fin}} = w_{\text{inst}} + w_{\text{creep}}$;</li>
+<li><strong>$w_{\text{net,fin}}$</strong> — neto galīgā izliece, kas paliek pēc priekšizlieces $w_c$ atskaitīšanas:
+$$w_{\text{net,fin}} = w_{\text{fin}} - w_c$$</li>
+</ul>
+<hr />
+<h2 id="izlieču-aprēķina-formulas-ilglaicīgo-efektu-ievērtēšana"><a class="header" href="#izlieču-aprēķina-formulas-ilglaicīgo-efektu-ievērtēšana">Izlieču aprēķina formulas (ilglaicīgo efektu ievērtēšana)</a></h2>
+<p>Izlieces komponentes nosaka, izmantojot šļūdes koeficientu $k_{\text{def}}$ (skat. <a href="02-koeficienti.html">Slodžu ilgumi un modifikācijas koeficienti</a>):</p>
+<h3 id="1-momentānā-izliece"><a class="header" href="#1-momentānā-izliece">1. Momentānā izliece:</a></h3>
+<p>$$w_{\text{inst}} = w_{\text{inst},g} + w_{\text{inst},q,1} + \sum w_{\text{inst},q,i}$$</p>
+<h3 id="2-galīgā-izliece"><a class="header" href="#2-galīgā-izliece">2. Galīgā izliece:</a></h3>
+<ul>
+<li><strong>Pastāvīgajām slodzēm $G$:</strong>
+$$w_{\text{fin},g} = w_{\text{inst},g} \cdot (1 + k_{\text{def}})$$</li>
+<li><strong>Vadošajai mainīgajai slodzei $Q_1$:</strong>
+$$w_{\text{fin},q,1} = w_{\text{inst},q,1} \cdot (1 + \psi_2 \cdot k_{\text{def}})$$</li>
+<li><strong>Pavadītājām mainīgajām slodzēm $Q_i$:</strong>
+$$w_{\text{fin},q,i} = w_{\text{inst},q,i} \cdot (\psi_{0,i} + \psi_{2,i} \cdot k_{\text{def}})$$</li>
+</ul>
+<p>Kopējā galīgā izliece $w_{\text{fin}}$ ir visu galīgo izlieču summa:
+$$w_{\text{fin}} = w_{\text{fin},g} + w_{\text{fin},q,1} + \sum w_{\text{fin},q,i}$$</p>
+<p><em>Kur $\psi_0$ un $\psi_2$ ir slodžu kombināciju koeficienti saskaņā ar LVS EN 1990 (piemēram, lietderīgajai slodzei dzīvojamās ēkās $\psi_2 = 0,3$).</em></p>
 
                     </main>
 

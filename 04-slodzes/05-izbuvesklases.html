@@ -180,29 +180,36 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="izbūves-klases"><a class="header" href="#izbūves-klases">Izbūves klases</a></h2>
-<p>Parasti izbūves klase (EXC) tiek noteikta identiska seku klasei CC, piemēram, EXC1 atbilst CC1, tomēr izbūves klase objekta ietvaros dažādiem elementiem var atšķirties. Tērauda elementiem izbūves klase EXC ir atkarīga ne tikai no seku klases CC, bet arī no konstrukciju izmantošanas klases SC un ražošanas klases PC.</p>
-<p><strong>Matrica izbūves klases izvēlei</strong></p>
-<table>
-<colgroup>
-<col style="width:18%">
-<col style="width:18%">
-<col style="width:11%">
-<col style="width:11%">
-<col style="width:10%">
-<col style="width:11%">
-<col style="width:11%">
-<col style="width:10%">
-</colgroup>
-<thead>
-<tr><th>Seku klase</th><th>Seku klase</th><th colspan="2">CC1</th><th colspan="2">CC2</th><th colspan="2">CC3</th></tr>
-<tr><th>Izmantošanas klase</th><th>Izmantošanas klase</th><th>SC1</th><th>SC2</th><th>SC1</th><th>SC2</th><th>SC1</th><th>SC2</th></tr>
-</thead>
-<tbody>
-<tr><td>Ražošanas klase</td><td>PC1</td><td>EXC1</td><td>EXC2</td><td>EXC1</td><td>EXC3</td><td>EXC3</td><td>EXC3</td></tr>
-<tr><td>Ražošanas klase</td><td>PC2</td><td>EXC2</td><td>EXC1</td><td>EXC1</td><td>EXC3</td><td>EXC3</td><td>EXC4</td></tr>
-</tbody>
-</table>
+                        <h1 id="izbūves-klases-tērauda-konstrukcijām"><a class="header" href="#izbūves-klases-tērauda-konstrukcijām">Izbūves klases tērauda konstrukcijām</a></h1>
+<p>Tērauda būvkonstrukciju izpildes (izbūves) klase (Execution Class, EXC) nosaka prasības izgatavošanas un montāžas kvalitātes kontrolei saskaņā ar standartu LVS EN 1090-2.</p>
+<p>Parasti izpildes klasi pieņem atbilstoši būves seku klasei (piemēram, EXC1 atbilst CC1, EXC2 atbilst CC2), tomēr vienas būves ietvaros dažādiem elementiem izpildes klases var atšķirties. Saskaņā ar LVS EN 1993-1-1 C pielikumu, izbūves klasi EXC nosaka, balstoties uz trim faktoriem:</p>
+<ol>
+<li><strong>Seku klase (CC)</strong> (CC1, CC2 vai CC3);</li>
+<li><strong>Izmantošanas klase (SC)</strong> (SC1 vai SC2);</li>
+<li><strong>Ražošanas klase (PC)</strong> (PC1 vai PC2).</li>
+</ol>
+<hr />
+<h2 id="izpildes-klases-exc-noteikšanas-matrica"><a class="header" href="#izpildes-klases-exc-noteikšanas-matrica">Izpildes klases (EXC) noteikšanas matrica</a></h2>
+<p>| Ražošanas klase | Seku klase | <col colspan="2">CC1 | <col colspan="2">CC2 | <col colspan="2">CC3 |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| | <strong>Izmantošanas klase</strong> | <strong>SC1</strong> | <strong>SC2</strong> | <strong>SC1</strong> | <strong>SC2</strong> | <strong>SC1</strong> | <strong>SC2</strong> |
+| <strong>PC1</strong> | (Nemetināti elementi vai tērauds &lt; S355) | EXC1 | EXC2 | EXC2 | EXC3 | EXC3 | EXC3 |
+| <strong>PC2</strong> | (Metināti elementi vai tērauds $\ge$ S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |</p>
+<p><em>Piezīme: Parastām ēkām (statiska slodze, seku klase CC2, izmantošanas klase SC1 un metināti elementi no S355 tērauda - PC2) standarta izpildes klase ir <strong>EXC2</strong>.</em></p>
+<hr />
+<h2 id="kategoriju-skaidrojums"><a class="header" href="#kategoriju-skaidrojums">Kategoriju skaidrojums</a></h2>
+<h3 id="1-izmantošanas-klases-service-categories"><a class="header" href="#1-izmantošanas-klases-service-categories">1. Izmantošanas klases (Service Categories)</a></h3>
+<p>Raksturo konstrukcijas noslogojuma veidu un ekspluatācijas apstākļus:</p>
+<ul>
+<li><strong>SC1 (statiska):</strong> Konstrukcijas, kas projektētas tikai statiskām vai kvazistatiskām slodzēm (piemēram, parastas dzīvojamās, biroju un noliktavu ēkas).</li>
+<li><strong>SC2 (dinamiska):</strong> Konstrukcijas, kas pakļautas noguruma iedarbei no dinamiskām slodzēm (piemēram, celtņu ceļu sijas, tilti, torņi, kas pakļauti vēja izraisītām vibrācijām, vai konstrukcijas seismiski aktīvās zonās).</li>
+</ul>
+<h3 id="2-ražošanas-klases-production-categories"><a class="header" href="#2-ražošanas-klases-production-categories">2. Ražošanas klases (Production Categories)</a></h3>
+<p>Raksturo konstrukcijas ražošanas tehnoloģisko sarežģītību:</p>
+<ul>
+<li><strong>PC1:</strong> Nemetināti elementi (piemēram, tikai ar skrūvēm savienoti elementi) neatkarīgi no tērauda markas, vai metināti elementi no tērauda markām, kas ir zemākas par S355.</li>
+<li><strong>PC2:</strong> Metināti elementi no tērauda markas S355 un augstākas (piemēram, S355, S420, S460), vai elementi, kuru izgatavošanā tiek izmantota termiskā griešana, aukstā formēšana vai termiskā apstrāde.</li>
+</ul>
 
                     </main>
 

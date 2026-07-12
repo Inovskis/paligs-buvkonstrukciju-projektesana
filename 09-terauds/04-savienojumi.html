@@ -180,176 +180,175 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="tērauda-konstrukciju-savienojumi"><a class="header" href="#tērauda-konstrukciju-savienojumi">Tērauda konstrukciju savienojumi</a></h2>
-<h3 id="metrisko-skrūvju-parametri-un-nestspējas"><a class="header" href="#metrisko-skrūvju-parametri-un-nestspējas">Metrisko skrūvju parametri un nestspējas</a></h3>
-<p>Skrūvju ģeometriskie parametri, šķērsgriezuma laukumi un viena skrūves bīdes un stiepes nestspējas klasēm 8.8 un 10.9 pēc LVS EN 1993-1-8 (3.4. tabula).</p>
-<table class="nowrap-first">
-<colgroup>
-  <col style="width:8%"><col style="width:9%"><col style="width:9%"><col style="width:10%"><col style="width:10%">
-  <col style="width:14%"><col style="width:13%"><col style="width:14%"><col style="width:13%">
-</colgroup>
-<thead>
-<tr>
-  <th rowspan="2">Skrūve</th>
-  <th rowspan="2">d,<br>mm</th>
-  <th rowspan="2">d<sub>0</sub>,<br>mm</th>
-  <th rowspan="2">A<sub>s</sub>,<br>mm²</th>
-  <th rowspan="2">A,<br>mm²</th>
-  <th colspan="2">F<sub>v,Rd</sub>, kN</th>
-  <th colspan="2">F<sub>t,Rd</sub>, kN</th>
-</tr>
-<tr>
-  <th>8.8</th><th>10.9</th><th>8.8</th><th>10.9</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>M12</td><td>12</td><td>13</td><td>84,3</td><td>113</td><td>32,4</td><td>33,7</td><td>48,6</td><td>60,7</td></tr>
-<tr><td>M16</td><td>16</td><td>18</td><td>157</td><td>201</td><td>60,3</td><td>62,8</td><td>90,4</td><td>113,0</td></tr>
-<tr><td>M20</td><td>20</td><td>22</td><td>245</td><td>314</td><td>94,1</td><td>98,0</td><td>141,1</td><td>176,4</td></tr>
-<tr><td>M24</td><td>24</td><td>26</td><td>353</td><td>452</td><td>135,6</td><td>141,2</td><td>203,3</td><td>254,2</td></tr>
-<tr><td>M27</td><td>27</td><td>30</td><td>459</td><td>573</td><td>176,3</td><td>183,6</td><td>264,4</td><td>330,5</td></tr>
-<tr><td>M30</td><td>30</td><td>33</td><td>561</td><td>707</td><td>215,4</td><td>224,4</td><td>323,1</td><td>403,9</td></tr>
-<tr><td>M36</td><td>36</td><td>39</td><td>817</td><td>1018</td><td>313,7</td><td>326,8</td><td>470,6</td><td>588,2</td></tr>
-</tbody>
-</table>
-<blockquote>
-<p><strong>Piezīmes.</strong> F<sub>v,Rd</sub> = α<sub>v</sub> · f<sub>ub</sub> · A<sub>s</sub> / γ<sub>M2</sub> — dota <strong>vienai bīdes plaknei</strong>, kas iet caur skrūves vītņoto daļu (α<sub>v</sub> = 0,6 klasei 8.8; α<sub>v</sub> = 0,5 klasei 10.9; lietots laukums A<sub>s</sub>). F<sub>t,Rd</sub> = k<sub>2</sub> · f<sub>ub</sub> · A<sub>s</sub> / γ<sub>M2</sub>, k<sub>2</sub> = 0,9. Pieņemts γ<sub>M2</sub> = 1,25; f<sub>ub</sub> = 800 N/mm² (8.8) un 1000 N/mm² (10.9). d<sub>0</sub> — standarta urbuma diametrs (normāla atstarpe); A — nominālais kāta laukums.</p>
-</blockquote>
-<p><img src="../images/ch09/img086.png" alt="Attēls" /></p>
-<p><img src="../images/ch09/img087.png" alt="Attēls" /></p>
-<p><strong>Šuves biezuma noteikšana</strong></p>
-<p><img src="../images/ch09/img088.png" alt="Attēls" /></p>
-<p><img src="../images/ch09/img089.png" alt="Attēls" /></p>
-<p><strong>Metināto šuvju apzīmējumi</strong></p>
-<p><img src="../images/ch09/img090.png" alt="Attēls" /></p>
-<p><img src="../images/ch09/img091.png" alt="Attēls" /></p>
+                        <h1 id="tērauda-konstrukciju-savienojumi"><a class="header" href="#tērauda-konstrukciju-savienojumi">Tērauda konstrukciju savienojumi</a></h1>
+<p>Tērauda būvkonstrukciju savienojumu (mezglu) aprēķini un konstruēšana tiek veikta saskaņā ar standartu <strong>LVS EN 1993-1-8</strong>. Mezgli var būt bīdizturīgi (šarnīri) vai momentizturīgi (stingie mezgli).</p>
+<hr />
+<h2 id="metrisko-skrūvju-parametri-un-nestspējas-88-un-109-klase"><a class="header" href="#metrisko-skrūvju-parametri-un-nestspējas-88-un-109-klase">Metrisko skrūvju parametri un nestspējas (8.8 un 10.9 klase)</a></h2>
+<p>Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes un stiepes nestspēja saskaņā ar LVS EN 1993-1-8 Table 3.4:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Skrūve</th><th style="text-align: center">Diametrs $d$ (mm)</th><th style="text-align: center">Urbuma $\varnothing$ $d_0$ (mm)*</th><th style="text-align: center">Vītnes laukums $A_s$ (mm²)</th><th style="text-align: center">Kāta laukums $A$ (mm²)</th><th style="text-align: center">Bīdes nestspēja $F_{v,Rd}$ (kN) (8.8 klase)</th><th style="text-align: center">Bīdes nestspēja $F_{v,Rd}$ (kN) (10.9 klase)</th><th style="text-align: center">Stiepes nestspēja $F_{t,Rd}$ (kN) (8.8 klase)</th><th style="text-align: center">Stiepes nestspēja $F_{t,Rd}$ (kN) (10.9 klase)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>M12</strong></td><td style="text-align: center">12</td><td style="text-align: center">13</td><td style="text-align: center">84,3</td><td style="text-align: center">113</td><td style="text-align: center">32,4</td><td style="text-align: center">33,7</td><td style="text-align: center">48,6</td><td style="text-align: center">60,7</td></tr>
+<tr><td style="text-align: left"><strong>M16</strong></td><td style="text-align: center">16</td><td style="text-align: center">18</td><td style="text-align: center">157,0</td><td style="text-align: center">201</td><td style="text-align: center">60,3</td><td style="text-align: center">62,8</td><td style="text-align: center">90,4</td><td style="text-align: center">113,0</td></tr>
+<tr><td style="text-align: left"><strong>M20</strong></td><td style="text-align: center">20</td><td style="text-align: center">22</td><td style="text-align: center">245,0</td><td style="text-align: center">314</td><td style="text-align: center">94,1</td><td style="text-align: center">98,0</td><td style="text-align: center">141,1</td><td style="text-align: center">176,4</td></tr>
+<tr><td style="text-align: left"><strong>M24</strong></td><td style="text-align: center">24</td><td style="text-align: center">26</td><td style="text-align: center">353,0</td><td style="text-align: center">452</td><td style="text-align: center">135,6</td><td style="text-align: center">141,2</td><td style="text-align: center">203,3</td><td style="text-align: center">254,2</td></tr>
+<tr><td style="text-align: left"><strong>M27</strong></td><td style="text-align: center">27</td><td style="text-align: center">30</td><td style="text-align: center">459,0</td><td style="text-align: center">573</td><td style="text-align: center">176,3</td><td style="text-align: center">183,6</td><td style="text-align: center">264,4</td><td style="text-align: center">330,5</td></tr>
+<tr><td style="text-align: left"><strong>M30</strong></td><td style="text-align: center">30</td><td style="text-align: center">33</td><td style="text-align: center">561,0</td><td style="text-align: center">707</td><td style="text-align: center">215,4</td><td style="text-align: center">224,4</td><td style="text-align: center">323,1</td><td style="text-align: center">403,9</td></tr>
+<tr><td style="text-align: left"><strong>M36</strong></td><td style="text-align: center">36</td><td style="text-align: center">39</td><td style="text-align: center">817,0</td><td style="text-align: center">1018</td><td style="text-align: center">313,7</td><td style="text-align: center">326,8</td><td style="text-align: center">470,6</td><td style="text-align: center">588,2</td></tr>
+</tbody></table>
+</div>
+<p><em>*Piezīme:</em></p>
+<ul>
+<li><em>Bīdes nestspēja $F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$ ir norādīta <strong>vienai bīdes plaknei</strong>, kas šķērso skrūves vītņoto daļu ($\alpha_v = 0,6$ klasei 8.8; $\alpha_v = 0,5$ klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu $A$ un $\alpha_v = 0,6$.</em></li>
+<li><em>Stiepes nestspēja $F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$, kur $k_2 = 0,9$ un $\gamma_{M2} = 1,25$.</em></li>
+<li><em>Pieņemts $\gamma_{M2} = 1,25$, $f_{ub} = 800\text{ MPa}$ (8.8) un $1000\text{ MPa}$ (10.9).</em></li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Skrūvsavienojuma principiālā shēma</th><th style="text-align: center">Skrūvju attālumu apzīmējumi</th></tr></thead><tbody>
+<tr><td style="text-align: center"><img src="../images/ch09/img086.png" alt="Skrūve 1" /></td><td style="text-align: center"><img src="../images/ch09/img087.png" alt="Skrūve 2" /></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="metinātie-savienojumi-šuvju-noformēšana"><a class="header" href="#metinātie-savienojumi-šuvju-noformēšana">Metinātie savienojumi (šuvju noformēšana)</a></h2>
+<p>Stūra šuvju izmērus nosaka pēc to rīkles biezuma $a$ (metinājuma teorētiskais augstums) vai katetes izmēra $s$ ($s \approx a \cdot \sqrt{2}$):</p>
+<p><img src="../images/ch09/img088.png" alt="Šuves biezums" /></p>
+<p><img src="../images/ch09/img089.png" alt="Metināšanas asis" /></p>
+<h3 id="metināto-šuvju-apzīmējumi-rasējumos-iso-2553"><a class="header" href="#metināto-šuvju-apzīmējumi-rasējumos-iso-2553">Metināto šuvju apzīmējumi rasējumos (ISO 2553):</a></h3>
+<p><img src="../images/ch09/img090.png" alt="Šuvju apzīmējumi" /></p>
+<p><img src="../images/ch09/img091.png" alt="Šuvju simbola shēma" /></p>
 <p><strong>Apzīmējumu skaidrojums:</strong></p>
-<table>
-<colgroup><col style="width:8%"><col style="width:92%"></colgroup>
-<thead><tr><th>Nr.</th><th>Metinājuma apraksts</th></tr></thead>
-<tbody>
-<tr><td>1</td><td>Nepārtraukta vienpusēja stūra šuve ar 6 mm kāti gar bultas norādīto līniju. Šuve atrodas bultas pusē.</td></tr>
-<tr><td>2</td><td>Tāpat kā 1, bet šuve ir pretējā pusē bultas norādītajai.</td></tr>
-<tr><td>3</td><td>Nepārtraukta divpusēja stūra šuve.</td></tr>
-<tr><td>4</td><td>Pārtraukta 6 mm stūra šuve ar 70 mm posmiem, izvietotiem ik 180 mm. Tikai bultas pusē.</td></tr>
-<tr><td>5</td><td>Pārmaiņus pārtraukta šuve kā 4 (abās pusēs).</td></tr>
-<tr><td>6</td><td>Tāpat kā 3, bet karodziņš norāda, ka šuve veicama būvobjektā.</td></tr>
-<tr><td>7</td><td>Tāpat kā 1, bet šuve veicama pa visu perimetru, ko norāda mazs aplis.</td></tr>
-<tr><td>8</td><td>Sadurmetinājumi: (a) vienpusēja slīpā; (b) vienpusēja V; (c) vienpusēja U.</td></tr>
-<tr><td>9</td><td>Sadurmetinājumi: (d) divpusēja slīpā; (e) divpusēja V; (f) divpusēja U.</td></tr>
-<tr><td>10</td><td>Tāpat kā 9(d), bet jāizmanto īpaša procedūra, kas norādīta procedūru lapas 9. punktā.</td></tr>
-<tr><td>11</td><td>Tāpat kā 8(b), bet šuvei jābūt izliektai virsmai.</td></tr>
-<tr><td>12</td><td>Tāpat kā 8(b), bet šuvei jābūt līdzenai virsmai, kas iegūta slīpējot.</td></tr>
-<tr><td>13</td><td>Tāpat kā 8(b), bet jāizmanto paliktņa josla.</td></tr>
-<tr><td>14</td><td>Tāpat kā 8(b), bet šuves sakne jāizgriež un jāuzliek paliktņa šuve.</td></tr>
-<tr><td>15</td><td>Tāpat kā 14, bet abas virsmas jānoslīpē līdzenas.</td></tr>
-<tr><td>16</td><td>Divpusējs slīpais sadurmetinājums, pastiprināts ar stūra šuvēm labākai sprieguma izkliedei.</td></tr>
-<tr><td>17</td><td>Taisnstūra sadurmetinājums. Šim metinājumam neveido gropi (piemērots tikai plānām loksnēm).</td></tr>
-<tr><td>18</td><td>Aizpildmetinājums (plug weld). Šuve ir savienojuma bultas pusē.</td></tr>
-</tbody>
-</table>
-<p><strong>Metinājuma šuvju nestspēja pie S355 tērauda</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Katete / Leg length</th><th>Rīkle / Throat thickness</th><th>Stiprība garenvirzienā / Longitudinal capacity</th><th>Stiprība šķērsvirzienā / Transverse capacity</th></tr></thead><tbody>
-<tr><td>s</td><td>a</td><td>P<sub>L</sub></td><td>P<sub>T</sub></td></tr>
-<tr><td>mm</td><td>mm</td><td>kN/mm</td><td>kN/mm</td></tr>
-<tr><td>3.0</td><td>2.1</td><td>0.53</td><td>0.66</td></tr>
-<tr><td>4.0</td><td>2.8</td><td>0.70</td><td>0.88</td></tr>
-<tr><td>5.0</td><td>3.5</td><td>0.88</td><td>1.09</td></tr>
-<tr><td>6.0</td><td>4.2</td><td>1.05</td><td>1.31</td></tr>
-<tr><td>8.0</td><td>5.6</td><td>1.40</td><td>1.75</td></tr>
-<tr><td>10.0</td><td>7.0</td><td>1.75</td><td>2.19</td></tr>
-<tr><td>12.0</td><td>8.4</td><td>2.10</td><td>2.62</td></tr>
-<tr><td>15.0</td><td>10.5</td><td>2.62</td><td>3.28</td></tr>
-<tr><td>18.0</td><td>12.6</td><td>3.15</td><td>3.94</td></tr>
-<tr><td>20.0</td><td>14.0</td><td>3.50</td><td>4.38</td></tr>
-<tr><td>22.0</td><td>15.4</td><td>3.85</td><td>4.81</td></tr>
-<tr><td>25.0</td><td>17.5</td><td>4.38</td><td>5.47</td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Nr.</th><th style="text-align: left">Metinājuma apraksts un izpildes kārtība</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>1</strong></td><td style="text-align: left">Nepārtraukta vienpusēja stūra šuve ar $6\text{ mm}$ kāti (kateti) gar bultas norādīto līniju. Šuve atrodas bultas pusē.</td></tr>
+<tr><td style="text-align: center"><strong>2</strong></td><td style="text-align: left">Tāpat kā 1, bet šuve atrodas pretējā pusē bultas norādītajai līnijai.</td></tr>
+<tr><td style="text-align: center"><strong>3</strong></td><td style="text-align: left">Nepārtraukta divpusēja stūra šuve.</td></tr>
+<tr><td style="text-align: center"><strong>4</strong></td><td style="text-align: left">Pārtraukta $6\text{ mm}$ stūra šuve ar $70\text{ mm}$ posmiem, izvietotiem ik pēc $180\text{ mm}$. Tikai bultas pusē.</td></tr>
+<tr><td style="text-align: center"><strong>5</strong></td><td style="text-align: left">Šaha veidā izvietota pārtraukta stūra šuve abās pusēs.</td></tr>
+<tr><td style="text-align: center"><strong>6</strong></td><td style="text-align: left">Tāpat kā 3, bet karodziņš norāda, ka šuve veicama montāžas vietā (būvlaukumā).</td></tr>
+<tr><td style="text-align: center"><strong>7</strong></td><td style="text-align: left">Tāpat kā 1, bet šuve veicama pa visu elementa perimetru (aplis uz bultas lūzuma punkta).</td></tr>
+<tr><td style="text-align: center"><strong>8</strong></td><td style="text-align: left">Vienpusēji sadurmetinājumi: (a) vienpusēja slīpā šuve, (b) vienpusēja V-veida šuve, (c) vienpusēja U-veida šuve.</td></tr>
+<tr><td style="text-align: center"><strong>9</strong></td><td style="text-align: left">Divpusēji sadurmetinājumi: (d) divpusēja slīpā, (e) divpusēja V-veida, (f) divpusēja U-veida šuve.</td></tr>
+<tr><td style="text-align: center"><strong>10</strong></td><td style="text-align: left">Tāpat kā 9(d), bet jāizmanto īpaša procedūra, kas norādīta rasējuma piezīmēs.</td></tr>
+<tr><td style="text-align: center"><strong>11</strong></td><td style="text-align: left">Tāpat kā 8(b), bet šuvei jābūt ar izliektu virsmu.</td></tr>
+<tr><td style="text-align: center"><strong>12</strong></td><td style="text-align: left">Tāpat kā 8(b), bet šuves virsmai jābūt noslīpētai līdzenai.</td></tr>
+<tr><td style="text-align: center"><strong>13</strong></td><td style="text-align: left">Tāpat kā 8(b), izmantojot metināšanas paliktni (backing bar).</td></tr>
+<tr><td style="text-align: center"><strong>14</strong></td><td style="text-align: left">Tāpat kā 8(b), kur šuves sakne pirms pretmetināšanas ir jāizgriež/jāizstrādā.</td></tr>
+<tr><td style="text-align: center"><strong>15</strong></td><td style="text-align: left">Tāpat kā 14, bet abas šuves virsmas pēc tam jānoslīpē līdzenas.</td></tr>
+<tr><td style="text-align: center"><strong>16</strong></td><td style="text-align: left">Divpusēja slīpā saduršuve ar papildu stūra šuvēm labākai spriegumu pārejai un noguruma stiprībai.</td></tr>
+<tr><td style="text-align: center"><strong>17</strong></td><td style="text-align: left">Sadursavienojums bez malu noslīpināšanas (taisnstūra šuve, tikai plānām loksnēm $t \le 3\text{ mm}$).</td></tr>
+<tr><td style="text-align: center"><strong>18</strong></td><td style="text-align: left">Aizpildmetinājums (plug weld / apaļš vai iegarens aizmetināts caurums).</td></tr>
 </tbody></table>
 </div>
-<p><strong>Tipiska savienojuma ar ausi nestspējas tabulas biežākiem gadījumiem</strong></p>
-<p>Lai paātrinatu un atvieglotu projektēšanas procesu, ir apkopota informācija ar nestspēju pie biežāk izmantotiem šķērsgriezumiem un skrūvju diametriem. Aprēķini veikti pēc šķērsspēka.</p>
-<p>Aprēķinā izmantotie parametri:</p>
-<p>Skrūves: M16 un M20, klase 8.8 (f<sub>ub</sub> = 800 N/mm²), auss (fin plate): T=10mm, S355 (f<sub>y</sub> = 355 N/mm²)
-Siju profili: IPE 180-500, HEA 160-300, Parciālie koeficienti: γ<sub>M2</sub> = 1.25 (skrūvēm), γ<sub>M0</sub> = 1.0 (tēraudam)</p>
-<p><strong>Skrūvju izvietojuma nosacījumi</strong></p>
-<p><strong>Urbuma diametri un minimālās distances</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Skrūve</th><th>Urbuma Ø (d₀)</th><th>e1, e2 min</th><th>p1 min</th><th>p2 min</th></tr></thead><tbody>
-<tr><td>M16</td><td>18mm</td><td>22mm (1.2×d₀)</td><td>40mm (2.2×d₀)</td><td>44mm (2.4×d₀)</td></tr>
-<tr><td>M20</td><td>22mm</td><td>27mm (1.2×d₀)</td><td>49mm (2.2×d₀)</td><td>53mm (2.4×d₀)</td></tr>
+<hr />
+<h3 id="metināto-šuvju-nestspēja-s355-tēraudam-f_u--490text-mpa"><a class="header" href="#metināto-šuvju-nestspēja-s355-tēraudam-f_u--490text-mpa">Metināto šuvju nestspēja S355 tēraudam ($f_u = 490\text{ MPa}$)</a></h3>
+<p>Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršotās metodes ar konservatīvu $f_u = 490\text{ MPa}$):</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Katete $s$ (mm)</th><th style="text-align: center">Rīkle $a$ (mm)</th><th style="text-align: center">Stiprība garenvirzienā $P_L$ (kN/mm)</th><th style="text-align: center">Stiprība šķērsvirzienā $P_T$ (kN/mm)</th></tr></thead><tbody>
+<tr><td style="text-align: center">3,0</td><td style="text-align: center">2,1</td><td style="text-align: center">0,53</td><td style="text-align: center">0,66</td></tr>
+<tr><td style="text-align: center">4,0</td><td style="text-align: center">2,8</td><td style="text-align: center">0,70</td><td style="text-align: center">0,88</td></tr>
+<tr><td style="text-align: center">5,0</td><td style="text-align: center">3,5</td><td style="text-align: center">0,88</td><td style="text-align: center">1,09</td></tr>
+<tr><td style="text-align: center">6,0</td><td style="text-align: center">4,2</td><td style="text-align: center">1,05</td><td style="text-align: center">1,31</td></tr>
+<tr><td style="text-align: center">8,0</td><td style="text-align: center">5,6</td><td style="text-align: center">1,40</td><td style="text-align: center">1,75</td></tr>
+<tr><td style="text-align: center">10,0</td><td style="text-align: center">7,0</td><td style="text-align: center">1,75</td><td style="text-align: center">2,19</td></tr>
+<tr><td style="text-align: center">12,0</td><td style="text-align: center">8,4</td><td style="text-align: center">2,10</td><td style="text-align: center">2,62</td></tr>
+<tr><td style="text-align: center">15,0</td><td style="text-align: center">10,5</td><td style="text-align: center">2,62</td><td style="text-align: center">3,28</td></tr>
+<tr><td style="text-align: center">18,0</td><td style="text-align: center">12,6</td><td style="text-align: center">3,15</td><td style="text-align: center">3,94</td></tr>
+<tr><td style="text-align: center">20,0</td><td style="text-align: center">14,0</td><td style="text-align: center">3,50</td><td style="text-align: center">4,38</td></tr>
+<tr><td style="text-align: center">22,0</td><td style="text-align: center">15,4</td><td style="text-align: center">3,85</td><td style="text-align: center">4,81</td></tr>
+<tr><td style="text-align: center">25,0</td><td style="text-align: center">17,5</td><td style="text-align: center">4,38</td><td style="text-align: center">5,47</td></tr>
 </tbody></table>
 </div>
-<p><strong>Skrūvju konfigurācijas</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Skrūvju skaits</th><th>M16 izvietojums</th><th>M20 izvietojums</th><th>M16 plate izmērs</th><th>M20 plate izmērs</th></tr></thead><tbody>
-<tr><td>2 skrūves</td><td>Vertikāli, 40mm distance</td><td>Vertikāli, 49mm distance</td><td>110×128×10mm</td><td>120×148×10mm</td></tr>
-<tr><td>3 skrūves</td><td>Vertikāli, 2×40mm</td><td>Vertikāli, 2×49mm</td><td>110×168×10mm</td><td>120×198×10mm</td></tr>
-<tr><td>4 skrūves</td><td>2×2, 44×40mm</td><td>2×2, 53×49mm</td><td>154×128×10mm</td><td>173×148×10mm</td></tr>
-<tr><td>6 skrūves</td><td>2×3, 44×80mm</td><td>2×3, 53×98mm</td><td>154×168×10mm</td><td>173×198×10mm</td></tr>
+<hr />
+<h2 id="bīdizturīgi-savienojumi-ar-ausi-fin-plate-joints"><a class="header" href="#bīdizturīgi-savienojumi-ar-ausi-fin-plate-joints">Bīdizturīgi savienojumi ar ausi (Fin Plate Joints)</a></h2>
+<p>Šos savienojumus plaši izmanto sekundāro siju pieslēgšanai pie galvenajām sijām vai kolonnām. Tie uzņem tikai šķērsspēku (šarnīrs).</p>
+<h3 id="1-skrūvju-izvietojuma-robežattālumi-m16-un-m20-klase-88"><a class="header" href="#1-skrūvju-izvietojuma-robežattālumi-m16-un-m20-klase-88">1. Skrūvju izvietojuma robežattālumi (M16 un M20, klase 8.8)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Skrūve</th><th style="text-align: center">Urbuma $\varnothing$ $d_0$</th><th style="text-align: center">Minimālais malas attālums $e_1, e_2$</th><th style="text-align: center">Minimālais solis $p_1$ (rindā)</th><th style="text-align: center">Minimālais solis $p_2$ (starp rindām)</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>M16</strong></td><td style="text-align: center">18 mm</td><td style="text-align: center">22 mm ($1,2 d_0$)</td><td style="text-align: center">40 mm ($2,2 d_0$)</td><td style="text-align: center">44 mm ($2,4 d_0$)</td></tr>
+<tr><td style="text-align: center"><strong>M20</strong></td><td style="text-align: center">22 mm</td><td style="text-align: center">27 mm ($1,2 d_0$)</td><td style="text-align: center">49 mm ($2,2 d_0$)</td><td style="text-align: center">53 mm ($2,4 d_0$)</td></tr>
 </tbody></table>
 </div>
-<p><strong>Savienojumu nestspējas IPE profiliem</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Profils</th><th>tw (mm)</th><th>2×M16</th><th>3×M16</th><th>4×M16</th><th>6×M16</th><th>2×M20</th><th>3×M20</th><th>4×M20</th><th>6×M20</th></tr></thead><tbody>
-<tr><td>IPE 180</td><td>5.3</td><td>76</td><td>114</td><td>152</td><td>228</td><td>119</td><td></td><td>238</td><td></td></tr>
-<tr><td>IPE 200</td><td>5.6</td><td>80</td><td>120</td><td>160</td><td>240</td><td>126</td><td></td><td>251</td><td>376</td></tr>
-<tr><td>IPE 240</td><td>6.2</td><td>89</td><td>133</td><td>178</td><td>266</td><td>139</td><td>209</td><td>278</td><td>418</td></tr>
-<tr><td>IPE 300</td><td>7.1</td><td>101</td><td>152</td><td>203</td><td>304</td><td>159</td><td>239</td><td>318</td><td>478</td></tr>
-<tr><td>IPE 360</td><td>8.0</td><td>114</td><td>171</td><td>228</td><td>342</td><td>179</td><td>269</td><td>359</td><td>538</td></tr>
-<tr><td>IPE 400</td><td>8.6</td><td>123</td><td>184</td><td>245</td><td>368</td><td>193</td><td>289</td><td>386</td><td>578</td></tr>
-<tr><td>IPE 450</td><td>9.4</td><td>134</td><td>201</td><td>268</td><td>403</td><td>211</td><td>316</td><td>421</td><td>632</td></tr>
-<tr><td>IPE 500</td><td>10.2</td><td>146</td><td>218</td><td>291</td><td>437</td><td>229</td><td>343</td><td>458</td><td>687</td></tr>
+<h3 id="2-standarta-auss-plākšņu-konfigurācijas"><a class="header" href="#2-standarta-auss-plākšņu-konfigurācijas">2. Standarta auss plākšņu konfigurācijas</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Skrūvju skaits</th><th style="text-align: left">M16 izvietojums (solis)</th><th style="text-align: left">M20 izvietojums (solis)</th><th style="text-align: center">M16 auss izmēri ($B \times H \times t$)</th><th style="text-align: center">M20 auss izmēri ($B \times H \times t$)</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>2 skrūves</strong></td><td style="text-align: left">Vertikāli, 40 mm attālums</td><td style="text-align: left">Vertikāli, 49 mm attālums</td><td style="text-align: center">$110 \times 128 \times 10\text{ mm}$</td><td style="text-align: center">$120 \times 148 \times 10\text{ mm}$</td></tr>
+<tr><td style="text-align: center"><strong>3 skrūves</strong></td><td style="text-align: left">Vertikāli, $2 \times 40\text{ mm}$</td><td style="text-align: left">Vertikāli, $2 \times 49\text{ mm}$</td><td style="text-align: center">$110 \times 168 \times 10\text{ mm}$</td><td style="text-align: center">$120 \times 198 \times 10\text{ mm}$</td></tr>
+<tr><td style="text-align: center"><strong>4 skrūves</strong></td><td style="text-align: left">2 rindās pa 2 ($44 \times 40\text{ mm}$)</td><td style="text-align: left">2 rindās pa 2 ($53 \times 49\text{ mm}$)</td><td style="text-align: center">$154 \times 128 \times 10\text{ mm}$</td><td style="text-align: center">$173 \times 148 \times 10\text{ mm}$</td></tr>
+<tr><td style="text-align: center"><strong>6 skrūves</strong></td><td style="text-align: left">2 rindās pa 3 ($44 \times 80\text{ mm}$)</td><td style="text-align: left">2 rindās pa 3 ($53 \times 98\text{ mm}$)</td><td style="text-align: center">$154 \times 168 \times 10\text{ mm}$</td><td style="text-align: center">$173 \times 198 \times 10\text{ mm}$</td></tr>
 </tbody></table>
 </div>
-<p><strong>Savienojumu nestspējas HEA profiliem</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Profils</th><th>tw (mm)</th><th>2×M16</th><th>3×M16</th><th>4×M16</th><th>6×M16</th><th>2×M20</th><th>3×M20</th><th>4×M20</th><th>6×M20</th></tr></thead><tbody>
-<tr><td>HEA 160</td><td>6.0</td><td>86</td><td>129</td><td>172</td><td>258</td><td>135</td><td></td><td>269</td><td></td></tr>
-<tr><td>HEA 180</td><td>6.0</td><td>86</td><td>129</td><td>172</td><td>258</td><td>135</td><td></td><td>269</td><td></td></tr>
-<tr><td>HEA 200</td><td>6.5</td><td>93</td><td>139</td><td>186</td><td>279</td><td>146</td><td>219</td><td>292</td><td>437</td></tr>
-<tr><td>HEA 240</td><td>7.5</td><td>107</td><td>161</td><td>215</td><td>322</td><td>168</td><td>253</td><td>337</td><td>505</td></tr>
-<tr><td>HEA 260</td><td>7.5</td><td>107</td><td>161</td><td>215</td><td>322</td><td>168</td><td>253</td><td>337</td><td>505</td></tr>
-<tr><td>HEA 280</td><td>8.0</td><td>114</td><td>171</td><td>228</td><td>342</td><td>179</td><td>269</td><td>359</td><td>538</td></tr>
-<tr><td>HEA 300</td><td>8.5</td><td>122</td><td>182</td><td>243</td><td>365</td><td>191</td><td>287</td><td>383</td><td>574</td></tr>
+<hr />
+<h3 id="3-savienojuma-šķērsspēka-nestspēja-kn-ipe-profiliem"><a class="header" href="#3-savienojuma-šķērsspēka-nestspēja-kn-ipe-profiliem">3. Savienojuma šķērsspēka nestspēja (kN) IPE profiliem</a></h3>
+<p><em>Auss biezums $t = 10\text{ mm}$, S355 tērauds. Noteicošā ir sijas sieniņas bīde vai skrūvju nestspēja.</em></p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Profils</th><th style="text-align: center">Sieniņa $t_w$ (mm)</th><th style="text-align: center">2 × M16</th><th style="text-align: center">3 × M16</th><th style="text-align: center">4 × M16 (2x2)</th><th style="text-align: center">6 × M16 (2x3)</th><th style="text-align: center">2 × M20</th><th style="text-align: center">3 × M20</th><th style="text-align: center">4 × M20 (2x2)</th><th style="text-align: center">6 × M20 (2x3)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>IPE 180</strong></td><td style="text-align: center">5,3</td><td style="text-align: center">76</td><td style="text-align: center">114</td><td style="text-align: center">152</td><td style="text-align: center">228</td><td style="text-align: center">119</td><td style="text-align: center">—</td><td style="text-align: center">238</td><td style="text-align: center">—</td></tr>
+<tr><td style="text-align: left"><strong>IPE 200</strong></td><td style="text-align: center">5,6</td><td style="text-align: center">80</td><td style="text-align: center">120</td><td style="text-align: center">160</td><td style="text-align: center">240</td><td style="text-align: center">126</td><td style="text-align: center">—</td><td style="text-align: center">251</td><td style="text-align: center">376</td></tr>
+<tr><td style="text-align: left"><strong>IPE 240</strong></td><td style="text-align: center">6,2</td><td style="text-align: center">89</td><td style="text-align: center">133</td><td style="text-align: center">178</td><td style="text-align: center">266</td><td style="text-align: center">139</td><td style="text-align: center">209</td><td style="text-align: center">278</td><td style="text-align: center">418</td></tr>
+<tr><td style="text-align: left"><strong>IPE 300</strong></td><td style="text-align: center">7,1</td><td style="text-align: center">101</td><td style="text-align: center">152</td><td style="text-align: center">203</td><td style="text-align: center">304</td><td style="text-align: center">159</td><td style="text-align: center">239</td><td style="text-align: center">318</td><td style="text-align: center">478</td></tr>
+<tr><td style="text-align: left"><strong>IPE 360</strong></td><td style="text-align: center">8,0</td><td style="text-align: center">114</td><td style="text-align: center">171</td><td style="text-align: center">228</td><td style="text-align: center">342</td><td style="text-align: center">179</td><td style="text-align: center">269</td><td style="text-align: center">359</td><td style="text-align: center">538</td></tr>
+<tr><td style="text-align: left"><strong>IPE 400</strong></td><td style="text-align: center">8,6</td><td style="text-align: center">123</td><td style="text-align: center">184</td><td style="text-align: center">245</td><td style="text-align: center">368</td><td style="text-align: center">193</td><td style="text-align: center">289</td><td style="text-align: center">386</td><td style="text-align: center">578</td></tr>
+<tr><td style="text-align: left"><strong>IPE 450</strong></td><td style="text-align: center">9,4</td><td style="text-align: center">134</td><td style="text-align: center">201</td><td style="text-align: center">268</td><td style="text-align: center">403</td><td style="text-align: center">211</td><td style="text-align: center">316</td><td style="text-align: center">421</td><td style="text-align: center">632</td></tr>
+<tr><td style="text-align: left"><strong>IPE 500</strong></td><td style="text-align: center">10,2</td><td style="text-align: center">146</td><td style="text-align: center">218</td><td style="text-align: center">291</td><td style="text-align: center">437</td><td style="text-align: center">229</td><td style="text-align: center">343</td><td style="text-align: center">458</td><td style="text-align: center">687</td></tr>
 </tbody></table>
 </div>
-<p>Citiem velmētajiem profiliem nestspējas var aptuveni pielasīt pēc sieniņu biezuma.</p>
-<p>Krāsu kodi: &lt;100 kN – zaļš, 100-200 kN – gaiši zils, 200-300 kN – gaiši oranžs, virs 300 kN – tumši oranžs.</p>
-<p><strong>Metinājumu kapacitātes pielasīšana izejot no skrūvju (savienojuma) nestspējas</strong></p>
-<p>Pieņemts nosacījums V<sub>Rd,weld </sub>≥ 1.2 × V<sub>Rd,bolts</sub>, a = V<sub>Rd,nep. </sub>/ (f<sub>w</sub> × l<sub>w,eff </sub>× √3 / γ<sub>M2</sub>). Šuves abās loksnes pusēs.</p>
-<div class="table-wrapper"><table><thead><tr><th>Skrūves</th><th>Skrūvju kapacitāte</th><th>Nep. kapacitāte</th><th>Plātnes augst.</th><th>Ieteicamais izmērs</th><th>Pārbaude</th></tr></thead><tbody>
-<tr><td>2×M16</td><td>121 kN</td><td>145 kN</td><td>128mm</td><td>a = 4mm</td><td>149 kN</td></tr>
-<tr><td>3×M16</td><td>181 kN</td><td>217 kN</td><td>168mm</td><td>a = 5mm</td><td>249 kN</td></tr>
-<tr><td>4×M16</td><td>241 kN</td><td>289 kN</td><td>128mm</td><td>a = 7mm</td><td>334 kN</td></tr>
-<tr><td>6×M16</td><td>362 kN</td><td>434 kN</td><td>168mm</td><td>a = 8mm</td><td>481 kN</td></tr>
-<tr><td>2×M20</td><td>188 kN</td><td>226 kN</td><td>148mm</td><td>a = 6mm</td><td>270 kN</td></tr>
-<tr><td>3×M20</td><td>282 kN</td><td>338 kN</td><td>198mm</td><td>a = 6mm</td><td>361 kN</td></tr>
-<tr><td>4×M20</td><td>376 kN</td><td>451 kN</td><td>148mm</td><td>a = 9mm</td><td>481 kN</td></tr>
-<tr><td>6×M20</td><td>565 kN</td><td>678 kN</td><td>198mm</td><td>a = 9mm</td><td>723 kN</td></tr>
+<hr />
+<h3 id="4-savienojuma-šķērsspēka-nestspēja-kn-hea-profiliem"><a class="header" href="#4-savienojuma-šķērsspēka-nestspēja-kn-hea-profiliem">4. Savienojuma šķērsspēka nestspēja (kN) HEA profiliem</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Profils</th><th style="text-align: center">Sieniņa $t_w$ (mm)</th><th style="text-align: center">2 × M16</th><th style="text-align: center">3 × M16</th><th style="text-align: center">4 × M16 (2x2)</th><th style="text-align: center">6 × M16 (2x3)</th><th style="text-align: center">2 × M20</th><th style="text-align: center">3 × M20</th><th style="text-align: center">4 × M20 (2x2)</th><th style="text-align: center">6 × M20 (2x3)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>HEA 160</strong></td><td style="text-align: center">6,0</td><td style="text-align: center">86</td><td style="text-align: center">129</td><td style="text-align: center">172</td><td style="text-align: center">258</td><td style="text-align: center">135</td><td style="text-align: center">—</td><td style="text-align: center">269</td><td style="text-align: center">—</td></tr>
+<tr><td style="text-align: left"><strong>HEA 180</strong></td><td style="text-align: center">6,0</td><td style="text-align: center">86</td><td style="text-align: center">129</td><td style="text-align: center">172</td><td style="text-align: center">258</td><td style="text-align: center">135</td><td style="text-align: center">—</td><td style="text-align: center">269</td><td style="text-align: center">—</td></tr>
+<tr><td style="text-align: left"><strong>HEA 200</strong></td><td style="text-align: center">6,5</td><td style="text-align: center">93</td><td style="text-align: center">139</td><td style="text-align: center">186</td><td style="text-align: center">279</td><td style="text-align: center">146</td><td style="text-align: center">219</td><td style="text-align: center">292</td><td style="text-align: center">437</td></tr>
+<tr><td style="text-align: left"><strong>HEA 240</strong></td><td style="text-align: center">7,5</td><td style="text-align: center">107</td><td style="text-align: center">161</td><td style="text-align: center">215</td><td style="text-align: center">322</td><td style="text-align: center">168</td><td style="text-align: center">253</td><td style="text-align: center">337</td><td style="text-align: center">505</td></tr>
+<tr><td style="text-align: left"><strong>HEA 260</strong></td><td style="text-align: center">7,5</td><td style="text-align: center">107</td><td style="text-align: center">161</td><td style="text-align: center">215</td><td style="text-align: center">322</td><td style="text-align: center">168</td><td style="text-align: center">253</td><td style="text-align: center">337</td><td style="text-align: center">505</td></tr>
+<tr><td style="text-align: left"><strong>HEA 280</strong></td><td style="text-align: center">8,0</td><td style="text-align: center">114</td><td style="text-align: center">171</td><td style="text-align: center">228</td><td style="text-align: center">342</td><td style="text-align: center">179</td><td style="text-align: center">269</td><td style="text-align: center">359</td><td style="text-align: center">538</td></tr>
+<tr><td style="text-align: left"><strong>HEA 300</strong></td><td style="text-align: center">8,5</td><td style="text-align: center">122</td><td style="text-align: center">182</td><td style="text-align: center">243</td><td style="text-align: center">365</td><td style="text-align: center">191</td><td style="text-align: center">287</td><td style="text-align: center">383</td><td style="text-align: center">574</td></tr>
 </tbody></table>
 </div>
-<p><strong>Rekomendētie savienojumu risinājumi pēc siju profila</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Profils</th><th>Augstums</th><th>Ieteicamais risinājums</th><th>Alternatīva</th></tr></thead><tbody>
-<tr><td>IPE 180</td><td>180mm</td><td>3×M16 vert. (114 kN)</td><td>4×M16 2×2 (152 kN)</td></tr>
-<tr><td>IPE 200</td><td>200mm</td><td>4×M16 2×2 (160 kN)</td><td>4×M20 2×2 (251 kN)</td></tr>
-<tr><td>IPE 240</td><td>240mm</td><td>4×M20 2×2 (278 kN)</td><td>3×M20 vert. (209 kN)</td></tr>
-<tr><td>IPE 300+</td><td>300mm+</td><td>6×M20 2×3 (478+ kN)</td><td>4×M20 2×2 (318+ kN)</td></tr>
-<tr><td>HEA 160-180</td><td>160-180mm</td><td>3×M16 vert. (129 kN)</td><td>4×M16 2×2 (172 kN)</td></tr>
-<tr><td>HEA 200</td><td>200mm</td><td>4×M20 2×2 (292 kN)</td><td>3×M20 vert. (219 kN)</td></tr>
-<tr><td>HEA 240+</td><td>240mm+</td><td>6×M20 2×3 (505+ kN)</td><td>4×M20 2×2 (337+ kN)</td></tr>
+<p><em>Slodžu grupu krāsu kodi (projektēšanas atvieglošanai):</em></p>
+<ul>
+<li><em>Zaļš: $&lt; 100\text{ kN}$</em></li>
+<li><em>Zils: $100 \dots 200\text{ kN}$</em></li>
+<li><em>Gaiši oranžs: $200 \dots 300\text{ kN}$</em></li>
+<li><em>Tumši oranžs: $&gt; 300\text{ kN}$</em></li>
+</ul>
+<hr />
+<h2 id="metinājuma-šuves-izvēle-saskaņā-ar-skrūvju-nestspēju"><a class="header" href="#metinājuma-šuves-izvēle-saskaņā-ar-skrūvju-nestspēju">Metinājuma šuves izvēle saskaņā ar skrūvju nestspēju</a></h2>
+<p>Lai garantētu, ka savienojuma metinājums nav vājākais posms, šuves tiek dimensionētas pēc nosacījuma:
+$$V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}$$
+Auss tiek metināta ar divpusēju stūra šuvi (rīkle $a$) pie nesošā elementa.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Skrūves</th><th style="text-align: center">Skrūvju grupas nestspēja</th><th style="text-align: center">Nepieciešamā šuves pretestība</th><th style="text-align: center">Auss augstums</th><th style="text-align: center">Izvēlētais šuves biezums $a$</th><th style="text-align: center">Šuvju faktiskā nestspēja</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>2 × M16</strong></td><td style="text-align: center">121 kN</td><td style="text-align: center">145 kN</td><td style="text-align: center">128 mm</td><td style="text-align: center"><strong>$a = 4\text{ mm}$</strong></td><td style="text-align: center">149 kN</td></tr>
+<tr><td style="text-align: left"><strong>3 × M16</strong></td><td style="text-align: center">181 kN</td><td style="text-align: center">217 kN</td><td style="text-align: center">168 mm</td><td style="text-align: center"><strong>$a = 5\text{ mm}$</strong></td><td style="text-align: center">249 kN</td></tr>
+<tr><td style="text-align: left"><strong>4 × M16</strong></td><td style="text-align: center">241 kN</td><td style="text-align: center">289 kN</td><td style="text-align: center">128 mm</td><td style="text-align: center"><strong>$a = 7\text{ mm}$</strong></td><td style="text-align: center">334 kN</td></tr>
+<tr><td style="text-align: left"><strong>6 × M16</strong></td><td style="text-align: center">362 kN</td><td style="text-align: center">434 kN</td><td style="text-align: center">168 mm</td><td style="text-align: center"><strong>$a = 8\text{ mm}$</strong></td><td style="text-align: center">481 kN</td></tr>
+<tr><td style="text-align: left"><strong>2 × M20</strong></td><td style="text-align: center">188 kN</td><td style="text-align: center">226 kN</td><td style="text-align: center">148 mm</td><td style="text-align: center"><strong>$a = 6\text{ mm}$</strong></td><td style="text-align: center">270 kN</td></tr>
+<tr><td style="text-align: left"><strong>3 × M20</strong></td><td style="text-align: center">282 kN</td><td style="text-align: center">338 kN</td><td style="text-align: center">198 mm</td><td style="text-align: center"><strong>$a = 6\text{ mm}$</strong></td><td style="text-align: center">361 kN</td></tr>
+<tr><td style="text-align: left"><strong>4 × M20</strong></td><td style="text-align: center">376 kN</td><td style="text-align: center">451 kN</td><td style="text-align: center">148 mm</td><td style="text-align: center"><strong>$a = 9\text{ mm}$</strong></td><td style="text-align: center">481 kN</td></tr>
+<tr><td style="text-align: left"><strong>6 × M20</strong></td><td style="text-align: center">565 kN</td><td style="text-align: center">678 kN</td><td style="text-align: center">198 mm</td><td style="text-align: center"><strong>$a = 9\text{ mm}$</strong></td><td style="text-align: center">723 kN</td></tr>
 </tbody></table>
 </div>
-<p><strong>Rekomendētie savienojumu risinājumi pēc šķērsspēka</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Slodze</th><th>V1</th><th>V2</th><th>V3</th></tr></thead><tbody>
-<tr><td>50-100 kN</td><td>3×M16 vert.</td><td>2×M16 vert.</td><td>2×M20 vert.</td></tr>
-<tr><td>100-150 kN</td><td>4×M16 (2×2)</td><td>3×M16 vert.</td><td>2×M20 vert.</td></tr>
-<tr><td>150-250 kN</td><td>4×M20 (2×2)</td><td>4×M16 (2×2)</td><td>3×M20 vert.</td></tr>
-<tr><td>250-400 kN</td><td>6×M20 (2×3)</td><td>6×M16 (2×3)</td><td>4×M20 (2×2)</td></tr>
-<tr><td>400+ kN</td><td>6×M20</td><td>6×M20</td><td>6×M20</td></tr>
+<hr />
+<h2 id="rekomendētie-risinājumi-pēc-siju-šķērsgriezuma"><a class="header" href="#rekomendētie-risinājumi-pēc-siju-šķērsgriezuma">Rekomendētie risinājumi pēc siju šķērsgriezuma</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Profils</th><th style="text-align: center">Profila augstums</th><th style="text-align: left">Ieteicamais mezgla risinājums</th><th style="text-align: left">Alternatīvais risinājums</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>IPE 180</strong></td><td style="text-align: center">180 mm</td><td style="text-align: left">3 × M16 vertikāli (114 kN)</td><td style="text-align: left">4 × M16 rindā 2x2 (152 kN)</td></tr>
+<tr><td style="text-align: left"><strong>IPE 200</strong></td><td style="text-align: center">200 mm</td><td style="text-align: left">4 × M16 rindā 2x2 (160 kN)</td><td style="text-align: left">4 × M20 rindā 2x2 (251 kN)</td></tr>
+<tr><td style="text-align: left"><strong>IPE 240</strong></td><td style="text-align: center">240 mm</td><td style="text-align: left">4 × M20 rindā 2x2 (278 kN)</td><td style="text-align: left">3 × M20 vertikāli (209 kN)</td></tr>
+<tr><td style="text-align: left"><strong>IPE 300+</strong></td><td style="text-align: center">300+ mm</td><td style="text-align: left">6 × M20 rindā 2x3 (478+ kN)</td><td style="text-align: left">4 × M20 rindā 2x2 (318+ kN)</td></tr>
+<tr><td style="text-align: left"><strong>HEA 160-180</strong></td><td style="text-align: center">160-180 mm</td><td style="text-align: left">3 × M16 vertikāli (129 kN)</td><td style="text-align: left">4 × M16 rindā 2x2 (172 kN)</td></tr>
+<tr><td style="text-align: left"><strong>HEA 200</strong></td><td style="text-align: center">200 mm</td><td style="text-align: left">4 × M20 rindā 2x2 (292 kN)</td><td style="text-align: left">3 × M20 vertikāli (219 kN)</td></tr>
+<tr><td style="text-align: left"><strong>HEA 240+</strong></td><td style="text-align: center">240+ mm</td><td style="text-align: left">6 × M20 rindā 2x3 (505+ kN)</td><td style="text-align: left">4 × M20 rindā 2x2 (337+ kN)</td></tr>
 </tbody></table>
 </div>
-<p><strong>Augstuma ierobežojumi skrūvju izvietošanai</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Konfigurācija</th><th>Vajadzīgais augstums</th><th>Piemērojami profili</th></tr></thead><tbody>
-<tr><td>3×M16 vert.</td><td>168mm</td><td>IPE 180+</td></tr>
-<tr><td>3×M20 vert.</td><td>198mm</td><td>IPE 240+</td></tr>
-<tr><td>6×M16 vert.</td><td>208mm</td><td>IPE 240+</td></tr>
-<tr><td>6×M20 vert.</td><td>296mm</td><td>IPE 360+</td></tr>
+<hr />
+<h2 id="rekomendētie-risinājumi-pēc-šķērsspēka-lieluma"><a class="header" href="#rekomendētie-risinājumi-pēc-šķērsspēka-lieluma">Rekomendētie risinājumi pēc šķērsspēka lieluma</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Aprēķina šķērsspēks $V_{Ed}$</th><th style="text-align: left">1. Izvēles risinājums</th><th style="text-align: left">2. Izvēles risinājums</th><th style="text-align: left">3. Izvēles risinājums</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>$50 \dots 100\text{ kN}$</strong></td><td style="text-align: left">3 × M16 vertikāli</td><td style="text-align: left">2 × M16 vertikāli</td><td style="text-align: left">2 × M20 vertikāli</td></tr>
+<tr><td style="text-align: left"><strong>$100 \dots 150\text{ kN}$</strong></td><td style="text-align: left">4 × M16 (2x2)</td><td style="text-align: left">3 × M16 vertikāli</td><td style="text-align: left">2 × M20 vertikāli</td></tr>
+<tr><td style="text-align: left"><strong>$150 \dots 250\text{ kN}$</strong></td><td style="text-align: left">4 × M20 (2x2)</td><td style="text-align: left">4 × M16 (2x2)</td><td style="text-align: left">3 × M20 vertikāli</td></tr>
+<tr><td style="text-align: left"><strong>$250 \dots 400\text{ kN}$</strong></td><td style="text-align: left">6 × M20 (2x3)</td><td style="text-align: left">6 × M16 (2x3)</td><td style="text-align: left">4 × M20 (2x2)</td></tr>
+<tr><td style="text-align: left"><strong>$&gt; 400\text{ kN}$</strong></td><td style="text-align: left">6 × M20 (2x3)</td><td style="text-align: left">6 × M20 (2x3)</td><td style="text-align: left">6 × M20 (2x3)</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="siju-augstuma-ierobežojumi-skrūvju-izvietošanai"><a class="header" href="#siju-augstuma-ierobežojumi-skrūvju-izvietošanai">Siju augstuma ierobežojumi skrūvju izvietošanai</a></h2>
+<p>Lai skrūves fiziski ietilptu sijas augstumā, ievērojot minimālos attālumus līdz siju plauktiem un rādiusiem:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Skrūvju konfigurācija</th><th style="text-align: center">Nepieciešamais sijas sieniņas augstums</th><th style="text-align: left">Piemērojamie IPE/HEA profili</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>3 × M16 vertikāli</strong></td><td style="text-align: center">168 mm</td><td style="text-align: left">IPE 180+ / HEA 160+</td></tr>
+<tr><td style="text-align: left"><strong>3 × M20 vertikāli</strong></td><td style="text-align: center">198 mm</td><td style="text-align: left">IPE 240+ / HEA 200+</td></tr>
+<tr><td style="text-align: left"><strong>6 × M16 (2x3)</strong></td><td style="text-align: center">208 mm</td><td style="text-align: left">IPE 240+ / HEA 200+</td></tr>
+<tr><td style="text-align: left"><strong>6 × M20 (2x3)</strong></td><td style="text-align: center">296 mm</td><td style="text-align: left">IPE 360+ / HEA 280+</td></tr>
 </tbody></table>
 </div>
                     </main>

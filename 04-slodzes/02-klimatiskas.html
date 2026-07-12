@@ -180,62 +180,83 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="klimatiskās-slodzes"><a class="header" href="#klimatiskās-slodzes">Klimatiskās slodzes</a></h2>
-<h3 id="sniega-slodze"><a class="header" href="#sniega-slodze">Sniega slodze</a></h3>
-<p>Saskaņā ar LVS EN 1991-1-3/NA:2019 punktu 2.7 par projektā ievērtējamām situācijām un slodžu shēmām visā Latvijas teritorijā ir jāpielieto B1 slogojuma gadījums (notiek īpaša sniega snigšana, nav īpaši sniega sanesumi, sanesta sniega slodze apskatāma arī ārkārtas situācijā pēc vienādojuma μ<sub>1</sub>·C<sub>e</sub>·C<sub>t</sub>·C<sub>esl</sub>·s<sub>k</sub>). 6.2 punktā aprakstītos sanesumus jāapskata kā projekta ievērtējamā ilgstošā / īslaicīgā situācija.</p>
-<p><strong>A.1. tabula no LVS EN 1991-1-3</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Normāli apstākļi</th><th>Īpaši apstākļi (Exceptional conditions)</th><th>Īpaši apstākļi (Exceptional conditions)</th><th>Īpaši apstākļi (Exceptional conditions)</th></tr></thead><tbody>
-<tr><td>A gadījums</td><td>B1 gadījums</td><td>B2 gadījums</td><td>B3 gadījums</td></tr>
-<tr><td>Nenotiek īpaša sniega snigšana. Nav īpaši sniega sanesumi.</td><td>Notiek īpaša sniega snigšana. Nav īpaši sniega sanesumi.</td><td>Nenotiek īpaša sniega snigšana. Ir īpaši sniega sanesumi.</td><td>Notiek īpaša sniega snigšana. Ir īpaši sniega sanesumi.</td></tr>
-<tr><td>3.2.(1)</td><td>3.3.(1)</td><td>3.3.(2)</td><td>3.3.(3)</td></tr>
-<tr><td>Projektā ievērtējamā ilgstoša / īslaicīga situācija [1] nesanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub> [2] sanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub></td><td>Projektā ievērtējamā ilgstoša / īslaicīga situācija [1] nesanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub> [2] sanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub></td><td>Projektā ievērtējamā ilgstoša / īslaicīga situācija [1] nesanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub> [2] sanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub> (izņemot jumtu formas, kas dotas B pielikumā)</td><td>Projektā ievērtējamā ilgstoša / īslaicīga situācija [1] nesanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub> [2] sanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·s<sub>k</sub> (izņemot jumtu formas, kas dotas B pielikumā)</td></tr>
-<tr><td>Projektā ievērtējamā ārkārtējā situācija, kur sniegs ir ārkārtēja iedarbe Situācija nav ievērtējama</td><td>Projektā ievērtējamā ārkārtējā situācija, kur sniegs ir ārkārtēja iedarbe [3] nesanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·C<sub>esl</sub>·s<sub>k</sub> [4] sanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·C<sub>esl</sub>·s<sub>k</sub></td><td>Projektā ievērtējamā ārkārtējā situācija, kur sniegs ir ārkārtēja iedarbe [3] sanesta sniega slodze μ<sub>i</sub> ·s<sub>k</sub> jumu formām, kas dotas B pielikumā</td><td>Projektā ievērtējamā ārkārtējā situācija, kur sniegs ir ārkārtēja iedarbe [3] nesanesta sniega slodze μ<sub>i</sub>·C<sub>e</sub>·C<sub>t</sub>·C<sub>esl</sub>·s<sub>k</sub> [4] sanesta sniega slodze μ<sub>i</sub> ·s<sub>k</sub></td></tr>
+                        <h1 id="klimatiskās-slodzes"><a class="header" href="#klimatiskās-slodzes">Klimatiskās slodzes</a></h1>
+<h2 id="sniega-slodze"><a class="header" href="#sniega-slodze">Sniega slodze</a></h2>
+<p>Sniega slodze ir mainīga klimatiskā iedarbība, kas jāņem vērā, projektējot jumta un citu sniegam pakļautu virsmu konstrukcijas.</p>
+<p>Saskaņā ar LVS EN 1991-1-3/NA:2019 punktu 2.7, visā Latvijas teritorijā ir jāpiemēro <strong>B1 slogojuma gadījums</strong> (notiek īpaša snigšana, nav paredzēti īpaši sanesumi uz zemes).</p>
+<ul>
+<li>Standarta projektēšanas situācijās (ilgstoša/īslaicīga situācija) aprēķina sniega slodzi uz jumta:
+$$s = \mu_i \cdot C_e \cdot C_t \cdot s_k$$</li>
+<li>Ārkārtas situācijās (kur sniegs tiek vērtēts kā ārkārtēja iedarbība) aprēķina sniega slodzi uz jumta:
+$$s = \mu_i \cdot C_e \cdot C_t \cdot C_{esl} \cdot s_k$$
+Latvijā ārkārtējās sniega slodzes koeficients ir <strong>$C_{esl} = 2,0$</strong>.</li>
+</ul>
+<p>LVS EN 1991-1-3 6.2. punktā aprakstītie sniega sanesumi pie jumta izvirzījumiem ir jāizvērtē kā projekta ilgstoša vai īslaicīga situācija.</p>
+<p><strong>Sniega slodzes slogojuma situācijas (pēc LVS EN 1991-1-3 A.1. tabulas):</strong></p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Situācija / Slogojums</th><th style="text-align: left">A gadījums (Normāli apstākļi)</th><th style="text-align: left">B1 gadījums (Īpaši apstākļi)*</th><th style="text-align: left">B2 gadījums (Īpaši apstākļi)</th><th style="text-align: left">B3 gadījums (Īpaši apstākļi)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Raksturojums</strong></td><td style="text-align: left">Nenotiek īpaša snigšana, nav īpašu sanesumu.</td><td style="text-align: left">Notiek īpaša snigšana, nav īpašu sanesumu.</td><td style="text-align: left">Nenotiek īpaša snigšana, ir īpaši sanesumi.</td><td style="text-align: left">Notiek īpaša snigšana, ir īpaši sanesumi.</td></tr>
+<tr><td style="text-align: left"><strong>Ilgstoša/īslaicīga situācija</strong></td><td style="text-align: left">— Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$</td><td style="text-align: left">— Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$</td><td style="text-align: left">— Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ <em>(izņemot B pielikumu)</em></td><td style="text-align: left">— Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ <em>(izņemot B pielikumu)</em></td></tr>
+<tr><td style="text-align: left"><strong>Ārkārtējā situācija (sniegs kā ārkārtēja slodze)</strong></td><td style="text-align: left">Nav jāvērtē.</td><td style="text-align: left">— Nesanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$</td><td style="text-align: left">— Sanests sniegs: $s = \mu_i s_k$ <em>(jumtu formām B pielikumā)</em></td><td style="text-align: left">— Nesanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$<br>— Sanests sniegs: $s = \mu_i s_k$</td></tr>
 </tbody></table>
 </div>
-<p><strong>Sniega slodze Latvijā pēc LVS EN 1991-1-3-2003-NA-2019</strong></p>
-<p><strong>Sniega slodžu raksturīgās vērtības uz zemes virsmas (s<sub>k</sub>) ar varbūtību 0.02 (NA 1. tabula)</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Sniega slodzes reģions</th><th>S<sub>k</sub>, kN/m<sup>2</sup></th></tr></thead><tbody>
-<tr><td>I</td><td>1.25</td></tr>
-<tr><td>II</td><td>1.50</td></tr>
-<tr><td>III</td><td>1.75</td></tr>
-<tr><td>IV</td><td>2.00</td></tr>
-<tr><td>V</td><td>2.30</td></tr>
+<hr />
+<h3 id="sniega-slodze-uz-zemes-virsmas-s_k-latvijā"><a class="header" href="#sniega-slodze-uz-zemes-virsmas-s_k-latvijā">Sniega slodze uz zemes virsmas $s_k$ Latvijā</a></h3>
+<p>Sniega slodžu raksturīgās vērtības uz zemes virsmas ($s_k$) ir noteiktas LVS EN 1991-1-3/NA (references periods 50 gadi, ikgadējā pārsniegšanas varbūtība 0,02).</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Sniega slodzes reģions</th><th style="text-align: center">$s_k$ (kN/m² jeb kPa)</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>I</strong></td><td style="text-align: center">1,25</td></tr>
+<tr><td style="text-align: center"><strong>II</strong></td><td style="text-align: center">1,50</td></tr>
+<tr><td style="text-align: center"><strong>III</strong></td><td style="text-align: center">1,75</td></tr>
+<tr><td style="text-align: center"><strong>IV</strong></td><td style="text-align: center">2,00</td></tr>
+<tr><td style="text-align: center"><strong>V</strong></td><td style="text-align: center">2,30</td></tr>
 </tbody></table>
 </div>
-<p><img src="../images/ch04/img004.png" alt="Attēls" /></p>
-<p>Interpolāciju neveic, bet lieto vērtību kāda ir norādīta apgabalam, kurā ietilpst projektējamā būve.</p>
-<p><strong>Sniega sanesumi pie izvirzījumiem un šķēršļiem</strong></p>
-<p>Vēja apstākļos sniega sanesumi var veidoties uz jebkura jumta, kuram ir šķēršļi. Uz gandrīz horizontāliem jumtiem var lietot šādus sniega formas koeficientus: μ<sub>1</sub> = 0.8; μ<sub>2</sub> = γ·h/s<sub>k</sub>, bet ar ierobežojumu &gt;0.80 un &lt;2.00. Sniega tilpumsvaru γ var pieņemt vienādu ar 2.00 kN/m<sup>3</sup>. Sanesuma garums l<sub>s</sub> = 2h, bet ar ierobežojumu &gt;5.00 m un &lt;15.00 m (faktiski pie biežāk sastopamiem šķēršļiem uz jumta l<sub>s</sub> būs 5.00 m, jo pie standartā uzdotās sakarības lielāks sanesuma garums var veidoties tikai šķēršļa augstumam pārsniedzot 2.50 m).</p>
-<p><strong>Sanesumu principiālā shēma pie šķēršļiem</strong></p>
-<p><img src="../images/ch04/img005.png" alt="Attēls" /></p>
-<p><strong>Koeficientu μ<sub>2 </sub>vērtības pie Latvijas sniega reģioniem no 1 līdz 5 (S<sub>k</sub> attiecīgi no 1.25 līdz 2.30 kPa)</strong></p>
-<p><img src="../images/ch04/img006.png" alt="Attēls" /></p>
-<h3 id="vēja-slodze"><a class="header" href="#vēja-slodze">Vēja slodze</a></h3>
-<p><strong>Vēja slodze Latvijā pēc LVS EN 1991-1-4:2005/NA:2011</strong></p>
-<p>Visā latvijas teritorijā, izņemot jūras piekrastes zonu, noteikts fundamentālais vēja pamatātrums V<sub>b,0</sub>=21 m/s.</p>
-<p>Rīgas jūras līča piekrastes zonā noteikts fundamentālais vēja pamatātrums V<sub>b,0</sub>=24 m/s.</p>
-<p>Baltijas jūras piekrastes zonā noteikts fundamentālais vēja pamatātrums V<sub>b,0</sub>=27 m/s.</p>
-<p>Ar jūras piekrastes zonu ir jāsaprot 25 km plata zona gar Baltijas jūras krastu un 15 km plata zona gar Rīgas jūras līča krastu, ja netiek ņemta vērā apvidus ortogrāfija. Jūrā un kāpu zonā tiek rekomendēts piemērot lielāku fundamentālo vēja pamatātrumu, tā vērtību izvērtē projektētājs.</p>
-<p><img src="../images/ch04/img007.png" alt="Attēls" /></p>
-<p><strong>Ilustrēti piemēri apvidus kategorijas izvēlei</strong></p>
-<table>
-<colgroup>
-  <col style="width:10%">
-  <col style="width:70%">
-  <col style="width:20%">
-</colgroup>
-<thead>
-<tr><th>Apvidus kategorija</th><th>Apraksts</th><th>Ilustratīvs piemērs</th></tr>
-</thead>
-<tbody>
-<tr><td>0</td><td>Jūra un atklātas jūras iedarbei pakļauta piekrastes teritorija</td><td></td></tr>
-<tr><td>I</td><td>Ezeri vai teritorijas ar nenozīmīgu veģitāciju un bez šķēršļiem</td><td></td></tr>
-<tr><td>II</td><td>Teritorija ar zemu veģetāciju, kā, piemēram, zāli un atsevišķi stāvošiem šķēršļiem (kokiem, ēkām), kas viens no otra atrodas vismaz 20 šķēršļa augstuma attālumā.</td><td></td></tr>
-<tr><td>III</td><td>Teritorija ar regulāru veģetāciju vai ēkām, vai arī atsevišķi stāvošiem šķēršļiem, kuri viens no otra atrodas ne vairāk kā 20 šķēršļu augstumu attālumā, piemēram, ciemati, priekšpilsētas, pastāvīgs mežs.</td><td></td></tr>
-<tr><td>IV</td><td>Teritorija, kurā vismaz 15% no virsmas ir apbūvēta ar būvēm, kuru vidējais augstums pārsniedz 15 m.</td><td></td></tr>
-</tbody>
-</table>
-
+<p><img src="../images/ch04/img004.png" alt="Karte" /></p>
+<p><em>Svarīgi: Interpolāciju starp zonām neveic. Projektēšanā izmanto tā reģiona vērtību, kurā atrodas būvlaukums.</em></p>
+<hr />
+<h3 id="sniega-sanesumi-pie-izvirzījumiem-un-šķēršļiem"><a class="header" href="#sniega-sanesumi-pie-izvirzījumiem-un-šķēršļiem">Sniega sanesumi pie izvirzījumiem un šķēršļiem</a></h3>
+<p>Vēja ietekmē sniega sanesumi var veidoties uz jebkura jumta, kuram ir izbūvēti šķēršļi (parapeti, sienu nobīdes, virsgaismas, mašīntelpas u.c.).</p>
+<p>Uz gandrīz horizontāliem jumtiem sniega formas koeficientus pie šķēršļiem aprēķina šādi:</p>
+<ul>
+<li>$\mu_1 = 0,8$ (nesanesta sniega slodze)</li>
+<li>$\mu_2 = \frac{\gamma \cdot h}{s_k}$ (ar ierobežojumu: $0,8 \le \mu_2 \le 2,0$)</li>
+</ul>
+<p>Kur:</p>
+<ul>
+<li>$h$ ir šķēršļa augstums (m);</li>
+<li>$s_k$ ir sniega slodze uz zemes (kPa);</li>
+<li>$\gamma$ ir sniega tilpummasa (tilpumsvars), ko pieņem vienādu ar <strong>$2,0\text{ kN/m}^3$</strong>.</li>
+</ul>
+<p>Sanesuma garums:</p>
+<ul>
+<li>$l_s = 2h$ (ar ierobežojumu: $5,0\text{ m} \le l_s \le 15,0\text{ m}$).</li>
+</ul>
+<p><em>Piezīme: Pie biežāk sastopamajiem jumta šķēršļiem (kuru augstums $h \le 2,5\text{ m}$) sanesuma garums $l_s$ parasti būs tieši minimālais robežlielums — $5,0\text{ m}$. Lielāks sanesuma garums var veidoties tikai tad, ja šķēršļa augstums pārsniedz 2,5 m.</em></p>
+<p><strong>Sanesumu principiālā shēma pie šķēršļiem:</strong></p>
+<p><img src="../images/ch04/img005.png" alt="Shēma" /></p>
+<p><strong>Koeficientu $\mu_2$ vērtības Latvijas sniega reģionos atkarībā no šķēršļa augstuma $h$:</strong></p>
+<p><img src="../images/ch04/img006.png" alt="Grafiks" /></p>
+<hr />
+<h2 id="vēja-slodze"><a class="header" href="#vēja-slodze">Vēja slodze</a></h2>
+<p>Vēja slodze ir mainīga iedarbība, ko aprēķina saskaņā ar LVS EN 1991-1-4 un tā nacionālo pielikumu LVS EN 1991-1-4/NA:2011.</p>
+<h3 id="fundamentālais-vēja-pamatātrums-v_b0-latvijā"><a class="header" href="#fundamentālais-vēja-pamatātrums-v_b0-latvijā">Fundamentālais vēja pamatātrums $v_{b,0}$ Latvijā</a></h3>
+<p>Visā Latvijas teritorijā, izņemot piekrastes zonas, vēja fundamentālais pamatātrums ir <strong>$v_{b,0} = 21\text{ m/s}$</strong> (atbilst vēja spiedienam $q_{b,0} \approx 0,27\text{ kN/m}^2$).</p>
+<ul>
+<li><strong>Rīgas jūras līča piekrastes zonā</strong> (15 km josla): <strong>$v_{b,0} = 24\text{ m/s}$</strong> ($q_{b,0} \approx 0,36\text{ kN/m}^2$)</li>
+<li><strong>Baltijas jūras atklātās piekrastes zonā</strong> (25 km josla): <strong>$v_{b,0} = 27\text{ m/s}$</strong> ($q_{b,0} \approx 0,46\text{ kN/m}^2$)</li>
+</ul>
+<p><em>Piezīme: Piekrastes zonas joslas platumu mēra no krasta līnijas, ja netiek ņemta vērā apvidus specifiskā orogrāfija. Jūrā un tiešā kāpu zonā ieteicams piemērot paaugstinātu vēja fundamentālo ātrumu pēc projektētāja novērtējuma.</em></p>
+<p><img src="../images/ch04/img007.png" alt="Vēja karte" /></p>
+<hr />
+<h3 id="apvidus-kategorijas-izvēle"><a class="header" href="#apvidus-kategorijas-izvēle">Apvidus kategorijas izvēle</a></h3>
+<p>Apvidus kategorija (Terrain Category) raksturo virsmas raupjumu un ietekmē vēja ātruma profilu un dinamisko spiedienu augstumā.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Apvidus kategorija</th><th style="text-align: left">Apraksts</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>0</strong></td><td style="text-align: left">Jūra un atklātas jūras iedarbībai pakļauta piekrastes teritorija.</td></tr>
+<tr><td style="text-align: center"><strong>I</strong></td><td style="text-align: left">Ezeri vai atklātas teritorijas ar nenozīmīgu veģetāciju un bez šķēršļiem.</td></tr>
+<tr><td style="text-align: center"><strong>II</strong></td><td style="text-align: left">Teritorija ar zemu veģetāciju (piemēram, zāli) un atsevišķiem šķēršļiem (kokiem, ēkām), kas atrodas vismaz 20 šķēršļu augstumu attālumā viens no otra.</td></tr>
+<tr><td style="text-align: center"><strong>III</strong></td><td style="text-align: left">Teritorija ar regulāru veģetāciju, ēkām vai mežaudzēm, kur šķēršļi atrodas ne tālāk par 20 šķēršļu augstumiem viens no otra (piemēram, ciemati, priekšpilsētas, pastāvīgs mežs).</td></tr>
+<tr><td style="text-align: center"><strong>IV</strong></td><td style="text-align: left">Teritorija, kurā vismaz 15% no virsmas ir apbūvēti ar ēkām, kuru vidējais augstums pārsniedz 15 m (blīva pilsētas apbūve).</td></tr>
+</tbody></table>
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

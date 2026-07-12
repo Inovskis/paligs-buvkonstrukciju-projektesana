@@ -181,10 +181,47 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="konstruktīvās-shēmas-un-darbības-principi"><a class="header" href="#konstruktīvās-shēmas-un-darbības-principi">Konstruktīvās shēmas un darbības principi</a></h1>
+<p>Konstruktīvās shēmas izvēle nosaka būves slodžu pārnesi no jumta un stāvu pārsegumiem uz pamatiem un pamatni, kā arī nodrošina ēkas kopējo telpisko noturību un ģeometrisko nemainību.</p>
+<hr />
 <h2 id="risinājumi-telpiskās-noturības-nodrošināšanai"><a class="header" href="#risinājumi-telpiskās-noturības-nodrošināšanai">Risinājumi telpiskās noturības nodrošināšanai</a></h2>
-<p><img src="images/ch06/img013.png" alt="Attēls" /></p>
+<p>Ēkas telpiskā noturība un pretestība pret horizontālajām iedarbībām (vēju, seismiskajām slodzēm, ģeometriskajām neprecizitātēm) tiek nodrošināta, apvienojot horizontālos un vertikālos stinguma elementus:</p>
+<ul>
+<li><strong>Horizontālie diski (pārsegumi):</strong> Darbojas kā stingas diafragmas, kas sadala horizontālos spēkus uz vertikālajiem stinguma elementiem.</li>
+<li><strong>Vertikālie stinguma elementi:</strong>
+<ul>
+<li><strong>Stindzināšanas saites (Bracing):</strong> Diagonālie krusti, K-veida vai V-veida saites (raksturīgas tērauda un koka karkasiem). Tie ir visekonomiskākie un mazdeformējamākie elementi.</li>
+<li><strong>Bīdes sienas un kodoli (Shear walls / cores):</strong> Monolītā dzelzsbetona kāpņu un liftu šahtas (kodoli) vai nesošās mūra/betona sienas, kas uzņem bīdes spēkus.</li>
+<li><strong>Stingie rāmji (Moment frames):</strong> Rāmji ar stingiem (momentizturīgiem) siju-kolonnu mezgliem. Tie ir deformējamāki nekā saites, taču nodrošina lielāku arhitektonisko brīvību.</li>
+</ul>
+</li>
+</ul>
+<p><img src="images/ch06/img013.png" alt="Telpiskās noturības shēmas" /></p>
+<hr />
 <h2 id="darbības-principi-lineāriem-pārseguma-elementiem"><a class="header" href="#darbības-principi-lineāriem-pārseguma-elementiem">Darbības principi lineāriem pārseguma elementiem</a></h2>
-<p><img src="images/ch06/img014.png" alt="Attēls" /></p>
+<p>Lineārie elementi (sijas, dobumotie paneļi, kopnes) uzņem šķērsslodzes un darbojas galvenokārt uz lieci un bīdi. To statiskās shēmas izvēle nosaka piepūļu sadalījumu un konstrukcijas augstumu:</p>
+<h3 id="1-vienlaiduma-šarnīrveida-sija"><a class="header" href="#1-vienlaiduma-šarnīrveida-sija">1. Vienlaiduma (šarnīrveida) sija</a></h3>
+<ul>
+<li><strong>Statika:</strong> Statiski nosakāma sistēma. Abos galos ir šarnīrveida atbalsti, kas neuzņem momentu.</li>
+<li><strong>Moments laidumā:</strong> Maksimālais moments ir laiduma vidū:
+$$M_{\text{max}} = \frac{q \cdot L^2}{8}$$</li>
+<li><strong>Priekšrocības:</strong> Vienkārša montāža un mezglu izveide, nav jutīga pret atbalstu sēšanos.</li>
+<li><strong>Trūkumi:</strong> Lielākas izlieces un nepieciešams lielāks šķērsgriezuma augstums.</li>
+</ul>
+<h3 id="2-konsoles-sija"><a class="header" href="#2-konsoles-sija">2. Konsoles sija</a></h3>
+<ul>
+<li><strong>Statika:</strong> Sija ar vienu brīvu galu un otru stingi iespīlētu atbalstā.</li>
+<li><strong>Moments balstā:</strong> Maksimālais moments veidojas iespīlējuma vietā (stiepta augšējā šķiedra):
+$$M_{\text{max}} = -\frac{q \cdot L^2}{2}$$</li>
+<li><strong>Trūkumi:</strong> Ļoti jutīga pret iespīlējuma mezgla rotāciju un deformācijām.</li>
+</ul>
+<h3 id="3-nepārtraukta-vairāklaidumu-sija"><a class="header" href="#3-nepārtraukta-vairāklaidumu-sija">3. Nepārtraukta (vairāklaidumu) sija</a></h3>
+<ul>
+<li><strong>Statika:</strong> Statiski nenoteicama sistēma ar starpatbalstiem.</li>
+<li><strong>Darbības princips:</strong> Momentu diagramma ir vienmērīgāka — virs starpatbalstiem veidojas negatīvi momenti (stiepta augšējā šķiedra), kas samazina momentus laidumos.</li>
+<li><strong>Priekšrocības:</strong> Mazākas izlieces un mazāks nepieciešamais šķērsgriezuma augstums salīdzinājumā ar vienlaiduma siju.</li>
+<li><strong>Trūkumi:</strong> Sarežģītāki mezgli, papildu piepūles no atbalstu sēšanās vai temperatūras deformācijām.</li>
+</ul>
+<p><img src="images/ch06/img014.png" alt="Lineāro elementu shēmas" /></p>
 
                     </main>
 

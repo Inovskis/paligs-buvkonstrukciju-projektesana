@@ -180,10 +180,31 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="ugundrošu-konstrukciju-projektēšana"><a class="header" href="#ugundrošu-konstrukciju-projektēšana">Ugundrošu konstrukciju projektēšana</a></h1>
-<p>Ugunsgrēka situācijai jāpielieto sekojoša slodžu kombinācija:</p>
-<p><img src="images/ch05/img012.png" alt="Attēls" /></p>
-<p>Latvijā Ψ<sub>1</sub> vai Ψ<sub>2</sub> lietošana nacionālajā pielikumā nav noteikta, attiecīgi lietojama rekomendējamais koeficients, kas ir Ψ<sub>2</sub> (kvazipastāvīgā mainīgā slodžu vērtība).</p>
+                        <h1 id="ugunsdrošu-konstrukciju-projektēšana"><a class="header" href="#ugunsdrošu-konstrukciju-projektēšana">Ugunsdrošu konstrukciju projektēšana</a></h1>
+<p>Projektējot konstrukcijas ugunsgrēka ārkārtas situācijai, ir jāpārbauda to nestspēja un/vai norobežojošā funkcija noteiktā laika periodā (piemēram, 30, 60, 90 vai 120 minūtes).</p>
+<h2 id="ugunsizturības-kritēriji-r-e-i"><a class="header" href="#ugunsizturības-kritēriji-r-e-i">Ugunsizturības kritēriji (R, E, I)</a></h2>
+<p>Ugunsizturību izsaka minūtēs un apzīmē ar trim galvenajiem kritērijiem:</p>
+<ul>
+<li><strong>R (Nestspēja - Load-bearing capacity):</strong> Konstrukcijas spēja saglabāt mehānisko izturību un nestspēju ugunsgrēka laikā bez sabrukšanas (piemēram, R60, R90). Šis kritērijs attiecas uz nesošajām kolonnām, sijām, pārsegumiem un nesošajām sienām.</li>
+<li><strong>E (Vienotība - Integrity):</strong> Konstrukcijas spēja novērst plaisu rašanos un liesmu vai karstu gāzu cauriekļu veidošanos (norobežojošām konstrukcijām).</li>
+<li><strong>I (Izolācija - Insulation):</strong> Konstrukcijas spēja ierobežot siltuma pārvadi, lai temperatūra neapsildāmajā pusē nepārsniegtu noteikto robežu (vidēji par 140 °C vai lokāli par 180 °C virs sākuma temperatūras).</li>
+</ul>
+<p>Nesošajām un norobežojošajām konstrukcijām (piemēram, pārseguma plātnēm vai ugunsdrošības sienām) parasti tiek izvirzītas apvienotās prasības, piemēram, <strong>REI 60</strong> vai <strong>REI 120</strong>.</p>
+<hr />
+<h2 id="slodžu-kombinācija-ugunsgrēka-situācijā-uls"><a class="header" href="#slodžu-kombinācija-ugunsgrēka-situācijā-uls">Slodžu kombinācija ugunsgrēka situācijā (ULS)</a></h2>
+<p>Ugunsgrēks ir ārkārtēja situācija (accidental situation), tādēļ slodžu aprēķina vērtības tiek samazinātas, jo ir maz ticama maksimālās mainīgās slodzes sakrišana ar ugunsgrēku. Saskaņā ar LVS EN 1990 vienādojumu (6.11a/b):</p>
+<p>$$E_{d,fi} = \sum G_{k,j} + \psi_{1,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}$$</p>
+<p>vai</p>
+<p>$$E_{d,fi} = \sum G_{k,j} + \psi_{2,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}$$</p>
+<p><img src="images/ch05/img012.png" alt="Slodžu shēma ugunsgrēka situācijā" /></p>
+<p>Kur:</p>
+<ul>
+<li>$G_{k,j}$ — pastāvīgo slodžu raksturīgās vērtības (parciālais drošības koeficients $\gamma_{GA} = 1,0$);</li>
+<li>$Q_{k,1}$ — galvenā mainīgā slodze;</li>
+<li>$\psi_{1,1}$ un $\psi_{2,1}$ — kombināciju koeficienti.</li>
+</ul>
+<p><strong>Piemērošana Latvijā:</strong>
+Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot biežo vērtību ($\psi_1$), tādēļ praksē ugunsgrēka situācijā mainīgajām slodzēm (piemēram, lietderīgajai slodzei dzīvojamās vai biroju ēkās) parasti piemēro kvazipastāvīgo kombinācijas koeficientu <strong>$\psi_2$</strong> (kas dod ekonomiskāku rezultātu).</p>
 
                     </main>
 

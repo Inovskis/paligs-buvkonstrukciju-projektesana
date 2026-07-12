@@ -180,58 +180,81 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="pāļu-pamati"><a class="header" href="#pāļu-pamati">Pāļu pamati</a></h2>
-<p><strong>Korelācijas faktori pāļu pretestības iegūšanai no grunts pārbaudes rezultātiem</strong></p>
-<p><strong>A.10. tabula no EN 1997-1</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>ξ, ja n=</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>7</th><th>10</th></tr></thead><tbody>
-<tr><td>ξ<sub>3</sub></td><td>1.40</td><td>1.35</td><td>1.33</td><td>1.31</td><td>1.29</td><td>1.27</td><td>1.25</td></tr>
-<tr><td>ξ<sub>4</sub></td><td>1.40</td><td>1.27</td><td>1.23</td><td>1.20</td><td>1.15</td><td>1.12</td><td>1.08</td></tr>
-</tbody></table>
-</div>
-<p>Raksturīgās nestspējas noteikšanu no aprēķinātās (Cal) veic pēc sakarības:</p>
-<p><img src="../images/ch07/img030.png" alt="Attēls" /></p>
-<p>Ja aprēķinu veic pēc viena rezultāta sliktākajā pozīcijā, tad to var uzskatīt par R<sub>c,min </sub>un noteikt pāļa raksturīgo pretestību dalot aprēķināto rezultātu (Cal) ar ξ<sub>4</sub>.</p>
-<p><strong>Attālums starp pāļiem</strong></p>
-<p>Tipiskais izmantotais attālums starp pāļu centriem ir 3 pāļu diametri, izņēmuma kārtā var pielietot arī 2.5 diametrus (ja izteikti lielāko nestspējas daļu veido pāļa gals).</p>
-<p><strong>Minimālais pāļu stiegrojums pēc EN 1536</strong></p>
-<div class="table-wrapper"><table><thead><tr><th>Pāļa šķērsgriezuma laukums: A<sub>c</sub></th><th>Minimālais garenstiegrojuma laukums: A<sub>s</sub></th></tr></thead><tbody>
-<tr><td>A<sub>c</sub> ≤ 0.5 m<sup>2</sup></td><td>A<sub>s</sub> ≥ 0.005 A<sub>c</sub></td></tr>
-<tr><td>0.5 m<sup>2</sup> &lt; A<sub>c</sub> ≤ 1.0 m<sup>2</sup></td><td>A<sub>s</sub> ≥ 25 cm<sup>2</sup></td></tr>
-<tr><td>A<sub>c</sub> &gt; 1.0 m<sup>2</sup></td><td>A<sub>s</sub> ≥ 0.0025 A<sub>c</sub></td></tr>
-</tbody></table>
-</div>
-<p>Stiegrojuma elementi, ja karkass tiek montēts pēc betona iepildīšanas ir robusti jāsametina kopā. Karkasa galu rekomendējams veidot konisku.</p>
-<p><strong>Papildus prasības monolītbetona pāļiem pēc LVS EN 1992-1-1</strong></p>
-<p>Punktā 2.3.4.2(2) noteikts, ka:</p>
-<p>Ja neeksistē citi noteikumi, monolītbetona pāļu bez pastāvīga apvalka projekta aprēķinos lietojamais diametrs jāpieņem:</p>
-<p>Ja d<sub>nom</sub> &lt; 400 mm, tad d = d<sub>nom</sub> – 20 mm;</p>
-<p>Ja 400 ≤ d<sub>nom</sub> ≤ 1000 mm, tad d = 0.95 ∙ d<sub>nom</sub>;</p>
-<p>d<sub>nom</sub> &gt; 1000 mm, tad d = d<sub>nom</sub> – 50 mm.</p>
-<p><strong>Slodžu pārneses mehānisms</strong></p>
-<p><strong>Slodžu pārneses mehānisms pāļiem spiedē</strong></p>
-<p><img src="../images/ch07/img031.png" alt="Attēls" /></p>
-<p><strong>Slodžu pārneses mehānisms pāļiem stiepē</strong></p>
-<p><img src="../images/ch07/img032.png" alt="Attēls" /></p>
-<p><strong>Pāļu aprēķinu principiālā shēma pēc CPT datiem</strong></p>
-<p><strong>Nestspējas aprēķins no CPT datiem (shēma pēc Niaziand Mayne</strong></p>
-<p><strong>Pāļu nestspējas noteikšana no CPT parametriem</strong> (pēc Niazi un Mayne)</p>
-<p><strong>1. Tiešās metodes (Direct Methods)</strong></p>
+                        <h1 id="pāļu-pamati"><a class="header" href="#pāļu-pamati">Pāļu pamati</a></h1>
+<p>Pāļu pamatus izmanto slodžu pārnešanai uz dziļākiem, nestspējīgākiem grunts slāņiem, ja seklie pamati nespēj nodrošināt pietiekamu nestspēju vai sēšanās robežvērtību izpildi.</p>
+<hr />
+<h2 id="raksturīgās-nestspējas-noteikšana-un-korelācijas-faktori-xi"><a class="header" href="#raksturīgās-nestspējas-noteikšana-un-korelācijas-faktori-xi">Raksturīgās nestspējas noteikšana un korelācijas faktori $\xi$</a></h2>
+<p>Saskaņā ar LVS EN 1997-1 (Eirokodekss 7), pāļu raksturīgo pretestību spiedē $R_{c,k}$ aprēķina no lauka pārbaudes rezultātiem (vai korelācijām), izmantojot korelācijas (korelācijas) faktorus $\xi_3$ un $\xi_4$:</p>
+<p>$$R_{c,k} = \min \left{ \frac{(R_{c,cal})<em>{\text{mean}}}{\xi_3} ; \frac{(R</em>{c,cal})_{\text{min}}}{\xi_4} \right}$$</p>
+<p>Kur:</p>
 <ul>
-<li><strong>Tīri empīriskās metodes</strong> — q<sub>s</sub> un q<sub>b</sub> novērtējums tieši no q<sub>c</sub> (vai q<sub>t</sub>) un/vai f<sub>s</sub>, u<sub>2</sub></li>
-<li><strong>Daļēji empīriskās metodes</strong> — q<sub>s</sub> un q<sub>b</sub> novērtējums no q<sub>c</sub> (vai q<sub>t</sub>) un/vai f<sub>s</sub> ar papildu parametriem: σ<sub>r</sub>, δ, φ′, K, σ′<sub>v0</sub>, L, d, s<sub>u</sub>, I<sub>D</sub></li>
+<li>$(R_{c,cal})_{\text{mean}}$ — vidējā aprēķinātā pāļa nestspēja no visiem pārbaudes punktiem;</li>
+<li>$(R_{c,cal})_{\text{min}}$ — minimālā aprēķinātā pāļa nestspēja no visiem pārbaudes punktiem.</li>
 </ul>
-<p><strong>2. Racionālās (netiešās) metodes (Rational/Indirect Methods)</strong></p>
-<table>
-<colgroup><col style="width:18%"><col style="width:44%"><col style="width:38%"></colgroup>
-<thead>
-<tr><th>Pieeja</th><th>Sānu pretestība q<sub>s</sub></th><th>Bāzes pretestība q<sub>b</sub></th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Kopējo spriegumu pieeja</strong> (Total Stress)</td><td>α-metodes; parametri: s<sub>u</sub>, σ′<sub>v0</sub>, OCR, I<sub>p</sub>, L</td><td>Nedrenēta slogošana smalkgraudainām gruntīm; parametrs: s<sub>u</sub></td></tr>
-<tr><td><strong>Efektīvo spriegumu pieeja</strong> (Effective Stress)</td><td>β-metodes; parametri: σ<sub>r</sub>, δ, φ′, OCR, K, σ′<sub>v0</sub>, L, d, s<sub>u</sub>, I<sub>D</sub>, s<sub>t</sub>, I<sub>p</sub></td><td>Drenēta slogošana smalk- un rupjgraudainām gruntīm; parametri: φ′, σ′<sub>v0</sub>, L, d, I<sub>D</sub></td></tr>
-</tbody>
-</table>
-
+<p><img src="../images/ch07/img030.png" alt="Formulas shēma" /></p>
+<p><strong>Korelācijas faktori $\xi$ atkarībā no pārbaudes punktu skaita $n$ (LVS EN 1997-1 A.10. tabula):</strong></p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Faktors / Punktu skaits ($n$)</th><th style="text-align: center">1</th><th style="text-align: center">2</th><th style="text-align: center">3</th><th style="text-align: center">4</th><th style="text-align: center">5</th><th style="text-align: center">7</th><th style="text-align: center">10</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>$\xi_3$</strong> (piemēro vidējai vērtībai)</td><td style="text-align: center">1,40</td><td style="text-align: center">1,35</td><td style="text-align: center">1,33</td><td style="text-align: center">1,31</td><td style="text-align: center">1,29</td><td style="text-align: center">1,27</td><td style="text-align: center">1,25</td></tr>
+<tr><td style="text-align: left"><strong>$\xi_4$</strong> (piemēro minimālajai vērtībai)</td><td style="text-align: center">1,40</td><td style="text-align: center">1,27</td><td style="text-align: center">1,23</td><td style="text-align: center">1,20</td><td style="text-align: center">1,15</td><td style="text-align: center">1,12</td><td style="text-align: center">1,08</td></tr>
+</tbody></table>
+</div>
+<p><em>Piezīme: Ja aprēķinu veic pēc viena punkta datiem sliktākajā pozīcijā, to var uzskatīt par $R_{c,min}$ un pāļa raksturīgo nestspēju nosaka, dalot šo aprēķināto vērtību ar $\xi_4 = 1,40$.</em></p>
+<hr />
+<h2 id="Ģeometriskais-izvietojums-un-attālums-starp-pāļiem"><a class="header" href="#Ģeometriskais-izvietojums-un-attālums-starp-pāļiem">Ģeometriskais izvietojums un attālums starp pāļiem</a></h2>
+<p>Pāļu izvietojumam jānovērš pāļu savstarpējā pārklāšanās un "pāļu grupas efekts", kas var samazināt kopējo nestspēju:</p>
+<ul>
+<li><strong>Standarta attālums:</strong> Minimālais attālums starp pāļu centriem ir <strong>$3d$</strong> (kur $d$ ir pāļa diametrs).</li>
+<li><strong>Izņēmums:</strong> Attālumu var samazināt līdz <strong>$2,5d$</strong>, ja lielāko daļu nestspējas nodrošina pāļa gals (balstpāļi), nevis sānu berze.</li>
+</ul>
+<hr />
+<h2 id="minimālais-pāļu-stiegrojums-pēc-lvs-en-1536"><a class="header" href="#minimālais-pāļu-stiegrojums-pēc-lvs-en-1536">Minimālais pāļu stiegrojums (pēc LVS EN 1536)</a></h2>
+<p>Urbto pāļu garenstiegrojumam jānodrošina minimālais laukums $A_s$ atkarībā no pāļa šķērsgriezuma laukuma $A_c$:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Pāļa šķērsgriezuma laukums ($A_c$)</th><th style="text-align: left">Minimālais garenstiegrojuma laukums ($A_s$)</th></tr></thead><tbody>
+<tr><td style="text-align: left">$A_c \le 0,5\text{ m}^2$</td><td style="text-align: left">$A_s \ge 0,005 \cdot A_c$</td></tr>
+<tr><td style="text-align: left">$0,5\text{ m}^2 &lt; A_c \le 1,0\text{ m}^2$</td><td style="text-align: left">$A_s \ge 25\text{ cm}^2$</td></tr>
+<tr><td style="text-align: left">$A_c &gt; 1,0\text{ m}^2$</td><td style="text-align: left">$A_s \ge 0,0025 \cdot A_c$</td></tr>
+</tbody></table>
+</div>
+<ul>
+<li><strong>Konstruēšana:</strong> Ja stiegrojuma karkass tiek montēts (vibrēts) pēc betona iepildīšanas urbumā, karkasa elementiem jābūt stingri sametinātiem. Karkasa apakšējo galu ieteicams veidot konisku, lai atvieglotu tā iegremdēšanu betonā.</li>
+<li><strong>Minimālais stieņu skaits:</strong> Vismaz 4 garenstieņi, ieteicamais minimālais diametrs $\varnothing \ge 12\text{ mm}$.</li>
+</ul>
+<hr />
+<h2 id="aprēķina-diametra-samazināšana-monolītbetona-pāļiem-pēc-lvs-en-1992-1-1"><a class="header" href="#aprēķina-diametra-samazināšana-monolītbetona-pāļiem-pēc-lvs-en-1992-1-1">Aprēķina diametra samazināšana monolītbetona pāļiem (pēc LVS EN 1992-1-1)</a></h2>
+<p>Saskaņā ar LVS EN 1992-1-1 punktu 2.3.4.2(2), monolītbetona pāļu aprēķinos bez pastāvīga apvalka ir jāņem vērā urbuma sieniņu nelīdzenumi, samazinot nominālo diametru $d_{\text{nom}}$ līdz aprēķina diametram $d$:</p>
+<ul>
+<li>Ja $d_{\text{nom}} &lt; 400\text{ mm}$:
+$$d = d_{\text{nom}} - 20\text{ mm}$$</li>
+<li>Ja $400\text{ mm} \le d_{\text{nom}} \le 1000\text{ mm}$:
+$$d = 0,95 \cdot d_{\text{nom}}$$</li>
+<li>Ja $d_{\text{nom}} &gt; 1000\text{ mm}$:
+$$d = d_{\text{nom}} - 50\text{ mm}$$</li>
+</ul>
+<p><em>Svarīgi: Šis samazinājums tieši ietekmē pāļa šķērsgriezuma laukumu $A_c$ un inerces momentu $I$, ko izmanto pāļa stiprības un nestspējas pārbaudēs.</em></p>
+<hr />
+<h2 id="slodžu-pārneses-mehānismi"><a class="header" href="#slodžu-pārneses-mehānismi">Slodžu pārneses mehānismi</a></h2>
+<p>Pāļi slodzi uz grunti pārnes ar diviem galvenajiem mehānismiem:</p>
+<ol>
+<li><strong>Sānu virsmas pretestība ($R_s$):</strong> Slodze tiek nodota ar berzi starp pāļa sānu virsmu un grunti.</li>
+<li><strong>Gala pretestība ($R_b$):</strong> Slodze tiek nodota ar pāļa gala spiedienu uz nesošo grunts slāni.</li>
+</ol>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Spiedē noslogoti pāļi</th><th style="text-align: center">Stiepē (izvilkšanai) noslogoti pāļi</th></tr></thead><tbody>
+<tr><td style="text-align: center"><img src="../images/ch07/img031.png" alt="Pāļi spiedē" /></td><td style="text-align: center"><img src="../images/ch07/img032.png" alt="Pāļi stiepē" /></td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="pāļu-nestspējas-noteikšana-no-cpt-datiem"><a class="header" href="#pāļu-nestspējas-noteikšana-no-cpt-datiem">Pāļu nestspējas noteikšana no CPT datiem</a></h2>
+<p>Statiskā zondēšana (CPT) sniedz konusa pretestību $q_c$ un sānu berzi $f_s$, ko izmanto pāļu nestspējas tiešai vai netiešai aprēķināšanai:</p>
+<h3 id="1-tiešās-metodes-direct-methods"><a class="header" href="#1-tiešās-metodes-direct-methods">1. Tiešās metodes (Direct Methods)</a></h3>
+<ul>
+<li><strong>Tīri empīriskās metodes:</strong> Pāļa sānu berze $q_s$ un gala pretestība $q_b$ tiek noteikta tieši no konusa pretestības $q_c$ (vai koriģētās konusa pretestības $q_t$), izmantojot empīriskos pārejas koeficientus (piemēram, LCPC un Schmertmann metodes).</li>
+</ul>
+<h3 id="2-racionālās-jeb-netiešās-metodes-rational--indirect-methods"><a class="header" href="#2-racionālās-jeb-netiešās-metodes-rational--indirect-methods">2. Racionālās jeb netiešās metodes (Rational / Indirect Methods)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Pieeja</th><th style="text-align: left">Sānu pretestība $q_s$</th><th style="text-align: left">Gala pretestība $q_b$</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Kopējo spriegumu pieeja</strong> <br> (Total Stress — $\alpha$ metode)</td><td style="text-align: left"><strong>$\alpha$ metodes:</strong> balstās uz nedrenēto bīdes stiprību $s_u$ mālainās gruntīs. Parametri: $s_u$, $\sigma'_{v0}$, OCR, $I_p$, $L$.</td><td style="text-align: left">Nedrenētā slogošana smalkgraudainās gruntīs. Parametrs: bāzes nestspējas koeficients $N_c \approx 9$ ($q_b = 9 \cdot s_u$).</td></tr>
+<tr><td style="text-align: left"><strong>Efektīvo spriegumu pieeja</strong> <br> (Effective Stress — $\beta$ metode)</td><td style="text-align: left"><strong>$\beta$ metodes:</strong> balstās uz grunts iekšējās berzes leņķi $\phi'$ un efektīvajiem spriegumiem. Parametri: $\sigma'_v$, $K$, $\delta$, $\phi'$.</td><td style="text-align: left">Drenētā slogošana rupjgraudainās gruntīs (smiltīs). Parametri: $\phi'$, $\sigma'_{v0}$, grunts nestspējas koeficients $N_q$.</td></tr>
+</tbody></table>
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

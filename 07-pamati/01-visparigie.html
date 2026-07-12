@@ -180,13 +180,58 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="vispārīgi"><a class="header" href="#vispārīgi">Vispārīgi</a></h2>
-<p>Latvijā pamatu aprēķini veicami pēc DA2 (design approach 2):</p>
-<p>Zemāk redzamajā tabulā apkopoti DA2 daļējo koeficientu komplekti (A1+M1+R2) slodžu, augsnes parametru un pretestības koeficientu piemērošanai.</p>
-<p><img src="../images/ch07/img015.png" alt="Attēls" /></p>
-<p><strong>Nepieciešamais ģeotehniskās izpētes dziļums pāļu pamatiem</strong></p>
-<p>Zemāk redzamajā shēmā attēlots minimālais izpētes dziļums atkarībā no pāļu garuma un to izvietojuma, nodrošinot pietiekamu priekšstatu par grunts slāņojumu zem pāļu gala līmeņa.</p>
-<p><img src="../images/ch07/img016.png" alt="Attēls" /></p>
+                        <h1 id="pamatu-projektēšanas-vispārīgie-principi"><a class="header" href="#pamatu-projektēšanas-vispārīgie-principi">Pamatu projektēšanas vispārīgie principi</a></h1>
+<p>Pamatnes un pamatu aprēķini tiek veikti saskaņā ar standartu <strong>LVS EN 1997-1</strong> (Eirokodekss 7). Robežstāvokļu pārbaudēs izšķir šādus ģeotehniskos robežstāvokļus:</p>
+<ul>
+<li><strong>EQU (Equilibrium):</strong> Statiskā līdzsvara zudums (piem., apgāšanās vai uzpeldēšana);</li>
+<li><strong>STR (Structural):</strong> Konstruktīvo elementu nestspējas zudums vai pārmērīga deformācija;</li>
+<li><strong>GEO (Geotechnical):</strong> Grunts nestspējas zudums vai pārmērīga deformācija pamatnē;</li>
+<li><strong>UPL (Uplift):</strong> Būves uzpeldēšana hidrostatiskā spiediena ietekmē;</li>
+<li><strong>HYD (Hydraulic heave):</strong> Grunts uzskalošana vai grunts nesēju slāņu sairšana ūdens spiediena gradienta dēļ.</li>
+</ul>
+<hr />
+<h2 id="Ģeotehniskā-aprēķina-pieeja-da2-latvijā"><a class="header" href="#Ģeotehniskā-aprēķina-pieeja-da2-latvijā">Ģeotehniskā aprēķina pieeja DA2 Latvijā</a></h2>
+<p>Saskaņā ar LVS EN 1997-1 un Latvijas būvnormatīvu LBN 207-21, pamatnes nestspējas aprēķiniem (GEO robežstāvoklim) ir jāizmanto <strong>2. aprēķina pieeja (Design Approach 2, DA2)</strong>.</p>
+<p>Aprēķina pieejā DA2 daļējos drošības koeficientus piemēro slodzēm (A komplekts) un grunts pretestībām (R komplekts), savukārt grunts bīdes stiprības parametriem izmanto to raksturīgās vērtības (M1 komplekts, kur koeficienti ir 1,0).</p>
+<p>Šo kombināciju apzīmē kā <strong>A1 + M1 + R2</strong>:</p>
+<h3 id="1-slodžu-parciālie-koeficienti-gamma_f-vai-gamma_e--a1-komplekts"><a class="header" href="#1-slodžu-parciālie-koeficienti-gamma_f-vai-gamma_e--a1-komplekts">1. Slodžu parciālie koeficienti ($\gamma_F$ vai $\gamma_E$ — A1 komplekts)</a></h3>
+<ul>
+<li>Pastāvīgā slodze (nelabvēlīga / labvēlīga): $\gamma_{G,sup} = 1,35$ / $\gamma_{G,inf} = 1,00$</li>
+<li>Mainīgā slodze (nelabvēlīga / labvēlīga): $\gamma_{Q,sup} = 1,50$ / $\gamma_{Q,inf} = 0,00$</li>
+</ul>
+<h3 id="2-grunts-stiprības-parametru-koeficienti-gamma_m--m1-komplekts"><a class="header" href="#2-grunts-stiprības-parametru-koeficienti-gamma_m--m1-komplekts">2. Grunts stiprības parametru koeficienti ($\gamma_M$ — M1 komplekts)</a></h3>
+<ul>
+<li>Iekšējās berzes leņķa tangensam ($\tan\phi'$): $\gamma_{\phi'} = 1,00$</li>
+<li>Efektīvajai kohēzijai ($c'$): $\gamma_{c'} = 1,00$</li>
+<li>Nenoslogotai bīdes stiprībai ($c_u$): $\gamma_{cu} = 1,00$</li>
+</ul>
+<h3 id="3-pamatnes-pretestības-koeficienti-gamma_r--r2-komplekts"><a class="header" href="#3-pamatnes-pretestības-koeficienti-gamma_r--r2-komplekts">3. Pamatnes pretestības koeficienti ($\gamma_R$ — R2 komplekts)</a></h3>
+<ul>
+<li><strong>Seklajiem pamatiem:</strong>
+<ul>
+<li>Vertikālā nestspēja (spiedē): $\gamma_{R,v} = 1,4$</li>
+<li>Horizontālā nestspēja (bīdē): $\gamma_{R,h} = 1,1$</li>
+</ul>
+</li>
+<li><strong>Pāļu pamatiem (urbpāļiem un dzenamajiem pāļiem):</strong>
+<ul>
+<li>Pāļa gala pretestība spiedē: $\gamma_{R,b} = 1,1$</li>
+<li>Pāļa sānu virsmas pretestība spiedē: $\gamma_{R,s} = 1,1$</li>
+<li>Kopējā pāļa pretestība spiedē: $\gamma_{R,t} = 1,1$</li>
+<li>Pāļa pretestība stiepē (izvilkšanai): $\gamma_{R,t,t} = 1,15$</li>
+</ul>
+</li>
+</ul>
+<p><img src="../images/ch07/img015.png" alt="Slodžu un pretestību shēma" /></p>
+<hr />
+<h2 id="nepieciešamais-ģeotehniskās-izpētes-dziļums-pāļu-pamatiem"><a class="header" href="#nepieciešamais-ģeotehniskās-izpētes-dziļums-pāļu-pamatiem">Nepieciešamais ģeotehniskās izpētes dziļums pāļu pamatiem</a></h2>
+<p>Ģeotehniskās izpētes urbumu vai statiskās zondēšanas (CPT) dziļumam ir jābūt pietiekamam, lai droši novērtētu grunts slāņu sastāvu un stiprību zem pāļu gala.</p>
+<p>Saskaņā ar LVS EN 1997-2 B pielikumu, pāļu pamatiem izpētes dziļumam $z_a$ zem plānotā pāļu gala līmeņa jāatbilst lielākajam no šādiem nosacījumiem:</p>
+<ul>
+<li>$z_a \ge 5,0\text{ m}$ zem pāļa gala;</li>
+<li>$z_a \ge 3 \cdot D_F$ (kur $D_F$ ir pāļu grupas pamata ekvivalentais platums vai diametrs pāļu gala līmenī).</li>
+</ul>
+<p><img src="../images/ch07/img016.png" alt="Urbšanas dziļuma shēma" /></p>
 
                     </main>
 
