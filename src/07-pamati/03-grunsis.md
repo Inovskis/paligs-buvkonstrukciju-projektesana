@@ -1,141 +1,126 @@
-## Grunšu blīvumi
+# Grunšu fizikāli mehāniskie parametri
 
+Grunšu parametru pareiza noteikšana ir pamats jebkuram ģeotehniskajam aprēķinam. Tālāk apkopoti praktiski dati un korelācijas dažādiem grunts tipiem.
 
-| Grunts tips | Mitras grunts tilpumsvars, Υ (kg/m<sup>3</sup>) | Mitras grunts tilpumsvars, Υ (kg/m<sup>3</sup>) | Ūdenspiesātinātas grunts tilpumsvars, Υ (kg/m<sup>3</sup>) | Ūdenspiesātinātas grunts tilpumsvars, Υ (kg/m<sup>3</sup>) |
-| --- | --- | --- | --- | --- |
-| Grunts tips | Irdena | Blīva | Irdena | Blīva |
-| Rupjgraudainas gruntis | Rupjgraudainas gruntis | Rupjgraudainas gruntis | Rupjgraudainas gruntis | Rupjgraudainas gruntis |
-| Grants | 1600 | 1800 | 2000 | 2100 |
-| Grants ar labu granulometriju | 1900 | 2100 | 2150 | 2300 |
-| Rupja un vidēji rupja smilts | 1650 | 1850 | 2000 | 2150 |
-| Labas granulometrijas smilts | 1800 | 2100 | 2050 | 2250 |
-| Ķieģeļu šķembas | 1300 | 1750 | 1650 | 1900 |
-| Saistītās gruntis | Saistītās gruntis | Saistītās gruntis | Saistītās gruntis | Saistītās gruntis |
-| Mīksts māls | 1700 | 1700 | 1700 | 1700 |
-| Sīksts māls | 1800 | 1800 | 1800 | 1800 |
-| Sīksts māls | 1900 | 1900 | 1900 | 1900 |
-| Sīksts vai ciets pamatiežu māls | 2100 | 2100 | 2100 | 2100 |
+---
 
+## Grunšu tilpuma masas un tilpumsvaru orientējošās vērtības
 
-## Grunšu parametru korelācijas un apraksti
+Būvkonstrukciju pašsvara un grunts spiediena aprēķiniem izmanto grunts tilpuma masu $\rho$ ($\text{kg/m}^3$) vai tilpumsvaru $\gamma$ ($\text{kN/m}^3$), kur $\gamma \approx \rho \cdot g$ (pieņemot $g \approx 10\text{ m/s}^2$, t.i., $1800\text{ kg/m}^3 \approx 18,0\text{ kN/m}^3$).
 
-**Stiprība mālainām gruntīm atkarībā no to konsistences (avots: Look 2007)**
+| Grunts tips | Mitras grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) | Mitras grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) | Ūdenspiesātinātas grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) | Ūdenspiesātinātas grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) |
+| :--- | :---: | :---: | :---: | :---: |
+| | **Irdena** | **Blīva** | **Irdena** | **Blīva** |
+| **Rupjgraudainas (nesaistītas) gruntis:** | | | | |
+| — Grants | 1600 ($16,0$) | 1800 ($18,0$) | 2000 ($20,0$) | 2100 ($21,0$) |
+| — Grants ar labu granulometriju | 1900 ($19,0$) | 2100 ($21,0$) | 2150 ($21,5$) | 2300 ($23,0$) |
+| — Rupja un vidēji rupja smilts | 1650 ($16,5$) | 1850 ($18,5$) | 2000 ($20,0$) | 2150 ($21,5$) |
+| — Labas granulometrijas smilts | 1800 ($18,0$) | 2100 ($21,0$) | 2050 ($20,5$) | 2250 ($22,5$) |
+| — Ķieģeļu šķembas (uzbērums) | 1300 ($13,0$) | 1750 ($17,5$) | 1650 ($16,5$) | 1900 ($19,0$) |
+| **Saistītās (mālainās) gruntis:** | | | | |
+| — Mīksts māls | 1700 ($17,0$) | 1700 ($17,0$) | 1700 ($17,0$) | 1700 ($17,0$) |
+| — Sīksts māls (vidējs) | 1800 ($18,0$) | 1800 ($18,0$) | 1800 ($18,0$) | 1800 ($18,0$) |
+| — Sīksts māls (blīvs) | 1900 ($19,0$) | 1900 ($19,0$) | 1900 ($19,0$) | 1900 ($19,0$) |
+| — Sīksts/ciets pamatiežu māls | 2100 ($21,0$) | 2100 ($21,0$) | 2100 ($21,0$) | 2100 ($21,0$) |
 
+---
 
-<table>
-<colgroup>
-  <col style="width:55%">
-  <col style="width:25%">
-  <col style="width:20%">
-</colgroup>
-<thead>
-<tr><th>Apraksts</th><th>q<sub>u</sub>, kN/m<sup>2</sup></th><th>Aptuvenā pretestība zondei q<sub>c</sub>, MPa</th></tr>
-</thead>
-<tbody>
-<tr><td>Ļoti mīksts māls</td><td>0 - 24</td><td>&lt; 0.20</td></tr>
-<tr><td>Mīksts māls</td><td>24 - 48</td><td>0.20 – 0.40</td></tr>
-<tr><td>Vidēji mīksts māls</td><td>48 - 96</td><td>0.40 – 0.90</td></tr>
-<tr><td>Sīksts māls</td><td>96 – 192</td><td>0.90 – 2.00</td></tr>
-<tr><td>Ļoti sīksts māls</td><td>192 – 383</td><td>2.00 – 4.20</td></tr>
-<tr><td>Ciets māls</td><td>&gt; 383</td><td>&gt; 4.20</td></tr>
-</tbody>
-</table>
+## Saistīto grunšu parametru korelācijas un apraksti
 
-Nedrenētās bīdes stiprība parasti nosakāma pēc sakarības: S<sub>u</sub> = C<sub>u</sub> = q<sub>u</sub> / 2
+Mālaino grunšu stiprību raksturo vienass spiedes stiprība $q_u$ un konusa pretestība zondei $q_c$ (iegūta statiskajā zondēšanā CPT).
 
-**Klinšainu grunšu apraksts un atbilstošais RQD (Rock Quality Designation) rādītājs**
+**Mālu konsistence un stiprības rādītāji (avots: Look, 2007):**
 
+| Konsistence (apraksts) | Vienass spiedes stiprība $q_u$ (kPa jeb kN/m²) | Aptuvenā konusa pretestība zondei $q_c$ (MPa) |
+| :--- | :---: | :---: |
+| **Ļoti mīksts māls** | 0 – 24 | < 0,20 |
+| **Mīksts māls** | 24 – 48 | 0,20 – 0,40 |
+| **Vidēji sīksts māls** | 48 – 96 | 0,40 – 0,90 |
+| **Sīksts māls** | 96 – 192 | 0,90 – 2,00 |
+| **Ļoti sīksts māls** | 192 – 383 | 2,00 – 4,20 |
+| **Ciets māls** | > 383 | > 4,20 |
 
-<table>
-<colgroup>
-  <col style="width:70%">
-  <col style="width:30%">
-</colgroup>
-<thead>
-<tr><th>Klinšainās grunts apraksts, masas kvalitāte</th><th>RQD rādītājs</th></tr>
-</thead>
-<tbody>
-<tr><td>Lieliska</td><td>90 - 100</td></tr>
-<tr><td>Laba</td><td>75 - 90</td></tr>
-<tr><td>Vidēja</td><td>50 – 75</td></tr>
-<tr><td>Zema</td><td>25 – 50</td></tr>
-<tr><td>Ļoti zema</td><td>&lt; 25</td></tr>
-</tbody>
-</table>
+Nedrenētās bīdes stiprība $c_u$ (vai $s_u$) ir puse no vienass spiedes stiprības $q_u$:
+$$c_u = s_u = \frac{q_u}{2}$$
 
-RQD rādītājs tiek izmantots atsevišķos pāļu aprēķinos, piemēram, pēc Tomlinson.
+---
 
+## Klinšainu grunšu apraksts un RQD (Rock Quality Designation)
 
-## Maksimālās robeždeformācijas
+RQD rādītājs raksturo ieža masas plaisainību un veselumu. To definē kā to serdes gabalu kopējo garumu, kas ir garāki par 10 cm, attiecību pret kopējo urbšanas gaitu (izteiktu procentos).
 
-Tabulā apkopotas standarta gadījumos pieļaujamās robeždeformācijas.
+**Iežu kvalitātes novērtējums pēc RQD:**
 
-### Maksimālās robeždeformācijas
+| Klinšainās grunts apraksts (kvalitāte) | RQD rādītājs (%) |
+| :--- | :---: |
+| **Lieliska (Excellent)** | 90 – 100 |
+| **Laba (Good)** | 75 – 90 |
+| **Vidēja (Fair)** | 50 – 75 |
+| **Zema (Poor)** | 25 – 50 |
+| **Ļoti zema (Very poor)** | < 25 |
 
-<table>
-<colgroup>
-  <col style="width:35%">
-  <col style="width:25%">
-  <col style="width:20%">
-  <col style="width:20%">
-</colgroup>
-<thead>
-<tr><th>Konstrukciju tips</th><th>Bojājuma veids</th><th>Kritērijs</th><th>Robežvērtība</th></tr>
-</thead>
-<tbody>
-<tr><td rowspan="4">Karkasa ēkas un dzelzsbetona nesošās sienas</td><td>Strukturāli bojājumi</td><td>Leņķiskā distorsija</td><td>1/150–1/250</td></tr>
-<tr><td>Sienu un starpsienu plaisas</td><td>Leņķiskā distorsija</td><td>1/500 (1/1000–1/1400 gala laidumos)</td></tr>
-<tr><td>Vizuālais izskats</td><td>Slīpums</td><td>1/300</td></tr>
-<tr><td>Savienojums ar inženiertīkliem</td><td>Kopējā sēšanās</td><td>50–75 mm (smiltis), 75–135 mm (māls)</td></tr>
-<tr><td>Augstceltnes</td><td>Liftu un eskalatoru darbība</td><td>Slīpums pēc lifta uzstādīšanas</td><td>1/1200–1/2000</td></tr>
-<tr><td rowspan="2">Konstrukcijas ar nestiegrotām nesošām sienām</td><td>Plaisas no slogojuma pa luku</td><td>Izlieces attiecība</td><td>1/2500 (L/H=1), 1/1250 (L/H=5)</td></tr>
-<tr><td>Plaisas no slogojuma pa āļu</td><td>Izlieces attiecība</td><td>1/5000 (L/H=1), 1/2500 (L/H=5)</td></tr>
-<tr><td rowspan="3">Tilti — vispārīgi</td><td>Braukšanas komforts</td><td>Kopējā sēšanās</td><td>100 mm</td></tr>
-<tr><td>Strukturāli bojājumi</td><td>Kopējā sēšanās</td><td>63 mm</td></tr>
-<tr><td>Funkcija</td><td>Horizontālā kustība</td><td>38 mm</td></tr>
-<tr><td>Tilti — vairāklaidumu</td><td>Strukturāli bojājumi</td><td>Leņķiskā distorsija</td><td>1/250</td></tr>
-<tr><td>Tilti — vienlaiduma</td><td>Strukturāli bojājumi</td><td>Leņķiskā distorsija</td><td>1/200</td></tr>
-</tbody>
-</table>
+*Piezīme: RQD rādītājs tiek izmantots pāļu aprēķinos klintīs (piemēram, pēc Tomlinsona metodes).*
 
+---
 
-## Puasona koeficienti
+## Pamatu maksimālās robeždeformācijas
 
-Ja nav tieši veikti Puasona koeficienta mērījumi, tad Puasona koeficientu pieņem
+Tabulā apkopotas standarta gadījumos pieļaujamās robeždeformācijas pēc LVS EN 1997-1 un ģeotehniskās prakses:
 
-0.27 rupjdrupu iežiem,
+| Konstrukciju tips | Bojājuma veids | Deformācijas kritērijs | Robežvērtība |
+| :--- | :--- | :--- | :---: |
+| **Karkasa ēkas un dzelzsbetona nesošās sienas** | Strukturāli bojājumi | Leņķiskā distorsija (slīpums) $\beta$ | $1/150 - 1/250$ |
+| | Sienu un starpsienu plaisas | Leņķiskā distorsija (slīpums) $\beta$ | $1/500$ <br> ($1/1000 - 1/1400$ gala laidumos) |
+| | Vizuālais izskats | Slīpums $\omega$ | $1/300$ |
+| | Savienojums ar inženiertīkliem | Kopējā sēšanās $s$ | $50-75\text{ mm}$ (smiltīs)<br>$75-135\text{ mm}$ (mālos) |
+| **Augstceltnes** | Liftu un eskalatoru darbība | Slīpums pēc lifta uzstādīšanas | $1/1200 - 1/2000$ |
+| **Konstrukcijas ar nestiegrotām nesošām sienām** | Plaisas no lieces pa ieloku (sagging) | Izlieces attiecība $\Delta/L$ | $1/2500$ (pie $L/H=1$)<br>$1/1250$ (pie $L/H=5$) |
+| | Plaisas no lieces pa izliekumu (hogging) | Izlieces attiecība $\Delta/L$ | $1/5000$ (pie $L/H=1$)<br>$1/2500$ (pie $L/H=5$) |
+| **Tilti — vispārīgi** | Braukšanas komforts | Kopējā sēšanās $s$ | $100\text{ mm}$ |
+| | Strukturāli bojājumi | Kopējā sēšanās $s$ | $63\text{ mm}$ |
+| | Funkcionalitāte | Horizontālā pārvietošanās | $38\text{ mm}$ |
+| **Tilti — vairāklaidumu** | Strukturāli bojājumi | Leņķiskā distorsija $\beta$ | $1/250$ |
+| **Tilti — vienlaiduma** | Strukturāli bojājumi | Leņķiskā distorsija $\beta$ | $1/200$ |
 
-0.30 – smiltij un mālu gruntij ar 1 >I<sub>P</sub> > 7 % jeb mālsmiltij,
+---
 
-0.35 – mālu gruntij ar 7 > I<sub>P</sub>> 17% jeb smilšmālam un
+## Puasona koeficienti ($\nu$)
 
-0.42 – mālu gruntij ar I<sub>P</sub> > 17 % jeb mālam.
+Ja nav tiešu lauka vai laboratorijas mērījumu datu, Puasona koeficientu elastīgo deformāciju aprēķinos pieņem:
+- **$0,27$** — rupjgraudainām gruntīm un iežiem (grants, rupja smilts);
+- **$0,30$** — smiltīm un mālsmiltīm ar zemu plastiskumu ($1\% < I_p \le 7\%$);
+- **$0,35$** — smilšmāliem ar vidēju plastiskumu ($7\% < I_p \le 17\%$);
+- **$0,42$** — māliem ar augstu plastiskumu ($I_p > 17\%$).
 
+---
 
-## Grunšu klasifikācija pēc daļiņu sastāva
+## Grunšu klasifikācija un blīvēšana
 
-![Attēls](../images/ch07/img026.png)
+### Grunšu klasifikācija pēc daļiņu sastāva:
 
-**Grunšu klasifikācija pēc DIN 18196**
+![Daļiņu sastāvs](../images/ch07/img026.png)
 
-![Attēls](../images/ch07/img027.png)
+**Grunšu klasifikācija pēc DIN 18196:**
 
+![DIN 18196](../images/ch07/img027.png)
 
-## Grunšu blietēšana
+---
 
-**Fragments no SIA Ceļu ekspets Rokasgrāmatas ″Ceļa zemes klātnes grunts nestspējas nodrošināšanas risinājumu izstrāde″**
+## Grunšu blīvēšanas kontrole
 
-![Attēls](../images/ch07/img028.png)
+Grunts sablīvēšanas kvalitāti būvlaukumā kontrolē ar blīvēšanas koeficientu $D_P$ (vai $K_C$) un deformācijas moduļiem $E_{v1}$ un $E_{v2}$, ko nosaka ar statiskās vai dinamiskās plātnes testu.
 
-![Attēls](../images/ch07/img029.png)
+*Fragments no ceļa klātnes grunts nestspējas rokasgrāmatas:*
 
+![Blietēšana 1](../images/ch07/img028.png)
+
+![Blietēšana 2](../images/ch07/img029.png)
+
+---
 
 ## Seklie pamati
 
-Seklajiem pamatiem no sala iedarbības bojājumiem var izvairīties, ja:
-
-Grunts nav jūtīga pret sala iedarbību;
-
-Pamatu līmenis atrodas zem sasalšanas dziļuma;
-
-Sala ietekme ir novērsta ar izolāciju.
+Sagatavojot seklos pamatus (pēdas, lentes), no sala iedarbības izraisītiem grunts kūmuma bojājumiem var izvairīties, ja:
+1. Pamatnes grunts nav jutīga pret sala iedarbību (piemēram, tīra, rupja smilts vai grants bez smalko daļiņu piemaisījuma);
+2. Pamatu pēdas dziļums atrodas zem reģionālā grunts sasalšanas dziļuma (Latvijā parasti robežās no $0,9\text{ m}$ līdz $1,2\text{ m}$);
+3. Sasalšanas ietekme ir novērsta, izmantojot perimetra siltumizolāciju (ekstrudēto polistirolu XPS).

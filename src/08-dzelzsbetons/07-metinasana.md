@@ -1,47 +1,57 @@
-## Stiegrojuma metināšanas risinājumi pēc DIN 4099
+# Stiegrojuma metināšanas risinājumi
 
-Pilnas stiprības savienojumi pēc DIN 4099 (testēti, nevis matemātiski aprēķināti). Visi izmēri milimetros.
+Stiegrojuma metinātos savienojumus izmanto monolītā un saliekamā dzelzsbetona izbūvē. Metināšana jāveic saskaņā ar standartu **LVS EN ISO 17660** (kas aizstāja veco DIN 4099 standartu), kas nodrošina pilnas stiprības (slodzi nesošus) savienojumus. Visi izmēri attēlos ir norādīti milimetros.
 
-**Ar sadursavienojumu**
+---
 
-**Variants 1: ar D-V šuvi**
+## Sadursavienojumi (Butt joints)
 
-![Attēls](../images/ch08/img061.png)
+Sadursavienojumus izmanto taisnu stieņu savienošanai galos, veicot stieņu malu sagatavošanu (griešanu/noslīpināšanu).
 
-**Variants 2: ar DH-V šuvi**
+### Variants 1: Ar D-V šuvi (divpusēja V-veida šuve)
+![D-V šuve](../images/ch08/img061.png)
 
-![Attēls](../images/ch08/img062.png)
+### Variants 2: Ar DH-V šuvi (divpusēja pus-V-veida šuve)
+![DH-V šuve](../images/ch08/img062.png)
 
-**Variants 3: ar V šuvi**
+### Variants 3: Ar V šuvi (vienpusēja V-veida šuve)
+![V šuve](../images/ch08/img063.png)
 
-![Attēls](../images/ch08/img063.png)
+### Variants 4: Sadursavienojums ar speciālu paliktni (metināšana vannā)
+![Metināšana vannā](../images/ch08/img064.png)
 
-**Variants 4: sadursavienojums ar speciālu metināšanas vannu**
+---
 
-![Attēls](../images/ch08/img064.png)
+## Pārlaidsavienojumi ar flankējošām šuvēm (Lap joints)
 
-**Ar pārlaidumu**
+Stieņu pārseguma metināšana ar gareniskajām šuvēm.
 
-![Attēls](../images/ch08/img065.png)
+![Pārlaidsavienojums](../images/ch08/img065.png)
 
-1 – metināšanas sākumā elektrodam jāatrodas savienojuma punktā starp stiegrām
+*Skaidrojums:*
+- **1** — metināšanas sākumā elektrodam jāatrodas savienojuma punktā starp stiegrām (metināšanas saknē);
+- **2** — metināšanas virziens;
+- **$d_s$** — mazākās savienojamās stiegras diametrs;
+- minimālais šuves garums parasti ir $5d_s$ (vienpusējai šuvei) vai $10d_s$ atkarībā no aprēķina slodzes.
 
-2 – metināšanas virziens
+---
 
-d<sub>s</sub> – mazākās savienojamās stiegras diametrs
+## Savienojumi ar uzlikām (Strap joints)
 
-**Ar uzlikām**
+Divu stieņu savienojums, izmantojot uzlikas (stiegrojuma gabalus) un flankējošās metināšanas šuves.
 
-![Attēls](../images/ch08/img066.png)
+![Savienojums ar uzlikām](../images/ch08/img066.png)
 
-1 – metināšanas sākumā elektrodam jāatrodas savienojuma punktā starp stiegrām
+*Skaidrojums:*
+- **1** — metināšanas sākumā elektrodam jāatrodas savienojuma punktā starp stiegrām;
+- **2** — metināšanas virziens, ja metināšanu veic horizontālā stāvoklī. Metinot vertikāli, šuve jāveic virzienā no apakšas uz augšu;
+- **3** — elektroda noņemšanas vieta (krātera aizpildīšana);
+- **$d_s$** — mazākās savienojamās stiegras diametrs.
 
-2 – metināšanas virziens, ja metināšanu veic horizontālā stāvoklī; metinot vertikāli virziens no apakšas uz augšu
+---
 
-3 – elektroda noņemšanas vieta
+## Piemetināšana pie tērauda plāksnēm
 
-d<sub>s</sub> – mazākās savienojamās stiegras diametrs
+Izmanto saliekamā dzelzsbetona ieliekamo detaļu (tērauda plākšņu) enkurošanai betonā.
 
-**Piemetināšanas varianti pie tērauda loksnēm**
-
-![Attēls](../images/ch08/img067.png)
+![Piemetināšana pie plāksnēm](../images/ch08/img067.png)

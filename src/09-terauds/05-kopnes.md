@@ -1,35 +1,61 @@
-## Kopņu projektēšana
+# Cauruļprofilu kopņu projektēšanas principi
 
-**Ģeometrisko parametru ierobežojumi cauruļprofilu kopnēm**
+Kopņu projektēšanā no taisnstūra (RHS) vai apaļiem (CHS) cauruļprofiliem mezglu nestspēju galvenokārt nosaka šķērsgriezumu ģeometriskās attiecības un mezglu izveides veids. Pārbaudes veic saskaņā ar **LVS EN 1993-1-8 7. nodaļu**.
 
-Ja CHS (apaļās dobumsekcijas) vai RHS stiprinājuma (sānu) elementi tiek metināti pie RHS pamatnes elementa, leņķis starp stiprinājumu un pamatni (θ) parasti nedrīkst būt mazāks par 30°. Tas nepieciešams, lai nodrošinātu pienācīgu metinājumu izveidi. Dažos gadījumos no šīs prasības var atteikties, taču tikai pēc konsultācijas ar ražotāju, un projektēšanas pretestība nedrīkst tikt uzskatīta par lielāku nekā pie 30°.
+---
 
-Atstarpes (gapps) K veida savienojumos, lai nodrošinātu pietiekamu vietu metinājumu izveidei, atstarpei starp blakus esošajiem elementiem jābūt vismaz vienādai ar stiprinājuma elementu biezumu summu (t.i., g ≥ t1 + t2).
+## Ģeometrisko parametru ierobežojumi cauruļprofilu mezgliem
 
-Saliktajos K savienojumos ar pārklāšanos plaknē pārklājumam jābūt pietiekami lielam, lai nodrošinātu, ka stiprinājuma elementu savstarpējā savienojuma vieta ir pietiekama adekvātai bīdes pārnesei no viena stiprinājuma uz otru. To var panākt, nodrošinot, ka pārklājums ir vismaz 25%. Ja pārklājošiem stiprinājuma elementiem ir dažādi platumi, šaurākajam elementam jāpārklāj platākais. Ja pārklājošiem stiprinājuma elementiem, kuriem ir vienāds platums, ir dažādi biezumi un / vai dažādas stiprības klases, elementam ar zemāko t<sub>i</sub> f<sub>yi</sub> vērtību jāpārklāj otrs elements.
+Lai nodrošinātu kvalitatīvu metināto šuvju izveidi un vienmērīgu spriegumu pāreju:
+- **Minimālais pieslēguma leņķis:** Leņķis $\theta$ starp režģa elementu (atgāzni) un joslu nedrīkst būt mazāks par **$30^\circ$**. Pretējā gadījumā ir grūti izveidot šuvi un tās saknes daļa nav kvalitatīvi aizmetināma.
+- **Atstarpe K-veida mezglos ar atstarpi (gap joints):**
+  Lai būtu pietiekami daudz vietas šuvju uzklāšanai un novērstu spriegumu koncentrāciju joslas sieniņā, tīrajai atstarpei $g$ starp abiem atgāžņiem uz joslas virsmas jābūt vismaz:
+  $$g \ge t_1 + t_2$$
+  kur $t_1$ un $t_2$ ir savienojamo režģa elementu sieniņu biezumi.
+- **Pārsegums K-veida mezglos ar pārklāšanos (overlap joints):**
+  Pārklāšanās apjomam jābūt pietiekamam bīdes spēku pārnesei no viena režģa elementa uz otru. Minimālais pārklāšanās apjoms ir **$25\%$**.
+  - Ja elementi ir ar dažādiem platumiem, šaurākajam elementam ir jāpārklāj platākais.
+  - Ja elementi ir ar vienādu platumu, bet dažādu biezumu un/vai tērauda marku, elementam ar mazāko stiprības kapacitāti ($t_i \cdot f_{yi}$) ir jāpārklāj stiprākais elements.
 
-**Pārlaiduma definācija**
+**Pārlaiduma un atstarpes mezglu ģeometrija:**
 
-![Attēls](../images/ch09/img092.png)
+![Pārlaidums](../images/ch09/img092.png)
 
-K savienojumos tiek noteikti ierobežojumi attiecībā uz mezgla ekscentricitāti e. Pozitīva e vērtība apzīmē nobīdi no pamatnes centrālās līnijas uz kopnes ārpusi. Šis mezgla ekscentricitātes ierobežojums ir e ≤ 0.25h₀ (joslas augstums). Ja ekscentricitāte pārsniedz 0.25h₀, jāņem vērā arī lieces momentu ietekme uz savienojuma nestspēju. Lieces moments, ko rada jebkura mezgla ekscentricitāte e, vienmēr jāņem vērā arī elementu projektēšanā.
+---
 
-Ekscentricitāti e, var aprēķināt, izmantojot vienādojumus (Packer et al., 1992; Packer un Henderson, 1997):
+## Mezglu ekscentricitāte ($e$)
 
-![Attēls](../images/ch09/img093.png)
+Ekscentricitāte $e$ ir vertikālais attālums no režģa elementu asu krustpunkta līdz joslas asij. 
 
-![Attēls](../images/ch09/img094.png)
+Saskaņā ar standartu, ieteicamās ekscentricitātes robežas ir:
+$$-0,55 \cdot h_0 \le e \le 0,25 \cdot h_0$$
+kur $h_0$ ir joslas šķērsgriezuma augstums.
 
-Negatīva g vērtība nozīmē, ka elementi pārklājas. Šos vienādojumus var attiecināt arī uz savienojumiem, kuriem ir pamatnes virsmas stinguma plāksnes (loksnes). Tādā gadījumā h₀/2 tiek aizstāts ar h₀/2 + t<sub>p</sub>.
+- **Pozitīva ekscentricitāte ($e > 0$):** Asu krustpunkts ir nobīdīts uz kopnes ārpusi.
+- **Negatīva ekscentricitāte ($e < 0$):** Asu krustpunkts ir nobīdīts uz kopnes iekšpusi (diagnoļu krustpunkts atrodas "zem" joslas ass).
 
-**Tipiskie lietotie apzīmēju caurļprofilu kopņu savienojumu projektēšanā**
+*Piezīme: Ja ekscentricitāte atrodas pieļaujamajās robežās, sekundāros lieces momentus mezglā (kas rodas no šīs ekscentricitātes) joslu un režģa stieņu aprēķinos var neievērtēt. Ja ekscentricitāte pārsniedz robežvērtības, lieces momenti ir pilnībā jāņem vērā aprēķinos.*
 
-![Attēls](../images/ch09/img095.png)
+### Ekscentricitātes $e$ un atstarpes $g$ saistības formula:
 
-**Režģa elementu izvēle**
+$$g = \left( e + \frac{h_0}{2} \right) \cdot (\cot\theta_1 + \cot\theta_2) - \frac{h_1}{2\sin\theta_1} - \frac{h_2}{2\sin\theta_2}$$
 
-Režģu elementus izdevīgi ir izvēlēties ar lielāku ārējo izmēru un plānākām sienām, jo tā iespējams nodrošināt augstāku nestspēju pie vienāda elementu šķērsgriezuma. Parasti ir izdevīgi izvēlēties režgu elementus tā, lai to platums būtu robežās no 0.70 līdz 0.80 no joslas elementu platuma pie kura tie ir jāpiemetina. Režģa elementu aprēķina garumu ar konservatīvu pieeju var pieņemt vienādu ar tā ģeometrisko garumu, tomēr elementiem, kas pa perimetru ir piemetināti pie joslas aprēķina garumu var samazināt reizinot ar faktoru 0.75.
+*Ja joslai izmanto pastiprinājuma plāksni (flange plate) ar biezumu $t_p$, tad augstumu aizstāj: $\frac{h_0}{2} \to \frac{h_0}{2} + t_p$.*
 
-**Biežāk izmantotie metinātie kvadrātcauruļu savienojumu veidi**
+**Cauruļprofilu kopņu mezglu apzīmējumi:**
 
-![Attēls](../images/ch09/img096.png)
+![Apzīmējumi](../images/ch09/img095.png)
+
+---
+
+## Režģa elementu izvēle un aprēķina garumi
+
+Lai kopnes būtu ekonomiskas un viegli izgatavojamas:
+- **Šķērsgriezumu proporcijas:** Režģa elementus (atgāžņus un statņus) ieteicams izvēlēties ar lielāku ārējo izmēru un plānāku sieniņu. Vēlams, lai režģa elementu platums būtu robežās no **$0,70$ līdz $0,80$** no joslas platuma, kas vienkāršo metināšanas šuvju izveidi sānmalās.
+- **Aprēķina garumi ($L_{\text{cr}}$) klupšanai:**
+  Konservatīvā aprēķinā režģa stieņu aprēķina garumu pieņem vienādu ar to ģeometrisko garumu starp mezglu centriem ($L_{\text{cr}} = 1,0 \cdot L$). 
+  Tomēr, ja režģa stieņi ir pa visu perimetru piemetināti pie stingrām joslām, aprēķina garumu drīkst samazināt, reizinot ar koeficientu **$0,75$** (t.i., $L_{\text{cr}} = 0,75 \cdot L$).
+
+**Biežāk izmantotie metinātie kvadrātcauruļu savienojumu veidi:**
+
+![Savienojumi](../images/ch09/img096.png)

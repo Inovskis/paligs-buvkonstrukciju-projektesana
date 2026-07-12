@@ -1,137 +1,59 @@
-## Lietderīgās slodzes
+# Lietderīgās slodzes
 
-**Lietderīgās slodzes pēc LVS EN 1991-1-1/NA**
+Lietderīgās slodzes ir mainīgas iedarbības, ko rada cilvēku uzturēšanās un pārvietošanās, mēbeles, iekārtas, transportlīdzekļi un citi pārvietojami objekti.
 
-<table>
-<colgroup>
-  <col style="width:8%">
-  <col style="width:18%">
-  <col style="width:10%">
-  <col style="width:10%">
-  <col style="width:54%">
-</colgroup>
-<thead>
-<tr>
-  <th>Kat.</th>
-  <th>Raksturīgā izmantošana</th>
-  <th>q<sub>k</sub>, kN/m²</th>
-  <th>Q<sub>k</sub>, kN</th>
-  <th>Piemērs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>A</td>
-  <td>Mājsaimniecības un sadzīves platības<br>— Grīdas<br>— Kāpnes<br>— Balkoni</td>
-  <td>2,00<br>3,00<br>2,50</td>
-  <td>2,00<br>3,00<br>2,50</td>
-  <td>Telpas dzīvojamās mājās, guļamistabas un palātas slimnīcās, guļamistabas viesnīcās un viesu mītnēs, virtuves un tualetes.</td>
-</tr>
-<tr>
-  <td>B</td>
-  <td>Biroju platības</td>
-  <td>2,50</td>
-  <td>2,50</td>
-  <td></td>
-</tr>
-<tr>
-  <td>C</td>
-  <td>Platības, kur cilvēki var pulcēties<br>— C1<br>— C2<br>— C3<br>— C4<br>— C5</td>
-  <td>2,50<br>3,00<br>4,00<br>5,00<br>6,00</td>
-  <td>3,00<br>4,00<br>4,00<br>5,00<br>4,00</td>
-  <td><b>C1</b> – Platības ar galdiem: kafejnīcas, restorāni, skolas, ēdnīcas, lasītavas.<br><b>C2</b> – Platības ar nostiprinātām sēdvietām: baznīcas, teātri, kinoteātri, konferenču zāles, lekciju zāles.<br><b>C3</b> – Brīvas platības cilvēku kustībai: muzeji, izstāžu zāles, sabiedriskās un administratīvās ēkas, slimnīcas, dzelzceļa stacijas.<br><b>C4</b> – Platības fiziskām darbībām: deju zāles, vingrošanas zāles, skatuves.<br><b>C5</b> – Platības lielām cilvēku masām: publisko sarīkojumu ēkas, koncertu halles, sporta zāles, tribīnes, terases.</td>
-</tr>
-<tr>
-  <td>D</td>
-  <td>Tirdzniecības platības<br>— D1<br>— D2</td>
-  <td>4,00<br>5,00</td>
-  <td>4,00<br>7,00</td>
-  <td><b>D1</b> – Platības vispārējos mazumtirdzniecības veikalos.<br><b>D2</b> – Platības universālveikalos.</td>
-</tr>
-<tr>
-  <td>E</td>
-  <td>Noliktavas platības</td>
-  <td>7,50</td>
-  <td>7,00</td>
-  <td>E1 – Lietderīgā platība uz noliktavu grīdām.</td>
-</tr>
-<tr>
-  <td>F</td>
-  <td>Satiksmes platības, transportlīdzekļu bruto svars ≤ 30 kN</td>
-  <td>2,50</td>
-  <td>20,00</td>
-  <td>Vieglo automobiļu garāžas un transportlīdzekļu satiksmes vietas.</td>
-</tr>
-<tr>
-  <td>G</td>
-  <td>Satiksmes platības, transportlīdzekļu bruto svars 30–160 kN</td>
-  <td>5,00</td>
-  <td>90,00</td>
-  <td>Transportlīdzekļu satiksmes vietas ar lielākiem transportlīdzekļiem.</td>
-</tr>
-<tr>
-  <td>H</td>
-  <td>Jumtu lietderīgās slodzes</td>
-  <td>0,40</td>
-  <td>1,00</td>
-  <td>Paredzētas apkalpošanai; analogu slodzi var pieņemt arī apkalpošanas tiltiņiem.</td>
-</tr>
-<tr>
-  <td>—</td>
-  <td>Neizmantojamas platības (bēniņi, zonas ap iekārtām)</td>
-  <td>1,00</td>
-  <td>2,00</td>
-  <td>Iekļauts 2022. gada Latvijas nacionālajā pielikumā.</td>
-</tr>
-<tr>
-  <td>—</td>
-  <td>Kāpnes (ja pie konkrētās kategorijas nav norādīts citādāk)</td>
-  <td>3,00</td>
-  <td>3,00</td>
-  <td>Iekļauts 2022. gada Latvijas nacionālajā pielikumā.</td>
-</tr>
-</tbody>
-</table>
+**Lietderīgās slodzes un to raksturīgās vērtības saskaņā ar LVS EN 1991-1-1/NA:**
 
-Kategorijām no A līdz E ir iespējams veikt slodžu samazināšanu ievērtējot α<sub>A</sub> faktoru. Rekomendējamā vērtība tiek noteikta pēc sakarības:, kur A<sub>0</sub>=10 m<sup>2</sup> un A ir noslogotā platība.
+| Kat. | Raksturīgā izmantošana | $q_k$ (kN/m²) | $Q_k$ (kN) | Piemēri un skaidrojumi |
+| :---: | :--- | :---: | :---: | :--- |
+| **A** | **Mājsaimniecības un dzīvojamās telpas**<br>— Grīdas<br>— Kāpnes<br>— Balkoni | <br>2,00<br>3,00<br>2,50 | <br>2,00<br>3,00<br>2,50 | Telpas dzīvojamās mājās, guļamistabas un palātas slimnīcās, guļamistabas viesnīcās un viesu mītnēs, virtuves un tualetes. |
+| **B** | **Biroju telpas** | 2,50 | 2,50 | Biroju telpas, sapulču telpas birojos. |
+| **C** | **Pulcēšanās platības**<br>— **C1**: Platības ar galdiem<br>— **C2**: Platības ar nostiprinātām sēdvietām<br>— **C3**: Brīvas platības cilvēku kustībai<br>— **C4**: Platības fiziskām darbībām<br>— **C5**: Platības lielām cilvēku masām | <br>2,50<br>3,00<br>4,00<br>5,00<br>6,00 | <br>3,00<br>4,00<br>4,00<br>5,00<br>4,00 | **C1**: Kafejnīcas, restorāni, skolas, ēdnīcas, lasītavas.<br>**C2**: Baznīcas, teātri, kinoteātri, konferenču un lekciju zāles.<br>**C3**: Muzeji, izstāžu zāles, sabiedriskās ēkas, slimnīcas, stacijas.<br>**C4**: Deju zāles, vingrošanas zāles, skatuves.<br>**C5**: Koncertu halles, sporta zāles, tribīnes, terases. |
+| **D** | **Tirdzniecības platības**<br>— **D1**: Vispārējie mazumtirdzniecības veikali<br>— **D2**: Universālveikali | <br>4,00<br>5,00 | <br>4,00<br>7,00 | **D1**: Mazumtirdzniecības veikali.<br>**D2**: Universālveikali, lielveikali ar intensīvu preču kustību. |
+| **E** | **Noliktavu un industriālās platības**<br>— **E1**: Noliktavas un preču uzglabāšana | 7,50 | 7,00 | Lietderīgā platība uz noliktavu grīdām, grāmatu un arhīvu krātuves. |
+| **F** | **Satiksmes platības (bruto svars $\le 30$ kN)** | 2,50 | 20,00 | Vieglo automobiļu garāžas un transportlīdzekļu satiksmes vietas. |
+| **G** | **Satiksmes platības ($30\text{ kN} < \text{bruto svars} \le 160\text{ kN}$)** | 5,00 | 90,00 | Transportlīdzekļu satiksmes vietas ar lielākiem transportlīdzekļiem. |
+| **H** | **Jumtu lietderīgās slodzes** | 0,40 | 1,00 | Jumti, kas pieejami tikai to uzturēšanai un remontam (analogu slodzi var pieņemt arī apkalpošanas tiltiņiem). |
+| **—** | **Neizmantojamas bēniņu platības** | 1,00 | 2,00 | Zonas ap iekārtām un neizmantojami bēniņi (iekļauts 2022. gada nacionālajā pielikumā). |
+| **—** | **Kāpnes (ja nav norādīts citādi)** | 3,00 | 3,00 | Koplietošanas kāpņu laukumi un pakāpieni (iekļauts 2022. gada nacionālajā pielikumā). |
 
-Kategorijām<sub> </sub>C un D α<sub>A</sub>≥ 0.60.
+---
 
+### Noslogotās platības samazinājuma koeficients $\alpha_A$
 
-## Rekomendējamās parciālo faktoru vērtības
+Kategorijām no A līdz D slodzi uz nesošajām konstrukcijām (piemēram, sijām un kolonnām) ir atļauts samazināt, reizinot raksturīgo slodzi ar samazinājuma koeficientu $\alpha_A$, kas ievērtē varbūtību, ka visa lielā platība netiks noslogota maksimāli:
 
-Kombinē tikai tās slodzes, kas var realizēties vienlaicīgi. Kombinējot slodzes jāievērtē tabulā dotās rekomendēto parciālo koeficientu vērtības.
+$$\alpha_A = \frac{5}{7}\psi_0 + \frac{A_0}{A} \le 1,0$$
 
-<table>
-<colgroup>
-  <col style="width:70%">
-  <col style="width:10%">
-  <col style="width:10%">
-  <col style="width:10%">
-</colgroup>
-<thead>
-<tr>
-  <th>Iedarbe</th>
-  <th>Ψ<sub>0</sub></th>
-  <th>Ψ<sub>1</sub></th>
-  <th>Ψ<sub>2</sub></th>
-</tr>
-</thead>
-<tbody>
-<tr><td colspan="4"><strong>Lietderīgās slodzes ēkās</strong></td></tr>
-<tr><td>A kategorija: mājsaimniecības un dzīvojamās telpas</td><td>0,7</td><td>0,5</td><td>0,3</td></tr>
-<tr><td>B kategorija: biroju telpas</td><td>0,7</td><td>0,5</td><td>0,3</td></tr>
-<tr><td>C kategorija: pulcēšanās telpas</td><td>0,7</td><td>0,7</td><td>0,6</td></tr>
-<tr><td>D kategorija: tirdzniecības telpas</td><td>0,7</td><td>0,7</td><td>0,6</td></tr>
-<tr><td>E kategorija: noliktavu telpas</td><td>1,0</td><td>0,9</td><td>0,8</td></tr>
-<tr><td>F kategorija: transportlīdzekļu kustība, svars ≤ 30 kN</td><td>0,7</td><td>0,7</td><td>0,6</td></tr>
-<tr><td>G kategorija: transportlīdzekļu kustība, svars 30–150 kN</td><td>0,7</td><td>0,5</td><td>0,3</td></tr>
-<tr><td>H kategorija: jumti (arī apkalpošanas tiltiņi)</td><td>0,0</td><td>0,0</td><td>0,0</td></tr>
-<tr><td colspan="4"><strong>Sniega slodzes uz ēkām</strong></td></tr>
-<tr><td>Ziemeļvalstis un Centrāleiropa ar H ≥ 1000 m (piemērots arī Latvijā)</td><td>0,7</td><td>0,5</td><td>0,2</td></tr>
-<tr><td>Centrāleiropa ar H &lt; 1000 m</td><td>0,5</td><td>0,2</td><td>0,0</td></tr>
-<tr><td colspan="4"><strong>Citas slodzes</strong></td></tr>
-<tr><td>Vēja slodzes uz ēkām</td><td>0,6</td><td>0,2</td><td>0,0</td></tr>
-<tr><td>Temperatūra (ne ugunsgrēka gadījumā)</td><td>0,6</td><td>0,5</td><td>0,0</td></tr>
-</tbody>
-</table>
+Kur:
+- $A_0 = 10\text{ m}^2$ (bāzes platība);
+- $A$ ir noslogotā (balstītā) laukuma platība ($\text{m}^2$), kas nodod slodzi uz pārbaudāmo elementu;
+- $\psi_0$ ir attiecīgās kategorijas slodzes kombinācijas koeficients.
+
+**Ierobežojumi:**
+- Kategorijām C un D jānodrošina, ka $\alpha_A \ge 0,60$.
+- Kategorijām A un B parasti jānodrošina, ka $\alpha_A \ge 0,60$.
+- Noliktavu telpām (E kategorija) slodzes samazināšana pēc platības nav atļauta ($\alpha_A = 1,0$).
+
+---
+
+## Slodžu kombināciju koeficienti ($\psi$ koeficienti)
+
+Kombinējot dažādas iedarbes, jāizmanto kombinācijas koeficienti $\psi_0$, $\psi_1$ un $\psi_2$, kas noteikti LVS EN 1990 un nacionālajos pielikumos. Tie ņem vērā varbūtību, ka ne visas mainīgās slodzes vienlaicīgi sasniegs savu raksturīgo vērtību.
+
+| Iedarbe / Slodze | $\psi_0$ | $\psi_1$ | $\psi_2$ |
+| :--- | :---: | :---: | :---: |
+| **Lietderīgās slodzes ēkās (pēc kategorijām):** | | | |
+| — A kategorija: mājsaimniecības un dzīvojamās telpas | 0,7 | 0,5 | 0,3 |
+| — B kategorija: biroju telpas | 0,7 | 0,5 | 0,3 |
+| — C kategorija: pulcēšanās telpas | 0,7 | 0,7 | 0,6 |
+| — D kategorija: tirdzniecības telpas | 0,7 | 0,7 | 0,6 |
+| — E kategorija: noliktavu telpas | 1,0 | 0,9 | 0,8 |
+| — F kategorija: transportlīdzekļu kustība, bruto svars $\le 30$ kN | 0,7 | 0,7 | 0,6 |
+| — G kategorija: transportlīdzekļu kustība, bruto svars 30–160 kN | 0,7 | 0,5 | 0,3 |
+| — H kategorija: jumti (pieejami tikai uzturēšanai) | 0,0 | 0,0 | 0,0 |
+| **Sniega slodzes uz ēkām (Latvijā):** | | | |
+| — Sniega slodze (references augstums $H \le 1000$ m) | 0,7 | 0,5 | 0,2 |
+| **Citas slodzes:** | | | |
+| — Vēja slodzes uz ēkām | 0,6 | 0,2 | 0,0 |
+| — Temperatūras iedarbība (ne ugunsgrēka gadījumā) | 0,6 | 0,5 | 0,0 |

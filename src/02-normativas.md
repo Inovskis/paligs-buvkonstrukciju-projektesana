@@ -1,30 +1,29 @@
 # Izmantojamie būvnormatīvi un standarti
 
-Ja pasūtītāja uzdevumā nav noteikts savādāk, tad projektēšana saskaņā ar Latvijas būvnormatīviem no 01.07.2015. veicama pēc Eirokodeksiem un ar tiem saistītajiem standartiem (galvenokārt EN, bet arī ISO). Saistītie standarti ir atrunāti katrā Eirokodeksu sadaļā. Eirokodeksi ir Eiropas Standartizācijas komitejas CEN standartu saime, kas nosaka būvkonstrukciju projektēšanas kārtību.
+Ja pasūtītāja uzdevumā nav noteikts citādi, tad būvkonstrukciju projektēšana Latvijā veicama saskaņā ar Eirokodeksiem (Eurocodes) un ar tiem saistītajiem standartiem (galvenokārt LVS EN un ISO). Eirokodeksi ir Eiropas Standartizācijas komitejas (CEN) izstrādāta standartu saime, kas nosaka vienotu būvkonstrukciju projektēšanas kārtību Eiropas Savienībā.
 
-Veicot esošu būvju pārbūvi vai atjaunošanu konstruktīvo elementu lokālajās pārbaudēs par atbilstošām konstrukcijām Latvijas Republikā uzskata arī tādas konstrukcijas, kas atbilst konstrukciju projektēšanas būvnormatīviem, kas bija spēkā no 1988. gada līdz Eirokodeksu spēkā stāšanās dienai 01.07.2015, ja vienlaikus īstenojas šādi nosacījumi:
-
-- pēc pārbūves vai atjaunošanas netiek palielināta slodze uz konstruktīvo elementu;
+Veicot esošu būvju pārbūvi vai atjaunošanu, konstruktīvo elementu lokālajās pārbaudēs par atbilstošām Latvijas Republikā var uzskatīt arī tādas konstrukcijas, kas atbilst konstrukciju projektēšanas būvnormatīviem, kuri bija spēkā no 1988. gada līdz Eirokodeksu obligātās piemērošanas uzsākšanai (01.07.2015.), ja vienlaikus izpildās šādi nosacījumi:
+- pēc pārbūves vai atjaunošanas netiek palielināta slodze uz attiecīgo konstruktīvo elementu;
 - netiek mainīta konstruktīvā elementa aprēķina shēma;
 - tehniskās apsekošanas laikā nav konstatētas virsnormas izlieces vai citas konstrukciju nedrošuma pazīmes.
 
-Projektos izmantojamiem materiāliem un izstrādājumiem ir jāatbilst ar Eirokodeksiem saistītajiem standartiem.
+Projektos izmantojamajiem materiāliem un izstrādājumiem ir jāatbilst harmonizētajiem standartiem, nodrošinot to ekspluatācijas īpašību deklarāciju atbilstību projektēšanas pieņēmumiem.
 
-**Izmantojamie standarti**
+**Būvnormatīvu un saistīto standartu pārskats**
 
-| Zaudējis spēku | Spēkā | EC |
-|---|---|---|
-| *(no 01.01.2015.)* | | |
-| — | LBN 204-14 "Tērauda būvkonstrukciju projektēšana" | EN 1993 |
-| LBN 206-99 "Koka konstrukciju projektēšanas normas" | LBN 206-15 "Koka konstrukciju projektēšana" | EN 1995 |
-| *(no 01.06.2015.)* | | |
-| LBN 203-97 "Betona un dzelzsbetona konstrukciju projektēšanas normas" | LBN 203-15 "Betona būvkonstrukciju projektēšana" | EN 1992 |
-| LBN 205-97 "Mūra un stiegrota mūra konstrukciju projektēšanas normas" | LBN 205-15 "Mūra būvkonstrukciju projektēšana" | EN 1996 |
-| — | LBN 215-15 "Tērauda un betona kompozīto būvkonstrukciju projektēšana" | EN 1994 |
-| — | LBN 213-15 "Alumīnija būvkonstrukciju projektēšana" | EN 1999 |
-| — | LBN 215-15 "Seismiski izturīgu būvkonstrukciju projektēšana" | EN 1998 |
-| *(no 08.06.2015.)* | | |
-| LBN 207-01 "Ģeotehnika. Būvju pamati un pamatnes" | LBN 207-15 "Ģeotehniskā projektēšana" | EN 1997 |
-| LBN 214-03 "Ģeotehnika. Pāļu pamati un pamatnes" | (apvienots ar LBN 207-15) | EN 1997 |
-| *(no 01.07.2015.)* | | |
-| LBN 003-01 "Būvklimatoloģija" | LBN 003-15 "Būvklimatoloģija" | LVS EN 1991-1-3/NA:2015, LVS EN 1991-1-4/NA:2011 |
+| Joma / Materiāls | Iepriekšējais normatīvs (līdz 2015. gadam) | Aktuālais būvnormatīvs (kopš 2021. gada)* | Saistītie Eirokodeksa standarti |
+| :--- | :--- | :--- | :--- |
+| **Vispārīgie principi** | — | LBN 200-21 "Būvju drošība" | LVS EN 1990 |
+| **Slodzes un iedarbes** | — | — | LVS EN 1991 |
+| **Betona konstrukcijas** | LBN 203-97 "Betona un dzelzsbetona..." | LBN 203-21 "Betona būvkonstrukciju projektēšana" | LVS EN 1992 |
+| **Tērauda konstrukcijas** | — | LBN 204-21 "Tērauda būvkonstrukciju projektēšana" | LVS EN 1993 |
+| **Kompozītās konstrukcijas** | — | LBN 214-21 "Tērauda un betona kompozīto būvkonstrukciju projektēšana" | LVS EN 1994 |
+| **Koka konstrukcijas** | LBN 206-99 "Koka konstrukciju normas" | LBN 206-21 "Koka būvkonstrukciju projektēšana" | LVS EN 1995 |
+| **Mūra konstrukcijas** | LBN 205-97 "Mūra un stiegrota mūra..." | LBN 205-21 "Mūra būvkonstrukciju projektēšana" | LVS EN 1996 |
+| **Ģeotehniskā projektēšana** | LBN 207-01 un LBN 214-03 (pāļi) | LBN 207-21 "Ģeotehniskā projektēšana" | LVS EN 1997 |
+| **Seismiskā projektēšana** | — | LBN 216-21 "Seismiski izturīgu būvkonstrukciju projektēšana" | LVS EN 1998 |
+| **Alumīnija konstrukcijas** | — | LBN 215-21 "Alumīnija būvkonstrukciju projektēšana" | LVS EN 1999 |
+| **Būvklimatoloģija** | LBN 003-01 "Būvklimatoloģija" | LBN 003-19 "Būvklimatoloģija" | LVS EN 1991-1-3 / LVS EN 1991-1-4 |
+
+*\*Piezīme: 2021. gada būvnormatīvi (LBN) stājās spēkā 2021. gada novembrī, aizstājot 2015. gada redakcijas (piemēram, LBN 203-15, LBN 204-14 u.c.). Tie tiešā veidā atsaucas uz Eirokodeksu standartu kopu un to nacionālajiem pielikumiem (NA).*
+

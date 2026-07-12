@@ -1,59 +1,47 @@
-## Konstrukciju pašsvara un apdares slodzes
+# Konstrukciju pašsvara un apdares slodzes
 
-**Dobumotās pārseguma plātnes**
+Konstrukciju pašsvars ir pastāvīga iedarbe, ko aprēķina pēc elementu ģeometriskajiem izmēriem un materiālu tilpummasas (tilpumsvara).
 
-Pie konstrukciju pašsvara slodžu aprēķina ir būtiski ievērtēt pārseguma plātņu pašsvaru ar aizbetonētām šuvēm. Bieži katalogos ir uzrādīts paneļu pašsvars bez šuvju aizpildījuma.
+## Dobumotie pārseguma paneļi (HCS)
 
-**Izplatītāko pārseguma plātņu pašsvara slodzes ar aizpildītām šuvēm**
+Aprēķinot dobumoto dzelzsbetona plātņu pašsvara slodzi, ir būtiski ievērtēt paneļu pašsvaru kopā ar šuvju aizpildījuma javu. Ražotāju katalogos bieži ir uzrādīts tikai sausa paneļa pašsvars bez šuvju aizpildījuma.
 
+**Izplatītāko dobumoto paneļu (HCS) pašsvara slodzes ar aizpildītām šuvēm:**
 
-<table>
-<colgroup>
-<col style="width:6%">
-<col style="width:18%">
-<col style="width:10%">
-<col style="width:10%">
-<col style="width:28%">
-<col style="width:28%">
-</colgroup>
-<thead>
-<tr><th>Nr.</th><th>Šķērsgriezums</th><th>H, mm</th><th>B, mm</th><th>Pašsvars ar šuvēm, kN/m<sup>2</sup></th><th>Aizpildījuma apjoms, l/m<sup>2</sup></th></tr>
-</thead>
-<tbody>
-<tr><td>1</td><td>HCS 200</td><td>200</td><td>1196</td><td>2,55</td><td>7,00</td></tr>
-<tr><td>2</td><td>HCS 220</td><td>220</td><td>1196</td><td>3,40</td><td>8,00</td></tr>
-<tr><td>3</td><td>HCS 265</td><td>265</td><td>1196</td><td>3,80</td><td>10,00</td></tr>
-<tr><td>4</td><td>HCS 320</td><td>320</td><td>1196</td><td>4,05</td><td>12,00</td></tr>
-<tr><td>5</td><td>HCS 400</td><td>400</td><td>1196</td><td>4,65</td><td>17,00</td></tr>
-<tr><td>6</td><td>HCS 500</td><td>500</td><td>1196</td><td>5,53</td><td>—</td></tr>
-</tbody>
-</table>
+| Nr. | Šķērsgriezums | Augstums $H$ (mm) | Platums $B$ (mm) | Pašsvars ar šuvēm (kN/m²) | Šuvju aizpildījuma apjoms (l/m²) |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| 1 | HCS 200 | 200 | 1196 | 2,55 | 7,0 |
+| 2 | HCS 220 | 220 | 1196 | 3,40 | 8,0 |
+| 3 | HCS 265 | 265 | 1196 | 3,80 | 10,0 |
+| 4 | HCS 320 | 320 | 1196 | 4,05 | 12,0 |
+| 5 | HCS 400 | 400 | 1196 | 4,65 | 17,0 |
+| 6 | HCS 500 | 500 | 1196 | 5,53 | — |
 
-**Atsevišķu materiālu tilpumsvari pašsvara noteikšanai**
+---
 
+## Materiālu tilpumsvari pastāvīgās slodzes noteikšanai
 
-<table>
-<colgroup>
-<col style="width:6%">
-<col style="width:64%">
-<col style="width:30%">
-</colgroup>
-<thead>
-<tr><th>Nr.</th><th>Nosaukums</th><th>Tilpumsvars, kN/m<sup>3</sup></th></tr>
-</thead>
-<tbody>
-<tr><td>1</td><td>Granīts</td><td>26.00</td></tr>
-<tr><td>2</td><td>Granīta šķembas</td><td>16.00</td></tr>
-<tr><td>3</td><td>Sausas smiltis</td><td>16.00</td></tr>
-<tr><td>4</td><td>Tērauds</td><td>78.50</td></tr>
-<tr><td>5</td><td>C24 klases koksne</td><td>4.20</td></tr>
-<tr><td>6</td><td>Stikls loksnēs</td><td>25.00</td></tr>
-<tr><td>7</td><td>Bērza saplāksnis</td><td>7.00</td></tr>
-<tr><td>8</td><td>Kokskaidu plātne (OSB)</td><td>8.00</td></tr>
-<tr><td>9</td><td>Paroc COS 5 (Izolācija betona sendviča tipa paneļos)</td><td>0.65</td></tr>
-</tbody>
-</table>
+Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā noteiktos tilpumsvarus:
 
-**Norādījumi par griestu konstrukciju pašsvaru**
+| Nr. | Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| :---: | :--- | :---: |
+| 1 | Tērauds | 78,50 |
+| 2 | Dzelzsbetons (parasts ar stiegrojumu)* | 25,00 |
+| 3 | Granīts | 26,00 |
+| 4 | Stikls loksnēs | 25,00 |
+| 5 | Granīta šķembas | 16,00 |
+| 6 | Sausas smiltis | 16,00 |
+| 7 | Kokskaidu plātne (OSB) | 8,00 |
+| 8 | Bērza saplāksnis | 7,00 |
+| 9 | C24 klases skuju koksne | 4,20 |
+| 10 | Paroc COS 5 (siltumizolācija trīsslāņu paneļos) | 0,65 |
 
-Ja projektēšanas gaitā nav precīzas informācijas par griestu konstrukciju zem dimensionējamajiem elementiem, tad tipiskā variantā pieņem vērtību 0.50 kN/m<sup>2</sup>, kas ievērtē apšuvumu, latojumu un inženierkomunikācijas, piemēram AVK tīklus.
+*\*Piezīme: Dzelzsbetona tilpumsvars saskaņā ar LVS EN 1991-1-1 ir 25,0 kN/m³ (parastam betonam bez stiegrojuma — 24,0 kN/m³).*
+
+---
+
+## Griestu un inženierkomunikāciju apdares slodzes
+
+Ja projektēšanas sākuma posmā nav pieejama precīza informācija par griestu konstrukciju un inženierkomunikāciju izvietojumu zem dimensionējamā pārseguma, kā standarta pieņēmumu ieteicams izmantot šādu slodzi:
+
+- **Apdares slodze griestiem un komunikācijām: $0,50\text{ kN/m}^2$** (tas ievērtē piekārto ģipškartona griestu karkasu, izolāciju, gaismekļus un parastās inženierkomunikācijas, piemēram, ventilācijas (AVK) cauruļvadus).

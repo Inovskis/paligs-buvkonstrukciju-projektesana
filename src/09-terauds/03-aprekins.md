@@ -1,91 +1,83 @@
-## Aprēķins pēc robežstāvokļu metodes
+# Šķērsgriezumu un elementu aprēķins (ULS)
 
-**Materiāla parciālie koeficienti**
+Tērauda elementu nestspējas un stabilitātes pārbaudes tiek veiktas saskaņā ar LVS EN 1993-1-1.
 
-<table>
-<colgroup><col style="width:20%"><col style="width:55%"><col style="width:25%"></colgroup>
-<thead><tr><th>Elementi</th><th>Elementa pretestības raksturojums</th><th>Materiāla drošības koeficients γ<sub>M</sub></th></tr></thead>
-<tbody>
-<tr><td rowspan="3">Elementu un šķērsgriezumu pretestība</td><td>Šķērsgriezuma pretestība no pārmērīgas plūstamības, iekaitot sāniskās vērpes lodzi</td><td>γ<sub>M0</sub> = 1,00</td></tr>
-<tr><td>Elementu pretestība noturības zudumam, kura tiek novērtēta stieņu pārbaudēs</td><td>γ<sub>M1</sub> = 1,10</td></tr>
-<tr><td>Stieptu šķēlumu pretestība sabrukumam</td><td>γ<sub>M1</sub> = 1,25</td></tr>
-<tr><td rowspan="6">Savienojumu pretestība</td><td>Augstas stiprības skrūvju savienojumiem, kniežu savienojumiem, parastas stiprības skrūvju savienojumiem, metinātam savienojumam</td><td>γ<sub>M2</sub> = 1,25</td></tr>
-<tr><td>Virsmu berzes pretestībai (nomināla diametra skrūvju caurumi):<br>— stiprības robežstāvoklim<br>— lietojamības robežstāvoklim</td><td>γ<sub>M3</sub> = 1,25<br>γ<sub>M3,ser</sub> = 1,10</td></tr>
-<tr><td>Injekcijas skrūvju pretestībai</td><td>γ<sub>M4</sub> = 1,10</td></tr>
-<tr><td>Slēgta profila elementu savienojumu pretestība režģotās sijās</td><td>γ<sub>M5</sub> = 1,10</td></tr>
-<tr><td>Kniežu savienojuma pretestība lietojamības robežstāvoklim</td><td>γ<sub>M6,ser</sub> = 1,00</td></tr>
-<tr><td>Augstas stiprības skrūvju iepriekšējais saspriegums</td><td>γ<sub>M7</sub> = 1,10</td></tr>
-</tbody>
-</table>
+---
 
-**Asu izvietojuma shēma**
+## Materiāla parciālie drošības koeficienti ($\gamma_M$)
 
-![Attēls](../images/ch09/img081.png)
+Aprēķinot elementu un savienojumu pretestību nestspējas robežstāvoklī (ULS), tērauda stiprību dala ar materiāla parciālajiem koeficientiem $\gamma_M$. 
 
-X ass vienmēr ir elementa garenass.
+**Latvijā piemērojamie koeficienti saskaņā ar LVS EN 1993-1-1/NA:**
 
-**Aprēķina garumi tipiskām situācijām**
+| Elementi / Pārbaudes | Pretestības raksturojums | Drošības koeficients $\gamma_M$ |
+| :--- | :--- | :---: |
+| **Elementu un šķērsgriezumu pretestība:** | | |
+| — Šķērsgriezuma nestspēja (visām klasēm) | Pretestība šķērsgriezuma plastiskai plūstamībai, ieskaitot sāniskās vērpes klupšanu | $\gamma_{M0} = 1,00$ |
+| — Elementu stabilitāte (noturības pārbaudes) | Stieņu pretestība izlieces un vērpes klupšanai stieņu pārbaudēs | **$\gamma_{M1} = 1,00$** * |
+| — Stieptu šķērsgriezumu sabrukums | Pretestība trauslam sabrukumam stieptos šķēlumos pie skrūvju caurumiem | $\gamma_{M2} = 1,25$ |
+| **Savienojumu pretestība:** | | |
+| — Skrūvju un metinātie savienojumi | Pretestība skrūvēm, kniedēm, tapām un metinātajām šuvēm | $\gamma_{M2} = 1,25$ |
+| — Virsmu berzes pretestība (berzes šuvēm) | Pretestība slīdei (normāliem skrūvju caurumiem): <br> — nestspējas robežstāvoklī (ULS) <br> — lietojamības robežstāvoklī (SLS) | <br>$\gamma_{M3} = 1,25$ <br>$\gamma_{M3,ser} = 1,10$ |
+| — Injekcijas skrūvju savienojumi | Pretestība injekcijas skrūvēm | $\gamma_{M4} = 1,10$ |
+| — Slēgto profilu (cauruļprofilu) savienojumi | Režģoto kopņu mezglu nestspēja | $\gamma_{M5} = 1,10$ |
+| — Kniedētie savienojumi | Kniedēto savienojumu pārbaude SLS | $\gamma_{M6,ser} = 1,00$ |
+| — Augstas stiprības skrūvju iepriekšējais saspriegums | Skrūvju spriegošanas spēka pārbaude | $\gamma_{M7} = 1,10$ |
 
-![Attēls](../images/ch09/img082.png)
+*\*Svarīga piezīme: LVS EN 1993-1-1/NA nosaka stabilitātes koeficientu **$\gamma_{M1} = 1,00$** (Eirokodeksa pamatdokumentā rekomendētā vērtība ir $1,10$). Tas nodrošina ekonomiskāku tērauda elementu stabilitātes aprēķinu Latvijas teritorijā.*
 
+---
 
-## Raksturīgās pārsegumu laidumu un augstumu attiecības
+## Elementu asu izkārtojums un aprēķina garumi
 
-Dotās vērtības ir izmantojamas, lai projekta sākumstadijā aptuveni noteiktu paredzamos elementu augstumus.
+Tērauda elementu šķērsgriezuma koordinātu asis tiek definētas šādi:
+- **X-X:** Elementa garenass;
+- **Y-Y:** Stiprā ass (liece pret šo asi rada lieces momentu $M_y$, kur šķērsgriezuma elastības pretestības modulis $W_y$ ir maksimālais);
+- **Z-Z:** Vājā ass (pretestības modulis $W_z$ ir minimālais).
 
-<table>
-<colgroup>
-  <col style="width:20%"><col style="width:10%">
-  <col style="width:7%"><col style="width:7%"><col style="width:7%"><col style="width:7%">
-  <col style="width:7%"><col style="width:7%"><col style="width:7%"><col style="width:7%">
-  <col style="width:7%"><col style="width:7%">
-</colgroup>
-<thead>
-<tr>
-  <th>Elements</th><th>Dziļums/<br>laidums</th>
-  <th colspan="10">Laidums, m</th>
-</tr>
-<tr>
-  <th></th><th>dziļums, mm</th>
-  <th>3</th><th>4,5</th><th>6</th><th>7,5</th><th>9</th><th>12</th><th>15</th><th>23</th><th>30</th><th>45–90</th>
-</tr>
-</thead>
-<tbody>
-<tr><td>Sija</td><td><strong>20</strong></td><td>230</td><td>300</td><td>390</td><td>460</td><td>610</td><td>770</td><td>1150</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>Kompozītā sija</td><td><strong>28</strong></td><td>200</td><td>220</td><td>270</td><td>320</td><td>440</td><td>550</td><td>820</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>Rāmja sija</td><td><strong>10</strong></td><td>460</td><td>610</td><td>760</td><td>900</td><td>1100</td><td>1500</td><td>2300</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>Grīdas sijas</td><td><strong>20</strong></td><td>150</td><td>230</td><td>300</td><td>400</td><td>450</td><td>600</td><td>750</td><td>—</td><td>—</td><td>—</td></tr>
-<tr><td>Jumta sijas</td><td><strong>24</strong></td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>640</td><td>800</td><td>950</td><td>1250</td><td>—</td></tr>
-<tr><td>Plāksnes sija</td><td><strong>15</strong></td><td>—</td><td>400</td><td>500</td><td>600</td><td>800</td><td>1000</td><td>1500</td><td>2000</td><td>—</td><td>—</td></tr>
-<tr><td>Kopne</td><td><strong>12</strong></td><td>—</td><td>500</td><td>640</td><td>760</td><td>1000</td><td>1300</td><td>1900</td><td>2500</td><td>3000</td><td>5000–7000</td></tr>
-<tr><td>Telpiskais rāmis</td><td><strong>16</strong></td><td>—</td><td>—</td><td>—</td><td>570</td><td>760</td><td>950</td><td>1400</td><td>1900</td><td>2860</td><td>3800–5700</td></tr>
-</tbody>
-</table>
+| Koordinātu asu izvietojums | Aprēķina garumi $L_{\text{cr}}$ tipiskām atbalsta situācijām |
+| :---: | :---: |
+| ![Asis](../images/ch09/img081.png) | ![Aprēķina garumi](../images/ch09/img082.png) |
 
-*Piezīme: Tabula paredzēta tikai provizoriskajam izmēru novērtējumam. Galīgie izmēri jānosaka ar aprēķiniem.*
+---
 
-Pēc DESIGN GUIDE FOR RECTANGULAR HOLLOW SECTION (RHS) JOINTS UNDER PREDOMINANTLY STATIC LOADING ideāla laiduma / augstuma attiecība cauruļveida paralēljoslu kopnēm ir robežās no 10 līdz 15. Parasti optimālā vērtība ir tuvu 15.
+## Provizoriskās laidumu un augstumu attiecības ($L/d$)
 
-Kopņu projektēšanas procesā lielākā vērība ir pievērsta joslu šķērsgriezumu izvēlei, jo tradicionāli ap 50% no kopņu svara veido spiestās joslas, 30% stieptās joslas kamēr režģa elementi sastāda tikai 20%. Lai nodrošinātu optimālu pārseguma kopņu konstrukciju pie projektēšanas ievēroti šādi nosacījumi:
+Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) $d$ var provizoriski noteikt pēc laiduma un augstuma attiecības $L/d$:
 
-● Lietots konstants režģa paneļu platums pa kopnes garumu;
+| Elements | Attiecība $L/d$ | Provizoriskais augstums $d$ (mm) atkarībā no laiduma ($L$, m) | | | | | | | | |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| | | **3 m** | **4,5 m** | **6 m** | **7,5 m** | **9 m** | **12 m** | **15 m** | **23 m** | **30 m** | **45-90 m** |
+| **Sija (vispārīga)** | **20** | 230 | 300 | 390 | 460 | 610 | 770 | 1150 | — | — | — |
+| **Kompozītā sija** (ar betonu) | **28** | 200 | 220 | 270 | 320 | 440 | 550 | 820 | — | — | — |
+| **Rāmja sija (stinga)** | **10** | 460 | 610 | 760 | 900 | 1100 | 1500 | 2300 | — | — | — |
+| **Grīdas sekundārās sijas** | **20** | 150 | 230 | 300 | 400 | 450 | 600 | 750 | — | — | — |
+| **Jumta sekundārās sijas** | **24** | — | — | — | — | — | 640 | 800 | 950 | 1250 | — |
+| **Metināta lokšņu sija** | **15** | — | 400 | 500 | 600 | 800 | 1000 | 1500 | 2000 | — | — |
+| **Kopne** | **12** | — | 500 | 640 | 760 | 1000 | 1300 | 1900 | 2500 | 3000 | 5000-7000 |
+| **Telpisks režģis** | **16** | — | — | — | 570 | 760 | 950 | 1400 | 1900 | 2860 | 3800-5700 |
 
-● Lietots pāra skaits režģa elementu;
+*Piezīme: Šī tabula paredzēta tikai provizoriskam izmēru novērtējumam. Galīgais šķērsgriezums vienmēr jānosaka ar stiprības, stabilitātes un izlieces aprēķiniem.*
 
-● Noslogotākie režģa elementi orientēti tā, lai tie darbotos stiepē;
+---
 
-● Atgāžņu slīpums veidots robežās no 35° līdz 50°;
+## Paralēlo joslu kopņu projektēšanas nosacījumi
 
-● Ja tas ir iespējams kopturi izvietojami iespējami tuvu režģa elementiem.
+Saskaņā ar cauruļveida profilu (RHS) kopņu projektēšanas rokasgrāmatām, optimālā laiduma un augstuma attiecība paralēlo joslu kopnēm ir robežās no **$10$ līdz $15$** (optimāli tuvu **$15$**).
 
-<table>
-<colgroup><col style="width:40%"><col style="width:15%"><col style="width:45%"></colgroup>
-<thead><tr><th>Konstrukciju veids</th><th>L/D</th><th>Piezīmes</th></tr></thead>
-<tbody>
-<tr><td>Velmētie tērauda profili</td><td>&lt; 20</td><td></td></tr>
-<tr><td>Kopnes (vienlaiduma) — smaga slodze<br>— vidēja slodze<br>— viegla slodze (jumts)</td><td>12–15<br>15–18<br>18–21</td><td>Lietot lielākas vērtības, ja ir stingri savienojumi mezglos</td></tr>
-<tr><td>Telpiskās plātnes un režģi</td><td>15–45</td><td>Skrūvmetināti savienojumi</td></tr>
-</tbody>
-</table>
+Kopņu pašsvarā lielāko daļu sastāda joslas (ap 50% spiestā josla, 30% stieptā josla), bet režģa elementi (atgāžņi un statņi) sastāda tikai ap 20%. Tādēļ kopņu projektēšanā jāievēro šāda labā prakse:
+- izvēlēties konstantu režģa paneļu platumu visā kopnes garumā, lai standartizētu mezglus;
+- paredzēt pāra skaitu režģa elementu (atgāžņu);
+- noslogotākos režģa elementus (it īpaši pie balstiem) orientēt tā, lai tie darbotos **stiepē** (stiepti stieņi nav pakļauti klupšanai, kas ļauj izmantot mazākus šķērsgriezumus);
+- atgāžņu slīpuma leņķi pret joslām veidot robežās no **$35^\circ$ līdz $50^\circ$**;
+- sekundārās slodzes (kopturus) izvietot tieši kopnes mezglos, lai novērstu joslu lokālo lieci.
 
-![Attēls](../images/ch09/img085.png)
+**Kopņu laiduma pret augstumu ($L/D$) attiecības:**
+
+| Konstrukciju veids | Attiecība $L/D$ | Piezīmes |
+| :--- | :---: | :--- |
+| **Velmētie tērauda profili (sijas)** | $< 20$ | Lieces un izlieces kritēriji. |
+| **Vienlaiduma kopnes:** <br> — smagai slodzei <br> — vidējai slodzei <br> — vieglai slodzei (jumti) | <br>$12 \dots 15$ <br>$15 \dots 18$ <br>$18 \dots 21$ | Var izmantot lielākas attiecības robežas, ja mezglos tiek nodrošināti stingri (momentizturīgi) savienojumi. |
+| **Telpiskie režģi un plātnes** | $15 \dots 45$ | Balstās uz skrūvējamiem un metinātiem mezgliem. |
+
+![Kopnes shēma](../images/ch09/img085.png)

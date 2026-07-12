@@ -1,58 +1,84 @@
-## Papildus prasības projektēšanai un izgatavošanai
+# Papildu prasības projektēšanai un izgatavošanai
 
-**Materiālu parciālie faktori**
+Dzelzsbetona elementu dimensionēšanā jāņem vērā materiālu drošuma faktori un stiegrojuma izvietojuma konstruktīvie noteikumi.
 
+---
 
-| Projektā ievērtējamās situācijas | y<sub>c</sub> betonam | y<sub>s</sub> stiegrojumam | y<sub>s</sub> spriegotajam stiegrojumam |
-| --- | --- | --- | --- |
-| Ilgstošas un īslaicīgas | 1.50 | 1.15 | 1.15 |
-| Ārkārtējas | 1.20 | 1.00 | 1.00 |
+## Materiālu parciālie koeficienti ($\gamma$)
 
-Pievērst uzmanību koeficientiem ārkārtējās (avārijas) situācijās.
+Nestspējas robežstāvokļa (ULS) pārbaudēm izmanto šādus materiālu parciālos koeficientus:
 
-**Stiegrojuma pārlaidumi un enkurojuma garumi**
+| Projektā ievērtējamās situācijas | $\gamma_c$ (betonam) | $\gamma_s$ (stiegrojumam) | $\gamma_{s,sp}$ (spriegotajam stiegrojumam) |
+| :--- | :---: | :---: | :---: |
+| **Ilgstošas un īslaicīgas** | 1,50 | 1,15 | 1,15 |
+| **Ārkārtējas (avārijas, ugunsgrēka)** | 1,20 | 1,00 | 1,00 |
+| **Seismiskās (zemestrīces)** | 1,20 | 1,00 | 1,00 |
 
-**Enkurojuma garumi un pārlaidumi C25/30 klases betonam**
+*Piezīme: Ārkārtējās un seismiskajās situācijās betona un stiegrojuma koeficienti tiek samazināti līdz $\gamma_c = 1,20$ un $\gamma_s = 1,00$, kas atspoguļo zemāku nepieciešamo drošuma rezervi pret mazticamiem notikumiem.*
 
-**Pārējo klašu betonam dotie izmēri ir reizināmi ar koeficientiem, kas ir doti tabulas apakšpusē**
+---
 
-![Attēls](../images/ch08/img037.png)
+## Stiegrojuma enkurojuma un pārlaidumu garumi
 
-**Minimālais attālums starp stiegrām**
+Stiegrošanā jānodrošina pietiekams stieņu enkurojuma garums $l_{bd}$ un pārlaiduma garums $l_0$, lai spēki starp stieņiem un betonu tiktu nodoti bez sānslīdes.
 
-**LVS EN 1992-1-1 8.2**
+**Enkurojuma un pārlaidumu garumi $\varnothing 8$ līdz $\varnothing 32$ stieņiem C25/30 klases betonam:**
 
-Tīrais attālums (horizontālais un vertikālais) starp atsevišķām paralēlām stiegrām vai paralēlu stiegru horizontālām kārtām nedrīkst būt mazāks par lielāko no ar k<sub>1</sub> reizinātu stiegrojuma stieņu diametru, (d<sub>g</sub> + k<sub>2</sub> mm) vai 20 mm, kur d<sub>g</sub> ir pildvielas maksimālais izmērs (k<sub>1</sub> un k<sub>2</sub> maksimālās vērtības var būt definētas nacionālajā pielikumā, rekomendējamās vērtības ir 1 un 5).
+![Enkurojuma garumi](../images/ch08/img037.png)
 
-**Minimālais attālums starp priekšspriegotiem spriegojuma stiegrojuma elementiem**
+*Citu stiprības klašu betoniem dotos izmērus reizina ar šādiem pārrēķina koeficientiem:*
+- **C20/25:** reizinātājs $1,10$
+- **C30/37:** reizinātājs $0,89$
+- **C35/45:** reizinātājs $0,80$
+- **C40/50:** reizinātājs $0,74$
 
-**LVS EN 1992-1-1 8.10.1.2**
+---
 
-Minimālajiem tīrajiem horizontālajiem un vertikālajiem attālumiem starp priekšspriegotiem spriegojamā stiegrojuma elementiem jāatbilst attēla shēmai, kur Ø ir priekšsaspriegta spreigojamā stiegrojuma elementa diametrs un d<sub>s</sub> ir maksimālais pildvielas izmērs.
+## Attālumi starp stieņiem
 
-![Attēls](../images/ch08/img038.png)
+### 1. Minimālais attālums starp stiegrām (LVS EN 1992-1-1 8.2. punkts)
+Tīrais attālums (horizontālais un vertikālais) starp atsevišķām paralēlām stiegrām vai paralēlu stiegru kārtām nedrīkst būt mazāks par lielāko no šiem trim lielumiem:
+- $k_1 \cdot \varnothing$ (stiegrojuma stieņa diametrs);
+- $d_g + k_2\text{ mm}$ (pildvielas maksimālais izmērs);
+- $20\text{ mm}$.
 
-**Maksimālais attālums starp stiegrām**
+*Latvijas nacionālajā pielikumā noteiktās vērtības ir $k_1 = 1$ un $k_2 = 5\text{ mm}$. Tas nozīmē, ka pie maksimālās pildvielas frakcijas $16\text{ mm}$ minimālais tīrais attālums ir $21\text{ mm}$ vai stieņa diametrs $\varnothing$.*
 
-Maksimālais attālums starp kolonnu šķērsstiegrojuma stiegrām s<sub>cl,tmax</sub>:
+### 2. Minimālais attālums starp priekšspriegotā stiegrojuma elementiem (LVS EN 1992-1-1 8.10.1.2. punkts)
+Minimālajiem tīrajiem horizontālajiem un vertikālajiem attālumiem starp priekšspriegotā stiegrojuma elementiem (trosēm, kanāliem) jāatbilst attēla shēmai, kur $\varnothing$ ir elementa diametrs un $d_g$ ir maksimālais pildvielas izmērs.
 
-mazākais no: 20 garenstiegrojumu diametri, mazākā kolonnas dimensija, 400 mm.
+![Attālumi starp trosēm](../images/ch08/img038.png)
 
-**Minimālais stiegru liekuma rādiuss**
+---
 
-![Attēls](../images/ch08/img039.png)
+## Maksimālais attālums starp stiegrām (aptveru solis)
 
-**Aptveru un šķērsspēku uzņemošā stiegrojuma enkurojums**
+Maksimālais attālums starp kolonnu šķērsstiegrojuma stiegrām (aptveru solis) $s_{cl,tmax}$ nedrīkst pārsniegt mazāko no šādiem lielumiem:
+- $20 \cdot \varnothing_{\text{min}}$ (kur $\varnothing_{\text{min}}$ ir garenstiegrojuma minimālais diametrs);
+- kolonnas mazākais šķērsgriezuma izmērs (platums vai augstums);
+- $400\text{ mm}$.
 
-![Attēls](../images/ch08/img040.png)
+*Piezīme: Šķērsstiegrojuma solis jāsamazina par koeficientu $0,6$ (t.i., $0,6 \cdot s_{cl,tmax}$) zonās virs un zem sijām viena stāva augstumā, kā arī stieņu pārlaidumu zonās, ja garenstieņu diametrs $\varnothing > 14\text{ mm}$.*
 
-**Betona virsmu klasifikācija**
+---
 
-**Klasificēšana pēc LVS EN 1992-1-1 6.2.5 (2)**
+## Minimālais stiegru liekuma rādiuss
 
-Gadījumā, kad nav detalizētākas informācijas, virsmas var klasificēt kā ļoti gludas, gludas, nelīdzenas vai robotas (periodiska profila) ar šādiem piemēriem:
+Stieņu liekšana (piemēram, cilpu, āķu vai stūra stieņu izveidei) jāveic ar pietiekamu liekuma rādiusu (liekšanas rullīša diametru $\phi$), lai novērstu stieņa bojājumus liekšanas procesā un betona sašķelšanos liekuma iekšpusē.
 
-- **Ļoti gluda** (c = 0,025–0,10; μ = 0,5) — virsma, kas izlieta tērauda, plastmasas vai speciāli sagatavotos koka veidņos.
-- **Gluda** (c = 0,20; μ = 0,6) — ar slīdošiem veidņiem betonēta vai extrudēta (presēta) virsma, vai brīvi stāvoša virsma, kas pēc vibrēšanas atstāta bez tālākas apstrādes.
-- **Nelīdzena** (c = 0,40; μ = 0,7) — virsma ar vismaz 3 mm nelīdzenumiem ar apmēram 40 mm atstarpi, kas iegūta ar liešanu, ar atsegtām pildījuma daļiņām vai kādu citu metodi, kas dod ekvivalentas īpašības.
-- **Robota** (periodiska profila) (c = 0,50; μ = 0,9) — virsma ar ierobēm, kas atbilst 6.9. attēlam.
+![Liekuma rādiuss](../images/ch08/img039.png)
+
+### Aptveru un šķērsspēku uzņemošā stiegrojuma enkurojums:
+
+![Aptveru enkurojums](../images/ch08/img040.png)
+
+---
+
+## Betona virsmu klasifikācija (darba šuvēm)
+
+Aprēķinot bīdes spēku pārnesi pa betona darba šuvēm (saskaņā ar LVS EN 1992-1-1 6.2.5. punktu), šuves virsmas klasificē četrās kategorijās. Katrai kategorijai atbilst kohēzijas koeficients $c$ un berzes koeficients $\mu$:
+
+- **Ļoti gluda ($c = 0,025 \dots 0,10$; $\mu = 0,5$):** Virsma, kas betonēta pret tērauda, plastmasas vai speciāli sagatavotiem koka veidņiem.
+- **Gluda ($c = 0,20$; $\mu = 0,6$):** Ar slīdošajiem veidņiem betonēta, ekstrudēta vai brīva virsma, kas pēc vibrēšanas atstāta bez tālākas apstrādes.
+- **Nelīdzena ($c = 0,40$; $\mu = 0,7$):** Virsma ar vismaz 3 mm dziļiem nelīdzenumiem, kas izvietoti ik pēc aptuveni 40 mm, vai virsma ar atsegtām pildvielas daļiņām.
+- **Robota ($c = 0,50$; $\mu = 0,9$):** Speciāli veidota rievota vai zobota virsma saskaņā ar standarta 6.9. attēlu.

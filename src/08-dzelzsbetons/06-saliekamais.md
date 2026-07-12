@@ -1,159 +1,124 @@
-## Saliekamais dzelzsbetons
+# Saliekamais dzelzsbetons
 
-**Elementu izgatavošanas standarti**
+Saliekamā dzelzsbetona konstrukciju projektēšana un izmantošana prasa precīzu izgatavošanas tolerances, transportēšanas gabarītu, balstījuma mezglu un šuvju risinājumu ievērošanu.
 
+---
 
-<table>
-<colgroup><col style="width:20%"><col style="width:40%"><col style="width:40%"></colgroup>
-<thead>
-<tr><th>Standarts</th><th>Nosaukums latviski</th><th>Nosaukums angliski</th></tr>
-</thead>
-<tbody>
-<tr><td>LVS EN 14992+A1:2020</td><td>Saliekamā dzelzsbetona izstrādājumi. Sienas elementi</td><td>Precast concrete products – Wall elements</td></tr>
-<tr><td>LVS EN 13225</td><td>Saliekamā dzelzsbetona izstrādājumi. Lineārie elementi</td><td>Precast concrete products – Linear structural elements</td></tr>
-</tbody>
-</table>
+## Elementu izgatavošanas standarti
 
-**Dobumoto plātņu izgriezumu robežvērtības**
+Saliekamo dzelzsbetona elementu izgatavošanu un kvalitātes atbilstības novērtēšanu veic saskaņā ar šādiem standartiem:
+- **LVS EN 14992+A1:2020:** Saliekamā dzelzsbetona izstrādājumi. Sienas elementi.
+- **LVS EN 13225:** Saliekamā dzelzsbetona izstrādājumi. Lineārie konstrukciju elementi (sijas, kolonnas).
+- **LVS EN 1168+A3:2011:** Saliekamā dzelzsbetona izstrādājumi. Dobumotās plātnes.
 
-![Attēls](../images/ch08/img046.png)
+---
 
-**Dimensijas pēc BETONGELEMENTBOKEN**
+## Dobumoto plātņu (HCS) izgriezumu robežvērtības
 
-**Dobumoto plātņu enkurošana iecirtumiem**
+Veicot dobumoto plātņu gareniskos vai šķērsvirziena izgriezumus (komunikāciju šahtām, kāpņu ailēm), jānodrošina atlikušā plātnes šķērsgriezuma nestspēja un stabilitāte:
 
-![Attēls](../images/ch08/img047.png)
+![Plātņu izgriezumi](../images/ch08/img046.png)
 
-**Dobumoto paneļu ugunsizturība pēc šķērsspēka un enkurojuma**
+*Saskaņā ar "Betongelementboken" un ražotāju vadlīnijām, maksimālie pieļaujamie izgriezumu izmēri bez papildu tērauda sadalošajiem elementiem (kārbām) ir atkarīgi no plātnes biezuma un izvietojuma (parasti ne vairāk kā 1-2 dobumu platumā).*
 
-Pārbaudi definē LVS EN 1168 G pielikums.
+### Dobumoto plātņu enkurošana iecirtumos:
 
-Ugunsizturību attiecībā uz šķērsspēka un enkurojuma sabrukumu var noteikt, izmantojot vienkāršotas aprēķina metodes (skat. EN 1992-1-2:2004, 4.2 un B un D pielikumu) ar šādiem pieņēmumiem:
+![Plātņu enkurošana](../images/ch08/img047.png)
 
-- temperatūra šķērsgriezumā pēc G.1.1;
-- empīrisks aprēķina modelis šķērsspēkam un enkurojumam ugunsgrēka apstākļos; ugunsizturības klasei < R60 šī pārbaude nav nepieciešama.
+---
 
-> **Piezīme.** Šķērsspēks–stiepe nav aktuāls vertikālo plaisu dēļ, ko rada termiskais gradients.
+## Dobumoto paneļu ugunsizturība šķērsspēkā un enkurojumā (LVS EN 1168 G pielikums)
 
-![Attēls](../images/ch08/img048_diagram.png)
+Ugunsgrēka apstākļos dobumotajās plātnēs rodas augsts temperatūras gradients, kas izraisa betona termisko izplešanos un plaisāšanu, ietekmējot šķērsspēka nestspēju un saspriegto stiegru enkurojuma saķeri.
 
-**G.2. attēls — Šķērsspēka un enkurojuma pretestības aprēķina modelis (piemērs)**
+Saskaņā ar LVS EN 1168 G pielikumu, ugunsizturības klasēm, kas ir vienādas vai lielākas par **R60**, ir jāveic šķērsspēka un enkurojuma nestspējas pārbaude ugunsgrēka apstākļos. Klasei < R60 šī pārbaude nav nepieciešama.
 
-**Apzīmējumi:** 1 — apskatāmais šķērsgriezums; 2 — savienojuma stiegrojums; 3 — saspriegtā dzīsla; 4 — monolītais betons
+### Empīriskais šķērsspēka un enkurojuma vienādojums ugunsgrēka apstākļos:
 
-![Attēls](../images/ch08/img050_diagram.png)
+$$V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d$$
 
-**G.3. attēls — Aprēķina modelis ar izvirzītām dzīslām (piemērs)**
+Kur:
+- $\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0$ (izmēra faktors, kur darba augstums $d$ ir milimetros);
+- $b_w$ — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);
+- $d$ — darba augstums normālā temperatūrā;
+- $C_{\theta,1}$ — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
+  $$C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)$$
+- $C_{\theta,2}$ — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
+  $$C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}$$
+- $\sigma_{cp,20^\circ\text{C}}$ — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;
+- $f_{c,fi,m}$ — betona vidējā spiedes stiprība paaugstinātā temperatūrā;
+- $F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}$ (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);
+- $f_{bpd,fi} = \eta_{p2} \cdot \eta_1 \cdot \frac{0,7 \cdot f_{ctm} \cdot k_{ct}(\theta_{p,m})}{\gamma_c}$ (saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos).
 
-Empīriskais šķērsspēka vienādojums ugunsgrēka apstākļos:
+| G.2. attēls — Aprēķina modelis ar parasto enkurojumu | G.3. attēls — Aprēķina modelis ar izvirzītām dzīslām |
+| :---: | :---: |
+| ![Modelis 1](../images/ch08/img048_diagram.png) | ![Modelis 2](../images/ch08/img050_diagram.png) |
 
-V<sub>Rd,c,fi</sub> = [C<sub>θ,1</sub> + α<sub>k</sub> · C<sub>θ,2</sub>] · b<sub>w</sub> · d
+*Apzīmējumi: 1 — apskatāmais šķērsgriezums (balsta malā), 2 — savienojuma stiegrojums (skavas), 3 — saspriegtā dzīsla, 4 — monolītais šuvju aizpildījuma betons.*
 
-kur:
+---
 
-- **C<sub>θ,1</sub>** — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos = 0,15 · min(k<sub>p</sub>(θ<sub>p</sub>) σ<sub>cp,20°C</sub>; F<sub>R,a,fi,p</sub>/A<sub>c</sub>)
-- **α<sub>k</sub>** = 1 + √(200/d) ≤ 2,0, kur d ir mm
-- **C<sub>θ,2</sub>** — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi = ∛(0,58 · F<sub>R,a,fi</sub>/(f<sub>yk</sub> · b<sub>w</sub> · d) · f<sub>c,fi,m</sub>)
-- **σ<sub>cp,20°C</sub>** — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā
-- **A<sub>c</sub>** — betona šķērsgriezuma laukums
-- **f<sub>c,fi,m</sub>** — vidējā betona stiprība paaugstinātā temperatūrā
+## Saliekamo fasādes elementu šuvju hidroizolācija un blīvēšana
 
-- **f<sub>bpd,fi</sub>** — saķeres stiprība saspriegto elementu enkurojumam paaugstinātā temperatūrā = η<sub>p2</sub> · η<sub>1</sub> · (0,7 · f<sub>ctm</sub> · k<sub>ct</sub>(θ<sub>p,m</sub>))/γ<sub>c</sub>
-- **f<sub>bpdr,fi</sub>** — saķeres stiprība enkurojumam monolītajā betonā (izvirzītu dzīslu gadījumā)
-- **F<sub>R,a,fi,s</sub>** — savienojuma stiegrojuma spēka kapacitāte apskatāmajā šķērsgriezumā = A<sub>s</sub> · f<sub>yk</sub> · k<sub>s</sub>(θ<sub>s</sub>)
-- **k<sub>p</sub>(θ<sub>p</sub>)** — saspriegtā tērauda stiprības samazinājuma koeficients (EN 1992-1-2:2004, 4.2.4.3)
-- **k<sub>s</sub>(θ<sub>s</sub>)** — parastā stiegrojuma stiprības samazinājuma koeficients (EN 1992-1-2:2004, 4.2.4.3)
-- **k<sub>ct</sub>(θ<sub>p,m</sub>)** — betona stiepes stiprības samazinājuma koeficients gar enkurojumu (EN 1992-1-2:2004, 3.2.2.2)
-- **k<sub>ct,insitu</sub>** — monolītā betona stiepes stiprības samazinājuma koeficients (EN 1992-1-2:2004, 3.2.2.2)
+Ārsienu trīsslāņu paneļu šuvju ilgmūžību un aizsardzību pret mitrumu nodrošina hermētiķi un blīvslāņi.
 
-- **b<sub>w</sub>** — kopējais sieniņas biezums
-- **d** — efektīvais augstums normālā temperatūrā
-- **f<sub>ck</sub>** — betona raksturīgā cilindra spiedes stiprība 28 dienās
-- **v<sub>min</sub>** — pieļaujamais betona spriegums bez stiegrojuma (EN 1992-1-1:2004, 6.2.2)
-- **F<sub>R,a,fi</sub>** — saspriegtā un savienojuma stiegrojuma spēka kapacitāte = F<sub>R,a,fi,p</sub> + F<sub>R,a,fi,s</sub>
-- **F<sub>R,a,fi,p</sub>** — saspriegtā tērauda spēka kapacitāte apskatāmajā šķērsgriezumā; x — enkurojuma garums, x<sub>pr</sub> — izvirzītā elementa garums (skat. G.3. attēlu)
+**Prasības šuvju izmēriem pēc DIN 18540:**
 
-η<sub>p2</sub>, η<sub>1</sub> — pēc EN 1992-1-1:2004, 8.10.2.3.
+| Kustība šuvē $\Delta L$ (mm) | Nominālais šuves platums $b$ pie $+10\ ^\circ\text{C}$ (mm)* | Minimālais šuves platums $\min b$ (mm) | Blīvējuma (hermētiķa) dziļums $d$ (mm) |
+| :---: | :---: | :---: | :---: |
+| $\le 2$ | 15 | 10 | $8 \pm 2$ |
+| $> 2 \dots \le 3,5$ | 20 | 15 | $10 \pm 2$ |
+| $> 3,5 \dots \le 5$ | 25 | 20 | $12 \pm 2$ |
+| $> 5 \dots \le 6,5$ | 30 | 25 | $15 \pm 3$ |
+| $> 6,5 \dots \le 8$ | 35 | 30 | $15 \pm 3$ |
 
-Jāievērtē tikai stiegrojums elementa apakšējā daļā (≤ 0,5 h). Parasti apskatāmais šķērsgriezums ir balsta malā.
+*\*Nominālā šuves platuma pieļaujamā būvdarbu novirze ir $\pm 5\text{ mm}$. Hermētiķa dziļuma un platuma attiecība parasti ir robežās no $1:1$ līdz $1:2$.*
 
-> **1. piezīme.** Garenstiegrojuma enkurojuma kapacitāti balstā var aprēķināt, ievērtējot betona masas ietekmi uz temperatūras sadalījumu (vidējās temperatūras θ<sub>m</sub> un θ<sub>m,pr</sub>).
->
-> **2. piezīme.** Ja garenstiegrojums atrodas aptuveni plātnes augstuma vidū, koeficientu k<sub>s</sub> var pieņemt vienādu ar 1.
+---
 
-**Saliekamo dzelzsbetona elementu fasādes elementu šuvju hidroizolācija**
+## Maksimālie elementu gabarīti transportēšanai
 
-**Prasības šuvju pildījumam pēc DIN 18540**
+Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabarītu ierobežojumi Latvijas teritorijā:
 
-<table>
-<thead>
-<tr><th>Kustība [mm]</th><th>Nominālais šuves platums b<sup>1)</sup> pie +10°C [mm]</th><th>Minimālais šuves platums min. b [mm]</th><th>Blīvējuma dziļums d<sup>2)</sup> [mm] (pieļ. nov.)</th></tr>
-</thead>
-<tbody>
-<tr><td>≤ 2</td><td>15</td><td>10</td><td>8 (±2)</td></tr>
-<tr><td>&gt; 2 ≤ 3,5</td><td>20</td><td>15</td><td>10 (±2)</td></tr>
-<tr><td>&gt; 3,5 ≤ 5</td><td>25</td><td>20</td><td>12 (±2)</td></tr>
-<tr><td>&gt; 5 ≤ 6,5</td><td>30</td><td>25</td><td>15 (±3)</td></tr>
-<tr><td>&gt; 6,5 ≤ 8</td><td>35</td><td>30</td><td>15 (±3)</td></tr>
-</tbody>
-</table>
+| Autotransporta veids | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas ar speciālo atļauju | Gabarītu robežas ar speciālo atļauju | Gabarītu robežas ar speciālo atļauju |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| | **Augstums (mm)** | **Platums (mm)** | **Garums (mm)** | **Svars (t)** | **Augstums (mm)** | **Platums (mm)** | **Garums (mm)** |
+| **Ar standarta platformu / tentu** | 2600 | 2450 | 13500 | 24 | 3100 | 2750 | 18000 |
+| **Ar zemo treileri (JUMBO)** | 3000 | 2450 | 9000 | 24 | 3300 | 2750 | 9000 |
+| **Zemās grīdas treileris (Titāniks)** | 3800 | 1500 | 9500 | 22 | 4200 | 1500 | 9500 |
 
-<sup>1)</sup> Pieļaujamā novirze ±5 mm. <sup>2)</sup> Norādītās vērtības attiecas uz galīgo stāvokli.
+---
 
-**Ieteicamie šuvju platumi un dziļumi pēc DIN 18540**
+## Nominālie elementu balstījuma garumi
 
-**Maksimālie dzelzsbetona elementu gabarīti transportēšanai**
+Minimālie balsta garumi (earing lengths) uz nesošajām konstrukcijām, kas nodrošina drošu slodzes pārnesi un pieļauj būvdarbu novirzes:
 
+| Balstāmais elements | Nesošā konstrukcija | Plātnes biezums $h$ vai sijas laidums $L$ | Minimālais nominālais balsta garums (mm) |
+| :--- | :--- | :--- | :---: |
+| **Dobumotās plātnes (HCS)** | Betons / Tērauds | $h \le 300\text{ mm}$ | 60 – 80 |
+| | | $h > 300\text{ mm}$ | 100 – 120 |
+| | Mūris | $h \le 250\text{ mm}$ | 100 |
+| | | $h > 250\text{ mm}$ | 120 |
+| **Masīvās plātnes (Floor planks)** | Betons | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 30 <br> 50 |
+| | Mūris | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 40 <br> 50 |
+| **Ribotie pārsegumi (TT-plātnes)** | Betons | Laidums $L \le 15\text{ m}$ | 150 |
+| **Sekundārās jumta sijas** | Betons | Laidums $L \le 8\text{ m}$ | 140 |
+| **Pārseguma sijas** | Betons | Laidums $L = 12 \dots 20\text{ m}$ | 200 – 230 |
+| **Jumta sijas** | Betons | Laidums $L \le 24\text{ m}$ | 195 |
+| | | Laidums $L \le 40\text{ m}$ | 225 |
 
-| Autotransporta veids | Transportējot bez speciālās atļaujas | Transportējot bez speciālās atļaujas | Transportējot bez speciālās atļaujas | Transportējot bez speciālās atļaujas | Transportējot ar speciālo atļauju | Transportējot ar speciālo atļauju | Transportējot ar speciālo atļauju |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Autotransporta veids | Augstums, mm | Platums, mm | Garums, mm | Svars, T | Augstums, mm | Platums, mm | Garums, mm |
-| Ar platformu, tentu, izbīdāmu platformu | 2600 | 2450 | 13500 | 24 | 3100 | 2750 | 18000 |
-| Ar zemo treileri, JUMBO | 3000 | 2450 | 9000 | 24 | 3300 | 2750 | 9000 |
-| Ar zemās grīdas treileri, TITĀNIKS | 3800 | 1500 | 9500 | 22 | 4200 | 1500 | 9500 |
+---
 
-**Nominālie elementu balstījuma garumi**
+## Nestspējas līknes un gala zonas spriegumi
 
-<table>
-<colgroup><col style="width:28%"><col style="width:25%"><col style="width:25%"><col style="width:22%"></colgroup>
-<thead>
-<tr><th>Balstāmais elements</th><th>Nesošā konstrukcija</th><th>Plātnes biezums h vai sijas laidums l</th><th>Minimālais nominālais balsta garums</th></tr>
-</thead>
-<tbody>
-<tr><td rowspan="4">Dobumotās plātnes</td><td rowspan="2">betons/tērauds</td><td>h ≤ 300 mm</td><td>60–80 mm</td></tr>
-<tr><td>h &gt; 300 mm</td><td>100–120 mm</td></tr>
-<tr><td rowspan="2">mūris</td><td>h ≤ 250 mm</td><td>100 mm</td></tr>
-<tr><td>h &gt; 250 mm</td><td>120 mm</td></tr>
-<tr><td rowspan="4">Plātnes (floor planks)</td><td rowspan="2">betons</td><td>ar atbalstiem</td><td>30 mm</td></tr>
-<tr><td>bez atbalstiem</td><td>50 mm</td></tr>
-<tr><td rowspan="2">mūris</td><td>ar atbalstiem</td><td>40 mm</td></tr>
-<tr><td>bez atbalstiem</td><td>50 mm</td></tr>
-<tr><td>Ribotie pārsegumi</td><td>betons</td><td>l ≤ 15 m</td><td>150 mm</td></tr>
-<tr><td>Sekundārās jumta sijas</td><td>betons</td><td>l ≤ 8 m</td><td>140 mm</td></tr>
-<tr><td>Pārseguma sijas</td><td>betons</td><td>l = 12–20 m</td><td>200–230 mm</td></tr>
-<tr><td rowspan="2">Jumta sijas</td><td rowspan="2">betons</td><td>l ≤ 24 m</td><td>195 mm</td></tr>
-<tr><td>l ≤ 40 m</td><td>225 mm</td></tr>
-</tbody>
-</table>
+Saspriegto TT-plātņu un siju nestspējas līknes atkarībā no laiduma un slodzēm (pēc Consolis un TMB datiem pie slodžu sadalījuma 50/50):
 
-**Nestspējas līknes RT un L saspriegtajām sijām**
+| Consolis RT un L saspriegtās sijas | TMB saspriegto siju nestspēja |
+| :---: | :---: |
+| ![Līknes 1](../images/ch08/img057.png) | ![Līknes 2](../images/ch08/img058.png) |
 
-**Consolis pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50**
+Atšķelšanās (sašķelšanās) spriegumi saspriegto elementu gala zonās, ko rada spriegojuma spēka enkurošanās betona masīvā:
 
-![Attēls](../images/ch08/img057.png)
-
-**TMB Element pie lietderīgās un pastāvīgās slodzes sadalījuma 50 / 50**
-
-**Saspriegto šķērssiju nestspēja atkarībā no laiduma un slodzes**
-
-![Attēls](../images/ch08/img058.png)
-
-**Atšķelšanās spriegumi saspriegto elementu gala zonās**
-
-**Spriegumu sadalījums saspriegtā elementa gala zonā**
-
-![Attēls](../images/ch08/img059.png)
-
-**Atšķelšanās spriegumi: (a) centriski un (b) ekscentriski saspriegts elements**
-
-![Attēls](../images/ch08/img060.png)
+| Spriegumu izkliede saspriegtā elementa gala zonā | Atšķelšanās spriegumu sadalījums |
+| :---: | :---: |
+| ![Spriegumi 1](../images/ch08/img059.png) | ![Spriegumi 2](../images/ch08/img060.png) |

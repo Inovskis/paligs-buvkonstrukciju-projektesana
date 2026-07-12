@@ -1,47 +1,59 @@
-## Vertikālo pārvietojumu robežvērtības
+# Deformāciju un plaisu robežvērtības dzelzsbetonam
 
-Saskaņā ar LVS EN 1990 par lietojamām deformāciju robežvērtībām projektā ir atsevišķi jāvienojas ar klientu. LVS EN 1992-1-1 punktā 7.4.1 noteikts, ka vērtībām jābūt tādām, lai tās nodrošinātu normālu ēkas ekspluatāciju un tās ir pārņemtas no ISO 4356 standarta.
+Dzelzsbetona konstrukciju lietojamības robežstāvokļa (SLS) pārbaudēs galvenā vērība jāvelta konstrukciju izliecēm un plaisu platumam.
 
-Deformāciju robežvērtība no kvazipastāvīgās slodžu kombinācijas, kas nodrošina apmierinošu izskatu un normālu ekspluatāciju ir w<sub>max</sub> = L / 250. Pēc trauslu konstrukciju izbūves slodzes izlieces pieauguma robežvērtība, lai novēstu to sabojāšanu ir L / 500 no kvazipastāvīgās slodžu kombinācijas.
+---
 
+## Vertikālo pārvietojumu (izlieču) robežvērtības
 
-## Plaisu platumu robežvērtības
+Saskaņā ar standartu LVS EN 1990, par pieļaujamajām deformāciju robežvērtībām projektā ir atsevišķi jāvienojas ar pasūtītāju. LVS EN 1992-1-1 (7.4.1. punkts) nosaka izlieču robežvērtības (balstoties uz standartu ISO 4356), lai nodrošinātu normālu ēkas ekspluatāciju un estētisko izskatu:
 
+- **Estētiskais izskats un normāla ekspluatācija:**
+  Izliece $w_{\text{max}}$ no ilglaicīgās (kvazipastāvīgās) slodžu kombinācijas nedrīkst pārsniegt:
+  $$w_{\text{max}} = \frac{L}{250}$$
+  
+- **Trauslu konstrukciju un starpsienu bojājumu novēršana:**
+  Izlieces pieaugums $w_{\text{add}}$ pēc starpsienu vai apdares izbūves (no kvazipastāvīgās kombinācijas mainīgās daļas un betona šļūdes) nedrīkst pārsniegt:
+  $$w_{\text{add}} = \frac{L}{500}$$
 
-<table>
-<colgroup>
-  <col style="width:25%">
-  <col style="width:40%">
-  <col style="width:35%">
-</colgroup>
-<thead>
-<tr><th>Iedarbības klase</th><th>Stiegroti elementi un priekšspriegoti elementi ar spriegrojamā stiegrojuma elementiem bez saistes</th><th>Priekšspriegroti elemeti ar spriegrojamā stiegrojuma elementiem ar saisti</th></tr>
-</thead>
-<tbody>
-<tr><td>X0, XC1</td><td>0.4<sup>1</sup></td><td>0.2</td></tr>
-<tr><td>XC2, XC3, XC4</td><td>0.3</td><td>0.2<sup>2</sup></td></tr>
-<tr><td>XD1, XD2, XD3, XS1, XS2, XS3</td><td>0.3</td><td>Spiediena pazemināšana</td></tr>
-<tr><td colspan="3"><sup>1</sup> piezīme. X0 un XC1 vides iedarbības klasēm plaisu platumam nav ietekme uz ilgizturību un dotais robežplatums ir noteikts, lai vairumā gadījumu nodrošinātu pieļaujamo ārējo izskatu. Gadījumā, kad nav ārējā izskata nosacījumu, var samazināt prasības šim robežplatumam.<br><sup>2</sup> piezīme. Šīm iedarbības klasēm papildus ir jāpārbauda spiediena pazemināšana pie kvazi-pastāvīgās slodžu kombinācijas.</td></tr>
-</tbody>
-</table>
+Kur $L$ ir sijas vai plātnes laidums (konsolēm robežvērtību pieņem kā $L_{\text{konsoles}} / 125$ un $L_{\text{konsoles}} / 250$).
 
-Pievērst uzmanību, ka saspriegtie elementi ir pārbaudāmi pēc biežāk sastopamās slodzes kombinācijas nevis kvazipastāvīgās slodzes kombinācijas. Šis bieži tiek ignorēts.
+---
 
+## Plaisu platumu robežvērtības $w_{\text{max}}$ (LVS EN 1992-1-1 7.1. tabula)
 
-## Galvenie nacionāli noteiktie parametri
+Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un būves ilgmūžības nodrošināšanai.
 
-**NA. 2.2. Spiedes un stiepes stiprības aprēķina vērtība (design compressive and tensile strengths)**
+| Vides iedarbības klase | Dzelzsbetona elementi un priekšspriegoti elementi bez saistes $w_{\text{max}}$ (mm) | Priekšspriegoti elementi ar saisti $w_{\text{max}}$ (mm) |
+| :--- | :---: | :---: |
+| **X0, XC1** | $0,4^1$ | 0,2 |
+| **XC2, XC3, XC4** | 0,3 | $0,2^2$ |
+| **XD1, XD2, XD3, XS1, XS2, XS3** | 0,3 | Dekompresija (pārbauda atsevišķi) |
 
-**LVS EN 1992-1-1:2005 3.1.6.(1)P**
+*Piezīmes par tabulu:*
+1. *Piezīme 1:* Klasēm X0 un XC1 plaisu platumam nav ietekmes uz ilgizturību, šī robežvērtība ir noteikta tikai vizuālā izskata nodrošināšanai. Ja nav prasību pret vizuālo izskatu, šīs prasības var atvieglot.
+2. *Piezīme 2:* Šīm klasēm priekšspriegotiem elementiem ar saisti papildus ir jāveic dekompresijas pārbaude (stiegrojuma kanāls nedrīkst atrasties stieptajā zonā) pie kvazipastāvīgās slodžu kombinācijas.
 
-Piemērojama koeficienta vērtība α<sub>cc</sub>=0.85 – labots 2020. un pašlaik ir 1.00
+*Svarīgi: Priekšspriegotiem elementiem ar saisti iedarbības klasēs XD un XS dekompresijas pārbaude (stiegrojuma kanāla atrašanās vismaz $25\text{ mm}$ dziļumā spiestajā zonā) ir jāveic pie **biežās slodžu kombinācijas** (frequent combination), nevis kvazipastāvīgās kombinācijas. Šis nosacījums bieži vien projektēšanas praksē tiek kļūdaini jaukts.*
 
-**NA.2.4. Projekta pielaides novirzei (allowance in design for deviation)**
+---
 
-**LVS EN 1992-1-1:2005 4.4.1.3.(1)P**
+## Galvenie Latvijā nacionāli noteiktie parametri (NA)
 
-Aprēķinot nominālo aizsargslāņa biezumu c<sub>nom</sub>, projektā jāpalielina aizsargslāņa biezums, pieļaujot novirzi (Δc<sub>dev</sub>):
+### 1. Betona stiprības ilglaicīgo efektu koeficients $\alpha_{cc}$ (LVS EN 1992-1-1 3.1.6.(1)P)
+Saskaņā ar LVS EN 1992-1-1:2005/A2:2020/NA:2020 grozījumiem, koeficienta $\alpha_{cc}$ vērtība ir mainīta no iepriekšējā $0,85$ uz **$1,00$**. 
 
-pārsegumu plātnēm, kas plānākas par 160 mm: 10 mm ≥ Δc<sub>dev</sub> ≥ 0 mm;
+Betona aprēķina spiedes stiprība $f_{cd}$ tagad tiek noteikta kā:
+$$f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1,00 \cdot \frac{f_{ck}}{1,5}$$
 
-visām pārējām konstrukcijām: Δc<sub>dev</sub> = 10 mm.
+Stiepes stiprības aprēķina koeficients ir saglabāts $\alpha_{ct} = 1,00$.
+
+### 2. Aizsargslāņa pielaide būvdarbu novirzei $\Delta c_{\text{dev}}$ (LVS EN 1992-1-1 4.4.1.3.(1)P)
+Nominālo stiegrojuma aizsargslāni $c_{\text{nom}}$ nosaka, pieskaitot novirzi $\Delta c_{\text{dev}}$ pie minimālā aizsargslāņa $c_{\text{min}}$:
+$$c_{\text{nom}} = c_{\text{min}} + \Delta c_{\text{dev}}$$
+
+Latvijas nacionālajā pielikumā noteiktās novirzes vērtības:
+- **Pārsegumu plātnēm, kuru biezums $h < 160\text{ mm}$:**
+  Pieļaujama reducēta novirze: $0\text{ mm} \le \Delta c_{\text{dev}} \le 10\text{ mm}$ (parasti pieņem $5\text{ mm}$ vai $10\text{ mm}$ atkarībā no izbūves tolerances kontroles);
+- **Visām pārējām konstrukcijām:**
+  Novirze ir stingri noteikta: $\Delta c_{\text{dev}} = 10\text{ mm}$.

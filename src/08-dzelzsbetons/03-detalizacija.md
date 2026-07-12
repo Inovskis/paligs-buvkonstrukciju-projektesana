@@ -1,43 +1,81 @@
-## Labas detalizācijas prakse pa elementu tipiem
+# Dzelzsbetona stiegrošanas un detalizācijas labā prakse
 
-**Plātnes**
+Stiegrojuma izvietojumam un detalizācijai ir jānodrošina konstrukcijas nestspēja, plaisu platuma ierobežošana, kā arī kvalitatīva betona maisījuma iestrāde (vibrēšana).
 
-Saskaņā ar LVS EN 1992-1-1 9.3.1.4 punktu plātnei gar tās brīvo (nebalstīto) malu parasti ir jābūt stiegrotai ar garenvirziena un šķērsvirziena stiegrām.
+---
 
-![Attēls](../images/ch08/img042.png)
+## Plātnes
 
-Konstruktīvi, bez papildus analīzes garenvirzienā var paredzēt 2Ø12, šķērvirzienā stiegru diametru un soli pielietot analogu kā plātnes pamatsietam.
+### Brīvo malu stiegrošana (LVS EN 1992-1-1 9.3.1.4. punkts)
+Plātnes brīvajām (nebalstītajām) malām (piemēram, pie konsolēm, kāpņu ailēm vai plātnes perimetra) jābūt stiegrotām ar garenvirziena un šķērsvirziena stiegrām.
 
-**Kolonnas**
+- **Konstruktīvais risinājums:** 
+  - Garenvirzienā izvieto vismaz $2 \cdot \varnothing 12$ stieņus (vienu augšā, vienu apakšā);
+  - Šķērsvirzienā izmanto U-veida skavas, kuru diametrs un solis parasti atbilst plātnes pamatsietam.
 
-Kolonnām ar poligonālu formu katrā stūrī ir jāizvieto vismaz viena stiegra. Apaļas formas kolonnai minimālais garenstiegru skaits ir 4. Katra garenvirziena stiegra ir jāsaista ar šķērsstiegrojumu. Spiestajā zonā neviena stiegra nedrīkst atrasties tālāk par 150 mm no saistītas stiegras (LVS EN 1992-1-1 9.5.3 (6)).
+![Plātnes malas stiegrošana](../images/ch08/img042.png)
 
-Šķērsstiegrojuma maksimālais solis ne lielāks par:
+---
 
-20 garenstiegras diametriem;
+## Kolonnas
 
-kolonnas mazāko dimensiju;
+### Garenstiegrojums (LVS EN 1992-1-1 9.5.2. punkts)
+- **Minimālais stieņu skaits:**
+  - Taisnstūra un poligonālām kolonnām katrā stūrī jāizvieto vismaz viens stienis (taisnstūra kolonnām — vismaz 4 stieņi);
+  - Apaļām kolonnām minimālais garenstieņu skaits ir **6 stieņi** (nevis 4).
+- **Stieņu diametrs:** Minimālais garenstieņu diametrs ir $\varnothing \ge 8\text{ mm}$ (Latvijas praksē parasti izmanto $\varnothing \ge 12\text{ mm}$).
+- **Attālumi:** Spiestajā zonā attālums starp diviem blakus esošiem garenstieņiem nedrīkst pārsniegt **$150\text{ mm}$** no stieņa, kas ir nostiprināts ar aptveri (LVS EN 1992-1-1 9.5.3(6)).
 
-400 mm.
+### Šķērsstiegrojums (Aptveres)
+Šķērsstiegrojuma (aptveru) solis $s_{cl,t}$ nedrīkst pārsniegt maksimālo soli $s_{cl,t,max}$ (skatīt [Maksimālais attālums starp stiegrām](file:///C:/Users/Kasutaja/Dropbox/Projects/paligs-buvkonstrukciju-projektesana/src/08-dzelzsbetons/02-prasibas.md#maksimālais-attālums-starp-stiegrām-aptveru-solis)).
 
-**Sijas**
+---
 
-Lai nodrošinātu betona iestrādi ar vibrēšanu parasti starp garenstiegrām nepieciešams atstāt vismaz 75 mm.
+## Sijas
 
-Lai kontrolētu plaisu veidošanos, papildus garenstiegras gar siju sāniem ir jāparedz sijām ar augstumu virs 1000 mm.
+### Konstruktīvie stiegrošanas noteikumi
+- **Minimālais garenstieņu diametrs:** Sijās nesošajam garenstiegrojumam jāizmanto stieņi ar diametru $\varnothing \ge 12\text{ mm}$.
+- **Attālumi betona iestrādei:** Lai nodrošinātu betona maisījuma brīvu plūsmu un tā sablīvēšanu ar dziļumvibratoru, tīrajam horizontālajam attālumam starp paralēliem stieņiem (it īpaši sijas augšdaļā, kur tiek padots betons) vēlams būt vismaz **$75\text{ mm}$**.
+- **Sānu plaisu stiegrojums (Skin reinforcement):** Sijām, kuru kopējais augstums $h \ge 1000\text{ mm}$, pie sānu virsmām ir jāparedz garenisks stiegrojums plaisu ierobežošanai. Tā laukumu pieņem vismaz $0,1\%$ no sijas stieptās zonas betona laukuma katrā pusē, un stieņu solis nedrīkst pārsniegt $200\text{ mm}$.
 
-Minimālais stieptais stiegrojums A<sub>s,min</sub> ≥ 0.0015 b<sub>t</sub> · d, kur b<sub>t</sub> ir vidējais stieptās zonas platums, d ir darba augstums.
+### Stieptā stiegrojuma minimālais laukums ($A_{s,\text{min}}$)
+Siju stieptajā zonā jānodrošina minimālais stiegrojuma laukums, lai novērstu trauslu sabrukumu plaisas rašanās brīdī:
 
-Minimālais spiestais stiegrojums A<sub>s</sub><sub>c</sub><sub>,min</sub> ≥ 0.002 A<sub>c</sub>.
+$$A_{s,\text{min}} = 0,26 \cdot \frac{f_{ctm}}{f_{yk}} \cdot b_t \cdot d \ge 0,0013 \cdot b_t \cdot d$$
 
-Minimālais šķērsstiegrojums augšējā plauktā A<sub>s,min</sub> ≥ 0.0015 h<sub>f</sub> · l, kur h<sub>t</sub> ir plaukta augstums, l ir sijas laidums.
+Kur:
+- $b_t$ — vidējais stieptās zonas platums (m);
+- $d$ — sijas darba augstums līdz stiegrojuma smaguma centram (m);
+- $f_{ctm}$ — betona vidējā stiepes stiprība (MPa);
+- $f_{yk}$ — stiegrojuma tecēšanas robeža (MPa).
 
-Minimālais aptveru apjoms A<sub>s</sub><sub>w</sub> / s · b<sub>w</sub> ≥ 0.085%, kur A<sub>s</sub><sub>w</sub> ir aptveru divu kāju kopējais laukums, b<sub>w</sub> ir betona platums (T veida šķērsgriezumiem – platums zem augšējā plaukta), s – aptveru solis (≤ 15 garenstiegru Ø).
+*Piezīme: Tēraudam B500 un betonam C25/30 šī robeža ir $A_{s,\text{min}} \approx 0,00135 \cdot b_t \cdot d$, bet betonam C30/37 tā ir $A_{s,\text{min}} \approx 0,0015 \cdot b_t \cdot d$.*
 
-Minimālais aptveru solis labai iestrādei, ja nav citu nosacījumu ir lielākais no: 100 mm vai 50 + 12.5 · kāju skaits.
+### Spiestā stiegrojuma minimālais laukums ($A_{sc,\text{min}}$)
+Ja aprēķinā tiek ņemts vērā spiestais stiegrojums (dubulti stiegrotā sijā), tā laukumam jābūt vismaz:
+$$A_{sc,\text{min}} \ge 0,002 \cdot A_c$$
 
-Maksimālais aptveru solis ir mazākais no: 300 mm vai 0.75d vai 12 spiestā stiegrojuma diametri (d – darba augstums).
+### Minimālais aptveru saturs (Šķērsstiegrojuma attiecība $\rho_w$)
+Aptveru laukumam pret sijas sieniņas laukumu jānodrošina minimālā attiecība:
 
-Minimālais garenstiegrojuma diametrs: 12 mm.
+$$\rho_w = \frac{A_{sw}}{s \cdot b_w \cdot \sin\alpha} \ge \rho_{w,\text{min}} = \frac{0,08 \cdot \sqrt{f_{ck}}}{f_{yk}}$$
 
-Minimālais šķērsstiegrojuma (aptveru) diametrs: 8 mm.
+Kur:
+- $A_{sw}$ — visu aptveres kāju laukums vienā griezumā (piemēram, divkāršai aptverei $2 \cdot A_{s,\text{apt}}$);
+- $s$ — aptveru solis;
+- $b_w$ — sijas sieniņas platums;
+- $\alpha$ — aptveru leņķis pret sijas garenasi (statnām aptverēm $\alpha = 90^\circ$, t.i., $\sin\alpha = 1,0$).
+
+*Piemērs ($f_{yk} = 500\text{ MPa}$):*
+- Betonam C25/30: $\rho_{w,\text{min}} = 0,080\%$
+- Betonam C30/37: $\rho_{w,\text{min}} = 0,088\%$
+
+### Aptveru izvietojuma robežvērtības
+- **Minimālais aptveru solis (iestrādes ērtībai):**
+  Lielākais no: $100\text{ mm}$ vai $(50 + 12,5 \cdot n_{\text{kājas}})\text{ mm}$, kur $n_{\text{kājas}}$ ir aptveres griezuma kāju skaits (piem., 2 vai 4).
+- **Maksimālais aptveru solis ($s_{\text{max}}$):**
+  Mazākais no šiem lielumiem:
+  - $0,75 \cdot d$ (kur $d$ ir darba augstums);
+  - $12 \cdot \varnothing_{\text{sp}}$ (kur $\varnothing_{\text{sp}}$ ir spiestā stiegrojuma minimālais diametrs);
+  - $300\text{ mm}$.
+- **Minimālais aptveru diametrs:** Sijās šķērsstiegrojumam jāizmanto stieņi ar diametru $\varnothing \ge 8\text{ mm}$.

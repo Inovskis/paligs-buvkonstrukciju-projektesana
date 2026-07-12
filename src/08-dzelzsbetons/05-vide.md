@@ -1,121 +1,95 @@
-## Betona cietēšana
+# Betona cietēšana, vides iedarbības klases un šķērsspēka pretestība
 
-Betona cietēšanas ātrums ir atkarīgs no cementa tipa, temperatūras, ūdens / cementa attiecības un mitruma cietēšanas laikā. EN 206 ir dotas šādas aptuvenās procentuālās vērtības:
+Dzelzsbetona ilgmūžība un stiprība ir tieši saistīta ar betona cietēšanas apstākļiem, ekspluatācijas vidi un nestspēju šķērsspēka iedarbībā.
 
-<table>
-<colgroup>
-  <col style="width:22%"><col style="width:14%">
-  <col style="width:12%"><col style="width:12%"><col style="width:12%"><col style="width:13%"><col style="width:15%">
-</colgroup>
-<thead>
-<tr>
-  <th>Cementa stiprības klase</th>
-  <th>Uzglabāšana pie</th>
-  <th>3 dienas</th><th>7 dienas</th><th>28 dienas</th><th>90 dienas</th><th>180 dienas</th>
-</tr>
-</thead>
-<tbody>
-<tr><td rowspan="2">32,5 N</td><td>+20 °C</td><td>30…40</td><td>50…65</td><td>100</td><td>110…125</td><td>115…130</td></tr>
-<tr><td>+5 °C</td><td>10…20</td><td>20…40</td><td>60…75</td><td></td><td></td></tr>
-<tr><td rowspan="2">32,5 R; 42,5 N</td><td>+20 °C</td><td>50…60</td><td>65…80</td><td>100</td><td>105…115</td><td>110…120</td></tr>
-<tr><td>+5 °C</td><td>20…40</td><td>40…60</td><td>75…90</td><td></td><td></td></tr>
-<tr><td rowspan="2">42,5 R; 52,5 N; 52,5 R</td><td>+20 °C</td><td>70…80</td><td>80…90</td><td>100</td><td>100…105</td><td>105…110</td></tr>
-<tr><td>+5 °C</td><td>40…60</td><td>60…80</td><td>90…105</td><td></td><td></td></tr>
-</tbody>
-</table>
+---
 
-*Vērtības procentos (%). 28 dienu spiedes stiprība pie nepārtrauktas +20 °C uzglabāšanas atbilst 100 %.*
+## Betona cietēšanas dinamika
 
-Saliekamā dzelzsbetona ražotāji biežāk lieto R tipa cementus, kas izteikti ātrāk cietē.
+Betona cietēšanas ātrums un stiprības pieaugums ir atkarīgs no cementa stiprības klases (stiprības pieauguma ātruma), apkārtējās temperatūras, ūdens/cementa ($w/c$) attiecības un mitruma uzturēšanas cietēšanas sākumposmā.
 
+**Aptuvenais betona spiedes stiprības pieaugums (% no 28 dienu stiprības) saskaņā ar LVS EN 206:**
 
-## Vides iedarbības klases
+| Cementa stiprības klase / tips | Cietēšanas temperatūra | 3 dienas | 7 dienas | 28 dienas | 90 dienas | 180 dienas |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Klase 32,5 N** <br> (Lēni cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $30 \dots 40\%$ <br> $10 \dots 20\%$ | $50 \dots 65\%$ <br> $20 \dots 40\%$ | $100\%$ <br> $60 \dots 75\%$ | $110 \dots 125\%$ <br> — | $115 \dots 130\%$ <br> — |
+| **Klase 32,5 R** un **42,5 N** <br> (Vidēji ātri cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $50 \dots 60\%$ <br> $20 \dots 40\%$ | $65 \dots 80\%$ <br> $40 \dots 60\%$ | $100\%$ <br> $75 \dots 90\%$ | $105 \dots 115\%$ <br> — | $110 \dots 120\%$ <br> — |
+| **Klase 42,5 R**, **52,5 N** un **52,5 R** <br> (Ātri cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $70 \dots 80\%$ <br> $40 \dots 60\%$ | $80 \dots 90\%$ <br> $60 \dots 80\%$ | $100\%$ <br> $90 \dots 105\%$ | $100 \dots 105\%$ <br> — | $105 \dots 110\%$ <br> — |
 
-LVS EN 206 ir definētas šādas galvenās vides iedarbības klases:
+*Piezīme: 28 dienu spiedes stiprība pie nepārtrauktas $+20\ ^\circ\text{C}$ temperatūras un atbilstoša mitruma tiek pieņemta par $100\%$. Saliekamā dzelzsbetona ražotnēs visbiežāk izmanto ātricietējošos (R tipa) cementus un veic konstrukciju hidrotermālo apstrādi (tvaicēšanu), lai paātrinātu veidņu apriti.*
 
-X0 – vide bez korozijas, sasalšanas / atkušanas, dēdēšanas vai ķīmiskās iedarbības riska
+---
 
-XC – karbonizācijas izraisīta korozija
+## Vides iedarbības klases (LVS EN 206)
 
-XD – ne jūras ūdens hlorīdu izraisīta korozija
+Būvkonstrukciju ilgmūžības nodrošināšanai ir pareizi jānosaka vides iedarbības klases, kas definē prasības betona sastāvam (minimālais cementa saturs, maksimālā $w/c$ attiecība, minimālā betona klase) un stiegrojuma aizsargslānim.
 
-XS – jūras ūdens hlorīdu izraisīta korozija
+- **X0:** Vide bez korozijas, sasalšanas/atkušanas vai ķīmiskas iedarbības riska (tikai nestiegrotam betonam).
+- **XC1 – XC4:** Karbonizācijas izraisīta stiegrojuma korozija (sauss/mitrs cikls).
+- **XD1 – XD3:** Hlorīdu (kas nav no jūras ūdens) izraisīta stiegrojuma korozija (piemēram, pretsāļu reaģenti uz tiltiem, ceļiem vai autostāvvietās).
+- **XS1 – XS3:** Jūras ūdens hlorīdu izraisīta stiegrojuma korozija.
+- **XF1 – XF4:** Sasalšanas-atkušanas ciklu iedarbība uz betona struktūru ar vai bez atledošanas reaģentiem.
+- **XA1 – XA3:** Ķīmiski agresīvu vielu iedarbība uz betonu (atrodas gruntī vai gruntsūdenī).
 
-XF – sasalšanas – atkušanas iedarbība uz betonu ar vai bez atledošanas reaģentiem
+**Vides iedarbības klašu apraksts un piemēri:**
 
-XA – ķīmisku vielu agresīva iedarbība uz betonu.
+| Klase | Vides apstākļi | Informatīvi piemēri |
+| :---: | :--- | :--- |
+| **X0** | Nav korozijas riska (tikai nestiegrotam betonam). | Betons ēkās ar ļoti zemu gaisa mitrumu (iekštelpās). |
+| **XC1** | Sausa vai pastāvīgi mitra vide. | Apkurināmu ēku iekštelpas; pastāvīgi ūdenī iegremdēts betons. |
+| **XC2** | Mitra, reti sausa vide. | Būvju daļas, kas pakļautas ilgstošai saskarei ar ūdeni (pamati). |
+| **XC3** | Mēreni mitra vide. | Neapkurināmu ēku iekštelpas (noliktavas); āra betons, kas pasargāts no lietus. |
+| **XC4** | Cikliski mitra un sausa vide. | Āra konstrukcijas, kas pakļautas tiešai lietus un vēja iedarbībai (fasādes). |
+| **XD1** | Mēreni mitra vide ar hlorīdiem gaisā. | Betona virsmas hlorīdu izsmidzinājuma zonā (tuvu ceļiem). |
+| **XD2** | Mitra, reti sausa vide ar hlorīdiem. | Peldbaseini; betons, kas pakļauts hlorīdus saturošiem rūpnieciskajiem ūdeņiem. |
+| **XD3** | Cikliski mitra un sausa vide ar hlorīdiem. | Tiltu klāji un autostāvvietu brauktuves, kas pakļautas kaisāmajai sālij. |
+| **XS1** | Jūras sāls aerosols gaisā, nav tieša kontakta. | Konstrukcijas piejūras zonā (līdz dažu kilometru attālumam no krasta). |
+| **XS2** | Pastāvīgi iegremdēts jūras ūdenī. | Ostu un krasta aizsargbūvju zemūdens daļas. |
+| **XS3** | Paisuma, šļakatu un viļņu triecienu zona. | Ostu piestātņu konstrukcijas ūdens līmeņa mainīgajā joslā. |
+| **XF1** | Mērena sasalšana/atkušana bez sāls ietekmes. | Vertikālas āra virsmas, kas pakļautas lietum un salam (ārsienas). |
+| **XF2** | Mērena sasalšana/atkušana ar sāls ietekmi. | Vertikālas ceļu konstrukcijas, kas pakļautas sāls aerosolam. |
+| **XF3** | Augsts ūdens piesātinājums bez sāls ietekmes. | Horizontālas āra virsmas, kur krājas lietus ūdens un kūst sniegs. |
+| **XF4** | Augsts ūdens piesātinājums ar sāls vai jūras ūdens ietekmi. | Ceļu, tiltu klāji un ietves, kas pakļautas kaisāmajai sālij un salam. |
+| **XA1** | Vāji agresīva ķīmiska vide. | Betons gruntī un gruntsūdeņos ar zemu agresīvo vielu saturu ($pH = 5,5 \dots 6,5$). |
+| **XA2** | Vidēji agresīva ķīmiska vide. | Betons gruntī un gruntsūdeņos ar vidēju agresīvo vielu saturu ($pH = 4,5 \dots 5,5$). |
+| **XA3** | Stipri agresīva ķīmiska vide. | Betons stipri skābā vidē ($pH < 4,5$) vai rūpnieciski piesārņotā augsnē. |
 
-**Vides iedarbības klašu apstākļu apraksts**
+---
 
+## Šķērsstiegrojuma nepieciešamības novērtējums
 
-<table>
-<colgroup>
-  <col style="width:10%">
-  <col style="width:45%">
-  <col style="width:45%">
-</colgroup>
-<thead>
-<tr><th>Klases apzīmējums</th><th>Apkārtējās vides apstākļu apraksts</th><th>Informatīvi piemēri</th></tr>
-</thead>
-<tbody>
-<tr><td colspan="3"><strong>1. Nav korozijas vai iedarbības riska</strong></td></tr>
-<tr><td>X0</td><td>Attiecināma uz betona bez stiegrojuma vai iebetonētām metāla detaļām, izņemot gadījumus, kas ir iespējama sasalšana – atkušana, abrazīva vai ķīmiska iedarbība.</td><td>Betons, kas izvietots ēkas ar ļoti zemu gaisa mitruma līmeni.</td></tr>
-<tr><td colspan="3"><strong>2. Karbonizēšanas izraisīta korozija</strong></td></tr>
-<tr><td>XC1</td><td>Sausa vai pastāvīgi mitra vide</td><td>Betons ēkas ar zemu gaisa mitruma līmeni (apkurinātas ēkas); pastāvīgi ūdenī iegremdēts betons.</td></tr>
-<tr><td>XC2</td><td>Mitra, reti sausa vide</td><td>Betona virsmas, kuras ir paļautas ilgstošai saskarei ar ūdeni. Bieži attiecinām uz pamatiem.</td></tr>
-<tr><td>XC3</td><td>Mēreni mitra vide</td><td>Betons ēkas ar mērenu vai augstu gaisa mitrumu. Piemēro neapkurinātām ēkām un āra betonam, kurš ir pasargāts no lietus.</td></tr>
-<tr><td>XC4</td><td>Cikliski mitra un sausa vide</td><td>Betona virsmas, kas pakļautas ūdens kontaktam, ārpus XC2 vides iedarbības klases. Fasādes elementi.</td></tr>
-<tr><td colspan="3"><strong>3. Hlorīdu, kas nav jūras ūdens, ierosināta korozija</strong><br>Attiecināma, ja betons ar stiegrojumu vai iebetonētām tērauda detaļām tiek pakļauts saskarei ar hlorīdus saturošu ūdeni.</td></tr>
-<tr><td>XD1</td><td>Mēreni mitra vide</td><td>Betona virsmas, kuras ir pakļautas gaisā esošu hlorīdu iedarbībai.</td></tr>
-<tr><td>XD2</td><td>Mitra, reti sausa vide</td><td>Peldbaseini, betons kurš ir pakļauts hlorīdus saturošiem rūpnieciskajiem ūdeņiem.</td></tr>
-<tr><td>XD3</td><td>Cikliski mitra – sausa vide</td><td>Tiltu elementi, kuri ir pakļauti hlorīdus saturošu izsmidzinātu vielu iedarbībai. Autostāvvietu segums.</td></tr>
-<tr><td colspan="3"><strong>4. Jūras ūdens hlorīdu ierosināta korozija</strong><br>Attiecināma, ja betons ar stiegrojumu vai iebetonētām tērauda detaļām tiek pakļauts saskarei ar jūras ūdeni vai gaisu, kas satur jūras izcelsmes sāli.</td></tr>
-<tr><td>XS1</td><td>Elements, kas ir pakļauts gaisā esošas sāls iedarbībai, bet ne tiešai saskarei ar jūras ūdeni</td><td>Konstrukcijas tuvu krastā vai pie krasta.</td></tr>
-<tr><td>XS2</td><td>Pastāvīgi jūras ūdeni iegremdēts elements</td><td>Jūras konstrukciju elementi.</td></tr>
-<tr><td>XS3</td><td>Paisuma – bēguma, šļakatu un šalts zonas</td><td>Jūras konstrukciju elementi.</td></tr>
-<tr><td colspan="3"><strong>5. Sasalšanas – atkušanas iedarbība ar vai bez atledošanas reaģentiem, piemēram, uzkaisītu sāli</strong><br>Attiecināma, ja betons ir pakļauts būtiskai cikliskai sasalšanas – atkušanas iedarbībai.</td></tr>
-<tr><td>XF1</td><td>Vidējs ūdens piesātinājums bez atledošanas reaģenta</td><td>Vertikālās betona virsmas, kuras ir paļautas lietus un sala iedarbībai, piemēram, betona ārsienas bez papildus apdares.</td></tr>
-<tr><td>XF2</td><td>Vidējs ūdens piesātinājums bet ar atledošanas reaģentu.</td><td>Vertikālas ceļa konstrukciju betona virsmas, kuras ir pakļautas sasalšanai un gaisā esošajiem atledošanas reaģentiem.</td></tr>
-<tr><td>XF3</td><td>Augsts ūdens piesātinājums bez atledošanas reaģenta.</td><td>Horizontālas betona virsmas, kas pakļautas lietus un sala iedarbībai.</td></tr>
-<tr><td>XF4</td><td>Augsts ūdens piesātinājums ar jūras ūdeni vai atledošanas reaģentiem.</td><td>Ceļu un tiltu segumi, kuri ir pakļauti atledošanas reaģentu iedarbībai. Betona virsmas, kuras ir pakļautas tiešām ūdens šaltīm ar atledošanas reaģentiem vai jūras ūdens šaltīm.</td></tr>
-<tr><td colspan="3"><strong>6. Ķīmiski agresīvu vielu iedarbība uz betonu</strong><br>Attiecināma, ja betons ir pakļauts ķīmiski vielu iedarbībai, kas atrodas augsnē un gruntsūdenī.</td></tr>
-<tr><td>XA1</td><td>Nedaudz agresīva ķīmiska vide</td><td>Betons, kas ir pakļauts dabiskas grunts un gruntsūdeņu iedarbībai atbilstoši noteiktajam analīzēs. Pāļu pamatiem visbiežāk ir noteikta šī vides iedarbība.</td></tr>
-<tr><td>XA2</td><td>Vidēji agresīva ķīmiska vide</td><td>Betons, kas ir pakļauts dabiskas grunts un gruntsūdeņu iedarbībai atbilstoši noteiktajam analīzēs.</td></tr>
-<tr><td>XA3</td><td>Ļoti agresīva ķīmiska vide</td><td>Betons, kas ir pakļauts dabiskas grunts un gruntsūdeņu iedarbībai atbilstoši noteiktajam analīzēs.</td></tr>
-</tbody>
-</table>
+### Šķērsspēka nestspēja elementiem bez šķērsstiegrojuma ($V_{Rd,c}$)
+Elementiem, kuriem nav aprēķina šķērsstiegrojuma (piemēram, plātnēm un pamatu pēdām), aprēķina šķērsspēka nestspēju $V_{Rd,c}$ saskaņā ar LVS EN 1992-1-1 Eq (6.2.a):
 
+$$V_{Rd,c} = \left[ C_{Rd,c} \cdot k \cdot (100 \cdot \rho_l \cdot f_{ck})^{1/3} + k_1 \cdot \sigma_{cp} \right] \cdot b_w \cdot d$$
 
-## Šķērsstiegrojums
+Ar minimālo vērtību:
+$$V_{Rd,c,min} = \left( v_{min} + k_1 \cdot \sigma_{cp} \right) \cdot b_w \cdot d$$
 
-**Šķērsspēka robežvērtība zem kuras šķērsstiegrojums nav nepieciešams**
+Kur:
+- $C_{Rd,c} = 0,18 / \gamma_c = 0,18 / 1,5 = 0,12$;
+- $k = 1 + \sqrt{\frac{200}{d}} \le 2,0$ (izmēra faktors, kur darba augstums $d$ jāievada **milimetros**, nevis metros);
+- $\rho_l = \frac{A_{sl}}{b_w \cdot d} \le 0,02$ (gareniskā stiegrojuma attiecība);
+- $f_{ck}$ — betona raksturīgā spiedes stiprība (MPa);
+- $b_w$ — šķērsgriezuma mazākais platums stieptajā zonā (mm);
+- $\sigma_{cp} = \frac{N_{Ed}}{A_c}$ — aksiālais spriegums šķērsgriezumā ($N/mm^2$);
+- $k_1 = 0,15$ (koeficients aksiālā spēka ietekmei).
 
-V<sub>Rd,c</sub> = C<sub>Rd,c</sub> · k · (100 ρ<sub>l</sub> f<sub>ck</sub>)<sup>1/3</sup> · b<sub>w</sub> · d
+---
 
-kur:
+### Vienkāršota šķērsspēka pārbaude bez aksiālā spēka ($N_{Ed} = 0$)
 
-- **C<sub>Rd,c</sub>** — koeficients, kas iegūts no testiem (rekomendējamā vērtība 0,12)
-- **k** — izmēra faktors = 1 + √(200/d), kur d ir metros
-- **ρ<sub>l</sub>** — garenstiegrojuma īpatsvars (≤ 0,02)
-- **f<sub>ck</sub>** — betona raksturīgā spiedes stiprība
-- **b<sub>w</sub>** — mazākais sieniņas platums
-- **d** — šķērsgriezuma efektīvais augstums
+Ja aksiālais spēks ir nulle, minimālo šķērsspēka nestspējas robežvērtību aprēķina kā:
 
-Vienkāršota tabulas metode robežvērtības noteikšanai, zem kuras šķērsstiegrojums nav nepieciešams:
+$$V_{Rd,c} = v_{min} \cdot b_w \cdot d$$
 
-Minimālā vērtība V<sub>Rd,c</sub> = v<sub>min</sub> · b<sub>w</sub> · d
+Minimālā bīdes sprieguma $v_{min}$ vērtības ($N/mm^2$ jeb MPa) aprēķina pēc formulas $v_{min} = 0,035 \cdot k^{3/2} \cdot f_{ck}^{1/2}$ un tās apkopotas šādā tabulā:
 
-**v<sub>min</sub> vērtības (N/mm²):**
+| Betona klase | $d = 200\text{ mm}$ <br> ($k = 2,00$) | $d = 400\text{ mm}$ <br> ($k = 1,71$) | $d = 600\text{ mm}$ <br> ($k = 1,58$) | $d = 800\text{ mm}$ <br> ($k = 1,50$) |
+| :---: | :---: | :---: | :---: | :---: |
+| **C20/25** | 0,44 | 0,35 | **0,31** | 0,29 |
+| **C40/50** | 0,63 | 0,49 | 0,44 | 0,41 |
+| **C60/75** | 0,77 | 0,61 | 0,54 | 0,50 |
+| **C80/95** | 0,89 | 0,70 | 0,62 | 0,58 |
 
-<table>
-<colgroup><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"><col style="width:20%"></colgroup>
-<thead>
-<tr><th>Betona klase</th><th>d = 200</th><th>d = 400</th><th>d = 600</th><th>d = 800</th></tr>
-</thead>
-<tbody>
-<tr><td>C20</td><td>0,44</td><td>0,35</td><td>0,25</td><td>0,29</td></tr>
-<tr><td>C40</td><td>0,63</td><td>0,49</td><td>0,44</td><td>0,41</td></tr>
-<tr><td>C60</td><td>0,77</td><td>0,61</td><td>0,54</td><td>0,50</td></tr>
-<tr><td>C80</td><td>0,89</td><td>0,70</td><td>0,62</td><td>0,58</td></tr>
-</tbody>
-</table>
+*\*Piezīme: Izmēra faktora $k$ izmaiņas ir monotonas, tāpēc vērtība pie $d=600$ un C20/25 ir koriģēta uz pareizo teorētisko lielumu $0,31\text{ N/mm}^2$ (iepriekš importētajā tabulā bija kļūdaina vērtība 0,25).*
