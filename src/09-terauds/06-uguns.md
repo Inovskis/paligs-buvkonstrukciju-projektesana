@@ -10,10 +10,10 @@ Ugunsgrēks ir ārkārtēja (avārijas) projektējamā situācija (acc. to LVS E
 
 | Konstrukcijas pārbaudes veids | Koeficients normālā temperatūrā | Koeficients ugunsgrēka situācijā ($\gamma_{M,fi}$) |
 | :--- | :---: | :---: |
-| **Šķērsgriezuma nestspējas pārbaude** | $\gamma_{M0} = 1,00$ | $\gamma_{M,fi} = 1,00$ |
-| **Elementu stabilitātes (klupšanas) pārbaude** | $\gamma_{M1} = 1,00$ | $\gamma_{M,fi} = 1,00$ |
-| **Stieptu elementu trauslais sabrukums** | $\gamma_{M2} = 1,25$ | $\gamma_{M,fi} = 1,00$ |
-| **Savienojumu (skrūvju, šuvju) nestspējas pārbaude** | $\gamma_{M2} = 1,25$ | $\gamma_{M,fi} = 1,00$ |
+| Šķērsgriezuma nestspējas pārbaude | $\gamma_{M0} = 1,00$ | $\gamma_{M,fi} = 1,00$ |
+| Elementu stabilitātes (klupšanas) pārbaude | $\gamma_{M1} = 1,00$ | $\gamma_{M,fi} = 1,00$ |
+| Stieptu elementu trauslais sabrukums | $\gamma_{M2} = 1,25$ | $\gamma_{M,fi} = 1,00$ |
+| Savienojumu (skrūvju, šuvju) nestspējas pārbaude | $\gamma_{M2} = 1,25$ | $\gamma_{M,fi} = 1,00$ |
 
 ---
 

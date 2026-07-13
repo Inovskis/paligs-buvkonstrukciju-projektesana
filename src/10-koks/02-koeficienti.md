@@ -10,7 +10,7 @@ Saskaņā ar LVS EN 1995-1-1 materiālu drošības koeficientu vērtības nestsp
 
 | Materiāls / Slodžu kombinācija | Parciālais koeficients $\gamma_M$ |
 | :--- | :---: |
-| **Pamata kombinācija (ULS):** | |
+| Pamata kombinācija (ULS): | |
 | — Masīvā koksne | 1,30 |
 | — Līmētā koksne (Glulam) | 1,25 |
 | — Finiera sloksņu materiāls (LVL), saplāksnis, OSB | 1,20 |
@@ -18,7 +18,7 @@ Saskaņā ar LVS EN 1995-1-1 materiālu drošības koeficientu vērtības nestsp
 | — Kokšķiedru plātnes (cietās, vidēji cietās, MDF, mīkstās) | 1,30 |
 | — Savienojumi (stiprinājuma elementi) | 1,30 |
 | — Perforēto metāla plākšņu savienotājlīdzekļi | 1,25 |
-| **Ārkārtējā (avārijas, ugunsgrēka) kombinācija:** | |
+| Ārkārtējā (avārijas, ugunsgrēka) kombinācija: | |
 | — Visām pārbaudēm un materiāliem | 1,00 |
 
 ---
@@ -30,26 +30,26 @@ $$f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}$$
 
 | Materiāls | Standarts / Tips | Ekspluatācijas klase | Pastāvīgā slodze | Ilgstošā slodze | Vidēja ilguma slodze | Īslaicīgā slodze | Acumirklīgā slodze |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Masīvkoksne** | EN 14081-1 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
+| Masīvkoksne | EN 14081-1 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
-| **Līmētais koks (Glulam)** | EN 14080 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
+| Līmētais koks (Glulam) | EN 14080 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
 | **LVL** | EN 14374, EN 14279 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
-| **Saplāksnis** | EN 636 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
+| Saplāksnis | EN 636 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | (Tips EN 636-1, -2, -3) | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
 | | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
 | **OSB** | EN 300 (OSB/2) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
 | | EN 300 (OSB/3, OSB/4) | 1 | 0,40 | 0,50 | 0,70 | 0,90 | 1,10 |
 | | EN 300 (OSB/3, OSB/4) | 2 | 0,30 | 0,40 | 0,55 | 0,70 | 0,90 |
-| **Kokskaidu plātnes** | EN 312 (P4, P5) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
+| Kokskaidu plātnes | EN 312 (P4, P5) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
 | | EN 312 (P5) | 2 | 0,20 | 0,30 | 0,45 | 0,60 | 0,80 |
 | | EN 312 (P6, P7) | 1 | 0,40 | 0,50 | 0,70 | 0,90 | 1,10 |
 | | EN 312 (P7) | 2 | 0,30 | 0,40 | 0,55 | 0,70 | 0,90 |
-| **Cietās kokšķiedru plātnes** | EN 622-2 (HB.LA, HB.HLA) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
+| Cietās kokšķiedru plātnes | EN 622-2 (HB.LA, HB.HLA) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
 | | EN 622-2 (HB.HLA 1 vai 2) | 2 | 0,20 | 0,30 | 0,45 | 0,60 | 0,80 |
 
 ---
@@ -60,11 +60,11 @@ Koka konstrukciju aprēķinos katra slodze tiek klasificēta pēc tās iedarbīb
 
 | Slodzes iedarbības ilguma klase | Tipiskais ilgums | Piemērojamie slodžu veidi |
 | :---: | :---: | :--- |
-| **Pastāvīgā** | Vairāk par 10 gadiem | Konstrukciju pašsvars, grunts un pastāvīgs ūdens spiediens. |
-| **Ilgstošā** | 6 mēneši līdz 10 gadi | Materiālu uzglabāšanas slodze noliktavās, smagu tehnoloģisko iekārtu slodze. |
-| **Vidēja ilguma** | 1 nedēļa līdz 6 mēneši | Lietderīgās slodzes uz pārsegumiem (dzīvojamās un sabiedriskās ēkas), sniega slodze (parasti Latvijā tiek pieņemta kā vidēja ilguma slodze). |
-| **Īslaicīgā** | Mazāk par 1 nedēļu | Vēja slodze (statiskā daļa), slodzes uz kāpnēm, margām, tehniskās apkopes un montāžas slodzes. |
-| **Acumirklīgā** | Dažas sekundes | Vēja brāzmas (dinamiskā daļa), trieciena slodzes, avārijas vai sprādziena slodzes. |
+| Pastāvīgā | Vairāk par 10 gadiem | Konstrukciju pašsvars, grunts un pastāvīgs ūdens spiediens. |
+| Ilgstošā | 6 mēneši līdz 10 gadi | Materiālu uzglabāšanas slodze noliktavās, smagu tehnoloģisko iekārtu slodze. |
+| Vidēja ilguma | 1 nedēļa līdz 6 mēneši | Lietderīgās slodzes uz pārsegumiem (dzīvojamās un sabiedriskās ēkas), sniega slodze (parasti Latvijā tiek pieņemta kā vidēja ilguma slodze). |
+| Īslaicīgā | Mazāk par 1 nedēļu | Vēja slodze (statiskā daļa), slodzes uz kāpnēm, margām, tehniskās apkopes un montāžas slodzes. |
+| Acumirklīgā | Dažas sekundes | Vēja brāzmas (dinamiskā daļa), trieciena slodzes, avārijas vai sprādziena slodzes. |
 
 ---
 

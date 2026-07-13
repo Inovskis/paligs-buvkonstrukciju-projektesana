@@ -20,8 +20,8 @@ Kur:
 
 | Faktors / Punktu skaits ($n$) | 1 | 2 | 3 | 4 | 5 | 7 | 10 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **$\xi_3$** (piemēro vidējai vērtībai) | 1,40 | 1,35 | 1,33 | 1,31 | 1,29 | 1,27 | 1,25 |
-| **$\xi_4$** (piemēro minimālajai vērtībai) | 1,40 | 1,27 | 1,23 | 1,20 | 1,15 | 1,12 | 1,08 |
+| $\xi_3$ (piemēro vidējai vērtībai) | 1,40 | 1,35 | 1,33 | 1,31 | 1,29 | 1,27 | 1,25 |
+| $\xi_4$ (piemēro minimālajai vērtībai) | 1,40 | 1,27 | 1,23 | 1,20 | 1,15 | 1,12 | 1,08 |
 
 *Piezīme: Ja aprēķinu veic pēc viena punkta datiem sliktākajā pozīcijā, to var uzskatīt par $R_{c,min}$ un pāļa raksturīgo nestspēju nosaka, dalot šo aprēķināto vērtību ar $\xi_4 = 1,40$.*
 
@@ -88,5 +88,5 @@ Statiskā zondēšana (CPT) sniedz konusa pretestību $q_c$ un sānu berzi $f_s$
 
 | Pieeja | Sānu pretestība $q_s$ | Gala pretestība $q_b$ |
 | :--- | :--- | :--- |
-| **Kopējo spriegumu pieeja** <br> (Total Stress — $\alpha$ metode) | **$\alpha$ metodes:** balstās uz nedrenēto bīdes stiprību $s_u$ mālainās gruntīs. Parametri: $s_u$, $\sigma'_{v0}$, OCR, $I_p$, $L$. | Nedrenētā slogošana smalkgraudainās gruntīs. Parametrs: bāzes nestspējas koeficients $N_c \approx 9$ ($q_b = 9 \cdot s_u$). |
-| **Efektīvo spriegumu pieeja** <br> (Effective Stress — $\beta$ metode) | **$\beta$ metodes:** balstās uz grunts iekšējās berzes leņķi $\phi'$ un efektīvajiem spriegumiem. Parametri: $\sigma'_v$, $K$, $\delta$, $\phi'$. | Drenētā slogošana rupjgraudainās gruntīs (smiltīs). Parametri: $\phi'$, $\sigma'_{v0}$, grunts nestspējas koeficients $N_q$. |
+| Kopējo spriegumu pieeja <br> (Total Stress — $\alpha$ metode) | **$\alpha$ metodes:** balstās uz nedrenēto bīdes stiprību $s_u$ mālainās gruntīs. Parametri: $s_u$, $\sigma'_{v0}$, OCR, $I_p$, $L$. | Nedrenētā slogošana smalkgraudainās gruntīs. Parametrs: bāzes nestspējas koeficients $N_c \approx 9$ ($q_b = 9 \cdot s_u$). |
+| Efektīvo spriegumu pieeja <br> (Effective Stress — $\beta$ metode) | **$\beta$ metodes:** balstās uz grunts iekšējās berzes leņķi $\phi'$ un efektīvajiem spriegumiem. Parametri: $\sigma'_v$, $K$, $\delta$, $\phi'$. | Drenētā slogošana rupjgraudainās gruntīs (smiltīs). Parametri: $\phi'$, $\sigma'_{v0}$, grunts nestspējas koeficients $N_q$. |

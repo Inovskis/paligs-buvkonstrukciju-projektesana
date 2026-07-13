@@ -26,9 +26,9 @@ Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un 
 
 | Vides iedarbības klase | Dzelzsbetona elementi un priekšspriegoti elementi bez saistes $w_{\text{max}}$ (mm) | Priekšspriegoti elementi ar saisti $w_{\text{max}}$ (mm) |
 | :--- | :---: | :---: |
-| **X0, XC1** | $0,4^1$ | 0,2 |
-| **XC2, XC3, XC4** | 0,3 | $0,2^2$ |
-| **XD1, XD2, XD3, XS1, XS2, XS3** | 0,3 | Dekompresija (pārbauda atsevišķi) |
+| X0, XC1 | $0,4^1$ | 0,2 |
+| XC2, XC3, XC4 | 0,3 | $0,2^2$ |
+| XD1, XD2, XD3, XS1, XS2, XS3 | 0,3 | Dekompresija (pārbauda atsevišķi) |
 
 *Piezīmes par tabulu:*
 1. *Piezīme 1:* Klasēm X0 un XC1 plaisu platumam nav ietekmes uz ilgizturību, šī robežvērtība ir noteikta tikai vizuālā izskata nodrošināšanai. Ja nav prasību pret vizuālo izskatu, šīs prasības var atvieglot.

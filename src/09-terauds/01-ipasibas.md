@@ -13,21 +13,21 @@ Tērauda stiprība samazinās, palielinoties velmētā elementa biezumam $t$.
 | Standarts un tērauda klase | Tērauda marka | Biezums $t \le 40\text{ mm}$ | Biezums $t \le 40\text{ mm}$ | Biezums $40\text{ mm} < t \le 80\text{ mm}$ | Biezums $40\text{ mm} < t \le 80\text{ mm}$ |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | | | **$f_y$ (N/mm²)** | **$f_u$ (N/mm²)** | **$f_y$ (N/mm²)** | **$f_u$ (N/mm²)** |
-| **EN 10025-2** (Parastie oglekļa tēraudi) | **S 235** | 235 | 360 | 215 | 360 |
+| EN 10025-2 (Parastie oglekļa tēraudi) | **S 235** | 235 | 360 | 215 | 360 |
 | | **S 275** | 275 | 430 | 255 | 410 |
 | | **S 355** | 355 | 510 | 335 | 470 |
 | | **S 450** | **450** | 550 | 410 | 550 |
-| **EN 10025-3** (Normalizētie tēraudi) | **S 275 N/NL** | 275 | 390 | 255 | 370 |
+| EN 10025-3 (Normalizētie tēraudi) | **S 275 N/NL** | 275 | 390 | 255 | 370 |
 | | **S 355 N/NL** | 355 | 490 | 335 | 470 |
 | | **S 420 N/NL** | 420 | 520 | 390 | 520 |
 | | **S 460 N/NL** | 460 | 540 | 430 | 540 |
-| **EN 10025-4** (Termomehāniski velmētie tēraudi) | **S 275 M/ML** | 275 | 370 | 255 | 360 |
+| EN 10025-4 (Termomehāniski velmētie tēraudi) | **S 275 M/ML** | 275 | 370 | 255 | 360 |
 | | **S 355 M/ML** | 355 | 470 | 335 | 450 |
 | | **S 420 M/ML** | 420 | 520 | 390 | 500 |
 | | **S 460 M/ML** | 460 | 540 | 430 | 530 |
-| **EN 10025-5** (Atmosfēras korozijas izturīgie / Corten) | **S 235 W** | 235 | 360 | 215 | 340 |
+| EN 10025-5 (Atmosfēras korozijas izturīgie / Corten) | **S 235 W** | 235 | 360 | 215 | 340 |
 | | **S 355 W** | 355 | 510 | 335 | 490 |
-| **EN 10025-6** (Uzlabotie tēraudi pēc rūdīšanas) | **S 460 Q/QL/QL1** | 460 | 570 | 440 | 550 |
+| EN 10025-6 (Uzlabotie tēraudi pēc rūdīšanas) | **S 460 Q/QL/QL1** | 460 | 570 | 440 | 550 |
 
 *\*Piezīme: Tērauda markai S 450 plūstamības robeža pie $t \le 40\text{ mm}$ ir pareizi norādīta kā $450\text{ N/mm}^2$ (iepriekšējā tabulā bija kļūdaina vērtība 440).*
 

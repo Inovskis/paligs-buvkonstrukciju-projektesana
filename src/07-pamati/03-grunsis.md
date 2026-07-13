@@ -11,13 +11,13 @@ Būvkonstrukciju pašsvara un grunts spiediena aprēķiniem izmanto grunts tilpu
 | Grunts tips | Mitras grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) | Mitras grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) | Ūdenspiesātinātas grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) | Ūdenspiesātinātas grunts tilpuma masa $\rho$ (kg/m³) <br> (Tilpumsvars $\gamma$, kN/m³) |
 | :--- | :---: | :---: | :---: | :---: |
 | | **Irdena** | **Blīva** | **Irdena** | **Blīva** |
-| **Rupjgraudainas (nesaistītas) gruntis:** | | | | |
+| Rupjgraudainas (nesaistītas) gruntis: | | | | |
 | — Grants | 1600 ($16,0$) | 1800 ($18,0$) | 2000 ($20,0$) | 2100 ($21,0$) |
 | — Grants ar labu granulometriju | 1900 ($19,0$) | 2100 ($21,0$) | 2150 ($21,5$) | 2300 ($23,0$) |
 | — Rupja un vidēji rupja smilts | 1650 ($16,5$) | 1850 ($18,5$) | 2000 ($20,0$) | 2150 ($21,5$) |
 | — Labas granulometrijas smilts | 1800 ($18,0$) | 2100 ($21,0$) | 2050 ($20,5$) | 2250 ($22,5$) |
 | — Ķieģeļu šķembas (uzbērums) | 1300 ($13,0$) | 1750 ($17,5$) | 1650 ($16,5$) | 1900 ($19,0$) |
-| **Saistītās (mālainās) gruntis:** | | | | |
+| Saistītās (mālainās) gruntis: | | | | |
 | — Mīksts māls | 1700 ($17,0$) | 1700 ($17,0$) | 1700 ($17,0$) | 1700 ($17,0$) |
 | — Sīksts māls (vidējs) | 1800 ($18,0$) | 1800 ($18,0$) | 1800 ($18,0$) | 1800 ($18,0$) |
 | — Sīksts māls (blīvs) | 1900 ($19,0$) | 1900 ($19,0$) | 1900 ($19,0$) | 1900 ($19,0$) |
@@ -33,12 +33,12 @@ Mālaino grunšu stiprību raksturo vienass spiedes stiprība $q_u$ un konusa pr
 
 | Konsistence (apraksts) | Vienass spiedes stiprība $q_u$ (kPa jeb kN/m²) | Aptuvenā konusa pretestība zondei $q_c$ (MPa) |
 | :--- | :---: | :---: |
-| **Ļoti mīksts māls** | 0 – 24 | < 0,20 |
-| **Mīksts māls** | 24 – 48 | 0,20 – 0,40 |
-| **Vidēji sīksts māls** | 48 – 96 | 0,40 – 0,90 |
-| **Sīksts māls** | 96 – 192 | 0,90 – 2,00 |
-| **Ļoti sīksts māls** | 192 – 383 | 2,00 – 4,20 |
-| **Ciets māls** | > 383 | > 4,20 |
+| Ļoti mīksts māls | 0 – 24 | < 0,20 |
+| Mīksts māls | 24 – 48 | 0,20 – 0,40 |
+| Vidēji sīksts māls | 48 – 96 | 0,40 – 0,90 |
+| Sīksts māls | 96 – 192 | 0,90 – 2,00 |
+| Ļoti sīksts māls | 192 – 383 | 2,00 – 4,20 |
+| Ciets māls | > 383 | > 4,20 |
 
 Nedrenētās bīdes stiprība $c_u$ (vai $s_u$) ir puse no vienass spiedes stiprības $q_u$:
 $$c_u = s_u = \frac{q_u}{2}$$
@@ -53,11 +53,11 @@ RQD rādītājs raksturo ieža masas plaisainību un veselumu. To definē kā to
 
 | Klinšainās grunts apraksts (kvalitāte) | RQD rādītājs (%) |
 | :--- | :---: |
-| **Lieliska (Excellent)** | 90 – 100 |
-| **Laba (Good)** | 75 – 90 |
-| **Vidēja (Fair)** | 50 – 75 |
-| **Zema (Poor)** | 25 – 50 |
-| **Ļoti zema (Very poor)** | < 25 |
+| Lieliska (Excellent) | 90 – 100 |
+| Laba (Good) | 75 – 90 |
+| Vidēja (Fair) | 50 – 75 |
+| Zema (Poor) | 25 – 50 |
+| Ļoti zema (Very poor) | < 25 |
 
 *Piezīme: RQD rādītājs tiek izmantots pāļu aprēķinos klintīs (piemēram, pēc Tomlinsona metodes).*
 
@@ -69,18 +69,18 @@ Tabulā apkopotas standarta gadījumos pieļaujamās robeždeformācijas pēc LV
 
 | Konstrukciju tips | Bojājuma veids | Deformācijas kritērijs | Robežvērtība |
 | :--- | :--- | :--- | :---: |
-| **Karkasa ēkas un dzelzsbetona nesošās sienas** | Strukturāli bojājumi | Leņķiskā distorsija (slīpums) $\beta$ | $1/150 - 1/250$ |
+| Karkasa ēkas un dzelzsbetona nesošās sienas | Strukturāli bojājumi | Leņķiskā distorsija (slīpums) $\beta$ | $1/150 - 1/250$ |
 | | Sienu un starpsienu plaisas | Leņķiskā distorsija (slīpums) $\beta$ | $1/500$ <br> ($1/1000 - 1/1400$ gala laidumos) |
 | | Vizuālais izskats | Slīpums $\omega$ | $1/300$ |
 | | Savienojums ar inženiertīkliem | Kopējā sēšanās $s$ | $50-75\text{ mm}$ (smiltīs)<br>$75-135\text{ mm}$ (mālos) |
-| **Augstceltnes** | Liftu un eskalatoru darbība | Slīpums pēc lifta uzstādīšanas | $1/1200 - 1/2000$ |
-| **Konstrukcijas ar nestiegrotām nesošām sienām** | Plaisas no lieces pa ieloku (sagging) | Izlieces attiecība $\Delta/L$ | $1/2500$ (pie $L/H=1$)<br>$1/1250$ (pie $L/H=5$) |
+| Augstceltnes | Liftu un eskalatoru darbība | Slīpums pēc lifta uzstādīšanas | $1/1200 - 1/2000$ |
+| Konstrukcijas ar nestiegrotām nesošām sienām | Plaisas no lieces pa ieloku (sagging) | Izlieces attiecība $\Delta/L$ | $1/2500$ (pie $L/H=1$)<br>$1/1250$ (pie $L/H=5$) |
 | | Plaisas no lieces pa izliekumu (hogging) | Izlieces attiecība $\Delta/L$ | $1/5000$ (pie $L/H=1$)<br>$1/2500$ (pie $L/H=5$) |
-| **Tilti — vispārīgi** | Braukšanas komforts | Kopējā sēšanās $s$ | $100\text{ mm}$ |
+| Tilti — vispārīgi | Braukšanas komforts | Kopējā sēšanās $s$ | $100\text{ mm}$ |
 | | Strukturāli bojājumi | Kopējā sēšanās $s$ | $63\text{ mm}$ |
 | | Funkcionalitāte | Horizontālā pārvietošanās | $38\text{ mm}$ |
-| **Tilti — vairāklaidumu** | Strukturāli bojājumi | Leņķiskā distorsija $\beta$ | $1/250$ |
-| **Tilti — vienlaiduma** | Strukturāli bojājumi | Leņķiskā distorsija $\beta$ | $1/200$ |
+| Tilti — vairāklaidumu | Strukturāli bojājumi | Leņķiskā distorsija $\beta$ | $1/250$ |
+| Tilti — vienlaiduma | Strukturāli bojājumi | Leņķiskā distorsija $\beta$ | $1/200$ |
 
 ---
 

@@ -104,10 +104,10 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Skrūvju skaits | M16 izvietojums (solis) | M20 izvietojums (solis) | M16 auss izmēri ($B \times H \times t$) | M20 auss izmēri ($B \times H \times t$) |
 | :---: | :--- | :--- | :---: | :---: |
-| **2 skrūves** | Vertikāli, 40 mm attālums | Vertikāli, 49 mm attālums | $110 \times 128 \times 10\text{ mm}$ | $120 \times 148 \times 10\text{ mm}$ |
-| **3 skrūves** | Vertikāli, $2 \times 40\text{ mm}$ | Vertikāli, $2 \times 49\text{ mm}$ | $110 \times 168 \times 10\text{ mm}$ | $120 \times 198 \times 10\text{ mm}$ |
-| **4 skrūves** | 2 rindās pa 2 ($44 \times 40\text{ mm}$) | 2 rindās pa 2 ($53 \times 49\text{ mm}$) | $154 \times 128 \times 10\text{ mm}$ | $173 \times 148 \times 10\text{ mm}$ |
-| **6 skrūves** | 2 rindās pa 3 ($44 \times 80\text{ mm}$) | 2 rindās pa 3 ($53 \times 98\text{ mm}$) | $154 \times 168 \times 10\text{ mm}$ | $173 \times 198 \times 10\text{ mm}$ |
+| 2 skrūves | Vertikāli, 40 mm attālums | Vertikāli, 49 mm attālums | $110 \times 128 \times 10\text{ mm}$ | $120 \times 148 \times 10\text{ mm}$ |
+| 3 skrūves | Vertikāli, $2 \times 40\text{ mm}$ | Vertikāli, $2 \times 49\text{ mm}$ | $110 \times 168 \times 10\text{ mm}$ | $120 \times 198 \times 10\text{ mm}$ |
+| 4 skrūves | 2 rindās pa 2 ($44 \times 40\text{ mm}$) | 2 rindās pa 2 ($53 \times 49\text{ mm}$) | $154 \times 128 \times 10\text{ mm}$ | $173 \times 148 \times 10\text{ mm}$ |
+| 6 skrūves | 2 rindās pa 3 ($44 \times 80\text{ mm}$) | 2 rindās pa 3 ($53 \times 98\text{ mm}$) | $154 \times 168 \times 10\text{ mm}$ | $173 \times 198 \times 10\text{ mm}$ |
 
 ---
 
@@ -116,14 +116,14 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Profils | Sieniņa $t_w$ (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **IPE 180** | 5,3 | 76 | 114 | 152 | 228 | 119 | — | 238 | — |
-| **IPE 200** | 5,6 | 80 | 120 | 160 | 240 | 126 | — | 251 | 376 |
-| **IPE 240** | 6,2 | 89 | 133 | 178 | 266 | 139 | 209 | 278 | 418 |
-| **IPE 300** | 7,1 | 101 | 152 | 203 | 304 | 159 | 239 | 318 | 478 |
-| **IPE 360** | 8,0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
-| **IPE 400** | 8,6 | 123 | 184 | 245 | 368 | 193 | 289 | 386 | 578 |
-| **IPE 450** | 9,4 | 134 | 201 | 268 | 403 | 211 | 316 | 421 | 632 |
-| **IPE 500** | 10,2 | 146 | 218 | 291 | 437 | 229 | 343 | 458 | 687 |
+| IPE 180 | 5,3 | 76 | 114 | 152 | 228 | 119 | — | 238 | — |
+| IPE 200 | 5,6 | 80 | 120 | 160 | 240 | 126 | — | 251 | 376 |
+| IPE 240 | 6,2 | 89 | 133 | 178 | 266 | 139 | 209 | 278 | 418 |
+| IPE 300 | 7,1 | 101 | 152 | 203 | 304 | 159 | 239 | 318 | 478 |
+| IPE 360 | 8,0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
+| IPE 400 | 8,6 | 123 | 184 | 245 | 368 | 193 | 289 | 386 | 578 |
+| IPE 450 | 9,4 | 134 | 201 | 268 | 403 | 211 | 316 | 421 | 632 |
+| IPE 500 | 10,2 | 146 | 218 | 291 | 437 | 229 | 343 | 458 | 687 |
 
 ---
 
@@ -131,13 +131,13 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Profils | Sieniņa $t_w$ (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **HEA 160** | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
-| **HEA 180** | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
-| **HEA 200** | 6,5 | 93 | 139 | 186 | 279 | 146 | 219 | 292 | 437 |
-| **HEA 240** | 7,5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
-| **HEA 260** | 7,5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
-| **HEA 280** | 8,0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
-| **HEA 300** | 8,5 | 122 | 182 | 243 | 365 | 191 | 287 | 383 | 574 |
+| HEA 160 | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
+| HEA 180 | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
+| HEA 200 | 6,5 | 93 | 139 | 186 | 279 | 146 | 219 | 292 | 437 |
+| HEA 240 | 7,5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
+| HEA 260 | 7,5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
+| HEA 280 | 8,0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
+| HEA 300 | 8,5 | 122 | 182 | 243 | 365 | 191 | 287 | 383 | 574 |
 
 *Slodžu grupu krāsu kodi (projektēšanas atvieglošanai):*
 - *Zaļš: $< 100\text{ kN}$*
@@ -155,14 +155,14 @@ Auss tiek metināta ar divpusēju stūra šuvi (rīkle $a$) pie nesošā element
 
 | Skrūves | Skrūvju grupas nestspēja | Nepieciešamā šuves pretestība | Auss augstums | Izvēlētais šuves biezums $a$ | Šuvju faktiskā nestspēja |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **2 × M16** | 121 kN | 145 kN | 128 mm | **$a = 4\text{ mm}$** | 149 kN |
-| **3 × M16** | 181 kN | 217 kN | 168 mm | **$a = 5\text{ mm}$** | 249 kN |
-| **4 × M16** | 241 kN | 289 kN | 128 mm | **$a = 7\text{ mm}$** | 334 kN |
-| **6 × M16** | 362 kN | 434 kN | 168 mm | **$a = 8\text{ mm}$** | 481 kN |
-| **2 × M20** | 188 kN | 226 kN | 148 mm | **$a = 6\text{ mm}$** | 270 kN |
-| **3 × M20** | 282 kN | 338 kN | 198 mm | **$a = 6\text{ mm}$** | 361 kN |
-| **4 × M20** | 376 kN | 451 kN | 148 mm | **$a = 9\text{ mm}$** | 481 kN |
-| **6 × M20** | 565 kN | 678 kN | 198 mm | **$a = 9\text{ mm}$** | 723 kN |
+| 2 × M16 | 121 kN | 145 kN | 128 mm | **$a = 4\text{ mm}$** | 149 kN |
+| 3 × M16 | 181 kN | 217 kN | 168 mm | **$a = 5\text{ mm}$** | 249 kN |
+| 4 × M16 | 241 kN | 289 kN | 128 mm | **$a = 7\text{ mm}$** | 334 kN |
+| 6 × M16 | 362 kN | 434 kN | 168 mm | **$a = 8\text{ mm}$** | 481 kN |
+| 2 × M20 | 188 kN | 226 kN | 148 mm | **$a = 6\text{ mm}$** | 270 kN |
+| 3 × M20 | 282 kN | 338 kN | 198 mm | **$a = 6\text{ mm}$** | 361 kN |
+| 4 × M20 | 376 kN | 451 kN | 148 mm | **$a = 9\text{ mm}$** | 481 kN |
+| 6 × M20 | 565 kN | 678 kN | 198 mm | **$a = 9\text{ mm}$** | 723 kN |
 
 ---
 
@@ -170,13 +170,13 @@ Auss tiek metināta ar divpusēju stūra šuvi (rīkle $a$) pie nesošā element
 
 | Profils | Profila augstums | Ieteicamais mezgla risinājums | Alternatīvais risinājums |
 | :--- | :---: | :--- | :--- |
-| **IPE 180** | 180 mm | 3 × M16 vertikāli (114 kN) | 4 × M16 rindā 2x2 (152 kN) |
-| **IPE 200** | 200 mm | 4 × M16 rindā 2x2 (160 kN) | 4 × M20 rindā 2x2 (251 kN) |
-| **IPE 240** | 240 mm | 4 × M20 rindā 2x2 (278 kN) | 3 × M20 vertikāli (209 kN) |
-| **IPE 300+** | 300+ mm | 6 × M20 rindā 2x3 (478+ kN) | 4 × M20 rindā 2x2 (318+ kN) |
-| **HEA 160-180** | 160-180 mm | 3 × M16 vertikāli (129 kN) | 4 × M16 rindā 2x2 (172 kN) |
-| **HEA 200** | 200 mm | 4 × M20 rindā 2x2 (292 kN) | 3 × M20 vertikāli (219 kN) |
-| **HEA 240+** | 240+ mm | 6 × M20 rindā 2x3 (505+ kN) | 4 × M20 rindā 2x2 (337+ kN) |
+| IPE 180 | 180 mm | 3 × M16 vertikāli (114 kN) | 4 × M16 rindā 2x2 (152 kN) |
+| IPE 200 | 200 mm | 4 × M16 rindā 2x2 (160 kN) | 4 × M20 rindā 2x2 (251 kN) |
+| IPE 240 | 240 mm | 4 × M20 rindā 2x2 (278 kN) | 3 × M20 vertikāli (209 kN) |
+| IPE 300+ | 300+ mm | 6 × M20 rindā 2x3 (478+ kN) | 4 × M20 rindā 2x2 (318+ kN) |
+| HEA 160-180 | 160-180 mm | 3 × M16 vertikāli (129 kN) | 4 × M16 rindā 2x2 (172 kN) |
+| HEA 200 | 200 mm | 4 × M20 rindā 2x2 (292 kN) | 3 × M20 vertikāli (219 kN) |
+| HEA 240+ | 240+ mm | 6 × M20 rindā 2x3 (505+ kN) | 4 × M20 rindā 2x2 (337+ kN) |
 
 ---
 
@@ -184,11 +184,11 @@ Auss tiek metināta ar divpusēju stūra šuvi (rīkle $a$) pie nesošā element
 
 | Aprēķina šķērsspēks $V_{Ed}$ | 1. Izvēles risinājums | 2. Izvēles risinājums | 3. Izvēles risinājums |
 | :--- | :--- | :--- | :--- |
-| **$50 \dots 100\text{ kN}$** | 3 × M16 vertikāli | 2 × M16 vertikāli | 2 × M20 vertikāli |
-| **$100 \dots 150\text{ kN}$** | 4 × M16 (2x2) | 3 × M16 vertikāli | 2 × M20 vertikāli |
-| **$150 \dots 250\text{ kN}$** | 4 × M20 (2x2) | 4 × M16 (2x2) | 3 × M20 vertikāli |
-| **$250 \dots 400\text{ kN}$** | 6 × M20 (2x3) | 6 × M16 (2x3) | 4 × M20 (2x2) |
-| **$> 400\text{ kN}$** | 6 × M20 (2x3) | 6 × M20 (2x3) | 6 × M20 (2x3) |
+| $50 \dots 100\text{ kN}$ | 3 × M16 vertikāli | 2 × M16 vertikāli | 2 × M20 vertikāli |
+| $100 \dots 150\text{ kN}$ | 4 × M16 (2x2) | 3 × M16 vertikāli | 2 × M20 vertikāli |
+| $150 \dots 250\text{ kN}$ | 4 × M20 (2x2) | 4 × M16 (2x2) | 3 × M20 vertikāli |
+| $250 \dots 400\text{ kN}$ | 6 × M20 (2x3) | 6 × M16 (2x3) | 4 × M20 (2x2) |
+| $> 400\text{ kN}$ | 6 × M20 (2x3) | 6 × M20 (2x3) | 6 × M20 (2x3) |
 
 ---
 
@@ -198,7 +198,7 @@ Lai skrūves fiziski ietilptu sijas augstumā, ievērojot minimālos attālumus 
 
 | Skrūvju konfigurācija | Nepieciešamais sijas sieniņas augstums | Piemērojamie IPE/HEA profili |
 | :--- | :---: | :--- |
-| **3 × M16 vertikāli** | 168 mm | IPE 180+ / HEA 160+ |
-| **3 × M20 vertikāli** | 198 mm | IPE 240+ / HEA 200+ |
-| **6 × M16 (2x3)** | 208 mm | IPE 240+ / HEA 200+ |
-| **6 × M20 (2x3)** | 296 mm | IPE 360+ / HEA 280+ |
+| 3 × M16 vertikāli | 168 mm | IPE 180+ / HEA 160+ |
+| 3 × M20 vertikāli | 198 mm | IPE 240+ / HEA 200+ |
+| 6 × M16 (2x3) | 208 mm | IPE 240+ / HEA 200+ |
+| 6 × M20 (2x3) | 296 mm | IPE 360+ / HEA 280+ |

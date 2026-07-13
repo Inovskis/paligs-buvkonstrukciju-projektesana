@@ -43,7 +43,7 @@ Kombinējot dažādas iedarbes, jāizmanto kombinācijas koeficienti $\psi_0$, $
 
 | Iedarbe / Slodze | $\psi_0$ | $\psi_1$ | $\psi_2$ |
 | :--- | :---: | :---: | :---: |
-| **Lietderīgās slodzes ēkās (pēc kategorijām):** | | | |
+| Lietderīgās slodzes ēkās (pēc kategorijām): | | | |
 | — A kategorija: mājsaimniecības un dzīvojamās telpas | 0,7 | 0,5 | 0,3 |
 | — B kategorija: biroju telpas | 0,7 | 0,5 | 0,3 |
 | — C kategorija: pulcēšanās telpas | 0,7 | 0,7 | 0,6 |
@@ -52,8 +52,8 @@ Kombinējot dažādas iedarbes, jāizmanto kombinācijas koeficienti $\psi_0$, $
 | — F kategorija: transportlīdzekļu kustība, bruto svars $\le 30$ kN | 0,7 | 0,7 | 0,6 |
 | — G kategorija: transportlīdzekļu kustība, bruto svars 30–160 kN | 0,7 | 0,5 | 0,3 |
 | — H kategorija: jumti (pieejami tikai uzturēšanai) | 0,0 | 0,0 | 0,0 |
-| **Sniega slodzes uz ēkām (Latvijā):** | | | |
+| Sniega slodzes uz ēkām (Latvijā): | | | |
 | — Sniega slodze (references augstums $H \le 1000$ m) | 0,7 | 0,5 | 0,2 |
-| **Citas slodzes:** | | | |
+| Citas slodzes: | | | |
 | — Vēja slodzes uz ēkām | 0,6 | 0,2 | 0,0 |
 | — Temperatūras iedarbība (ne ugunsgrēka gadījumā) | 0,6 | 0,5 | 0,0 |

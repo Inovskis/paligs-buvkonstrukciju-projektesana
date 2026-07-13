@@ -83,9 +83,9 @@ Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabar�
 | Autotransporta veids | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas bez speciālās atļaujas | Gabarītu robežas ar speciālo atļauju | Gabarītu robežas ar speciālo atļauju | Gabarītu robežas ar speciālo atļauju |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | | **Augstums (mm)** | **Platums (mm)** | **Garums (mm)** | **Svars (t)** | **Augstums (mm)** | **Platums (mm)** | **Garums (mm)** |
-| **Ar standarta platformu / tentu** | 2600 | 2450 | 13500 | 24 | 3100 | 2750 | 18000 |
-| **Ar zemo treileri (JUMBO)** | 3000 | 2450 | 9000 | 24 | 3300 | 2750 | 9000 |
-| **Zemās grīdas treileris (Titāniks)** | 3800 | 1500 | 9500 | 22 | 4200 | 1500 | 9500 |
+| Ar standarta platformu / tentu | 2600 | 2450 | 13500 | 24 | 3100 | 2750 | 18000 |
+| Ar zemo treileri (JUMBO) | 3000 | 2450 | 9000 | 24 | 3300 | 2750 | 9000 |
+| Zemās grīdas treileris (Titāniks) | 3800 | 1500 | 9500 | 22 | 4200 | 1500 | 9500 |
 
 ---
 
@@ -95,16 +95,16 @@ Minimālie balsta garumi (earing lengths) uz nesošajām konstrukcijām, kas nod
 
 | Balstāmais elements | Nesošā konstrukcija | Plātnes biezums $h$ vai sijas laidums $L$ | Minimālais nominālais balsta garums (mm) |
 | :--- | :--- | :--- | :---: |
-| **Dobumotās plātnes (HCS)** | Betons / Tērauds | $h \le 300\text{ mm}$ | 60 – 80 |
+| Dobumotās plātnes (HCS) | Betons / Tērauds | $h \le 300\text{ mm}$ | 60 – 80 |
 | | | $h > 300\text{ mm}$ | 100 – 120 |
 | | Mūris | $h \le 250\text{ mm}$ | 100 |
 | | | $h > 250\text{ mm}$ | 120 |
-| **Masīvās plātnes (Floor planks)** | Betons | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 30 <br> 50 |
+| Masīvās plātnes (Floor planks) | Betons | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 30 <br> 50 |
 | | Mūris | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 40 <br> 50 |
-| **Ribotie pārsegumi (TT-plātnes)** | Betons | Laidums $L \le 15\text{ m}$ | 150 |
-| **Sekundārās jumta sijas** | Betons | Laidums $L \le 8\text{ m}$ | 140 |
-| **Pārseguma sijas** | Betons | Laidums $L = 12 \dots 20\text{ m}$ | 200 – 230 |
-| **Jumta sijas** | Betons | Laidums $L \le 24\text{ m}$ | 195 |
+| Ribotie pārsegumi (TT-plātnes) | Betons | Laidums $L \le 15\text{ m}$ | 150 |
+| Sekundārās jumta sijas | Betons | Laidums $L \le 8\text{ m}$ | 140 |
+| Pārseguma sijas | Betons | Laidums $L = 12 \dots 20\text{ m}$ | 200 – 230 |
+| Jumta sijas | Betons | Laidums $L \le 24\text{ m}$ | 195 |
 | | | Laidums $L \le 40\text{ m}$ | 225 |
 
 ---

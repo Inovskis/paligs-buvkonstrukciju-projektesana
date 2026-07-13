@@ -12,9 +12,9 @@ Betona cietēšanas ātrums un stiprības pieaugums ir atkarīgs no cementa stip
 
 | Cementa stiprības klase / tips | Cietēšanas temperatūra | 3 dienas | 7 dienas | 28 dienas | 90 dienas | 180 dienas |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Klase 32,5 N** <br> (Lēni cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $30 \dots 40\%$ <br> $10 \dots 20\%$ | $50 \dots 65\%$ <br> $20 \dots 40\%$ | $100\%$ <br> $60 \dots 75\%$ | $110 \dots 125\%$ <br> — | $115 \dots 130\%$ <br> — |
-| **Klase 32,5 R** un **42,5 N** <br> (Vidēji ātri cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $50 \dots 60\%$ <br> $20 \dots 40\%$ | $65 \dots 80\%$ <br> $40 \dots 60\%$ | $100\%$ <br> $75 \dots 90\%$ | $105 \dots 115\%$ <br> — | $110 \dots 120\%$ <br> — |
-| **Klase 42,5 R**, **52,5 N** un **52,5 R** <br> (Ātri cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $70 \dots 80\%$ <br> $40 \dots 60\%$ | $80 \dots 90\%$ <br> $60 \dots 80\%$ | $100\%$ <br> $90 \dots 105\%$ | $100 \dots 105\%$ <br> — | $105 \dots 110\%$ <br> — |
+| Klase 32,5 N <br> (Lēni cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $30 \dots 40\%$ <br> $10 \dots 20\%$ | $50 \dots 65\%$ <br> $20 \dots 40\%$ | $100\%$ <br> $60 \dots 75\%$ | $110 \dots 125\%$ <br> — | $115 \dots 130\%$ <br> — |
+| Klase 32,5 R un **42,5 N** <br> (Vidēji ātri cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $50 \dots 60\%$ <br> $20 \dots 40\%$ | $65 \dots 80\%$ <br> $40 \dots 60\%$ | $100\%$ <br> $75 \dots 90\%$ | $105 \dots 115\%$ <br> — | $110 \dots 120\%$ <br> — |
+| Klase 42,5 R, **52,5 N** un **52,5 R** <br> (Ātri cietējošs) | $+20\ ^\circ\text{C}$ <br> $+5\ ^\circ\text{C}$ | $70 \dots 80\%$ <br> $40 \dots 60\%$ | $80 \dots 90\%$ <br> $60 \dots 80\%$ | $100\%$ <br> $90 \dots 105\%$ | $100 \dots 105\%$ <br> — | $105 \dots 110\%$ <br> — |
 
 *Piezīme: 28 dienu spiedes stiprība pie nepārtrauktas $+20\ ^\circ\text{C}$ temperatūras un atbilstoša mitruma tiek pieņemta par $100\%$. Saliekamā dzelzsbetona ražotnēs visbiežāk izmanto ātricietējošos (R tipa) cementus un veic konstrukciju hidrotermālo apstrādi (tvaicēšanu), lai paātrinātu veidņu apriti.*
 
@@ -87,9 +87,9 @@ Minimālā bīdes sprieguma $v_{min}$ vērtības ($N/mm^2$ jeb MPa) aprēķina p
 
 | Betona klase | $d = 200\text{ mm}$ <br> ($k = 2,00$) | $d = 400\text{ mm}$ <br> ($k = 1,71$) | $d = 600\text{ mm}$ <br> ($k = 1,58$) | $d = 800\text{ mm}$ <br> ($k = 1,50$) |
 | :---: | :---: | :---: | :---: | :---: |
-| **C20/25** | 0,44 | 0,35 | **0,31** | 0,29 |
-| **C40/50** | 0,63 | 0,49 | 0,44 | 0,41 |
-| **C60/75** | 0,77 | 0,61 | 0,54 | 0,50 |
-| **C80/95** | 0,89 | 0,70 | 0,62 | 0,58 |
+| C20/25 | 0,44 | 0,35 | **0,31** | 0,29 |
+| C40/50 | 0,63 | 0,49 | 0,44 | 0,41 |
+| C60/75 | 0,77 | 0,61 | 0,54 | 0,50 |
+| C80/95 | 0,89 | 0,70 | 0,62 | 0,58 |
 
 *\*Piezīme: Izmēra faktora $k$ izmaiņas ir monotonas, tāpēc vērtība pie $d=600$ un C20/25 ir koriģēta uz pareizo teorētisko lielumu $0,31\text{ N/mm}^2$ (iepriekš importētajā tabulā bija kļūdaina vērtība 0,25).*

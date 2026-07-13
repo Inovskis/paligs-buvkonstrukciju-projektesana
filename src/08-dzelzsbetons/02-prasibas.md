@@ -10,9 +10,9 @@ Nestspējas robežstāvokļa (ULS) pārbaudēm izmanto šādus materiālu parci�
 
 | Projektā ievērtējamās situācijas | $\gamma_c$ (betonam) | $\gamma_s$ (stiegrojumam) | $\gamma_{s,sp}$ (spriegotajam stiegrojumam) |
 | :--- | :---: | :---: | :---: |
-| **Ilgstošas un īslaicīgas** | 1,50 | 1,15 | 1,15 |
-| **Ārkārtējas (avārijas, ugunsgrēka)** | 1,20 | 1,00 | 1,00 |
-| **Seismiskās (zemestrīces)** | 1,20 | 1,00 | 1,00 |
+| Ilgstošas un īslaicīgas | 1,50 | 1,15 | 1,15 |
+| Ārkārtējas (avārijas, ugunsgrēka) | 1,20 | 1,00 | 1,00 |
+| Seismiskās (zemestrīces) | 1,20 | 1,00 | 1,00 |
 
 *Piezīme: Ārkārtējās un seismiskajās situācijās betona un stiegrojuma koeficienti tiek samazināti līdz $\gamma_c = 1,20$ un $\gamma_s = 1,00$, kas atspoguļo zemāku nepieciešamo drošuma rezervi pret mazticamiem notikumiem.*
 

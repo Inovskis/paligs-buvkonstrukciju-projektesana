@@ -29,12 +29,12 @@ Pārskatāma un precīza vispārīgo datu lapa ir ļoti būtiska ne tikai būvda
 
 | Parametrs / Līmenis | 1. līmenis (Zems) | 2. līmenis (Vidējs / Standarta) | 3. līmenis (Augsts / Izvērsts) |
 | :--- | :---: | :---: | :---: |
-| **Seku (konsekvences) klase** | CC1 | CC2 | CC3 |
-| **Drošības (uzticamības) klase** | RC1 | RC2 | RC3 |
-| **Projektēšanas kontroles klase** | DSL1 | DSL2 | DSL3 |
-| **Būvdarbu uzraudzības līmenis** | IL1 | IL2 | IL3 |
-| **Pielaižu (toleranču) klase** | 1. klase | 2. klase | 3. klase |
-| **Tērauda izpildes klase (EXC)** | EXC1 | EXC2 | EXC3 |
+| Seku (konsekvences) klase | CC1 | CC2 | CC3 |
+| Drošības (uzticamības) klase | RC1 | RC2 | RC3 |
+| Projektēšanas kontroles klase | DSL1 | DSL2 | DSL3 |
+| Būvdarbu uzraudzības līmenis | IL1 | IL2 | IL3 |
+| Pielaižu (toleranču) klase | 1. klase | 2. klase | 3. klase |
+| Tērauda izpildes klase (EXC) | EXC1 | EXC2 | EXC3 |
 
 ---
 
@@ -62,9 +62,9 @@ Praksē izmanto vienkāršotu paņēmienu drošības līmeņa koriģēšanai, iz
 
 | Drošības klase | RC1 | RC2 | RC3 |
 | :--- | :---: | :---: | :---: |
-| **Uzticamības indeksa $\beta$ mērķvērtība (1 gada references periodam)** | 3.7 | 4.2 | 4.7 |
-| **Uzticamības indeksa $\beta$ mērķvērtība (50 gadu references periodam)** | 3.3 | 3.8 | 4.3 |
-| **Slodžu korekcijas koeficients $K_{\text{FI}}$** | 0.9 | 1.0 | 1.1 |
+| Uzticamības indeksa $\beta$ mērķvērtība (1 gada references periodam) | 3.7 | 4.2 | 4.7 |
+| Uzticamības indeksa $\beta$ mērķvērtība (50 gadu references periodam) | 3.3 | 3.8 | 4.3 |
+| Slodžu korekcijas koeficients $K_{\text{FI}}$ | 0.9 | 1.0 | 1.1 |
 
 *Piezīme: Saskaņā ar LBN 200-21 un LVS EN 1990 nacionālo pielikumu, koeficientu $K_{\text{FI}}$ parasti piemēro tikai mainīgajām (lietderīgajām, vēja, sniega) slodzēm.*
 

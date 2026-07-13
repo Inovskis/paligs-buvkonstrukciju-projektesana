@@ -74,9 +74,9 @@ Kalpošanas ilgums definē vēlamo laika periodu līdz pirmajai uzturēšanas kr
 
 | Kategorija | Kalpošanas ilgums (gadi) |
 | :--- | :---: |
-| **Zems (L — Low)** | 2 – 5 |
-| **Vidējs (M — Medium)** | 5 – 15 |
-| **Augsts (H — High)** | > 15 |
+| Zems (L — Low) | 2 – 5 |
+| Vidējs (M — Medium) | 5 – 15 |
+| Augsts (H — High) | > 15 |
 
 ---
 
@@ -86,13 +86,13 @@ Ieteicamās vertikālo izlieču robežvērtības ($w_{\text{max}}$) konstrukciju
 
 | Konstrukciju elementi | Deformāciju robežvērtības $w_{\text{max}}$ |
 | :--- | :---: |
-| **Sijas, rīģeļi un kopnes starpstāvu pārsegumos:** <br> — ja laidums $L < 12\text{ m}$ <br> — ja laidums $12\text{ m} < L < 24\text{ m}$ <br> — ja laidums $L > 24\text{ m}$ | <br>**$L/250$** <br> Lineāra interpolācija <br>**$L/300$** |
-| **Sijas, rīģeļi un kopnes jumta pārsegumos:** <br> — ja laidums $L < 12\text{ m}$ <br> — ja laidums $12\text{ m} \le L < 24\text{ m}$ <br> — ja laidums $L > 24\text{ m}$ | <br>**$L/200$** <br> Lineāra interpolācija <br>**$L/250$** |
-| **Sijas starpstāvu pārsegumos pēc starpsienu izbūves** (kas balsta trauslas starpsienas) | **$L/400$** (tikai no slodzēm pēc starpsienu izbūves) |
-| **Fasādes vai stiklojuma nesošās konstrukcijas** | Atbilstoši fasādes/stiklojuma sistēmas prasībām (parasti $L/300$ vai $15\text{ mm}$) |
-| **Lokšņu segumi (profilētās loksnes):** <br> — jumta pārsegumos <br> — starpstāvu pārsegumos | <br>**$L/200$** <br>**$L/250$** |
-| **Balkoni, kāpnes, platformas un gājēju pārejas** | Tādas pašas prasības kā ēkas pārsegumu pamatelementiem |
-| **Citi nenosauktie pārsegumu un sienu elementi** | **$L/200$** |
+| Sijas, rīģeļi un kopnes starpstāvu pārsegumos: <br> — ja laidums $L < 12\text{ m}$ <br> — ja laidums $12\text{ m} < L < 24\text{ m}$ <br> — ja laidums $L > 24\text{ m}$ | <br>**$L/250$** <br> Lineāra interpolācija <br>**$L/300$** |
+| Sijas, rīģeļi un kopnes jumta pārsegumos: <br> — ja laidums $L < 12\text{ m}$ <br> — ja laidums $12\text{ m} \le L < 24\text{ m}$ <br> — ja laidums $L > 24\text{ m}$ | <br>**$L/200$** <br> Lineāra interpolācija <br>**$L/250$** |
+| Sijas starpstāvu pārsegumos pēc starpsienu izbūves (kas balsta trauslas starpsienas) | **$L/400$** (tikai no slodzēm pēc starpsienu izbūves) |
+| Fasādes vai stiklojuma nesošās konstrukcijas | Atbilstoši fasādes/stiklojuma sistēmas prasībām (parasti $L/300$ vai $15\text{ mm}$) |
+| Lokšņu segumi (profilētās loksnes): <br> — jumta pārsegumos <br> — starpstāvu pārsegumos | <br>**$L/200$** <br>**$L/250$** |
+| Balkoni, kāpnes, platformas un gājēju pārejas | Tādas pašas prasības kā ēkas pārsegumu pamatelementiem |
+| Citi nenosauktie pārsegumu un sienu elementi | **$L/200$** |
 
 *Piezīme: $L$ ir brīvi balstītas vai nepārtrauktas konstrukcijas laidums (konsolēm robežvērtību attiecina pret dubultu konsoles garumu, t.i., $2 \cdot L_{\text{kons}}$).*
 
@@ -104,9 +104,9 @@ Ieteicamās horizontālo pārvietojumu (sānslīžu) robežvērtības karkasa b�
 
 | Konstrukciju elementi / Būves tips | Pārvietojumu robežvērtības |
 | :--- | :---: |
-| **Daudzstāvu karkasa ēkas** (kopējais augstums $H$) | **$H/500$** (ēkas kopējais sānu izliekums) |
-| **Katra atsevišķa stāva augstums** ($H_c$) | **$H_c/250$** (stāva relatīvā sānslīde) |
-| **Vienstāva rūpnieciskie karkasi un noliktavas** (bez celtņiem, augstums $H_c$) | **$H_c/150$** |
-| **Karkasi pēc starpsienu izbūves** (ja karkass robežojas ar trauslām starpsienām) | **$H_c/500$** (no slodzēm pēc starpsienu izbūves) |
+| Daudzstāvu karkasa ēkas (kopējais augstums $H$) | **$H/500$** (ēkas kopējais sānu izliekums) |
+| Katra atsevišķa stāva augstums ($H_c$) | **$H_c/250$** (stāva relatīvā sānslīde) |
+| Vienstāva rūpnieciskie karkasi un noliktavas (bez celtņiem, augstums $H_c$) | **$H_c/150$** |
+| Karkasi pēc starpsienu izbūves (ja karkass robežojas ar trauslām starpsienām) | **$H_c/500$** (no slodzēm pēc starpsienu izbūves) |
 
 *Apzīmējumi: $H$ — ēkas kopējais augstums no pamatiem; $H_c$ — attiecīgā stāva kolonnas augstums.*

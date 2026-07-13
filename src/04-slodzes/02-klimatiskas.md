@@ -18,9 +18,9 @@ LVS EN 1991-1-3 6.2. punktā aprakstītie sniega sanesumi pie jumta izvirzījumi
 
 | Situācija / Slogojums | A gadījums (Normāli apstākļi) | B1 gadījums (Īpaši apstākļi)* | B2 gadījums (Īpaši apstākļi) | B3 gadījums (Īpaši apstākļi) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Raksturojums** | Nenotiek īpaša snigšana, nav īpašu sanesumu. | Notiek īpaša snigšana, nav īpašu sanesumu. | Nenotiek īpaša snigšana, ir īpaši sanesumi. | Notiek īpaša snigšana, ir īpaši sanesumi. |
-| **Ilgstoša/īslaicīga situācija** | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ *(izņemot B pielikumu)* | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ *(izņemot B pielikumu)* |
-| **Ārkārtējā situācija (sniegs kā ārkārtēja slodze)** | Nav jāvērtē. | — Nesanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$ | — Sanests sniegs: $s = \mu_i s_k$ *(jumtu formām B pielikumā)* | — Nesanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$<br>— Sanests sniegs: $s = \mu_i s_k$ |
+| Raksturojums | Nenotiek īpaša snigšana, nav īpašu sanesumu. | Notiek īpaša snigšana, nav īpašu sanesumu. | Nenotiek īpaša snigšana, ir īpaši sanesumi. | Notiek īpaša snigšana, ir īpaši sanesumi. |
+| Ilgstoša/īslaicīga situācija | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ *(izņemot B pielikumu)* | — Nesanests sniegs: $s = \mu_i C_e C_t s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t s_k$ *(izņemot B pielikumu)* |
+| Ārkārtējā situācija (sniegs kā ārkārtēja slodze) | Nav jāvērtē. | — Nesanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$<br>— Sanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$ | — Sanests sniegs: $s = \mu_i s_k$ *(jumtu formām B pielikumā)* | — Nesanests sniegs: $s = \mu_i C_e C_t C_{esl} s_k$<br>— Sanests sniegs: $s = \mu_i s_k$ |
 
 ---
 

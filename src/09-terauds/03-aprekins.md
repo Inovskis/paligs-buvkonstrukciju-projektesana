@@ -12,11 +12,11 @@ Aprēķinot elementu un savienojumu pretestību nestspējas robežstāvoklī (UL
 
 | Elementi / Pārbaudes | Pretestības raksturojums | Drošības koeficients $\gamma_M$ |
 | :--- | :--- | :---: |
-| **Elementu un šķērsgriezumu pretestība:** | | |
+| Elementu un šķērsgriezumu pretestība: | | |
 | — Šķērsgriezuma nestspēja (visām klasēm) | Pretestība šķērsgriezuma plastiskai plūstamībai, ieskaitot sāniskās vērpes klupšanu | $\gamma_{M0} = 1,00$ |
 | — Elementu stabilitāte (noturības pārbaudes) | Stieņu pretestība izlieces un vērpes klupšanai stieņu pārbaudēs | **$\gamma_{M1} = 1,00$** * |
 | — Stieptu šķērsgriezumu sabrukums | Pretestība trauslam sabrukumam stieptos šķēlumos pie skrūvju caurumiem | $\gamma_{M2} = 1,25$ |
-| **Savienojumu pretestība:** | | |
+| Savienojumu pretestība: | | |
 | — Skrūvju un metinātie savienojumi | Pretestība skrūvēm, kniedēm, tapām un metinātajām šuvēm | $\gamma_{M2} = 1,25$ |
 | — Virsmu berzes pretestība (berzes šuvēm) | Pretestība slīdei (normāliem skrūvju caurumiem): <br> — nestspējas robežstāvoklī (ULS) <br> — lietojamības robežstāvoklī (SLS) | <br>$\gamma_{M3} = 1,25$ <br>$\gamma_{M3,ser} = 1,10$ |
 | — Injekcijas skrūvju savienojumi | Pretestība injekcijas skrūvēm | $\gamma_{M4} = 1,10$ |
@@ -48,14 +48,14 @@ Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) $d$ v
 | Elements | Attiecība $L/d$ | Provizoriskais augstums $d$ (mm) atkarībā no laiduma ($L$, m) | | | | | | | | |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | | | **3 m** | **4,5 m** | **6 m** | **7,5 m** | **9 m** | **12 m** | **15 m** | **23 m** | **30 m** | **45-90 m** |
-| **Sija (vispārīga)** | **20** | 230 | 300 | 390 | 460 | 610 | 770 | 1150 | — | — | — |
-| **Kompozītā sija** (ar betonu) | **28** | 200 | 220 | 270 | 320 | 440 | 550 | 820 | — | — | — |
-| **Rāmja sija (stinga)** | **10** | 460 | 610 | 760 | 900 | 1100 | 1500 | 2300 | — | — | — |
-| **Grīdas sekundārās sijas** | **20** | 150 | 230 | 300 | 400 | 450 | 600 | 750 | — | — | — |
-| **Jumta sekundārās sijas** | **24** | — | — | — | — | — | 640 | 800 | 950 | 1250 | — |
-| **Metināta lokšņu sija** | **15** | — | 400 | 500 | 600 | 800 | 1000 | 1500 | 2000 | — | — |
-| **Kopne** | **12** | — | 500 | 640 | 760 | 1000 | 1300 | 1900 | 2500 | 3000 | 5000-7000 |
-| **Telpisks režģis** | **16** | — | — | — | 570 | 760 | 950 | 1400 | 1900 | 2860 | 3800-5700 |
+| Sija (vispārīga) | **20** | 230 | 300 | 390 | 460 | 610 | 770 | 1150 | — | — | — |
+| Kompozītā sija (ar betonu) | **28** | 200 | 220 | 270 | 320 | 440 | 550 | 820 | — | — | — |
+| Rāmja sija (stinga) | **10** | 460 | 610 | 760 | 900 | 1100 | 1500 | 2300 | — | — | — |
+| Grīdas sekundārās sijas | **20** | 150 | 230 | 300 | 400 | 450 | 600 | 750 | — | — | — |
+| Jumta sekundārās sijas | **24** | — | — | — | — | — | 640 | 800 | 950 | 1250 | — |
+| Metināta lokšņu sija | **15** | — | 400 | 500 | 600 | 800 | 1000 | 1500 | 2000 | — | — |
+| Kopne | **12** | — | 500 | 640 | 760 | 1000 | 1300 | 1900 | 2500 | 3000 | 5000-7000 |
+| Telpisks režģis | **16** | — | — | — | 570 | 760 | 950 | 1400 | 1900 | 2860 | 3800-5700 |
 
 *Piezīme: Šī tabula paredzēta tikai provizoriskam izmēru novērtējumam. Galīgais šķērsgriezums vienmēr jānosaka ar stiprības, stabilitātes un izlieces aprēķiniem.*
 
@@ -76,8 +76,8 @@ Kopņu pašsvarā lielāko daļu sastāda joslas (ap 50% spiestā josla, 30% sti
 
 | Konstrukciju veids | Attiecība $L/D$ | Piezīmes |
 | :--- | :---: | :--- |
-| **Velmētie tērauda profili (sijas)** | $< 20$ | Lieces un izlieces kritēriji. |
-| **Vienlaiduma kopnes:** <br> — smagai slodzei <br> — vidējai slodzei <br> — vieglai slodzei (jumti) | <br>$12 \dots 15$ <br>$15 \dots 18$ <br>$18 \dots 21$ | Var izmantot lielākas attiecības robežas, ja mezglos tiek nodrošināti stingri (momentizturīgi) savienojumi. |
-| **Telpiskie režģi un plātnes** | $15 \dots 45$ | Balstās uz skrūvējamiem un metinātiem mezgliem. |
+| Velmētie tērauda profili (sijas) | $< 20$ | Lieces un izlieces kritēriji. |
+| Vienlaiduma kopnes: <br> — smagai slodzei <br> — vidējai slodzei <br> — vieglai slodzei (jumti) | <br>$12 \dots 15$ <br>$15 \dots 18$ <br>$18 \dots 21$ | Var izmantot lielākas attiecības robežas, ja mezglos tiek nodrošināti stingri (momentizturīgi) savienojumi. |
+| Telpiskie režģi un plātnes | $15 \dots 45$ | Balstās uz skrūvējamiem un metinātiem mezgliem. |
 
 ![Kopnes shēma](../images/ch09/img085.png)

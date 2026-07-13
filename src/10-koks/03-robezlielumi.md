@@ -10,9 +10,9 @@ Saskaņā ar LVS EN 1995-1-1/NA ieteicamās robežvērtības siju un plātņu ve
 
 | Konstrukcijas elements / Shēma | Momentānā izliece $w_{\text{inst}}$ | Neto galīgā izliece $w_{\text{net,fin}}$ | Kopējā galīgā izliece $w_{\text{fin}}$ |
 | :--- | :---: | :---: | :---: |
-| **Sijas uz diviem balstiem (pārsegumi)** | $L / 400$ | $L / 300$ | $L / 200$ |
-| **Konsolsijas (pārkares)** | $L / 200$ | $L / 150$ | $L / 100$ |
-| **Spāres, kopturi un jumta elementi** (bez trauslas apdares) | $L / 250$ | $L / 200$ | $L / 150$ |
+| Sijas uz diviem balstiem (pārsegumi) | $L / 400$ | $L / 300$ | $L / 200$ |
+| Konsolsijas (pārkares) | $L / 200$ | $L / 150$ | $L / 100$ |
+| Spāres, kopturi un jumta elementi (bez trauslas apdares) | $L / 250$ | $L / 200$ | $L / 150$ |
 
 *Apzīmējumi: $L$ — sijas laidums (konsoles gadījumā $L$ ir konsoles brīvais garums).*
 
