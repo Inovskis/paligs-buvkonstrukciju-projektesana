@@ -15,3 +15,9 @@
   git config user.name "Kasutaja"
   git config windows.appendAtomically false
   ```
+
+## Formulu sintakses verifikācija (Checker Agent)
+
+- **Verifikācija pirms saglabāšanas:** Pirms katra `git commit` veikšanas aģentam ir obligāti jāpalaiž verifikācijas skripts `python tools/verify_math.py`.
+- **Noteikums:** Skriptam ir jāatgriež veiksmes statuss (`Verification SUCCESSFUL`). Ja tiek atrastas kļūdas (neapstrādāti single `$` vai double `$$` simboli ārpus koda blokiem), aģentam tās ir nekavējoties jāizlabo, aizstājot ar mdBook saderīgu formātu `\\(...\\)` vai `\\[...\\]`.
+
