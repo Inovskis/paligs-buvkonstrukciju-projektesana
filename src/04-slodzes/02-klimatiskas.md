@@ -83,7 +83,7 @@ Visā Latvijas teritorijā, izņemot piekrastes zonas, vēja fundamentālais pam
 
 *Piezīme: Piekrastes zonas joslas platumu mēra no krasta līnijas, ja netiek ņemta vērā apvidus specifiskā orogrāfija. Jūrā un tiešā kāpu zonā ieteicams piemērot paaugstinātu vēja fundamentālo ātrumu pēc projektētāja novērtējuma.*
 
-![Vēja karte](../images/ch04/img007.png)
+![Vēja karte](../images/ch04/img007.jpg)
 
 ---
 
