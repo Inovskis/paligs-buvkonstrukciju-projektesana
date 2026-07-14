@@ -1,18 +1,18 @@
 # Tērauda materiālu fizikālās un mehāniskās īpašības
 
-Tērauda būvkonstrukciju aprēķiniem izmanto stiprības raksturlielumus (plūstamības robežu $f_y$ un stiepes stiprību $f_u$) un fizikālās konstantes saskaņā ar LVS EN 1993-1-1.
+Tērauda būvkonstrukciju aprēķiniem izmanto stiprības raksturlielumus (plūstamības robežu \\(f_y\\) un stiepes stiprību \\(f_u\\)) un fizikālās konstantes saskaņā ar LVS EN 1993-1-1.
 
 ---
 
 ## Tērauda stiprības raksturlielumi (LVS EN 1993-1-1 3.1. tabula)
 
-Tērauda stiprība samazinās, palielinoties velmētā elementa biezumam $t$.
+Tērauda stiprība samazinās, palielinoties velmētā elementa biezumam \\(t\\).
 
 **Konstrukciju tērauda stiprības robežvērtības pēc ražošanas standartiem:**
 
-| Standarts un tērauda klase | Tērauda marka | Biezums $t \le 40\text{ mm}$ | Biezums $t \le 40\text{ mm}$ | Biezums $40\text{ mm} < t \le 80\text{ mm}$ | Biezums $40\text{ mm} < t \le 80\text{ mm}$ |
+| Standarts un tērauda klase | Tērauda marka | Biezums \\(t \le 40\text{ mm}\\) | Biezums \\(t \le 40\text{ mm}\\) | Biezums \\(40\text{ mm} < t \le 80\text{ mm}\\) | Biezums \\(40\text{ mm} < t \le 80\text{ mm}\\) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| | | **$f_y$ (N/mm²)** | **$f_u$ (N/mm²)** | **$f_y$ (N/mm²)** | **$f_u$ (N/mm²)** |
+| | | **\\(f_y\\) (N/mm²)** | **\\(f_u\\) (N/mm²)** | **\\(f_y\\) (N/mm²)** | **\\(f_u\\) (N/mm²)** |
 | EN 10025-2 (Parastie oglekļa tēraudi) | **S 235** | 235 | 360 | 215 | 360 |
 | | **S 275** | 275 | 430 | 255 | 410 |
 | | **S 355** | 355 | 510 | 335 | 470 |
@@ -29,7 +29,7 @@ Tērauda stiprība samazinās, palielinoties velmētā elementa biezumam $t$.
 | | **S 355 W** | 355 | 510 | 335 | 490 |
 | EN 10025-6 (Uzlabotie tēraudi pēc rūdīšanas) | **S 460 Q/QL/QL1** | 460 | 570 | 440 | 550 |
 
-*\*Piezīme: Tērauda markai S 450 plūstamības robeža pie $t \le 40\text{ mm}$ ir pareizi norādīta kā $450\text{ N/mm}^2$ (iepriekšējā tabulā bija kļūdaina vērtība 440).*
+*\*Piezīme: Tērauda markai S 450 plūstamības robeža pie \\(t \le 40\text{ mm}\\) ir pareizi norādīta kā \\(450\text{ N/mm}^2\\) (iepriekšējā tabulā bija kļūdaina vērtība 440).*
 
 ---
 
@@ -38,15 +38,15 @@ Tērauda stiprība samazinās, palielinoties velmētā elementa biezumam $t$.
 Būvkonstrukciju elastīgajiem aprēķiniem visā Eirokodeksa saimē izmanto šādas standartizētas tērauda konstantes:
 
 - **Elastības modulis (Junga modulis):**
-  $$E = 210\ 000\text{ N/mm}^2 = 210\text{ GPa}$$
+  \[E = 210\ 000\text{ N/mm}^2 = 210\text{ GPa}\]
 - **Bīdes modulis:**
-  $$G = \frac{E}{2 \cdot (1 + \nu)} \approx 81\ 000\text{ N/mm}^2 = 81\text{ GPa}$$
+  \[G = \frac{E}{2 \cdot (1 + \nu)} \approx 81\ 000\text{ N/mm}^2 = 81\text{ GPa}\]
 - **Puasona koeficients:**
-  $$\nu = 0,30$$
+  \[\nu = 0,30\]
 - **Lineārās termiskās izplešanās koeficients:**
-  $$\alpha = 12 \cdot 10^{-6}\text{ K}^{-1}\text{ (jeb } 1/^\circ\text{C)}$$
+  \[\alpha = 12 \cdot 10^{-6}\text{ K}^{-1}\text{ (jeb } 1/^\circ\text{C)}\]
 - **Blīvums (tilpuma masa):**
-  $$\rho = 7850\text{ kg/m}^3\text{ (atbilst tilpumsvaram } \gamma \approx 78,5\text{ kN/m}^3)$$
+  \[\rho = 7850\text{ kg/m}^3\text{ (atbilst tilpumsvaram } \gamma \approx 78,5\text{ kN/m}^3)\]
 
 ---
 

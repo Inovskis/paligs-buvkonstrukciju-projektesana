@@ -46,7 +46,7 @@ Seku klases (Consequence Classes, CC) nosaka, ņemot vērā iespējamās sekas k
 | :--- | :--- | :--- |
 | **CC3** | Smagas sekas attiecībā uz cilvēku dzīvību zaudēšanu, ar ļoti lielām ekonomiskām, sociālām un apkārtējās vides sekām. | Publiskās ēkas, kuru sabrukšanas sekas ir smagas. Pieskaitāmas arī ēkas, kas uzskaitītas CC2a un CC2b, bet tām ir lielāka stāvu platība vai stāvu skaits. Visas publiskās ēkas, kurās nav cilvēku skaita ierobežojuma. Stadioni, kuros ir vairāk par 5 000 skatītāju vietu. Ēkas, kurās ir bīstamas vielas vai procesi. |
 | **CC2** | Vidējas sekas attiecībā uz cilvēku dzīvību zaudēšanu, ar ievērojamām ekonomiskām, sociālām un apkārtējās vides sekām. Pēc LVS EN 1991-1-7 izdala divas apakšklases: **CC2a** un **CC2b**. | Dzīvojamās un biroju ēkas, publiskās ēkas, kuru sabrukšanas sekas ir vidējas. Privātmājas ar 5 stāviem. Viesnīcas ar ne vairāk kā 4 stāviem. Dzīvojamās ēkas ar ne vairāk kā 4 stāviem. Biroja ēkas ar ne vairāk kā 4 stāviem. Industriālās ēkas ar ne vairāk kā 3 stāviem. Mazumtirdzniecības ēkas ar ne vairāk kā 3 stāviem un katra stāva platību ne lielāku par 1 000 m<sup>2</sup>. Vienstāva izglītības iestādes. Publiskas ēkas ar ne vairāk kā 2 stāviem un katra stāva platību ne lielāku par 2 000 m<sup>2</sup>. Viesnīcas un dzīvojamās mājas ar stāvu skaitu lielāku par 4 un nepārsniedz 15 stāvus. Izglītības iestādes ar stāvu skaitu lielāku par 1 un nepārsniedz 15 stāvus. Mazumtirdzniecības ēkas ar stāvu skaitu lielāku par 3 un nepārsniedz 15 stāvus. Slimnīcas ar stāvu skaitu ne vairāk kā 3. Biroja ēkas ar stāvu skaitu lielāku par 4 un nepārsniedz 15 stāvus. Publiskas ēkas, kurās stāva platība ir robežās no 2 000 m<sup>2</sup> līdz 5 000 m<sup>2</sup>. Auto stāvvietas ar ne vairāk kā 6 stāviem. |
-| **CC1** | Vieglas sekas ar mazu, vērā neņemamu risku cilvēka dzīvībai, ar vieglām ekonomiskām, sociālām un apkārtējās vides sekām. | Lauksaimniecības ēkas, kur parasti cilvēki neuzturas, piemēram, noliktavas un siltumnīcas, ja tās neatrodas tuvāk par $1,5$ ēkas augstumiem līdz blakus ēkām vai zonām, kur uzturas cilvēki. Pēc LVS EN 1991-1-7 pie šīs klases var pieskaitīt arī privātmājas ar ne vairāk kā 4 stāviem. |
+| **CC1** | Vieglas sekas ar mazu, vērā neņemamu risku cilvēka dzīvībai, ar vieglām ekonomiskām, sociālām un apkārtējās vides sekām. | Lauksaimniecības ēkas, kur parasti cilvēki neuzturas, piemēram, noliktavas un siltumnīcas, ja tās neatrodas tuvāk par \\(1,5\\) ēkas augstumiem līdz blakus ēkām vai zonām, kur uzturas cilvēki. Pēc LVS EN 1991-1-7 pie šīs klases var pieskaitīt arī privātmājas ar ne vairāk kā 4 stāviem. |
 
 ---
 
@@ -54,19 +54,19 @@ Seku klases (Consequence Classes, CC) nosaka, ņemot vērā iespējamās sekas k
 
 Ēku drošības klases (Reliability Classes, RC) tiešā veidā atbilst ēku seku klasēm: RC1 atbilst CC1, RC2 atbilst CC2 un RC3 atbilst CC3. 
 
-Drošuma jeb uzticamības līmenis tiek izteikts ar uzticamības indeksu $\beta$. Indekss $\beta$ ir saistīts ar konstrukcijas sabrukuma iestāšanās varbūtību $P_f$ ar formulu:
-$$P_f = \Phi(-\beta)$$
-kur $\Phi$ ir standarta normālā sadalījuma funkcija.
+Drošuma jeb uzticamības līmenis tiek izteikts ar uzticamības indeksu \\(\beta\\). Indekss \\(\beta\\) ir saistīts ar konstrukcijas sabrukuma iestāšanās varbūtību \\(P_f\\) ar formulu:
+\[P_f = \Phi(-\beta)\]
+kur \\(\Phi\\) ir standarta normālā sadalījuma funkcija.
 
-Praksē izmanto vienkāršotu paņēmienu drošības līmeņa koriģēšanai, izmantojot reizinātāju (korekcijas koeficientu) $K_{\text{FI}}$, ar kuru reizina pastāvīgo un mainīgo slodžu parciālos drošības koeficientus $\gamma_F$:
+Praksē izmanto vienkāršotu paņēmienu drošības līmeņa koriģēšanai, izmantojot reizinātāju (korekcijas koeficientu) \\(K_{\text{FI}}\\), ar kuru reizina pastāvīgo un mainīgo slodžu parciālos drošības koeficientus \\(\gamma_F\\):
 
 | Drošības klase | RC1 | RC2 | RC3 |
 | :--- | :---: | :---: | :---: |
-| Uzticamības indeksa $\beta$ mērķvērtība (1 gada references periodam) | 3.7 | 4.2 | 4.7 |
-| Uzticamības indeksa $\beta$ mērķvērtība (50 gadu references periodam) | 3.3 | 3.8 | 4.3 |
-| Slodžu korekcijas koeficients $K_{\text{FI}}$ | 0.9 | 1.0 | 1.1 |
+| Uzticamības indeksa \\(\beta\\) mērķvērtība (1 gada references periodam) | 3.7 | 4.2 | 4.7 |
+| Uzticamības indeksa \\(\beta\\) mērķvērtība (50 gadu references periodam) | 3.3 | 3.8 | 4.3 |
+| Slodžu korekcijas koeficients \\(K_{\text{FI}}\\) | 0.9 | 1.0 | 1.1 |
 
-*Piezīme: Saskaņā ar LBN 200-21 un LVS EN 1990 nacionālo pielikumu, koeficientu $K_{\text{FI}}$ parasti piemēro tikai mainīgajām (lietderīgajām, vēja, sniega) slodzēm.*
+*Piezīme: Saskaņā ar LBN 200-21 un LVS EN 1990 nacionālo pielikumu, koeficientu \\(K_{\text{FI}}\\) parasti piemēro tikai mainīgajām (lietderīgajām, vēja, sniega) slodzēm.*
 
 ---
 

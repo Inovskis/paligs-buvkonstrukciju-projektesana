@@ -14,7 +14,7 @@ Parasti rasējuma laukumu sadala šādās zonās:
 ![Rasējuma lapas izkārtojuma shēma](../images/ch11/img104.png)
 
 > [!TIP]
-> Specifikāciju un piezīmju bloku platumu ieteicams veidot tieši **$185\text{ mm}$** platumā (atbilstoši standarta rakstlaukuma platumam). Salokot lapu A4 formātā, specifikācijas un piezīmes būs uzreiz redzamas uz pirmās salocītās lapas virsmas, tās pilnībā neatlokot. Tas novērš arī svarīgas informācijas kropļošanu locījumu vietās.
+> Specifikāciju un piezīmju bloku platumu ieteicams veidot tieši **\\(185\text{ mm}\\)** platumā (atbilstoši standarta rakstlaukuma platumam). Salokot lapu A4 formātā, specifikācijas un piezīmes būs uzreiz redzamas uz pirmās salocītās lapas virsmas, tās pilnībā neatlokot. Tas novērš arī svarīgas informācijas kropļošanu locījumu vietās.
 
 ---
 
@@ -24,11 +24,11 @@ Rasējumu izstrādē izmanto šādus standarta A-sērijas lapu formātus:
 
 | Formāts | Izmēri (platums × augstums, mm) | Piezīmes |
 | :---: | :---: | :--- |
-| **A0** | $1189 \times 841$ | Lielformāta plāniem un kopsalikumiem. |
-| **A1** | $841 \times 594$ | Standarta izmērs būvkonstrukciju plāniem. |
-| **A2** | $594 \times 420$ | Izdevīgs mezglu lapām un mazākiem plāniem. |
-| **A3** | $420 \times 297$ | Ļoti ērts montāžas un mezglu shēmām (viegli pārnēsājams būvlaukumā). |
-| **A4** | $297 \times 210$ | Tikai specifikācijām, titullapām vai vienkāršām detaļām. |
+| **A0** | \\(1189 \times 841\\) | Lielformāta plāniem un kopsalikumiem. |
+| **A1** | \\(841 \times 594\\) | Standarta izmērs būvkonstrukciju plāniem. |
+| **A2** | \\(594 \times 420\\) | Izdevīgs mezglu lapām un mazākiem plāniem. |
+| **A3** | \\(420 \times 297\\) | Ļoti ērts montāžas un mezglu shēmām (viegli pārnēsājams būvlaukumā). |
+| **A4** | \\(297 \times 210\\) | Tikai specifikācijām, titullapām vai vienkāršām detaļām. |
 
 ### Lapu salocīšanas shēmas uzglabāšanai (LVS EN ISO 5457):
 

@@ -38,5 +38,5 @@ Saskaņā ar LVS EN 1997-2 B.3. pielikumu, izpētes punktu (urbumu, zondēšanas
 ## Izpētes punktu dziļums
 
 Urbšanas vai zondēšanas dziļumam ir jābūt tādam, lai sasniegtu nesošos slāņus un novērtētu to biezumu. 
-- Seklajiem pamatiem urbšanas dziļumam jābūt vismaz $6,0\text{ m}$ zem plānotā pamatu pēdas līmeņa vai līdz stiprai gruntij.
+- Seklajiem pamatiem urbšanas dziļumam jābūt vismaz \\(6,0\text{ m}\\) zem plānotā pamatu pēdas līmeņa vai līdz stiprai gruntij.
 - Pāļu pamatu izpētes dziļuma prasības skatīt sadaļā [Nepieciešamais ģeotehniskās izpētes dziļums pāļu pamatiem](file:///C:/Users/Kasutaja/Dropbox/Projects/paligs-buvkonstrukciju-projektesana/src/07-pamati/01-visparigie.md#nepieciēsamais-geotehniskās-izpētes-dziļums-pāļu-pamatiem).

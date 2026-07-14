@@ -8,7 +8,7 @@ Izmēru norādīšana rasējumos ir galvenais informācijas avots būvelementu i
 
 Izmēru līnijām ir skaidri jānorāda elementu gabarīti, atstatumi starp asīm un izbūves piesaistes, nepieļaujot to divdomīgu interpretāciju:
 - **Novietojums:** Izmēru līnijas izvieto ārpus konstrukcijas galvenās kontūras. Tās nedrīkst pārklāties ar stiegrojumu, šraffējumu (lūzuma līnijām) vai citiem grafiskajiem elementiem.
-- **Attālumi:** Pirmā izmēru līnija jāvelk vismaz **$10\text{ mm}$** attālumā no elementa kontūras. Paralēlās izmēru līnijas izvieto vismaz **$7 \dots 8\text{ mm}$** attālumā vienu no otras.
+- **Attālumi:** Pirmā izmēru līnija jāvelk vismaz **\\(10\text{ mm}\\)** attālumā no elementa kontūras. Paralēlās izmēru līnijas izvieto vismaz **\\(7 \dots 8\text{ mm}\\)** attālumā vienu no otras.
 - **Saskaņotība:** Izmērus izvieto vienotās ķēdēs. Ja iespējams, izmēru līnijas visā rasējuma garumā izlīdzina vienā līmenī, lai samazinātu krustojošos līniju skaitu.
 
 | Pareizs izmēru līniju izvietojums (ārpus kontūras) | Nepareizs (krustojošas un kontūru sedzošas līnijas) |

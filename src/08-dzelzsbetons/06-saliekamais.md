@@ -35,20 +35,20 @@ Saskaņā ar LVS EN 1168 G pielikumu, ugunsizturības klasēm, kas ir vienādas 
 
 ### Empīriskais šķērsspēka un enkurojuma vienādojums ugunsgrēka apstākļos:
 
-$$V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d$$
+\[V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d\]
 
 Kur:
-- $\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0$ (izmēra faktors, kur darba augstums $d$ ir milimetros);
-- $b_w$ — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);
-- $d$ — darba augstums normālā temperatūrā;
-- $C_{\theta,1}$ — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
-  $$C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)$$
-- $C_{\theta,2}$ — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
-  $$C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}$$
-- $\sigma_{cp,20^\circ\text{C}}$ — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;
-- $f_{c,fi,m}$ — betona vidējā spiedes stiprība paaugstinātā temperatūrā;
-- $F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}$ (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);
-- $f_{bpd,fi} = \eta_{p2} \cdot \eta_1 \cdot \frac{0,7 \cdot f_{ctm} \cdot k_{ct}(\theta_{p,m})}{\gamma_c}$ (saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos).
+- \\(\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0\\) (izmēra faktors, kur darba augstums \\(d\\) ir milimetros);
+- \\(b_w\\) — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);
+- \\(d\\) — darba augstums normālā temperatūrā;
+- \\(C_{\theta,1}\\) — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
+  \[C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)\]
+- \\(C_{\theta,2}\\) — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
+  \[C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}\]
+- \\(\sigma_{cp,20^\circ\text{C}}\\) — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;
+- \\(f_{c,fi,m}\\) — betona vidējā spiedes stiprība paaugstinātā temperatūrā;
+- \\(F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}\\) (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);
+- \\(f_{bpd,fi} = \eta_{p2} \cdot \eta_1 \cdot \frac{0,7 \cdot f_{ctm} \cdot k_{ct}(\theta_{p,m})}{\gamma_c}\\) (saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos).
 
 | G.2. attēls — Aprēķina modelis ar parasto enkurojumu | G.3. attēls — Aprēķina modelis ar izvirzītām dzīslām |
 | :---: | :---: |
@@ -64,15 +64,15 @@ Kur:
 
 **Prasības šuvju izmēriem pēc DIN 18540:**
 
-| Kustība šuvē $\Delta L$ (mm) | Nominālais šuves platums $b$ pie $+10\ ^\circ\text{C}$ (mm)* | Minimālais šuves platums $\min b$ (mm) | Blīvējuma (hermētiķa) dziļums $d$ (mm) |
+| Kustība šuvē \\(\Delta L\\) (mm) | Nominālais šuves platums \\(b\\) pie \\(+10\ ^\circ\text{C}\\) (mm)* | Minimālais šuves platums \\(\min b\\) (mm) | Blīvējuma (hermētiķa) dziļums \\(d\\) (mm) |
 | :---: | :---: | :---: | :---: |
-| $\le 2$ | 15 | 10 | $8 \pm 2$ |
-| $> 2 \dots \le 3,5$ | 20 | 15 | $10 \pm 2$ |
-| $> 3,5 \dots \le 5$ | 25 | 20 | $12 \pm 2$ |
-| $> 5 \dots \le 6,5$ | 30 | 25 | $15 \pm 3$ |
-| $> 6,5 \dots \le 8$ | 35 | 30 | $15 \pm 3$ |
+| \\(\le 2\\) | 15 | 10 | \\(8 \pm 2\\) |
+| \\(> 2 \dots \le 3,5\\) | 20 | 15 | \\(10 \pm 2\\) |
+| \\(> 3,5 \dots \le 5\\) | 25 | 20 | \\(12 \pm 2\\) |
+| \\(> 5 \dots \le 6,5\\) | 30 | 25 | \\(15 \pm 3\\) |
+| \\(> 6,5 \dots \le 8\\) | 35 | 30 | \\(15 \pm 3\\) |
 
-*\*Nominālā šuves platuma pieļaujamā būvdarbu novirze ir $\pm 5\text{ mm}$. Hermētiķa dziļuma un platuma attiecība parasti ir robežās no $1:1$ līdz $1:2$.*
+*\*Nominālā šuves platuma pieļaujamā būvdarbu novirze ir \\(\pm 5\text{ mm}\\). Hermētiķa dziļuma un platuma attiecība parasti ir robežās no \\(1:1\\) līdz \\(1:2\\).*
 
 ---
 
@@ -93,19 +93,19 @@ Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabar�
 
 Minimālie balsta garumi (earing lengths) uz nesošajām konstrukcijām, kas nodrošina drošu slodzes pārnesi un pieļauj būvdarbu novirzes:
 
-| Balstāmais elements | Nesošā konstrukcija | Plātnes biezums $h$ vai sijas laidums $L$ | Minimālais nominālais balsta garums (mm) |
+| Balstāmais elements | Nesošā konstrukcija | Plātnes biezums \\(h\\) vai sijas laidums \\(L\\) | Minimālais nominālais balsta garums (mm) |
 | :--- | :--- | :--- | :---: |
-| Dobumotās plātnes (HCS) | Betons / Tērauds | $h \le 300\text{ mm}$ | 60 – 80 |
-| | | $h > 300\text{ mm}$ | 100 – 120 |
-| | Mūris | $h \le 250\text{ mm}$ | 100 |
-| | | $h > 250\text{ mm}$ | 120 |
+| Dobumotās plātnes (HCS) | Betons / Tērauds | \\(h \le 300\text{ mm}\\) | 60 – 80 |
+| | | \\(h > 300\text{ mm}\\) | 100 – 120 |
+| | Mūris | \\(h \le 250\text{ mm}\\) | 100 |
+| | | \\(h > 250\text{ mm}\\) | 120 |
 | Masīvās plātnes (Floor planks) | Betons | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 30 <br> 50 |
 | | Mūris | Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem | 40 <br> 50 |
-| Ribotie pārsegumi (TT-plātnes) | Betons | Laidums $L \le 15\text{ m}$ | 150 |
-| Sekundārās jumta sijas | Betons | Laidums $L \le 8\text{ m}$ | 140 |
-| Pārseguma sijas | Betons | Laidums $L = 12 \dots 20\text{ m}$ | 200 – 230 |
-| Jumta sijas | Betons | Laidums $L \le 24\text{ m}$ | 195 |
-| | | Laidums $L \le 40\text{ m}$ | 225 |
+| Ribotie pārsegumi (TT-plātnes) | Betons | Laidums \\(L \le 15\text{ m}\\) | 150 |
+| Sekundārās jumta sijas | Betons | Laidums \\(L \le 8\text{ m}\\) | 140 |
+| Pārseguma sijas | Betons | Laidums \\(L = 12 \dots 20\text{ m}\\) | 200 – 230 |
+| Jumta sijas | Betons | Laidums \\(L \le 24\text{ m}\\) | 195 |
+| | | Laidums \\(L \le 40\text{ m}\\) | 225 |
 
 ---
 

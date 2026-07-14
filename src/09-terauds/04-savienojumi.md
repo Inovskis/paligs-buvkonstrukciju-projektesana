@@ -8,7 +8,7 @@ Tērauda būvkonstrukciju savienojumu (mezglu) aprēķini un konstruēšana tiek
 
 Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes un stiepes nestspēja saskaņā ar LVS EN 1993-1-8 Table 3.4:
 
-| Skrūve | Diametrs $d$ (mm) | Urbuma $\varnothing$ $d_0$ (mm)* | Vītnes laukums $A_s$ (mm²) | Kāta laukums $A$ (mm²) | Bīdes nestspēja $F_{v,Rd}$ (kN) (8.8 klase) | Bīdes nestspēja $F_{v,Rd}$ (kN) (10.9 klase) | Stiepes nestspēja $F_{t,Rd}$ (kN) (8.8 klase) | Stiepes nestspēja $F_{t,Rd}$ (kN) (10.9 klase) |
+| Skrūve | Diametrs \\(d\\) (mm) | Urbuma \\(\varnothing\\) \\(d_0\\) (mm)* | Vītnes laukums \\(A_s\\) (mm²) | Kāta laukums \\(A\\) (mm²) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (8.8 klase) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (10.9 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (8.8 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (10.9 klase) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **M12** | 12 | 13 | 84,3 | 113 | 32,4 | 33,7 | 48,6 | 60,7 |
 | **M16** | 16 | 18 | 157,0 | 201 | 60,3 | 62,8 | 90,4 | 113,0 |
@@ -19,9 +19,9 @@ Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes
 | **M36** | 36 | 39 | 817,0 | 1018 | 313,7 | 326,8 | 470,6 | 588,2 |
 
 *\*Piezīme:*
-- *Bīdes nestspēja $F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$ ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu ($\alpha_v = 0,6$ klasei 8.8; $\alpha_v = 0,5$ klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu $A$ un $\alpha_v = 0,6$.*
-- *Stiepes nestspēja $F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$, kur $k_2 = 0,9$ un $\gamma_{M2} = 1,25$.*
-- *Pieņemts $\gamma_{M2} = 1,25$, $f_{ub} = 800\text{ MPa}$ (8.8) un $1000\text{ MPa}$ (10.9).*
+- *Bīdes nestspēja \\(F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\) ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu (\\(\alpha_v = 0,6\\) klasei 8.8; \\(\alpha_v = 0,5\\) klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu \\(A\\) un \\(\alpha_v = 0,6\\).*
+- *Stiepes nestspēja \\(F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\), kur \\(k_2 = 0,9\\) un \\(\gamma_{M2} = 1,25\\).*
+- *Pieņemts \\(\gamma_{M2} = 1,25\\), \\(f_{ub} = 800\text{ MPa}\\) (8.8) un \\(1000\text{ MPa}\\) (10.9).*
 
 | Skrūvsavienojuma principiālā shēma | Skrūvju attālumu apzīmējumi |
 | :---: | :---: |
@@ -31,7 +31,7 @@ Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes
 
 ## Metinātie savienojumi (šuvju noformēšana)
 
-Stūra šuvju izmērus nosaka pēc to rīkles biezuma $a$ (metinājuma teorētiskais augstums) vai katetes izmēra $s$ ($s \approx a \cdot \sqrt{2}$):
+Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teorētiskais augstums) vai katetes izmēra \\(s\\) (\\(s \approx a \cdot \sqrt{2}\\)):
 
 ![Šuves biezums](../images/ch09/img088.png)
 
@@ -47,10 +47,10 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma $a$ (metinājuma teorētis
 
 | Nr. | Metinājuma apraksts un izpildes kārtība |
 | :---: | :--- |
-| **1** | Nepārtraukta vienpusēja stūra šuve ar $6\text{ mm}$ kāti (kateti) gar bultas norādīto līniju. Šuve atrodas bultas pusē. |
+| **1** | Nepārtraukta vienpusēja stūra šuve ar \\(6\text{ mm}\\) kāti (kateti) gar bultas norādīto līniju. Šuve atrodas bultas pusē. |
 | **2** | Tāpat kā 1, bet šuve atrodas pretējā pusē bultas norādītajai līnijai. |
 | **3** | Nepārtraukta divpusēja stūra šuve. |
-| **4** | Pārtraukta $6\text{ mm}$ stūra šuve ar $70\text{ mm}$ posmiem, izvietotiem ik pēc $180\text{ mm}$. Tikai bultas pusē. |
+| **4** | Pārtraukta \\(6\text{ mm}\\) stūra šuve ar \\(70\text{ mm}\\) posmiem, izvietotiem ik pēc \\(180\text{ mm}\\). Tikai bultas pusē. |
 | **5** | Šaha veidā izvietota pārtraukta stūra šuve abās pusēs. |
 | **6** | Tāpat kā 3, bet karodziņš norāda, ka šuve veicama montāžas vietā (būvlaukumā). |
 | **7** | Tāpat kā 1, bet šuve veicama pa visu elementa perimetru (aplis uz bultas lūzuma punkta). |
@@ -63,16 +63,16 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma $a$ (metinājuma teorētis
 | **14** | Tāpat kā 8(b), kur šuves sakne pirms pretmetināšanas ir jāizgriež/jāizstrādā. |
 | **15** | Tāpat kā 14, bet abas šuves virsmas pēc tam jānoslīpē līdzenas. |
 | **16** | Divpusēja slīpā saduršuve ar papildu stūra šuvēm labākai spriegumu pārejai un noguruma stiprībai. |
-| **17** | Sadursavienojums bez malu noslīpināšanas (taisnstūra šuve, tikai plānām loksnēm $t \le 3\text{ mm}$). |
+| **17** | Sadursavienojums bez malu noslīpināšanas (taisnstūra šuve, tikai plānām loksnēm \\(t \le 3\text{ mm}\\)). |
 | **18** | Aizpildmetinājums (plug weld / apaļš vai iegarens aizmetināts caurums). |
 
 ---
 
-### Metināto šuvju nestspēja S355 tēraudam ($f_u = 490\text{ MPa}$)
+### Metināto šuvju nestspēja S355 tēraudam (\\(f_u = 490\text{ MPa}\\))
 
-Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršotās metodes ar konservatīvu $f_u = 490\text{ MPa}$):
+Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršotās metodes ar konservatīvu \\(f_u = 490\text{ MPa}\\)):
 
-| Katete $s$ (mm) | Rīkle $a$ (mm) | Stiprība garenvirzienā $P_L$ (kN/mm) | Stiprība šķērsvirzienā $P_T$ (kN/mm) |
+| Katete \\(s\\) (mm) | Rīkle \\(a\\) (mm) | Stiprība garenvirzienā \\(P_L\\) (kN/mm) | Stiprība šķērsvirzienā \\(P_T\\) (kN/mm) |
 | :---: | :---: | :---: | :---: |
 | 3,0 | 2,1 | 0,53 | 0,66 |
 | 4,0 | 2,8 | 0,70 | 0,88 |
@@ -95,26 +95,26 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 ### 1. Skrūvju izvietojuma robežattālumi (M16 un M20, klase 8.8)
 
-| Skrūve | Urbuma $\varnothing$ $d_0$ | Minimālais malas attālums $e_1, e_2$ | Minimālais solis $p_1$ (rindā) | Minimālais solis $p_2$ (starp rindām) |
+| Skrūve | Urbuma \\(\varnothing\\) \\(d_0\\) | Minimālais malas attālums \\(e_1, e_2\\) | Minimālais solis \\(p_1\\) (rindā) | Minimālais solis \\(p_2\\) (starp rindām) |
 | :---: | :---: | :---: | :---: | :---: |
-| **M16** | 18 mm | 22 mm ($1,2 d_0$) | 40 mm ($2,2 d_0$) | 44 mm ($2,4 d_0$) |
-| **M20** | 22 mm | 27 mm ($1,2 d_0$) | 49 mm ($2,2 d_0$) | 53 mm ($2,4 d_0$) |
+| **M16** | 18 mm | 22 mm (\\(1,2 d_0\\)) | 40 mm (\\(2,2 d_0\\)) | 44 mm (\\(2,4 d_0\\)) |
+| **M20** | 22 mm | 27 mm (\\(1,2 d_0\\)) | 49 mm (\\(2,2 d_0\\)) | 53 mm (\\(2,4 d_0\\)) |
 
 ### 2. Standarta auss plākšņu konfigurācijas
 
-| Skrūvju skaits | M16 izvietojums (solis) | M20 izvietojums (solis) | M16 auss izmēri ($B \times H \times t$) | M20 auss izmēri ($B \times H \times t$) |
+| Skrūvju skaits | M16 izvietojums (solis) | M20 izvietojums (solis) | M16 auss izmēri (\\(B \times H \times t\\)) | M20 auss izmēri (\\(B \times H \times t\\)) |
 | :---: | :--- | :--- | :---: | :---: |
-| 2 skrūves | Vertikāli, 40 mm attālums | Vertikāli, 49 mm attālums | $110 \times 128 \times 10\text{ mm}$ | $120 \times 148 \times 10\text{ mm}$ |
-| 3 skrūves | Vertikāli, $2 \times 40\text{ mm}$ | Vertikāli, $2 \times 49\text{ mm}$ | $110 \times 168 \times 10\text{ mm}$ | $120 \times 198 \times 10\text{ mm}$ |
-| 4 skrūves | 2 rindās pa 2 ($44 \times 40\text{ mm}$) | 2 rindās pa 2 ($53 \times 49\text{ mm}$) | $154 \times 128 \times 10\text{ mm}$ | $173 \times 148 \times 10\text{ mm}$ |
-| 6 skrūves | 2 rindās pa 3 ($44 \times 80\text{ mm}$) | 2 rindās pa 3 ($53 \times 98\text{ mm}$) | $154 \times 168 \times 10\text{ mm}$ | $173 \times 198 \times 10\text{ mm}$ |
+| 2 skrūves | Vertikāli, 40 mm attālums | Vertikāli, 49 mm attālums | \\(110 \times 128 \times 10\text{ mm}\\) | \\(120 \times 148 \times 10\text{ mm}\\) |
+| 3 skrūves | Vertikāli, \\(2 \times 40\text{ mm}\\) | Vertikāli, \\(2 \times 49\text{ mm}\\) | \\(110 \times 168 \times 10\text{ mm}\\) | \\(120 \times 198 \times 10\text{ mm}\\) |
+| 4 skrūves | 2 rindās pa 2 (\\(44 \times 40\text{ mm}\\)) | 2 rindās pa 2 (\\(53 \times 49\text{ mm}\\)) | \\(154 \times 128 \times 10\text{ mm}\\) | \\(173 \times 148 \times 10\text{ mm}\\) |
+| 6 skrūves | 2 rindās pa 3 (\\(44 \times 80\text{ mm}\\)) | 2 rindās pa 3 (\\(53 \times 98\text{ mm}\\)) | \\(154 \times 168 \times 10\text{ mm}\\) | \\(173 \times 198 \times 10\text{ mm}\\) |
 
 ---
 
 ### 3. Savienojuma šķērsspēka nestspēja (kN) IPE profiliem
-*Auss biezums $t = 10\text{ mm}$, S355 tērauds. Noteicošā ir sijas sieniņas bīde vai skrūvju nestspēja.*
+*Auss biezums \\(t = 10\text{ mm}\\), S355 tērauds. Noteicošā ir sijas sieniņas bīde vai skrūvju nestspēja.*
 
-| Profils | Sieniņa $t_w$ (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
+| Profils | Sieniņa \\(t_w\\) (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | IPE 180 | 5,3 | 76 | 114 | 152 | 228 | 119 | — | 238 | — |
 | IPE 200 | 5,6 | 80 | 120 | 160 | 240 | 126 | — | 251 | 376 |
@@ -129,7 +129,7 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 ### 4. Savienojuma šķērsspēka nestspēja (kN) HEA profiliem
 
-| Profils | Sieniņa $t_w$ (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
+| Profils | Sieniņa \\(t_w\\) (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | HEA 160 | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
 | HEA 180 | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
@@ -140,29 +140,29 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 | HEA 300 | 8,5 | 122 | 182 | 243 | 365 | 191 | 287 | 383 | 574 |
 
 *Slodžu grupu krāsu kodi (projektēšanas atvieglošanai):*
-- *Zaļš: $< 100\text{ kN}$*
-- *Zils: $100 \dots 200\text{ kN}$*
-- *Gaiši oranžs: $200 \dots 300\text{ kN}$*
-- *Tumši oranžs: $> 300\text{ kN}$*
+- *Zaļš: \\(< 100\text{ kN}\\)*
+- *Zils: \\(100 \dots 200\text{ kN}\\)*
+- *Gaiši oranžs: \\(200 \dots 300\text{ kN}\\)*
+- *Tumši oranžs: \\(> 300\text{ kN}\\)*
 
 ---
 
 ## Metinājuma šuves izvēle saskaņā ar skrūvju nestspēju
 
 Lai garantētu, ka savienojuma metinājums nav vājākais posms, šuves tiek dimensionētas pēc nosacījuma:
-$$V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}$$
-Auss tiek metināta ar divpusēju stūra šuvi (rīkle $a$) pie nesošā elementa.
+\[V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}\]
+Auss tiek metināta ar divpusēju stūra šuvi (rīkle \\(a\\)) pie nesošā elementa.
 
-| Skrūves | Skrūvju grupas nestspēja | Nepieciešamā šuves pretestība | Auss augstums | Izvēlētais šuves biezums $a$ | Šuvju faktiskā nestspēja |
+| Skrūves | Skrūvju grupas nestspēja | Nepieciešamā šuves pretestība | Auss augstums | Izvēlētais šuves biezums \\(a\\) | Šuvju faktiskā nestspēja |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| 2 × M16 | 121 kN | 145 kN | 128 mm | **$a = 4\text{ mm}$** | 149 kN |
-| 3 × M16 | 181 kN | 217 kN | 168 mm | **$a = 5\text{ mm}$** | 249 kN |
-| 4 × M16 | 241 kN | 289 kN | 128 mm | **$a = 7\text{ mm}$** | 334 kN |
-| 6 × M16 | 362 kN | 434 kN | 168 mm | **$a = 8\text{ mm}$** | 481 kN |
-| 2 × M20 | 188 kN | 226 kN | 148 mm | **$a = 6\text{ mm}$** | 270 kN |
-| 3 × M20 | 282 kN | 338 kN | 198 mm | **$a = 6\text{ mm}$** | 361 kN |
-| 4 × M20 | 376 kN | 451 kN | 148 mm | **$a = 9\text{ mm}$** | 481 kN |
-| 6 × M20 | 565 kN | 678 kN | 198 mm | **$a = 9\text{ mm}$** | 723 kN |
+| 2 × M16 | 121 kN | 145 kN | 128 mm | **\\(a = 4\text{ mm}\\)** | 149 kN |
+| 3 × M16 | 181 kN | 217 kN | 168 mm | **\\(a = 5\text{ mm}\\)** | 249 kN |
+| 4 × M16 | 241 kN | 289 kN | 128 mm | **\\(a = 7\text{ mm}\\)** | 334 kN |
+| 6 × M16 | 362 kN | 434 kN | 168 mm | **\\(a = 8\text{ mm}\\)** | 481 kN |
+| 2 × M20 | 188 kN | 226 kN | 148 mm | **\\(a = 6\text{ mm}\\)** | 270 kN |
+| 3 × M20 | 282 kN | 338 kN | 198 mm | **\\(a = 6\text{ mm}\\)** | 361 kN |
+| 4 × M20 | 376 kN | 451 kN | 148 mm | **\\(a = 9\text{ mm}\\)** | 481 kN |
+| 6 × M20 | 565 kN | 678 kN | 198 mm | **\\(a = 9\text{ mm}\\)** | 723 kN |
 
 ---
 
@@ -182,13 +182,13 @@ Auss tiek metināta ar divpusēju stūra šuvi (rīkle $a$) pie nesošā element
 
 ## Rekomendētie risinājumi pēc šķērsspēka lieluma
 
-| Aprēķina šķērsspēks $V_{Ed}$ | 1. Izvēles risinājums | 2. Izvēles risinājums | 3. Izvēles risinājums |
+| Aprēķina šķērsspēks \\(V_{Ed}\\) | 1. Izvēles risinājums | 2. Izvēles risinājums | 3. Izvēles risinājums |
 | :--- | :--- | :--- | :--- |
-| $50 \dots 100\text{ kN}$ | 3 × M16 vertikāli | 2 × M16 vertikāli | 2 × M20 vertikāli |
-| $100 \dots 150\text{ kN}$ | 4 × M16 (2x2) | 3 × M16 vertikāli | 2 × M20 vertikāli |
-| $150 \dots 250\text{ kN}$ | 4 × M20 (2x2) | 4 × M16 (2x2) | 3 × M20 vertikāli |
-| $250 \dots 400\text{ kN}$ | 6 × M20 (2x3) | 6 × M16 (2x3) | 4 × M20 (2x2) |
-| $> 400\text{ kN}$ | 6 × M20 (2x3) | 6 × M20 (2x3) | 6 × M20 (2x3) |
+| \\(50 \dots 100\text{ kN}\\) | 3 × M16 vertikāli | 2 × M16 vertikāli | 2 × M20 vertikāli |
+| \\(100 \dots 150\text{ kN}\\) | 4 × M16 (2x2) | 3 × M16 vertikāli | 2 × M20 vertikāli |
+| \\(150 \dots 250\text{ kN}\\) | 4 × M20 (2x2) | 4 × M16 (2x2) | 3 × M20 vertikāli |
+| \\(250 \dots 400\text{ kN}\\) | 6 × M20 (2x3) | 6 × M16 (2x3) | 4 × M20 (2x2) |
+| \\(> 400\text{ kN}\\) | 6 × M20 (2x3) | 6 × M20 (2x3) | 6 × M20 (2x3) |
 
 ---
 

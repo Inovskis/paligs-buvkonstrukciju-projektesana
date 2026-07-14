@@ -1,14 +1,14 @@
 # Drošības un stiprības modifikācijas koeficienti
 
-Koka konstrukciju aprēķinā materiālu stiprības un deformācijas īpašības koriģē ar drošības koeficientiem ($\gamma_M$) un ietekmes koeficientiem ($k_{\text{mod}}$, $k_{\text{def}}$), kas atkarīgi no slodzes ilguma un vides mitruma.
+Koka konstrukciju aprēķinā materiālu stiprības un deformācijas īpašības koriģē ar drošības koeficientiem (\\(\gamma_M\\)) un ietekmes koeficientiem (\\(k_{\text{mod}}\\), \\(k_{\text{def}}\\)), kas atkarīgi no slodzes ilguma un vides mitruma.
 
 ---
 
-## Materiāla parciālie drošības koeficienti ($\gamma_M$)
+## Materiāla parciālie drošības koeficienti (\\(\gamma_M\\))
 
 Saskaņā ar LVS EN 1995-1-1 materiālu drošības koeficientu vērtības nestspējas robežstāvoklim (ULS):
 
-| Materiāls / Slodžu kombinācija | Parciālais koeficients $\gamma_M$ |
+| Materiāls / Slodžu kombinācija | Parciālais koeficients \\(\gamma_M\\) |
 | :--- | :---: |
 | Pamata kombinācija (ULS): | |
 | — Masīvā koksne | 1,30 |
@@ -23,10 +23,10 @@ Saskaņā ar LVS EN 1995-1-1 materiālu drošības koeficientu vērtības nestsp
 
 ---
 
-## Modifikācijas koeficienta $k_{\text{mod}}$ vērtības (LVS EN 1995-1-1/NA)
+## Modifikācijas koeficienta \\(k_{\text{mod}}\\) vērtības (LVS EN 1995-1-1/NA)
 
-Koeficients $k_{\text{mod}}$ ņem vērā slodzes darbības ilguma un koksnes mitruma ietekmi uz materiāla stiprību. Koka aprēķina stiprību $f_d$ nosaka kā:
-$$f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}$$
+Koeficients \\(k_{\text{mod}}\\) ņem vērā slodzes darbības ilguma un koksnes mitruma ietekmi uz materiāla stiprību. Koka aprēķina stiprību \\(f_d\\) nosaka kā:
+\[f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}\]
 
 | Materiāls | Standarts / Tips | Ekspluatācijas klase | Pastāvīgā slodze | Ilgstošā slodze | Vidēja ilguma slodze | Īslaicīgā slodze | Acumirklīgā slodze |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -73,10 +73,10 @@ Koka konstrukciju aprēķinos katra slodze tiek klasificēta pēc tās iedarbīb
 Lai ievērtētu apkārtējās vides temperatūras un relatīvā mitruma ietekmi uz konstrukciju, tās iedala trīs ekspluatācijas klasēs:
 
 - **1. ekspluatācijas klase:** 
-  Raksturojas ar koksnes mitrumu, kas atbilst temperatūrai $20\ ^\circ\text{C}$ un apkārtējā gaisa relatīvajam mitrumam, kas pārsniedz $65\%$ tikai dažas nedēļas gadā. Šajos apstākļos skuju koku vidējais līdzsvara mitrums nepārsniedz **$12\%$** (piemēram, slēgtas, apkurināmas ēkas). Šajā klasē jāņem vērā plaisāšanas risks koksnes žūšanas laikā.
+  Raksturojas ar koksnes mitrumu, kas atbilst temperatūrai \\(20\ ^\circ\text{C}\\) un apkārtējā gaisa relatīvajam mitrumam, kas pārsniedz \\(65\%\\) tikai dažas nedēļas gadā. Šajos apstākļos skuju koku vidējais līdzsvara mitrums nepārsniedz **\\(12\%\\)** (piemēram, slēgtas, apkurināmas ēkas). Šajā klasē jāņem vērā plaisāšanas risks koksnes žūšanas laikā.
 - **2. ekspluatācijas klase:** 
-  Raksturojas ar koksnes mitrumu, kas atbilst temperatūrai $20\ ^\circ\text{C}$ un apkārtējā gaisa relatīvajam mitrumam, kas pārsniedz $85\%$ tikai dažas nedēļas gadā. Līdzsvara mitrums nepārsniedz **$20\%$** (piemēram, ventilējami bēniņi, nojumes, neapkurināmas ēkas).
+  Raksturojas ar koksnes mitrumu, kas atbilst temperatūrai \\(20\ ^\circ\text{C}\\) un apkārtējā gaisa relatīvajam mitrumam, kas pārsniedz \\(85\%\\) tikai dažas nedēļas gadā. Līdzsvara mitrums nepārsniedz **\\(20\%\\)** (piemēram, ventilējami bēniņi, nojumes, neapkurināmas ēkas).
 - **3. ekspluatācijas klase:** 
-  Apstākļi, kas rada lielāku mitruma saturu nekā 2. klasē (līdzsvara mitrums **$> 20\%$**). Attiecināma uz āra apstākļiem pakļautām konstrukcijām bez pārseguma.
+  Apstākļi, kas rada lielāku mitruma saturu nekā 2. klasē (līdzsvara mitrums **\\(> 20\%\\)**). Attiecināma uz āra apstākļiem pakļautām konstrukcijām bez pārseguma.
 
 *Svarīgi: Izvēloties ekspluatācijas klasi, jāpievērš uzmanība ne tikai vidējam mitrumam, bet arī tā cikliskām izmaiņām (samirkšanai un izžūšanai), kas var izraisīt lielākas deformācijas un plaisas nekā pastāvīgi augsts mitrums.*

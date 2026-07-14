@@ -25,14 +25,14 @@ Lineārie elementi (sijas, dobumotie paneļi, kopnes) uzņem šķērsslodzes un 
 ### 1. Vienlaiduma (šarnīrveida) sija
 - **Statika:** Statiski nosakāma sistēma. Abos galos ir šarnīrveida atbalsti, kas neuzņem momentu.
 - **Moments laidumā:** Maksimālais moments ir laiduma vidū:
-  $$M_{\text{max}} = \frac{q \cdot L^2}{8}$$
+  \[M_{\text{max}} = \frac{q \cdot L^2}{8}\]
 - **Priekšrocības:** Vienkārša montāža un mezglu izveide, nav jutīga pret atbalstu sēšanos.
 - **Trūkumi:** Lielākas izlieces un nepieciešams lielāks šķērsgriezuma augstums.
 
 ### 2. Konsoles sija
 - **Statika:** Sija ar vienu brīvu galu un otru stingi iespīlētu atbalstā.
 - **Moments balstā:** Maksimālais moments veidojas iespīlējuma vietā (stiepta augšējā šķiedra):
-  $$M_{\text{max}} = -\frac{q \cdot L^2}{2}$$
+  \[M_{\text{max}} = -\frac{q \cdot L^2}{2}\]
 - **Trūkumi:** Ļoti jutīga pret iespīlējuma mezgla rotāciju un deformācijām.
 
 ### 3. Nepārtraukta (vairāklaidumu) sija

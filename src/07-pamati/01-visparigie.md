@@ -17,24 +17,24 @@ Aprēķina pieejā DA2 daļējos drošības koeficientus piemēro slodzēm (A ko
 
 Šo kombināciju apzīmē kā **A1 + M1 + R2**:
 
-### 1. Slodžu parciālie koeficienti ($\gamma_F$ vai $\gamma_E$ — A1 komplekts)
-- Pastāvīgā slodze (nelabvēlīga / labvēlīga): $\gamma_{G,sup} = 1,35$ / $\gamma_{G,inf} = 1,00$
-- Mainīgā slodze (nelabvēlīga / labvēlīga): $\gamma_{Q,sup} = 1,50$ / $\gamma_{Q,inf} = 0,00$
+### 1. Slodžu parciālie koeficienti (\\(\gamma_F\\) vai \\(\gamma_E\\) — A1 komplekts)
+- Pastāvīgā slodze (nelabvēlīga / labvēlīga): \\(\gamma_{G,sup} = 1,35\\) / \\(\gamma_{G,inf} = 1,00\\)
+- Mainīgā slodze (nelabvēlīga / labvēlīga): \\(\gamma_{Q,sup} = 1,50\\) / \\(\gamma_{Q,inf} = 0,00\\)
 
-### 2. Grunts stiprības parametru koeficienti ($\gamma_M$ — M1 komplekts)
-- Iekšējās berzes leņķa tangensam ($\tan\phi'$): $\gamma_{\phi'} = 1,00$
-- Efektīvajai kohēzijai ($c'$): $\gamma_{c'} = 1,00$
-- Nenoslogotai bīdes stiprībai ($c_u$): $\gamma_{cu} = 1,00$
+### 2. Grunts stiprības parametru koeficienti (\\(\gamma_M\\) — M1 komplekts)
+- Iekšējās berzes leņķa tangensam (\\(\tan\phi'\\)): \\(\gamma_{\phi'} = 1,00\\)
+- Efektīvajai kohēzijai (\\(c'\\)): \\(\gamma_{c'} = 1,00\\)
+- Nenoslogotai bīdes stiprībai (\\(c_u\\)): \\(\gamma_{cu} = 1,00\\)
 
-### 3. Pamatnes pretestības koeficienti ($\gamma_R$ — R2 komplekts)
+### 3. Pamatnes pretestības koeficienti (\\(\gamma_R\\) — R2 komplekts)
 - **Seklajiem pamatiem:**
-  - Vertikālā nestspēja (spiedē): $\gamma_{R,v} = 1,4$
-  - Horizontālā nestspēja (bīdē): $\gamma_{R,h} = 1,1$
+  - Vertikālā nestspēja (spiedē): \\(\gamma_{R,v} = 1,4\\)
+  - Horizontālā nestspēja (bīdē): \\(\gamma_{R,h} = 1,1\\)
 - **Pāļu pamatiem (urbpāļiem un dzenamajiem pāļiem):**
-  - Pāļa gala pretestība spiedē: $\gamma_{R,b} = 1,1$
-  - Pāļa sānu virsmas pretestība spiedē: $\gamma_{R,s} = 1,1$
-  - Kopējā pāļa pretestība spiedē: $\gamma_{R,t} = 1,1$
-  - Pāļa pretestība stiepē (izvilkšanai): $\gamma_{R,t,t} = 1,15$
+  - Pāļa gala pretestība spiedē: \\(\gamma_{R,b} = 1,1\\)
+  - Pāļa sānu virsmas pretestība spiedē: \\(\gamma_{R,s} = 1,1\\)
+  - Kopējā pāļa pretestība spiedē: \\(\gamma_{R,t} = 1,1\\)
+  - Pāļa pretestība stiepē (izvilkšanai): \\(\gamma_{R,t,t} = 1,15\\)
 
 ![Slodžu un pretestību shēma](../images/ch07/img015.png)
 
@@ -44,8 +44,8 @@ Aprēķina pieejā DA2 daļējos drošības koeficientus piemēro slodzēm (A ko
 
 Ģeotehniskās izpētes urbumu vai statiskās zondēšanas (CPT) dziļumam ir jābūt pietiekamam, lai droši novērtētu grunts slāņu sastāvu un stiprību zem pāļu gala.
 
-Saskaņā ar LVS EN 1997-2 B pielikumu, pāļu pamatiem izpētes dziļumam $z_a$ zem plānotā pāļu gala līmeņa jāatbilst lielākajam no šādiem nosacījumiem:
-- $z_a \ge 5,0\text{ m}$ zem pāļa gala;
-- $z_a \ge 3 \cdot D_F$ (kur $D_F$ ir pāļu grupas pamata ekvivalentais platums vai diametrs pāļu gala līmenī).
+Saskaņā ar LVS EN 1997-2 B pielikumu, pāļu pamatiem izpētes dziļumam \\(z_a\\) zem plānotā pāļu gala līmeņa jāatbilst lielākajam no šādiem nosacījumiem:
+- \\(z_a \ge 5,0\text{ m}\\) zem pāļa gala;
+- \\(z_a \ge 3 \cdot D_F\\) (kur \\(D_F\\) ir pāļu grupas pamata ekvivalentais platums vai diametrs pāļu gala līmenī).
 
 ![Urbšanas dziļuma shēma](../images/ch07/img016.png)

@@ -9,7 +9,7 @@ Tērauda būvkonstrukciju projektēšanā un izgatavošanā piemērojamas papild
 Izpildes klases (Execution Classes, EXC) nosaka kvalitātes kontroles prasības konstrukciju izgatavošanai un montāžai saskaņā ar LVS EN 1090-2:
 
 - **EXC1:** 
-  - **Kritēriji:** Nesošās konstrukcijas no tērauda līdz stiprības klasei S275; ēkas līdz 2 stāviem (līdz 4 stāviem, ja tās stāv atsevišķi); lieces sijas līdz $5\text{ m}$; konsoles līdz $2\text{ m}$; kāpnes un margas dzīvojamās ēkās; lauksaimniecības ēkas (noliktavas, šķūņi).
+  - **Kritēriji:** Nesošās konstrukcijas no tērauda līdz stiprības klasei S275; ēkas līdz 2 stāviem (līdz 4 stāviem, ja tās stāv atsevišķi); lieces sijas līdz \\(5\text{ m}\\); konsoles līdz \\(2\text{ m}\\); kāpnes un margas dzīvojamās ēkās; lauksaimniecības ēkas (noliktavas, šķūņi).
 - **EXC2:** 
   - **Kritēriji:** Nesošās konstrukcijas no tērauda līdz stiprības klasei S700; ēkas no 2 līdz 15 stāviem. Šī ir visizplatītākā klase parastām būvēm.
 - **EXC3:** 
@@ -23,7 +23,7 @@ Izpildes klases (Execution Classes, EXC) nosaka kvalitātes kontroles prasības 
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | | **Izmantošanas klase** | **SC1** | **SC2** | **SC1** | **SC2** | **SC1** | **SC2** |
 | **PC1** | (Nemetināti elementi vai tērauds < S355) | EXC1 | EXC2 | EXC2 | EXC3 | EXC3 | EXC3 |
-| **PC2** | (Metināti elementi vai tērauds $\ge$ S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |
+| **PC2** | (Metināti elementi vai tērauds \\(\ge\\) S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |
 
 ---
 
@@ -82,19 +82,19 @@ Kalpošanas ilgums definē vēlamo laika periodu līdz pirmajai uzturēšanas kr
 
 ## Vertikālo izlieču robežvērtības (LVS EN 1993-1-1 7.2.1. punkts)
 
-Ieteicamās vertikālo izlieču robežvērtības ($w_{\text{max}}$) konstrukciju elementiem pie raksturīgās (elastīgās) slodžu kombinācijas:
+Ieteicamās vertikālo izlieču robežvērtības (\\(w_{\text{max}}\\)) konstrukciju elementiem pie raksturīgās (elastīgās) slodžu kombinācijas:
 
-| Konstrukciju elementi | Deformāciju robežvērtības $w_{\text{max}}$ |
+| Konstrukciju elementi | Deformāciju robežvērtības \\(w_{\text{max}}\\) |
 | :--- | :---: |
-| Sijas, rīģeļi un kopnes starpstāvu pārsegumos: <br> — ja laidums $L < 12\text{ m}$ <br> — ja laidums $12\text{ m} < L < 24\text{ m}$ <br> — ja laidums $L > 24\text{ m}$ | <br>**$L/250$** <br> Lineāra interpolācija <br>**$L/300$** |
-| Sijas, rīģeļi un kopnes jumta pārsegumos: <br> — ja laidums $L < 12\text{ m}$ <br> — ja laidums $12\text{ m} \le L < 24\text{ m}$ <br> — ja laidums $L > 24\text{ m}$ | <br>**$L/200$** <br> Lineāra interpolācija <br>**$L/250$** |
-| Sijas starpstāvu pārsegumos pēc starpsienu izbūves (kas balsta trauslas starpsienas) | **$L/400$** (tikai no slodzēm pēc starpsienu izbūves) |
-| Fasādes vai stiklojuma nesošās konstrukcijas | Atbilstoši fasādes/stiklojuma sistēmas prasībām (parasti $L/300$ vai $15\text{ mm}$) |
-| Lokšņu segumi (profilētās loksnes): <br> — jumta pārsegumos <br> — starpstāvu pārsegumos | <br>**$L/200$** <br>**$L/250$** |
+| Sijas, rīģeļi un kopnes starpstāvu pārsegumos: <br> — ja laidums \\(L < 12\text{ m}\\) <br> — ja laidums \\(12\text{ m} < L < 24\text{ m}\\) <br> — ja laidums \\(L > 24\text{ m}\\) | <br>**\\(L/250\\)** <br> Lineāra interpolācija <br>**\\(L/300\\)** |
+| Sijas, rīģeļi un kopnes jumta pārsegumos: <br> — ja laidums \\(L < 12\text{ m}\\) <br> — ja laidums \\(12\text{ m} \le L < 24\text{ m}\\) <br> — ja laidums \\(L > 24\text{ m}\\) | <br>**\\(L/200\\)** <br> Lineāra interpolācija <br>**\\(L/250\\)** |
+| Sijas starpstāvu pārsegumos pēc starpsienu izbūves (kas balsta trauslas starpsienas) | **\\(L/400\\)** (tikai no slodzēm pēc starpsienu izbūves) |
+| Fasādes vai stiklojuma nesošās konstrukcijas | Atbilstoši fasādes/stiklojuma sistēmas prasībām (parasti \\(L/300\\) vai \\(15\text{ mm}\\)) |
+| Lokšņu segumi (profilētās loksnes): <br> — jumta pārsegumos <br> — starpstāvu pārsegumos | <br>**\\(L/200\\)** <br>**\\(L/250\\)** |
 | Balkoni, kāpnes, platformas un gājēju pārejas | Tādas pašas prasības kā ēkas pārsegumu pamatelementiem |
-| Citi nenosauktie pārsegumu un sienu elementi | **$L/200$** |
+| Citi nenosauktie pārsegumu un sienu elementi | **\\(L/200\\)** |
 
-*Piezīme: $L$ ir brīvi balstītas vai nepārtrauktas konstrukcijas laidums (konsolēm robežvērtību attiecina pret dubultu konsoles garumu, t.i., $2 \cdot L_{\text{kons}}$).*
+*Piezīme: \\(L\\) ir brīvi balstītas vai nepārtrauktas konstrukcijas laidums (konsolēm robežvērtību attiecina pret dubultu konsoles garumu, t.i., \\(2 \cdot L_{\text{kons}}\\)).*
 
 ---
 
@@ -104,9 +104,9 @@ Ieteicamās horizontālo pārvietojumu (sānslīžu) robežvērtības karkasa b�
 
 | Konstrukciju elementi / Būves tips | Pārvietojumu robežvērtības |
 | :--- | :---: |
-| Daudzstāvu karkasa ēkas (kopējais augstums $H$) | **$H/500$** (ēkas kopējais sānu izliekums) |
-| Katra atsevišķa stāva augstums ($H_c$) | **$H_c/250$** (stāva relatīvā sānslīde) |
-| Vienstāva rūpnieciskie karkasi un noliktavas (bez celtņiem, augstums $H_c$) | **$H_c/150$** |
-| Karkasi pēc starpsienu izbūves (ja karkass robežojas ar trauslām starpsienām) | **$H_c/500$** (no slodzēm pēc starpsienu izbūves) |
+| Daudzstāvu karkasa ēkas (kopējais augstums \\(H\\)) | **\\(H/500\\)** (ēkas kopējais sānu izliekums) |
+| Katra atsevišķa stāva augstums (\\(H_c\\)) | **\\(H_c/250\\)** (stāva relatīvā sānslīde) |
+| Vienstāva rūpnieciskie karkasi un noliktavas (bez celtņiem, augstums \\(H_c\\)) | **\\(H_c/150\\)** |
+| Karkasi pēc starpsienu izbūves (ja karkass robežojas ar trauslām starpsienām) | **\\(H_c/500\\)** (no slodzēm pēc starpsienu izbūves) |
 
-*Apzīmējumi: $H$ — ēkas kopējais augstums no pamatiem; $H_c$ — attiecīgā stāva kolonnas augstums.*
+*Apzīmējumi: \\(H\\) — ēkas kopējais augstums no pamatiem; \\(H_c\\) — attiecīgā stāva kolonnas augstums.*

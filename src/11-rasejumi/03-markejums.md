@@ -11,7 +11,7 @@ Norāžu līnijas izmanto, lai piesaistītu anotācijas, elementu markas vai izm
   - **Bultiņa:** Izmanto, ja norādes līnija beidzas tieši **uz elementa kontūras** (ārējās robežlīnijas);
   - **Punkts (bumbulis):** Izmanto, ja norādes līnija beidzas **elementa iekšpusē** (uz tā laukuma vai šķērsgriezumā);
   - **Bez nobeiguma (tīra līnija):** Izmanto, ja norādes līnija beidzas uz izmēru līnijas vai koordinācijas ass.
-- **Virziens un stils:** Norāžu līniju slīpajām daļām vēlams būt leņķī pret asīm (visbiežāk $30^\circ$, $45^\circ$ vai $60^\circ$). Slikta prakse ir zīmēt norāžu līnijas ar nelielu nobīdi ($1^\circ \dots 5^\circ$) no horizontāles vai vertikāles, kas vizuāli izskatās pēc rasēšanas kļūdas.
+- **Virziens un stils:** Norāžu līniju slīpajām daļām vēlams būt leņķī pret asīm (visbiežāk \\(30^\circ\\), \\(45^\circ\\) vai \\(60^\circ\\)). Slikta prakse ir zīmēt norāžu līnijas ar nelielu nobīdi (\\(1^\circ \dots 5^\circ\\)) no horizontāles vai vertikāles, kas vizuāli izskatās pēc rasēšanas kļūdas.
 - **Krustošanās:** Norāžu līnijas nedrīkst krustoties savā starpā vai krustot izmēru līnijas.
 
 | Norāde uz kontūru (bultiņa) | Norāde elementa iekšienē (punkts) | Norāde uz asi (bez gala apzīmējuma) |

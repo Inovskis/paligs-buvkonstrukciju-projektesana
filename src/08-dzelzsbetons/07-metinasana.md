@@ -31,8 +31,8 @@ Stieņu pārseguma metināšana ar gareniskajām šuvēm.
 *Skaidrojums:*
 - **1** — metināšanas sākumā elektrodam jāatrodas savienojuma punktā starp stiegrām (metināšanas saknē);
 - **2** — metināšanas virziens;
-- **$d_s$** — mazākās savienojamās stiegras diametrs;
-- minimālais šuves garums parasti ir $5d_s$ (vienpusējai šuvei) vai $10d_s$ atkarībā no aprēķina slodzes.
+- **\\(d_s\\)** — mazākās savienojamās stiegras diametrs;
+- minimālais šuves garums parasti ir \\(5d_s\\) (vienpusējai šuvei) vai \\(10d_s\\) atkarībā no aprēķina slodzes.
 
 ---
 
@@ -46,7 +46,7 @@ Divu stieņu savienojums, izmantojot uzlikas (stiegrojuma gabalus) un flankējo�
 - **1** — metināšanas sākumā elektrodam jāatrodas savienojuma punktā starp stiegrām;
 - **2** — metināšanas virziens, ja metināšanu veic horizontālā stāvoklī. Metinot vertikāli, šuve jāveic virzienā no apakšas uz augšu;
 - **3** — elektroda noņemšanas vieta (krātera aizpildīšana);
-- **$d_s$** — mazākās savienojamās stiegras diametrs.
+- **\\(d_s\\)** — mazākās savienojamās stiegras diametrs.
 
 ---
 

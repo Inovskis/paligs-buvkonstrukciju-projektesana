@@ -8,7 +8,7 @@ Aprēķinot dobumoto dzelzsbetona plātņu pašsvara slodzi, ir būtiski ievērt
 
 **Izplatītāko dobumoto paneļu (HCS) pašsvara slodzes ar aizpildītām šuvēm:**
 
-| Nr. | Šķērsgriezums | Augstums $H$ (mm) | Platums $B$ (mm) | Pašsvars ar šuvēm (kN/m²) | Šuvju aizpildījuma apjoms (l/m²) |
+| Nr. | Šķērsgriezums | Augstums \\(H\\) (mm) | Platums \\(B\\) (mm) | Pašsvars ar šuvēm (kN/m²) | Šuvju aizpildījuma apjoms (l/m²) |
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | 1 | HCS 200 | 200 | 1196 | 2,55 | 7,0 |
 | 2 | HCS 220 | 220 | 1196 | 3,40 | 8,0 |
@@ -23,7 +23,7 @@ Aprēķinot dobumoto dzelzsbetona plātņu pašsvara slodzi, ir būtiski ievērt
 
 Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā noteiktos tilpumsvarus:
 
-| Nr. | Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| Nr. | Materiāla nosaukums | Tilpumsvars \\(\gamma\\) (kN/m³) |
 | :---: | :--- | :---: |
 | 1 | Tērauds | 78,50 |
 | 2 | Dzelzsbetons (parasts ar stiegrojumu)* | 25,00 |
@@ -44,4 +44,4 @@ Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā noteiktos
 
 Ja projektēšanas sākuma posmā nav pieejama precīza informācija par griestu konstrukciju un inženierkomunikāciju izvietojumu zem dimensionējamā pārseguma, kā standarta pieņēmumu ieteicams izmantot šādu slodzi:
 
-- **Apdares slodze griestiem un komunikācijām: $0,50\text{ kN/m}^2$** (tas ievērtē piekārto ģipškartona griestu karkasu, izolāciju, gaismekļus un parastās inženierkomunikācijas, piemēram, ventilācijas (AVK) cauruļvadus).
+- **Apdares slodze griestiem un komunikācijām: \\(0,50\text{ kN/m}^2\\)** (tas ievērtē piekārto ģipškartona griestu karkasu, izolāciju, gaismekļus un parastās inženierkomunikācijas, piemēram, ventilācijas (AVK) cauruļvadus).

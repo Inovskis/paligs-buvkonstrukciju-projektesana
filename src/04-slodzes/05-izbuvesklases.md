@@ -15,7 +15,7 @@ Parasti izpildes klasi pieņem atbilstoši būves seku klasei (piemēram, EXC1 a
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | | **Izmantošanas klase** | **SC1** | **SC2** | **SC1** | **SC2** | **SC1** | **SC2** |
 | **PC1** | (Nemetināti elementi vai tērauds < S355) | EXC1 | EXC2 | EXC2 | EXC3 | EXC3 | EXC3 |
-| **PC2** | (Metināti elementi vai tērauds $\ge$ S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |
+| **PC2** | (Metināti elementi vai tērauds \\(\ge\\) S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |
 
 *Piezīme: Parastām ēkām (statiska slodze, seku klase CC2, izmantošanas klase SC1 un metināti elementi no S355 tērauda - PC2) standarta izpildes klase ir **EXC2**.*
 
