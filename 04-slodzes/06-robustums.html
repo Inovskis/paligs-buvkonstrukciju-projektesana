@@ -204,8 +204,8 @@
 <li><strong>Prasības:</strong> Papildus normālajām stabilitātes pārbaudēm ir jānodrošina:
 <ul>
 <li><strong>Saišu sistēma:</strong> Horizontālas saites pārsegumos (LVS EN 1991-1-7 A.5.) un vertikālas saites kolonnās/nesošajās sienās (A.6. punkts).</li>
-<li><strong>Lokālā sabrukuma ierobežošana:</strong> Konstrukcijai jābūt projektētai tā, lai, izņemot jebkuru vienu nesošo elementu (piemēram, vienu kolonnu, siju, kas balsta kolonnu, vai nesošās sienas fragmentu viena stāva robežās), lokālais sabrukums nepārsniegtu <strong>15% no stāva platības</strong> un būtu <strong>mazāks par $100\text{ m}^2$</strong>.</li>
-<li><strong>Atslēgas elementi (Key Elements):</strong> Ja kāda nesošā elementa sabrukums rada lielāku sabrukuma apgabalu par 15% vai $100\text{ m}^2$, šis elements ir jāuzskata par atslēgas elementu un jāprojektē tā, lai tas izturētu ārkārtas iedarbību ar raksturīgo vērtību <strong>$A_d = 34\text{ kN/m}^2$</strong> (spiediens uz elementu no jebkura virziena).</li>
+<li><strong>Lokālā sabrukuma ierobežošana:</strong> Konstrukcijai jābūt projektētai tā, lai, izņemot jebkuru vienu nesošo elementu (piemēram, vienu kolonnu, siju, kas balsta kolonnu, vai nesošās sienas fragmentu viena stāva robežās), lokālais sabrukums nepārsniegtu <strong>15% no stāva platības</strong> un būtu <strong>mazāks par \(100\text{ m}^2\)</strong>.</li>
+<li><strong>Atslēgas elementi (Key Elements):</strong> Ja kāda nesošā elementa sabrukums rada lielāku sabrukuma apgabalu par 15% vai \(100\text{ m}^2\), šis elements ir jāuzskata par atslēgas elementu un jāprojektē tā, lai tas izturētu ārkārtas iedarbību ar raksturīgo vērtību <strong>\(A_d = 34\text{ kN/m}^2\)</strong> (spiediens uz elementu no jebkura virziena).</li>
 </ul>
 </li>
 </ul>
@@ -218,43 +218,43 @@
 <p>Pārseguma plātnēs un sijās ir jāparedz stiepes saites, kuras parasti veido ar konstrukcijas stiegrojumu vai tērauda elementiem.</p>
 <ul>
 <li>
-<p><strong>Pārseguma iekšējās saites ($T_i$):</strong>
-$$T_i = 0,8 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}$$</p>
+<p><strong>Pārseguma iekšējās saites (\(T_i\)):</strong>
+[T_i = 0,8 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}]</p>
 </li>
 <li>
-<p><strong>Pārseguma perimetra saites ($T_p$):</strong>
-$$T_p = 0,4 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}$$</p>
+<p><strong>Pārseguma perimetra saites (\(T_p\)):</strong>
+[T_p = 0,4 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}]</p>
 </li>
 </ul>
 <p>Kur:</p>
 <ul>
-<li>$g_k$ — pastāvīgā slodze uz pārseguma ($kN/m^2$);</li>
-<li>$q_k$ — mainīgā slodze uz pārseguma ($kN/m^2$);</li>
-<li>$\psi$ — slodzes kombinācijas koeficients (parasti izmanto $\psi_2$);</li>
-<li>$s$ — kolonu solis / attālums starp saitēm (m);</li>
-<li>$L$ — saites laidums (attālums starp kolonnām) (m).</li>
+<li>\(g_k\) — pastāvīgā slodze uz pārseguma (\(kN/m^2\));</li>
+<li>\(q_k\) — mainīgā slodze uz pārseguma (\(kN/m^2\));</li>
+<li>\(\psi\) — slodzes kombinācijas koeficients (parasti izmanto \(\psi_2\));</li>
+<li>\(s\) — kolonu solis / attālums starp saitēm (m);</li>
+<li>\(L\) — saites laidums (attālums starp kolonnām) (m).</li>
 </ul>
 <p><img src="../images/ch04/img010_diagram.png" alt="Saišu shēma kolonnām" /></p>
-<p><em>Apzīmējumi: (a) saites laidums $L$, (b) sijas vai plātnes stiegrojums (kas pilda saites funkciju), (c) perimetra saite, (d) saites enkurojums kolonnā.</em></p>
+<p><em>Apzīmējumi: (a) saites laidums \(L\), (b) sijas vai plātnes stiegrojums (kas pilda saites funkciju), (c) perimetra saite, (d) saites enkurojums kolonnā.</em></p>
 <hr />
 <h2 id="horizontālo-saišu-aprēķins-pārsegumiem-kas-balstīti-uz-sienām"><a class="header" href="#horizontālo-saišu-aprēķins-pārsegumiem-kas-balstīti-uz-sienām">Horizontālo saišu aprēķins pārsegumiem, kas balstīti uz sienām</a></h2>
 <p>Plātnēs, kas balstās uz nesošajām sienām, stiepes saitēm jānodrošina šāda nestspēja:</p>
 <ul>
 <li>
-<p><strong>Pārseguma iekšējās saites ($T_i$):</strong>
-$$T_i = \frac{F_t}{37,5} \cdot (g_k + \psi \cdot q_k) \cdot z \ge F_t\text{ (kN/m)}$$
-<em>(Šī formula izriet no EN 1991-1-7 prasības: $T_i = \frac{g_k + \psi \cdot q_k}{7,5} \cdot \frac{z}{5} \cdot F_t \ge F_t$)</em></p>
+<p><strong>Pārseguma iekšējās saites (\(T_i\)):</strong>
+[T_i = \frac{F_t}{37,5} \cdot (g_k + \psi \cdot q_k) \cdot z \ge F_t\text{ (kN/m)}]
+<em>(Šī formula izriet no EN 1991-1-7 prasības: \(T_i = \frac{g_k + \psi \cdot q_k}{7,5} \cdot \frac{z}{5} \cdot F_t \ge F_t\))</em></p>
 </li>
 <li>
-<p><strong>Pārseguma perimetra saites ($T_p$):</strong>
-$$T_p = F_t\text{ (kN)}$$</p>
+<p><strong>Pārseguma perimetra saites (\(T_p\)):</strong>
+[T_p = F_t\text{ (kN)}]</p>
 </li>
 </ul>
 <p>Kur:</p>
 <ul>
-<li>$F_t = (20 + 4 \cdot n_s) \le 60\text{ kN/m}$ (pamata stiepes spēks);</li>
-<li>$n_s$ — būves stāvu skaits;</li>
-<li>$z$ — attālums starp saitēm (m), kur $z = L$ (plātnes laidums), ar ierobežojumu $z \le 5H$ ($H$ ir stāva augstums).</li>
+<li>\(F_t = (20 + 4 \cdot n_s) \le 60\text{ kN/m}\) (pamata stiepes spēks);</li>
+<li>\(n_s\) — būves stāvu skaits;</li>
+<li>\(z\) — attālums starp saitēm (m), kur \(z = L\) (plātnes laidums), ar ierobežojumu \(z \le 5H\) (\(H\) ir stāva augstums).</li>
 </ul>
 <p><img src="../images/ch04/img011_diagram.png" alt="Saišu shēma sienām" /></p>
 

@@ -204,20 +204,20 @@
 <p>Ugunsgrēka apstākļos dobumotajās plātnēs rodas augsts temperatūras gradients, kas izraisa betona termisko izplešanos un plaisāšanu, ietekmējot šķērsspēka nestspēju un saspriegto stiegru enkurojuma saķeri.</p>
 <p>Saskaņā ar LVS EN 1168 G pielikumu, ugunsizturības klasēm, kas ir vienādas vai lielākas par <strong>R60</strong>, ir jāveic šķērsspēka un enkurojuma nestspējas pārbaude ugunsgrēka apstākļos. Klasei &lt; R60 šī pārbaude nav nepieciešama.</p>
 <h3 id="empīriskais-šķērsspēka-un-enkurojuma-vienādojums-ugunsgrēka-apstākļos"><a class="header" href="#empīriskais-šķērsspēka-un-enkurojuma-vienādojums-ugunsgrēka-apstākļos">Empīriskais šķērsspēka un enkurojuma vienādojums ugunsgrēka apstākļos:</a></h3>
-<p>$$V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d$$</p>
+<p>[V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d]</p>
 <p>Kur:</p>
 <ul>
-<li>$\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0$ (izmēra faktors, kur darba augstums $d$ ir milimetros);</li>
-<li>$b_w$ — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);</li>
-<li>$d$ — darba augstums normālā temperatūrā;</li>
-<li>$C_{\theta,1}$ — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
-$$C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)$$</li>
-<li>$C_{\theta,2}$ — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
-$$C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}$$</li>
-<li>$\sigma_{cp,20^\circ\text{C}}$ — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;</li>
-<li>$f_{c,fi,m}$ — betona vidējā spiedes stiprība paaugstinātā temperatūrā;</li>
-<li>$F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}$ (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);</li>
-<li>$f_{bpd,fi} = \eta_{p2} \cdot \eta_1 \cdot \frac{0,7 \cdot f_{ctm} \cdot k_{ct}(\theta_{p,m})}{\gamma_c}$ (saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos).</li>
+<li>\(\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0\) (izmēra faktors, kur darba augstums \(d\) ir milimetros);</li>
+<li>\(b_w\) — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);</li>
+<li>\(d\) — darba augstums normālā temperatūrā;</li>
+<li>\(C_{\theta,1}\) — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
+[C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)]</li>
+<li>\(C_{\theta,2}\) — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
+[C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}]</li>
+<li>\(\sigma_{cp,20^\circ\text{C}}\) — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;</li>
+<li>\(f_{c,fi,m}\) — betona vidējā spiedes stiprība paaugstinātā temperatūrā;</li>
+<li>\(F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}\) (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);</li>
+<li>\(f_{bpd,fi} = \eta_{p2} \cdot \eta_1 \cdot \frac{0,7 \cdot f_{ctm} \cdot k_{ct}(\theta_{p,m})}{\gamma_c}\) (saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos).</li>
 </ul>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: center">G.2. attēls — Aprēķina modelis ar parasto enkurojumu</th><th style="text-align: center">G.3. attēls — Aprēķina modelis ar izvirzītām dzīslām</th></tr></thead><tbody>
 <tr><td style="text-align: center"><img src="../images/ch08/img048_diagram.png" alt="Modelis 1" /></td><td style="text-align: center"><img src="../images/ch08/img050_diagram.png" alt="Modelis 2" /></td></tr>
@@ -228,15 +228,15 @@ $$C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \
 <h2 id="saliekamo-fasādes-elementu-šuvju-hidroizolācija-un-blīvēšana"><a class="header" href="#saliekamo-fasādes-elementu-šuvju-hidroizolācija-un-blīvēšana">Saliekamo fasādes elementu šuvju hidroizolācija un blīvēšana</a></h2>
 <p>Ārsienu trīsslāņu paneļu šuvju ilgmūžību un aizsardzību pret mitrumu nodrošina hermētiķi un blīvslāņi.</p>
 <p><strong>Prasības šuvju izmēriem pēc DIN 18540:</strong></p>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Kustība šuvē $\Delta L$ (mm)</th><th style="text-align: center">Nominālais šuves platums $b$ pie $+10\ ^\circ\text{C}$ (mm)*</th><th style="text-align: center">Minimālais šuves platums $\min b$ (mm)</th><th style="text-align: center">Blīvējuma (hermētiķa) dziļums $d$ (mm)</th></tr></thead><tbody>
-<tr><td style="text-align: center">$\le 2$</td><td style="text-align: center">15</td><td style="text-align: center">10</td><td style="text-align: center">$8 \pm 2$</td></tr>
-<tr><td style="text-align: center">$&gt; 2 \dots \le 3,5$</td><td style="text-align: center">20</td><td style="text-align: center">15</td><td style="text-align: center">$10 \pm 2$</td></tr>
-<tr><td style="text-align: center">$&gt; 3,5 \dots \le 5$</td><td style="text-align: center">25</td><td style="text-align: center">20</td><td style="text-align: center">$12 \pm 2$</td></tr>
-<tr><td style="text-align: center">$&gt; 5 \dots \le 6,5$</td><td style="text-align: center">30</td><td style="text-align: center">25</td><td style="text-align: center">$15 \pm 3$</td></tr>
-<tr><td style="text-align: center">$&gt; 6,5 \dots \le 8$</td><td style="text-align: center">35</td><td style="text-align: center">30</td><td style="text-align: center">$15 \pm 3$</td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Kustība šuvē \(\Delta L\) (mm)</th><th style="text-align: center">Nominālais šuves platums \(b\) pie \(+10\ ^\circ\text{C}\) (mm)*</th><th style="text-align: center">Minimālais šuves platums \(\min b\) (mm)</th><th style="text-align: center">Blīvējuma (hermētiķa) dziļums \(d\) (mm)</th></tr></thead><tbody>
+<tr><td style="text-align: center">\(\le 2\)</td><td style="text-align: center">15</td><td style="text-align: center">10</td><td style="text-align: center">\(8 \pm 2\)</td></tr>
+<tr><td style="text-align: center">\(&gt; 2 \dots \le 3,5\)</td><td style="text-align: center">20</td><td style="text-align: center">15</td><td style="text-align: center">\(10 \pm 2\)</td></tr>
+<tr><td style="text-align: center">\(&gt; 3,5 \dots \le 5\)</td><td style="text-align: center">25</td><td style="text-align: center">20</td><td style="text-align: center">\(12 \pm 2\)</td></tr>
+<tr><td style="text-align: center">\(&gt; 5 \dots \le 6,5\)</td><td style="text-align: center">30</td><td style="text-align: center">25</td><td style="text-align: center">\(15 \pm 3\)</td></tr>
+<tr><td style="text-align: center">\(&gt; 6,5 \dots \le 8\)</td><td style="text-align: center">35</td><td style="text-align: center">30</td><td style="text-align: center">\(15 \pm 3\)</td></tr>
 </tbody></table>
 </div>
-<p><em>*Nominālā šuves platuma pieļaujamā būvdarbu novirze ir $\pm 5\text{ mm}$. Hermētiķa dziļuma un platuma attiecība parasti ir robežās no $1:1$ līdz $1:2$.</em></p>
+<p><em>*Nominālā šuves platuma pieļaujamā būvdarbu novirze ir \(\pm 5\text{ mm}\). Hermētiķa dziļuma un platuma attiecība parasti ir robežās no \(1:1\) līdz \(1:2\).</em></p>
 <hr />
 <h2 id="maksimālie-elementu-gabarīti-transportēšanai"><a class="header" href="#maksimālie-elementu-gabarīti-transportēšanai">Maksimālie elementu gabarīti transportēšanai</a></h2>
 <p>Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabarītu ierobežojumi Latvijas teritorijā:</p>
@@ -250,18 +250,18 @@ $$C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \
 <hr />
 <h2 id="nominālie-elementu-balstījuma-garumi"><a class="header" href="#nominālie-elementu-balstījuma-garumi">Nominālie elementu balstījuma garumi</a></h2>
 <p>Minimālie balsta garumi (earing lengths) uz nesošajām konstrukcijām, kas nodrošina drošu slodzes pārnesi un pieļauj būvdarbu novirzes:</p>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Balstāmais elements</th><th style="text-align: left">Nesošā konstrukcija</th><th style="text-align: left">Plātnes biezums $h$ vai sijas laidums $L$</th><th style="text-align: center">Minimālais nominālais balsta garums (mm)</th></tr></thead><tbody>
-<tr><td style="text-align: left">Dobumotās plātnes (HCS)</td><td style="text-align: left">Betons / Tērauds</td><td style="text-align: left">$h \le 300\text{ mm}$</td><td style="text-align: center">60 – 80</td></tr>
-<tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left">$h &gt; 300\text{ mm}$</td><td style="text-align: center">100 – 120</td></tr>
-<tr><td style="text-align: left"></td><td style="text-align: left">Mūris</td><td style="text-align: left">$h \le 250\text{ mm}$</td><td style="text-align: center">100</td></tr>
-<tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left">$h &gt; 250\text{ mm}$</td><td style="text-align: center">120</td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Balstāmais elements</th><th style="text-align: left">Nesošā konstrukcija</th><th style="text-align: left">Plātnes biezums \(h\) vai sijas laidums \(L\)</th><th style="text-align: center">Minimālais nominālais balsta garums (mm)</th></tr></thead><tbody>
+<tr><td style="text-align: left">Dobumotās plātnes (HCS)</td><td style="text-align: left">Betons / Tērauds</td><td style="text-align: left">\(h \le 300\text{ mm}\)</td><td style="text-align: center">60 – 80</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left">\(h &gt; 300\text{ mm}\)</td><td style="text-align: center">100 – 120</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: left">Mūris</td><td style="text-align: left">\(h \le 250\text{ mm}\)</td><td style="text-align: center">100</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left">\(h &gt; 250\text{ mm}\)</td><td style="text-align: center">120</td></tr>
 <tr><td style="text-align: left">Masīvās plātnes (Floor planks)</td><td style="text-align: left">Betons</td><td style="text-align: left">Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem</td><td style="text-align: center">30 <br> 50</td></tr>
 <tr><td style="text-align: left"></td><td style="text-align: left">Mūris</td><td style="text-align: left">Ar palīgatbalstiem montāžā <br> Bez palīgatbalstiem</td><td style="text-align: center">40 <br> 50</td></tr>
-<tr><td style="text-align: left">Ribotie pārsegumi (TT-plātnes)</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums $L \le 15\text{ m}$</td><td style="text-align: center">150</td></tr>
-<tr><td style="text-align: left">Sekundārās jumta sijas</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums $L \le 8\text{ m}$</td><td style="text-align: center">140</td></tr>
-<tr><td style="text-align: left">Pārseguma sijas</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums $L = 12 \dots 20\text{ m}$</td><td style="text-align: center">200 – 230</td></tr>
-<tr><td style="text-align: left">Jumta sijas</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums $L \le 24\text{ m}$</td><td style="text-align: center">195</td></tr>
-<tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left">Laidums $L \le 40\text{ m}$</td><td style="text-align: center">225</td></tr>
+<tr><td style="text-align: left">Ribotie pārsegumi (TT-plātnes)</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums \(L \le 15\text{ m}\)</td><td style="text-align: center">150</td></tr>
+<tr><td style="text-align: left">Sekundārās jumta sijas</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums \(L \le 8\text{ m}\)</td><td style="text-align: center">140</td></tr>
+<tr><td style="text-align: left">Pārseguma sijas</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums \(L = 12 \dots 20\text{ m}\)</td><td style="text-align: center">200 – 230</td></tr>
+<tr><td style="text-align: left">Jumta sijas</td><td style="text-align: left">Betons</td><td style="text-align: left">Laidums \(L \le 24\text{ m}\)</td><td style="text-align: center">195</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: left">Laidums \(L \le 40\text{ m}\)</td><td style="text-align: center">225</td></tr>
 </tbody></table>
 </div>
 <hr />
