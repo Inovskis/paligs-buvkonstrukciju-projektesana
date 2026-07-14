@@ -360,7 +360,7 @@
 <h2 id="drošības-klases-un-uzticamības-indeksi"><a class="header" href="#drošības-klases-un-uzticamības-indeksi">Drošības klases un uzticamības indeksi</a></h2>
 <p>Ēku drošības klases (Reliability Classes, RC) tiešā veidā atbilst ēku seku klasēm: RC1 atbilst CC1, RC2 atbilst CC2 un RC3 atbilst CC3.</p>
 <p>Drošuma jeb uzticamības līmenis tiek izteikts ar uzticamības indeksu \(\beta\). Indekss \(\beta\) ir saistīts ar konstrukcijas sabrukuma iestāšanās varbūtību \(P_f\) ar formulu:
-[P_f = \Phi(-\beta)]
+\[P_f = \Phi(-\beta)\]
 kur \(\Phi\) ir standarta normālā sadalījuma funkcija.</p>
 <p>Praksē izmanto vienkāršotu paņēmienu drošības līmeņa koriģēšanai, izmantojot reizinātāju (korekcijas koeficientu) \(K_{\text{FI}}\), ar kuru reizina pastāvīgo un mainīgo slodžu parciālos drošības koeficientus \(\gamma_F\):</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Drošības klase</th><th style="text-align: center">RC1</th><th style="text-align: center">RC2</th><th style="text-align: center">RC3</th></tr></thead><tbody>
@@ -423,7 +423,7 @@ kur \(\Phi\) ir standarta normālā sadalījuma funkcija.</p>
 <hr />
 <h3 id="noslogotās-platības-samazinājuma-koeficients-alpha_a"><a class="header" href="#noslogotās-platības-samazinājuma-koeficients-alpha_a">Noslogotās platības samazinājuma koeficients \(\alpha_A\)</a></h3>
 <p>Kategorijām no A līdz D slodzi uz nesošajām konstrukcijām (piemēram, sijām un kolonnām) ir atļauts samazināt, reizinot raksturīgo slodzi ar samazinājuma koeficientu \(\alpha_A\), kas ievērtē varbūtību, ka visa lielā platība netiks noslogota maksimāli:</p>
-<p>[\alpha_A = \frac{5}{7}\psi_0 + \frac{A_0}{A} \le 1,0]</p>
+<p>\[\alpha_A = \frac{5}{7}\psi_0 + \frac{A_0}{A} \le 1,0\]</p>
 <p>Kur:</p>
 <ul>
 <li>\(A_0 = 10\text{ m}^2\) (bāzes platība);</li>
@@ -461,9 +461,9 @@ kur \(\Phi\) ir standarta normālā sadalījuma funkcija.</p>
 <p>Saskaņā ar LVS EN 1991-1-3/NA:2019 punktu 2.7, visā Latvijas teritorijā ir jāpiemēro <strong>B1 slogojuma gadījums</strong> (notiek īpaša snigšana, nav paredzēti īpaši sanesumi uz zemes).</p>
 <ul>
 <li>Standarta projektēšanas situācijās (ilgstoša/īslaicīga situācija) aprēķina sniega slodzi uz jumta:
-[s = \mu_i \cdot C_e \cdot C_t \cdot s_k]</li>
+\[s = \mu_i \cdot C_e \cdot C_t \cdot s_k\]</li>
 <li>Ārkārtas situācijās (kur sniegs tiek vērtēts kā ārkārtēja iedarbība) aprēķina sniega slodzi uz jumta:
-[s = \mu_i \cdot C_e \cdot C_t \cdot C_{esl} \cdot s_k]
+\[s = \mu_i \cdot C_e \cdot C_t \cdot C_{esl} \cdot s_k\]
 Latvijā ārkārtējās sniega slodzes koeficients ir <strong>\(C_{esl} = 2,0\)</strong>.</li>
 </ul>
 <p>LVS EN 1991-1-3 6.2. punktā aprakstītie sniega sanesumi pie jumta izvirzījumiem ir jāizvērtē kā projekta ilgstoša vai īslaicīga situācija.</p>
@@ -588,7 +588,7 @@ Pilna aprēķina slodze (\(G_d + Q_d\)) tiek uzlikta abos laidumos abpus pārbau
 <p>Projektējot konstrukcijas pēc nestspējas robežstāvokļa (ULS - Ultimate Limit State), pastāvīgo un mainīgo slodžu kombinācijas aprēķina pēc LVS EN 1990. Latvijā ir atļauts izmantot divas alternatīvas metodes:</p>
 <h3 id="1-metode-izmantojot-vienādojumu-610"><a class="header" href="#1-metode-izmantojot-vienādojumu-610">1. Metode: Izmantojot vienādojumu (6.10)</a></h3>
 <p>Tā ir vienkāršotā metode, kurā visas slodzes tiek reizinātas ar pilniem parciālajiem koeficientiem:</p>
-<p>[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k]</p>
+<p>\[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k\]</p>
 <p>Kur Latvijas nacionālajā pielikumā noteikts:</p>
 <ul>
 <li>\(\gamma_{G} = 1,35\) (nelabvēlīgā pastāvīgā slodze);</li>
@@ -600,12 +600,12 @@ Pilna aprēķina slodze (\(G_d + Q_d\)) tiek uzlikta abos laidumos abpus pārbau
 <ul>
 <li>
 <p><strong>Vienādojums (6.10a)</strong> (dominē pastāvīgās slodzes):
-[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot \psi_0 \cdot Q_k]
+\[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot \psi_0 \cdot Q_k\]
 <em>(Latvijā: \(1,35 \cdot G_k + 1,5 \cdot \psi_0 \cdot Q_k\))</em></p>
 </li>
 <li>
 <p><strong>Vienādojums (6.10b)</strong> (dominē mainīgās slodzes):
-[E_d = \xi \cdot \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k]
+\[E_d = \xi \cdot \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k\]
 <em>(Latvijā: \(\xi = 0,85\), kas dod \(1,15 \cdot G_k + 1,5 \cdot Q_k\))</em></p>
 </li>
 </ul>
@@ -677,11 +677,11 @@ Pilna aprēķina slodze (\(G_d + Q_d\)) tiek uzlikta abos laidumos abpus pārbau
 <ul>
 <li>
 <p><strong>Pārseguma iekšējās saites (\(T_i\)):</strong>
-[T_i = 0,8 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}]</p>
+\[T_i = 0,8 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}\]</p>
 </li>
 <li>
 <p><strong>Pārseguma perimetra saites (\(T_p\)):</strong>
-[T_p = 0,4 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}]</p>
+\[T_p = 0,4 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}\]</p>
 </li>
 </ul>
 <p>Kur:</p>
@@ -700,12 +700,12 @@ Pilna aprēķina slodze (\(G_d + Q_d\)) tiek uzlikta abos laidumos abpus pārbau
 <ul>
 <li>
 <p><strong>Pārseguma iekšējās saites (\(T_i\)):</strong>
-[T_i = \frac{F_t}{37,5} \cdot (g_k + \psi \cdot q_k) \cdot z \ge F_t\text{ (kN/m)}]
+\[T_i = \frac{F_t}{37,5} \cdot (g_k + \psi \cdot q_k) \cdot z \ge F_t\text{ (kN/m)}\]
 <em>(Šī formula izriet no EN 1991-1-7 prasības: \(T_i = \frac{g_k + \psi \cdot q_k}{7,5} \cdot \frac{z}{5} \cdot F_t \ge F_t\))</em></p>
 </li>
 <li>
 <p><strong>Pārseguma perimetra saites (\(T_p\)):</strong>
-[T_p = F_t\text{ (kN)}]</p>
+\[T_p = F_t\text{ (kN)}\]</p>
 </li>
 </ul>
 <p>Kur:</p>
@@ -728,9 +728,9 @@ Pilna aprēķina slodze (\(G_d + Q_d\)) tiek uzlikta abos laidumos abpus pārbau
 <hr />
 <h2 id="slodžu-kombinācija-ugunsgrēka-situācijā-uls"><a class="header" href="#slodžu-kombinācija-ugunsgrēka-situācijā-uls">Slodžu kombinācija ugunsgrēka situācijā (ULS)</a></h2>
 <p>Ugunsgrēks ir ārkārtēja situācija (accidental situation), tādēļ slodžu aprēķina vērtības tiek samazinātas, jo ir maz ticama maksimālās mainīgās slodzes sakrišana ar ugunsgrēku. Saskaņā ar LVS EN 1990 vienādojumu (6.11a/b):</p>
-<p>[E_{d,fi} = \sum G_{k,j} + \psi_{1,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}]</p>
+<p>\[E_{d,fi} = \sum G_{k,j} + \psi_{1,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}\]</p>
 <p>vai</p>
-<p>[E_{d,fi} = \sum G_{k,j} + \psi_{2,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}]</p>
+<p>\[E_{d,fi} = \sum G_{k,j} + \psi_{2,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}\]</p>
 <p><img src="images/ch05/img012.png" alt="Slodžu shēma ugunsgrēka situācijā" /></p>
 <p>Kur:</p>
 <ul>
@@ -763,7 +763,7 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 <ul>
 <li><strong>Statika:</strong> Statiski nosakāma sistēma. Abos galos ir šarnīrveida atbalsti, kas neuzņem momentu.</li>
 <li><strong>Moments laidumā:</strong> Maksimālais moments ir laiduma vidū:
-[M_{\text{max}} = \frac{q \cdot L^2}{8}]</li>
+\[M_{\text{max}} = \frac{q \cdot L^2}{8}\]</li>
 <li><strong>Priekšrocības:</strong> Vienkārša montāža un mezglu izveide, nav jutīga pret atbalstu sēšanos.</li>
 <li><strong>Trūkumi:</strong> Lielākas izlieces un nepieciešams lielāks šķērsgriezuma augstums.</li>
 </ul>
@@ -771,7 +771,7 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 <ul>
 <li><strong>Statika:</strong> Sija ar vienu brīvu galu un otru stingi iespīlētu atbalstā.</li>
 <li><strong>Moments balstā:</strong> Maksimālais moments veidojas iespīlējuma vietā (stiepta augšējā šķiedra):
-[M_{\text{max}} = -\frac{q \cdot L^2}{2}]</li>
+\[M_{\text{max}} = -\frac{q \cdot L^2}{2}\]</li>
 <li><strong>Trūkumi:</strong> Ļoti jutīga pret iespīlējuma mezgla rotāciju un deformācijām.</li>
 </ul>
 <h3 id="3-nepārtraukta-vairāklaidumu-sija"><a class="header" href="#3-nepārtraukta-vairāklaidumu-sija">3. Nepārtraukta (vairāklaidumu) sija</a></h3>
@@ -922,7 +922,7 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 </tbody></table>
 </div>
 <p>Nedrenētās bīdes stiprība \(c_u\) (vai \(s_u\)) ir puse no vienass spiedes stiprības \(q_u\):
-[c_u = s_u = \frac{q_u}{2}]</p>
+\[c_u = s_u = \frac{q_u}{2}\]</p>
 <hr />
 <h2 id="klinšainu-grunšu-apraksts-un-rqd-rock-quality-designation"><a class="header" href="#klinšainu-grunšu-apraksts-un-rqd-rock-quality-designation">Klinšainu grunšu apraksts un RQD (Rock Quality Designation)</a></h2>
 <p>RQD rādītājs raksturo ieža masas plaisainību un veselumu. To definē kā to serdes gabalu kopējo garumu, kas ir garāki par 10 cm, attiecību pret kopējo urbšanas gaitu (izteiktu procentos).</p>
@@ -988,7 +988,7 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 <hr />
 <h2 id="raksturīgās-nestspējas-noteikšana-un-korelācijas-faktori-xi"><a class="header" href="#raksturīgās-nestspējas-noteikšana-un-korelācijas-faktori-xi">Raksturīgās nestspējas noteikšana un korelācijas faktori \(\xi\)</a></h2>
 <p>Saskaņā ar LVS EN 1997-1 (Eirokodekss 7), pāļu raksturīgo pretestību spiedē \(R_{c,k}\) aprēķina no lauka pārbaudes rezultātiem (vai korelācijām), izmantojot korelācijas (korelācijas) faktorus \(\xi_3\) un \(\xi_4\):</p>
-<p>[R_{c,k} = \min \left{ \frac{(R_{c,cal})<em>{\text{mean}}}{\xi_3} ; \frac{(R</em>{c,cal})_{\text{min}}}{\xi_4} \right}]</p>
+<p>\[R_{c,k} = \min \left{ \frac{(R_{c,cal})<em>{\text{mean}}}{\xi_3} ; \frac{(R</em>{c,cal})_{\text{min}}}{\xi_4} \right}\]</p>
 <p>Kur:</p>
 <ul>
 <li>\((R_{c,cal})_{\text{mean}}\) — vidējā aprēķinātā pāļa nestspēja no visiem pārbaudes punktiem;</li>
@@ -1027,11 +1027,11 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 <p>Saskaņā ar LVS EN 1992-1-1 punktu 2.3.4.2(2), monolītbetona pāļu aprēķinos bez pastāvīga apvalka ir jāņem vērā urbuma sieniņu nelīdzenumi, samazinot nominālo diametru \(d_{\text{nom}}\) līdz aprēķina diametram \(d\):</p>
 <ul>
 <li>Ja \(d_{\text{nom}} &lt; 400\text{ mm}\):
-[d = d_{\text{nom}} - 20\text{ mm}]</li>
+\[d = d_{\text{nom}} - 20\text{ mm}\]</li>
 <li>Ja \(400\text{ mm} \le d_{\text{nom}} \le 1000\text{ mm}\):
-[d = 0,95 \cdot d_{\text{nom}}]</li>
+\[d = 0,95 \cdot d_{\text{nom}}\]</li>
 <li>Ja \(d_{\text{nom}} &gt; 1000\text{ mm}\):
-[d = d_{\text{nom}} - 50\text{ mm}]</li>
+\[d = d_{\text{nom}} - 50\text{ mm}\]</li>
 </ul>
 <p><em>Svarīgi: Šis samazinājums tieši ietekmē pāļa šķērsgriezuma laukumu \(A_c\) un inerces momentu \(I\), ko izmanto pāļa stiprības un nestspējas pārbaudēs.</em></p>
 <hr />
@@ -1268,7 +1268,7 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 </ul>
 <h3 id="stieptā-stiegrojuma-minimālais-laukums-a_stextmin"><a class="header" href="#stieptā-stiegrojuma-minimālais-laukums-a_stextmin">Stieptā stiegrojuma minimālais laukums (\(A_{s,\text{min}}\))</a></h3>
 <p>Siju stieptajā zonā jānodrošina minimālais stiegrojuma laukums, lai novērstu trauslu sabrukumu plaisas rašanās brīdī:</p>
-<p>[A_{s,\text{min}} = 0,26 \cdot \frac{f_{ctm}}{f_{yk}} \cdot b_t \cdot d \ge 0,0013 \cdot b_t \cdot d]</p>
+<p>\[A_{s,\text{min}} = 0,26 \cdot \frac{f_{ctm}}{f_{yk}} \cdot b_t \cdot d \ge 0,0013 \cdot b_t \cdot d\]</p>
 <p>Kur:</p>
 <ul>
 <li>\(b_t\) — vidējais stieptās zonas platums (m);</li>
@@ -1279,10 +1279,10 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 <p><em>Piezīme: Tēraudam B500 un betonam C25/30 šī robeža ir \(A_{s,\text{min}} \approx 0,00135 \cdot b_t \cdot d\), bet betonam C30/37 tā ir \(A_{s,\text{min}} \approx 0,0015 \cdot b_t \cdot d\).</em></p>
 <h3 id="spiestā-stiegrojuma-minimālais-laukums-a_sctextmin"><a class="header" href="#spiestā-stiegrojuma-minimālais-laukums-a_sctextmin">Spiestā stiegrojuma minimālais laukums (\(A_{sc,\text{min}}\))</a></h3>
 <p>Ja aprēķinā tiek ņemts vērā spiestais stiegrojums (dubulti stiegrotā sijā), tā laukumam jābūt vismaz:
-[A_{sc,\text{min}} \ge 0,002 \cdot A_c]</p>
+\[A_{sc,\text{min}} \ge 0,002 \cdot A_c\]</p>
 <h3 id="minimālais-aptveru-saturs-Šķērsstiegrojuma-attiecība-rho_w"><a class="header" href="#minimālais-aptveru-saturs-Šķērsstiegrojuma-attiecība-rho_w">Minimālais aptveru saturs (Šķērsstiegrojuma attiecība \(\rho_w\))</a></h3>
 <p>Aptveru laukumam pret sijas sieniņas laukumu jānodrošina minimālā attiecība:</p>
-<p>[\rho_w = \frac{A_{sw}}{s \cdot b_w \cdot \sin\alpha} \ge \rho_{w,\text{min}} = \frac{0,08 \cdot \sqrt{f_{ck}}}{f_{yk}}]</p>
+<p>\[\rho_w = \frac{A_{sw}}{s \cdot b_w \cdot \sin\alpha} \ge \rho_{w,\text{min}} = \frac{0,08 \cdot \sqrt{f_{ck}}}{f_{yk}}\]</p>
 <p>Kur:</p>
 <ul>
 <li>\(A_{sw}\) — visu aptveres kāju laukums vienā griezumā (piemēram, divkāršai aptverei \(2 \cdot A_{s,\text{apt}}\));</li>
@@ -1318,12 +1318,12 @@ Mazākais no šiem lielumiem:
 <li>
 <p><strong>Estētiskais izskats un normāla ekspluatācija:</strong>
 Izliece \(w_{\text{max}}\) no ilglaicīgās (kvazipastāvīgās) slodžu kombinācijas nedrīkst pārsniegt:
-[w_{\text{max}} = \frac{L}{250}]</p>
+\[w_{\text{max}} = \frac{L}{250}\]</p>
 </li>
 <li>
 <p><strong>Trauslu konstrukciju un starpsienu bojājumu novēršana:</strong>
 Izlieces pieaugums \(w_{\text{add}}\) pēc starpsienu vai apdares izbūves (no kvazipastāvīgās kombinācijas mainīgās daļas un betona šļūdes) nedrīkst pārsniegt:
-[w_{\text{add}} = \frac{L}{500}]</p>
+\[w_{\text{add}} = \frac{L}{500}\]</p>
 </li>
 </ul>
 <p>Kur \(L\) ir sijas vai plātnes laidums (konsolēm robežvērtību pieņem kā \(L_{\text{konsoles}} / 125\) un \(L_{\text{konsoles}} / 250\)).</p>
@@ -1347,11 +1347,11 @@ Izlieces pieaugums \(w_{\text{add}}\) pēc starpsienu vai apdares izbūves (no k
 <h3 id="1-betona-stiprības-ilglaicīgo-efektu-koeficients-alpha_cc-lvs-en-1992-1-1-3161p"><a class="header" href="#1-betona-stiprības-ilglaicīgo-efektu-koeficients-alpha_cc-lvs-en-1992-1-1-3161p">1. Betona stiprības ilglaicīgo efektu koeficients \(\alpha_{cc}\) (LVS EN 1992-1-1 3.1.6.(1)P)</a></h3>
 <p>Saskaņā ar LVS EN 1992-1-1:2005/A2:2020/NA:2020 grozījumiem, koeficienta \(\alpha_{cc}\) vērtība ir mainīta no iepriekšējā \(0,85\) uz <strong>\(1,00\)</strong>.</p>
 <p>Betona aprēķina spiedes stiprība \(f_{cd}\) tagad tiek noteikta kā:
-[f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1,00 \cdot \frac{f_{ck}}{1,5}]</p>
+\[f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1,00 \cdot \frac{f_{ck}}{1,5}\]</p>
 <p>Stiepes stiprības aprēķina koeficients ir saglabāts \(\alpha_{ct} = 1,00\).</p>
 <h3 id="2-aizsargslāņa-pielaide-būvdarbu-novirzei-delta-c_textdev-lvs-en-1992-1-1-44131p"><a class="header" href="#2-aizsargslāņa-pielaide-būvdarbu-novirzei-delta-c_textdev-lvs-en-1992-1-1-44131p">2. Aizsargslāņa pielaide būvdarbu novirzei \(\Delta c_{\text{dev}}\) (LVS EN 1992-1-1 4.4.1.3.(1)P)</a></h3>
 <p>Nominālo stiegrojuma aizsargslāni \(c_{\text{nom}}\) nosaka, pieskaitot novirzi \(\Delta c_{\text{dev}}\) pie minimālā aizsargslāņa \(c_{\text{min}}\):
-[c_{\text{nom}} = c_{\text{min}} + \Delta c_{\text{dev}}]</p>
+\[c_{\text{nom}} = c_{\text{min}} + \Delta c_{\text{dev}}\]</p>
 <p>Latvijas nacionālajā pielikumā noteiktās novirzes vērtības:</p>
 <ul>
 <li><strong>Pārsegumu plātnēm, kuru biezums \(h &lt; 160\text{ mm}\):</strong>
@@ -1409,9 +1409,9 @@ Novirze ir stingri noteikta: \(\Delta c_{\text{dev}} = 10\text{ mm}\).</li>
 <h2 id="Šķērsstiegrojuma-nepieciešamības-novērtējums"><a class="header" href="#Šķērsstiegrojuma-nepieciešamības-novērtējums">Šķērsstiegrojuma nepieciešamības novērtējums</a></h2>
 <h3 id="Šķērsspēka-nestspēja-elementiem-bez-šķērsstiegrojuma-v_rdc"><a class="header" href="#Šķērsspēka-nestspēja-elementiem-bez-šķērsstiegrojuma-v_rdc">Šķērsspēka nestspēja elementiem bez šķērsstiegrojuma (\(V_{Rd,c}\))</a></h3>
 <p>Elementiem, kuriem nav aprēķina šķērsstiegrojuma (piemēram, plātnēm un pamatu pēdām), aprēķina šķērsspēka nestspēju \(V_{Rd,c}\) saskaņā ar LVS EN 1992-1-1 Eq (6.2.a):</p>
-<p>[V_{Rd,c} = \left[ C_{Rd,c} \cdot k \cdot (100 \cdot \rho_l \cdot f_{ck})^{1/3} + k_1 \cdot \sigma_{cp} \right] \cdot b_w \cdot d]</p>
+<p>\[V_{Rd,c} = \left[ C_{Rd,c} \cdot k \cdot (100 \cdot \rho_l \cdot f_{ck})^{1/3} + k_1 \cdot \sigma_{cp} \right] \cdot b_w \cdot d\]</p>
 <p>Ar minimālo vērtību:
-[V_{Rd,c,min} = \left( v_{min} + k_1 \cdot \sigma_{cp} \right) \cdot b_w \cdot d]</p>
+\[V_{Rd,c,min} = \left( v_{min} + k_1 \cdot \sigma_{cp} \right) \cdot b_w \cdot d\]</p>
 <p>Kur:</p>
 <ul>
 <li>\(C_{Rd,c} = 0,18 / \gamma_c = 0,18 / 1,5 = 0,12\);</li>
@@ -1425,7 +1425,7 @@ Novirze ir stingri noteikta: \(\Delta c_{\text{dev}} = 10\text{ mm}\).</li>
 <hr />
 <h3 id="vienkāršota-šķērsspēka-pārbaude-bez-aksiālā-spēka-n_ed--0"><a class="header" href="#vienkāršota-šķērsspēka-pārbaude-bez-aksiālā-spēka-n_ed--0">Vienkāršota šķērsspēka pārbaude bez aksiālā spēka (\(N_{Ed} = 0\))</a></h3>
 <p>Ja aksiālais spēks ir nulle, minimālo šķērsspēka nestspējas robežvērtību aprēķina kā:</p>
-<p>[V_{Rd,c} = v_{min} \cdot b_w \cdot d]</p>
+<p>\[V_{Rd,c} = v_{min} \cdot b_w \cdot d\]</p>
 <p>Minimālā bīdes sprieguma \(v_{min}\) vērtības (\(N/mm^2\) jeb MPa) aprēķina pēc formulas \(v_{min} = 0,035 \cdot k^{3/2} \cdot f_{ck}^{1/2}\) un tās apkopotas šādā tabulā:</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: center">Betona klase</th><th style="text-align: center">\(d = 200\text{ mm}\) <br> (\(k = 2,00\))</th><th style="text-align: center">\(d = 400\text{ mm}\) <br> (\(k = 1,71\))</th><th style="text-align: center">\(d = 600\text{ mm}\) <br> (\(k = 1,58\))</th><th style="text-align: center">\(d = 800\text{ mm}\) <br> (\(k = 1,50\))</th></tr></thead><tbody>
 <tr><td style="text-align: center">C20/25</td><td style="text-align: center">0,44</td><td style="text-align: center">0,35</td><td style="text-align: center"><strong>0,31</strong></td><td style="text-align: center">0,29</td></tr>
@@ -1457,16 +1457,16 @@ Novirze ir stingri noteikta: \(\Delta c_{\text{dev}} = 10\text{ mm}\).</li>
 <p>Ugunsgrēka apstākļos dobumotajās plātnēs rodas augsts temperatūras gradients, kas izraisa betona termisko izplešanos un plaisāšanu, ietekmējot šķērsspēka nestspēju un saspriegto stiegru enkurojuma saķeri.</p>
 <p>Saskaņā ar LVS EN 1168 G pielikumu, ugunsizturības klasēm, kas ir vienādas vai lielākas par <strong>R60</strong>, ir jāveic šķērsspēka un enkurojuma nestspējas pārbaude ugunsgrēka apstākļos. Klasei &lt; R60 šī pārbaude nav nepieciešama.</p>
 <h3 id="empīriskais-šķērsspēka-un-enkurojuma-vienādojums-ugunsgrēka-apstākļos"><a class="header" href="#empīriskais-šķērsspēka-un-enkurojuma-vienādojums-ugunsgrēka-apstākļos">Empīriskais šķērsspēka un enkurojuma vienādojums ugunsgrēka apstākļos:</a></h3>
-<p>[V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d]</p>
+<p>\[V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d\]</p>
 <p>Kur:</p>
 <ul>
 <li>\(\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0\) (izmēra faktors, kur darba augstums \(d\) ir milimetros);</li>
 <li>\(b_w\) — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);</li>
 <li>\(d\) — darba augstums normālā temperatūrā;</li>
 <li>\(C_{\theta,1}\) — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
-[C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)]</li>
+\[C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)\]</li>
 <li>\(C_{\theta,2}\) — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
-[C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}]</li>
+\[C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}\]</li>
 <li>\(\sigma_{cp,20^\circ\text{C}}\) — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;</li>
 <li>\(f_{c,fi,m}\) — betona vidējā spiedes stiprība paaugstinātā temperatūrā;</li>
 <li>\(F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}\) (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);</li>
@@ -1610,15 +1610,15 @@ Novirze ir stingri noteikta: \(\Delta c_{\text{dev}} = 10\text{ mm}\).</li>
 <p>Būvkonstrukciju elastīgajiem aprēķiniem visā Eirokodeksa saimē izmanto šādas standartizētas tērauda konstantes:</p>
 <ul>
 <li><strong>Elastības modulis (Junga modulis):</strong>
-[E = 210\ 000\text{ N/mm}^2 = 210\text{ GPa}]</li>
+\[E = 210\ 000\text{ N/mm}^2 = 210\text{ GPa}\]</li>
 <li><strong>Bīdes modulis:</strong>
-[G = \frac{E}{2 \cdot (1 + \nu)} \approx 81\ 000\text{ N/mm}^2 = 81\text{ GPa}]</li>
+\[G = \frac{E}{2 \cdot (1 + \nu)} \approx 81\ 000\text{ N/mm}^2 = 81\text{ GPa}\]</li>
 <li><strong>Puasona koeficients:</strong>
-[\nu = 0,30]</li>
+\[\nu = 0,30\]</li>
 <li><strong>Lineārās termiskās izplešanās koeficients:</strong>
-[\alpha = 12 \cdot 10^{-6}\text{ K}^{-1}\text{ (jeb } 1/^\circ\text{C)}]</li>
+\[\alpha = 12 \cdot 10^{-6}\text{ K}^{-1}\text{ (jeb } 1/^\circ\text{C)}\]</li>
 <li><strong>Blīvums (tilpuma masa):</strong>
-[\rho = 7850\text{ kg/m}^3\text{ (atbilst tilpumsvaram } \gamma \approx 78,5\text{ kN/m}^3)]</li>
+\[\rho = 7850\text{ kg/m}^3\text{ (atbilst tilpumsvaram } \gamma \approx 78,5\text{ kN/m}^3)\]</li>
 </ul>
 <hr />
 <h2 id="korozivitātes-korozijas-agresivitātes-klases-iso-12944-2"><a class="header" href="#korozivitātes-korozijas-agresivitātes-klases-iso-12944-2">Korozivitātes (korozijas agresivitātes) klases (ISO 12944-2)</a></h2>
@@ -1924,7 +1924,7 @@ Novirze ir stingri noteikta: \(\Delta c_{\text{dev}} = 10\text{ mm}\).</li>
 <hr />
 <h2 id="metinājuma-šuves-izvēle-saskaņā-ar-skrūvju-nestspēju"><a class="header" href="#metinājuma-šuves-izvēle-saskaņā-ar-skrūvju-nestspēju">Metinājuma šuves izvēle saskaņā ar skrūvju nestspēju</a></h2>
 <p>Lai garantētu, ka savienojuma metinājums nav vājākais posms, šuves tiek dimensionētas pēc nosacījuma:
-[V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}]
+\[V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}\]
 Auss tiek metināta ar divpusēju stūra šuvi (rīkle \(a\)) pie nesošā elementa.</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Skrūves</th><th style="text-align: center">Skrūvju grupas nestspēja</th><th style="text-align: center">Nepieciešamā šuves pretestība</th><th style="text-align: center">Auss augstums</th><th style="text-align: center">Izvēlētais šuves biezums \(a\)</th><th style="text-align: center">Šuvju faktiskā nestspēja</th></tr></thead><tbody>
 <tr><td style="text-align: left">2 × M16</td><td style="text-align: center">121 kN</td><td style="text-align: center">145 kN</td><td style="text-align: center">128 mm</td><td style="text-align: center"><strong>\(a = 4\text{ mm}\)</strong></td><td style="text-align: center">149 kN</td></tr>
@@ -1977,7 +1977,7 @@ Auss tiek metināta ar divpusēju stūra šuvi (rīkle \(a\)) pie nesošā eleme
 <li><strong>Minimālais pieslēguma leņķis:</strong> Leņķis \(\theta\) starp režģa elementu (atgāzni) un joslu nedrīkst būt mazāks par <strong>\(30^\circ\)</strong>. Pretējā gadījumā ir grūti izveidot šuvi un tās saknes daļa nav kvalitatīvi aizmetināma.</li>
 <li><strong>Atstarpe K-veida mezglos ar atstarpi (gap joints):</strong>
 Lai būtu pietiekami daudz vietas šuvju uzklāšanai un novērstu spriegumu koncentrāciju joslas sieniņā, tīrajai atstarpei \(g\) starp abiem atgāžņiem uz joslas virsmas jābūt vismaz:
-[g \ge t_1 + t_2]
+\[g \ge t_1 + t_2\]
 kur \(t_1\) un \(t_2\) ir savienojamo režģa elementu sieniņu biezumi.</li>
 <li><strong>Pārsegums K-veida mezglos ar pārklāšanos (overlap joints):</strong>
 Pārklāšanās apjomam jābūt pietiekamam bīdes spēku pārnesei no viena režģa elementa uz otru. Minimālais pārklāšanās apjoms ir <strong>\(25%\)</strong>.
@@ -1993,7 +1993,7 @@ Pārklāšanās apjomam jābūt pietiekamam bīdes spēku pārnesei no viena re�
 <h2 id="mezglu-ekscentricitāte-e"><a class="header" href="#mezglu-ekscentricitāte-e">Mezglu ekscentricitāte (\(e\))</a></h2>
 <p>Ekscentricitāte \(e\) ir vertikālais attālums no režģa elementu asu krustpunkta līdz joslas asij.</p>
 <p>Saskaņā ar standartu, ieteicamās ekscentricitātes robežas ir:
-[-0,55 \cdot h_0 \le e \le 0,25 \cdot h_0]
+\[-0,55 \cdot h_0 \le e \le 0,25 \cdot h_0\]
 kur \(h_0\) ir joslas šķērsgriezuma augstums.</p>
 <ul>
 <li><strong>Pozitīva ekscentricitāte (\(e &gt; 0\)):</strong> Asu krustpunkts ir nobīdīts uz kopnes ārpusi.</li>
@@ -2001,7 +2001,7 @@ kur \(h_0\) ir joslas šķērsgriezuma augstums.</p>
 </ul>
 <p><em>Piezīme: Ja ekscentricitāte atrodas pieļaujamajās robežās, sekundāros lieces momentus mezglā (kas rodas no šīs ekscentricitātes) joslu un režģa stieņu aprēķinos var neievērtēt. Ja ekscentricitāte pārsniedz robežvērtības, lieces momenti ir pilnībā jāņem vērā aprēķinos.</em></p>
 <h3 id="ekscentricitātes-e-un-atstarpes-g-saistības-formula"><a class="header" href="#ekscentricitātes-e-un-atstarpes-g-saistības-formula">Ekscentricitātes \(e\) un atstarpes \(g\) saistības formula:</a></h3>
-<p>[g = \left( e + \frac{h_0}{2} \right) \cdot (\cot\theta_1 + \cot\theta_2) - \frac{h_1}{2\sin\theta_1} - \frac{h_2}{2\sin\theta_2}]</p>
+<p>\[g = \left( e + \frac{h_0}{2} \right) \cdot (\cot\theta_1 + \cot\theta_2) - \frac{h_1}{2\sin\theta_1} - \frac{h_2}{2\sin\theta_2}\]</p>
 <p><em>Ja joslai izmanto pastiprinājuma plāksni (flange plate) ar biezumu \(t_p\), tad augstumu aizstāj: \(\frac{h_0}{2} \to \frac{h_0}{2} + t_p\).</em></p>
 <p><strong>Cauruļprofilu kopņu mezglu apzīmējumi:</strong></p>
 <p><img src="09-terauds/../images/ch09/img095.png" alt="Apzīmējumi" /></p>
@@ -2128,7 +2128,7 @@ Tomēr, ja režģa stieņi ir pa visu perimetru piemetināti pie stingrām josl�
 <hr />
 <h2 id="modifikācijas-koeficienta-k_textmod-vērtības-lvs-en-1995-1-1na"><a class="header" href="#modifikācijas-koeficienta-k_textmod-vērtības-lvs-en-1995-1-1na">Modifikācijas koeficienta \(k_{\text{mod}}\) vērtības (LVS EN 1995-1-1/NA)</a></h2>
 <p>Koeficients \(k_{\text{mod}}\) ņem vērā slodzes darbības ilguma un koksnes mitruma ietekmi uz materiāla stiprību. Koka aprēķina stiprību \(f_d\) nosaka kā:
-[f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}]</p>
+\[f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}\]</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Materiāls</th><th style="text-align: left">Standarts / Tips</th><th style="text-align: center">Ekspluatācijas klase</th><th style="text-align: center">Pastāvīgā slodze</th><th style="text-align: center">Ilgstošā slodze</th><th style="text-align: center">Vidēja ilguma slodze</th><th style="text-align: center">Īslaicīgā slodze</th><th style="text-align: center">Acumirklīgā slodze</th></tr></thead><tbody>
 <tr><td style="text-align: left">Masīvkoksne</td><td style="text-align: left">EN 14081-1</td><td style="text-align: center">1</td><td style="text-align: center">0,60</td><td style="text-align: center">0,70</td><td style="text-align: center">0,80</td><td style="text-align: center">0,90</td><td style="text-align: center">1,10</td></tr>
 <tr><td style="text-align: left"></td><td style="text-align: left"></td><td style="text-align: center">2</td><td style="text-align: center">0,60</td><td style="text-align: center">0,70</td><td style="text-align: center">0,80</td><td style="text-align: center">0,90</td><td style="text-align: center">1,10</td></tr>
@@ -2199,24 +2199,24 @@ Apstākļi, kas rada lielāku mitruma saturu nekā 2. klasē (līdzsvara mitrums
 <li><strong>\(w_{\text{creep}}\)</strong> — šļūdes (deformāciju pieauguma) izlieces daļa laika gaitā;</li>
 <li><strong>\(w_{\text{fin}}\)</strong> — galīgā (kopējā) izliece, ņemot vērā šļūdi: \(w_{\text{fin}} = w_{\text{inst}} + w_{\text{creep}}\);</li>
 <li><strong>\(w_{\text{net,fin}}\)</strong> — neto galīgā izliece, kas paliek pēc priekšizlieces \(w_c\) atskaitīšanas:
-[w_{\text{net,fin}} = w_{\text{fin}} - w_c]</li>
+\[w_{\text{net,fin}} = w_{\text{fin}} - w_c\]</li>
 </ul>
 <hr />
 <h2 id="izlieču-aprēķina-formulas-ilglaicīgo-efektu-ievērtēšana"><a class="header" href="#izlieču-aprēķina-formulas-ilglaicīgo-efektu-ievērtēšana">Izlieču aprēķina formulas (ilglaicīgo efektu ievērtēšana)</a></h2>
 <p>Izlieces komponentes nosaka, izmantojot šļūdes koeficientu \(k_{\text{def}}\) (skat. <a href="10-koks/02-koeficienti.html">Slodžu ilgumi un modifikācijas koeficienti</a>):</p>
 <h3 id="1-momentānā-izliece"><a class="header" href="#1-momentānā-izliece">1. Momentānā izliece:</a></h3>
-<p>[w_{\text{inst}} = w_{\text{inst},g} + w_{\text{inst},q,1} + \sum w_{\text{inst},q,i}]</p>
+<p>\[w_{\text{inst}} = w_{\text{inst},g} + w_{\text{inst},q,1} + \sum w_{\text{inst},q,i}\]</p>
 <h3 id="2-galīgā-izliece"><a class="header" href="#2-galīgā-izliece">2. Galīgā izliece:</a></h3>
 <ul>
 <li><strong>Pastāvīgajām slodzēm \(G\):</strong>
-[w_{\text{fin},g} = w_{\text{inst},g} \cdot (1 + k_{\text{def}})]</li>
+\[w_{\text{fin},g} = w_{\text{inst},g} \cdot (1 + k_{\text{def}})\]</li>
 <li><strong>Vadošajai mainīgajai slodzei \(Q_1\):</strong>
-[w_{\text{fin},q,1} = w_{\text{inst},q,1} \cdot (1 + \psi_2 \cdot k_{\text{def}})]</li>
+\[w_{\text{fin},q,1} = w_{\text{inst},q,1} \cdot (1 + \psi_2 \cdot k_{\text{def}})\]</li>
 <li><strong>Pavadītājām mainīgajām slodzēm \(Q_i\):</strong>
-[w_{\text{fin},q,i} = w_{\text{inst},q,i} \cdot (\psi_{0,i} + \psi_{2,i} \cdot k_{\text{def}})]</li>
+\[w_{\text{fin},q,i} = w_{\text{inst},q,i} \cdot (\psi_{0,i} + \psi_{2,i} \cdot k_{\text{def}})\]</li>
 </ul>
 <p>Kopējā galīgā izliece \(w_{\text{fin}}\) ir visu galīgo izlieču summa:
-[w_{\text{fin}} = w_{\text{fin},g} + w_{\text{fin},q,1} + \sum w_{\text{fin},q,i}]</p>
+\[w_{\text{fin}} = w_{\text{fin},g} + w_{\text{fin},q,1} + \sum w_{\text{fin},q,i}\]</p>
 <p><em>Kur \(\psi_0\) un \(\psi_2\) ir slodžu kombināciju koeficienti saskaņā ar LVS EN 1990 (piemēram, lietderīgajai slodzei dzīvojamās ēkās \(\psi_2 = 0,3\)).</em></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="labā-prakse-rasējumu-noformēšanā"><a class="header" href="#labā-prakse-rasējumu-noformēšanā">Labā prakse rasējumu noformēšanā</a></h1>
 <p>Būvkonstrukciju rasējumu noformēšanai ir jābūt vienotai, pārskatāmai un atbilstošai standartu prasībām, lai izslēgtu kļūdainu interpretāciju būvlaukumā un nodrošinātu skaidru komunikāciju starp inženieri-projektētāju un būvuzņēmēju. Rasējumu noformēšanā tiek piemēroti <strong>LVS EN ISO</strong> standartu saimes noteikumi (tehniskie rasējumi).</p>
