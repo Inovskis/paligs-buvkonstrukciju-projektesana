@@ -62,7 +62,7 @@ Sanesuma garums:
 
 **Sanesumu principiālā shēma pie šķēršļiem:**
 
-![Shēma](../images/ch04/img005.png)
+![Shēma](../images/ch04/img005.jpg)
 
 **Koeficientu \\(\mu_2\\) vērtības Latvijas sniega reģionos atkarībā no šķēršļa augstuma \\(h\\):**
 
