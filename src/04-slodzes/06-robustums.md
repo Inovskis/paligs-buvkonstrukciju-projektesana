@@ -10,7 +10,7 @@ Prasības robustuma nodrošināšanai ir iestrādātas katras materiālu grupas 
 
 Projektētājam ir jāizvēlas viena vai vairākas stratēģijas ārkārtējo iedarbību (sprādzienu, triecienu, ugunsgrēku) un progresējošā sabrukuma novēršanai:
 
-![Stratēģiju shēma](../images/ch04/img009.png)
+![Stratēģiju shēma](../images/ch04/img009.jpg)
 
 ---
 
