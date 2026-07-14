@@ -36,7 +36,7 @@ Sniega slodžu raksturīgās vērtības uz zemes virsmas (\\(s_k\\)) ir noteikta
 | **IV** | 2,00 |
 | **V** | 2,30 |
 
-![Karte](../images/ch04/img004.png)
+![Karte](../images/ch04/img004.jpg)
 
 *Svarīgi: Interpolāciju starp zonām neveic. Projektēšanā izmanto tā reģiona vērtību, kurā atrodas būvlaukums.*
 
