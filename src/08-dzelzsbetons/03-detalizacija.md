@@ -41,7 +41,7 @@ Plātnes brīvajām (nebalstītajām) malām (piemēram, pie konsolēm, kāpņu 
 ### Stieptā stiegrojuma minimālais laukums (\\(A_{s,\text{min}}\\))
 Siju stieptajā zonā jānodrošina minimālais stiegrojuma laukums, lai novērstu trauslu sabrukumu plaisas rašanās brīdī:
 
-\[A_{s,\text{min}} = 0,26 \cdot \frac{f_{ctm}}{f_{yk}} \cdot b_t \cdot d \ge 0,0013 \cdot b_t \cdot d\]
+\\[A_{s,\text{min}} = 0,26 \cdot \frac{f_{ctm}}{f_{yk}} \cdot b_t \cdot d \ge 0,0013 \cdot b_t \cdot d\\]
 
 Kur:
 - \\(b_t\\) — vidējais stieptās zonas platums (m);
@@ -53,12 +53,12 @@ Kur:
 
 ### Spiestā stiegrojuma minimālais laukums (\\(A_{sc,\text{min}}\\))
 Ja aprēķinā tiek ņemts vērā spiestais stiegrojums (dubulti stiegrotā sijā), tā laukumam jābūt vismaz:
-\[A_{sc,\text{min}} \ge 0,002 \cdot A_c\]
+\\[A_{sc,\text{min}} \ge 0,002 \cdot A_c\\]
 
 ### Minimālais aptveru saturs (Šķērsstiegrojuma attiecība \\(\rho_w\\))
 Aptveru laukumam pret sijas sieniņas laukumu jānodrošina minimālā attiecība:
 
-\[\rho_w = \frac{A_{sw}}{s \cdot b_w \cdot \sin\alpha} \ge \rho_{w,\text{min}} = \frac{0,08 \cdot \sqrt{f_{ck}}}{f_{yk}}\]
+\\[\rho_w = \frac{A_{sw}}{s \cdot b_w \cdot \sin\alpha} \ge \rho_{w,\text{min}} = \frac{0,08 \cdot \sqrt{f_{ck}}}{f_{yk}}\\]
 
 Kur:
 - \\(A_{sw}\\) — visu aptveres kāju laukums vienā griezumā (piemēram, divkāršai aptverei \\(2 \cdot A_{s,\text{apt}}\\));

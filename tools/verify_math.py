@@ -14,15 +14,17 @@ def verify_file(filepath):
     # Search for any $ that is not escaped
     matches = list(re.finditer(r'(?<!\\)\$', text_clean))
     
+    # Search for any single backslash \[ or \] or \( or \)
+    single_backslash_matches = list(re.finditer(r'(?<!\\)\\\[|(?<!\\)\\\]|(?<!\\)\\\(|(?<!\\)\\\)', text_clean))
+    
     errors = []
-    if matches:
+    if matches or single_backslash_matches:
         lines = text.splitlines()
-        # To get accurate line numbers, we map match positions back to original text lines
         for line_no, line in enumerate(lines, 1):
-            # Strip code blocks and inline code from this line
             line_clean = re.sub(r'`[^`\n]*?`', '', line)
-            # Check for unescaped $
-            if re.search(r'(?<!\\)\$', line_clean):
+            
+            # Check for unescaped $ or single backslash delimiters
+            if re.search(r'(?<!\\)\$', line_clean) or re.search(r'(?<!\\)\\\[|(?<!\\)\\\]|(?<!\\)\\\(|(?<!\\)\\\)', line_clean):
                 errors.append((line_no, line))
             
     return errors
@@ -45,7 +47,7 @@ def main():
                     with open(filepath, 'r', encoding='utf-8') as f:
                         content = f.read()
                     content_clean = re.sub(r'```[\s\S]*?```', '', content)
-                    if re.search(r'(?<!\\)\$', content_clean):
+                    if re.search(r'(?<!\\)\$', content_clean) or re.search(r'(?<!\\)\\\[|(?<!\\)\\\]|(?<!\\)\\\(|(?<!\\)\\\)', content_clean):
                         for line_no, line_content in errors:
                             lines_before = content.splitlines()[:line_no-1]
                             full_text_before = "\n".join(lines_before)

@@ -41,7 +41,7 @@ Mālaino grunšu stiprību raksturo vienass spiedes stiprība \\(q_u\\) un konus
 | Ciets māls | > 383 | > 4,20 |
 
 Nedrenētās bīdes stiprība \\(c_u\\) (vai \\(s_u\\)) ir puse no vienass spiedes stiprības \\(q_u\\):
-\[c_u = s_u = \frac{q_u}{2}\]
+\\[c_u = s_u = \frac{q_u}{2}\\]
 
 ---
 

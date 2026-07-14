@@ -150,7 +150,7 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 ## Metinājuma šuves izvēle saskaņā ar skrūvju nestspēju
 
 Lai garantētu, ka savienojuma metinājums nav vājākais posms, šuves tiek dimensionētas pēc nosacījuma:
-\[V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}\]
+\\[V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}\\]
 Auss tiek metināta ar divpusēju stūra šuvi (rīkle \\(a\\)) pie nesošā elementa.
 
 | Skrūves | Skrūvju grupas nestspēja | Nepieciešamā šuves pretestība | Auss augstums | Izvēlētais šuves biezums \\(a\\) | Šuvju faktiskā nestspēja |

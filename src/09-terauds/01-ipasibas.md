@@ -38,15 +38,15 @@ Tērauda stiprība samazinās, palielinoties velmētā elementa biezumam \\(t\\)
 Būvkonstrukciju elastīgajiem aprēķiniem visā Eirokodeksa saimē izmanto šādas standartizētas tērauda konstantes:
 
 - **Elastības modulis (Junga modulis):**
-  \[E = 210\ 000\text{ N/mm}^2 = 210\text{ GPa}\]
+  \\[E = 210\ 000\text{ N/mm}^2 = 210\text{ GPa}\\]
 - **Bīdes modulis:**
-  \[G = \frac{E}{2 \cdot (1 + \nu)} \approx 81\ 000\text{ N/mm}^2 = 81\text{ GPa}\]
+  \\[G = \frac{E}{2 \cdot (1 + \nu)} \approx 81\ 000\text{ N/mm}^2 = 81\text{ GPa}\\]
 - **Puasona koeficients:**
-  \[\nu = 0,30\]
+  \\[\nu = 0,30\\]
 - **Lineārās termiskās izplešanās koeficients:**
-  \[\alpha = 12 \cdot 10^{-6}\text{ K}^{-1}\text{ (jeb } 1/^\circ\text{C)}\]
+  \\[\alpha = 12 \cdot 10^{-6}\text{ K}^{-1}\text{ (jeb } 1/^\circ\text{C)}\\]
 - **Blīvums (tilpuma masa):**
-  \[\rho = 7850\text{ kg/m}^3\text{ (atbilst tilpumsvaram } \gamma \approx 78,5\text{ kN/m}^3)\]
+  \\[\rho = 7850\text{ kg/m}^3\text{ (atbilst tilpumsvaram } \gamma \approx 78,5\text{ kN/m}^3)\\]
 
 ---
 

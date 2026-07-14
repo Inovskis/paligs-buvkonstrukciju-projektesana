@@ -35,16 +35,16 @@ Saskaņā ar LVS EN 1168 G pielikumu, ugunsizturības klasēm, kas ir vienādas 
 
 ### Empīriskais šķērsspēka un enkurojuma vienādojums ugunsgrēka apstākļos:
 
-\[V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d\]
+\\[V_{Rd,c,fi} = \left[ C_{\theta,1} + \alpha_k \cdot C_{\theta,2} \right] \cdot b_w \cdot d\\]
 
 Kur:
 - \\(\alpha_k = 1 + \sqrt{\frac{200}{d}} \le 2,0\\) (izmēra faktors, kur darba augstums \\(d\\) ir milimetros);
 - \\(b_w\\) — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);
 - \\(d\\) — darba augstums normālā temperatūrā;
 - \\(C_{\theta,1}\\) — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos:
-  \[C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)\]
+  \\[C_{\theta,1} = 0,15 \cdot \min\left( k_p(\theta_p) \cdot \sigma_{cp,20^\circ\text{C}} ; \frac{F_{R,a,fi,p}}{A_c} \right)\\]
 - \\(C_{\theta,2}\\) — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā:
-  \[C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}\]
+  \\[C_{\theta,2} = \sqrt[3]{\frac{0,58 \cdot F_{R,a,fi} \cdot f_{c,fi,m}}{f_{yk} \cdot b_w \cdot d}}\\]
 - \\(\sigma_{cp,20^\circ\text{C}}\\) — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;
 - \\(f_{c,fi,m}\\) — betona vidējā spiedes stiprība paaugstinātā temperatūrā;
 - \\(F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}\\) (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);

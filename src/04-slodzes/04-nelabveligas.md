@@ -23,7 +23,7 @@ Projektējot konstrukcijas pēc nestspējas robežstāvokļa (ULS - Ultimate Lim
 ### 1. Metode: Izmantojot vienādojumu (6.10)
 Tā ir vienkāršotā metode, kurā visas slodzes tiek reizinātas ar pilniem parciālajiem koeficientiem:
 
-\[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k\]
+\\[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k\\]
 
 Kur Latvijas nacionālajā pielikumā noteikts:
 - \\(\gamma_{G} = 1,35\\) (nelabvēlīgā pastāvīgā slodze);
@@ -34,11 +34,11 @@ Kur Latvijas nacionālajā pielikumā noteikts:
 Šī metode parasti sniedz ekonomiskāku rezultātu, ja pastāvīgā slodze ir dominējoša. Konstrukcija jāpārbauda uz nelabvēlīgāko no abiem vienādojumiem:
 
 - **Vienādojums (6.10a)** (dominē pastāvīgās slodzes):
-  \[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot \psi_0 \cdot Q_k\]
+  \\[E_d = \gamma_{G} \cdot G_k + \gamma_{Q} \cdot \psi_0 \cdot Q_k\\]
   *(Latvijā: \\(1,35 \cdot G_k + 1,5 \cdot \psi_0 \cdot Q_k\\))*
 
 - **Vienādojums (6.10b)** (dominē mainīgās slodzes):
-  \[E_d = \xi \cdot \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k\]
+  \\[E_d = \xi \cdot \gamma_{G} \cdot G_k + \gamma_{Q} \cdot Q_k\\]
   *(Latvijā: \\(\xi = 0,85\\), kas dod \\(1,15 \cdot G_k + 1,5 \cdot Q_k\\))*
 
 *Piezīme: Ja ir vairākas mainīgās slodzes (piem., lietderīgā + vējš + sniegs), tad viena no tām tiek pieņemta kā galvenā mainīgā slodze (\\(Q_{k,1}\\)), bet pārējās tiek reizinātas ar attiecīgajiem kombināciju koeficientiem \\(\psi_{0,i}\\).*

@@ -55,7 +55,7 @@ Seku klases (Consequence Classes, CC) nosaka, ņemot vērā iespējamās sekas k
 Ēku drošības klases (Reliability Classes, RC) tiešā veidā atbilst ēku seku klasēm: RC1 atbilst CC1, RC2 atbilst CC2 un RC3 atbilst CC3. 
 
 Drošuma jeb uzticamības līmenis tiek izteikts ar uzticamības indeksu \\(\beta\\). Indekss \\(\beta\\) ir saistīts ar konstrukcijas sabrukuma iestāšanās varbūtību \\(P_f\\) ar formulu:
-\[P_f = \Phi(-\beta)\]
+\\[P_f = \Phi(-\beta)\\]
 kur \\(\Phi\\) ir standarta normālā sadalījuma funkcija.
 
 Praksē izmanto vienkāršotu paņēmienu drošības līmeņa koriģēšanai, izmantojot reizinātāju (korekcijas koeficientu) \\(K_{\text{FI}}\\), ar kuru reizina pastāvīgo un mainīgo slodžu parciālos drošības koeficientus \\(\gamma_F\\):

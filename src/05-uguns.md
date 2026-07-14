@@ -17,11 +17,11 @@ Nesošajām un norobežojošajām konstrukcijām (piemēram, pārseguma plātnē
 
 Ugunsgrēks ir ārkārtēja situācija (accidental situation), tādēļ slodžu aprēķina vērtības tiek samazinātas, jo ir maz ticama maksimālās mainīgās slodzes sakrišana ar ugunsgrēku. Saskaņā ar LVS EN 1990 vienādojumu (6.11a/b):
 
-\[E_{d,fi} = \sum G_{k,j} + \psi_{1,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}\]
+\\[E_{d,fi} = \sum G_{k,j} + \psi_{1,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}\\]
 
 vai
 
-\[E_{d,fi} = \sum G_{k,j} + \psi_{2,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}\]
+\\[E_{d,fi} = \sum G_{k,j} + \psi_{2,1} \cdot Q_{k,1} + \sum \psi_{2,i} \cdot Q_{k,i}\\]
 
 ![Slodžu shēma ugunsgrēka situācijā](images/ch05/img012.png)
 

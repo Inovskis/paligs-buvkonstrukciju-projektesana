@@ -61,10 +61,10 @@ Būvkonstrukciju ilgmūžības nodrošināšanai ir pareizi jānosaka vides ieda
 ### Šķērsspēka nestspēja elementiem bez šķērsstiegrojuma (\\(V_{Rd,c}\\))
 Elementiem, kuriem nav aprēķina šķērsstiegrojuma (piemēram, plātnēm un pamatu pēdām), aprēķina šķērsspēka nestspēju \\(V_{Rd,c}\\) saskaņā ar LVS EN 1992-1-1 Eq (6.2.a):
 
-\[V_{Rd,c} = \left[ C_{Rd,c} \cdot k \cdot (100 \cdot \rho_l \cdot f_{ck})^{1/3} + k_1 \cdot \sigma_{cp} \right] \cdot b_w \cdot d\]
+\\[V_{Rd,c} = \left[ C_{Rd,c} \cdot k \cdot (100 \cdot \rho_l \cdot f_{ck})^{1/3} + k_1 \cdot \sigma_{cp} \right] \cdot b_w \cdot d\\]
 
 Ar minimālo vērtību:
-\[V_{Rd,c,min} = \left( v_{min} + k_1 \cdot \sigma_{cp} \right) \cdot b_w \cdot d\]
+\\[V_{Rd,c,min} = \left( v_{min} + k_1 \cdot \sigma_{cp} \right) \cdot b_w \cdot d\\]
 
 Kur:
 - \\(C_{Rd,c} = 0,18 / \gamma_c = 0,18 / 1,5 = 0,12\\);
@@ -81,7 +81,7 @@ Kur:
 
 Ja aksiālais spēks ir nulle, minimālo šķērsspēka nestspējas robežvērtību aprēķina kā:
 
-\[V_{Rd,c} = v_{min} \cdot b_w \cdot d\]
+\\[V_{Rd,c} = v_{min} \cdot b_w \cdot d\\]
 
 Minimālā bīdes sprieguma \\(v_{min}\\) vērtības (\\(N/mm^2\\) jeb MPa) aprēķina pēc formulas \\(v_{min} = 0,035 \cdot k^{3/2} \cdot f_{ck}^{1/2}\\) un tās apkopotas šādā tabulā:
 

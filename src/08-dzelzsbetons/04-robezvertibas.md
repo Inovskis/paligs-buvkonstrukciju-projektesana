@@ -10,11 +10,11 @@ Saskaņā ar standartu LVS EN 1990, par pieļaujamajām deformāciju robežvērt
 
 - **Estētiskais izskats un normāla ekspluatācija:**
   Izliece \\(w_{\text{max}}\\) no ilglaicīgās (kvazipastāvīgās) slodžu kombinācijas nedrīkst pārsniegt:
-  \[w_{\text{max}} = \frac{L}{250}\]
+  \\[w_{\text{max}} = \frac{L}{250}\\]
   
 - **Trauslu konstrukciju un starpsienu bojājumu novēršana:**
   Izlieces pieaugums \\(w_{\text{add}}\\) pēc starpsienu vai apdares izbūves (no kvazipastāvīgās kombinācijas mainīgās daļas un betona šļūdes) nedrīkst pārsniegt:
-  \[w_{\text{add}} = \frac{L}{500}\]
+  \\[w_{\text{add}} = \frac{L}{500}\\]
 
 Kur \\(L\\) ir sijas vai plātnes laidums (konsolēm robežvērtību pieņem kā \\(L_{\text{konsoles}} / 125\\) un \\(L_{\text{konsoles}} / 250\\)).
 
@@ -44,13 +44,13 @@ Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un 
 Saskaņā ar LVS EN 1992-1-1:2005/A2:2020/NA:2020 grozījumiem, koeficienta \\(\alpha_{cc}\\) vērtība ir mainīta no iepriekšējā \\(0,85\\) uz **\\(1,00\\)**. 
 
 Betona aprēķina spiedes stiprība \\(f_{cd}\\) tagad tiek noteikta kā:
-\[f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1,00 \cdot \frac{f_{ck}}{1,5}\]
+\\[f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1,00 \cdot \frac{f_{ck}}{1,5}\\]
 
 Stiepes stiprības aprēķina koeficients ir saglabāts \\(\alpha_{ct} = 1,00\\).
 
 ### 2. Aizsargslāņa pielaide būvdarbu novirzei \\(\Delta c_{\text{dev}}\\) (LVS EN 1992-1-1 4.4.1.3.(1)P)
 Nominālo stiegrojuma aizsargslāni \\(c_{\text{nom}}\\) nosaka, pieskaitot novirzi \\(\Delta c_{\text{dev}}\\) pie minimālā aizsargslāņa \\(c_{\text{min}}\\):
-\[c_{\text{nom}} = c_{\text{min}} + \Delta c_{\text{dev}}\]
+\\[c_{\text{nom}} = c_{\text{min}} + \Delta c_{\text{dev}}\\]
 
 Latvijas nacionālajā pielikumā noteiktās novirzes vērtības:
 - **Pārsegumu plātnēm, kuru biezums \\(h < 160\text{ mm}\\):**

@@ -38,10 +38,10 @@ Projektētājam ir jāizvēlas viena vai vairākas stratēģijas ārkārtējo ie
 Pārseguma plātnēs un sijās ir jāparedz stiepes saites, kuras parasti veido ar konstrukcijas stiegrojumu vai tērauda elementiem.
 
 - **Pārseguma iekšējās saites (\\(T_i\\)):**
-  \[T_i = 0,8 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}\]
+  \\[T_i = 0,8 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}\\]
   
 - **Pārseguma perimetra saites (\\(T_p\\)):**
-  \[T_p = 0,4 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}\]
+  \\[T_p = 0,4 \cdot (g_k + \psi \cdot q_k) \cdot s \cdot L \ge 75\text{ kN}\\]
 
 Kur:
 - \\(g_k\\) — pastāvīgā slodze uz pārseguma (\\(kN/m^2\\));
@@ -61,11 +61,11 @@ Kur:
 Plātnēs, kas balstās uz nesošajām sienām, stiepes saitēm jānodrošina šāda nestspēja:
 
 - **Pārseguma iekšējās saites (\\(T_i\\)):**
-  \[T_i = \frac{F_t}{37,5} \cdot (g_k + \psi \cdot q_k) \cdot z \ge F_t\text{ (kN/m)}\]
+  \\[T_i = \frac{F_t}{37,5} \cdot (g_k + \psi \cdot q_k) \cdot z \ge F_t\text{ (kN/m)}\\]
   *(Šī formula izriet no EN 1991-1-7 prasības: \\(T_i = \frac{g_k + \psi \cdot q_k}{7,5} \cdot \frac{z}{5} \cdot F_t \ge F_t\\))*
   
 - **Pārseguma perimetra saites (\\(T_p\\)):**
-  \[T_p = F_t\text{ (kN)}\]
+  \\[T_p = F_t\text{ (kN)}\\]
 
 Kur:
 - \\(F_t = (20 + 4 \cdot n_s) \le 60\text{ kN/m}\\) (pamata stiepes spēks);

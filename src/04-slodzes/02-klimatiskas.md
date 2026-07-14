@@ -7,9 +7,9 @@ Sniega slodze ir mainīga klimatiskā iedarbība, kas jāņem vērā, projektēj
 Saskaņā ar LVS EN 1991-1-3/NA:2019 punktu 2.7, visā Latvijas teritorijā ir jāpiemēro **B1 slogojuma gadījums** (notiek īpaša snigšana, nav paredzēti īpaši sanesumi uz zemes). 
 
 - Standarta projektēšanas situācijās (ilgstoša/īslaicīga situācija) aprēķina sniega slodzi uz jumta:
-  \[s = \mu_i \cdot C_e \cdot C_t \cdot s_k\]
+  \\[s = \mu_i \cdot C_e \cdot C_t \cdot s_k\\]
 - Ārkārtas situācijās (kur sniegs tiek vērtēts kā ārkārtēja iedarbība) aprēķina sniega slodzi uz jumta:
-  \[s = \mu_i \cdot C_e \cdot C_t \cdot C_{esl} \cdot s_k\]
+  \\[s = \mu_i \cdot C_e \cdot C_t \cdot C_{esl} \cdot s_k\\]
   Latvijā ārkārtējās sniega slodzes koeficients ir **\\(C_{esl} = 2,0\\)**.
 
 LVS EN 1991-1-3 6.2. punktā aprakstītie sniega sanesumi pie jumta izvirzījumiem ir jāizvērtē kā projekta ilgstoša vai īslaicīga situācija.

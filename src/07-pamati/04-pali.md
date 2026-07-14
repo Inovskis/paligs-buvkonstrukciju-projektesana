@@ -8,7 +8,7 @@ Pāļu pamatus izmanto slodžu pārnešanai uz dziļākiem, nestspējīgākiem g
 
 Saskaņā ar LVS EN 1997-1 (Eirokodekss 7), pāļu raksturīgo pretestību spiedē \\(R_{c,k}\\) aprēķina no lauka pārbaudes rezultātiem (vai korelācijām), izmantojot korelācijas (korelācijas) faktorus \\(\xi_3\\) un \\(\xi_4\\):
 
-\[R_{c,k} = \min \left\{ \frac{(R_{c,cal})_{\text{mean}}}{\xi_3} ; \frac{(R_{c,cal})_{\text{min}}}{\xi_4} \right\}\]
+\\[R_{c,k} = \min \left\{ \frac{(R_{c,cal})_{\text{mean}}}{\xi_3} ; \frac{(R_{c,cal})_{\text{min}}}{\xi_4} \right\}\\]
 
 Kur:
 - \\((R_{c,cal})_{\text{mean}}\\) — vidējā aprēķinātā pāļa nestspēja no visiem pārbaudes punktiem;
@@ -55,11 +55,11 @@ Urbto pāļu garenstiegrojumam jānodrošina minimālais laukums \\(A_s\\) atkar
 Saskaņā ar LVS EN 1992-1-1 punktu 2.3.4.2(2), monolītbetona pāļu aprēķinos bez pastāvīga apvalka ir jāņem vērā urbuma sieniņu nelīdzenumi, samazinot nominālo diametru \\(d_{\text{nom}}\\) līdz aprēķina diametram \\(d\\):
 
 - Ja \\(d_{\text{nom}} < 400\text{ mm}\\):
-  \[d = d_{\text{nom}} - 20\text{ mm}\]
+  \\[d = d_{\text{nom}} - 20\text{ mm}\\]
 - Ja \\(400\text{ mm} \le d_{\text{nom}} \le 1000\text{ mm}\\):
-  \[d = 0,95 \cdot d_{\text{nom}}\]
+  \\[d = 0,95 \cdot d_{\text{nom}}\\]
 - Ja \\(d_{\text{nom}} > 1000\text{ mm}\\):
-  \[d = d_{\text{nom}} - 50\text{ mm}\]
+  \\[d = d_{\text{nom}} - 50\text{ mm}\\]
 
 *Svarīgi: Šis samazinājums tieši ietekmē pāļa šķērsgriezuma laukumu \\(A_c\\) un inerces momentu \\(I\\), ko izmanto pāļa stiprības un nestspējas pārbaudēs.*
 

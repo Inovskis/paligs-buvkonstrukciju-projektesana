@@ -10,7 +10,7 @@ Lai nodrošinātu kvalitatīvu metināto šuvju izveidi un vienmērīgu spriegum
 - **Minimālais pieslēguma leņķis:** Leņķis \\(\theta\\) starp režģa elementu (atgāzni) un joslu nedrīkst būt mazāks par **\\(30^\circ\\)**. Pretējā gadījumā ir grūti izveidot šuvi un tās saknes daļa nav kvalitatīvi aizmetināma.
 - **Atstarpe K-veida mezglos ar atstarpi (gap joints):**
   Lai būtu pietiekami daudz vietas šuvju uzklāšanai un novērstu spriegumu koncentrāciju joslas sieniņā, tīrajai atstarpei \\(g\\) starp abiem atgāžņiem uz joslas virsmas jābūt vismaz:
-  \[g \ge t_1 + t_2\]
+  \\[g \ge t_1 + t_2\\]
   kur \\(t_1\\) un \\(t_2\\) ir savienojamo režģa elementu sieniņu biezumi.
 - **Pārsegums K-veida mezglos ar pārklāšanos (overlap joints):**
   Pārklāšanās apjomam jābūt pietiekamam bīdes spēku pārnesei no viena režģa elementa uz otru. Minimālais pārklāšanās apjoms ir **\\(25\%\\)**.
@@ -28,7 +28,7 @@ Lai nodrošinātu kvalitatīvu metināto šuvju izveidi un vienmērīgu spriegum
 Ekscentricitāte \\(e\\) ir vertikālais attālums no režģa elementu asu krustpunkta līdz joslas asij. 
 
 Saskaņā ar standartu, ieteicamās ekscentricitātes robežas ir:
-\[-0,55 \cdot h_0 \le e \le 0,25 \cdot h_0\]
+\\[-0,55 \cdot h_0 \le e \le 0,25 \cdot h_0\\]
 kur \\(h_0\\) ir joslas šķērsgriezuma augstums.
 
 - **Pozitīva ekscentricitāte (\\(e > 0\\)):** Asu krustpunkts ir nobīdīts uz kopnes ārpusi.
@@ -38,7 +38,7 @@ kur \\(h_0\\) ir joslas šķērsgriezuma augstums.
 
 ### Ekscentricitātes \\(e\\) un atstarpes \\(g\\) saistības formula:
 
-\[g = \left( e + \frac{h_0}{2} \right) \cdot (\cot\theta_1 + \cot\theta_2) - \frac{h_1}{2\sin\theta_1} - \frac{h_2}{2\sin\theta_2}\]
+\\[g = \left( e + \frac{h_0}{2} \right) \cdot (\cot\theta_1 + \cot\theta_2) - \frac{h_1}{2\sin\theta_1} - \frac{h_2}{2\sin\theta_2}\\]
 
 *Ja joslai izmanto pastiprinājuma plāksni (flange plate) ar biezumu \\(t_p\\), tad augstumu aizstāj: \\(\frac{h_0}{2} \to \frac{h_0}{2} + t_p\\).*
 

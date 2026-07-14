@@ -23,7 +23,7 @@ Lietderīgās slodzes ir mainīgas iedarbības, ko rada cilvēku uzturēšanās 
 
 Kategorijām no A līdz D slodzi uz nesošajām konstrukcijām (piemēram, sijām un kolonnām) ir atļauts samazināt, reizinot raksturīgo slodzi ar samazinājuma koeficientu \\(\alpha_A\\), kas ievērtē varbūtību, ka visa lielā platība netiks noslogota maksimāli:
 
-\[\alpha_A = \frac{5}{7}\psi_0 + \frac{A_0}{A} \le 1,0\]
+\\[\alpha_A = \frac{5}{7}\psi_0 + \frac{A_0}{A} \le 1,0\\]
 
 Kur:
 - \\(A_0 = 10\text{ m}^2\\) (bāzes platība);

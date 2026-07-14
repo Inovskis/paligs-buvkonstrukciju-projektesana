@@ -26,7 +26,7 @@ Saskaņā ar LVS EN 1995-1-1 materiālu drošības koeficientu vērtības nestsp
 ## Modifikācijas koeficienta \\(k_{\text{mod}}\\) vērtības (LVS EN 1995-1-1/NA)
 
 Koeficients \\(k_{\text{mod}}\\) ņem vērā slodzes darbības ilguma un koksnes mitruma ietekmi uz materiāla stiprību. Koka aprēķina stiprību \\(f_d\\) nosaka kā:
-\[f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}\]
+\\[f_d = k_{\text{mod}} \cdot \frac{f_k}{\gamma_M}\\]
 
 | Materiāls | Standarts / Tips | Ekspluatācijas klase | Pastāvīgā slodze | Ilgstošā slodze | Vidēja ilguma slodze | Īslaicīgā slodze | Acumirklīgā slodze |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
