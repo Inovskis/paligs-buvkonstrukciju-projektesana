@@ -11,11 +11,12 @@ Parasti izpildes klasi pieņem atbilstoši būves seku klasei (piemēram, EXC1 a
 
 ## Izpildes klases (EXC) noteikšanas matrica
 
-| Ražošanas klase | Seku klase | <col colspan="2">CC1 | <col colspan="2">CC2 | <col colspan="2">CC3 |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| | **Izmantošanas klase** | **SC1** | **SC2** | **SC1** | **SC2** | **SC1** | **SC2** |
-| **PC1** | (Nemetināti elementi vai tērauds < S355) | EXC1 | EXC2 | EXC2 | EXC3 | EXC3 | EXC3 |
-| **PC2** | (Metināti elementi vai tērauds \\(\ge\\) S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |
+| Ražošanas klase | Izmantošanas klase | Seku klase CC1 | Seku klase CC2 | Seku klase CC3 |
+| :--- | :--- | :---: | :---: | :---: |
+| **PC1**<br>*(Nemetināti elementi, tērauds < S355)* | **SC1** *(statiska)* | EXC1 | EXC2 | EXC3 |
+| | **SC2** *(dinamiska)* | EXC2 | EXC3 | EXC3 |
+| **PC2**<br>*(Metināti elementi, tērauds \\(\ge\\) S355)* | **SC1** *(statiska)* | EXC2 | EXC2 | EXC3 |
+| | **SC2** *(dinamiska)* | EXC2 | EXC3 | EXC4 |
 
 *Piezīme: Parastām ēkām (statiska slodze, seku klase CC2, izmantošanas klase SC1 un metināti elementi no S355 tērauda - PC2) standarta izpildes klase ir **EXC2**.*
 
