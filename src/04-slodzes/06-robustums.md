@@ -50,7 +50,7 @@ Kur:
 - \\(s\\) — kolonu solis / attālums starp saitēm (m);
 - \\(L\\) — saites laidums (attālums starp kolonnām) (m).
 
-![Saišu shēma kolonnām](../images/ch04/img010_diagram.png)
+![Saišu shēma kolonnām](../images/ch04/img010_diagram.jpg)
 
 *Apzīmējumi: (a) saites laidums \\(L\\), (b) sijas vai plātnes stiegrojums (kas pilda saites funkciju), (c) perimetra saite, (d) saites enkurojums kolonnā.*
 
