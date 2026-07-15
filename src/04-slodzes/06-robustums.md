@@ -72,4 +72,4 @@ Kur:
 - \\(n_s\\) — būves stāvu skaits;
 - \\(z\\) — attālums starp saitēm (m), kur \\(z = L\\) (plātnes laidums), ar ierobežojumu \\(z \le 5H\\) (\\(H\\) ir stāva augstums).
 
-![Saišu shēma sienām](../images/ch04/img011_diagram.png)
+![Saišu shēma sienām](../images/ch04/img011_diagram.jpg)
