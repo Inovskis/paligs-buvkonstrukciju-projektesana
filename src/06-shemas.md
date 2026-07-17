@@ -14,7 +14,7 @@ Konstruktīvās shēmas izvēle nosaka būves slodžu pārnesi no jumta un stāv
   - **Bīdes sienas un kodoli (Shear walls / cores):** Monolītā dzelzsbetona kāpņu un liftu šahtas (kodoli) vai nesošās mūra/betona sienas, kas uzņem bīdes spēkus.
   - **Stingie rāmji (Moment frames):** Rāmji ar stingiem (momentizturīgiem) siju-kolonnu mezgliem. Tie ir deformējamāki nekā saites, taču nodrošina lielāku arhitektonisko brīvību.
 
-![Telpiskās noturības shēmas](images/ch06/img013.jpg)
+![Telpiskās noturības shēmas](images/ch06/img013.png)
 
 ### Stabilitātes nodrošināšanas situāciju analīze (Skaidrojumi shēmai)
 
