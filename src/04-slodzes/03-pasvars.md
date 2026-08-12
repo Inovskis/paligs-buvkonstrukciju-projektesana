@@ -21,22 +21,53 @@ Aprēķinot dobumoto dzelzsbetona plātņu pašsvara slodzi, ir būtiski ievērt
 
 ## Materiālu tilpumsvari pastāvīgās slodzes noteikšanai
 
-Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā noteiktos tilpumsvarus:
+Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā un ražotāju specifikācijās noteiktos tilpumsvarus (blīvumus). Zemāk apkopoti praksē biežāk izmantotie materiāli:
 
-| Nr. | Materiāla nosaukums | Tilpumsvars \\(\gamma\\) (kN/m³) |
-| :---: | :--- | :---: |
-| 1 | Tērauds | 78,50 |
-| 2 | Dzelzsbetons (parasts ar stiegrojumu)* | 25,00 |
-| 3 | Granīts | 26,00 |
-| 4 | Stikls loksnēs | 25,00 |
-| 5 | Granīta šķembas | 16,00 |
-| 6 | Sausas smiltis | 16,00 |
-| 7 | Kokskaidu plātne (OSB) | 8,00 |
-| 8 | Bērza saplāksnis | 7,00 |
-| 9 | C24 klases skuju koksne | 4,20 |
-| 10 | Paroc COS 5 (siltumizolācija trīsslāņu paneļos) | 0,65 |
+### Betons un mūris
+| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| :--- | :---: |
+| Dzelzsbetons (parasts ar stiegrojumu) | 25,0 |
+| Betons (neiegrots) | 24,0 |
+| Gāzbetons (dobumotie bloki, piem., Bauroc) | 4,0 – 6,0 |
+| Keramzītbetons (atkarībā no frakcijas) | 12,0 – 18,0 |
+| Silikātķieģeļi un bloki | 18,0 – 20,0 |
+| Keramiskie bloki (dobotie, piem., Lode) | 8,0 – 10,0 |
+| Pilnie māla ķieģeļi | 18,0 |
 
-*\*Piezīme: Dzelzsbetona tilpumsvars saskaņā ar LVS EN 1991-1-1 ir 25,0 kN/m³ (parastam betonam bez stiegrojuma — 24,0 kN/m³).*
+### Metāli un koksne
+| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| :--- | :---: |
+| Tērauds | 78,5 |
+| Alumīnijs | 27,0 |
+| Skuju koksne (C24, sausa) | 4,2 |
+| Līmētais koks (GL24h / GL30h) | 4,5 – 5,0 |
+| Lapu koksne (ozols, osis) | 7,0 – 8,0 |
+| Bērza saplāksnis | 7,0 |
+| OSB (kokskaidu plātne) | 6,5 – 8,0 |
+
+### Apdares un izolācijas materiāli
+| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| :--- | :---: |
+| Stikls (lokšņu) | 25,0 |
+| Cementa-smilšu java (Estrich grīdām) | 20,0 – 22,0 |
+| Ģipša java / apmetums | 12,0 – 15,0 |
+| Ģipškartons (GKB, GKF) | 8,0 – 9,0 |
+| Keramiskās flīzes | 20,0 – 24,0 |
+| Akmensvate (cietā, piem., fasādēm / jumtiem) | 1,0 – 1,5 |
+| Akmensvate (mīkstā, rāmju karkasos) | 0,3 – 0,6 |
+| Putupolistirols (EPS / XPS) | 0,15 – 0,40 |
+
+### Grunts, beramkravas un šķidrumi
+| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| :--- | :---: |
+| Ūdens (saldūdens) | 10,0 |
+| Sausa smilts | 16,0 – 18,0 |
+| Mitra smilts | 18,0 – 20,0 |
+| Granīta šķembas | 16,0 – 18,0 |
+| Māls (dabīgā mitrumā) | 19,0 – 21,0 |
+| Asfalts / Asfaltbetons | 22,0 – 24,0 |
+
+> **Piezīme:** Dzelzsbetona tilpumsvars saskaņā ar LVS EN 1991-1-1 ir 25,0 kN/m³. Ja sijas vai plātnes stiegrojuma pakāpe ir ļoti liela (piem., tiltiem vai masīviem pamatiem), šo vērtību var būt nepieciešams precizēt, taču ēkām standarta pieņēmums ir 25,0 kN/m³.
 
 ---
 

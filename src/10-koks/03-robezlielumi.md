@@ -22,7 +22,76 @@ Saskaņā ar LVS EN 1995-1-1/NA ieteicamās robežvērtības siju un plātņu ve
 
 Koka konstrukciju izliece sastāv no elastīgās (momentānās) izlieces un šļūdes izlieces (mitruma un ilglaicīgas slodzes ietekmē).
 
-![Izlieces komponentes](../images/ch10/img102.png)
+<div align="center" style="margin: 2em 0;">
+  <svg width="600" height="260" viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .baseline { stroke: #a0aec0; stroke-width: 2; stroke-dasharray: 6,4; }
+      .curve-precamber { fill: none; stroke: #48bb78; stroke-width: 3; stroke-dasharray: 4,4; }
+      .curve-inst { fill: none; stroke: #3182ce; stroke-width: 3; }
+      .curve-fin { fill: none; stroke: #e53e3e; stroke-width: 3; }
+      .arrow { stroke: #2d3748; stroke-width: 1.5; fill: none; }
+      .arrow-head { fill: #2d3748; }
+      .text-small { font-family: 'Inter', sans-serif; font-size: 13px; fill: #4a5568; }
+      .text-bold { font-family: 'Inter', sans-serif; font-size: 14px; fill: #2d3748; font-weight: bold; font-style: italic; }
+      .support { fill: #e2e8f0; stroke: #4a5568; stroke-width: 2; }
+    </style>
+
+    <!-- Atbalsti -->
+    <polygon points="50,130 40,150 60,150" class="support"/>
+    <polygon points="550,130 540,150 560,150" class="support"/>
+    <line x1="30" y1="150" x2="570" y2="150" class="baseline" style="stroke:#4a5568; stroke-dasharray: none;" />
+
+    <!-- Sākotnējā horizontālā ass (bez priekšizlieces) -->
+    <line x1="50" y1="130" x2="550" y2="130" class="baseline" />
+
+    <!-- Priekšizliece w_c (uz augšu) -->
+    <path d="M50 130 Q300 30 550 130" class="curve-precamber" />
+    
+    <!-- Momentānā izliece no horizontāles -->
+    <!-- (Kopējā momentānā, rēķinot no horizontāles = w_inst - w_c) -->
+    <!-- Parasti grafikos w_inst mēra no priekšizlieces līnijas. -->
+    <path d="M50 130 Q300 170 550 130" class="curve-inst" />
+
+    <!-- Galīgā izliece -->
+    <path d="M50 130 Q300 230 550 130" class="curve-fin" />
+
+    <!-- Bultiņas un apzīmējumi vidū -->
+    <line x1="300" y1="80" x2="300" y2="130" class="arrow" />
+    <polygon points="300,80 297,87 303,87" class="arrow-head"/>
+    <polygon points="300,130 297,123 303,123" class="arrow-head"/>
+    <text x="310" y="110" class="text-bold" fill="#48bb78">w_c</text>
+
+    <!-- Momentānā -->
+    <!-- w_inst no w_c līdz inst -->
+    <line x1="280" y1="80" x2="280" y2="150" class="arrow" />
+    <polygon points="280,150 277,143 283,143" class="arrow-head"/>
+    <polygon points="280,80 277,87 283,87" class="arrow-head"/>
+    <text x="235" y="125" class="text-bold" fill="#3182ce">w_inst</text>
+
+    <!-- Šļūde (w_creep) -->
+    <line x1="300" y1="150" x2="300" y2="180" class="arrow" />
+    <polygon points="300,150 297,157 303,157" class="arrow-head"/>
+    <polygon points="300,180 297,173 303,173" class="arrow-head"/>
+    <text x="310" y="170" class="text-bold" fill="#e53e3e">w_creep</text>
+
+    <!-- Neto galīgā (no horizontāles) -->
+    <line x1="330" y1="130" x2="330" y2="180" class="arrow" />
+    <polygon points="330,130 327,137 333,137" class="arrow-head"/>
+    <polygon points="330,180 327,173 333,173" class="arrow-head"/>
+    <text x="340" y="160" class="text-bold">w_net,fin</text>
+
+    <!-- Leģenda -->
+    <text x="30" y="30" class="text-small">
+       <tspan fill="#48bb78" font-weight="bold">---</tspan> Priekšizliece
+    </text>
+    <text x="30" y="50" class="text-small">
+       <tspan fill="#3182ce" font-weight="bold">───</tspan> Momentānā (elastīgā) stāvoklis
+    </text>
+    <text x="30" y="70" class="text-small">
+       <tspan fill="#e53e3e" font-weight="bold">───</tspan> Galīgais (šļūdes) stāvoklis
+    </text>
+  </svg>
+</div>
 
 ### Deformācijas komponentu definīcijas:
 - **\\(w_c\\)** — konstruktīvā priekšizliece (precamber) nenoslogotā stāvoklī;

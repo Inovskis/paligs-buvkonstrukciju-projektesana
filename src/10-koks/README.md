@@ -8,4 +8,4 @@ Koksne ir anizotrops (ar atšķirīgām īpašībām dažādos virzienos) un hig
 - [Koksnes materiālu mehāniskās īpašības](01-ipasibas.md) (masīvkoksne C, līmētais koks GL)
 - [Slodžu ilgumi un modifikācijas koeficienti](02-koeficienti.md) (ekspluatācijas klases, \\(k_{\text{mod}}\\) un \\(k_{\text{def}}\\) vērtības)
 - [Lietojamības robežstāvoklis (SLS)](03-robezlielumi.md) (izlieču robežvērtības \\(w_{\text{inst}}\\) un \\(w_{\text{net,fin}}\\))
-- [Koka konstrukciju savienojumi un stiprinājumu prasības](04-geotehnika.md)
+- [Koka konstrukciju savienojumi un stiprinājumu prasības](04-savienojumi.md)

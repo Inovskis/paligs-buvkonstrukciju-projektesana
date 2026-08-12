@@ -4,4 +4,5 @@ Slodžu parciālie koeficienti palielina aprēķina iedarbību vērtības (novir
 
 ![Attēls](../images/ch04/img003.png)
 
-Lietojot Eirokodeksu sistēmu, primāri ir jāizmanto tie parciālie koeficienti un parametri, kas ir noteikti attiecīgo projektēšanas standartu Latvijas nacionālajos pielikumos (LVS EN XXXX-X-X/NA). Ja kāda konkrēta parametra vai koeficienta vērtība nacionālajā pielikumā nav definēta, ir izmantojama standarta pamatdokumentā norādītā rekomendējamā vērtība.
+> **Svarīgi!**
+> Lietojot Eirokodeksu sistēmu, primāri ir jāizmanto tie parciālie koeficienti un parametri, kas ir noteikti attiecīgo projektēšanas standartu Latvijas nacionālajos pielikumos (LVS EN XXXX-X-X/NA). Ja kāda konkrēta parametra vai koeficienta vērtība nacionālajā pielikumā nav definēta, ir izmantojama standarta pamatdokumentā norādītā rekomendējamā vērtība.

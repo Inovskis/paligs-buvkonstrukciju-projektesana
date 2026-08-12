@@ -65,4 +65,53 @@ Lineārie elementi (sijas, dobumotie paneļi, kopnes) uzņem šķērsslodzes un 
 - **Priekšrocības:** Mazākas izlieces un mazāks nepieciešamais šķērsgriezuma augstums salīdzinājumā ar vienlaiduma siju.
 - **Trūkumi:** Sarežģītāki mezgli, papildu piepūles no atbalstu sēšanās vai temperatūras deformācijām.
 
-![Lineāro elementu shēmas](images/ch06/img014.png)
+<div align="center">
+  <svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .beam { stroke: #2c5282; stroke-width: 6; stroke-linecap: round; }
+      .support { fill: none; stroke: #4a5568; stroke-width: 2; }
+      .ground { stroke: #4a5568; stroke-width: 2; stroke-dasharray: 4,4; }
+      .text { font-family: 'Inter', sans-serif; font-size: 14px; fill: #2d3748; font-weight: bold; }
+    </style>
+
+    <!-- 1. Vienlaiduma sija -->
+    <text x="300" y="30" text-anchor="middle" class="text">1. Vienlaiduma (šarnīrveida) sija</text>
+    <line x1="100" y1="60" x2="500" y2="60" class="beam" />
+    <!-- Kreisais balsts (Pin) -->
+    <polygon points="100,60 90,80 110,80" class="support" fill="#e2e8f0"/>
+    <line x1="80" y1="80" x2="120" y2="80" class="ground" />
+    <!-- Labais balsts (Roller) -->
+    <polygon points="500,60 490,75 510,75" class="support" fill="#e2e8f0"/>
+    <circle cx="495" cy="80" r="3" fill="#4a5568"/>
+    <circle cx="505" cy="80" r="3" fill="#4a5568"/>
+    <line x1="480" y1="83" x2="520" y2="83" class="ground" />
+
+    <!-- 2. Konsoles sija -->
+    <text x="300" y="115" text-anchor="middle" class="text">2. Konsoles sija</text>
+    <line x1="100" y1="140" x2="500" y2="140" class="beam" />
+    <!-- Iespīlējums kreisajā pusē -->
+    <line x1="100" y1="120" x2="100" y2="160" class="support" stroke-width="4"/>
+    <line x1="90" y1="120" x2="90" y2="160" class="ground" />
+    <!-- Svītriņas iespīlējumam -->
+    <path d="M100 125 L90 135 M100 135 L90 145 M100 145 L90 155" class="support" stroke-width="1"/>
+
+    <!-- 3. Nepārtraukta sija -->
+    <text x="300" y="195" text-anchor="middle" class="text">3. Nepārtraukta (vairāklaidumu) sija</text>
+    <line x1="100" y1="220" x2="500" y2="220" class="beam" />
+    <!-- Balsti -->
+    <polygon points="100,220 90,240 110,240" class="support" fill="#e2e8f0"/>
+    <line x1="80" y1="240" x2="120" y2="240" class="ground" />
+    
+    <polygon points="233,220 223,235 243,235" class="support" fill="#e2e8f0"/>
+    <circle cx="228" cy="240" r="3" fill="#4a5568"/> <circle cx="238" cy="240" r="3" fill="#4a5568"/>
+    <line x1="210" y1="243" x2="253" y2="243" class="ground" />
+
+    <polygon points="366,220 356,235 376,235" class="support" fill="#e2e8f0"/>
+    <circle cx="361" cy="240" r="3" fill="#4a5568"/> <circle cx="371" cy="240" r="3" fill="#4a5568"/>
+    <line x1="343" y1="243" x2="386" y2="243" class="ground" />
+
+    <polygon points="500,220 490,235 510,235" class="support" fill="#e2e8f0"/>
+    <circle cx="495" cy="240" r="3" fill="#4a5568"/> <circle cx="505" cy="240" r="3" fill="#4a5568"/>
+    <line x1="480" y1="243" x2="520" y2="243" class="ground" />
+  </svg>
+</div>

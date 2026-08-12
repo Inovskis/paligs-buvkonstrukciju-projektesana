@@ -1,200 +1,84 @@
-/* =========================================================
+﻿/* =========================================================
    Būvkonstrukciju projektēšana. Rokasgrāmata. — custom styles
    ========================================================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+
+:root {
+    --primary-color: #2c5282; /* Deep Blue for engineering trust */
+    --accent-color: #3182ce;
+    --text-main: #2d3748;
+    --heading-color: #1a202c;
+    --border-color: #e2e8f0;
+    --table-header-bg: #edf2f7;
+    --table-border-color: #cbd5e0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Inter', sans-serif;
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.7em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.2em;
+    margin-top: 1.5em;
+}
+
 /* --- Vāka lapa (cover) --- */
-
-.cover-page {
-    margin: 0 0 3em 0;
-    padding: 0;
-    font-family: inherit;
-}
-
-.cover-top-bar {
-    height: 6px;
-    background: #3d7abf;
-    margin-bottom: 2.5em;
-    border-radius: 1px;
-}
-
-.cover-title-block {
-    margin-bottom: 1.5em;
-}
-
-.cover-title {
-    font-size: 1.6em;
-    font-weight: 700;
-    line-height: 1.25;
-    color: var(--fg);
-    letter-spacing: -0.01em;
-}
-
-.cover-subtitle {
-    font-size: 0.85em;
-    font-weight: 400;
-    color: var(--fg);
-    opacity: 0.55;
-    font-style: italic;
-    letter-spacing: 0.08em;
-    margin-top: 0.6em;
-}
-
-.cover-divider {
-    height: 1px;
-    background: var(--table-border-color);
-    margin: 1.5em 0;
-}
-
-.cover-meta {
-    display: table;
-    width: 100%;
-    border-spacing: 0 0.3em;
-}
-
-.cover-meta-row {
-    display: table-row;
-}
-
-.cover-meta-label {
-    display: table-cell;
-    font-size: 0.75em;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--fg);
-    opacity: 0.45;
-    padding-right: 1.5em;
-    white-space: nowrap;
-    vertical-align: middle;
-}
-
-.cover-meta-value {
-    display: table-cell;
-    font-size: 0.95em;
-    font-weight: 500;
-    color: var(--fg);
-    vertical-align: middle;
-}
-
-.cover-sponsor {
-    margin-top: 0.5em;
-}
-
-.cover-sponsor-label {
-    font-size: 0.72em;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--fg);
-    opacity: 0.45;
-    margin-bottom: 0.7em;
-}
-
-.cover-logo {
-    display: block;
-    height: 48px;
-    width: auto;
-    max-width: 80px;
-    margin: 0;
-    opacity: 0.9;
-}
-
-/* --- Navigācijas joslas virsraksts: mazs, izlīdzināts ar satura tekstu --- */
-
-.menu-title {
-    display: block !important;
-    font-size: 1.05rem !important;
-    font-weight: 500 !important;
-    text-align: left !important;
-    padding: 0 0 0 var(--page-padding) !important;
-    margin-left: 0 !important;
-    letter-spacing: 0.01em;
-}
+.cover-page { margin: 0 0 3em 0; padding: 0; }
+.cover-top-bar { height: 6px; background: var(--primary-color); margin-bottom: 2.5em; border-radius: 1px; }
+.cover-title-block { margin-bottom: 1.5em; }
+.cover-title { font-size: 2em; font-weight: 700; line-height: 1.25; color: var(--heading-color); letter-spacing: -0.02em; }
+.cover-subtitle { font-size: 1em; font-weight: 400; color: var(--text-main); opacity: 0.7; font-style: italic; margin-top: 0.6em; }
+.cover-divider { height: 1px; background: var(--border-color); margin: 1.5em 0; }
+.cover-meta { display: table; width: 100%; border-spacing: 0 0.5em; }
+.cover-meta-row { display: table-row; }
+.cover-meta-label { display: table-cell; font-size: 0.8em; text-transform: uppercase; font-weight: 600; color: var(--primary-color); padding-right: 1.5em; white-space: nowrap; vertical-align: middle; }
+.cover-meta-value { display: table-cell; font-size: 1em; font-weight: 500; color: var(--text-main); vertical-align: middle; }
 
 /* --- Tabulas: pilns platums, bez horizontālās ritjoslas --- */
-
-.table-wrapper {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: auto;
-    font-size: 0.85em;
-    margin: 1em 0;
-}
-
-th {
-    font-weight: normal;
-    font-size: 0.85em;
-    text-align: left;
-    padding: 5px 8px;
-    vertical-align: middle;
-    line-height: 1.2;
-    hyphens: none;
-    background-color: var(--table-header-bg);
-    border: 1px solid var(--table-border-color);
-}
-
-td {
-    padding: 5px 8px;
-    vertical-align: top;
-    border: 1px solid var(--table-border-color);
-}
-
-/* Alternating row colors */
-tr:nth-child(even) td {
-    background-color: var(--quote-bg);
-}
-
-/* Pirmās kolonnas šūnas vienā rindā (piem. skrūvju marķējumi M12, M16) */
-.nowrap-first td:first-child {
-    white-space: nowrap;
-}
+.table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1.5em 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 4px; }
+table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 0.9em; margin: 0; }
+th { font-weight: 600; text-align: left; padding: 10px 12px; background-color: var(--table-header-bg); border-bottom: 2px solid var(--table-border-color); border-top: none; color: var(--heading-color); }
+td { padding: 10px 12px; vertical-align: top; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+tr:nth-child(even) td { background-color: #f8fafc; }
+tr:hover td { background-color: #ebf4ff; } /* Iezīmē rindu uz hover */
 
 /* --- Attēli: nepārplūst saturu --- */
+img { max-width: 100%; height: auto; display: block; margin: 1.5em auto; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+figure { margin: 1.5em 0; text-align: center; }
+figcaption { font-size: 0.85em; color: #718096; margin-top: 0.5em; font-style: italic; }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0.5em auto;
+/* --- Svarīgi bloki / Citāti --- */
+blockquote {
+    border-left: 4px solid var(--accent-color);
+    background-color: #ebf8ff;
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    border-radius: 0 4px 4px 0;
+    color: #2a4365;
 }
-
-/* --- Saturs: fiksēts platums kā grāmatā, teksts izlīdzināts --- */
-
-.content {
-    overflow-x: hidden;
-}
-
-.content p, .content li {
-    text-align: justify;
-    hyphens: auto;
-}
-
-/* --- Subscript un superscript --- */
-
-sub, sup {
-    font-size: 0.75em;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sup {
-    top: -0.4em;
-}
-
-sub {
-    bottom: -0.2em;
-}
+blockquote p { margin: 0; }
 
 /* --- Kods: word-wrap lai nepārplūst --- */
+code { font-family: 'Roboto Mono', monospace; font-size: 0.9em; background-color: #edf2f7; padding: 0.2em 0.4em; border-radius: 3px; color: #c53030; }
+pre code { background-color: transparent; color: inherit; padding: 0; }
+pre { background-color: #1a202c; color: #e2e8f0; padding: 1em; border-radius: 6px; overflow-x: auto; font-size: 0.85em; }
 
-code {
-    word-break: break-all;
-}
-
-pre {
-    overflow-x: auto;
-}

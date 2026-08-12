@@ -27,7 +27,7 @@ Plātnes brīvajām (nebalstītajām) malām (piemēram, pie konsolēm, kāpņu 
 - **Attālumi:** Spiestajā zonā attālums starp diviem blakus esošiem garenstieņiem nedrīkst pārsniegt **\\(150\text{ mm}\\)** no stieņa, kas ir nostiprināts ar aptveri (LVS EN 1992-1-1 9.5.3(6)).
 
 ### Šķērsstiegrojums (Aptveres)
-Šķērsstiegrojuma (aptveru) solis \\(s_{cl,t}\\) nedrīkst pārsniegt maksimālo soli \\(s_{cl,t,max}\\) (skatīt [Maksimālais attālums starp stiegrām](file:///C:/Users/Kasutaja/Dropbox/Projects/paligs-buvkonstrukciju-projektesana/src/08-dzelzsbetons/02-prasibas.md#maksimālais-attālums-starp-stiegrām-aptveru-solis)).
+Šķērsstiegrojuma (aptveru) solis $s_{cl,t}$ nedrīkst pārsniegt maksimālo soli $s_{cl,t,max}$ (skatīt [Maksimālais attālums starp stiegrām](02-prasibas.md#maksimālais-attālums-starp-stiegrām-aptveru-solis)).
 
 ---
 
@@ -49,7 +49,7 @@ Kur:
 - \\(f_{ctm}\\) — betona vidējā stiepes stiprība (MPa);
 - \\(f_{yk}\\) — stiegrojuma tecēšanas robeža (MPa).
 
-*Piezīme: Tēraudam B500 un betonam C25/30 šī robeža ir \\(A_{s,\text{min}} \approx 0,00135 \cdot b_t \cdot d\\), bet betonam C30/37 tā ir \\(A_{s,\text{min}} \approx 0,0015 \cdot b_t \cdot d\\).*
+> **Piezīme:** Tēraudam B500 un betonam C25/30 šī robeža ir $A_{s,\text{min}} \approx 0,00135 \cdot b_t \cdot d$, bet betonam C30/37 tā ir $A_{s,\text{min}} \approx 0,0015 \cdot b_t \cdot d$.
 
 ### Spiestā stiegrojuma minimālais laukums (\\(A_{sc,\text{min}}\\))
 Ja aprēķinā tiek ņemts vērā spiestais stiegrojums (dubulti stiegrotā sijā), tā laukumam jābūt vismaz:
@@ -66,9 +66,9 @@ Kur:
 - \\(b_w\\) — sijas sieniņas platums;
 - \\(\alpha\\) — aptveru leņķis pret sijas garenasi (statnām aptverēm \\(\alpha = 90^\circ\\), t.i., \\(\sin\alpha = 1,0\\)).
 
-*Piemērs (\\(f_{yk} = 500\text{ MPa}\\)):*
-- Betonam C25/30: \\(\rho_{w,\text{min}} = 0,080\%\\)
-- Betonam C30/37: \\(\rho_{w,\text{min}} = 0,088\%\\)
+> **Piemērs ($f_{yk} = 500\text{ MPa}$):**
+> - Betonam C25/30: $\rho_{w,\text{min}} = 0,080\%$
+> - Betonam C30/37: $\rho_{w,\text{min}} = 0,088\%$
 
 ### Aptveru izvietojuma robežvērtības
 - **Minimālais aptveru solis (iestrādes ērtībai):**
@@ -79,3 +79,32 @@ Kur:
   - \\(12 \cdot \varnothing_{\text{sp}}\\) (kur \\(\varnothing_{\text{sp}}\\) ir spiestā stiegrojuma minimālais diametrs);
   - \\(300\text{ mm}\\).
 - **Minimālais aptveru diametrs:** Sijās šķērsstiegrojumam jāizmanto stieņi ar diametru \\(\varnothing \ge 8\text{ mm}\\).
+
+---
+
+## Stiegrojuma enkurošana un pārlaidumi (LVS EN 1992-1-1 8.4 un 8.7)
+
+Stiegrojuma enkurošanas garumam un pārlaidumiem ir jānodrošina pilnīga spēku pārnese no stiegrojuma uz betonu (vai starp diviem stieņiem) bez betona plaisāšanas vai nošķelšanās.
+
+### Pamata enkurošanas garums ({b,rqd}$)
+
+Vajadzīgais pamata enkurošanas garums, lai uzņemtu pilnu stieņa aprēķina spriegumu $\sigma_{sd}$, tiek noteikts kā:
+\\[l_{b,rqd} = \left( \frac{\varnothing}{4} \right) \cdot \frac{\sigma_{sd}}{f_{bd}}\\]
+kur {bd}$ ir aprēķina saistes stiprība starp betonu un stiegrojumu, kas atkarīga no betona klases, stieņa diametra un saistes apstākļiem (labi vai slikti).
+
+### Aprēķina enkurošanas garums ({bd}$)
+
+Faktisko aprēķina enkurošanas garumu nosaka, reizinot pamata garumu ar koeficientiem:
+\\[l_{bd} = \alpha_1 \cdot \alpha_2 \cdot \alpha_3 \cdot \alpha_4 \cdot \alpha_5 \cdot l_{b,rqd} \ge l_{b,min}\\]
+kur koeficienti $\alpha_i$ ņem vērā stieņa gala formu (taisns, āķis, cilpa), betona aizsargkārtu, šķērsstiegrojuma ietekmi u.c.
+- **{b,min}$** stieptiem stieņiem nedrīkst būt mazāks par lielāko no: ,3 l_{b,rqd}$, \varnothing$ vai \text{ mm}$.
+
+> **Piezīme praktiskai projektēšanai:**
+> Lielākajā daļā standarta gadījumu (B500B stiegrojums, C30/37 betons, labi saistes apstākļi, bez papildu šķērsstiegrojuma efektiem), taisnam stienim aprēķina enkurošanas garums stieptajā zonā ir aptuveni **\varnothing \dots 40\varnothing$**.
+
+### Pārlaiduma garums ($)
+
+Pārlaiduma garumu stiegru savienojumiem aprēķina līdzīgi, izmantojot papildu koeficientu $\alpha_6$, kas ņem vērā to, cik liels procents no stiegrām tiek savienots vienā šķērsgriezumā:
+\\[l_0 = \alpha_1 \cdot \alpha_2 \cdot \alpha_3 \cdot \alpha_5 \cdot \alpha_6 \cdot l_{b,rqd} \ge l_{0,min}\\]
+- Ja vienā vietā pārlaidumu veido $> 50\%$ stiegru, $\alpha_6 = 1,5$.
+- Pārlaiduma vietās vienmēr jāparedz papildu šķērsstiegrojums (skavas vai aptveres) atbilstoši EN 1992-1-1 prasībām.

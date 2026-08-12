@@ -18,10 +18,30 @@ Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes
 | **M30** | 30 | 33 | 561,0 | 707 | 215,4 | 224,4 | 323,1 | 403,9 |
 | **M36** | 36 | 39 | 817,0 | 1018 | 313,7 | 326,8 | 470,6 | 588,2 |
 
-*\*Piezīme:*
-- *Bīdes nestspēja \\(F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\) ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu (\\(\alpha_v = 0,6\\) klasei 8.8; \\(\alpha_v = 0,5\\) klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu \\(A\\) un \\(\alpha_v = 0,6\\).*
-- *Stiepes nestspēja \\(F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\), kur \\(k_2 = 0,9\\) un \\(\gamma_{M2} = 1,25\\).*
-- *Pieņemts \\(\gamma_{M2} = 1,25\\), \\(f_{ub} = 800\text{ MPa}\\) (8.8) un \\(1000\text{ MPa}\\) (10.9).*
+> **Piezīme par aprēķiniem:**
+> - Bīdes nestspēja $F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$ ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu ($\alpha_v = 0,6$ klasei 8.8; $\alpha_v = 0,5$ klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu $A$ un $\alpha_v = 0,6$.
+> - Stiepes nestspēja $F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$, kur $k_2 = 0,9$ un $\gamma_{M2} = 1,25$.
+> - Aprēķinā pieņemts $\gamma_{M2} = 1,25$, $f_{ub} = 800\text{ MPa}$ (8.8 klase) un $1000\text{ MPa}$ (10.9 klase).
+
+---
+
+## Bultskrūvju savienojumu kategorijas (LVS EN 1993-1-8 3.4)
+
+Pirms savienojuma projektēšanas ir jāizvēlas atbilstoša aprēķina kategorija atkarībā no pārnesamajiem spēkiem (bīde vai stiepe) un pieļaujamajām deformācijām.
+
+### Bīdes savienojumi (Shear connections)
+* **Kategorija A: Bīdes savienojumi (Bearing type)**  
+  Visbiežāk izmantotais standarta savienojuma veids. Pieļauj slīdi (skrūves vītne/kāts atspiežas pret urbuma malu). Skrūves nav iepriekš saspriegtas. Projektē, lai izturētu skrūves bīdi ($F_{v,Rd}$) un urbuma malas spiedi ($F_{b,Rd}$).
+* **Kategorija B: Pret slīdi nodrošināti SLS (Slip-resistant at SLS)**  
+  Skrūves (10.9 vai 8.8) ir iepriekš saspriegtas ar kontrolētu spēku. Ekspluatācijas (SLS) robežstāvoklī savienojums nedrīkst izslīdēt (jāuzņem bīde ar berzi). Nestspējas (ULS) robežstāvoklī slīde ir pieļaujama un savienojums darbojas kā Kategorija A.
+* **Kategorija C: Pret slīdi nodrošināti ULS (Slip-resistant at ULS)**  
+  Skrūves (10.9 vai 8.8) ir iepriekš saspriegtas. Savienojums nedrīkst izslīdēt pat nestspējas robežstāvoklī (ULS). Pārbauda uz slīdes pretestību ($F_{s,Rd}$) pie ULS slodzēm. Turklāt urbuma mala un skrūves bīde tiek pārbaudīta kā plastiskajai nestspējai. 
+
+### Stiepes savienojumi (Tension connections)
+* **Kategorija D: Nesaspriegti savienojumi (Non-preloaded)**  
+  Tiek izmantotas parastas nesaspriegtas skrūves. Nestspēju nosaka skrūvju stiepes ($F_{t,Rd}$) vai plātnes caurumošanas (punching shear) stiprība.
+* **Kategorija E: Saspriegti savienojumi (Preloaded)**  
+  Tiek izmantotas iepriekš saspriegtas augstas stiprības skrūves (klase 8.8 vai 10.9). Saspriegums uzlabo noguruma pretestību un stingumu (piem., momentizturīgos atloku mezglos). Nestspēju rēķina tāpat kā Kategorijai D.
 
 | Skrūvsavienojuma principiālā shēma | Skrūvju attālumu apzīmējumi |
 | :---: | :---: |
@@ -33,7 +53,42 @@ Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes
 
 Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teorētiskais augstums) vai katetes izmēra \\(s\\) (\\(s \approx a \cdot \sqrt{2}\\)):
 
-![Šuves biezums](../images/ch09/img088.png)
+<div align="center" style="margin: 2em 0;">
+  <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .plate { fill: #cbd5e0; stroke: #4a5568; stroke-width: 3; }
+      .weld { fill: #718096; stroke: #2d3748; stroke-width: 2; }
+      .line { stroke: #e53e3e; stroke-width: 2; stroke-dasharray: 4,4; }
+      .dim-line { stroke: #2d3748; stroke-width: 1.5; }
+      .text { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: bold; fill: #2d3748; }
+    </style>
+    <!-- Horizontālā plāksne -->
+    <rect x="20" y="180" width="260" height="40" class="plate" />
+    <!-- Vertikālā plāksne -->
+    <rect x="130" y="20" width="40" height="160" class="plate" />
+    
+    <!-- Stūra šuve -->
+    <polygon points="170,180 170,100 250,180" class="weld" />
+    
+    <!-- Rīkles biezums 'a' -->
+    <line x1="170" y1="180" x2="210" y2="140" class="line" />
+    
+    <!-- Katete 's' vertikāli -->
+    <line x1="260" y1="180" x2="260" y2="100" class="dim-line" />
+    <line x1="250" y1="180" x2="270" y2="180" class="dim-line" />
+    <line x1="170" y1="100" x2="270" y2="100" class="dim-line" />
+    <text x="270" y="145" class="text">s</text>
+
+    <!-- Katete 's' horizontāli -->
+    <line x1="170" y1="85" x2="250" y2="85" class="dim-line" />
+    <line x1="170" y1="100" x2="170" y2="75" class="dim-line" />
+    <line x1="250" y1="180" x2="250" y2="75" class="dim-line" />
+    <text x="205" y="75" class="text">s</text>
+
+    <!-- Rīkles teksts -->
+    <text x="180" y="150" class="text" fill="#e53e3e">a</text>
+  </svg>
+</div>
 
 ![Metināšanas asis](../images/ch09/img089.png)
 
@@ -41,7 +96,34 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
 
 ![Šuvju apzīmējumi](../images/ch09/img090.png)
 
-![Šuvju simbola shēma](../images/ch09/img091.png)
+<div align="center" style="margin: 2em 0;">
+  <svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .line { stroke: #2d3748; stroke-width: 2; fill: none; }
+      .arrow { fill: #2d3748; }
+      .text { font-family: 'Inter', sans-serif; font-size: 14px; fill: #4a5568; text-anchor: middle; }
+      .text-bold { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: bold; fill: #2d3748; }
+    </style>
+    
+    <!-- Atsauces līnija -->
+    <line x1="150" y1="80" x2="400" y2="80" class="line" />
+    
+    <!-- Bultiņas līnija -->
+    <line x1="150" y1="80" x2="80" y2="130" class="line" />
+    <polygon points="80,130 85,118 94,124" class="arrow" />
+    
+    <!-- Astīte -->
+    <polyline points="400,80 420,60 400,80 420,100" class="line" />
+    
+    <!-- Teksti -->
+    <text x="60" y="145" class="text-bold">Bulta</text>
+    <text x="275" y="65" class="text">Otrā pusē (virs līnijas)</text>
+    <text x="275" y="105" class="text">Bultas pusē (zem līnijas)</text>
+    <text x="460" y="85" class="text">Astīte (Piezīmes)</text>
+    <text x="180" y="70" class="text-bold">a / s</text>
+    <text x="360" y="70" class="text-bold">l (garums)</text>
+  </svg>
+</div>
 
 **Apzīmējumu skaidrojums:**
 

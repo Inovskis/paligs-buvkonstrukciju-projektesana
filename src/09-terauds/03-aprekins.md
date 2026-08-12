@@ -45,15 +45,16 @@ Tērauda elementu šķērsgriezuma koordinātu asis tiek definētas šādi:
 
 Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) \\(d\\) var provizoriski noteikt pēc laiduma un augstuma attiecības \\(L/d\\):
 
-| Elements | Attiecība \\(L/d\\) | Provizoriskais augstums \\(d\\) (mm) atkarībā no laiduma (\\(L\\), m) | | | | | | | | |
+**Provizoriskais augstums \\(d\\) (mm) atkarībā no laiduma (\\(L\\), m):**
+
+| Elements | \\(L/d\\) | 3 m | 4,5 m | 6 m | 7,5 m | 9 m | 12 m | 15 m | 23 m | 30 m | 45-90 m |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| | | **3 m** | **4,5 m** | **6 m** | **7,5 m** | **9 m** | **12 m** | **15 m** | **23 m** | **30 m** | **45-90 m** |
 | Sija (vispārīga) | **20** | 230 | 300 | 390 | 460 | 610 | 770 | 1150 | — | — | — |
-| Kompozītā sija (ar betonu) | **28** | 200 | 220 | 270 | 320 | 440 | 550 | 820 | — | — | — |
+| Kompozītā sija | **28** | 200 | 220 | 270 | 320 | 440 | 550 | 820 | — | — | — |
 | Rāmja sija (stinga) | **10** | 460 | 610 | 760 | 900 | 1100 | 1500 | 2300 | — | — | — |
-| Grīdas sekundārās sijas | **20** | 150 | 230 | 300 | 400 | 450 | 600 | 750 | — | — | — |
-| Jumta sekundārās sijas | **24** | — | — | — | — | — | 640 | 800 | 950 | 1250 | — |
-| Metināta lokšņu sija | **15** | — | 400 | 500 | 600 | 800 | 1000 | 1500 | 2000 | — | — |
+| Grīdas sek. sijas | **20** | 150 | 230 | 300 | 400 | 450 | 600 | 750 | — | — | — |
+| Jumta sek. sijas | **24** | — | — | — | — | — | 640 | 800 | 950 | 1250 | — |
+| Metināta sija | **15** | — | 400 | 500 | 600 | 800 | 1000 | 1500 | 2000 | — | — |
 | Kopne | **12** | — | 500 | 640 | 760 | 1000 | 1300 | 1900 | 2500 | 3000 | 5000-7000 |
 | Telpisks režģis | **16** | — | — | — | 570 | 760 | 950 | 1400 | 1900 | 2860 | 3800-5700 |
 

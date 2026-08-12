@@ -30,11 +30,11 @@ Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un 
 | XC2, XC3, XC4 | 0,3 | \\(0,2^2\\) |
 | XD1, XD2, XD3, XS1, XS2, XS3 | 0,3 | Dekompresija (pārbauda atsevišķi) |
 
-*Piezīmes par tabulu:*
-1. *Piezīme 1:* Klasēm X0 un XC1 plaisu platumam nav ietekmes uz ilgizturību, šī robežvērtība ir noteikta tikai vizuālā izskata nodrošināšanai. Ja nav prasību pret vizuālo izskatu, šīs prasības var atvieglot.
-2. *Piezīme 2:* Šīm klasēm priekšspriegotiem elementiem ar saisti papildus ir jāveic dekompresijas pārbaude (stiegrojuma kanāls nedrīkst atrasties stieptajā zonā) pie kvazipastāvīgās slodžu kombinācijas.
+> **Piezīmes par tabulu:**
+> 1. Klasēm X0 un XC1 plaisu platumam nav ietekmes uz ilgizturību, šī robežvērtība ir noteikta tikai vizuālā izskata nodrošināšanai. Ja nav prasību pret vizuālo izskatu, šīs prasības var atvieglot.
+> 2. Šīm klasēm priekšspriegotiem elementiem ar saisti papildus ir jāveic dekompresijas pārbaude (stiegrojuma kanāls nedrīkst atrasties stieptajā zonā) pie kvazipastāvīgās slodžu kombinācijas.
 
-*Svarīgi: Priekšspriegotiem elementiem ar saisti iedarbības klasēs XD un XS dekompresijas pārbaude (stiegrojuma kanāla atrašanās vismaz \\(25\text{ mm}\\) dziļumā spiestajā zonā) ir jāveic pie **biežās slodžu kombinācijas** (frequent combination), nevis kvazipastāvīgās kombinācijas. Šis nosacījums bieži vien projektēšanas praksē tiek kļūdaini jaukts.*
+> **Svarīgi!** Priekšspriegotiem elementiem ar saisti iedarbības klasēs XD un XS dekompresijas pārbaude (stiegrojuma kanāla atrašanās vismaz $25\text{ mm}$ dziļumā spiestajā zonā) ir jāveic pie **biežās slodžu kombinācijas** (frequent combination), nevis kvazipastāvīgās kombinācijas. Šis nosacījums bieži vien projektēšanas praksē tiek kļūdaini jaukts.
 
 ---
 

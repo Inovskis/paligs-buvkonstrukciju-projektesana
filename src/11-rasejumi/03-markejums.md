@@ -14,9 +14,35 @@ Norāžu līnijas izmanto, lai piesaistītu anotācijas, elementu markas vai izm
 - **Virziens un stils:** Norāžu līniju slīpajām daļām vēlams būt leņķī pret asīm (visbiežāk \\(30^\circ\\), \\(45^\circ\\) vai \\(60^\circ\\)). Slikta prakse ir zīmēt norāžu līnijas ar nelielu nobīdi (\\(1^\circ \dots 5^\circ\\)) no horizontāles vai vertikāles, kas vizuāli izskatās pēc rasēšanas kļūdas.
 - **Krustošanās:** Norāžu līnijas nedrīkst krustoties savā starpā vai krustot izmēru līnijas.
 
-| Norāde uz kontūru (bultiņa) | Norāde elementa iekšienē (punkts) | Norāde uz asi (bez gala apzīmējuma) |
-| :---: | :---: | :---: |
-| ![Bultiņa](../images/ch11/img111.png) | ![Punkts](../images/ch11/img112.png) | ![Ass](../images/ch11/img113.png) |
+<table style="width:100%; text-align:center;">
+<tr>
+  <th>Norāde uz kontūru (bultiņa)</th>
+  <th>Norāde elementa iekšienē (punkts)</th>
+  <th>Norāde uz asi (bez gala apzīmējuma)</th>
+</tr>
+<tr>
+  <td>
+    <svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+      <rect x="20" y="20" width="80" height="40" fill="#edf2f7" stroke="#4a5568" stroke-width="2"/>
+      <line x1="20" y1="20" x2="5" y2="5" stroke="#e53e3e" stroke-width="2"/>
+      <polygon points="20,20 16,11 11,16" fill="#e53e3e"/>
+    </svg>
+  </td>
+  <td>
+    <svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+      <rect x="20" y="20" width="80" height="40" fill="#edf2f7" stroke="#4a5568" stroke-width="2"/>
+      <line x1="60" y1="40" x2="90" y2="10" stroke="#e53e3e" stroke-width="2"/>
+      <circle cx="60" cy="40" r="4" fill="#e53e3e"/>
+    </svg>
+  </td>
+  <td>
+    <svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+      <line x1="60" y1="10" x2="60" y2="70" stroke="#4a5568" stroke-width="2" stroke-dasharray="10,4,2,4"/>
+      <line x1="60" y1="40" x2="90" y2="20" stroke="#e53e3e" stroke-width="2"/>
+    </svg>
+  </td>
+</tr>
+</table>
 
 | Pareizs paralēlu norāžu izkārtojums | Nepareizs (norādes krustojas un ir nesakārtotas) |
 | :---: | :---: |
