@@ -45,18 +45,71 @@ Tērauda elementu šķērsgriezuma koordinātu asis tiek definētas šādi:
 
 Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) \\(d\\) var provizoriski noteikt pēc laiduma un augstuma attiecības \\(L/d\\):
 
-**Provizoriskais augstums \\(d\\) (mm) atkarībā no laiduma (\\(L\\), m):**
-
-| Elements | \\(L/d\\) | 3 m | 4,5 m | 6 m | 7,5 m | 9 m | 12 m | 15 m | 23 m | 30 m | 45-90 m |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Sija (vispārīga) | **20** | 230 | 300 | 390 | 460 | 610 | 770 | 1150 | — | — | — |
-| Kompozītā sija | **28** | 200 | 220 | 270 | 320 | 440 | 550 | 820 | — | — | — |
-| Rāmja sija (stinga) | **10** | 460 | 610 | 760 | 900 | 1100 | 1500 | 2300 | — | — | — |
-| Grīdas sek. sijas | **20** | 150 | 230 | 300 | 400 | 450 | 600 | 750 | — | — | — |
-| Jumta sek. sijas | **24** | — | — | — | — | — | 640 | 800 | 950 | 1250 | — |
-| Metināta sija | **15** | — | 400 | 500 | 600 | 800 | 1000 | 1500 | 2000 | — | — |
-| Kopne | **12** | — | 500 | 640 | 760 | 1000 | 1300 | 1900 | 2500 | 3000 | 5000-7000 |
-| Telpisks režģis | **16** | — | — | — | 570 | 760 | 950 | 1400 | 1900 | 2860 | 3800-5700 |
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Elements</th>
+        <th rowspan="2">Attiecība \(L/d\)</th>
+        <th colspan="10">Provizoriskais augstums \(d\) (mm) atkarībā no laiduma (\(L\), m)</th>
+      </tr>
+      <tr>
+        <th>3 m</th>
+        <th>4,5 m</th>
+        <th>6 m</th>
+        <th>7,5 m</th>
+        <th>9 m</th>
+        <th>12 m</th>
+        <th>15 m</th>
+        <th>23 m</th>
+        <th>30 m</th>
+        <th>45-90 m</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sija (vispārīga)</td>
+        <td><strong>20</strong></td>
+        <td>230</td><td>300</td><td>390</td><td>460</td><td>610</td><td>770</td><td>1150</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Kompozītā sija</td>
+        <td><strong>28</strong></td>
+        <td>200</td><td>220</td><td>270</td><td>320</td><td>440</td><td>550</td><td>820</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Rāmja sija (stinga)</td>
+        <td><strong>10</strong></td>
+        <td>460</td><td>610</td><td>760</td><td>900</td><td>1100</td><td>1500</td><td>2300</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Grīdas sek. sijas</td>
+        <td><strong>20</strong></td>
+        <td>150</td><td>230</td><td>300</td><td>400</td><td>450</td><td>600</td><td>750</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Jumta sek. sijas</td>
+        <td><strong>24</strong></td>
+        <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>640</td><td>800</td><td>950</td><td>1250</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Metināta sija</td>
+        <td><strong>15</strong></td>
+        <td>—</td><td>400</td><td>500</td><td>600</td><td>800</td><td>1000</td><td>1500</td><td>2000</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Kopne</td>
+        <td><strong>12</strong></td>
+        <td>—</td><td>500</td><td>640</td><td>760</td><td>1000</td><td>1300</td><td>1900</td><td>2500</td><td>3000</td><td>5000-7000</td>
+      </tr>
+      <tr>
+        <td>Telpisks režģis</td>
+        <td><strong>16</strong></td>
+        <td>—</td><td>—</td><td>—</td><td>570</td><td>760</td><td>950</td><td>1400</td><td>1900</td><td>2860</td><td>3800-5700</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 *Piezīme: Šī tabula paredzēta tikai provizoriskam izmēru novērtējumam. Galīgais šķērsgriezums vienmēr jānosaka ar stiprības, stabilitātes un izlieces aprēķiniem.*
 
