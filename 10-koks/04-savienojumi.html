@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html lang="lv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Koka savienojumi - Būvkonstrukciju projektēšana</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Sākums</a></li><li class="chapter-item expanded "><a href="../saturs.html"><strong aria-hidden="true">1.</strong> Saturs</a></li><li class="chapter-item expanded "><a href="../ievads.html"><strong aria-hidden="true">2.</strong> Ievads</a></li><li class="chapter-item expanded "><a href="../02-normativas.html"><strong aria-hidden="true">3.</strong> Izmantojamie būvnormatīvi un standarti</a></li><li class="chapter-item expanded "><a href="../03-visparigie.html"><strong aria-hidden="true">4.</strong> Vispārīgie projektēšanas nosacījumi</a></li><li class="chapter-item expanded "><a href="../04-slodzes/index.html"><strong aria-hidden="true">5.</strong> Slodzes un iedarbes</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../04-slodzes/01-lietderigas.html"><strong aria-hidden="true">5.1.</strong> Lietderīgās slodzes</a></li><li class="chapter-item expanded "><a href="../04-slodzes/02-klimatiskas.html"><strong aria-hidden="true">5.2.</strong> Klimatiskās slodzes</a></li><li class="chapter-item expanded "><a href="../04-slodzes/03-pasvars.html"><strong aria-hidden="true">5.3.</strong> Konstrukciju pašsvars</a></li><li class="chapter-item expanded "><a href="../04-slodzes/04-nelabveligas.html"><strong aria-hidden="true">5.4.</strong> Nelabvēlīgākās slodzes</a></li><li class="chapter-item expanded "><a href="../04-slodzes/05-izbuvesklases.html"><strong aria-hidden="true">5.5.</strong> Izbūves klases</a></li><li class="chapter-item expanded "><a href="../04-slodzes/06-robustums.html"><strong aria-hidden="true">5.6.</strong> Ēku robustums</a></li></ol></li><li class="chapter-item expanded "><a href="../05-uguns.html"><strong aria-hidden="true">6.</strong> Ugundrošu konstrukciju projektēšana</a></li><li class="chapter-item expanded "><a href="../06-shemas.html"><strong aria-hidden="true">7.</strong> Konstruktīvās shēmas</a></li><li class="chapter-item expanded "><a href="../07-pamati/index.html"><strong aria-hidden="true">8.</strong> Pamati un pamatne</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../07-pamati/01-visparigie.html"><strong aria-hidden="true">8.1.</strong> Vispārīgi</a></li><li class="chapter-item expanded "><a href="../07-pamati/02-tehnologijas.html"><strong aria-hidden="true">8.2.</strong> Tehnoloģiju pielietojamība</a></li><li class="chapter-item expanded "><a href="../07-pamati/03-grunsis.html"><strong aria-hidden="true">8.3.</strong> Grunšu parametri</a></li><li class="chapter-item expanded "><a href="../07-pamati/04-pali.html"><strong aria-hidden="true">8.4.</strong> Pāļu pamati</a></li><li class="chapter-item expanded "><a href="../07-pamati/05-geoizpete.html"><strong aria-hidden="true">8.5.</strong> Ģeotehniskā izpēte</a></li></ol></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/index.html"><strong aria-hidden="true">9.</strong> Dzelzsbetona konstrukcijas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../08-dzelzsbetons/01-ipasibas.html"><strong aria-hidden="true">9.1.</strong> Fizikālās un mehāniskās īpašības</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/02-prasibas.html"><strong aria-hidden="true">9.2.</strong> Papildu prasības projektēšanai</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/03-detalizacija.html"><strong aria-hidden="true">9.3.</strong> Labas detalizācijas prakse</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/04-robezvertibas.html"><strong aria-hidden="true">9.4.</strong> Robežvērtības</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/05-vide.html"><strong aria-hidden="true">9.5.</strong> Vides iedarbības klases</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/06-saliekamais.html"><strong aria-hidden="true">9.6.</strong> Saliekamais dzelzsbetons</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/07-metinasana.html"><strong aria-hidden="true">9.7.</strong> Stiegrojuma metināšana</a></li></ol></li><li class="chapter-item expanded "><a href="../09-terauds/index.html"><strong aria-hidden="true">10.</strong> Tērauda konstrukcijas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../09-terauds/01-ipasibas.html"><strong aria-hidden="true">10.1.</strong> Fizikālās un mehāniskās īpašības</a></li><li class="chapter-item expanded "><a href="../09-terauds/02-prasibas.html"><strong aria-hidden="true">10.2.</strong> Papildu prasības projektēšanai</a></li><li class="chapter-item expanded "><a href="../09-terauds/03-aprekins.html"><strong aria-hidden="true">10.3.</strong> Aprēķins pēc robežstāvokļu metodes</a></li><li class="chapter-item expanded "><a href="../09-terauds/04-savienojumi.html"><strong aria-hidden="true">10.4.</strong> Tērauda konstrukciju savienojumi</a></li><li class="chapter-item expanded "><a href="../09-terauds/05-kopnes.html"><strong aria-hidden="true">10.5.</strong> Kopņu projektēšana</a></li><li class="chapter-item expanded "><a href="../09-terauds/06-uguns.html"><strong aria-hidden="true">10.6.</strong> Ugunsdrošība</a></li></ol></li><li class="chapter-item expanded "><a href="../10-koks/index.html"><strong aria-hidden="true">11.</strong> Koka konstrukcijas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-koks/01-ipasibas.html"><strong aria-hidden="true">11.1.</strong> Materiālu īpašības</a></li><li class="chapter-item expanded "><a href="../10-koks/02-koeficienti.html"><strong aria-hidden="true">11.2.</strong> Koeficienti</a></li><li class="chapter-item expanded "><a href="../10-koks/03-robezlielumi.html"><strong aria-hidden="true">11.3.</strong> Robežlielumi</a></li><li class="chapter-item expanded "><a href="../10-koks/04-savienojumi.html" class="active"><strong aria-hidden="true">11.4.</strong> Koka savienojumi</a></li></ol></li><li class="chapter-item expanded "><a href="../11-rasejumi/index.html"><strong aria-hidden="true">12.</strong> Labā prakse rasējumu noformēšanā</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-rasejumi/01-lapas.html"><strong aria-hidden="true">12.1.</strong> Lapu izkārtojums un izmēri</a></li><li class="chapter-item expanded "><a href="../11-rasejumi/02-izmeri.html"><strong aria-hidden="true">12.2.</strong> Izmēru līnijas</a></li><li class="chapter-item expanded "><a href="../11-rasejumi/03-markejums.html"><strong aria-hidden="true">12.3.</strong> Elementu marķējums</a></li><li class="chapter-item expanded "><a href="../11-rasejumi/04-kultura.html"><strong aria-hidden="true">12.4.</strong> Rasēšanas kultūra</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Būvkonstrukciju projektēšana</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Inovskis/paligs-buvkonstrukciju-projektesana" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Inovskis/paligs-buvkonstrukciju-projektesana/edit/main/src/10-koks/04-savienojumi.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="koka-konstrukciju-mehāniskie-savienojumi-lvs-en-1995-1-1-8-nodaļa"><a class="header" href="#koka-konstrukciju-mehāniskie-savienojumi-lvs-en-1995-1-1-8-nodaļa">Koka konstrukciju mehāniskie savienojumi (LVS EN 1995-1-1 8. nodaļa)</a></h1>
+<p>Koka konstrukciju savienojumu nestspējas noteikšana ir viena no atbildīgākajām koka projektēšanas daļām. Savienojumi ar tapveida stiprinājumiem (skrūves, bultskrūves, naglas, dībeļi) tiek aprēķināti saskaņā ar Johansena tecēšanas teoriju (European Yield Model).</p>
+<hr />
+<h2 id="sabrukuma-formas-un-johansena-teorija"><a class="header" href="#sabrukuma-formas-un-johansena-teorija">Sabrukuma formas un Johansena teorija</a></h2>
+<p>Viena griezuma (single shear) koks-koks vai koks-plātne savienojuma raksturīgā bīdes pretestība $F_{v,Rk}$ uz vienu stiprinājumu un vienu bīdes plakni ir jārēķina kā mazākā vērtība no vairākām iespējamām sabrukuma formām (LVS EN 1995-1-1 8.2.2. tabula).</p>
+<blockquote>
+<p><strong>Piezīme:</strong>
+Vērtējamās sabrukuma formas (a līdz f):</p>
+<ul>
+<li><strong>(a) un (b) forma:</strong> Koksnes lokālā spiedes (embedment) sagrāve vienā no savienojuma elementiem (stiprinājums paliek taisns).</li>
+<li><strong>(c), (d) un (e) forma:</strong> Kombinēta koksnes spiede un viena vai divu plastisko šarnīru (plastic hinges) veidošanās tērauda stiprinājumā.</li>
+<li><strong>f (virves efekts):</strong> Ja stiprinājumam (piemēram, kokskrūvei vai bultskrūvei ar uzgriezni) ir stiepes (izraušanas) nestspēja, bīdes nestspēju var palielināt uz "virves efekta" (rope effect) rēķina – maksimāli par 25% naglām un bultskrūvēm, un par 100% kokskrūvēm.</li>
+</ul>
+</blockquote>
+<h3 id="aprēķina-pretestība-f_vrd"><a class="header" href="#aprēķina-pretestība-f_vrd">Aprēķina pretestība ($F_{v,Rd}$)</a></h3>
+<p>Aprēķina nestspēju iegūst, reizinot raksturīgo vērtību ar modifikācijas koeficientu un dalot ar materiāla drošuma koeficientu $\gamma_M$:
+\[F_{v,Rd} = F_{v,Rk} \cdot \frac{k_{\text{mod}}}{\gamma_M}\]
+Koka savienojumiem $\gamma_M = 1,30$. Ja savienoti divi dažādi koka materiāli ar atšķirīgu $k_{\text{mod}}$, aprēķinā izmanto mazāko $k_{\text{mod}}$ vērtību, bet izmanto koksnes $\gamma_M = 1,30$. Ja aprēķina tērauda elementu (piemēram, bultskrūves stiepi), tad pielieto tērauda $\gamma_{M2} = 1,25$.</p>
+<hr />
+<h2 id="minimālie-attālumi-bultskrūvēm-lvs-en-1995-1-1-85-tabula"><a class="header" href="#minimālie-attālumi-bultskrūvēm-lvs-en-1995-1-1-85-tabula">Minimālie attālumi bultskrūvēm (LVS EN 1995-1-1 8.5. tabula)</a></h2>
+<p>Lai novērstu koksnes trauslo šķelšanos (splitting) gar šķiedrām, bultskrūvēm un dībeļiem ir jāievēro stingri ģeometriskie attālumi.
+Zemāk dotās vērtības ir <strong>minimālie</strong> attālumi atkarībā no stiprinājuma diametra $d$ un leņķa $\alpha$ (leņķis starp slodzes spēku un koksnes šķiedru virzienu).</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Attāluma apzīmējums</th><th style="text-align: center">Minimālā vērtība</th><th style="text-align: left">Skaidrojums</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Solis $a_1$ (paralēli šķiedrām)</strong></td><td style="text-align: center">$(4 +</td><td style="text-align: left">\cos\alpha</td></tr>
+<tr><td style="text-align: left"><strong>Solis $a_2$ (perpendikulāri šķiedrām)</strong></td><td style="text-align: center">$4d$</td><td style="text-align: left">Solis starp rindām perpendikulāri šķiedrām.</td></tr>
+<tr><td style="text-align: left"><strong>Gala attālums $a_{3,t}$ (noslogotam galam)</strong></td><td style="text-align: center">$\max(7d, 80\text{ mm})$</td><td style="text-align: left">Attālums no noslogotā koka gala līdz skrūvei. Ļoti kritisks parametrs!</td></tr>
+<tr><td style="text-align: left"><strong>Gala attālums $a_{3,c}$ (nenoslogotam galam)</strong></td><td style="text-align: center">$4d$</td><td style="text-align: left">Attālums līdz brīvajam (nenoslogotajam) koka galam.</td></tr>
+<tr><td style="text-align: left"><strong>Malas attālums $a_{4,t}$ (noslogotai malai)</strong></td><td style="text-align: center">$\max((2 + 2\sin\alpha)d, 3d)$</td><td style="text-align: left">Attālums līdz sijas / elementa malai, uz kuru vērsts spēks.</td></tr>
+<tr><td style="text-align: left"><strong>Malas attālums $a_{4,c}$ (nenoslogotai malai)</strong></td><td style="text-align: center">$3d$</td><td style="text-align: left">Attālums līdz sijas pretējai (nenoslogotajai) malai.</td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p><strong>Svarīgi!</strong>
+Ja spēks darbojas perpendikulāri koksnes šķiedrām (piem., sija karājas uz skrūvēm), papildus savienojuma bīdes nestspējai, <strong>vienmēr</strong> ir jāpārbauda sijas atšķelšanās (splitting) pretestība (LVS EN 1995-1-1 8.1.4. punkts). Tas ir viens no biežākajiem koka konstrukciju avāriju cēloņiem. Dažkārt, lai novērstu atšķelšanos, ir jāievieto papildu stiegrojošās pilnvitnes skrūves (piem., SPAX vai Rothoblaas).</p>
+</blockquote>
+<hr />
+<h2 id="tērauda---koka-savienojumi-lokšņu--leņķu-stiprināšana"><a class="header" href="#tērauda---koka-savienojumi-lokšņu--leņķu-stiprināšana">Tērauda - koka savienojumi (Lokšņu / leņķu stiprināšana)</a></h2>
+<p>Ja tiek izmantotas tērauda detaļas (piemēram, biezās plāksnes dībeļu mezglos vai leņķi):</p>
+<ul>
+<li>Plāna tērauda plāksne ($t \le 0,5d$): Plāksnē neveidojas iespīlējums, aprēķina modelī rotācija netiek ierobežota.</li>
+<li>Bieza tērauda plāksne ($t \ge d$ vai precīzāk $t \ge d$ un urbuma pielaide ir $&lt;0,1d$): Stiprinājums tērauda plāksnē tiek uzskatīts par iespīlētu (momentizturīgu šajā punktā). Tas ievērojami palielina mezgla pretestību, jo maina plastiskā šarnīra veidošanās modeli.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../10-koks/03-robezlielumi.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../11-rasejumi/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../10-koks/03-robezlielumi.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../11-rasejumi/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
