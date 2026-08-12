@@ -1911,17 +1911,70 @@ Novirze ir stingri noteikta: \(\Delta c_{\text{dev}} = 10\text{ mm}\).</li>
 <hr />
 <h2 id="provizoriskās-laidumu-un-augstumu-attiecības-ld"><a class="header" href="#provizoriskās-laidumu-un-augstumu-attiecības-ld">Provizoriskās laidumu un augstumu attiecības (\(L/d\))</a></h2>
 <p>Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) \(d\) var provizoriski noteikt pēc laiduma un augstuma attiecības \(L/d\):</p>
-<p><strong>Provizoriskais augstums \(d\) (mm) atkarībā no laiduma (\(L\), m):</strong></p>
-<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Elements</th><th style="text-align: center">\(L/d\)</th><th style="text-align: center">3 m</th><th style="text-align: center">4,5 m</th><th style="text-align: center">6 m</th><th style="text-align: center">7,5 m</th><th style="text-align: center">9 m</th><th style="text-align: center">12 m</th><th style="text-align: center">15 m</th><th style="text-align: center">23 m</th><th style="text-align: center">30 m</th><th style="text-align: center">45-90 m</th></tr></thead><tbody>
-<tr><td style="text-align: left">Sija (vispārīga)</td><td style="text-align: center"><strong>20</strong></td><td style="text-align: center">230</td><td style="text-align: center">300</td><td style="text-align: center">390</td><td style="text-align: center">460</td><td style="text-align: center">610</td><td style="text-align: center">770</td><td style="text-align: center">1150</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td></tr>
-<tr><td style="text-align: left">Kompozītā sija</td><td style="text-align: center"><strong>28</strong></td><td style="text-align: center">200</td><td style="text-align: center">220</td><td style="text-align: center">270</td><td style="text-align: center">320</td><td style="text-align: center">440</td><td style="text-align: center">550</td><td style="text-align: center">820</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td></tr>
-<tr><td style="text-align: left">Rāmja sija (stinga)</td><td style="text-align: center"><strong>10</strong></td><td style="text-align: center">460</td><td style="text-align: center">610</td><td style="text-align: center">760</td><td style="text-align: center">900</td><td style="text-align: center">1100</td><td style="text-align: center">1500</td><td style="text-align: center">2300</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td></tr>
-<tr><td style="text-align: left">Grīdas sek. sijas</td><td style="text-align: center"><strong>20</strong></td><td style="text-align: center">150</td><td style="text-align: center">230</td><td style="text-align: center">300</td><td style="text-align: center">400</td><td style="text-align: center">450</td><td style="text-align: center">600</td><td style="text-align: center">750</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td></tr>
-<tr><td style="text-align: left">Jumta sek. sijas</td><td style="text-align: center"><strong>24</strong></td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">640</td><td style="text-align: center">800</td><td style="text-align: center">950</td><td style="text-align: center">1250</td><td style="text-align: center">—</td></tr>
-<tr><td style="text-align: left">Metināta sija</td><td style="text-align: center"><strong>15</strong></td><td style="text-align: center">—</td><td style="text-align: center">400</td><td style="text-align: center">500</td><td style="text-align: center">600</td><td style="text-align: center">800</td><td style="text-align: center">1000</td><td style="text-align: center">1500</td><td style="text-align: center">2000</td><td style="text-align: center">—</td><td style="text-align: center">—</td></tr>
-<tr><td style="text-align: left">Kopne</td><td style="text-align: center"><strong>12</strong></td><td style="text-align: center">—</td><td style="text-align: center">500</td><td style="text-align: center">640</td><td style="text-align: center">760</td><td style="text-align: center">1000</td><td style="text-align: center">1300</td><td style="text-align: center">1900</td><td style="text-align: center">2500</td><td style="text-align: center">3000</td><td style="text-align: center">5000-7000</td></tr>
-<tr><td style="text-align: left">Telpisks režģis</td><td style="text-align: center"><strong>16</strong></td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">—</td><td style="text-align: center">570</td><td style="text-align: center">760</td><td style="text-align: center">950</td><td style="text-align: center">1400</td><td style="text-align: center">1900</td><td style="text-align: center">2860</td><td style="text-align: center">3800-5700</td></tr>
-</tbody></table>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Elements</th>
+        <th rowspan="2">Attiecība \(L/d\)</th>
+        <th colspan="10">Provizoriskais augstums \(d\) (mm) atkarībā no laiduma (\(L\), m)</th>
+      </tr>
+      <tr>
+        <th>3 m</th>
+        <th>4,5 m</th>
+        <th>6 m</th>
+        <th>7,5 m</th>
+        <th>9 m</th>
+        <th>12 m</th>
+        <th>15 m</th>
+        <th>23 m</th>
+        <th>30 m</th>
+        <th>45-90 m</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sija (vispārīga)</td>
+        <td><strong>20</strong></td>
+        <td>230</td><td>300</td><td>390</td><td>460</td><td>610</td><td>770</td><td>1150</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Kompozītā sija</td>
+        <td><strong>28</strong></td>
+        <td>200</td><td>220</td><td>270</td><td>320</td><td>440</td><td>550</td><td>820</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Rāmja sija (stinga)</td>
+        <td><strong>10</strong></td>
+        <td>460</td><td>610</td><td>760</td><td>900</td><td>1100</td><td>1500</td><td>2300</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Grīdas sek. sijas</td>
+        <td><strong>20</strong></td>
+        <td>150</td><td>230</td><td>300</td><td>400</td><td>450</td><td>600</td><td>750</td><td>—</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Jumta sek. sijas</td>
+        <td><strong>24</strong></td>
+        <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>640</td><td>800</td><td>950</td><td>1250</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Metināta sija</td>
+        <td><strong>15</strong></td>
+        <td>—</td><td>400</td><td>500</td><td>600</td><td>800</td><td>1000</td><td>1500</td><td>2000</td><td>—</td><td>—</td>
+      </tr>
+      <tr>
+        <td>Kopne</td>
+        <td><strong>12</strong></td>
+        <td>—</td><td>500</td><td>640</td><td>760</td><td>1000</td><td>1300</td><td>1900</td><td>2500</td><td>3000</td><td>5000-7000</td>
+      </tr>
+      <tr>
+        <td>Telpisks režģis</td>
+        <td><strong>16</strong></td>
+        <td>—</td><td>—</td><td>—</td><td>570</td><td>760</td><td>950</td><td>1400</td><td>1900</td><td>2860</td><td>3800-5700</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 <p><em>Piezīme: Šī tabula paredzēta tikai provizoriskam izmēru novērtējumam. Galīgais šķērsgriezums vienmēr jānosaka ar stiprības, stabilitātes un izlieces aprēķiniem.</em></p>
 <hr />
