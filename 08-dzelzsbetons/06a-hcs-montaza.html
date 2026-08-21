@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<html lang="lv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Dobumoto plātņu (HCS) montāža un nosacījumi - Būvkonstrukciju projektēšana</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../custom.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Sākums</a></li><li class="chapter-item expanded "><a href="../saturs.html"><strong aria-hidden="true">1.</strong> Saturs</a></li><li class="chapter-item expanded "><a href="../ievads.html"><strong aria-hidden="true">2.</strong> Ievads</a></li><li class="chapter-item expanded "><a href="../02-normativas.html"><strong aria-hidden="true">3.</strong> Izmantojamie būvnormatīvi un standarti</a></li><li class="chapter-item expanded "><a href="../03-visparigie.html"><strong aria-hidden="true">4.</strong> Vispārīgie projektēšanas nosacījumi</a></li><li class="chapter-item expanded "><a href="../04-slodzes/index.html"><strong aria-hidden="true">5.</strong> Slodzes un iedarbes</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../04-slodzes/01-lietderigas.html"><strong aria-hidden="true">5.1.</strong> Lietderīgās slodzes</a></li><li class="chapter-item expanded "><a href="../04-slodzes/02-klimatiskas.html"><strong aria-hidden="true">5.2.</strong> Klimatiskās slodzes</a></li><li class="chapter-item expanded "><a href="../04-slodzes/03-pasvars.html"><strong aria-hidden="true">5.3.</strong> Konstrukciju pašsvars</a></li><li class="chapter-item expanded "><a href="../04-slodzes/04-nelabveligas.html"><strong aria-hidden="true">5.4.</strong> Nelabvēlīgākās slodzes</a></li><li class="chapter-item expanded "><a href="../04-slodzes/05-izbuvesklases.html"><strong aria-hidden="true">5.5.</strong> Izbūves klases</a></li><li class="chapter-item expanded "><a href="../04-slodzes/06-robustums.html"><strong aria-hidden="true">5.6.</strong> Ēku robustums</a></li></ol></li><li class="chapter-item expanded "><a href="../05-uguns.html"><strong aria-hidden="true">6.</strong> Ugundrošu konstrukciju projektēšana</a></li><li class="chapter-item expanded "><a href="../06-shemas.html"><strong aria-hidden="true">7.</strong> Konstruktīvās shēmas</a></li><li class="chapter-item expanded "><a href="../07-pamati/index.html"><strong aria-hidden="true">8.</strong> Pamati un pamatne</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../07-pamati/01-visparigie.html"><strong aria-hidden="true">8.1.</strong> Vispārīgi</a></li><li class="chapter-item expanded "><a href="../07-pamati/02-tehnologijas.html"><strong aria-hidden="true">8.2.</strong> Tehnoloģiju pielietojamība</a></li><li class="chapter-item expanded "><a href="../07-pamati/03-grunsis.html"><strong aria-hidden="true">8.3.</strong> Grunšu parametri</a></li><li class="chapter-item expanded "><a href="../07-pamati/04-pali.html"><strong aria-hidden="true">8.4.</strong> Pāļu pamati</a></li><li class="chapter-item expanded "><a href="../07-pamati/05-geoizpete.html"><strong aria-hidden="true">8.5.</strong> Ģeotehniskā izpēte</a></li></ol></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/index.html"><strong aria-hidden="true">9.</strong> Dzelzsbetona konstrukcijas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../08-dzelzsbetons/01-ipasibas.html"><strong aria-hidden="true">9.1.</strong> Fizikālās un mehāniskās īpašības</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/02-prasibas.html"><strong aria-hidden="true">9.2.</strong> Papildu prasības projektēšanai</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/03-detalizacija.html"><strong aria-hidden="true">9.3.</strong> Labas detalizācijas prakse</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/04-robezvertibas.html"><strong aria-hidden="true">9.4.</strong> Robežvērtības</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/05-vide.html"><strong aria-hidden="true">9.5.</strong> Vides iedarbības klases</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/06-saliekamais.html"><strong aria-hidden="true">9.6.</strong> Saliekamais dzelzsbetons</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/06a-hcs-montaza.html" class="active"><strong aria-hidden="true">9.7.</strong> Dobumoto plātņu (HCS) montāža un nosacījumi</a></li><li class="chapter-item expanded "><a href="../08-dzelzsbetons/07-metinasana.html"><strong aria-hidden="true">9.8.</strong> Stiegrojuma metināšana</a></li></ol></li><li class="chapter-item expanded "><a href="../09-terauds/index.html"><strong aria-hidden="true">10.</strong> Tērauda konstrukcijas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../09-terauds/01-ipasibas.html"><strong aria-hidden="true">10.1.</strong> Fizikālās un mehāniskās īpašības</a></li><li class="chapter-item expanded "><a href="../09-terauds/02-prasibas.html"><strong aria-hidden="true">10.2.</strong> Papildu prasības projektēšanai</a></li><li class="chapter-item expanded "><a href="../09-terauds/03-aprekins.html"><strong aria-hidden="true">10.3.</strong> Aprēķins pēc robežstāvokļu metodes</a></li><li class="chapter-item expanded "><a href="../09-terauds/04-savienojumi.html"><strong aria-hidden="true">10.4.</strong> Tērauda konstrukciju savienojumi</a></li><li class="chapter-item expanded "><a href="../09-terauds/05-kopnes.html"><strong aria-hidden="true">10.5.</strong> Kopņu projektēšana</a></li><li class="chapter-item expanded "><a href="../09-terauds/06-uguns.html"><strong aria-hidden="true">10.6.</strong> Ugunsdrošība</a></li></ol></li><li class="chapter-item expanded "><a href="../10-koks/index.html"><strong aria-hidden="true">11.</strong> Koka konstrukcijas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../10-koks/01-ipasibas.html"><strong aria-hidden="true">11.1.</strong> Materiālu īpašības</a></li><li class="chapter-item expanded "><a href="../10-koks/02-koeficienti.html"><strong aria-hidden="true">11.2.</strong> Koeficienti</a></li><li class="chapter-item expanded "><a href="../10-koks/03-robezlielumi.html"><strong aria-hidden="true">11.3.</strong> Robežlielumi</a></li><li class="chapter-item expanded "><a href="../10-koks/04-savienojumi.html"><strong aria-hidden="true">11.4.</strong> Koka savienojumi</a></li></ol></li><li class="chapter-item expanded "><a href="../11-rasejumi/index.html"><strong aria-hidden="true">12.</strong> Labā prakse rasējumu noformēšanā</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../11-rasejumi/01-lapas.html"><strong aria-hidden="true">12.1.</strong> Lapu izkārtojums un izmēri</a></li><li class="chapter-item expanded "><a href="../11-rasejumi/02-izmeri.html"><strong aria-hidden="true">12.2.</strong> Izmēru līnijas</a></li><li class="chapter-item expanded "><a href="../11-rasejumi/03-markejums.html"><strong aria-hidden="true">12.3.</strong> Elementu marķējums</a></li><li class="chapter-item expanded "><a href="../11-rasejumi/04-kultura.html"><strong aria-hidden="true">12.4.</strong> Rasēšanas kultūra</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Būvkonstrukciju projektēšana</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Inovskis/paligs-buvkonstrukciju-projektesana" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Inovskis/paligs-buvkonstrukciju-projektesana/edit/main/src/08-dzelzsbetons/06a-hcs-montaza.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="dobumoto-plātņu-hcs-montāža-un-konstruktīvie-nosacījumi"><a class="header" href="#dobumoto-plātņu-hcs-montāža-un-konstruktīvie-nosacījumi">Dobumoto plātņu (HCS) montāža un konstruktīvie nosacījumi</a></h1>
+<p>Saliekamā dzelzsbetona dobumoto plātņu (HCS — <em>Hollow Core Extruder</em>) izmantošana ēku pārsegumos nodrošina augstu būvdarbu ātrumu un lielu nestspēju. Lai garantētu konstrukciju drošību, ilgmūžību un atbilstību normatīviem, montāžas procesā stingri jāievēro transportēšanas, uzglabāšanas, stropēšanas, līmeņošanas, šuvju betonēšanas un komunikāciju iestrādes nosacījumi.</p>
+<hr />
+<h2 id="1-hcs-plātņu-tipi-marķēšana-un-kvalitātes-kontrole"><a class="header" href="#1-hcs-plātņu-tipi-marķēšana-un-kvalitātes-kontrole">1. HCS plātņu tipi, marķēšana un kvalitātes kontrole</a></h2>
+<p>Dobumotās plātnes tiek projektētas un ražotas saskaņā ar standartu <strong>LVS EN 1168</strong> (<em>Saliekamā dzelzsbetona izstrādājumi. Dobumotās plātnes</em>) un ražotņu kvalitātes vadības sistēmām (ISO 9001, ISO 14001).</p>
+<h3 id="tipveida-plātņu-raksturlielumi"><a class="header" href="#tipveida-plātņu-raksturlielumi">Tipveida plātņu raksturlielumi:</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Plātnes tips</th><th style="text-align: center">Biezums $h$ (mm)</th><th style="text-align: center">Ugunsizturības klase</th><th style="text-align: center">Plātnes pašsvars ($\text{kg/m}^2$)</th><th style="text-align: center">Svars ar aizpildītām šuvēm ($\text{kg/m}^2$)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>HCE200</strong></td><td style="text-align: center">200</td><td style="text-align: center">$\le \text{R60}$</td><td style="text-align: center">250</td><td style="text-align: center">265</td></tr>
+<tr><td style="text-align: left"><strong>HCE220</strong></td><td style="text-align: center">220</td><td style="text-align: center">$\le \text{R90}$</td><td style="text-align: center">317</td><td style="text-align: center">340</td></tr>
+<tr><td style="text-align: left"><strong>HCE265</strong></td><td style="text-align: center">265</td><td style="text-align: center">$\le \text{R120}^*$</td><td style="text-align: center">360</td><td style="text-align: center">380</td></tr>
+<tr><td style="text-align: left"><strong>HCE320</strong></td><td style="text-align: center">320</td><td style="text-align: center">$\le \text{R120}^*$</td><td style="text-align: center">385</td><td style="text-align: center">405</td></tr>
+<tr><td style="text-align: left"><strong>HCE400</strong></td><td style="text-align: center">400</td><td style="text-align: center">$\le \text{R120}^*$</td><td style="text-align: center">435</td><td style="text-align: center">465</td></tr>
+</tbody></table>
+</div>
+<p><em>*Ugunsizturības klasēm $\ge \text{R120}$ jāveic papildu šķērsspēka un enkurojuma pārbaude ugunsgrēka apstākļos saskaņā ar LVS EN 1168 G pielikumu.</em></p>
+<h3 id="elementu-marķējums-un-koda-atšifrēšana"><a class="header" href="#elementu-marķējums-un-koda-atšifrēšana">Elementu marķējums un koda atšifrēšana:</a></h3>
+<p>Katrs elements rūpnīcā tiek marķēts ar identifikācijas uzlīmi/sildzi. Elemenda marķējuma kods satur:</p>
+<ol>
+<li><strong>Plātnes tipu</strong> (piem. HCE220 vai HCE265K konsolēm);</li>
+<li><strong>Saspriegto trošu skaitu un diametru</strong> (piem. $5 \times \emptyset 9.3\text{ mm}$ vai $4\times / 8-$ augšā un apakšā);</li>
+<li><strong>Pozīcijas numuru projektā</strong>.</li>
+</ol>
+<p><em>Piemērs:</em> <code>HCE220-5x-101</code> — HCE220 plātne ar 5 trosēm $\emptyset 9.3\text{ mm}$ apakšējā joslā, pozīcija 101.</p>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>Saspriegto trošu ieslīdēšanas (libisemine) pielaides:</strong>
+Pēc plātņu atspriegošanas rūpnīcā un piegādes būvlaukumā jāpārbauda saspriegto trošu ieslīdējums betona masīvā no plātnes gala plaknes. Pielaujamās robežvērtības:</p>
+<ul>
+<li><strong>$\emptyset 9.3\text{ mm}$ trosēm:</strong> maks. <strong>$2.0\text{ mm}$</strong></li>
+<li><strong>$\emptyset 12.5\text{ mm}$ trosēm:</strong> maks. <strong>$3.0\text{ mm}$</strong></li>
+</ul>
+<p>Troses, kuru ieslīdēšana pārsniedz robežvērtības, bet kuras rūpnīcā pārbaudītas un atzītas par derīgām, tiek atzīmētas ar krāsas marķējumu uz galaplaknes. Par nebūtiskām/neatzīmētām trošu ieslīdēšanām pirms montāžas nekavējoties jāinformē ražotājs.</p>
+</blockquote>
+<hr />
+<h2 id="2-transportēšana-loģistika-un-uzglabāšana-būvlaukumā"><a class="header" href="#2-transportēšana-loģistika-un-uzglabāšana-būvlaukumā">2. Transportēšana, loģistika un uzglabāšana būvlaukumā</a></h2>
+<h3 id="piegādes-plānošana-un-saņemšana"><a class="header" href="#piegādes-plānošana-un-saņemšana">Piegādes plānošana un saņemšana:</a></h3>
+<ul>
+<li><strong>Grafiku iesniegšana:</strong> Vispārējo piegādes grafiku būvlaukumam iesniedz vismaz <strong>2 nedēļas</strong> pirms montāžas sākuma, savukārt stundu precizitātes piegādes grafiku — ne vēlāk kā <strong>3 darbdienas</strong> pirms piegādes.</li>
+<li><strong>Piekļuve un autotransports:</strong> Būvlaukumā jānodrošina piebraucamie ceļi $16.5\text{ m}$ gariem un $40\text{ t}$ smagiem plātņu autovilkējiem. Maksimalā vienas kravas masa ir līdz <strong>$24\text{ t}$</strong>.</li>
+<li><strong>Kravas izkraušana:</strong> Normatīvais kravas izkraušanas laiks būvlaukumā ir <strong>1 stunda</strong> no autotransporta ierašanās brīža.</li>
+</ul>
+<h3 id="starpuzglabāšana-būvlaukumā-vaheladustamine"><a class="header" href="#starpuzglabāšana-būvlaukumā-vaheladustamine">Starpuzglabāšana būvlaukumā (Vaheladustamine):</a></h3>
+<p>Ja plātnes netiek montētas tieši no transportlīdzekļa, tās novieto starpuzglabāšanā ievērojot šādus noteikumus:</p>
+<ul>
+<li>Plātnes novieto uz cietas, līzenas un horizontālas pamatnes.</li>
+<li>Koka paliktņus un starplikas novieto <strong>gareniski precīzi vienā vertikālā līnijā</strong>.</li>
+<li>Starpliku maksimālais attālums no plātnes gala ir <strong>$300\text{ mm}$</strong>.</li>
+<li>Apakšējās plātnes brīvajam attālumam virs zemes jābūt vismaz <strong>$200\text{ mm}$</strong> (lai novērstu saskari ar mitru grunti un nodrošinātu stropēšanas brīvību).</li>
+<li>Starpliku biezumam jābūt vismaz <strong>$50\text{ mm}$</strong>.</li>
+<li>Vienā kaudzē (statnē) drīkst novietot <strong>ne vairāk kā 4 plātnes</strong>.</li>
+</ul>
+<p><img src="../images/ch08/hcs_uzglabasana.svg" alt="HCS plātņu uzglabāšana būvlaukumā" /></p>
+<blockquote>
+<p>[!CAUTION]
+Ziemas apstākļos <strong>kategoriski aizliegts</strong> ar celtni vai traversu raut vaļā starpuzglabāšanā sasalušas dobumotās plātnes!</p>
+</blockquote>
+<hr />
+<h2 id="3-hcs-plātņu-celšanas-un-stropēšanas-tehnoloģijas"><a class="header" href="#3-hcs-plātņu-celšanas-un-stropēšanas-tehnoloģijas">3. HCS plātņu celšanas un stropēšanas tehnoloģijas</a></h2>
+<p>Plātņu pacelšanai un pārvietošanai izmanto specializētas celšanas iekārtas: satvērējus (<em>haarats</em>), traversas, celšanas ķēdes un stropes.</p>
+<h3 id="celšanas-traversas-un-leņķi"><a class="header" href="#celšanas-traversas-un-leņķi">Celšanas traversas un leņķi:</a></h3>
+<ul>
+<li><strong>Celšana bez traversas:</strong> Pieļaujama <strong>TIKAI plātnēm ar garumu $L &lt; 3\text{ m}$</strong>, nodrošinot, ka ķēžu leņķis starpā nepārsniedz <strong>$10^\circ$</strong>.</li>
+<li><strong>Celšana ar traversu:</strong> Izmanto teleskopiskās vai fiksētās traversas. Maksimalais pieļaujamais ķēžu leņķis virs traversas ir <strong>$90^\circ$</strong>.</li>
+</ul>
+<h3 id="satvērēju-haarats-pozicionēšana"><a class="header" href="#satvērēju-haarats-pozicionēšana">Satvērēju (haarats) pozicionēšana:</a></h3>
+<p>Satvērējus novieto pēc iespējas tuvāk plātnes galam. Pieļaujamais satvērēja attālums $a$ no plātnes gala ir atkarīgs no saspriegto trošu skaits plātnes apakšējā joslā:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Trošu skaits apakšējā joslā (gab.)</th><th style="text-align: center">Maks. satvērēja attālums no gala $a$ (mm)</th><th style="text-align: center">Minimālais attālums no gala $a_{\min}$ (mm)</th></tr></thead><tbody>
+<tr><td style="text-align: center">$\le 5$</td><td style="text-align: center">1500</td><td style="text-align: center">200</td></tr>
+<tr><td style="text-align: center">6 vai 7</td><td style="text-align: center">1300</td><td style="text-align: center">200</td></tr>
+<tr><td style="text-align: center">8 vai 9</td><td style="text-align: center">1150</td><td style="text-align: center">200</td></tr>
+<tr><td style="text-align: center">$\ge 10$</td><td style="text-align: center">750</td><td style="text-align: center">200</td></tr>
+</tbody></table>
+</div>
+<p><em>Smagajām plātnēm (HCE400) ar garumu $L &gt; 11\text{ m}$ celšanai obligāti izmanto <strong>4 satvērējus</strong>.</em></p>
+<blockquote>
+<p>[!WARNING]
+<strong>Drošības ķēžu (ohutuskett) lietošana:</strong>
+Celšanas laikā <strong>OBLIGĀTI</strong> jāizmanto satvērēju drošības ķēde. Drošības ķēdi apliek ap plātni tūlīt pēc tam, kad plātne pacelta līdz <strong>$100\text{ mm}$</strong> virs pamatnes/kravas kastes. Ķēdi noņem tikai tad, kad plātne nolaista līdz <strong>$100\text{ mm}$</strong> virs balsta virsmas.
+<strong>Drošības ķēdes izmantot plātnes pacelšanai un celšanai ir KATEGORISKI AIZLIEGTS!</strong></p>
+</blockquote>
+<p><img src="../images/ch08/hcs_stropesana_traversa.svg" alt="HCS plātņu stropēšana un traversas" /></p>
+<h3 id="izzāģētu-un-nesimetrisku-plātņu-celšana"><a class="header" href="#izzāģētu-un-nesimetrisku-plātņu-celšana">Izzāģētu un nesimetrisku plātņu celšana:</a></h3>
+<p>Ja plātnei ir gareniski vai šķērseniski izgriezumi, celšanas veidu nosaka izgriezuma garums:</p>
+<ol>
+<li><strong>Šaurākā daļa $&lt; 1000\text{ mm}$:</strong> Satvērēju novieto $200\text{ mm}$ no pakāpiena malas.</li>
+<li><strong>Šaurākā daļa $1000 \dots 2500\text{ mm}$ ar pastiprināto iebetonējumu:</strong> Satvērēju novieto $200\text{ mm}$ no pakāpiena malas.</li>
+<li><strong>Šaurākā daļa $&gt; 2500\text{ mm}$:</strong> Celšana atļauta <strong>TIKAI aiz montāžas cilpām</strong>, kas iestrādātas plātnes galos ražotnē.</li>
+<li><strong>Lielas atveres plātnēs un tērauda apkakles (marķētas ar "N"):</strong> Plātnēm ar lielām atverēm transportēšanas un celšanas laikā ieliek tērauda pastiprinājuma apkakles (tõstekaelus "N"). Šīs apkakles drīkst noņemt TIKAI pēc šuvju betona stiprības sasniegšanas vai pagaidu balstu ierīkošanas.</li>
+<li><strong>Slīpas jumta/rampu plātnes ($&gt; 1:5$):</strong> Ceļ aiz montāžas cilpām, izmantojot sametinātus atdures stopperus pret slīdēšanu.</li>
+</ol>
+<p><img src="../images/ch08/hcs_izgriezumu_celssana.svg" alt="Izzāģētu un nesimetrisku plātņu celšana" /></p>
+<hr />
+<h2 id="4-balstīšana-un-līmeņošana"><a class="header" href="#4-balstīšana-un-līmeņošana">4. Balstīšana un līmeņošana</a></h2>
+<h3 id="minimālie-balsta-garumi"><a class="header" href="#minimālie-balsta-garumi">Minimālie balsta garumi:</a></h3>
+<p>Balstījuma virsmas garumu nosaka būvprojekts. Standarta minimālie balstījuma garumi saskaņā ar normatīviem:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Balsta materiāls</th><th style="text-align: center">Plātnes biezums $h$ (mm)</th><th style="text-align: center">Ieteicamais balsta garums (mm)</th><th style="text-align: center">Minimālais pieļaujamais balsts (mm)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Betons vai Tērauds</strong></td><td style="text-align: center">$\le 320$</td><td style="text-align: center">70</td><td style="text-align: center">40</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center">$400$</td><td style="text-align: center">100</td><td style="text-align: center">80</td></tr>
+<tr><td style="text-align: left"><strong>Mūris</strong></td><td style="text-align: center">$\le 265$</td><td style="text-align: center">100</td><td style="text-align: center">80</td></tr>
+<tr><td style="text-align: left"></td><td style="text-align: center">$\ge 320$</td><td style="text-align: center">120</td><td style="text-align: center">100</td></tr>
+</tbody></table>
+</div>
+<h3 id="līmeņošanas-plāksnīšu-pareiza-novietošana"><a class="header" href="#līmeņošanas-plāksnīšu-pareiza-novietošana">Līmeņošanas plāksnīšu pareiza novietošana:</a></h3>
+<p>Plātņu līmeņošanai izmanto saplākšņa, plastmasas vai tērauda līmeņošanas plāksnītes ($50 \times 75\text{ mm}$, biezums $3 \dots 20\text{ mm}$).</p>
+<ul>
+<li>Līmeņošanas plāksnītes novieto <strong>ZEM OTRĀS RIBAS (zem 2. dobuma sieniņas)</strong>.</li>
+<li>Plāksnīšu biezums un apakšējās šuves augstums plātnei ir vismaz <strong>$15\text{ mm}$</strong>, lai nodrošinātu pilnīgu montāžas javas piepildījumu zem plātnes.</li>
+<li><strong>Kategoriski aizliegts</strong> līmeņošanas plāksnītes novietot zem dobuma vidus (zem plānās betona apakšējās sienas)!</li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Plātnes tips</th><th style="text-align: center">Attālums no malas $c$ (mm)</th><th style="text-align: center">Attālums starp plāksnītēm $d$ (mm)</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>HCE200 un HCE220</strong></td><td style="text-align: center">220</td><td style="text-align: center">760</td></tr>
+<tr><td style="text-align: left"><strong>HCE265</strong></td><td style="text-align: center">260</td><td style="text-align: center">680</td></tr>
+<tr><td style="text-align: left"><strong>HCE320 un HCE400</strong></td><td style="text-align: center">320</td><td style="text-align: center">560</td></tr>
+</tbody></table>
+</div>
+<p><img src="../images/ch08/hcs_limeposana_balsts.svg" alt="Balstīšana un līmeņošana" /></p>
+<h3 id="plātņu-izlieču-būvbultas-izlīdzināšana"><a class="header" href="#plātņu-izlieču-būvbultas-izlīdzināšana">Plātņu izlieču (būvbultas) izlīdzināšana:</a></h3>
+<p>Ražošanas un iepriekšējā sasprieguma dēļ plātņu izlieces (būvbultas / <em>eeltõus</em>) var atšķirties. Apakšējo virsmu izlīdzināšanu veic pirms šuvju betonēšanas:</p>
+<ul>
+<li>Izlīdzināšanu veic izmantojot skrūvējamus teleskopiskos balstus no apakšas plātnes vidū vai zem 2. ribas, vai savilcējskrūves caur šuvi.</li>
+<li><strong>Izlīdzināšanas ātrums/pielaide:</strong> Maks. izlīdzināšana drīkst būt <strong>$1\text{ mm}$ uz 1 tekošo metru plātnes garuma</strong>.</li>
+<li><strong>Drošība pret noslīdēšanu:</strong> Pirms izlīdzināšanas plātņu galu šuvēs OBLIGĀTI jāievieto gala ķīļi, lai novērstu plātnes pozīcijas nobīdi un noslīdēšanu no balsta sijas!</li>
+<li>Balstus drīkst noņemt TIKAI pēc šuvju betona stiprības sasniegšanas.</li>
+</ul>
+<blockquote>
+<p>[!CAUTION]
+<strong>Aizliegts</strong> plātņu izlieces izlīdzināt, tās noslogojot ar būvmateriālu paletēm vai spiežot no augšas ar celtni!</p>
+</blockquote>
+<p><img src="../images/ch08/hcs_izlieces_izlidzinasana.svg" alt="Plātņu izlieču izlīdzināšana" /></p>
+<hr />
+<h2 id="5-pagaidu-balstīšana-un-tērauda-vekseļi-stiprinājumu-sijas-ailēm"><a class="header" href="#5-pagaidu-balstīšana-un-tērauda-vekseļi-stiprinājumu-sijas-ailēm">5. Pagaidu balstīšana un tērauda vekseļi (stiprinājumu sijas ailēm)</a></h2>
+<p>Veidojot kāpņu, komunikāciju šahtu un tehnoloģiskās ailes pārsegumā, saīsinātās dobumotās plātnes nepieciešams balstīt uz blakus esošajām pilnajām plātnēm:</p>
+<ul>
+<li><strong>Tērauda vekseļi (vekseltala / trimmer beams):</strong> Tērauda profilu šķērssijas, ko uzkar uz blakus esošajām HCS plātnēm un kas uzņem saīsinātās plātnes slodzi.</li>
+<li><strong>Pagaidu montāžas balstīšana:</strong> Pirms vekseļu un saīsināto plātņu uzstādīšanas zem ailēm ierīko pagaidu montāžas balstus (stutes). Pagaidu balstus drīkst noņemt TIKAI tad, kad šuvju betons ap vekseli ir sasniedzis projektēto stiprību.</li>
+</ul>
+<p><img src="../images/ch08/hcs_vekselis.svg" alt="Pagaidu balstīšana un tērauda vekseļi" /></p>
+<hr />
+<h2 id="6-Šuvju-betonēšana-drenāžas-urbumi-un-komunikāciju-atvērumi"><a class="header" href="#6-Šuvju-betonēšana-drenāžas-urbumi-un-komunikāciju-atvērumi">6. Šuvju betonēšana, drenāžas urbumi un komunikāciju atvērumi</a></h2>
+<h3 id="Šuvju-betonēšana-un-stiegrojums"><a class="header" href="#Šuvju-betonēšana-un-stiegrojums">Šuvju betonēšana un stiegrojums:</a></h3>
+<p>Dobumotās plātnes veido vienotu, stingru pārseguma diskus (diaphragm) tikai pēc šuvju ieliešanas un stiegrošanas:</p>
+<ul>
+<li><strong>Šuvju betons:</strong> Izmanto fine-aggregate betonu ar stiprības klasi <strong>C25/35</strong> vai <strong>C30/37</strong>, maksimālais pildvielas grauda izmērs <strong>$4\text{ mm}$ vai $8\text{ mm}$</strong>.</li>
+<li><strong>Ūdens pievienošana būvlaukumā ir KATEGORISKI AIZLIEGTA.</strong></li>
+<li><strong>Stiegrojums:</strong> Šuvēs garenstiegras novieto <strong>zem plātnes viduslīnijas</strong>. Pārseguma kontūrā iebūvē gredzenstiegras (<em>ringarmatuur</em>) saskaņā ar būvprojektu.</li>
+</ul>
+<h3 id="betona-patēriņš-šuvēs"><a class="header" href="#betona-patēriņš-šuvēs">Betona patēriņš šuvēs:</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Plātnes tips</th><th style="text-align: center">Betona patēriņš šuvēs ($l/\text{m}$)</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>HCE200</strong></td><td style="text-align: center">7</td></tr>
+<tr><td style="text-align: center"><strong>HCE220</strong></td><td style="text-align: center">8</td></tr>
+<tr><td style="text-align: center"><strong>HCE265</strong></td><td style="text-align: center">11</td></tr>
+<tr><td style="text-align: center"><strong>HCE320</strong></td><td style="text-align: center">13</td></tr>
+<tr><td style="text-align: center"><strong>HCE400</strong></td><td style="text-align: center">15</td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>Ziemas betonēšanas noteikumi:</strong>
+Aukstā laikā ($&lt; 0^\circ\text{C}$) izmanto pretfiksācijas piedevas betoniem līdz $-15^\circ\text{C}$, šuvju apsildīšanu no apakšas un termosegas.
+<strong>Sniega un ledus kausēšanai šuvēs KATEGORISKI AIZLIEGTS izmantot tvaiku!</strong> Tvaiks kondensējas ūdenī, kas iesūcas aukstajos dobumos un sasals, sagraujot betona saķeri ar plātni un izraisot betona sašķelšanos. Ledus kausēšanai izmanto karsto gaisu vai gāzes degli (ja šuvēs nav plastmasas detalas).</p>
+</blockquote>
+<h3 id="drenāžas-urbumi-vee-eraldusavad"><a class="header" href="#drenāžas-urbumi-vee-eraldusavad">Drenāžas urbumi (Vee-eraldusavad):</a></h3>
+<ul>
+<li>Ražotnē katra dobuma apakšējā plauktā līdz <strong>$300\text{ mm}$</strong> no plātnes gala tiek izurbti $\emptyset 10\text{ mm}$ drenāžas urbumi (atklātām autostāvvietām un aukstām telpām $\emptyset 20\text{ mm}$).</li>
+<li><strong>Montāžnieka pienākums:</strong> Tūlīt pēc šuvju betonēšanas pārbaudīt visus drenāžas urbumus. Ja urbumi aizsērējuši ar betona pienu vai nav izurbti, tie nekavējoties jāizurbj no jauna, lai novērstu ūdens uzkrāšanos dobumos un to sasaldēšanu ziemā!</li>
+</ul>
+<h3 id="urbumi-un-komunikāciju-atvērumi"><a class="header" href="#urbumi-un-komunikāciju-atvērumi">Urbumi un komunikāciju atvērumi:</a></h3>
+<ul>
+<li><strong>Urbumu skaits šķērsgriezumā:</strong> Vienā plātnes šķērsgriezumā drīkst izveidot <strong>maks. 3 atveres</strong> (HCE320 un HCE400 plātnēm — <strong>maks. 2 atveres</strong>), vēlams viena dobuma robežās.</li>
+<li><strong>Ribas griešana:</strong> Plātnes nesošās pozicionēšanas ribas griezt drīkst <strong>TIKAI ar būvinženiera-konstruktora rakstisku saskaņojumu!</strong></li>
+<li><strong>Stiprinājumi plātnēs:</strong> <strong>Plātnes apakšējās ribās UZURBT AIZLIEGTS</strong> (saspriegto trošu bojāšanas un pārraušanas risks). Vieglos stiprinājumus (lampa, kabeļu paplātes) dībeļos veic dobuma apakšējā sienā. Smagos stiprinājumus iestrādā garenšuvēs vai papildus iebetonētajos dobumos.</li>
+<li><strong>Kabeļu caurules šuvēs:</strong> Garenšuvēs drīkst ielikt maks. <strong>2x $\emptyset 20\text{ mm}$</strong> elektrības caurules; gala šuvēs — maks. <strong>3x $\emptyset 20\text{ mm}$</strong>. Aizliegts veidot komunikāciju rievas šķērsām dobumiem!</li>
+</ul>
+<p><img src="../images/ch08/hcs_suves_komunikacijas.svg" alt="Šuvju betonēšana, drenāžas urbumi un komunikāciju atvērumi" /></p>
+<hr />
+<h2 id="7-apdares-darbi-drošība-un-montāžas-pielaides"><a class="header" href="#7-apdares-darbi-drošība-un-montāžas-pielaides">7. Apdares darbi, drošība un montāžas pielaides</a></h2>
+<ul>
+<li><strong>Griestu špaktelēšanas aizture:</strong> Pārseguma apdares un špaktelēšanas darbus drīkst uzsākt tikai pēc tam, kad šuvju betons ir pilnībā sacietējis un konstrukcija nožuvusi (parasti <strong>5 līdz 7 nedēļas</strong> pēc ieliešanas, pie telpas temperatūras $&gt; +10^\circ\text{C}$).</li>
+<li><strong>Darba drošība:</strong> Montāžas laikā strādniekiem obligāti jālieto aizsargķiveres un drošības apavi. Pārseguma brīvajām malām un lielām atverēm uzstāda drošības nožogojumus. <strong>Atrasties zem paceļamās vai montējamās plātnes ir KATEGORISKI AIZLIEGTS.</strong></li>
+<li><strong>Montāžas pielaides:</strong> Izgatavošanas un montāžas pielaidēm jāatbilst LVS EN 1168 un <em>Betonikeskus ry 2003</em> normatīvu prasībām.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../08-dzelzsbetons/06-saliekamais.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../08-dzelzsbetons/07-metinasana.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../08-dzelzsbetons/06-saliekamais.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../08-dzelzsbetons/07-metinasana.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
