@@ -28,6 +28,7 @@
   - [Robežvērtības](08-dzelzsbetons/04-robezvertibas.md)
   - [Vides iedarbības klases](08-dzelzsbetons/05-vide.md)
   - [Saliekamais dzelzsbetons](08-dzelzsbetons/06-saliekamais.md)
+  - [Dobumoto plātņu (HCS) montāža un nosacījumi](08-dzelzsbetons/06a-hcs-montaza.md)
   - [Stiegrojuma metināšana](08-dzelzsbetons/07-metinasana.md)
 - [Tērauda konstrukcijas](09-terauds/README.md)
   - [Fizikālās un mehāniskās īpašības](09-terauds/01-ipasibas.md)

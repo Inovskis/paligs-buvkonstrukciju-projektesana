@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
+  <!-- Title / Border Header -->
+  <rect x="10" y="10" width="830" height="480" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="30" y="40" font-size="18" font-weight="bold" fill="#0f172a">IZZĀĢĒTU UN NESIMETRISKU PLĀTŅU CELŠANA UN PASTIPRINĀŠANA</text>
+
+  <!-- Case A: Cut length < 1000 mm -->
+  <g transform="translate(40, 80)">
+    <rect x="0" y="0" width="220" height="240" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+    <text x="15" y="30" font-size="14" font-weight="bold" fill="#0369a1">A: Izgriezums &lt; 1000 mm</text>
+    
+    <!-- Slab Top View -->
+    <path d="M 30,60 L 190,60 L 190,200 L 100,200 L 100,120 L 30,120 Z" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+    <!-- Clamps -->
+    <rect x="110" y="185" width="30" height="30" fill="#f59e0b" stroke="#78350f" stroke-width="1.5"/>
+    <rect x="40" y="105" width="30" height="30" fill="#f59e0b" stroke="#78350f" stroke-width="1.5"/>
+    
+    <!-- Dimension 200 mm from notch -->
+    <line x1="100" y1="180" x2="100" y2="225" stroke="#ef4444" stroke-width="1"/>
+    <line x1="125" y1="180" x2="125" y2="225" stroke="#ef4444" stroke-width="1"/>
+    <line x1="100" y1="215" x2="125" y2="215" stroke="#ef4444" stroke-width="1"/>
+    <text x="95" y="235" font-size="10" font-weight="bold" fill="#ef4444">200 mm</text>
+
+    <text x="15" y="255" font-size="11" fill="#334155">Satvērējs 200 mm no pakāpiena</text>
+  </g>
+
+  <!-- Case B: Cut length 1000 - 2500 mm with infill -->
+  <g transform="translate(300, 80)">
+    <rect x="0" y="0" width="230" height="240" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+    <text x="15" y="30" font-size="14" font-weight="bold" fill="#0369a1">B: Izgriezums 1000–2500 mm</text>
+
+    <!-- Slab Top View with Infill -->
+    <path d="M 30,60 L 200,60 L 200,200 L 110,200 L 110,140 L 30,140 Z" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+    <!-- Concrete Infill Zone -->
+    <path d="M 110,140 L 200,140 L 200,200 L 110,200 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+    
+    <!-- Clamps -->
+    <rect x="120" y="185" width="30" height="30" fill="#f59e0b" stroke="#78350f" stroke-width="1.5"/>
+    <rect x="40" y="125" width="30" height="30" fill="#f59e0b" stroke="#78350f" stroke-width="1.5"/>
+
+    <text x="120" y="165" font-size="10" font-weight="bold" fill="#1e293b">Iebetonējums</text>
+    <text x="15" y="255" font-size="11" fill="#334155">Prasa pastiprināto iebetonējumu</text>
+  </g>
+
+  <!-- Case C: Cut length > 2500 mm -->
+  <g transform="translate(565, 80)">
+    <rect x="0" y="0" width="245" height="240" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+    <text x="15" y="30" font-size="14" font-weight="bold" fill="#0369a1">C: Izgriezums &gt; 2500 mm</text>
+
+    <!-- Slab Top View -->
+    <path d="M 30,60 L 210,60 L 210,200 L 140,200 L 140,160 L 30,160 Z" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+    
+    <!-- Lifting Loops (Montāžas cilpas) -->
+    <circle cx="50" cy="110" r="7" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+    <circle cx="170" cy="110" r="7" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+
+    <text x="35" y="100" font-size="10" font-weight="bold" fill="#ef4444">Montāžas cilpa</text>
+    <text x="150" y="100" font-size="10" font-weight="bold" fill="#ef4444">Cilpa</text>
+
+    <text x="15" y="255" font-size="11" fill="#334155">Celšana TIKAI aiz montāžas cilpām</text>
+  </g>
+
+  <!-- Bottom Section: Large Void Openings & Header Collar (N-kaelus) -->
+  <g transform="translate(40, 340)">
+    <rect x="0" y="0" width="770" height="130" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" rx="4"/>
+    <text x="20" y="30" font-size="15" font-weight="bold" fill="#1e3a8a">Lielas atveres plātnēs un montāžas tērauda apkakles (marķētas ar "N")</text>
+    
+    <!-- Slab with Header Collar -->
+    <rect x="30" y="45" width="300" height="65" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+    <rect x="120" y="55" width="90" height="45" fill="#ffffff" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="4,2"/>
+    <text x="155" y="82" font-size="20" font-weight="bold" fill="#ef4444">N</text>
+
+    <text x="350" y="65" font-size="12" fill="#1e293b">• Atveres pastiprināšanai transportēšanas un montāžas laikā izmanto tērauda apkakles ("N").</text>
+    <text x="350" y="85" font-size="12" fill="#1e293b">• Tērauda apkakli "N" noņem TIKAI pēc šuvju betona stiprības sasniegšanas vai pagaidu balstu ierīkošanas.</text>
+    <text x="350" y="105" font-size="12" font-weight="bold" fill="#0f172a">• Aizliegts noņemt pastiprinājumus pirms šuvju iebetonēšanas!</text>
+  </g>
+</svg>

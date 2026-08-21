@@ -1,6 +1,11 @@
 # Saliekamais dzelzsbetons
 
-Saliekamā dzelzsbetona konstrukciju projektēšana un izmantošana prasa precīzu izgatavošanas tolerances, transportēšanas gabarītu, balstījuma mezglu un šuvju risinājumu ievērošanu.
+Saliekamā dzelzsbetona konstrukciju projektēšana un izmantošana prasa precīzu izgatavošanas pielaižu (toleranču), transportēšanas gabarītu, balstījuma mezglu un šuvju risinājumu ievērošanu.
+
+> [!TIP]
+> **Praktiskās montāžas vadlīnijas:**
+> Šī nodaļa ietver vispārīgos aprēķinus, ražošanas standartus un elementu gabarītus. Detalizētus būvlaukuma nosacījumus par HCS plātņu uzglabāšanu, celšanu, līmeņošanu, tērauda vekseļiem un drenāžu skatīt atsevišķajā nodaļā:
+> **[Dobumoto plātņu (HCS) montāža un nosacījumi](06a-hcs-montaza.md)**
 
 ---
 
@@ -19,11 +24,13 @@ Veicot dobumoto plātņu gareniskos vai šķērsvirziena izgriezumus (komunikāc
 
 ![Plātņu izgriezumi](../images/ch08/img046.png)
 
-*Saskaņā ar "Betongelementboken" un ražotāju vadlīnijām, maksimālie pieļaujamie izgriezumu izmēri bez papildu tērauda sadalošajiem elementiem (kārbām) ir atkarīgi no plātnes biezuma un izvietojuma (parasti ne vairāk kā 1-2 dobumu platumā).*
+*Saskaņā ar "Betongelementboken" un ražotāju vadlīnijām, maksimālie pieļaujamie izgriezumu izmēri bez papildu tērauda sadalošajiem elementiem (kārbām vai vekseļiem) ir atkarīgi no plātnes biezuma un izvietojuma (parasti ne vairāk kā 1-2 dobumu platumā).*
 
 ### Dobumoto plātņu enkurošana iecirtumos:
 
 ![Plātņu enkurošana](../images/ch08/img047.png)
+
+*Stropēšanas un montāžas paņēmienus plātnēm ar izgriezumiem skatīt nodaļā [3. HCS plātņu celšanas un stropēšanas tehnoloģijas](06a-hcs-montaza.md#3-hcs-plātņu-celšanas-un-stropēšanas-tehnoloģijas).*
 
 ---
 
@@ -91,7 +98,7 @@ Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabar�
 
 ## Nominālie elementu balstījuma garumi
 
-Minimālie balsta garumi (earing lengths) uz nesošajām konstrukcijām, kas nodrošina drošu slodzes pārnesi un pieļauj būvdarbu novirzes:
+Minimālie balsta garumi (*bearing lengths*) uz nesošajām konstrukcijām, kas nodrošina drošu slodzes pārnesi un pieļauj būvdarbu novirzes:
 
 | Balstāmais elements | Nesošā konstrukcija | Plātnes biezums \\(h\\) vai sijas laidums \\(L\\) | Minimālais nominālais balsta garums (mm) |
 | :--- | :--- | :--- | :---: |
