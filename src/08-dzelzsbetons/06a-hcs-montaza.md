@@ -64,11 +64,11 @@ Saliekamo dzelzsbetona dobumoto plātņu (HCS — *Hollow Core Extruder*) montā
 - Novieto **ZEM OTRĀS RIBAS (zem 2. dobuma sieniņas)**. Aizliegts likt zem dobuma vidus!
 - Apakšējās javas šuves biezums ≥ 15 mm.
 
-| Plātnes tips | Mala c (mm) | Starp plāksnītēm d (mm) |
-| :--- | :---: | :---: |
-| **HCE200 un HCE220** | 220 | 760 |
-| **HCE265** | 260 | 680 |
-| **HCE320 un HCE400** | 320 | 560 |
+ | Plātnes tips | Mala c (mm) | Starp plāksnītēm d (mm) | 
+ | :--- | :---: | :---: | 
+ | **HCE200 un HCE220** | 220 | 760 | 
+ | **HCE265** | 260 | 680 | 
+ | **HCE320 un HCE400** | 320 | 560 | 
 
 ![Balstīšana un līmeņošana](../images/ch08/hcs_limeposana_balsts.svg)
 
