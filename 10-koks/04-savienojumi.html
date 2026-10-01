@@ -186,7 +186,7 @@
 <p>Koka konstrukciju savienojumu nestspējas noteikšana ir viena no atbildīgākajām koka projektēšanas daļām. Savienojumi ar tapveida stiprinājumiem (skrūves, bultskrūves, naglas, dībeļi) tiek aprēķināti saskaņā ar Johansena tecēšanas teoriju (European Yield Model).</p>
 <hr />
 <h2 id="sabrukuma-formas-un-johansena-teorija"><a class="header" href="#sabrukuma-formas-un-johansena-teorija">Sabrukuma formas un Johansena teorija</a></h2>
-<p>Viena griezuma (single shear) koks-koks vai koks-plātne savienojuma raksturīgā bīdes pretestība $F_{v,Rk}$ uz vienu stiprinājumu un vienu bīdes plakni ir jārēķina kā mazākā vērtība no vairākām iespējamām sabrukuma formām (LVS EN 1995-1-1 8.2.2. tabula).</p>
+<p>Viena griezuma (single shear) koks-koks vai koks-plātne savienojuma raksturīgā bīdes pretestība \(F_{v,Rk}\) uz vienu stiprinājumu un vienu bīdes plakni ir jārēķina kā mazākā vērtība no vairākām iespējamām sabrukuma formām (LVS EN 1995-1-1 8.2.2. tabula).</p>
 <blockquote>
 <p><strong>Piezīme:</strong>
 Vērtējamās sabrukuma formas (a līdz f):</p>
@@ -196,21 +196,21 @@ Vērtējamās sabrukuma formas (a līdz f):</p>
 <li><strong>f (virves efekts):</strong> Ja stiprinājumam (piemēram, kokskrūvei vai bultskrūvei ar uzgriezni) ir stiepes (izraušanas) nestspēja, bīdes nestspēju var palielināt uz "virves efekta" (rope effect) rēķina – maksimāli par 25% naglām un bultskrūvēm, un par 100% kokskrūvēm.</li>
 </ul>
 </blockquote>
-<h3 id="aprēķina-pretestība-f_vrd"><a class="header" href="#aprēķina-pretestība-f_vrd">Aprēķina pretestība ($F_{v,Rd}$)</a></h3>
-<p>Aprēķina nestspēju iegūst, reizinot raksturīgo vērtību ar modifikācijas koeficientu un dalot ar materiāla drošuma koeficientu $\gamma_M$:
+<h3 id="aprēķina-pretestība-f_vrd"><a class="header" href="#aprēķina-pretestība-f_vrd">Aprēķina pretestība (\(F_{v,Rd}\))</a></h3>
+<p>Aprēķina nestspēju iegūst, reizinot raksturīgo vērtību ar modifikācijas koeficientu un dalot ar materiāla drošuma koeficientu \(\gamma_M\):
 \[F_{v,Rd} = F_{v,Rk} \cdot \frac{k_{\text{mod}}}{\gamma_M}\]
-Koka savienojumiem $\gamma_M = 1,30$. Ja savienoti divi dažādi koka materiāli ar atšķirīgu $k_{\text{mod}}$, aprēķinā izmanto mazāko $k_{\text{mod}}$ vērtību, bet izmanto koksnes $\gamma_M = 1,30$. Ja aprēķina tērauda elementu (piemēram, bultskrūves stiepi), tad pielieto tērauda $\gamma_{M2} = 1,25$.</p>
+Koka savienojumiem \(\gamma_M = 1,30\). Ja savienoti divi dažādi koka materiāli ar atšķirīgu \(k_{\text{mod}}\), aprēķinā izmanto mazāko \(k_{\text{mod}}\) vērtību, bet izmanto koksnes \(\gamma_M = 1,30\). Ja aprēķina tērauda elementu (piemēram, bultskrūves stiepi), tad pielieto tērauda \(\gamma_{M2} = 1,25\).</p>
 <hr />
 <h2 id="minimālie-attālumi-bultskrūvēm-lvs-en-1995-1-1-85-tabula"><a class="header" href="#minimālie-attālumi-bultskrūvēm-lvs-en-1995-1-1-85-tabula">Minimālie attālumi bultskrūvēm (LVS EN 1995-1-1 8.5. tabula)</a></h2>
 <p>Lai novērstu koksnes trauslo šķelšanos (splitting) gar šķiedrām, bultskrūvēm un dībeļiem ir jāievēro stingri ģeometriskie attālumi.
-Zemāk dotās vērtības ir <strong>minimālie</strong> attālumi atkarībā no stiprinājuma diametra $d$ un leņķa $\alpha$ (leņķis starp slodzes spēku un koksnes šķiedru virzienu).</p>
+Zemāk dotās vērtības ir <strong>minimālie</strong> attālumi atkarībā no stiprinājuma diametra \(d\) un leņķa \(\alpha\) (leņķis starp slodzes spēku un koksnes šķiedru virzienu).</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Attāluma apzīmējums</th><th style="text-align: center">Minimālā vērtība</th><th style="text-align: left">Skaidrojums</th></tr></thead><tbody>
-<tr><td style="text-align: left"><strong>Solis $a_1$ (paralēli šķiedrām)</strong></td><td style="text-align: center">$(4 +</td><td style="text-align: left">\cos\alpha</td></tr>
-<tr><td style="text-align: left"><strong>Solis $a_2$ (perpendikulāri šķiedrām)</strong></td><td style="text-align: center">$4d$</td><td style="text-align: left">Solis starp rindām perpendikulāri šķiedrām.</td></tr>
-<tr><td style="text-align: left"><strong>Gala attālums $a_{3,t}$ (noslogotam galam)</strong></td><td style="text-align: center">$\max(7d, 80\text{ mm})$</td><td style="text-align: left">Attālums no noslogotā koka gala līdz skrūvei. Ļoti kritisks parametrs!</td></tr>
-<tr><td style="text-align: left"><strong>Gala attālums $a_{3,c}$ (nenoslogotam galam)</strong></td><td style="text-align: center">$4d$</td><td style="text-align: left">Attālums līdz brīvajam (nenoslogotajam) koka galam.</td></tr>
-<tr><td style="text-align: left"><strong>Malas attālums $a_{4,t}$ (noslogotai malai)</strong></td><td style="text-align: center">$\max((2 + 2\sin\alpha)d, 3d)$</td><td style="text-align: left">Attālums līdz sijas / elementa malai, uz kuru vērsts spēks.</td></tr>
-<tr><td style="text-align: left"><strong>Malas attālums $a_{4,c}$ (nenoslogotai malai)</strong></td><td style="text-align: center">$3d$</td><td style="text-align: left">Attālums līdz sijas pretējai (nenoslogotajai) malai.</td></tr>
+<tr><td style="text-align: left"><strong>Solis \(a_1\) (paralēli šķiedrām)</strong></td><td style="text-align: center">\((4 +</td><td style="text-align: left">\cos\alpha</td></tr>
+<tr><td style="text-align: left"><strong>Solis \(a_2\) (perpendikulāri šķiedrām)</strong></td><td style="text-align: center">\(4d\)</td><td style="text-align: left">Solis starp rindām perpendikulāri šķiedrām.</td></tr>
+<tr><td style="text-align: left"><strong>Gala attālums \(a_{3,t}\) (noslogotam galam)</strong></td><td style="text-align: center">\(\max(7d, 80\text{ mm})\)</td><td style="text-align: left">Attālums no noslogotā koka gala līdz skrūvei. Ļoti kritisks parametrs!</td></tr>
+<tr><td style="text-align: left"><strong>Gala attālums \(a_{3,c}\) (nenoslogotam galam)</strong></td><td style="text-align: center">\(4d\)</td><td style="text-align: left">Attālums līdz brīvajam (nenoslogotajam) koka galam.</td></tr>
+<tr><td style="text-align: left"><strong>Malas attālums \(a_{4,t}\) (noslogotai malai)</strong></td><td style="text-align: center">\(\max((2 + 2\sin\alpha)d, 3d)\)</td><td style="text-align: left">Attālums līdz sijas / elementa malai, uz kuru vērsts spēks.</td></tr>
+<tr><td style="text-align: left"><strong>Malas attālums \(a_{4,c}\) (nenoslogotai malai)</strong></td><td style="text-align: center">\(3d\)</td><td style="text-align: left">Attālums līdz sijas pretējai (nenoslogotajai) malai.</td></tr>
 </tbody></table>
 </div>
 <blockquote>
@@ -221,8 +221,8 @@ Ja spēks darbojas perpendikulāri koksnes šķiedrām (piem., sija karājas uz 
 <h2 id="tērauda---koka-savienojumi-lokšņu--leņķu-stiprināšana"><a class="header" href="#tērauda---koka-savienojumi-lokšņu--leņķu-stiprināšana">Tērauda - koka savienojumi (Lokšņu / leņķu stiprināšana)</a></h2>
 <p>Ja tiek izmantotas tērauda detaļas (piemēram, biezās plāksnes dībeļu mezglos vai leņķi):</p>
 <ul>
-<li>Plāna tērauda plāksne ($t \le 0,5d$): Plāksnē neveidojas iespīlējums, aprēķina modelī rotācija netiek ierobežota.</li>
-<li>Bieza tērauda plāksne ($t \ge d$ vai precīzāk $t \ge d$ un urbuma pielaide ir $&lt;0,1d$): Stiprinājums tērauda plāksnē tiek uzskatīts par iespīlētu (momentizturīgu šajā punktā). Tas ievērojami palielina mezgla pretestību, jo maina plastiskā šarnīra veidošanās modeli.</li>
+<li>Plāna tērauda plāksne (\(t \le 0,5d\)): Plāksnē neveidojas iespīlējums, aprēķina modelī rotācija netiek ierobežota.</li>
+<li>Bieza tērauda plāksne (\(t \ge d\) vai precīzāk \(t \ge d\) un urbuma pielaide ir \(&lt;0,1d\)): Stiprinājums tērauda plāksnē tiek uzskatīts par iespīlētu (momentizturīgu šajā punktā). Tas ievērojami palielina mezgla pretestību, jo maina plastiskā šarnīra veidošanās modeli.</li>
 </ul>
 
                     </main>
