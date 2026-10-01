@@ -37,12 +37,12 @@ Latvijā dzelzsbetona konstrukcijās visbiežāk izmanto **B500A** (zemas plasti
  | B500B (Vidējs elastīgums) | 540 | 470 | 500 | 435 | ≥ 5,0 | 
 
 Kur:
-- $f_{yk}$ — raksturīgā tecēšanas robeža (plūstamības robeža);
-- $f_{yd} = f_{yk} / \gamma_S = 500 / 1,15 \approx 435 N/mm^2$ (stiegrojuma aprēķina stiprība);
-- $f_{tk}$ — raksturīgā stiepes stiprība (pārraušanas robeža);
-- $f_{td} = f_{tk} / \gamma_S$ (stiegrojuma aprēķina stiepes stiprība);
-- $\varepsilon_{uk}$ — raksturīgā deformācija pie maksimālās slodzes;
-- Tērauda elastības modulis: $E_s = 200 GPa = 200\ 000 N/mm^2$.
+- \\(f_{yk}\\) — raksturīgā tecēšanas robeža (plūstamības robeža);
+- \\(f_{yd} = f_{yk} / \gamma_S = 500 / 1,15 \approx 435 N/mm^2\\) (stiegrojuma aprēķina stiprība);
+- \\(f_{tk}\\) — raksturīgā stiepes stiprība (pārraušanas robeža);
+- \\(f_{td} = f_{tk} / \gamma_S\\) (stiegrojuma aprēķina stiepes stiprība);
+- \\(\varepsilon_{uk}\\) — raksturīgā deformācija pie maksimālās slodzes;
+- Tērauda elastības modulis: \\(E_s = 200 GPa = 200\ 000 N/mm^2\\).
 
 ---
 

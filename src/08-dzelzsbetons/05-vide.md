@@ -6,7 +6,7 @@ Dzelzsbetona ilgmūžība un stiprība ir tieši saistīta ar betona cietēšana
 
 ## Betona cietēšanas dinamika
 
-Betona cietēšanas ātrums un stiprības pieaugums ir atkarīgs no cementa stiprības klases (stiprības pieauguma ātruma), apkārtējās temperatūras, ūdens/cementa ($w/c$) attiecības un mitruma uzturēšanas cietēšanas sākumposmā.
+Betona cietēšanas ātrums un stiprības pieaugums ir atkarīgs no cementa stiprības klases (stiprības pieauguma ātruma), apkārtējās temperatūras, ūdens/cementa (\\(w/c\\)) attiecības un mitruma uzturēšanas cietēšanas sākumposmā.
 
 **Aptuvenais betona spiedes stiprības pieaugums (% no 28 dienu stiprības) saskaņā ar LVS EN 206:**
 
@@ -16,13 +16,13 @@ Betona cietēšanas ātrums un stiprības pieaugums ir atkarīgs no cementa stip
  | Klase 32,5 R un **42,5 N** <br> (Vidēji ātri cietējošs) | +20 °C <br> +5 °C | 50 ... 60% <br> 20 ... 40% | 65 ... 80% <br> 40 ... 60% | 100% <br> 75 ... 90% | 105 ... 115% <br> — | 110 ... 120% <br> — | 
  | Klase 42,5 R, **52,5 N** un **52,5 R** <br> (Ātri cietējošs) | +20 °C <br> +5 °C | 70 ... 80% <br> 40 ... 60% | 80 ... 90% <br> 60 ... 80% | 100% <br> 90 ... 105% | 100 ... 105% <br> — | 105 ... 110% <br> — | 
 
-*Piezīme: 28 dienu spiedes stiprība pie nepārtrauktas $+20\ ^\circC$ temperatūras un atbilstoša mitruma tiek pieņemta par $100\%$. Saliekamā dzelzsbetona ražotnēs visbiežāk izmanto ātricietējošos (R tipa) cementus un veic konstrukciju hidrotermālo apstrādi (tvaicēšanu), lai paātrinātu veidņu apriti.*
+*Piezīme: 28 dienu spiedes stiprība pie nepārtrauktas \\(+20\ ^\circC\\) temperatūras un atbilstoša mitruma tiek pieņemta par \\(100\%\\). Saliekamā dzelzsbetona ražotnēs visbiežāk izmanto ātricietējošos (R tipa) cementus un veic konstrukciju hidrotermālo apstrādi (tvaicēšanu), lai paātrinātu veidņu apriti.*
 
 ---
 
 ## Vides iedarbības klases (LVS EN 206)
 
-Būvkonstrukciju ilgmūžības nodrošināšanai ir pareizi jānosaka vides iedarbības klases, kas definē prasības betona sastāvam (minimālais cementa saturs, maksimālā $w/c$ attiecība, minimālā betona klase) un stiegrojuma aizsargslānim.
+Būvkonstrukciju ilgmūžības nodrošināšanai ir pareizi jānosaka vides iedarbības klases, kas definē prasības betona sastāvam (minimālais cementa saturs, maksimālā \\(w/c\\) attiecība, minimālā betona klase) un stiegrojuma aizsargslānim.
 
 - **X0:** Vide bez korozijas, sasalšanas/atkušanas vai ķīmiskas iedarbības riska (tikai nestiegrotam betonam).
 - **XC1 – XC4:** Karbonizācijas izraisīta stiegrojuma korozija (sauss/mitrs cikls).
@@ -58,8 +58,8 @@ Būvkonstrukciju ilgmūžības nodrošināšanai ir pareizi jānosaka vides ieda
 
 ## Šķērsstiegrojuma nepieciešamības novērtējums
 
-### Šķērsspēka nestspēja elementiem bez šķērsstiegrojuma ($V_{Rd,c}$)
-Elementiem, kuriem nav aprēķina šķērsstiegrojuma (piemēram, plātnēm un pamatu pēdām), aprēķina šķērsspēka nestspēju $V_{Rd,c}$ saskaņā ar LVS EN 1992-1-1 Eq (6.2.a):
+### Šķērsspēka nestspēja elementiem bez šķērsstiegrojuma (\\(V_{Rd,c}\\))
+Elementiem, kuriem nav aprēķina šķērsstiegrojuma (piemēram, plātnēm un pamatu pēdām), aprēķina šķērsspēka nestspēju \\(V_{Rd,c}\\) saskaņā ar LVS EN 1992-1-1 Eq (6.2.a):
 
 \\[V_{Rd,c} = \left[ C_{Rd,c} \cdot k \cdot (100 \cdot \rho_l \cdot f_{ck})^{1/3} + k_1 \cdot \sigma_{cp} \right] \cdot b_w \cdot d\\]
 
@@ -67,23 +67,23 @@ Ar minimālo vērtību:
 \\[V_{Rd,c,min} = \left( v_{min} + k_1 \cdot \sigma_{cp} \right) \cdot b_w \cdot d\\]
 
 Kur:
-- $C_{Rd,c} = 0,18 / \gamma_c = 0,18 / 1,5 = 0,12$;
-- $k = 1 + \sqrt{\frac{200}{d}} ≤ 2,0$ (izmēra faktors, kur darba augstums $d$ jāievada **milimetros**, nevis metros);
-- $\rho_l = \frac{A_{sl}}{b_w \cdot d} ≤ 0,02$ (gareniskā stiegrojuma attiecība);
-- $f_{ck}$ — betona raksturīgā spiedes stiprība (MPa);
-- $b_w$ — šķērsgriezuma mazākais platums stieptajā zonā (mm);
-- $\sigma_{cp} = \frac{N_{Ed}}{A_c}$ — aksiālais spriegums šķērsgriezumā ($N/mm^2$);
-- $k_1 = 0,15$ (koeficients aksiālā spēka ietekmei).
+- \\(C_{Rd,c} = 0,18 / \gamma_c = 0,18 / 1,5 = 0,12\\);
+- \\(k = 1 + \sqrt{\frac{200}{d}} ≤ 2,0\\) (izmēra faktors, kur darba augstums \\(d\\) jāievada **milimetros**, nevis metros);
+- \\(\rho_l = \frac{A_{sl}}{b_w \cdot d} ≤ 0,02\\) (gareniskā stiegrojuma attiecība);
+- \\(f_{ck}\\) — betona raksturīgā spiedes stiprība (MPa);
+- \\(b_w\\) — šķērsgriezuma mazākais platums stieptajā zonā (mm);
+- \\(\sigma_{cp} = \frac{N_{Ed}}{A_c}\\) — aksiālais spriegums šķērsgriezumā (\\(N/mm^2\\));
+- \\(k_1 = 0,15\\) (koeficients aksiālā spēka ietekmei).
 
 ---
 
-### Vienkāršota šķērsspēka pārbaude bez aksiālā spēka ($N_{Ed} = 0$)
+### Vienkāršota šķērsspēka pārbaude bez aksiālā spēka (\\(N_{Ed} = 0\\))
 
 Ja aksiālais spēks ir nul≤, minimālo šķērsspēka nestspējas robežvērtību aprēķina kā:
 
 \\[V_{Rd,c} = v_{min} \cdot b_w \cdot d\\]
 
-Minimālā bīdes sprieguma $v_{min}$ vērtības ($N/mm^2$ jeb MPa) aprēķina pēc formulas $v_{min} = 0,035 \cdot k^{3/2} \cdot f_{ck}^{1/2}$ un tās apkopotas šādā tabulā:
+Minimālā bīdes sprieguma \\(v_{min}\\) vērtības (\\(N/mm^2\\) jeb MPa) aprēķina pēc formulas \\(v_{min} = 0,035 \cdot k^{3/2} \cdot f_{ck}^{1/2}\\) un tās apkopotas šādā tabulā:
 
  | Betona klase | d = 200 mm <br> (k = 2,00) | d = 400 mm <br> (k = 1,71) | d = 600 mm <br> (k = 1,58) | d = 800 mm <br> (k = 1,50) | 
  | :---: | :---: | :---: | :---: | :---: | 
@@ -92,4 +92,4 @@ Minimālā bīdes sprieguma $v_{min}$ vērtības ($N/mm^2$ jeb MPa) aprēķina p
  | C60/75 | 0,77 | 0,61 | 0,54 | 0,50 | 
  | C80/95 | 0,89 | 0,70 | 0,62 | 0,58 | 
 
-*\*Piezīme: Izmēra faktora $k$ izmaiņas ir monotonas, tāpēc vērtība pie $d=600$ un C20/25 ir koriģēta uz pareizo teorētisko lielumu $0,31 N/mm^2$ (iepriekš importētajā tabulā bija kļūdaina vērtība 0,25).*
+*\*Piezīme: Izmēra faktora \\(k\\) izmaiņas ir monotonas, tāpēc vērtība pie \\(d=600\\) un C20/25 ir koriģēta uz pareizo teorētisko lielumu \\(0,31 N/mm^2\\) (iepriekš importētajā tabulā bija kļūdaina vērtība 0,25).*

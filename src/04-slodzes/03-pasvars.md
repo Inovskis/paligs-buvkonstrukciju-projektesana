@@ -24,7 +24,7 @@ Aprēķinot dobumoto dzelzsbetona plātņu pašsvara slodzi, ir būtiski ievērt
 Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā un ražotāju specifikācijās noteiktos tilpumsvarus (blīvumus). Zemāk apkopoti praksē biežāk izmantotie materiāli:
 
 ### Betons un mūris
-| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| Materiāla nosaukums | Tilpumsvars \\(\gamma\\) (kN/m³) |
 | :--- | :---: |
 | Dzelzsbetons (parasts ar stiegrojumu) | 25,0 |
 | Betons (neiegrots) | 24,0 |
@@ -35,7 +35,7 @@ Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā un ražot
 | Pilnie māla ķieģeļi | 18,0 |
 
 ### Metāli un koksne
-| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| Materiāla nosaukums | Tilpumsvars \\(\gamma\\) (kN/m³) |
 | :--- | :---: |
 | Tērauds | 78,5 |
 | Alumīnijs | 27,0 |
@@ -46,7 +46,7 @@ Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā un ražot
 | OSB (kokskaidu plātne) | 6,5 – 8,0 |
 
 ### Apdares un izolācijas materiāli
-| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| Materiāla nosaukums | Tilpumsvars \\(\gamma\\) (kN/m³) |
 | :--- | :---: |
 | Stikls (lokšņu) | 25,0 |
 | Cementa-smilšu java (Estrich grīdām) | 20,0 – 22,0 |
@@ -58,7 +58,7 @@ Materiālu pašsvara noteikšanai izmanto LVS EN 1991-1-1 A pielikumā un ražot
 | Putupolistirols (EPS / XPS) | 0,15 – 0,40 |
 
 ### Grunts, beramkravas un šķidrumi
-| Materiāla nosaukums | Tilpumsvars $\gamma$ (kN/m³) |
+| Materiāla nosaukums | Tilpumsvars \\(\gamma\\) (kN/m³) |
 | :--- | :---: |
 | Ūdens (saldūdens) | 10,0 |
 | Sausa smilts | 16,0 – 18,0 |

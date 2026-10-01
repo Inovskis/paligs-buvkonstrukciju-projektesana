@@ -19,9 +19,9 @@ Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes
 | **M36** | 36 | 39 | 817,0 | 1018 | 313,7 | 326,8 | 470,6 | 588,2 |
 
 > **Piezīme par aprēķiniem:**
-> - Bīdes nestspēja $F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$ ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu ($\alpha_v = 0,6$ klasei 8.8; $\alpha_v = 0,5$ klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu $A$ un $\alpha_v = 0,6$.
-> - Stiepes nestspēja $F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}$, kur $k_2 = 0,9$ un $\gamma_{M2} = 1,25$.
-> - Aprēķinā pieņemts $\gamma_{M2} = 1,25$, $f_{ub} = 800\text{ MPa}$ (8.8 klase) un $1000\text{ MPa}$ (10.9 klase).
+> - Bīdes nestspēja \\(F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\) ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu (\\(\alpha_v = 0,6\\) klasei 8.8; \\(\alpha_v = 0,5\\) klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu \\(A\\) un \\(\alpha_v = 0,6\\).
+> - Stiepes nestspēja \\(F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\), kur \\(k_2 = 0,9\\) un \\(\gamma_{M2} = 1,25\\).
+> - Aprēķinā pieņemts \\(\gamma_{M2} = 1,25\\), \\(f_{ub} = 800\text{ MPa}\\) (8.8 klase) un \\(1000\text{ MPa}\\) (10.9 klase).
 
 ---
 
@@ -31,15 +31,15 @@ Pirms savienojuma projektēšanas ir jāizvēlas atbilstoša aprēķina kategori
 
 ### Bīdes savienojumi (Shear connections)
 * **Kategorija A: Bīdes savienojumi (Bearing type)**  
-  Visbiežāk izmantotais standarta savienojuma veids. Pieļauj slīdi (skrūves vītne/kāts atspiežas pret urbuma malu). Skrūves nav iepriekš saspriegtas. Projektē, lai izturētu skrūves bīdi ($F_{v,Rd}$) un urbuma malas spiedi ($F_{b,Rd}$).
+  Visbiežāk izmantotais standarta savienojuma veids. Pieļauj slīdi (skrūves vītne/kāts atspiežas pret urbuma malu). Skrūves nav iepriekš saspriegtas. Projektē, lai izturētu skrūves bīdi (\\(F_{v,Rd}\\)) un urbuma malas spiedi (\\(F_{b,Rd}\\)).
 * **Kategorija B: Pret slīdi nodrošināti SLS (Slip-resistant at SLS)**  
   Skrūves (10.9 vai 8.8) ir iepriekš saspriegtas ar kontrolētu spēku. Ekspluatācijas (SLS) robežstāvoklī savienojums nedrīkst izslīdēt (jāuzņem bīde ar berzi). Nestspējas (ULS) robežstāvoklī slīde ir pieļaujama un savienojums darbojas kā Kategorija A.
 * **Kategorija C: Pret slīdi nodrošināti ULS (Slip-resistant at ULS)**  
-  Skrūves (10.9 vai 8.8) ir iepriekš saspriegtas. Savienojums nedrīkst izslīdēt pat nestspējas robežstāvoklī (ULS). Pārbauda uz slīdes pretestību ($F_{s,Rd}$) pie ULS slodzēm. Turklāt urbuma mala un skrūves bīde tiek pārbaudīta kā plastiskajai nestspējai. 
+  Skrūves (10.9 vai 8.8) ir iepriekš saspriegtas. Savienojums nedrīkst izslīdēt pat nestspējas robežstāvoklī (ULS). Pārbauda uz slīdes pretestību (\\(F_{s,Rd}\\)) pie ULS slodzēm. Turklāt urbuma mala un skrūves bīde tiek pārbaudīta kā plastiskajai nestspējai. 
 
 ### Stiepes savienojumi (Tension connections)
 * **Kategorija D: Nesaspriegti savienojumi (Non-preloaded)**  
-  Tiek izmantotas parastas nesaspriegtas skrūves. Nestspēju nosaka skrūvju stiepes ($F_{t,Rd}$) vai plātnes caurumošanas (punching shear) stiprība.
+  Tiek izmantotas parastas nesaspriegtas skrūves. Nestspēju nosaka skrūvju stiepes (\\(F_{t,Rd}\\)) vai plātnes caurumošanas (punching shear) stiprība.
 * **Kategorija E: Saspriegti savienojumi (Preloaded)**  
   Tiek izmantotas iepriekš saspriegtas augstas stiprības skrūves (klase 8.8 vai 10.9). Saspriegums uzlabo noguruma pretestību un stingumu (piem., momentizturīgos atloku mezglos). Nestspēju rēķina tāpat kā Kategorijai D.
 

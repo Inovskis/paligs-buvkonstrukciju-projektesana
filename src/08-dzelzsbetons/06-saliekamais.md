@@ -42,18 +42,18 @@ Saskaņā ar LVS EN 1168 G pielikumu, ugunsizturības klasēm, kas ir vienādas 
 
 ### Empīriskais šķērsspēka un enkurojuma vienādojums ugunsgrēka apstākļos:
 
-$$V_{Rd,c,fi} = (C_{\theta,1} + \alpha_k \cdot C_{\theta,2}) \cdot b_w \cdot d$$
+\\[V_{Rd,c,fi} = (C_{\theta,1} + \alpha_k \cdot C_{\theta,2}) \cdot b_w \cdot d\\]
 
 Kur:
-- $\alpha_k = 1 + \sqrt{200 / d} ≤ 2.0$ (izmēra faktors, kur darba augstums d ir milimetros);
-- $b_w$ — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);
-- $d$ — darba augstums normālā temperatūrā;
-- $C_{\theta,1}$ — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos;
-- $C_{\theta,2}$ — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā;
-- $\sigma_{cp,20^\circC}$ — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;
-- $f_{c,fi,m}$ — betona vidējā spiedes stiprība paaugstinātā temperatūrā;
-- $F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}$ (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);
-- $f_{bpd,fi}$ — saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos.
+- \\(\alpha_k = 1 + \sqrt{200 / d} ≤ 2.0\\) (izmēra faktors, kur darba augstums d ir milimetros);
+- \\(b_w\\) — sieniņu kopējais platums (samazināts, ņemot vērā plaisas);
+- \\(d\\) — darba augstums normālā temperatūrā;
+- \\(C_{\theta,1}\\) — koeficients, kas ievērtē betona spriegumu ugunsgrēka apstākļos;
+- \\(C_{\theta,2}\\) — koeficients, kas ievērtē enkurotā garenstiegrojuma ietekmi paaugstinātā temperatūrā;
+- \\(\sigma_{cp,20^\circC}\\) — vidējais betona spriegums no saspriegojuma spēka normālā temperatūrā;
+- \\(f_{c,fi,m}\\) — betona vidējā spiedes stiprība paaugstinātā temperatūrā;
+- \\(F_{R,a,fi} = F_{R,a,fi,p} + F_{R,a,fi,s}\\) (kopējā saspriegtā un parastā stiegrojuma spēka kapacitāte);
+- \\(f_{bpd,fi}\\) — saķeres stiprība saspriegtajām stiegrām ugunsgrēka apstākļos.
 
  | G.2. attēls — Aprēķina modelis ar parasto enkurojumu | G.3. attēls — Aprēķina modelis ar izvirzītām dzīslām | 
  | :---: | :---: | 

@@ -50,8 +50,8 @@ Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) \\(d\
     <thead>
       <tr>
         <th rowspan="2">Elements</th>
-        <th rowspan="2">Attiecība \(L/d\)</th>
-        <th colspan="10">Provizoriskais augstums \(d\) (mm) atkarībā no laiduma (\(L\), m)</th>
+        <th rowspan="2">Attiecība \\(L/d\\)</th>
+        <th colspan="10">Provizoriskais augstums \\(d\\) (mm) atkarībā no laiduma (\\(L\\), m)</th>
       </tr>
       <tr>
         <th>3 m</th>
