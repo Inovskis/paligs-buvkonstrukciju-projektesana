@@ -2,6 +2,7 @@
 
 [Sākums](README.md)
 
+- [Priekšvārds](01-prieksvards.md)
 - [Saturs](saturs.md)
 - [Ievads](ievads.md)
 - [Izmantojamie būvnormatīvi un standarti](02-normativas.md)

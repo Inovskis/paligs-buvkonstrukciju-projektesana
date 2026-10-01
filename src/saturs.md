@@ -2,6 +2,10 @@
 
 ---
 
+[**Priekšvārds**](01-prieksvards.md)
+
+---
+
 [**Ievads**](ievads.md)
 
 ---
@@ -47,6 +51,7 @@
 - [Tehnoloģiju pielietojamība](07-pamati/02-tehnologijas.md)
 - [Grunšu parametri un klasifikācija](07-pamati/03-grunsis.md)
 - [Pāļu pamati](07-pamati/04-pali.md)
+- [Ģeotehniskā izpēte](07-pamati/05-geoizpete.md)
 
 ---
 
@@ -58,6 +63,7 @@
 - [Robežvērtības](08-dzelzsbetons/04-robezvertibas.md)
 - [Vides iedarbības klases](08-dzelzsbetons/05-vide.md)
 - [Saliekamais dzelzsbetons](08-dzelzsbetons/06-saliekamais.md)
+- [Dobumoto plātņu (HCS) montāža un nosacījumi](08-dzelzsbetons/06a-hcs-montaza.md)
 - [Stiegrojuma metināšana pēc DIN 4099](08-dzelzsbetons/07-metinasana.md)
 
 ---
@@ -78,7 +84,7 @@
 - [Materiālu īpašības](10-koks/01-ipasibas.md)
 - [Koeficienti](10-koks/02-koeficienti.md)
 - [Siju izlieču robežlielumi](10-koks/03-robezlielumi.md)
-- [Ģeotehniskā izpēte](10-koks/04-geotehnika.md)
+- [Koka savienojumi](10-koks/04-savienojumi.md)
 
 ---
 
@@ -87,3 +93,4 @@
 - [Lapu izkārtojums un izmēri](11-rasejumi/01-lapas.md)
 - [Izmēru līnijas](11-rasejumi/02-izmeri.md)
 - [Elementu marķējums](11-rasejumi/03-markejums.md)
+- [Rasēšanas kultūra](11-rasejumi/04-kultura.md)
