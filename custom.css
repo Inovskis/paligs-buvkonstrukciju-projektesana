@@ -2,7 +2,7 @@
    Būvkonstrukciju projektēšana. Rokasgrāmata. — custom styles
    ========================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
     --primary-color: #2c5282; /* Deep Blue for engineering trust */
@@ -15,13 +15,13 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
     color: var(--text-main);
     line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     color: var(--heading-color);
     font-weight: 600;
 }
@@ -78,7 +78,7 @@ blockquote {
 blockquote p { margin: 0; }
 
 /* --- Kods: word-wrap lai nepārplūst --- */
-code { font-family: 'Roboto Mono', monospace; font-size: 0.9em; background-color: #edf2f7; padding: 0.2em 0.4em; border-radius: 3px; color: #c53030; }
+code { font-family: 'IBM Plex Mono', monospace; font-size: 0.9em; background-color: #edf2f7; padding: 0.2em 0.4em; border-radius: 3px; color: #c53030; }
 pre code { background-color: transparent; color: inherit; padding: 0; }
 pre { background-color: #1a202c; color: #e2e8f0; padding: 1em; border-radius: 6px; overflow-x: auto; font-size: 0.85em; }
 
