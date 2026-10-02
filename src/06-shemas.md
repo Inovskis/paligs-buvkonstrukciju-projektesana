@@ -71,7 +71,7 @@ Lineārie elementi (sijas, dobumotie paneļi, kopnes) uzņem šķērsslodzes un 
       .beam { stroke: #2c5282; stroke-width: 6; stroke-linecap: round; }
       .support { fill: none; stroke: #4a5568; stroke-width: 2; }
       .ground { stroke: #4a5568; stroke-width: 2; stroke-dasharray: 4,4; }
-      .text { font-family: 'Inter', sans-serif; font-size: 14px; fill: #2d3748; font-weight: bold; }
+      .text { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; fill: #2d3748; font-weight: bold; }
     </style>
 
     <!-- 1. Vienlaiduma sija -->

@@ -60,7 +60,7 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
       .weld { fill: #718096; stroke: #2d3748; stroke-width: 2; }
       .line { stroke: #e53e3e; stroke-width: 2; stroke-dasharray: 4,4; }
       .dim-line { stroke: #2d3748; stroke-width: 1.5; }
-      .text { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: bold; fill: #2d3748; }
+      .text { font-family: 'IBM Plex Sans', sans-serif; font-size: 16px; font-weight: bold; fill: #2d3748; }
     </style>
     <!-- Horizontālā plāksne -->
     <rect x="20" y="180" width="260" height="40" class="plate" />
@@ -101,8 +101,8 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
     <style>
       .line { stroke: #2d3748; stroke-width: 2; fill: none; }
       .arrow { fill: #2d3748; }
-      .text { font-family: 'Inter', sans-serif; font-size: 14px; fill: #4a5568; text-anchor: middle; }
-      .text-bold { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: bold; fill: #2d3748; }
+      .text { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; fill: #4a5568; text-anchor: middle; }
+      .text-bold { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; font-weight: bold; fill: #2d3748; }
     </style>
     
     <!-- Atsauces līnija -->
