@@ -19,11 +19,12 @@ Izpildes klases (Execution Classes, EXC) nosaka kvalitātes kontroles prasības 
 
 ### Izpildes klases (EXC) noteikšanas matrica (LVS EN 1993-1-1 C pielikums):
 
-| Ražošanas klase | Seku klase | <col colspan="2">CC1 | <col colspan="2">CC2 | <col colspan="2">CC3 |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| | **Izmantošanas klase** | **SC1** | **SC2** | **SC1** | **SC2** | **SC1** | **SC2** |
-| **PC1** | (Nemetināti elementi vai tērauds < S355) | EXC1 | EXC2 | EXC2 | EXC3 | EXC3 | EXC3 |
-| **PC2** | (Metināti elementi vai tērauds \\(\ge\\) S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |
+| Ražošanas klase | Izmantošanas klase | Seku klase CC1 | Seku klase CC2 | Seku klase CC3 |
+| :---: | :---: | :---: | :---: | :---: |
+| **PC1**<br>*(Nemetināti elementi vai tērauds < S355)* | **SC1** *(statiska)* | EXC1 | EXC2 | EXC3 |
+| | **SC2** *(dinamiska)* | EXC2 | EXC3 | EXC3 |
+| **PC2**<br>*(Metināti elementi vai tērauds \\(\ge\\) S355)* | **SC1** *(statiska)* | EXC2 | EXC2 | EXC3 |
+| | **SC2** *(dinamiska)* | EXC2 | EXC3 | EXC4 |
 
 ---
 

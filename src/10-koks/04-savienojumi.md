@@ -28,7 +28,7 @@ Zemāk dotās vērtības ir **minimālie** attālumi atkarībā no stiprinājuma
 
 | Attāluma apzīmējums | Minimālā vērtība | Skaidrojums |
 | :--- | :---: | :--- |
-| **Solis \\(a_1\\) (paralēli šķiedrām)** | \\((4 + |\cos\alpha|) \cdot d\\) | Solis vienā rindā paralēli šķiedrām. Ja spēks ir gar šķiedrām (\\(\alpha=0\\)), \\(a_1 \ge 5d\\). |
+| **Solis \\(a_1\\) (paralēli šķiedrām)** | \\((4 + \lvert\cos\alpha\rvert) \cdot d\\) | Solis vienā rindā paralēli šķiedrām. Ja spēks ir gar šķiedrām (\\(\alpha=0\\)), \\(a_1 \ge 5d\\). |
 | **Solis \\(a_2\\) (perpendikulāri šķiedrām)** | \\(4d\\) | Solis starp rindām perpendikulāri šķiedrām. |
 | **Gala attālums \\(a_{3,t}\\) (noslogotam galam)** | \\(\max(7d, 80\text{ mm})\\) | Attālums no noslogotā koka gala līdz skrūvei. Ļoti kritisks parametrs! |
 | **Gala attālums \\(a_{3,c}\\) (nenoslogotam galam)** | \\(4d\\) | Attālums līdz brīvajam (nenoslogotajam) koka galam. |
