@@ -8,7 +8,7 @@ Tērauda būvkonstrukciju savienojumu (mezglu) aprēķini un konstruēšana tiek
 
 Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes un stiepes nestspēja saskaņā ar LVS EN 1993-1-8 Table 3.4:
 
-| Skrūve | Diametrs \\(d\\) (mm) | Urbuma \\(\varnothing\\) \\(d_0\\) (mm)* | Vītnes laukums \\(A_s\\) (mm²) | Kāta laukums \\(A\\) (mm²) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (8.8 klase) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (10.9 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (8.8 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (10.9 klase) |
+| Skrūve | Diametrs \\(d\\) (mm) | Urbuma \\(\phi\\) \\(d_0\\) (mm)* | Vītnes laukums \\(A_s\\) (mm²) | Kāta laukums \\(A\\) (mm²) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (8.8 klase) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (10.9 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (8.8 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (10.9 klase) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **M12** | 12 | 13 | 84,3 | 113 | 32,4 | 33,7 | 48,6 | 60,7 |
 | **M16** | 16 | 18 | 157,0 | 201 | 60,3 | 62,8 | 90,4 | 113,0 |
@@ -177,7 +177,7 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 ### 1. Skrūvju izvietojuma robežattālumi (M16 un M20, klase 8.8)
 
-| Skrūve | Urbuma \\(\varnothing\\) \\(d_0\\) | Minimālais malas attālums \\(e_1, e_2\\) | Minimālais solis \\(p_1\\) (rindā) | Minimālais solis \\(p_2\\) (starp rindām) |
+| Skrūve | Urbuma \\(\phi\\) \\(d_0\\) | Minimālais malas attālums \\(e_1, e_2\\) | Minimālais solis \\(p_1\\) (rindā) | Minimālais solis \\(p_2\\) (starp rindām) |
 | :---: | :---: | :---: | :---: | :---: |
 | **M16** | 18 mm | 22 mm (\\(1,2 d_0\\)) | 40 mm (\\(2,2 d_0\\)) | 44 mm (\\(2,4 d_0\\)) |
 | **M20** | 22 mm | 27 mm (\\(1,2 d_0\\)) | 49 mm (\\(2,2 d_0\\)) | 53 mm (\\(2,4 d_0\\)) |

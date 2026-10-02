@@ -10,7 +10,7 @@ Stiegrojuma izvietojumam un detalizācijai ir jānodrošina konstrukcijas nestsp
 Plātnes brīvajām (nebalstītajām) malām (piemēram, pie konsolēm, kāpņu ailēm vai plātnes perimetra) jābūt stiegrotām ar garenvirziena un šķērsvirziena stiegrām.
 
 - **Konstruktīvais risinājums:** 
-  - Garenvirzienā izvieto vismaz \\(2 \cdot \varnothing 12\\) stieņus (vienu augšā, vienu apakšā);
+  - Garenvirzienā izvieto vismaz \\(2 \cdot \phi 12\\) stieņus (vienu augšā, vienu apakšā);
   - Šķērsvirzienā izmanto U-veida skavas, kuru diametrs un solis parasti atbilst plātnes pamatsietam.
 
 ![Plātnes malas stiegrošana](../images/ch08/img042.png)
@@ -23,7 +23,7 @@ Plātnes brīvajām (nebalstītajām) malām (piemēram, pie konsolēm, kāpņu 
 - **Minimālais stieņu skaits:**
   - Taisnstūra un poligonālām kolonnām katrā stūrī jāizvieto vismaz viens stienis (taisnstūra kolonnām — vismaz 4 stieņi);
   - Apaļām kolonnām minimālais garenstieņu skaits ir **6 stieņi** (nevis 4).
-- **Stieņu diametrs:** Minimālais garenstieņu diametrs ir \\(\varnothing ≥ 8 mm\\) (Latvijas praksē parasti izmanto \\(\varnothing ≥ 12 mm\\)).
+- **Stieņu diametrs:** Minimālais garenstieņu diametrs ir \\(\phi ≥ 8 mm\\) (Latvijas praksē parasti izmanto \\(\phi ≥ 12 mm\\)).
 - **Attālumi:** Spiestajā zonā attālums starp diviem blakus esošiem garenstieņiem nedrīkst pārsniegt **\\(150 mm\\)** no stieņa, kas ir nostiprināts ar aptveri (LVS EN 1992-1-1 9.5.3(6)).
 
 ### Šķērsstiegrojums (Aptveres)
@@ -34,7 +34,7 @@ Plātnes brīvajām (nebalstītajām) malām (piemēram, pie konsolēm, kāpņu 
 ## Sijas
 
 ### Konstruktīvie stiegrošanas noteikumi
-- **Minimālais garenstieņu diametrs:** Sijās nesošajam garenstiegrojumam jāizmanto stieņi ar diametru \\(\varnothing ≥ 12 mm\\).
+- **Minimālais garenstieņu diametrs:** Sijās nesošajam garenstiegrojumam jāizmanto stieņi ar diametru \\(\phi ≥ 12 mm\\).
 - **Attālumi betona iestrādei:** Lai nodrošinātu betona maisījuma brīvu plūsmu un tā sablīvēšanu ar dziļumvibratoru, tīrajam horizontālajam attālumam starp paralēliem stieņiem (it īpaši sijas augšdaļā, kur tiek pa... betons) vēlams būt vismaz **\\(75 mm\\)**.
 - **Sānu plaisu stiegrojums (Skin reinforcement):** Sijām, kuru kopējais augstums \\(h ≥ 1000 mm\\), pie sānu virsmām ir jāparedz garenisks stiegrojums plaisu ierobežošanai. Tā laukumu pieņem vismaz \\(0,1\%\\) no sijas stieptās zonas betona laukuma katrā pusē, un stieņu solis nedrīkst pārsniegt \\(200 mm\\).
 
@@ -76,9 +76,9 @@ Kur:
 - **Maksimālais aptveru solis (\\(s_{max}\\)):**
   Mazākais no šiem lielumiem:
   - \\(0,75 \cdot d\\) (kur \\(d\\) ir darba augstums);
-  - \\(12 \cdot \varnothing_{sp}\\) (kur \\(\varnothing_{sp}\\) ir spiestā stiegrojuma minimālais diametrs);
+  - \\(12 \cdot \phi_{sp}\\) (kur \\(\phi_{sp}\\) ir spiestā stiegrojuma minimālais diametrs);
   - \\(300 mm\\).
-- **Minimālais aptveru diametrs:** Sijās šķērsstiegrojumam jāizmanto stieņi ar diametru \\(\varnothing ≥ 8 mm\\).
+- **Minimālais aptveru diametrs:** Sijās šķērsstiegrojumam jāizmanto stieņi ar diametru \\(\phi ≥ 8 mm\\).
 
 ---
 
@@ -89,7 +89,7 @@ Stiegrojuma enkurošanas garumam un pārlaidumiem ir jānodrošina pilnīga spē
 ### Pamata enkurošanas garums (\\(l_{b,rqd}\\))
 
 Vajadzīgais pamata enkurošanas garums, lai uzņemtu pilnu stieņa aprēķina spriegumu \\(\sigma_{sd}\\), tiek noteikts kā:
-\\[l_{b,rqd} = \left( \frac{\varnothing}{4} \right) \cdot \frac{\sigma_{sd}}{f_{bd}}\\]
+\\[l_{b,rqd} = \left( \frac{\phi}{4} \right) \cdot \frac{\sigma_{sd}}{f_{bd}}\\]
 kur \\(f_{bd}\\) ir aprēķina saistes stiprība starp betonu un stiegrojumu, kas atkarīga no betona klases, stieņa diametra un saistes apstākļiem (labi vai slikti).
 
 ### Aprēķina enkurošanas garums (\\(l_{bd}\\))
@@ -97,10 +97,10 @@ kur \\(f_{bd}\\) ir aprēķina saistes stiprība starp betonu un stiegrojumu, ka
 Faktisko aprēķina enkurošanas garumu nosaka, reizinot pamata garumu ar koeficientiem:
 \\[l_{bd} = \alpha_1 \cdot \alpha_2 \cdot \alpha_3 \cdot \alpha_4 \cdot \alpha_5 \cdot l_{b,rqd} ≥ l_{b,min}\\]
 kur koeficienti \\(\alpha_i\\) ņem vērā stieņa gala formu (taisns, āķis, cilpa), betona aizsargkārtu, šķērsstiegrojuma ietekmi u.c.
-- **\\(l_{b,min}\\)** stieptiem stieņiem nedrīkst būt mazāks par lielāko no: \\(0,3 l_{b,rqd}\\), \\(10\varnothing\\) vai \\(100 mm\\).
+- **\\(l_{b,min}\\)** stieptiem stieņiem nedrīkst būt mazāks par lielāko no: \\(0,3 l_{b,rqd}\\), \\(10\phi\\) vai \\(100 mm\\).
 
 > **Piezīme praktiskai projektēšanai:**
-> Lielākajā daļā standarta gadījumu (B500B stiegrojums, C30/37 betons, labi saistes apstākļi, bez papildu šķērsstiegrojuma efektiem), taisnam stienim aprēķina enkurošanas garums stieptajā zonā ir aptuveni **\\(35\varnothing ... 40\varnothing\\)**.
+> Lielākajā daļā standarta gadījumu (B500B stiegrojums, C30/37 betons, labi saistes apstākļi, bez papildu šķērsstiegrojuma efektiem), taisnam stienim aprēķina enkurošanas garums stieptajā zonā ir aptuveni **\\(35\phi ... 40\phi\\)**.
 
 ### Pārlaiduma garums (\\(l_0\\))
 

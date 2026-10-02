@@ -79,7 +79,7 @@ Kur:
 
 ### Vienkāršota šķērsspēka pārbaude bez aksiālā spēka (\\(N_{Ed} = 0\\))
 
-Ja aksiālais spēks ir nul≤, minimālo šķērsspēka nestspējas robežvērtību aprēķina kā:
+Ja aksiālais spēks ir nulle, minimālo šķērsspēka nestspējas robežvērtību aprēķina kā:
 
 \\[V_{Rd,c} = v_{min} \cdot b_w \cdot d\\]
 

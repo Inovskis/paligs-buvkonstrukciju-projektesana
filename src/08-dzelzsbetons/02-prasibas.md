@@ -22,7 +22,7 @@ Nestspējas robežstāvokļa (ULS) pārbaudēm izmanto šādus materiālu parci�
 
 Stiegrošanā jānodrošina pietiekams stieņu enkurojuma garums \\(l_{bd}\\) un pārlaiduma garums \\(l_0\\), lai spēki starp stieņiem un betonu tiktu nodoti bez sānslīdes.
 
-**Enkurojuma un pārlaidumu garumi \\(\varnothing 8\\) līdz \\(\varnothing 32\\) stieņiem C25/30 klases betonam:**
+**Enkurojuma un pārlaidumu garumi \\(\phi 8\\) līdz \\(\phi 32\\) stieņiem C25/30 klases betonam:**
 
 ![Enkurojuma garumi](../images/ch08/img037.png)
 
@@ -38,14 +38,14 @@ Stiegrošanā jānodrošina pietiekams stieņu enkurojuma garums \\(l_{bd}\\) un
 
 ### 1. Minimālais attālums starp stiegrām (LVS EN 1992-1-1 8.2. punkts)
 Tīrais attālums (horizontālais un vertikālais) starp atsevišķām paralēlām stiegrām vai paralēlu stiegru kārtām nedrīkst būt mazāks par lielāko no šiem trim lielumiem:
-- \\(k_1 \cdot \varnothing\\) (stiegrojuma stieņa diametrs);
+- \\(k_1 \cdot \phi\\) (stiegrojuma stieņa diametrs);
 - \\(d_g + k_2 mm\\) (pildvielas maksimālais izmērs);
 - \\(20 mm\\).
 
-*Latvijas nacionālajā pielikumā noteiktās vērtības ir \\(k_1 = 1\\) un \\(k_2 = 5 mm\\). Tas nozīmē, ka pie maksimālās pildvielas frakcijas \\(16 mm\\) minimālais tīrais attālums ir \\(21 mm\\) vai stieņa diametrs \\(\varnothing\\).*
+*Latvijas nacionālajā pielikumā noteiktās vērtības ir \\(k_1 = 1\\) un \\(k_2 = 5 mm\\). Tas nozīmē, ka pie maksimālās pildvielas frakcijas \\(16 mm\\) minimālais tīrais attālums ir \\(21 mm\\) vai stieņa diametrs \\(\phi\\).*
 
 ### 2. Minimālais attālums starp priekšspriegotā stiegrojuma elementiem (LVS EN 1992-1-1 8.10.1.2. punkts)
-Minimālajiem tīrajiem horizontālajiem un vertikālajiem attālumiem starp priekšspriegotā stiegrojuma elementiem (trosēm, kanāliem) jāatbilst attēla shēmai, kur \\(\varnothing\\) ir elementa diametrs un \\(d_g\\) ir maksimālais pildvielas izmērs.
+Minimālajiem tīrajiem horizontālajiem un vertikālajiem attālumiem starp priekšspriegotā stiegrojuma elementiem (trosēm, kanāliem) jāatbilst attēla shēmai, kur \\(\phi\\) ir elementa diametrs un \\(d_g\\) ir maksimālais pildvielas izmērs.
 
 ![Attālumi starp trosēm](../images/ch08/img038.png)
 
@@ -54,11 +54,11 @@ Minimālajiem tīrajiem horizontālajiem un vertikālajiem attālumiem starp pri
 ## Maksimālais attālums starp stiegrām (aptveru solis)
 
 Maksimālais attālums starp kolonnu šķērsstiegrojuma stiegrām (aptveru solis) \\(s_{cl,tmax}\\) nedrīkst pārsniegt mazāko no šādiem lielumiem:
-- \\(20 \cdot \varnothing_{min}\\) (kur \\(\varnothing_{min}\\) ir garenstiegrojuma minimālais diametrs);
+- \\(20 \cdot \phi_{min}\\) (kur \\(\phi_{min}\\) ir garenstiegrojuma minimālais diametrs);
 - kolonnas mazākais šķērsgriezuma izmērs (platums vai augstums);
 - \\(400 mm\\).
 
-*Piezīme: Šķērsstiegrojuma solis jāsamazina par koeficientu \\(0,6\\) (t.i., \\(0,6 \cdot s_{cl,tmax}\\)) zonās virs un zem sijām viena stāva augstumā, kā arī stieņu pārlaidumu zonās, ja garenstieņu diametrs \\(\varnothing > 14 mm\\).*
+*Piezīme: Šķērsstiegrojuma solis jāsamazina par koeficientu \\(0,6\\) (t.i., \\(0,6 \cdot s_{cl,tmax}\\)) zonās virs un zem sijām viena stāva augstumā, kā arī stieņu pārlaidumu zonās, ja garenstieņu diametrs \\(\phi > 14 mm\\).*
 
 ---
 

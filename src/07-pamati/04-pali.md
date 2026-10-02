@@ -46,7 +46,7 @@ Urbto pāļu garenstiegrojumam jānodrošina minimālais laukums \\(A_s\\) atkar
 | \\(A_c > 1,0\text{ m}^2\\) | \\(A_s \ge 0,0025 \cdot A_c\\) |
 
 - **Konstruēšana:** Ja stiegrojuma karkass tiek montēts (vibrēts) pēc betona iepildīšanas urbumā, karkasa elementiem jābūt stingri sametinātiem. Karkasa apakšējo galu ieteicams veidot konisku, lai atvieglotu tā iegremdēšanu betonā.
-- **Minimālais stieņu skaits:** Vismaz 4 garenstieņi, ieteicamais minimālais diametrs \\(\varnothing \ge 12\text{ mm}\\).
+- **Minimālais stieņu skaits:** Vismaz 4 garenstieņi, ieteicamais minimālais diametrs \\(\phi \ge 12\text{ mm}\\).
 
 ---
 
