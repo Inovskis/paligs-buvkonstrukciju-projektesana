@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500" width="100%" height="100%" style="background-color: #ffffff; font-family: Arial, sans-serif;">
   <!-- Title / Border Header -->
-  <rect x="10" y="10" width="830" height="480" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <rect x="10" y="10" width="830" height="480" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="8.4"/>
   <text x="30" y="40" font-size="18" font-weight="bold" fill="#0f172a">PAGAIDU BALSTĪŠANA UN TĒRAUDA VEKSEĻI (AIĻU MEZGLI)</text>
 
   <!-- 3D Axonometric / Isometric View of Opening with Trimmer Beam -->
   <g transform="translate(60, 70)">
     <!-- Full Slab Left -->
-    <polygon points="40,80 240,40 240,300 40,340" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+    <polygon points="40.80 240.40 240.300 40.340" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
     <text x="100" y="180" font-size="13" font-weight="bold" fill="#334155">Pilna plātne</text>
 
     <!-- Full Slab Right -->
-    <polygon points="500,40 700,80 700,340 500,300" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+    <polygon points="500.40 700.80 700.340 500.300" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
     <text x="560" y="180" font-size="13" font-weight="bold" fill="#334155">Pilna plātne</text>
 
     <!-- Opening (Aile) in Middle -->
-    <polygon points="240,40 500,40 500,160 240,160" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <polygon points="240.40 500.40 500.160 240.160" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4.4"/>
     <text x="330" y="100" font-size="16" font-weight="bold" fill="#94a3b8">Kāpņu / šahtas aile</text>
 
     <!-- Shortened Slab (Saīsinātā plātne) -->
-    <polygon points="240,160 500,160 500,300 240,300" fill="#cbd5e1" stroke="#1e293b" stroke-width="2"/>
+    <polygon points="240.160 500.160 500.300 240.300" fill="#cbd5e1" stroke="#1e293b" stroke-width="2"/>
     <text x="310" y="240" font-size="13" font-weight="bold" fill="#0f172a">Saīsinātā HCS plātne</text>
 
     <!-- Steel Trimmer Beam (Tērauda vekselis) -->
