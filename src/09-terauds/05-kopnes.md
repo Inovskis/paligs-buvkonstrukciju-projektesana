@@ -58,4 +58,4 @@ Lai kopnes būtu ekonomiskas un viegli izgatavojamas:
 
 **Biežāk izmantotie metinātie kvadrātcauruļu savienojumu veidi:**
 
-![Savienojumi](../images/ch09/img096.png)
+![Biežāk izmantotie metinātie kvadrātcauruļu savienojumu veidi](../images/ch09/img096.svg)
