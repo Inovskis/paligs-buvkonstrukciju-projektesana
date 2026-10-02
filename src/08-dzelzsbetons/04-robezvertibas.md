@@ -24,10 +24,10 @@ Kur \\(L\\) ir sijas vai plātnes laidums (konsolēm robežvērtību pieņem kā
 
 Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un būves ilgmūžības nodrošināšanai.
 
- | Vides iedarbības klase | Dzelzsbetona elementi un priekšspriegoti elementi bez saistes w_{max} (mm) | Priekšspriegoti elementi ar saisti w_{max} (mm) | 
+ | Vides iedarbības klase | Dzelzsbetona elementi un priekšspriegoti elementi bez saistes \\(w_{max}\\) (mm) | Priekšspriegoti elementi ar saisti \\(w_{max}\\) (mm) | 
  | :--- | :---: | :---: | 
- | X0, XC1 | 0.4^1 | 0.2 | 
- | XC2, XC3, XC4 | 0.3 | 0.2^2 | 
+ | X0, XC1 | 0.4<sup>1</sup> | 0.2 | 
+ | XC2, XC3, XC4 | 0.3 | 0.2<sup>2</sup> | 
  | XD1, XD2, XD3, XS1, XS2, XS3 | 0.3 | Dekompresija (pārbauda atsevišķi) | 
 
 > **Piezīmes par tabulu:**

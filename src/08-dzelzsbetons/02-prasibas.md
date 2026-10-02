@@ -8,7 +8,7 @@ Dzelzsbetona elementu dimensionēšanā jāņem vērā materiālu drošuma fakto
 
 Nestspējas robežstāvokļa (ULS) pārbaudēm izmanto šādus materiālu parciālos koeficientus:
 
- | Projektā ievērtējamās situācijas | gamma_c (betonam) | gamma_s (stiegrojumam) | gamma_{s,sp} (spriegotajam stiegrojumam) | 
+ | Projektā ievērtējamās situācijas | \\(\\gamma_c\\) (betonam) | \\(\\gamma_s\\) (stiegrojumam) | \\(\\gamma_{s,sp}\\) (spriegotajam stiegrojumam) | 
  | :--- | :---: | :---: | :---: | 
  | Ilgstošas un īslaicīgas | 1.50 | 1.15 | 1.15 | 
  | Ārkārtējas (avārijas, ugunsgrēka) | 1.20 | 1.00 | 1.00 | 
