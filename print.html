@@ -1963,11 +1963,13 @@ Novirze ir stingri noteikta: \(\Delta c_{dev} = 10 mm\).</li>
 </li>
 </ul>
 <h3 id="izpildes-klases-exc-noteikšanas-matrica-lvs-en-1993-1-1-c-pielikums"><a class="header" href="#izpildes-klases-exc-noteikšanas-matrica-lvs-en-1993-1-1-c-pielikums">Izpildes klases (EXC) noteikšanas matrica (LVS EN 1993-1-1 C pielikums):</a></h3>
-<p>| Ražošanas klase | Seku klase | <col colspan="2">CC1 | <col colspan="2">CC2 | <col colspan="2">CC3 |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| | <strong>Izmantošanas klase</strong> | <strong>SC1</strong> | <strong>SC2</strong> | <strong>SC1</strong> | <strong>SC2</strong> | <strong>SC1</strong> | <strong>SC2</strong> |
-| <strong>PC1</strong> | (Nemetināti elementi vai tērauds &lt; S355) | EXC1 | EXC2 | EXC2 | EXC3 | EXC3 | EXC3 |
-| <strong>PC2</strong> | (Metināti elementi vai tērauds \(\ge\) S355) | EXC2 | EXC2 | EXC2 | EXC3 | EXC3 | EXC4 |</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Ražošanas klase</th><th style="text-align: center">Izmantošanas klase</th><th style="text-align: center">Seku klase CC1</th><th style="text-align: center">Seku klase CC2</th><th style="text-align: center">Seku klase CC3</th></tr></thead><tbody>
+<tr><td style="text-align: center"><strong>PC1</strong><br><em>(Nemetināti elementi vai tērauds &lt; S355)</em></td><td style="text-align: center"><strong>SC1</strong> <em>(statiska)</em></td><td style="text-align: center">EXC1</td><td style="text-align: center">EXC2</td><td style="text-align: center">EXC3</td></tr>
+<tr><td style="text-align: center"></td><td style="text-align: center"><strong>SC2</strong> <em>(dinamiska)</em></td><td style="text-align: center">EXC2</td><td style="text-align: center">EXC3</td><td style="text-align: center">EXC3</td></tr>
+<tr><td style="text-align: center"><strong>PC2</strong><br><em>(Metināti elementi vai tērauds \(\ge\) S355)</em></td><td style="text-align: center"><strong>SC1</strong> <em>(statiska)</em></td><td style="text-align: center">EXC2</td><td style="text-align: center">EXC2</td><td style="text-align: center">EXC3</td></tr>
+<tr><td style="text-align: center"></td><td style="text-align: center"><strong>SC2</strong> <em>(dinamiska)</em></td><td style="text-align: center">EXC2</td><td style="text-align: center">EXC3</td><td style="text-align: center">EXC4</td></tr>
+</tbody></table>
+</div>
 <hr />
 <h2 id="ekspluatācijas-un-izgatavošanas-kategorijas"><a class="header" href="#ekspluatācijas-un-izgatavošanas-kategorijas">Ekspluatācijas un izgatavošanas kategorijas</a></h2>
 <h3 id="1-ekspluatācijas-izmantošanas-kategorijas-service-categories"><a class="header" href="#1-ekspluatācijas-izmantošanas-kategorijas-service-categories">1. Ekspluatācijas (izmantošanas) kategorijas (Service Categories)</a></h3>
@@ -2751,7 +2753,7 @@ Koka savienojumiem \(\gamma_M = 1.30\). Ja savienoti divi dažādi koka materiā
 <p>Lai novērstu koksnes trauslo šķelšanos (splitting) gar šķiedrām, bultskrūvēm un dībeļiem ir jāievēro stingri ģeometriskie attālumi.
 Zemāk dotās vērtības ir <strong>minimālie</strong> attālumi atkarībā no stiprinājuma diametra \(d\) un leņķa \(\alpha\) (leņķis starp slodzes spēku un koksnes šķiedru virzienu).</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: left">Attāluma apzīmējums</th><th style="text-align: center">Minimālā vērtība</th><th style="text-align: left">Skaidrojums</th></tr></thead><tbody>
-<tr><td style="text-align: left"><strong>Solis \(a_1\) (paralēli šķiedrām)</strong></td><td style="text-align: center">\((4 +</td><td style="text-align: left">\cos\alpha</td></tr>
+<tr><td style="text-align: left"><strong>Solis \(a_1\) (paralēli šķiedrām)</strong></td><td style="text-align: center">\((4 + \lvert\cos\alpha\rvert) \cdot d\)</td><td style="text-align: left">Solis vienā rindā paralēli šķiedrām. Ja spēks ir gar šķiedrām (\(\alpha=0\)), \(a_1 \ge 5d\).</td></tr>
 <tr><td style="text-align: left"><strong>Solis \(a_2\) (perpendikulāri šķiedrām)</strong></td><td style="text-align: center">\(4d\)</td><td style="text-align: left">Solis starp rindām perpendikulāri šķiedrām.</td></tr>
 <tr><td style="text-align: left"><strong>Gala attālums \(a_{3,t}\) (noslogotam galam)</strong></td><td style="text-align: center">\(\max(7d, 80\text{ mm})\)</td><td style="text-align: left">Attālums no noslogotā koka gala līdz skrūvei. Ļoti kritisks parametrs!</td></tr>
 <tr><td style="text-align: left"><strong>Gala attālums \(a_{3,c}\) (nenoslogotam galam)</strong></td><td style="text-align: center">\(4d\)</td><td style="text-align: left">Attālums līdz brīvajam (nenoslogotajam) koka galam.</td></tr>
