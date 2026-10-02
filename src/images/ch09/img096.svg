@@ -1,13 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 373" width="100%" height="100%" style="background-color:#ffffff; font-family:'IBM Plex Sans',sans-serif;">
   <rect x="0" y="0" width="724" height="373" fill="#FFFFFF"/>
-  <polygon points="12,36 70,93 14,91 14,123 191,123 191,91 137,93 195,36 163,36 108,94 44,36" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="215,36 273,93 217,91 217,123 371,123 371,92 316,93 375,36 343,36 295,87 247,36" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="562,36 530,36 475,94 473,37 441,37 444,93 398,91 397,123 558,123 558,91 504,93" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="707,107 704,92 657,93 659,37 642,34 627,37 630,93 580,91 577,108 580,123 704,123" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="12,214 69,271 13,270 13,302 203,302 203,270 149,271 207,214 175,214 120,272 119,215 100,215 98,272 43,214" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="401,214 369,214 315,272 230,270 230,302 284,300 226,357 257,358 313,299 397,302 398,270 344,271" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="707,214 675,214 621,272 562,270 562,302 703,302 703,270 649,271" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
-  <polygon points="481,213 466,216 469,272 419,270 416,287 419,302 469,301 466,357 483,360 498,357 496,301 543,302 546,285 543,270 496,272 498,216" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="14,91 191,91 191,123 14,123" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="12,36 44,36 108,94 70,93" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="163,36 195,36 137,93 108,94" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="217,91 371,91 371,123 217,123" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="215,36 247,36 295,87 273,93" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="343,36 375,36 316,93 295,87" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="397,91 558,91 558,123 397,123" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="441,37 473,37 475,94 444,93" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="530,36 562,36 504,93 474,93" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="580,91 704,91 704,123 580,123" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="627,37 659,37 657,93 630,93" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="13,270 203,270 203,302 13,302" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="12,214 43,214 98,272 69,271" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="100,215 119,215 120,272 98,272" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="175,214 207,214 149,271 120,272" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="230,270 398,270 398,302 230,302" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="369,214 401,214 257,358 226,357" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="419,270 543,270 543,302 419,302" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="466,216 498,216 498,357 466,357" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="562,270 703,270 703,302 562,302" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
+  <polygon points="675,214 707,214 649,271 621,272" fill="#FFFFFF" stroke="#1A1C1E" stroke-width="1.4" stroke-linejoin="round"/>
   <text x="106" y="24" font-family="IBM Plex Sans, sans-serif" font-size="11" text-anchor="middle" fill="#1A1C1E">atstarpe</text>
   <text x="295" y="24" font-family="IBM Plex Sans, sans-serif" font-size="11" text-anchor="middle" fill="#1A1C1E">pārklāšanās</text>
   <text x="480" y="24" font-family="IBM Plex Sans, sans-serif" font-size="10" text-anchor="middle" fill="#1A1C1E">atstarpe (attēlota) vai pārklāšanās</text>
