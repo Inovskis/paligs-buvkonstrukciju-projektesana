@@ -91,13 +91,13 @@ Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabar�
 <thead>
 <tr>
   <th>Autotransporta veids</th>
-  <th>Augstums bez atļaujas (mm)</th>
-  <th>Platums bez atļaujas (mm)</th>
-  <th>Garums bez atļaujas (mm)</th>
+  <th>H bez atļaujas (mm)</th>
+  <th>B bez atļaujas (mm)</th>
+  <th>L bez atļaujas (mm)</th>
   <th>Svars bez atļaujas (t)</th>
-  <th>Augstums ar atļauju (mm)</th>
-  <th>Platums ar atļauju (mm)</th>
-  <th>Garums ar atļauju (mm)</th>
+  <th>H ar atļauju (mm)</th>
+  <th>B ar atļauju (mm)</th>
+  <th>L ar atļauju (mm)</th>
 </tr>
 </thead>
 <tbody>
