@@ -2,7 +2,7 @@
    Būvkonstrukciju projektēšana. Rokasgrāmata. — custom styles
    ========================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
     --content-max-width: 1100px; /* Plašāks satura apgabals plašajām tabulām */
@@ -55,7 +55,7 @@ h2 {
 
 /* --- Tabulas: pilns platums, bez horizontālās ritjoslas --- */
 .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1.5em 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 4px; }
-table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 0.85em; margin: 0; }
+table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 0.85em; margin: 0; font-family: 'IBM Plex Sans Condensed', 'IBM Plex Sans', sans-serif; }
 th { font-weight: 600; text-align: left; padding: 8px 10px; background-color: var(--table-header-bg); border-bottom: 2px solid var(--table-border-color); border-top: none; color: var(--heading-color); white-space: nowrap; }
 td { padding: 8px 10px; vertical-align: top; border-bottom: 1px solid var(--border-color); }
 tr:last-child td { border-bottom: none; }
