@@ -85,11 +85,56 @@ Kur:
 
 Saliekamo dzelzsbetona elementu dizainā ir jāņem vērā autotransporta gabarītu ierobežojumi Latvijas teritorijā:
 
- | Autotransporta veids | Augstums bez atļaujas (mm) | Platums bez atļaujas (mm) | Garums bez atļaujas (mm) | Svars bez atļaujas (t) | Augstums ar atļauju (mm) | Platums ar atļauju (mm) | Garums ar atļauju (mm) | 
- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
- | Standarta platforma / tents | 2600 | 2450 | 13500 | 24 | 3100 | 2750 | 18000 | 
- | Zemas grīdas treileris (JUMBO) | 3000 | 2450 | 9000 | 24 | 3300 | 2750 | 9000 | 
- | Zemās grīdas treileris (Titāniks) | 3800 | 1500 | 9500 | 22 | 4200 | 1500 | 9500 | 
+<div class="table-wrapper">
+
+<table>
+<thead>
+<tr>
+  <th>Autotransporta veids</th>
+  <th>Augstums bez atļaujas (mm)</th>
+  <th>Platums bez atļaujas (mm)</th>
+  <th>Garums bez atļaujas (mm)</th>
+  <th>Svars bez atļaujas (t)</th>
+  <th>Augstums ar atļauju (mm)</th>
+  <th>Platums ar atļauju (mm)</th>
+  <th>Garums ar atļauju (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Standarta platforma / tents</td>
+  <td>2600</td>
+  <td>2450</td>
+  <td>13500</td>
+  <td>24</td>
+  <td>3100</td>
+  <td>2750</td>
+  <td>18000</td>
+</tr>
+<tr>
+  <td>Zemas grīdas treileris (JUMBO)</td>
+  <td>3000</td>
+  <td>2450</td>
+  <td>9000</td>
+  <td>24</td>
+  <td>3300</td>
+  <td>2750</td>
+  <td>9000</td>
+</tr>
+<tr>
+  <td>Zemās grīdas treileris (Titāniks)</td>
+  <td>3800</td>
+  <td>1500</td>
+  <td>9500</td>
+  <td>22</td>
+  <td>4200</td>
+  <td>1500</td>
+  <td>9500</td>
+</tr>
+</tbody>
+</table>
+
+</div>
 
 ---
 
