@@ -26,9 +26,9 @@ Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un 
 
  | Vides iedarbības klase | Dzelzsbetona elementi un priekšspriegoti elementi bez saistes w_{max} (mm) | Priekšspriegoti elementi ar saisti w_{max} (mm) | 
  | :--- | :---: | :---: | 
- | X0, XC1 | 0,4^1 | 0,2 | 
- | XC2, XC3, XC4 | 0,3 | 0,2^2 | 
- | XD1, XD2, XD3, XS1, XS2, XS3 | 0,3 | Dekompresija (pārbauda atsevišķi) | 
+ | X0, XC1 | 0.4^1 | 0.2 | 
+ | XC2, XC3, XC4 | 0.3 | 0.2^2 | 
+ | XD1, XD2, XD3, XS1, XS2, XS3 | 0.3 | Dekompresija (pārbauda atsevišķi) | 
 
 > **Piezīmes par tabulu:**
 > 1. Klasēm X0 un XC1 plaisu platumam nav ietekmes uz ilgizturību, šī robežvērtība ir noteikta tikai vizuālā izskata nodrošināšanai. Ja nav prasību pret vizuālo izskatu, šīs prasības var atvieglot.
@@ -41,12 +41,12 @@ Plaisu platuma ierobežošana ir būtiska stiegrojuma korozijas novēršanai un 
 ## Galvenie Latvijā nacionāli noteiktie parametri (NA)
 
 ### 1. Betona stiprības ilglaicīgo efektu koeficients \\(\alpha_{cc}\\) (LVS EN 1992-1-1 3.1.6.(1)P)
-Saskaņā ar LVS EN 1992-1-1:2005/A2:2020/NA:2020 grozījumiem, koeficienta \\(\alpha_{cc}\\) vērtība ir mainīta no iepriekšējā \\(0,85\\) uz **\\(1,00\\)**. 
+Saskaņā ar LVS EN 1992-1-1:2005/A2:2020/NA:2020 grozījumiem, koeficienta \\(\alpha_{cc}\\) vērtība ir mainīta no iepriekšējā \\(0.85\\) uz **\\(1.00\\)**. 
 
 Betona aprēķina spiedes stiprība \\(f_{cd}\\) tagad tiek noteikta kā:
-\\[f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1,00 \cdot \frac{f_{ck}}{1,5}\\]
+\\[f_{cd} = \alpha_{cc} \cdot \frac{f_{ck}}{\gamma_c} = 1.00 \cdot \frac{f_{ck}}{1.5}\\]
 
-Stiepes stiprības aprēķina koeficients ir saglabāts \\(\alpha_{ct} = 1,00\\).
+Stiepes stiprības aprēķina koeficients ir saglabāts \\(\alpha_{ct} = 1.00\\).
 
 ### 2. Aizsargslāņa pielaide būvdarbu novirzei \\(\Delta c_{dev}\\) (LVS EN 1992-1-1 4.4.1.3.(1)P)
 Nominālo stiegrojuma aizsargslāni \\(c_{nom}\\) nosaka, pieskaitot novirzi \\(\Delta c_{dev}\\) pie minimālā aizsargslāņa \\(c_{min}\\):

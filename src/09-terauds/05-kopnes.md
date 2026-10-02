@@ -28,7 +28,7 @@ Lai nodrošinātu kvalitatīvu metināto šuvju izveidi un vienmērīgu spriegum
 Ekscentricitāte \\(e\\) ir vertikālais attālums no režģa elementu asu krustpunkta līdz joslas asij. 
 
 Saskaņā ar standartu, ieteicamās ekscentricitātes robežas ir:
-\\[-0,55 \cdot h_0 \le e \le 0,25 \cdot h_0\\]
+\\[-0.55 \cdot h_0 \le e \le 0.25 \cdot h_0\\]
 kur \\(h_0\\) ir joslas šķērsgriezuma augstums.
 
 - **Pozitīva ekscentricitāte (\\(e > 0\\)):** Asu krustpunkts ir nobīdīts uz kopnes ārpusi.
@@ -51,10 +51,10 @@ kur \\(h_0\\) ir joslas šķērsgriezuma augstums.
 ## Režģa elementu izvēle un aprēķina garumi
 
 Lai kopnes būtu ekonomiskas un viegli izgatavojamas:
-- **Šķērsgriezumu proporcijas:** Režģa elementus (atgāžņus un statņus) ieteicams izvēlēties ar lielāku ārējo izmēru un plānāku sieniņu. Vēlams, lai režģa elementu platums būtu robežās no **\\(0,70\\) līdz \\(0,80\\)** no joslas platuma, kas vienkāršo metināšanas šuvju izveidi sānmalās.
+- **Šķērsgriezumu proporcijas:** Režģa elementus (atgāžņus un statņus) ieteicams izvēlēties ar lielāku ārējo izmēru un plānāku sieniņu. Vēlams, lai režģa elementu platums būtu robežās no **\\(0.70\\) līdz \\(0.80\\)** no joslas platuma, kas vienkāršo metināšanas šuvju izveidi sānmalās.
 - **Aprēķina garumi (\\(L_{\text{cr}}\\)) klupšanai:**
-  Konservatīvā aprēķinā režģa stieņu aprēķina garumu pieņem vienādu ar to ģeometrisko garumu starp mezglu centriem (\\(L_{\text{cr}} = 1,0 \cdot L\\)). 
-  Tomēr, ja režģa stieņi ir pa visu perimetru piemetināti pie stingrām joslām, aprēķina garumu drīkst samazināt, reizinot ar koeficientu **\\(0,75\\)** (t.i., \\(L_{\text{cr}} = 0,75 \cdot L\\)).
+  Konservatīvā aprēķinā režģa stieņu aprēķina garumu pieņem vienādu ar to ģeometrisko garumu starp mezglu centriem (\\(L_{\text{cr}} = 1.0 \cdot L\\)). 
+  Tomēr, ja režģa stieņi ir pa visu perimetru piemetināti pie stingrām joslām, aprēķina garumu drīkst samazināt, reizinot ar koeficientu **\\(0.75\\)** (t.i., \\(L_{\text{cr}} = 0.75 \cdot L\\)).
 
 **Biežāk izmantotie metinātie kvadrātcauruļu savienojumu veidi:**
 

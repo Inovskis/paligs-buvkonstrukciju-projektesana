@@ -17,7 +17,7 @@ Viena griezuma (single shear) koks-koks vai koks-plātne savienojuma raksturīg�
 ### Aprēķina pretestība (\\(F_{v,Rd}\\))
 Aprēķina nestspēju iegūst, reizinot raksturīgo vērtību ar modifikācijas koeficientu un dalot ar materiāla drošuma koeficientu \\(\gamma_M\\):
 \\[F_{v,Rd} = F_{v,Rk} \cdot \frac{k_{\text{mod}}}{\gamma_M}\\]
-Koka savienojumiem \\(\gamma_M = 1,30\\). Ja savienoti divi dažādi koka materiāli ar atšķirīgu \\(k_{\text{mod}}\\), aprēķinā izmanto mazāko \\(k_{\text{mod}}\\) vērtību, bet izmanto koksnes \\(\gamma_M = 1,30\\). Ja aprēķina tērauda elementu (piemēram, bultskrūves stiepi), tad pielieto tērauda \\(\gamma_{M2} = 1,25\\).
+Koka savienojumiem \\(\gamma_M = 1.30\\). Ja savienoti divi dažādi koka materiāli ar atšķirīgu \\(k_{\text{mod}}\\), aprēķinā izmanto mazāko \\(k_{\text{mod}}\\) vērtību, bet izmanto koksnes \\(\gamma_M = 1.30\\). Ja aprēķina tērauda elementu (piemēram, bultskrūves stiepi), tad pielieto tērauda \\(\gamma_{M2} = 1.25\\).
 
 ---
 
@@ -42,5 +42,5 @@ Zemāk dotās vērtības ir **minimālie** attālumi atkarībā no stiprinājuma
 
 ## Tērauda - koka savienojumi (Lokšņu / leņķu stiprināšana)
 Ja tiek izmantotas tērauda detaļas (piemēram, biezās plāksnes dībeļu mezglos vai leņķi):
-- Plāna tērauda plāksne (\\(t \le 0,5d\\)): Plāksnē neveidojas iespīlējums, aprēķina modelī rotācija netiek ierobežota.
-- Bieza tērauda plāksne (\\(t \ge d\\) vai precīzāk \\(t \ge d\\) un urbuma pielaide ir \\(<0,1d\\)): Stiprinājums tērauda plāksnē tiek uzskatīts par iespīlētu (momentizturīgu šajā punktā). Tas ievērojami palielina mezgla pretestību, jo maina plastiskā šarnīra veidošanās modeli.
+- Plāna tērauda plāksne (\\(t \le 0.5d\\)): Plāksnē neveidojas iespīlējums, aprēķina modelī rotācija netiek ierobežota.
+- Bieza tērauda plāksne (\\(t \ge d\\) vai precīzāk \\(t \ge d\\) un urbuma pielaide ir \\(<0.1d\\)): Stiprinājums tērauda plāksnē tiek uzskatīts par iespīlētu (momentizturīgu šajā punktā). Tas ievērojami palielina mezgla pretestību, jo maina plastiskā šarnīra veidošanās modeli.

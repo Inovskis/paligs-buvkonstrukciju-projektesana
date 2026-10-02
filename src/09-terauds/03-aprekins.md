@@ -13,18 +13,18 @@ Aprēķinot elementu un savienojumu pretestību nestspējas robežstāvoklī (UL
 | Elementi / Pārbaudes | Pretestības raksturojums | Drošības koeficients \\(\gamma_M\\) |
 | :--- | :--- | :---: |
 | Elementu un šķērsgriezumu pretestība: | | |
-| — Šķērsgriezuma nestspēja (visām klasēm) | Pretestība šķērsgriezuma plastiskai plūstamībai, ieskaitot sāniskās vērpes klupšanu | \\(\gamma_{M0} = 1,00\\) |
-| — Elementu stabilitāte (noturības pārbaudes) | Stieņu pretestība izlieces un vērpes klupšanai stieņu pārbaudēs | **\\(\gamma_{M1} = 1,00\\)** * |
-| — Stieptu šķērsgriezumu sabrukums | Pretestība trauslam sabrukumam stieptos šķēlumos pie skrūvju caurumiem | \\(\gamma_{M2} = 1,25\\) |
+| — Šķērsgriezuma nestspēja (visām klasēm) | Pretestība šķērsgriezuma plastiskai plūstamībai, ieskaitot sāniskās vērpes klupšanu | \\(\gamma_{M0} = 1.00\\) |
+| — Elementu stabilitāte (noturības pārbaudes) | Stieņu pretestība izlieces un vērpes klupšanai stieņu pārbaudēs | **\\(\gamma_{M1} = 1.00\\)** * |
+| — Stieptu šķērsgriezumu sabrukums | Pretestība trauslam sabrukumam stieptos šķēlumos pie skrūvju caurumiem | \\(\gamma_{M2} = 1.25\\) |
 | Savienojumu pretestība: | | |
-| — Skrūvju un metinātie savienojumi | Pretestība skrūvēm, kniedēm, tapām un metinātajām šuvēm | \\(\gamma_{M2} = 1,25\\) |
-| — Virsmu berzes pretestība (berzes šuvēm) | Pretestība slīdei (normāliem skrūvju caurumiem): <br> — nestspējas robežstāvoklī (ULS) <br> — lietojamības robežstāvoklī (SLS) | <br>\\(\gamma_{M3} = 1,25\\) <br>\\(\gamma_{M3,ser} = 1,10\\) |
-| — Injekcijas skrūvju savienojumi | Pretestība injekcijas skrūvēm | \\(\gamma_{M4} = 1,10\\) |
-| — Slēgto profilu (cauruļprofilu) savienojumi | Režģoto kopņu mezglu nestspēja | \\(\gamma_{M5} = 1,10\\) |
-| — Kniedētie savienojumi | Kniedēto savienojumu pārbaude SLS | \\(\gamma_{M6,ser} = 1,00\\) |
-| — Augstas stiprības skrūvju iepriekšējais saspriegums | Skrūvju spriegošanas spēka pārbaude | \\(\gamma_{M7} = 1,10\\) |
+| — Skrūvju un metinātie savienojumi | Pretestība skrūvēm, kniedēm, tapām un metinātajām šuvēm | \\(\gamma_{M2} = 1.25\\) |
+| — Virsmu berzes pretestība (berzes šuvēm) | Pretestība slīdei (normāliem skrūvju caurumiem): <br> — nestspējas robežstāvoklī (ULS) <br> — lietojamības robežstāvoklī (SLS) | <br>\\(\gamma_{M3} = 1.25\\) <br>\\(\gamma_{M3,ser} = 1.10\\) |
+| — Injekcijas skrūvju savienojumi | Pretestība injekcijas skrūvēm | \\(\gamma_{M4} = 1.10\\) |
+| — Slēgto profilu (cauruļprofilu) savienojumi | Režģoto kopņu mezglu nestspēja | \\(\gamma_{M5} = 1.10\\) |
+| — Kniedētie savienojumi | Kniedēto savienojumu pārbaude SLS | \\(\gamma_{M6,ser} = 1.00\\) |
+| — Augstas stiprības skrūvju iepriekšējais saspriegums | Skrūvju spriegošanas spēka pārbaude | \\(\gamma_{M7} = 1.10\\) |
 
-*\*Svarīga piezīme: LVS EN 1993-1-1/NA nosaka stabilitātes koeficientu **\\(\gamma_{M1} = 1,00\\)** (Eirokodeksa pamatdokumentā rekomendētā vērtība ir \\(1,10\\)). Tas nodrošina ekonomiskāku tērauda elementu stabilitātes aprēķinu Latvijas teritorijā.*
+*\*Svarīga piezīme: LVS EN 1993-1-1/NA nosaka stabilitātes koeficientu **\\(\gamma_{M1} = 1.00\\)** (Eirokodeksa pamatdokumentā rekomendētā vērtība ir \\(1.10\\)). Tas nodrošina ekonomiskāku tērauda elementu stabilitātes aprēķinu Latvijas teritorijā.*
 
 ---
 
@@ -55,9 +55,9 @@ Konstruēšanas sākumposmā elementu šķērsgriezuma augstumu (dziļumu) \\(d\
       </tr>
       <tr>
         <th>3 m</th>
-        <th>4,5 m</th>
+        <th>4.5 m</th>
         <th>6 m</th>
-        <th>7,5 m</th>
+        <th>7.5 m</th>
         <th>9 m</th>
         <th>12 m</th>
         <th>15 m</th>

@@ -9,8 +9,8 @@ Saliekamo dzelzsbetona dobumoto plātņu (HCS — *Hollow Core Extruder*) montā
 - **HCS tipi un biezumi:** HCE200 (200 mm), HCE220 (220 mm), HCE265 (265 mm), HCE320 (320 mm), HCE400 (400 mm).
 - **Marķējuma piemērs:** `HCE220-5x-101` (tips HCE220, 5 saspriegtās troses apakšējā joslā, pozīcijas nr. 101).
 - **Trošu ieslīdēšana (libisemine):** Pieļaujamā trošu ieslīdēšana betona masīvā no plātnes gala pēc atspriegošanas:
-  - **Ø9,3 mm trosēm:** maks. 2,0 mm
-  - **Ø12,5 mm trosēm:** maks. 3,0 mm
+  - **Ø9.3 mm trosēm:** maks. 2.0 mm
+  - **Ø12.5 mm trosēm:** maks. 3.0 mm
   - Troses ar pieļaujamo pārsniegumu, ko rūpnīca pārbaudījusi, tiek atzīmētas ar krāsu gala plaknē. Par neatzīmētām novirzēm pirms montāžas jāziņo ražotājam.
 
 ---

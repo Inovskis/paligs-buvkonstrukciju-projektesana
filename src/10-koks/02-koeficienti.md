@@ -11,15 +11,15 @@ Saskaņā ar LVS EN 1995-1-1 materiālu drošības koeficientu vērtības nestsp
 | Materiāls / Slodžu kombinācija | Parciālais koeficients \\(\gamma_M\\) |
 | :--- | :---: |
 | Pamata kombinācija (ULS): | |
-| — Masīvā koksne | 1,30 |
-| — Līmētā koksne (Glulam) | 1,25 |
-| — Finiera sloksņu materiāls (LVL), saplāksnis, OSB | 1,20 |
-| — Kokskaidu plātnes | 1,30 |
-| — Kokšķiedru plātnes (cietās, vidēji cietās, MDF, mīkstās) | 1,30 |
-| — Savienojumi (stiprinājuma elementi) | 1,30 |
-| — Perforēto metāla plākšņu savienotājlīdzekļi | 1,25 |
+| — Masīvā koksne | 1.30 |
+| — Līmētā koksne (Glulam) | 1.25 |
+| — Finiera sloksņu materiāls (LVL), saplāksnis, OSB | 1.20 |
+| — Kokskaidu plātnes | 1.30 |
+| — Kokšķiedru plātnes (cietās, vidēji cietās, MDF, mīkstās) | 1.30 |
+| — Savienojumi (stiprinājuma elementi) | 1.30 |
+| — Perforēto metāla plākšņu savienotājlīdzekļi | 1.25 |
 | Ārkārtējā (avārijas, ugunsgrēka) kombinācija: | |
-| — Visām pārbaudēm un materiāliem | 1,00 |
+| — Visām pārbaudēm un materiāliem | 1.00 |
 
 ---
 
@@ -30,27 +30,27 @@ Koeficients \\(k_{\text{mod}}\\) ņem vērā slodzes darbības ilguma un koksnes
 
 | Materiāls | Standarts / Tips | Ekspluatācijas klase | Pastāvīgā slodze | Ilgstošā slodze | Vidēja ilguma slodze | Īslaicīgā slodze | Acumirklīgā slodze |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Masīvkoksne | EN 14081-1 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
-| Līmētais koks (Glulam) | EN 14080 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
-| **LVL** | EN 14374, EN 14279 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
-| Saplāksnis | EN 636 | 1 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | (Tips EN 636-1, -2, -3) | 2 | 0,60 | 0,70 | 0,80 | 0,90 | 1,10 |
-| | | 3 | 0,50 | 0,55 | 0,65 | 0,70 | 0,90 |
-| **OSB** | EN 300 (OSB/2) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
-| | EN 300 (OSB/3, OSB/4) | 1 | 0,40 | 0,50 | 0,70 | 0,90 | 1,10 |
-| | EN 300 (OSB/3, OSB/4) | 2 | 0,30 | 0,40 | 0,55 | 0,70 | 0,90 |
-| Kokskaidu plātnes | EN 312 (P4, P5) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
-| | EN 312 (P5) | 2 | 0,20 | 0,30 | 0,45 | 0,60 | 0,80 |
-| | EN 312 (P6, P7) | 1 | 0,40 | 0,50 | 0,70 | 0,90 | 1,10 |
-| | EN 312 (P7) | 2 | 0,30 | 0,40 | 0,55 | 0,70 | 0,90 |
-| Cietās kokšķiedru plātnes | EN 622-2 (HB.LA, HB.HLA) | 1 | 0,30 | 0,45 | 0,65 | 0,85 | 1,10 |
-| | EN 622-2 (HB.HLA 1 vai 2) | 2 | 0,20 | 0,30 | 0,45 | 0,60 | 0,80 |
+| Masīvkoksne | EN 14081-1 | 1 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 2 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 3 | 0.50 | 0.55 | 0.65 | 0.70 | 0.90 |
+| Līmētais koks (Glulam) | EN 14080 | 1 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 2 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 3 | 0.50 | 0.55 | 0.65 | 0.70 | 0.90 |
+| **LVL** | EN 14374, EN 14279 | 1 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 2 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 3 | 0.50 | 0.55 | 0.65 | 0.70 | 0.90 |
+| Saplāksnis | EN 636 | 1 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | (Tips EN 636-1, -2, -3) | 2 | 0.60 | 0.70 | 0.80 | 0.90 | 1.10 |
+| | | 3 | 0.50 | 0.55 | 0.65 | 0.70 | 0.90 |
+| **OSB** | EN 300 (OSB/2) | 1 | 0.30 | 0.45 | 0.65 | 0.85 | 1.10 |
+| | EN 300 (OSB/3, OSB/4) | 1 | 0.40 | 0.50 | 0.70 | 0.90 | 1.10 |
+| | EN 300 (OSB/3, OSB/4) | 2 | 0.30 | 0.40 | 0.55 | 0.70 | 0.90 |
+| Kokskaidu plātnes | EN 312 (P4, P5) | 1 | 0.30 | 0.45 | 0.65 | 0.85 | 1.10 |
+| | EN 312 (P5) | 2 | 0.20 | 0.30 | 0.45 | 0.60 | 0.80 |
+| | EN 312 (P6, P7) | 1 | 0.40 | 0.50 | 0.70 | 0.90 | 1.10 |
+| | EN 312 (P7) | 2 | 0.30 | 0.40 | 0.55 | 0.70 | 0.90 |
+| Cietās kokšķiedru plātnes | EN 622-2 (HB.LA, HB.HLA) | 1 | 0.30 | 0.45 | 0.65 | 0.85 | 1.10 |
+| | EN 622-2 (HB.HLA 1 vai 2) | 2 | 0.20 | 0.30 | 0.45 | 0.60 | 0.80 |
 
 ---
 

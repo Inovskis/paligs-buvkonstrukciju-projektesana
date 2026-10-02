@@ -25,8 +25,8 @@ Koka konstrukciju izliece sastāv no elastīgās (momentānās) izlieces un šļ
 <div align="center" style="margin: 2em 0;">
   <svg width="600" height="260" viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
     <style>
-      .baseline { stroke: #a0aec0; stroke-width: 2; stroke-dasharray: 6,4; }
-      .curve-precamber { fill: none; stroke: #48bb78; stroke-width: 3; stroke-dasharray: 4,4; }
+      .baseline { stroke: #a0aec0; stroke-width: 2; stroke-dasharray: 6.4; }
+      .curve-precamber { fill: none; stroke: #48bb78; stroke-width: 3; stroke-dasharray: 4.4; }
       .curve-inst { fill: none; stroke: #3182ce; stroke-width: 3; }
       .curve-fin { fill: none; stroke: #e53e3e; stroke-width: 3; }
       .arrow { stroke: #2d3748; stroke-width: 1.5; fill: none; }
@@ -37,8 +37,8 @@ Koka konstrukciju izliece sastāv no elastīgās (momentānās) izlieces un šļ
     </style>
 
     <!-- Atbalsti -->
-    <polygon points="50,130 40,150 60,150" class="support"/>
-    <polygon points="550,130 540,150 560,150" class="support"/>
+    <polygon points="50.130 40.150 60.150" class="support"/>
+    <polygon points="550.130 540.150 560.150" class="support"/>
     <line x1="30" y1="150" x2="570" y2="150" class="baseline" style="stroke:#4a5568; stroke-dasharray: none;" />
 
     <!-- Sākotnējā horizontālā ass (bez priekšizlieces) -->
@@ -57,27 +57,27 @@ Koka konstrukciju izliece sastāv no elastīgās (momentānās) izlieces un šļ
 
     <!-- Bultiņas un apzīmējumi vidū -->
     <line x1="300" y1="80" x2="300" y2="130" class="arrow" />
-    <polygon points="300,80 297,87 303,87" class="arrow-head"/>
-    <polygon points="300,130 297,123 303,123" class="arrow-head"/>
+    <polygon points="300.80 297.87 303.87" class="arrow-head"/>
+    <polygon points="300.130 297.123 303.123" class="arrow-head"/>
     <text x="310" y="110" class="text-bold" fill="#48bb78">w_c</text>
 
     <!-- Momentānā -->
     <!-- w_inst no w_c līdz inst -->
     <line x1="280" y1="80" x2="280" y2="150" class="arrow" />
-    <polygon points="280,150 277,143 283,143" class="arrow-head"/>
-    <polygon points="280,80 277,87 283,87" class="arrow-head"/>
+    <polygon points="280.150 277.143 283.143" class="arrow-head"/>
+    <polygon points="280.80 277.87 283.87" class="arrow-head"/>
     <text x="235" y="125" class="text-bold" fill="#3182ce">w_inst</text>
 
     <!-- Šļūde (w_creep) -->
     <line x1="300" y1="150" x2="300" y2="180" class="arrow" />
-    <polygon points="300,150 297,157 303,157" class="arrow-head"/>
-    <polygon points="300,180 297,173 303,173" class="arrow-head"/>
+    <polygon points="300.150 297.157 303.157" class="arrow-head"/>
+    <polygon points="300.180 297.173 303.173" class="arrow-head"/>
     <text x="310" y="170" class="text-bold" fill="#e53e3e">w_creep</text>
 
     <!-- Neto galīgā (no horizontāles) -->
     <line x1="330" y1="130" x2="330" y2="180" class="arrow" />
-    <polygon points="330,130 327,137 333,137" class="arrow-head"/>
-    <polygon points="330,180 327,173 333,173" class="arrow-head"/>
+    <polygon points="330.130 327.137 333.137" class="arrow-head"/>
+    <polygon points="330.180 327.173 333.173" class="arrow-head"/>
     <text x="340" y="160" class="text-bold">w_net,fin</text>
 
     <!-- Leģenda -->
@@ -121,4 +121,4 @@ Izlieces komponentes nosaka, izmantojot šļūdes koeficientu \\(k_{\text{def}}\
 Kopējā galīgā izliece \\(w_{\text{fin}}\\) ir visu galīgo izlieču summa:
 \\[w_{\text{fin}} = w_{\text{fin},g} + w_{\text{fin},q,1} + \sum w_{\text{fin},q,i}\\]
 
-*Kur \\(\psi_0\\) un \\(\psi_2\\) ir slodžu kombināciju koeficienti saskaņā ar LVS EN 1990 (piemēram, lietderīgajai slodzei dzīvojamās ēkās \\(\psi_2 = 0,3\\)).*
+*Kur \\(\psi_0\\) un \\(\psi_2\\) ir slodžu kombināciju koeficienti saskaņā ar LVS EN 1990 (piemēram, lietderīgajai slodzei dzīvojamās ēkās \\(\psi_2 = 0.3\\)).*

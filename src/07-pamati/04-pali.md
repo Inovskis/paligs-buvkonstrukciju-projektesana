@@ -20,10 +20,10 @@ Kur:
 
 | Faktors / Punktu skaits (\\(n\\)) | 1 | 2 | 3 | 4 | 5 | 7 | 10 |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| \\(\xi_3\\) (piemēro vidējai vērtībai) | 1,40 | 1,35 | 1,33 | 1,31 | 1,29 | 1,27 | 1,25 |
-| \\(\xi_4\\) (piemēro minimālajai vērtībai) | 1,40 | 1,27 | 1,23 | 1,20 | 1,15 | 1,12 | 1,08 |
+| \\(\xi_3\\) (piemēro vidējai vērtībai) | 1.40 | 1.35 | 1.33 | 1.31 | 1.29 | 1.27 | 1.25 |
+| \\(\xi_4\\) (piemēro minimālajai vērtībai) | 1.40 | 1.27 | 1.23 | 1.20 | 1.15 | 1.12 | 1.08 |
 
-*Piezīme: Ja aprēķinu veic pēc viena punkta datiem sliktākajā pozīcijā, to var uzskatīt par \\(R_{c,min}\\) un pāļa raksturīgo nestspēju nosaka, dalot šo aprēķināto vērtību ar \\(\xi_4 = 1,40\\).*
+*Piezīme: Ja aprēķinu veic pēc viena punkta datiem sliktākajā pozīcijā, to var uzskatīt par \\(R_{c,min}\\) un pāļa raksturīgo nestspēju nosaka, dalot šo aprēķināto vērtību ar \\(\xi_4 = 1.40\\).*
 
 ---
 
@@ -31,7 +31,7 @@ Kur:
 
 Pāļu izvietojumam jānovērš pāļu savstarpējā pārklāšanās un "pāļu grupas efekts", kas var samazināt kopējo nestspēju:
 - **Standarta attālums:** Minimālais attālums starp pāļu centriem ir **\\(3d\\)** (kur \\(d\\) ir pāļa diametrs).
-- **Izņēmums:** Attālumu var samazināt līdz **\\(2,5d\\)**, ja lielāko daļu nestspējas nodrošina pāļa gals (balstpāļi), nevis sānu berze.
+- **Izņēmums:** Attālumu var samazināt līdz **\\(2.5d\\)**, ja lielāko daļu nestspējas nodrošina pāļa gals (balstpāļi), nevis sānu berze.
 
 ---
 
@@ -41,9 +41,9 @@ Urbto pāļu garenstiegrojumam jānodrošina minimālais laukums \\(A_s\\) atkar
 
 | Pāļa šķērsgriezuma laukums (\\(A_c\\)) | Minimālais garenstiegrojuma laukums (\\(A_s\\)) |
 | :--- | :--- |
-| \\(A_c \le 0,5\text{ m}^2\\) | \\(A_s \ge 0,005 \cdot A_c\\) |
-| \\(0,5\text{ m}^2 < A_c \le 1,0\text{ m}^2\\) | \\(A_s \ge 25\text{ cm}^2\\) |
-| \\(A_c > 1,0\text{ m}^2\\) | \\(A_s \ge 0,0025 \cdot A_c\\) |
+| \\(A_c \le 0.5\text{ m}^2\\) | \\(A_s \ge 0.005 \cdot A_c\\) |
+| \\(0.5\text{ m}^2 < A_c \le 1.0\text{ m}^2\\) | \\(A_s \ge 25\text{ cm}^2\\) |
+| \\(A_c > 1.0\text{ m}^2\\) | \\(A_s \ge 0.0025 \cdot A_c\\) |
 
 - **Konstruēšana:** Ja stiegrojuma karkass tiek montēts (vibrēts) pēc betona iepildīšanas urbumā, karkasa elementiem jābūt stingri sametinātiem. Karkasa apakšējo galu ieteicams veidot konisku, lai atvieglotu tā iegremdēšanu betonā.
 - **Minimālais stieņu skaits:** Vismaz 4 garenstieņi, ieteicamais minimālais diametrs \\(\phi \ge 12\text{ mm}\\).
@@ -57,7 +57,7 @@ Saskaņā ar LVS EN 1992-1-1 punktu 2.3.4.2(2), monolītbetona pāļu aprēķino
 - Ja \\(d_{\text{nom}} < 400\text{ mm}\\):
   \\[d = d_{\text{nom}} - 20\text{ mm}\\]
 - Ja \\(400\text{ mm} \le d_{\text{nom}} \le 1000\text{ mm}\\):
-  \\[d = 0,95 \cdot d_{\text{nom}}\\]
+  \\[d = 0.95 \cdot d_{\text{nom}}\\]
 - Ja \\(d_{\text{nom}} > 1000\text{ mm}\\):
   \\[d = d_{\text{nom}} - 50\text{ mm}\\]
 

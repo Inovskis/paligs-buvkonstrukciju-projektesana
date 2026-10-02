@@ -10,18 +10,18 @@ Skrūvju ģeometriskie lielumi, šķērsgriezuma laukumi un viena stieņa bīdes
 
 | Skrūve | Diametrs \\(d\\) (mm) | Urbuma \\(\phi\\) \\(d_0\\) (mm)* | Vītnes laukums \\(A_s\\) (mm²) | Kāta laukums \\(A\\) (mm²) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (8.8 klase) | Bīdes nestspēja \\(F_{v,Rd}\\) (kN) (10.9 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (8.8 klase) | Stiepes nestspēja \\(F_{t,Rd}\\) (kN) (10.9 klase) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **M12** | 12 | 13 | 84,3 | 113 | 32,4 | 33,7 | 48,6 | 60,7 |
-| **M16** | 16 | 18 | 157,0 | 201 | 60,3 | 62,8 | 90,4 | 113,0 |
-| **M20** | 20 | 22 | 245,0 | 314 | 94,1 | 98,0 | 141,1 | 176,4 |
-| **M24** | 24 | 26 | 353,0 | 452 | 135,6 | 141,2 | 203,3 | 254,2 |
-| **M27** | 27 | 30 | 459,0 | 573 | 176,3 | 183,6 | 264,4 | 330,5 |
-| **M30** | 30 | 33 | 561,0 | 707 | 215,4 | 224,4 | 323,1 | 403,9 |
-| **M36** | 36 | 39 | 817,0 | 1018 | 313,7 | 326,8 | 470,6 | 588,2 |
+| **M12** | 12 | 13 | 84.3 | 113 | 32.4 | 33.7 | 48.6 | 60.7 |
+| **M16** | 16 | 18 | 157.0 | 201 | 60.3 | 62.8 | 90.4 | 113.0 |
+| **M20** | 20 | 22 | 245.0 | 314 | 94.1 | 98.0 | 141.1 | 176.4 |
+| **M24** | 24 | 26 | 353.0 | 452 | 135.6 | 141.2 | 203.3 | 254.2 |
+| **M27** | 27 | 30 | 459.0 | 573 | 176.3 | 183.6 | 264.4 | 330.5 |
+| **M30** | 30 | 33 | 561.0 | 707 | 215.4 | 224.4 | 323.1 | 403.9 |
+| **M36** | 36 | 39 | 817.0 | 1018 | 313.7 | 326.8 | 470.6 | 588.2 |
 
 > **Piezīme par aprēķiniem:**
-> - Bīdes nestspēja \\(F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\) ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu (\\(\alpha_v = 0,6\\) klasei 8.8; \\(\alpha_v = 0,5\\) klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu \\(A\\) un \\(\alpha_v = 0,6\\).
-> - Stiepes nestspēja \\(F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\), kur \\(k_2 = 0,9\\) un \\(\gamma_{M2} = 1,25\\).
-> - Aprēķinā pieņemts \\(\gamma_{M2} = 1,25\\), \\(f_{ub} = 800\text{ MPa}\\) (8.8 klase) un \\(1000\text{ MPa}\\) (10.9 klase).
+> - Bīdes nestspēja \\(F_{v,Rd} = \frac{\alpha_v \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\) ir norādīta **vienai bīdes plaknei**, kas šķērso skrūves vītņoto daļu (\\(\alpha_v = 0.6\\) klasei 8.8; \\(\alpha_v = 0.5\\) klasei 10.9). Ja bīdes plakne šķērso nevītņoto kātu, izmanto laukumu \\(A\\) un \\(\alpha_v = 0.6\\).
+> - Stiepes nestspēja \\(F_{t,Rd} = \frac{k_2 \cdot f_{ub} \cdot A_s}{\gamma_{M2}}\\), kur \\(k_2 = 0.9\\) un \\(\gamma_{M2} = 1.25\\).
+> - Aprēķinā pieņemts \\(\gamma_{M2} = 1.25\\), \\(f_{ub} = 800\text{ MPa}\\) (8.8 klase) un \\(1000\text{ MPa}\\) (10.9 klase).
 
 ---
 
@@ -58,7 +58,7 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
     <style>
       .plate { fill: #cbd5e0; stroke: #4a5568; stroke-width: 3; }
       .weld { fill: #718096; stroke: #2d3748; stroke-width: 2; }
-      .line { stroke: #e53e3e; stroke-width: 2; stroke-dasharray: 4,4; }
+      .line { stroke: #e53e3e; stroke-width: 2; stroke-dasharray: 4.4; }
       .dim-line { stroke: #2d3748; stroke-width: 1.5; }
       .text { font-family: 'IBM Plex Sans', sans-serif; font-size: 16px; font-weight: bold; fill: #2d3748; }
     </style>
@@ -68,7 +68,7 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
     <rect x="130" y="20" width="40" height="160" class="plate" />
     
     <!-- Stūra šuve -->
-    <polygon points="170,180 170,100 250,180" class="weld" />
+    <polygon points="170.180 170.100 250.180" class="weld" />
     
     <!-- Rīkles biezums 'a' -->
     <line x1="170" y1="180" x2="210" y2="140" class="line" />
@@ -110,10 +110,10 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
     
     <!-- Bultiņas līnija -->
     <line x1="150" y1="80" x2="80" y2="130" class="line" />
-    <polygon points="80,130 85,118 94,124" class="arrow" />
+    <polygon points="80.130 85.118 94.124" class="arrow" />
     
     <!-- Astīte -->
-    <polyline points="400,80 420,60 400,80 420,100" class="line" />
+    <polyline points="400.80 420.60 400.80 420.100" class="line" />
     
     <!-- Teksti -->
     <text x="60" y="145" class="text-bold">Bulta</text>
@@ -156,18 +156,18 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Katete \\(s\\) (mm) | Rīkle \\(a\\) (mm) | Stiprība garenvirzienā \\(P_L\\) (kN/mm) | Stiprība šķērsvirzienā \\(P_T\\) (kN/mm) |
 | :---: | :---: | :---: | :---: |
-| 3,0 | 2,1 | 0,53 | 0,66 |
-| 4,0 | 2,8 | 0,70 | 0,88 |
-| 5,0 | 3,5 | 0,88 | 1,09 |
-| 6,0 | 4,2 | 1,05 | 1,31 |
-| 8,0 | 5,6 | 1,40 | 1,75 |
-| 10,0 | 7,0 | 1,75 | 2,19 |
-| 12,0 | 8,4 | 2,10 | 2,62 |
-| 15,0 | 10,5 | 2,62 | 3,28 |
-| 18,0 | 12,6 | 3,15 | 3,94 |
-| 20,0 | 14,0 | 3,50 | 4,38 |
-| 22,0 | 15,4 | 3,85 | 4,81 |
-| 25,0 | 17,5 | 4,38 | 5,47 |
+| 3.0 | 2.1 | 0.53 | 0.66 |
+| 4.0 | 2.8 | 0.70 | 0.88 |
+| 5.0 | 3.5 | 0.88 | 1.09 |
+| 6.0 | 4.2 | 1.05 | 1.31 |
+| 8.0 | 5.6 | 1.40 | 1.75 |
+| 10.0 | 7.0 | 1.75 | 2.19 |
+| 12.0 | 8.4 | 2.10 | 2.62 |
+| 15.0 | 10.5 | 2.62 | 3.28 |
+| 18.0 | 12.6 | 3.15 | 3.94 |
+| 20.0 | 14.0 | 3.50 | 4.38 |
+| 22.0 | 15.4 | 3.85 | 4.81 |
+| 25.0 | 17.5 | 4.38 | 5.47 |
 
 ---
 
@@ -179,8 +179,8 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Skrūve | Urbuma \\(\phi\\) \\(d_0\\) | Minimālais malas attālums \\(e_1, e_2\\) | Minimālais solis \\(p_1\\) (rindā) | Minimālais solis \\(p_2\\) (starp rindām) |
 | :---: | :---: | :---: | :---: | :---: |
-| **M16** | 18 mm | 22 mm (\\(1,2 d_0\\)) | 40 mm (\\(2,2 d_0\\)) | 44 mm (\\(2,4 d_0\\)) |
-| **M20** | 22 mm | 27 mm (\\(1,2 d_0\\)) | 49 mm (\\(2,2 d_0\\)) | 53 mm (\\(2,4 d_0\\)) |
+| **M16** | 18 mm | 22 mm (\\(1.2 d_0\\)) | 40 mm (\\(2.2 d_0\\)) | 44 mm (\\(2.4 d_0\\)) |
+| **M20** | 22 mm | 27 mm (\\(1.2 d_0\\)) | 49 mm (\\(2.2 d_0\\)) | 53 mm (\\(2.4 d_0\\)) |
 
 ### 2. Standarta auss plākšņu konfigurācijas
 
@@ -198,14 +198,14 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Profils | Sieniņa \\(t_w\\) (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| IPE 180 | 5,3 | 76 | 114 | 152 | 228 | 119 | — | 238 | — |
-| IPE 200 | 5,6 | 80 | 120 | 160 | 240 | 126 | — | 251 | 376 |
-| IPE 240 | 6,2 | 89 | 133 | 178 | 266 | 139 | 209 | 278 | 418 |
-| IPE 300 | 7,1 | 101 | 152 | 203 | 304 | 159 | 239 | 318 | 478 |
-| IPE 360 | 8,0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
-| IPE 400 | 8,6 | 123 | 184 | 245 | 368 | 193 | 289 | 386 | 578 |
-| IPE 450 | 9,4 | 134 | 201 | 268 | 403 | 211 | 316 | 421 | 632 |
-| IPE 500 | 10,2 | 146 | 218 | 291 | 437 | 229 | 343 | 458 | 687 |
+| IPE 180 | 5.3 | 76 | 114 | 152 | 228 | 119 | — | 238 | — |
+| IPE 200 | 5.6 | 80 | 120 | 160 | 240 | 126 | — | 251 | 376 |
+| IPE 240 | 6.2 | 89 | 133 | 178 | 266 | 139 | 209 | 278 | 418 |
+| IPE 300 | 7.1 | 101 | 152 | 203 | 304 | 159 | 239 | 318 | 478 |
+| IPE 360 | 8.0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
+| IPE 400 | 8.6 | 123 | 184 | 245 | 368 | 193 | 289 | 386 | 578 |
+| IPE 450 | 9.4 | 134 | 201 | 268 | 403 | 211 | 316 | 421 | 632 |
+| IPE 500 | 10.2 | 146 | 218 | 291 | 437 | 229 | 343 | 458 | 687 |
 
 ---
 
@@ -213,13 +213,13 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 
 | Profils | Sieniņa \\(t_w\\) (mm) | 2 × M16 | 3 × M16 | 4 × M16 (2x2) | 6 × M16 (2x3) | 2 × M20 | 3 × M20 | 4 × M20 (2x2) | 6 × M20 (2x3) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| HEA 160 | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
-| HEA 180 | 6,0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
-| HEA 200 | 6,5 | 93 | 139 | 186 | 279 | 146 | 219 | 292 | 437 |
-| HEA 240 | 7,5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
-| HEA 260 | 7,5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
-| HEA 280 | 8,0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
-| HEA 300 | 8,5 | 122 | 182 | 243 | 365 | 191 | 287 | 383 | 574 |
+| HEA 160 | 6.0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
+| HEA 180 | 6.0 | 86 | 129 | 172 | 258 | 135 | — | 269 | — |
+| HEA 200 | 6.5 | 93 | 139 | 186 | 279 | 146 | 219 | 292 | 437 |
+| HEA 240 | 7.5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
+| HEA 260 | 7.5 | 107 | 161 | 215 | 322 | 168 | 253 | 337 | 505 |
+| HEA 280 | 8.0 | 114 | 171 | 228 | 342 | 179 | 269 | 359 | 538 |
+| HEA 300 | 8.5 | 122 | 182 | 243 | 365 | 191 | 287 | 383 | 574 |
 
 *Slodžu grupu krāsu kodi (projektēšanas atvieglošanai):*
 - *Zaļš: \\(< 100\text{ kN}\\)*
@@ -232,7 +232,7 @@ Robežstiprība uz vienu šuves garuma milimetru (aprēķināta pēc vienkāršo
 ## Metinājuma šuves izvēle saskaņā ar skrūvju nestspēju
 
 Lai garantētu, ka savienojuma metinājums nav vājākais posms, šuves tiek dimensionētas pēc nosacījuma:
-\\[V_{Rd,\text{weld}} \ge 1,2 \cdot V_{Rd,\text{bolts}}\\]
+\\[V_{Rd,\text{weld}} \ge 1.2 \cdot V_{Rd,\text{bolts}}\\]
 Auss tiek metināta ar divpusēju stūra šuvi (rīkle \\(a\\)) pie nesošā elementa.
 
 | Skrūves | Skrūvju grupas nestspēja | Nepieciešamā šuves pretestība | Auss augstums | Izvēlētais šuves biezums \\(a\\) | Šuvju faktiskā nestspēja |

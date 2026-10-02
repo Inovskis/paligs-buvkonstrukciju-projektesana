@@ -10,11 +10,11 @@ Nestspējas robežstāvokļa (ULS) pārbaudēm izmanto šādus materiālu parci�
 
  | Projektā ievērtējamās situācijas | gamma_c (betonam) | gamma_s (stiegrojumam) | gamma_{s,sp} (spriegotajam stiegrojumam) | 
  | :--- | :---: | :---: | :---: | 
- | Ilgstošas un īslaicīgas | 1,50 | 1,15 | 1,15 | 
- | Ārkārtējas (avārijas, ugunsgrēka) | 1,20 | 1,00 | 1,00 | 
- | Seismiskās (zemestrīces) | 1,20 | 1,00 | 1,00 | 
+ | Ilgstošas un īslaicīgas | 1.50 | 1.15 | 1.15 | 
+ | Ārkārtējas (avārijas, ugunsgrēka) | 1.20 | 1.00 | 1.00 | 
+ | Seismiskās (zemestrīces) | 1.20 | 1.00 | 1.00 | 
 
-*Piezīme: Ārkārtējās un seismiskajās situācijās betona un stiegrojuma koeficienti tiek samazināti līdz \\(\gamma_c = 1,20\\) un \\(\gamma_s = 1,00\\), kas atspoguļo zemāku nepieciešamo drošuma rezervi pret mazticamiem notikumiem.*
+*Piezīme: Ārkārtējās un seismiskajās situācijās betona un stiegrojuma koeficienti tiek samazināti līdz \\(\gamma_c = 1.20\\) un \\(\gamma_s = 1.00\\), kas atspoguļo zemāku nepieciešamo drošuma rezervi pret mazticamiem notikumiem.*
 
 ---
 
@@ -27,10 +27,10 @@ Stiegrošanā jānodrošina pietiekams stieņu enkurojuma garums \\(l_{bd}\\) un
 ![Enkurojuma garumi](../images/ch08/img037.png)
 
 *Citu stiprības klašu betoniem dotos izmērus reizina ar šādiem pārrēķina koeficientiem:*
-- **C20/25:** reizinātājs \\(1,10\\)
-- **C30/37:** reizinātājs \\(0,89\\)
-- **C35/45:** reizinātājs \\(0,80\\)
-- **C40/50:** reizinātājs \\(0,74\\)
+- **C20/25:** reizinātājs \\(1.10\\)
+- **C30/37:** reizinātājs \\(0.89\\)
+- **C35/45:** reizinātājs \\(0.80\\)
+- **C40/50:** reizinātājs \\(0.74\\)
 
 ---
 
@@ -58,7 +58,7 @@ Maksimālais attālums starp kolonnu šķērsstiegrojuma stiegrām (aptveru soli
 - kolonnas mazākais šķērsgriezuma izmērs (platums vai augstums);
 - \\(400 mm\\).
 
-*Piezīme: Šķērsstiegrojuma solis jāsamazina par koeficientu \\(0,6\\) (t.i., \\(0,6 \cdot s_{cl,tmax}\\)) zonās virs un zem sijām viena stāva augstumā, kā arī stieņu pārlaidumu zonās, ja garenstieņu diametrs \\(\phi > 14 mm\\).*
+*Piezīme: Šķērsstiegrojuma solis jāsamazina par koeficientu \\(0.6\\) (t.i., \\(0.6 \cdot s_{cl,tmax}\\)) zonās virs un zem sijām viena stāva augstumā, kā arī stieņu pārlaidumu zonās, ja garenstieņu diametrs \\(\phi > 14 mm\\).*
 
 ---
 
@@ -78,7 +78,7 @@ Stieņu liekšana (piemēram, cilpu, āķu vai stūra stieņu izveidei) jāveic 
 
 Aprēķinot bīdes spēku pārnesi pa betona darba šuvēm (saskaņā ar LVS EN 1992-1-1 6.2.5. punktu), šuves virsmas klasificē četrās kategorijās. Katrai kategorijai atbilst kohēzijas koeficients \\(c\\) un berzes koeficients \\(\mu\\):
 
-- **Ļoti gluda (\\(c = 0,025 ... 0,10\\); \\(\mu = 0,5\\)):** Virsma, kas betonēta pret tērauda, plastmasas vai speciāli sagatavotiem koka veidņiem.
-- **Gluda (\\(c = 0,20\\); \\(\mu = 0,6\\)):** Ar slīdošajiem veidņiem betonēta, ekstrudēta vai brīva virsma, kas pēc vibrēšanas atstāta bez tālākas apstrādes.
-- **Nelīdzena (\\(c = 0,40\\); \\(\mu = 0,7\\)):** Virsma ar vismaz 3 mm dziļiem nelīdzenumiem, kas izvietoti ik pēc aptuveni 40 mm, vai virsma ar atsegtām pildvielas daļiņām.
-- **Robota (\\(c = 0,50\\); \\(\mu = 0,9\\)):** Speciāli veidota rievota vai zobota virsma saskaņā ar standarta 6.9. attēlu.
+- **Ļoti gluda (\\(c = 0.025 ... 0.10\\); \\(\mu = 0.5\\)):** Virsma, kas betonēta pret tērauda, plastmasas vai speciāli sagatavotiem koka veidņiem.
+- **Gluda (\\(c = 0.20\\); \\(\mu = 0.6\\)):** Ar slīdošajiem veidņiem betonēta, ekstrudēta vai brīva virsma, kas pēc vibrēšanas atstāta bez tālākas apstrādes.
+- **Nelīdzena (\\(c = 0.40\\); \\(\mu = 0.7\\)):** Virsma ar vismaz 3 mm dziļiem nelīdzenumiem, kas izvietoti ik pēc aptuveni 40 mm, vai virsma ar atsegtām pildvielas daļiņām.
+- **Robota (\\(c = 0.50\\); \\(\mu = 0.9\\)):** Speciāli veidota rievota vai zobota virsma saskaņā ar standarta 6.9. attēlu.
