@@ -87,3 +87,16 @@ code { font-family: 'IBM Plex Mono', monospace; font-size: 0.9em; background-col
 pre code { background-color: transparent; color: inherit; padding: 0; }
 pre { background-color: #1a202c; color: #e2e8f0; padding: 1em; border-radius: 6px; overflow-x: auto; font-size: 0.85em; }
 
+/* --- Sānjosla: atvērtās lapas virsraksti (sidebar-headings.js) --- */
+.chapter li.page-headings { margin-block-start: 0; }
+.chapter ol.page-headings-list {
+    margin-inline-start: 12px;
+    padding-inline-start: 10px;
+    border-inline-start: 1px solid rgba(128, 128, 128, 0.4);
+}
+.chapter li.page-heading { line-height: 1.35em; margin-block-start: 0.35em; }
+.chapter li.page-heading a { font-size: 0.93em; opacity: 0.85; }
+.chapter li.page-heading a:hover,
+.chapter li.page-heading a.current { color: var(--sidebar-active); opacity: 1; }
+.chapter li.page-heading a.current { font-weight: 600; }
+
