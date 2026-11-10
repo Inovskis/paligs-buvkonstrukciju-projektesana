@@ -210,6 +210,11 @@ h1, h2, h3, h4, h5, h6 {
 .cover-meta-label { display: table-cell; font-family: var(--c-font-mono); font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; color: var(--c-primary); padding-right: 1.5em; white-space: nowrap; vertical-align: middle; }
 .cover-meta-value { display: table-cell; font-size: 1em; font-weight: 500; color: var(--fg); vertical-align: middle; }
 .cover-sponsor-label { font-family: var(--c-font-mono); font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; color: var(--c-muted); }
+/* Atbalstītāja logo: neliels un melnbalts (PNG fons ir caurspīdīgs, tāpēc brightness(0) to padara melnu). */
+.cover-page img.cover-logo { width: 72px; height: auto; margin: 0.8em 0 0; filter: brightness(0); opacity: 0.85; }
+.navy .cover-page img.cover-logo,
+.coal .cover-page img.cover-logo,
+.ayu .cover-page img.cover-logo { filter: brightness(0) invert(1); opacity: 0.8; }
 
 /* --- Tabulas --- */
 .table-wrapper {
