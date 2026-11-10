@@ -20,4 +20,6 @@
 
 - **Verifikācija pirms saglabāšanas:** Pirms katra `git commit` veikšanas aģentam ir obligāti jāpalaiž verifikācijas skripts `python tools/verify_math.py`.
 - **Noteikums:** Skriptam ir jāatgriež veiksmes statuss (`Verification SUCCESSFUL`). Ja tiek atrastas kļūdas (neapstrādāti single `$` vai double `$$` simboli ārpus koda blokiem), aģentam tās ir nekavējoties jāizlabo, aizstājot ar mdBook saderīgu formātu `\\(...\\)` vai `\\[...\\]`.
+- **Izņēmums — HTML tabulas:** `<table>...</table>` blokos Markdown atkāpšanās netiek apstrādāta, tāpēc tur formulas raksta ar vienu slīpsvītru: `\(...\)`. Ar divām slīpsvītrām MathJax tās neatveido. Pārbaudes skripts šo izņēmumu ievēro.
+- **Windows konsole:** ja skripts izdrukā `UnicodeEncodeError`, palaist ar `PYTHONUTF8=1 python tools/verify_math.py` — kļūda ir izdrukā, nevis pārbaudē.
 

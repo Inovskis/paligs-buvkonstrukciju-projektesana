@@ -2,10 +2,19 @@ import os
 import re
 import sys
 
+# HTML tabulās (<table>...</table>) Markdown atkāpšanās netiek apstrādāta, tāpēc tur MathJax
+# norobežotājiem jābūt ar vienu slīpsvītru: \( ... \). Šajos blokos vienas slīpsvītras
+# norobežotāji ir pareizi; tos aizstāj ar tukšumu (saglabājot rindu skaitu) pirms pārbaudes.
+HTML_TABLE = re.compile(r'<table[\s\S]*?</table>')
+SINGLE_BACKSLASH = re.compile(r'(?<!\\)\\[\[\]()]')
+
+def mask_html_tables(text):
+    return HTML_TABLE.sub(lambda m: SINGLE_BACKSLASH.sub('  ', m.group(0)), text)
+
 def verify_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        text = f.read()
-        
+        text = mask_html_tables(f.read())
+
     # Remove code blocks
     text_clean = re.sub(r'```[\s\S]*?```', '', text)
     # Remove inline code
@@ -45,7 +54,7 @@ def main():
                     # Double check if any error is just false positive from multiline code blocks
                     actual_errors = []
                     with open(filepath, 'r', encoding='utf-8') as f:
-                        content = f.read()
+                        content = mask_html_tables(f.read())
                     content_clean = re.sub(r'```[\s\S]*?```', '', content)
                     if re.search(r'(?<!\\)\$', content_clean) or re.search(r'(?<!\\)\\\[|(?<!\\)\\\]|(?<!\\)\\\(|(?<!\\)\\\)', content_clean):
                         for line_no, line_content in errors:
