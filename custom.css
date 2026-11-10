@@ -1,102 +1,352 @@
 ﻿/* =========================================================
-   Būvkonstrukciju projektēšana. Rokasgrāmata. — custom styles
+   Būvkonstrukciju projektēšana. Rokasgrāmata. — makets "Rasējuma lapa" (C variants)
+
+   Fonti:   Archivo (virsraksti, šaurināts platums), Public Sans (teksts, tabulas),
+            JetBrains Mono (skaitļi, numerācija, spiedogs, marķējumi).
+   Krāsas:  rasējuma zils #1D4E89, sānjosla #10243D, signāls (dzintars) #C98207
+            tikai brīdinājumiem un izceltām vērtībām (<mark>).
+   Saistītais skripts book-layout.js pievieno spiedogu, apakšpunktu numerāciju,
+   kategoriju marķējumus tabulās un piezīmju bloku veidus.
    ========================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
     --content-max-width: 1100px; /* Plašāks satura apgabals plašajām tabulām */
-    --primary-color: #2c5282; /* Deep Blue for engineering trust */
-    --accent-color: #3182ce;
-    --text-main: #2d3748;
-    --heading-color: #1a202c;
-    --border-color: #e2e8f0;
-    --table-header-bg: #edf2f7;
-    --table-border-color: #cbd5e0;
+    --c-font-head: 'Archivo', 'Public Sans', 'Segoe UI', sans-serif;
+    --c-font-body: 'Public Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    --c-font-mono: 'JetBrains Mono', 'IBM Plex Mono', Consolas, monospace;
 }
 
-html {
-    font-size: 12px; /* Globāls bāzes fonts */
+/* --- Krāsu lomas: gaišās tēmas (light, rust) --- */
+.light, .rust {
+    --bg: #ffffff;
+    --fg: #22272e;
+    --c-head: #10141a;
+    --c-muted: #5f6b78;
+    --c-primary: #1d4e89;
+    --c-signal: #c98207;
+    --c-signal-bg: #fff6e3;
+    --c-rule: #dfe4ea;
+    --c-th-fg: #12355e;
+    --c-note-bg: #f2f6fb;
+    --c-ex-bg: #f4f6f8;
+    --c-code-bg: #eef2f7;
+
+    --sidebar-bg: #10243d;
+    --sidebar-fg: #c2cfde;
+    --sidebar-non-existant: #6b7d92;
+    --sidebar-active: #ffffff;
+    --sidebar-spacer: #1d3654;
+    --scrollbar: #8a9bb0;
+
+    --icons: #6b7684;
+    --icons-hover: #10141a;
+    --links: #1d4e89;
+    --inline-code-color: #12355e;
+
+    --theme-popup-bg: #ffffff;
+    --theme-popup-border: #dfe4ea;
+    --theme-hover: #eef2f7;
+
+    --quote-bg: #f2f6fb;
+    --quote-border: #dfe4ea;
+    --warning-border: #c98207;
+
+    --table-border-color: #dfe4ea;
+    --table-header-bg: #e3ebf5;
+    --table-alternate-bg: #f7f9fb;
+
+    --searchbar-border-color: #c3ccd7;
+    --searchbar-bg: #ffffff;
+    --searchbar-fg: #22272e;
+    --searchbar-shadow-color: #c3ccd7;
+    --searchresults-header-fg: #5f6b78;
+    --searchresults-border-color: #c3ccd7;
+    --searchresults-li-bg: #e3ebf5;
+    --search-mark-bg: #ffe2a3;
+
+    --color-scheme: light;
 }
 
+/* --- Krāsu lomas: tumšās tēmas (navy, coal, ayu) --- */
+.navy, .coal, .ayu {
+    --bg: #11161c;
+    --fg: #d6dde6;
+    --c-head: #f2f5f8;
+    --c-muted: #93a0ae;
+    --c-primary: #74a7e3;
+    --c-signal: #f2b544;
+    --c-signal-bg: #2e2412;
+    --c-rule: #29323d;
+    --c-th-fg: #a9c9ef;
+    --c-note-bg: #17202b;
+    --c-ex-bg: #161c23;
+    --c-code-bg: #1b2430;
+
+    --sidebar-bg: #0b1520;
+    --sidebar-fg: #93a5b9;
+    --sidebar-non-existant: #55667a;
+    --sidebar-active: #ffffff;
+    --sidebar-spacer: #1a2735;
+    --scrollbar: #55667a;
+
+    --icons: #8796a7;
+    --icons-hover: #f2f5f8;
+    --links: #74a7e3;
+    --inline-code-color: #a9c9ef;
+
+    --theme-popup-bg: #1a2129;
+    --theme-popup-border: #2f3a47;
+    --theme-hover: #222b36;
+
+    --quote-bg: #17202b;
+    --quote-border: #29323d;
+    --warning-border: #f2b544;
+
+    --table-border-color: #29323d;
+    --table-header-bg: #1b2735;
+    --table-alternate-bg: #151b22;
+
+    --searchbar-border-color: #2f3a47;
+    --searchbar-bg: #1a2129;
+    --searchbar-fg: #d6dde6;
+    --searchbar-shadow-color: #000000;
+    --searchresults-header-fg: #93a0ae;
+    --searchresults-border-color: #2f3a47;
+    --searchresults-li-bg: #1b2735;
+    --search-mark-bg: #8a6416;
+
+    --color-scheme: dark;
+}
+
+/* --- Pamatteksts --- */
 body {
-    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-    color: var(--text-main);
-    line-height: 1.6;
+    font-family: var(--c-font-body);
+    color: var(--fg);
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+}
+.content p, .content ol, .content ul { line-height: 1.65; }
+.content main { font-feature-settings: 'kern'; }
+
+/* --- Virsraksti --- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--c-font-head);
+    color: var(--c-head);
+    text-wrap: balance;
+}
+.content main h1 {
+    font-variation-settings: 'wdth' 85;
+    font-weight: 750;
+    font-size: 2.3em;
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    margin-block: 0.6em 0.7em;
+}
+.content main h2 {
+    font-variation-settings: 'wdth' 88;
+    font-weight: 700;
+    font-size: 1.45em;
+    line-height: 1.2;
+    margin-block-start: 2.2em;
+    padding-block-end: 0.3em;
+    border-block-end: 1px solid var(--c-rule);
+}
+.content main h3 {
+    font-variation-settings: 'wdth' 92;
+    font-weight: 650;
+    font-size: 1.15em;
+    line-height: 1.25;
+    margin-block-start: 1.8em;
+}
+.content main h4, .content main h5 { font-weight: 650; }
+.content a.header, .content a.header:visited { color: inherit; }
+
+/* Apakšpunktu numerācija (6.1.1 …). Numuru piešķir book-layout.js, CSS to tikai noformē. */
+.content main h2 .c-no {
+    font-family: var(--c-font-mono);
+    font-variation-settings: normal;
+    font-size: 0.66em;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--c-primary);
+    margin-inline-end: 0.6em;
+    vertical-align: 0.12em;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    color: var(--heading-color);
-    font-weight: 600;
+/* --- Spiedogs nodaļas sākumā (kā rasējuma lapas stūrī) --- */
+.c-stamp {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    margin-block-start: 1.6em;
+    border: 1.5px solid var(--fg);
+    font-family: var(--c-font-mono);
+    font-size: 1.15rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
-
-h1 {
-    font-size: 1.7em;
-    border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 0.3em;
-    margin-bottom: 1em;
-}
-
-h2 {
-    font-size: 1.7em;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 0.2em;
-    margin-top: 1.5em;
+.c-stamp > span { padding: 0.5em 0.85em; border-inline-end: 1px solid var(--fg); }
+.c-stamp > span:last-child { border-inline-end: 0; }
+.c-stamp .c-stamp-no { font-weight: 600; color: var(--c-primary); }
+.c-stamp .c-stamp-book { color: var(--c-muted); }
+.c-stamp + h1 { margin-block-start: 0.55em; }
+@media (max-width: 620px) {
+    .c-stamp { grid-template-columns: auto minmax(0, 1fr); }
+    .c-stamp .c-stamp-book { display: none; }
+    .c-stamp > span:nth-child(2) { border-inline-end: 0; }
 }
 
 /* --- Vāka lapa (cover) --- */
 .cover-page { margin: 0 0 3em 0; padding: 0; }
-.cover-top-bar { height: 6px; background: var(--primary-color); margin-bottom: 2.5em; border-radius: 1px; }
+.cover-top-bar { height: 6px; background: var(--c-primary); margin-bottom: 2.5em; }
 .cover-title-block { margin-bottom: 1.5em; }
-.cover-title { font-size: 2em; font-weight: 700; line-height: 1.25; color: var(--heading-color); letter-spacing: -0.02em; }
-.cover-subtitle { font-size: 1em; font-weight: 400; color: var(--text-main); opacity: 0.7; font-style: italic; margin-top: 0.6em; }
-.cover-divider { height: 1px; background: var(--border-color); margin: 1.5em 0; }
+.cover-title { font-family: var(--c-font-head); font-variation-settings: 'wdth' 85; font-size: 2.6em; font-weight: 750; line-height: 1.1; color: var(--c-head); letter-spacing: -0.015em; }
+.cover-subtitle { font-size: 1em; font-weight: 400; color: var(--c-muted); font-style: italic; margin-top: 0.7em; }
+.cover-divider { height: 1px; background: var(--c-rule); margin: 1.5em 0; }
 .cover-meta { display: table; width: 100%; border-spacing: 0 0.5em; }
 .cover-meta-row { display: table-row; }
-.cover-meta-label { display: table-cell; font-size: 0.8em; text-transform: uppercase; font-weight: 600; color: var(--primary-color); padding-right: 1.5em; white-space: nowrap; vertical-align: middle; }
-.cover-meta-value { display: table-cell; font-size: 1em; font-weight: 500; color: var(--text-main); vertical-align: middle; }
+.cover-meta-label { display: table-cell; font-family: var(--c-font-mono); font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; color: var(--c-primary); padding-right: 1.5em; white-space: nowrap; vertical-align: middle; }
+.cover-meta-value { display: table-cell; font-size: 1em; font-weight: 500; color: var(--fg); vertical-align: middle; }
+.cover-sponsor-label { font-family: var(--c-font-mono); font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.08em; color: var(--c-muted); }
 
-/* --- Tabulas: pilns platums, bez horizontālās ritjoslas --- */
-.table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1.5em 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-radius: 4px; }
-table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 0.85em; margin: 0; font-family: 'IBM Plex Sans Condensed', 'IBM Plex Sans', sans-serif; }
-th { font-weight: 600; text-align: left; padding: 8px 10px; background-color: var(--table-header-bg); border-bottom: 2px solid var(--table-border-color); border-top: none; color: var(--heading-color); white-space: nowrap; }
-td { padding: 8px 10px; vertical-align: top; border-bottom: 1px solid var(--border-color); }
-tr:last-child td { border-bottom: none; }
-tr:nth-child(even) td { background-color: #f8fafc; }
-tr:hover td { background-color: #ebf4ff; } /* Iezīmē rindu uz hover */
-
-/* --- Attēli: nepārplūst saturu --- */
-img { max-width: 100%; height: auto; display: block; margin: 1.5em auto; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-figure { margin: 1.5em 0; text-align: center; }
-figcaption { font-size: 0.85em; color: #718096; margin-top: 0.5em; font-style: italic; }
-
-/* --- Svarīgi bloki / Citāti --- */
-blockquote {
-    border-left: 4px solid var(--accent-color);
-    background-color: #ebf8ff;
+/* --- Tabulas --- */
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     margin: 1.5em 0;
-    padding: 1em 1.5em;
-    border-radius: 0 4px 4px 0;
-    color: #2a4365;
+    border: 1px solid var(--table-border-color);
 }
-blockquote p { margin: 0; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin: 0;
+    font-family: var(--c-font-body);
+    font-size: 0.9em;
+    font-variant-numeric: tabular-nums lining-nums;
+}
+table thead { background: var(--table-header-bg); }
+table thead tr { border: 0; }
+table thead th {
+    font-weight: 650;
+    text-align: left;
+    padding: 9px 12px;
+    color: var(--c-th-fg);
+    border: 0;
+    border-block-end: 2px solid var(--c-primary);
+    vertical-align: bottom;
+    line-height: 1.3;
+}
+table td {
+    padding: 8px 12px;
+    vertical-align: top;
+    border: 0;
+    border-block-end: 1px solid var(--table-border-color);
+    line-height: 1.5;
+}
+table tbody tr:last-child td { border-block-end: 0; }
+table tbody tr:nth-child(2n) { background: var(--table-alternate-bg); }
+table tbody tr:hover { background: var(--quote-bg); }
 
-/* --- Kods: word-wrap lai nepārplūst --- */
-code { font-family: 'IBM Plex Mono', monospace; font-size: 0.9em; background-color: #edf2f7; padding: 0.2em 0.4em; border-radius: 3px; color: #c53030; }
-pre code { background-color: transparent; color: inherit; padding: 0; }
-pre { background-color: #1a202c; color: #e2e8f0; padding: 1em; border-radius: 6px; overflow-x: auto; font-size: 0.85em; }
+/* Skaitliskās šūnas (atzīmē book-layout.js): monospace, cipari viens zem otra. */
+table td.c-num { font-family: var(--c-font-mono); font-size: 0.95em; white-space: nowrap; }
 
-/* --- Sānjosla: atvērtās lapas virsraksti (sidebar-headings.js) --- */
+/* Kategorijas / marķējuma rāmītis pirmajā kolonnā (A, B, C3, E1 …). */
+table td .c-tag {
+    display: inline-block;
+    min-width: 2.4em;
+    text-align: center;
+    font-family: var(--c-font-mono);
+    font-weight: 600;
+    font-size: 0.9em;
+    color: var(--c-primary);
+    border: 1.5px solid var(--c-primary);
+    border-radius: 2px;
+    padding: 0 0.3em;
+    line-height: 1.5;
+}
+
+/* Izcelta vērtība tekstā vai tabulā: <mark>7,00</mark> */
+mark { background: var(--c-signal-bg); color: var(--c-signal); font-weight: 600; padding: 0 0.15em; }
+
+/* --- Attēli --- */
+img { max-width: 100%; height: auto; display: block; margin: 1.5em auto; }
+figure { margin: 1.5em 0; text-align: center; }
+figcaption {
+    font-family: var(--c-font-mono);
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-muted);
+    margin-top: 0.6em;
+}
+
+/* --- Piezīmju bloki: Piezīme / Svarīgi / Piemērs (veidu nosaka book-layout.js) --- */
+blockquote {
+    margin: 1.6em 0;
+    padding: 0.9em 1.2em;
+    background: var(--c-note-bg);
+    border: 0;
+    color: var(--fg);
+}
+blockquote > :first-child { margin-top: 0; }
+blockquote > :last-child { margin-bottom: 0; }
+blockquote strong:first-child { color: var(--c-primary); }
+blockquote .c-label {
+    display: inline-block;
+    font-family: var(--c-font-mono);
+    font-size: 0.72em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.5;
+    color: var(--c-primary);
+    border: 1.5px solid currentColor;
+    padding: 0 0.5em;
+    margin-inline-end: 0.7em;
+    vertical-align: 0.12em;
+}
+blockquote.c-warn { background: var(--c-signal-bg); }
+blockquote.c-warn strong:first-child,
+blockquote.c-warn .c-label { color: var(--c-signal); }
+blockquote.c-ex { background: var(--c-ex-bg); }
+
+/* --- Kods --- */
+code { font-family: var(--c-font-mono); font-size: 0.88em; }
+:not(pre) > code { background: var(--c-code-bg); color: var(--inline-code-color); padding: 0.12em 0.35em; border-radius: 2px; }
+pre { font-size: 0.85em; border-radius: 0; }
+
+/* --- Sānjosla --- */
+.sidebar { font-family: var(--c-font-body); font-size: 1.45rem; }
+.chapter li.chapter-item { line-height: 1.35em; margin-block-start: 0.55em; }
+.chapter li a strong { font-family: var(--c-font-mono); font-weight: 500; font-size: 0.86em; opacity: 0.75; margin-inline-end: 0.35em; }
+.chapter li a.active { font-weight: 600; }
+.chapter li a.active strong { color: var(--c-signal); opacity: 1; }
+.chapter li.part-title { font-family: var(--c-font-mono); text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* Atvērtās lapas virsraksti (sidebar-headings.js) */
 .chapter li.page-headings { margin-block-start: 0; }
 .chapter ol.page-headings-list {
     margin-inline-start: 12px;
     padding-inline-start: 10px;
-    border-inline-start: 1px solid rgba(128, 128, 128, 0.4);
+    border-inline-start: 1px solid rgba(160, 180, 205, 0.3);
 }
-.chapter li.page-heading { line-height: 1.35em; margin-block-start: 0.35em; }
-.chapter li.page-heading a { font-size: 0.93em; opacity: 0.85; }
+.chapter li.page-heading { line-height: 1.35em; margin-block-start: 0.4em; }
+.chapter li.page-heading a { font-size: 0.93em; opacity: 0.8; }
+.chapter li.page-heading a .c-no { font-family: var(--c-font-mono); font-size: 0.9em; opacity: 0.75; margin-inline-end: 0.45em; }
 .chapter li.page-heading a:hover,
 .chapter li.page-heading a.current { color: var(--sidebar-active); opacity: 1; }
-.chapter li.page-heading a.current { font-weight: 600; }
+.chapter li.page-heading a.current { font-weight: 600; box-shadow: inset 2px 0 0 var(--c-signal); margin-inline-start: -12px; padding-inline-start: 10px; }
 
+/* --- Augšējā josla --- */
+.menu-title { font-family: var(--c-font-head); font-variation-settings: 'wdth' 85; font-weight: 600; font-size: 2rem; }
+
+/* --- Druka --- */
+@media print {
+    .c-stamp, .c-stamp > span { border-color: #000; }
+    table, blockquote, figure, img { break-inside: avoid; }
+    table thead th { border-block-end-color: #000; }
+    blockquote { border: 1px solid #999; }
+}
