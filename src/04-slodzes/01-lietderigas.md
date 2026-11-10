@@ -2,7 +2,9 @@
 
 Lietderīgās slodzes ir mainīgas iedarbības, ko rada cilvēku uzturēšanās un pārvietošanās, mēbeles, iekārtas, transportlīdzekļi un citi pārvietojami objekti.
 
-**Lietderīgās slodzes un to raksturīgās vērtības saskaņā ar LVS EN 1991-1-1/NA:**
+## Lietderīgās slodzes saskaņā ar LVS EN 1991-1-1/NA
+
+Latvijā projektējot jāizmanto Latvijas nacionālajā pielikumā (LVS EN 1991-1-1/NA) noteiktās lietderīgo slodžu raksturīgās vērtības:
 
 | Kat. | Raksturīgā izmantošana | \\(q_k\\) (kN/m²) | \\(Q_k\\) (kN) | Piemēri un skaidrojumi |
 | :---: | :--- | :---: | :---: | :--- |
@@ -21,7 +23,7 @@ Lietderīgās slodzes ir mainīgas iedarbības, ko rada cilvēku uzturēšanās 
 
 ## Lietderīgās slodzes saskaņā ar EN 1991-1-1 (ieteicamās vērtības)
 
-Pamatstandartā EN 1991-1-1 (6.2., 6.4., 6.8. un 6.10. tabula) daudzām kategorijām ir doti vērtību **diapazoni**, no kuriem konkrēto vērtību nosaka katras valsts nacionālais pielikums. Standartā **ieteicamās vērtības** ir pasvītrotas. Latvijā jāizmanto LVS EN 1991-1-1/NA vērtības (tabula augstāk); EN ieteicamās vērtības izmanto, ja projektē valstij, kurai nav sava nacionālā pielikuma, vai ja nacionālais pielikums šo parametru nenosaka.
+Pamatstandartā EN 1991-1-1 (6.2., 6.4., 6.8. un 6.10. tabula) daudzām kategorijām ir doti vērtību **diapazoni**, no kuriem konkrēto vērtību nosaka katras valsts nacionālais pielikums. Standartā **ieteicamās vērtības** ir pasvītrotas. Latvijā jāizmanto LVS EN 1991-1-1/NA vērtības (skat. iepriekšējo apakšpunktu); EN ieteicamās vērtības izmanto, ja projektē valstij, kurai nav sava nacionālā pielikuma, vai ja nacionālais pielikums šo parametru nenosaka.
 
 | Kat. | Izmantošana | \\(q_k\\) diapazons (kN/m²) | \\(q_k\\) ieteicamā (kN/m²) | \\(Q_k\\) diapazons (kN) | \\(Q_k\\) ieteicamā (kN) | LV NA \\(q_k\\) / \\(Q_k\\) |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -50,7 +52,7 @@ Pamatstandartā EN 1991-1-1 (6.2., 6.4., 6.8. un 6.10. tabula) daudzām kategori
 
 ## Pārvietojamo starpsienu slodze
 
-Saskaņā ar LVS EN 1991-1-1, 6.3.1.2.(8) punktu, ja grīda pieļauj slodžu pārdalījumu šķērsvirzienā, **pārvietojamo starpsienu (šķērssienu) pašsvaru** var ņemt vērā kā vienmērīgi sadalītu slodzi \\(q_k\\), kuru **pieskaita** grīdu lietderīgās slodzes vērtībām no tabulas augstāk. Ekvivalentā slodze ir atkarīga no starpsienas pašsvara uz sienas garuma metru:
+Saskaņā ar LVS EN 1991-1-1, 6.3.1.2.(8) punktu, ja grīda pieļauj slodžu pārdalījumu šķērsvirzienā, **pārvietojamo starpsienu (šķērssienu) pašsvaru** var ņemt vērā kā vienmērīgi sadalītu slodzi \\(q_k\\), kuru **pieskaita** grīdu lietderīgās slodzes vērtībām (Latvijā — no LVS EN 1991-1-1/NA tabulas). Ekvivalentā slodze ir atkarīga no starpsienas pašsvara uz sienas garuma metru:
 
 | Starpsienas pašsvars (kN/m sienas garuma) | Papildu slodze \\(q_k\\) (kN/m²) |
 | :---: | :---: |
@@ -72,7 +74,7 @@ Saskaņā ar LVS EN 1991-1-1, 6.3.1.2.(8) punktu, ja grīda pieļauj slodžu pā
 
 ---
 
-### Noslogotās platības samazinājuma koeficients \\(\alpha_A\\)
+## Noslogotās platības samazinājuma koeficients \\(\alpha_A\\)
 
 Kategorijām no A līdz D slodzi uz nesošajām konstrukcijām (piemēram, sijām un kolonnām) ir atļauts samazināt, reizinot raksturīgo slodzi ar samazinājuma koeficientu \\(\alpha_A\\), kas ievērtē varbūtību, ka visa lielā platība netiks noslogota maksimāli:
 
