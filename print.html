@@ -1347,15 +1347,77 @@ Latvijas nacionālajā pielikumā nav noteikts obligāts nosacījums izmantot bi
 <hr />
 <h2 id="stiegrojuma-enkurojuma-un-pārlaidumu-garumi"><a class="header" href="#stiegrojuma-enkurojuma-un-pārlaidumu-garumi">Stiegrojuma enkurojuma un pārlaidumu garumi</a></h2>
 <p>Stiegrošanā jānodrošina pietiekams stieņu enkurojuma garums \(l_{bd}\) un pārlaiduma garums \(l_0\), lai spēki starp stieņiem un betonu tiktu nodoti bez sānslīdes.</p>
-<p><strong>Enkurojuma un pārlaidumu garumi \(\phi 8\) līdz \(\phi 32\) stieņiem C25/30 klases betonam:</strong></p>
-<p><img src="08-dzelzsbetons/../images/ch08/img037.png" alt="Enkurojuma garumi" /></p>
-<p><em>Citu stiprības klašu betoniem dotos izmērus reizina ar šādiem pārrēķina koeficientiem:</em></p>
-<ul>
-<li><strong>C20/25:</strong> reizinātājs \(1.10\)</li>
-<li><strong>C30/37:</strong> reizinātājs \(0.89\)</li>
-<li><strong>C35/45:</strong> reizinātājs \(0.80\)</li>
-<li><strong>C40/50:</strong> reizinātājs \(0.74\)</li>
-</ul>
+<p><strong>Enkurojuma un pārlaidumu garumi (mm) \(\phi 8\) līdz \(\phi 40\) stieņiem C25/30 klases betonam:</strong></p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2" colspan="2">Garums</th>
+        <th rowspan="2">Saķeres apstākļi</th>
+        <th colspan="8">Stiepts stiegrojums, stieņa diametrs \(\phi\) (mm)</th>
+        <th rowspan="2">Spiests stiegrojums</th>
+      </tr>
+      <tr>
+        <th>8</th><th>10</th><th>12</th><th>16</th><th>20</th><th>25</th><th>32</th><th>40</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4"><strong>Enkurojuma garums \(l_{bd}\)</strong></td>
+        <td rowspan="2">Tikai taisni stieņi</td>
+        <td>Labi</td>
+        <td>230</td><td>320</td><td>410</td><td>600</td><td>780</td><td>1010</td><td>1300</td><td>1760</td><td>40\(\phi\)</td>
+      </tr>
+      <tr>
+        <td>Slikti</td>
+        <td>330</td><td>450</td><td>580</td><td>850</td><td>1120</td><td>1450</td><td>1850</td><td>2510</td><td>58\(\phi\)</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Citi stieņi (ar liekumiem, āķiem, cilpām)</td>
+        <td>Labi</td>
+        <td>320</td><td>410</td><td>490</td><td>650</td><td>810</td><td>1010</td><td>1300</td><td>1760</td><td>40\(\phi\)</td>
+      </tr>
+      <tr>
+        <td>Slikti</td>
+        <td>460</td><td>580</td><td>700</td><td>930</td><td>1160</td><td>1450</td><td>1850</td><td>2510</td><td>58\(\phi\)</td>
+      </tr>
+      <tr>
+        <td rowspan="4"><strong>Pārlaiduma garums \(l_0\)</strong></td>
+        <td rowspan="2">50 % stieņu savienoti vienā šķērsgriezumā (\(\alpha_6 = 1.4\))</td>
+        <td>Labi</td>
+        <td>320</td><td>440</td><td>570</td><td>830</td><td>1090</td><td>1420</td><td>1810</td><td>2460</td><td>57\(\phi\)</td>
+      </tr>
+      <tr>
+        <td>Slikti</td>
+        <td>460</td><td>630</td><td>820</td><td>1190</td><td>1560</td><td>2020</td><td>2590</td><td>3520</td><td>81\(\phi\)</td>
+      </tr>
+      <tr>
+        <td rowspan="2">100 % stieņu savienoti vienā šķērsgriezumā (\(\alpha_6 = 1.5\))</td>
+        <td>Labi</td>
+        <td>340</td><td>470</td><td>610</td><td>890</td><td>1170</td><td>1520</td><td>1940</td><td>2640</td><td>61\(\phi\)</td>
+      </tr>
+      <tr>
+        <td>Slikti</td>
+        <td>490</td><td>680</td><td>870</td><td>1270</td><td>1670</td><td>2170</td><td>2770</td><td>3770</td><td>87\(\phi\)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p><em>Avots: The Concrete Centre, „How to design concrete structures using Eurocode 2: Detailing”; tulkots un pārveidots.</em></p>
+<p><strong>Piezīmes par tabulu:</strong></p>
+<ol>
+<li>Nominālais aizsargslānis no visām pusēm \(\ge 25\) mm (t.i., \(\alpha_2 \le 1\)). Pārlaidumos tīrais attālums starp stieņiem \(\le 50\) mm.</li>
+<li>\(\alpha_1 = \alpha_3 = \alpha_4 = \alpha_5 = 1.0\). Stieņa formas, aizsargslāņa un sasaistes labvēlīgo ietekmi skat. LVS EN 1992-1-1 8.2. tabulā.</li>
+<li>Pieņemts aprēķina spriegums stienī 435 MPa. Ja stieņa aprēķina spriegums \(\sigma_{sd}\) vietā, no kuras mēra enkurojumu, ir mazāks par 435 MPa, tabulas vērtības var reizināt ar \(\sigma_{sd}/435\). Minimālais pārlaiduma garums dots LVS EN 1992-1-1 8.7.3. punktā.</li>
+<li>Enkurojuma un pārlaidumu garumi noapaļoti uz augšu līdz tuvākajiem 10 mm.</li>
+<li>Ja vienā šķērsgriezumā savienoti 33 % stieņu, rindas „50 % stieņu savienoti” pārlaidumu garumus reizina ar 0.82.</li>
+<li>Saķeres apstākļi (labi / slikti) — saskaņā ar LVS EN 1992-1-1 8.2. attēlu.</li>
+</ol>
+<p><strong>Citu stiprības klašu betoniem</strong> tabulas vērtības reizina ar pārrēķina koeficientu:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Betona klase</th><th style="text-align: center">C20/25</th><th style="text-align: center">C28/35</th><th style="text-align: center">C30/37</th><th style="text-align: center">C32/40</th><th style="text-align: center">C35/45</th><th style="text-align: center">C40/50</th><th style="text-align: center">C45/55</th><th style="text-align: center">C50/60</th></tr></thead><tbody>
+<tr><td style="text-align: left">Koeficients</td><td style="text-align: center">1.16</td><td style="text-align: center">0.93</td><td style="text-align: center">0.89</td><td style="text-align: center">0.85</td><td style="text-align: center">0.80</td><td style="text-align: center">0.73</td><td style="text-align: center">0.68</td><td style="text-align: center">0.63</td></tr>
+</tbody></table>
+</div>
 <hr />
 <h2 id="attālumi-starp-stieņiem"><a class="header" href="#attālumi-starp-stieņiem">Attālumi starp stieņiem</a></h2>
 <h3 id="1-minimālais-attālums-starp-stiegrām-lvs-en-1992-1-1-82-punkts"><a class="header" href="#1-minimālais-attālums-starp-stiegrām-lvs-en-1992-1-1-82-punkts">1. Minimālais attālums starp stiegrām (LVS EN 1992-1-1 8.2. punkts)</a></h3>
@@ -2125,8 +2187,8 @@ Novirze ir stingri noteikta: \(\Delta c_{dev} = 10 mm\).</li>
     <thead>
       <tr>
         <th rowspan="2">Elements</th>
-        <th rowspan="2">Attiecība \\(L/d\\)</th>
-        <th colspan="10">Provizoriskais augstums \\(d\\) (mm) atkarībā no laiduma (\\(L\\), m)</th>
+        <th rowspan="2">Attiecība \(L/d\)</th>
+        <th colspan="10">Provizoriskais augstums \(d\) (mm) atkarībā no laiduma (\(L\), m)</th>
       </tr>
       <tr>
         <th>3 m</th>
