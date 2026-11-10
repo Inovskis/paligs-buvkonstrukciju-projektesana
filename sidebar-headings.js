@@ -31,7 +31,8 @@
         var source = heading.querySelector('a.header') || heading;
         var copy = source.cloneNode(true);
         Array.prototype.forEach.call(
-            copy.querySelectorAll('.MathJax, .MathJax_Preview, .MathJax_Display, .MJX_Assistive_MathML'),
+            // .c-no ir apakšpunkta numurs no book-layout.js; sānjoslā to pievieno atsevišķi.
+            copy.querySelectorAll('.c-no, .MathJax, .MathJax_Preview, .MathJax_Display, .MJX_Assistive_MathML'),
             function (node) { node.parentNode.removeChild(node); }
         );
         Array.prototype.forEach.call(copy.querySelectorAll('script[type^="math/tex"]'), function (node) {
@@ -55,7 +56,14 @@
         item.className = 'page-heading';
         var link = document.createElement('a');
         link.href = '#' + heading.id;
-        link.textContent = labelFor(heading);
+        var number = heading.getAttribute('data-c-no');
+        if (number) {
+            var no = document.createElement('span');
+            no.className = 'c-no';
+            no.textContent = number;
+            link.appendChild(no);
+        }
+        link.appendChild(document.createTextNode(labelFor(heading)));
         item.appendChild(link);
         list.appendChild(item);
         items.push({ heading: heading, link: link, item: item });
