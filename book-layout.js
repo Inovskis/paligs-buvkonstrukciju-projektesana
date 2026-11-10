@@ -9,7 +9,9 @@
     'use strict';
 
     var main = document.querySelector('#content main');
-    if (!main) { return; }
+    // Aizsardzība pret dubultu palaišanu (piemēram, ja skripts lapai pievienots divreiz).
+    if (!main || main.hasAttribute('data-c-layout')) { return; }
+    main.setAttribute('data-c-layout', '');
 
     function text(node) { return (node && node.textContent || '').replace(/\s+/g, ' ').trim(); }
 
