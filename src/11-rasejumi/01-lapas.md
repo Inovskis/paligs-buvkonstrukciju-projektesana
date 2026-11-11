@@ -18,22 +18,26 @@ Parasti rasējuma laukumu sadala šādās zonās:
 
 ---
 
-## Standarta rasējumu lapu izmēri (ISO 216)
+## Standarta rasējumu lapu izmēri (ISO 216, LVS EN ISO 5457)
 
-Rasējumu izstrādē izmanto šādus standarta A-sērijas lapu formātus:
+Rasējumu izstrādē izmanto A sērijas lapu formātus. Izmēri doti milimetros kā īsākā × garākā mala (\\(a \times b\\)):
 
-| Formāts | Izmēri (platums × augstums, mm) | Piezīmes |
-| :---: | :---: | :--- |
-| **A0** | \\(1189 \times 841\\) | Lielformāta plāniem un kopsalikumiem. |
-| **A1** | \\(841 \times 594\\) | Standarta izmērs būvkonstrukciju plāniem. |
-| **A2** | \\(594 \times 420\\) | Izdevīgs mezglu lapām un mazākiem plāniem. |
-| **A3** | \\(420 \times 297\\) | Ļoti ērts montāžas un mezglu shēmām (viegli pārnēsājams būvlaukumā). |
-| **A4** | \\(297 \times 210\\) | Tikai specifikācijām, titullapām vai vienkāršām detaļām. |
+| Formāts | Apdarinātais formāts \\(a_1 \times b_1\\) | Rasējamais laukums \\(a_2 \times b_2\\) | Neapdarinātais formāts \\(a_3 \times b_3\\) | Piezīmes |
+| :---: | :---: | :---: | :---: | :--- |
+| **A0** | 841 × 1189 | 821 × 1159 | 880 × 1230 | Lielformāta plāniem un kopsalikumiem. |
+| **A1** | 594 × 841 | 574 × 811 | 625 × 880 | Standarta izmērs būvkonstrukciju plāniem. |
+| **A2** | 420 × 594 | 400 × 564 | 450 × 625 | Izdevīgs mezglu lapām un mazākiem plāniem. |
+| **A3** | 297 × 420 | 277 × 390 | 330 × 450 | Ļoti ērts montāžas un mezglu shēmām (viegli pārnēsājams būvlaukumā). |
+| **A4** | 210 × 297 | 180 × 277 | 240 × 330 | Tikai specifikācijām, titullapām vai vienkāršām detaļām. |
 
-### Lapu salocīšanas shēmas uzglabāšanai (LVS EN ISO 5457):
+Formātam A4 ir paredzēts **tikai vertikāls** lapas novietojums, pārējiem formātiem — **tikai horizontāls**. Salokot lapas uzglabāšanai, rakstlaukumam ar projekta nosaukumu un numuru vienmēr jāatrodas priekšpusē.
 
-Lapas ir jāsaloka tā, lai rakstlaukums ar projekta nosaukumu un numuru vienmēr atrastos priekšpusē (augšpusē):
+### Papildformāti
 
-| Lapu locīšana mapēm ar caurumiem | Lapu locīšana brīvai uzglabāšanai |
-| :---: | :---: |
-| ![Locīšana 1](../images/ch11/img105.png) | ![Locīšana 2](../images/ch11/img106.png) |
+Pamatformātus var pagarināt atbilstoši shēmai un iegūt sešus papildformātus:
+
+![A sērijas pamatformāti un papildformāti](../images/ch11/papildformati.svg)
+
+| Papildformāts | A1.0 | A2.1 | A2.0 | A3.2 | A3.1 | A3.0 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Izmēri \\(a \times b\\) (mm) | 594 × 1189 | 420 × 841 | 420 × 1189 | 297 × 594 | 297 × 841 | 297 × 1189 |

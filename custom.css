@@ -273,6 +273,29 @@ table td .c-tag {
     line-height: 1.5;
 }
 
+/* Metināto šuvju simboli tabulās (inline SVG, krāsa no teksta krāsas) */
+table.weld-symbols td { vertical-align: middle; }
+table.weld-symbols td:nth-child(2) { white-space: nowrap; }
+.weld-sym { display: block; color: var(--fg); overflow: visible; font-family: var(--c-font-body); }
+.weld-sym-item { display: inline-flex; flex-direction: column; align-items: center; margin-inline-end: 0.3em; vertical-align: middle; }
+.weld-sym-item small { font-size: 0.8em; color: var(--c-muted); line-height: 1; }
+.weld-fig { display: block; color: var(--fg); margin: 0 auto; max-width: 100%; height: auto; }
+.weld-fig .sk-plate { fill: var(--c-note-bg); stroke: currentColor; stroke-width: 1.1; }
+.weld-fig .sk-dashed { stroke-dasharray: 4 3; fill: none; }
+.weld-fig .sk-weld, .weld-fig .sk-fill { fill: currentColor; stroke: none; }
+.weld-fig .sk-hole { fill: var(--bg); stroke: currentColor; stroke-width: 1.1; }
+.weld-fig .sk-line { stroke: currentColor; stroke-width: 1.4; fill: none; }
+.weld-fig .sk-thin { stroke: currentColor; stroke-width: 0.8; fill: none; }
+.weld-fig .sk-ext { stroke: currentColor; stroke-width: 0.6; opacity: 0.55; }
+.weld-fig .sk-axis { stroke: currentColor; stroke-width: 0.6; stroke-dasharray: 10 3 2 3; opacity: 0.55; fill: none; }
+.weld-fig .sk-text { font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif; font-style: italic; font-size: 12px; fill: currentColor; }
+.weld-fig .sk-sub { font-size: 9px; }
+.weld-fig .sk-label { font-family: var(--c-font-body); font-size: 10px; fill: currentColor; }
+figure.sk-cell { margin: 0 0 0.5em; text-align: left; }
+figure.sk-cell figcaption { font-family: var(--c-font-body); text-transform: none; letter-spacing: 0; font-size: 0.85em; color: var(--fg); margin: 0 0 0.1em; }
+table.weld-types td, table.weld-throat td, table.bolt-spacing td { vertical-align: middle; }
+table.weld-throat td small { display: block; color: var(--c-muted); }
+
 /* Izcelta vērtība tekstā vai tabulā: <mark>7,00</mark> */
 mark { background: var(--c-signal-bg); color: var(--c-signal); font-weight: 600; padding: 0 0.15em; }
 
