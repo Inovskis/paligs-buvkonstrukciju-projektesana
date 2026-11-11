@@ -54,39 +54,39 @@ Pirms savienojuma projektēšanas ir jāizvēlas atbilstoša aprēķina kategori
 Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teorētiskais augstums) vai katetes izmēra \\(s\\) (\\(s \approx a \cdot \sqrt{2}\\)):
 
 <div align="center" style="margin: 2em 0;">
-  <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <svg width="320" height="270" viewBox="0 0 320 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stūra šuve: rīkles biezums a un katete s">
     <style>
-      .plate { fill: #cbd5e0; stroke: #4a5568; stroke-width: 3; }
-      .weld { fill: #718096; stroke: #2d3748; stroke-width: 2; }
-      .line { stroke: #e53e3e; stroke-width: 2; stroke-dasharray: 4.4; }
-      .dim-line { stroke: #2d3748; stroke-width: 1.5; }
-      .text { font-family: 'IBM Plex Sans', sans-serif; font-size: 16px; font-weight: bold; fill: #2d3748; }
+      .fw-plate { fill: #cbd5e0; stroke: #4a5568; stroke-width: 2; }
+      .fw-weld { fill: #718096; stroke: #2d3748; stroke-width: 1.5; }
+      .fw-throat { stroke: #e53e3e; stroke-width: 2; stroke-dasharray: 4 3; }
+      .fw-dim { stroke: #2d3748; stroke-width: 1; fill: none; }
+      .fw-ext { stroke: #2d3748; stroke-width: 0.75; fill: none; }
+      .fw-text { font-family: 'IBM Plex Sans', sans-serif; font-size: 16px; font-weight: bold; fill: #2d3748; }
+      .fw-text-a { font-family: 'IBM Plex Sans', sans-serif; font-size: 16px; font-weight: bold; fill: #e53e3e; }
     </style>
     <!-- Horizontālā plāksne -->
-    <rect x="20" y="180" width="260" height="40" class="plate" />
+    <rect x="20" y="180" width="260" height="40" class="fw-plate" />
     <!-- Vertikālā plāksne -->
-    <rect x="130" y="20" width="40" height="160" class="plate" />
-    
-    <!-- Stūra šuve -->
-    <polygon points="170.180 170.100 250.180" class="weld" />
-    
-    <!-- Rīkles biezums 'a' -->
-    <line x1="170" y1="180" x2="210" y2="140" class="line" />
-    
-    <!-- Katete 's' vertikāli -->
-    <line x1="260" y1="180" x2="260" y2="100" class="dim-line" />
-    <line x1="250" y1="180" x2="270" y2="180" class="dim-line" />
-    <line x1="170" y1="100" x2="270" y2="100" class="dim-line" />
-    <text x="270" y="145" class="text">s</text>
-
-    <!-- Katete 's' horizontāli -->
-    <line x1="170" y1="85" x2="250" y2="85" class="dim-line" />
-    <line x1="170" y1="100" x2="170" y2="75" class="dim-line" />
-    <line x1="250" y1="180" x2="250" y2="75" class="dim-line" />
-    <text x="205" y="75" class="text">s</text>
-
-    <!-- Rīkles teksts -->
-    <text x="180" y="150" class="text" fill="#e53e3e">a</text>
+    <rect x="130" y="20" width="40" height="160" class="fw-plate" />
+    <!-- Stūra šuve (katete s = 80) -->
+    <polygon points="170,180 170,100 250,180" class="fw-weld" />
+    <!-- Rīkles biezums a: no saknes perpendikulāri šuves virsmai -->
+    <line x1="170" y1="180" x2="210" y2="140" class="fw-throat" />
+    <text x="214" y="134" class="fw-text-a">a</text>
+    <!-- Katete s vertikāli -->
+    <line x1="174" y1="100" x2="282" y2="100" class="fw-ext" />
+    <line x1="254" y1="180" x2="282" y2="180" class="fw-ext" />
+    <line x1="275" y1="100" x2="275" y2="180" class="fw-dim" />
+    <line x1="270" y1="105" x2="280" y2="95" class="fw-dim" />
+    <line x1="270" y1="185" x2="280" y2="175" class="fw-dim" />
+    <text x="284" y="146" class="fw-text">s</text>
+    <!-- Katete s horizontāli (zem plāksnes) -->
+    <line x1="170" y1="224" x2="170" y2="252" class="fw-ext" />
+    <line x1="250" y1="224" x2="250" y2="252" class="fw-ext" />
+    <line x1="170" y1="245" x2="250" y2="245" class="fw-dim" />
+    <line x1="165" y1="250" x2="175" y2="240" class="fw-dim" />
+    <line x1="245" y1="250" x2="255" y2="240" class="fw-dim" />
+    <text x="205" y="264" class="fw-text">s</text>
   </svg>
 </div>
 
@@ -97,31 +97,27 @@ Stūra šuvju izmērus nosaka pēc to rīkles biezuma \\(a\\) (metinājuma teor�
 ![Šuvju apzīmējumi](../images/ch09/img090.png)
 
 <div align="center" style="margin: 2em 0;">
-  <svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <svg width="540" height="150" viewBox="0 0 540 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Metinājuma apzīmējuma uzbūve">
     <style>
-      .line { stroke: #2d3748; stroke-width: 2; fill: none; }
-      .arrow { fill: #2d3748; }
-      .text { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; fill: #4a5568; text-anchor: middle; }
-      .text-bold { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; font-weight: bold; fill: #2d3748; }
+      .ws-line { stroke: #2d3748; stroke-width: 2; fill: none; }
+      .ws-arrow { fill: #2d3748; }
+      .ws-text { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; fill: #4a5568; text-anchor: middle; }
+      .ws-text-bold { font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; font-weight: bold; fill: #2d3748; }
     </style>
-    
     <!-- Atsauces līnija -->
-    <line x1="150" y1="80" x2="400" y2="80" class="line" />
-    
+    <line x1="150" y1="80" x2="400" y2="80" class="ws-line" />
     <!-- Bultiņas līnija -->
-    <line x1="150" y1="80" x2="80" y2="130" class="line" />
-    <polygon points="80.130 85.118 94.124" class="arrow" />
-    
+    <line x1="150" y1="80" x2="80" y2="130" class="ws-line" />
+    <polygon points="80,130 85,118 94,124" class="ws-arrow" />
     <!-- Astīte -->
-    <polyline points="400.80 420.60 400.80 420.100" class="line" />
-    
+    <polyline points="420,60 400,80 420,100" class="ws-line" />
     <!-- Teksti -->
-    <text x="60" y="145" class="text-bold">Bulta</text>
-    <text x="275" y="65" class="text">Otrā pusē (virs līnijas)</text>
-    <text x="275" y="105" class="text">Bultas pusē (zem līnijas)</text>
-    <text x="460" y="85" class="text">Astīte (Piezīmes)</text>
-    <text x="180" y="70" class="text-bold">a / s</text>
-    <text x="360" y="70" class="text-bold">l (garums)</text>
+    <text x="60" y="145" class="ws-text-bold">Bulta</text>
+    <text x="275" y="30" class="ws-text">Otrā pusē (virs līnijas)</text>
+    <text x="275" y="105" class="ws-text">Bultas pusē (zem līnijas)</text>
+    <text x="485" y="85" class="ws-text">Astīte (piezīmes)</text>
+    <text x="170" y="70" class="ws-text-bold">a / s</text>
+    <text x="315" y="70" class="ws-text-bold">l (garums)</text>
   </svg>
 </div>
 
