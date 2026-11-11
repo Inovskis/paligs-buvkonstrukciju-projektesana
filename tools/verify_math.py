@@ -2,10 +2,10 @@ import os
 import re
 import sys
 
-# HTML tabulās (<table>...</table>) Markdown atkāpšanās netiek apstrādāta, tāpēc tur MathJax
+# HTML blokos (<table>, <details>, <svg>) Markdown atkāpšanās netiek apstrādāta, tāpēc tur MathJax
 # norobežotājiem jābūt ar vienu slīpsvītru: \( ... \). Šajos blokos vienas slīpsvītras
 # norobežotāji ir pareizi; tos aizstāj ar tukšumu (saglabājot rindu skaitu) pirms pārbaudes.
-HTML_TABLE = re.compile(r'<table[\s\S]*?</table>')
+HTML_TABLE = re.compile(r'<(table|details|svg)\b[\s\S]*?</\1>')
 SINGLE_BACKSLASH = re.compile(r'(?<!\\)\\[\[\]()]')
 
 def mask_html_tables(text):
