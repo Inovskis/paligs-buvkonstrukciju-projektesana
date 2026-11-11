@@ -299,6 +299,24 @@ table.weld-throat td small { display: block; color: var(--c-muted); }
 /* Izcelta vērtība tekstā vai tabulā: <mark>7,00</mark> */
 mark { background: var(--c-signal-bg); color: var(--c-signal); font-weight: 600; padding: 0 0.15em; }
 
+/* --- Piemērotības matricas (tehnoloģijas × grunts / būves veids) --- */
+table.m-matrix { width: auto; margin: 0; border-collapse: separate; border-spacing: 3px; }
+table.m-matrix caption { caption-side: top; text-align: left; font-family: var(--c-font-mono); font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.05em; color: var(--c-muted); padding: 0.4em 0.3em; }
+table.m-matrix th, table.m-matrix td { border: 0; padding: 4px 6px; }
+table.m-matrix tbody tr:nth-child(2n), table.m-matrix tbody tr:hover { background: transparent; }
+table.m-matrix th.m-rot { vertical-align: bottom; padding: 6px 4px; }
+table.m-matrix th.m-rot span { writing-mode: vertical-rl; transform: rotate(180deg); display: inline-block; max-height: 15em; text-align: left; font-weight: 650; line-height: 1.2; }
+table.m-matrix th.m-rot small { font-weight: 400; display: inline; }
+table.m-matrix td.m-depth { text-align: center; }
+.m-cell { text-align: center; min-width: 3em; font-size: 1.05em; line-height: 1.4; font-style: normal; }
+.m-cell.m0 { background: #d0212f; color: #ffffff; }
+.m-cell.m1 { background: #a9b8c8; color: #10243d; }
+.m-cell.m2 { background: #4e718d; color: #ffffff; }
+.m-cell.m3 { background: #12447d; color: #ffffff; }
+.m-legend { display: flex; flex-wrap: wrap; gap: 0.6em 1.4em; font-size: 0.9em; }
+.m-legend span { display: inline-flex; align-items: center; gap: 0.45em; }
+.m-legend i.m-cell { display: inline-block; min-width: 2.2em; padding: 0 0.3em; }
+
 /* --- Attēli --- */
 img { max-width: 100%; height: auto; display: block; margin: 1.5em auto; }
 figure { margin: 1.5em 0; text-align: center; }

@@ -45,7 +45,8 @@ Aprēķina pieejā DA2 daļējos drošības koeficientus piemēro slodzēm (A ko
 Ģeotehniskās izpētes urbumu vai statiskās zondēšanas (CPT) dziļumam ir jābūt pietiekamam, lai droši novērtētu grunts slāņu sastāvu un stiprību zem pāļu gala.
 
 Saskaņā ar LVS EN 1997-2 B pielikumu, pāļu pamatiem izpētes dziļumam \\(z_a\\) zem plānotā pāļu gala līmeņa jāatbilst lielākajam no šādiem nosacījumiem:
+- \\(z_a \ge 1.0 \cdot b_g\\), kur \\(b_g\\) ir mazākā izmēra mala taisnstūrim, kas aptver pāļu grupu pāļu gala līmenī;
 - \\(z_a \ge 5.0\text{ m}\\) zem pāļa gala;
-- \\(z_a \ge 3 \cdot D_F\\) (kur \\(D_F\\) ir pāļu grupas pamata ekvivalentais platums vai diametrs pāļu gala līmenī).
+- \\(z_a \ge 3 \cdot D_b\\), kur \\(D_b\\) ir pāļa pamatnes (gala) diametrs.
 
 ![Urbšanas dziļuma shēma](../images/ch07/img016.png)
